@@ -1,0 +1,487 @@
+{
+  "sections": {
+    "16566320477e0d5023": {
+      "type": "rich-text",
+      "blocks": {
+        "16566320470fdf659d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Get Inspired",
+            "use_h1": false
+          }
+        },
+        "90ee432d-8898-48b0-8ea7-ae34deccb430": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here are a few of our favourite pictures of the Magnetic Menu Board, a novel way to display your menu. <\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16566320470fdf659d-0",
+        "90ee432d-8898-48b0-8ea7-ae34deccb430"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16563870001c42937e": {
+      "type": "gallery",
+      "blocks": {
+        "16563870001a3123ea-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/anotherbrotherldn.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "9175e69b-b156-491e-9e47-0658269424d5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/YOLK-Baker-Display-Lettering.WEB-20.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "16563870001a3123ea-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SubkoCoffee_1e52bfb7-8340-46ce-bc40-ff20fd257bfb.jpg",
+            "alignment": "center left",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "view product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "640cc916-ab73-4648-9497-6e5d261434c7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Magnetic-Letter-Menu-George-and-Willy-2_6ba2283b-cc36-4112-b75c-191b757da4f4.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "fe858c59-c66f-450c-b637-4d162c501e2c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/awakennorthcoast_1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "a8cb487c-7ee1-4d8a-8fa3-db14cf73466a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bleached_coffee_and_company.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "e965067a-bd1b-49ba-a537-e8b398e3532b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/byMalicCoffee-1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "c1a33533-117f-4386-98af-b2987a23a3e1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/electriccoffeehouse.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "f8cd31d2-0d11-47f9-96b0-ff677d89970c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mtatkinson_coffee-pc-_benlewer--6.jpg",
+            "alignment": "center left",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "c23ee2ee-9e15-4c18-83b5-d36c31465467": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farmcupcoffee_1.jpg",
+            "alignment": "top center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "7b7fcfd6-97de-4a1c-a72d-cd7c7b2d355d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fivefootonedesign.3_14f9b291-38a7-4dbc-8bc7-0a5f560e8a98.jpg",
+            "alignment": "top center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "561c0403-1da0-4039-952b-89bb79d6d6a5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kg_designuae_2.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "713d20be-5259-47b1-ba0a-e2a781da08d4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cafe_Menu_2.jpg",
+            "alignment": "center right",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "8e276c05-bc84-4227-ae17-5f7362f75318": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kg_designuae_3.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "97da9061-2f05-4570-91d8-ea3250ecfca9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Baker-Menu-George-and-Willy.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "ac7e7716-2ca7-42c2-bc7b-4063c4838290": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mtatkinson_coffee-pc-_benlewer--2.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "2648d8ec-32a3-4ae5-b8f4-1aea609cf655": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slow.mov_greenmamabcn_2.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "c332c0ad-4c9b-41bb-9fa8-78eedd86982d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/zaarashaikhraza_photocred_AngelaNewtonRoyPhotography.4.jpg",
+            "alignment": "top center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "3758243e-0547-400b-8378-98131d00bafa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alanafletcherinteriors.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "d8741099-75ba-4570-87b0-0349857389ed": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Allora.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "7786f27f-a77c-47d2-8a87-5fa1d7557d73": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Baker-Menu.6.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "a04b6470-bd7f-4ba9-9918-a9547231254d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Baker-Menu.8.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "fbb85c98-2635-41bc-8fc4-9d8b3cf1d40a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DropBox-009.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "c3bd294a-229d-4473-8e5b-15b28317dc19": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/five_eighths.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "5b0b556d-22a4-4c42-990c-60c0b064e83a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hudco.co.jpg",
+            "alignment": "top left",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "369235b0-146d-4369-953b-224a7b7d4031": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lex_s_Bagels-7_1.jpg",
+            "alignment": "top right",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "b8cae59b-3dd4-461d-a937-a76236d3655c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Magnetic-Letter-Board.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "c6921648-21cc-4347-92a5-2f5c4fe4a29c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Magnetic-Letter-Menu-George-and-Willy.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "0a72136b-ace3-4ef7-af36-02a51f523394": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Magnetic-Menu-Board.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "507911c0-4853-48b9-8e19-5e892205aa7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Baker-Menu-George-and-Willy-1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "16563870001a3123ea-3",
+        "9175e69b-b156-491e-9e47-0658269424d5",
+        "16563870001a3123ea-0",
+        "640cc916-ab73-4648-9497-6e5d261434c7",
+        "fe858c59-c66f-450c-b637-4d162c501e2c",
+        "a8cb487c-7ee1-4d8a-8fa3-db14cf73466a",
+        "e965067a-bd1b-49ba-a537-e8b398e3532b",
+        "c1a33533-117f-4386-98af-b2987a23a3e1",
+        "f8cd31d2-0d11-47f9-96b0-ff677d89970c",
+        "c23ee2ee-9e15-4c18-83b5-d36c31465467",
+        "7b7fcfd6-97de-4a1c-a72d-cd7c7b2d355d",
+        "561c0403-1da0-4039-952b-89bb79d6d6a5",
+        "713d20be-5259-47b1-ba0a-e2a781da08d4",
+        "8e276c05-bc84-4227-ae17-5f7362f75318",
+        "97da9061-2f05-4570-91d8-ea3250ecfca9",
+        "ac7e7716-2ca7-42c2-bc7b-4063c4838290",
+        "2648d8ec-32a3-4ae5-b8f4-1aea609cf655",
+        "c332c0ad-4c9b-41bb-9fa8-78eedd86982d",
+        "3758243e-0547-400b-8378-98131d00bafa",
+        "d8741099-75ba-4570-87b0-0349857389ed",
+        "7786f27f-a77c-47d2-8a87-5fa1d7557d73",
+        "a04b6470-bd7f-4ba9-9918-a9547231254d",
+        "fbb85c98-2635-41bc-8fc4-9d8b3cf1d40a",
+        "c3bd294a-229d-4473-8e5b-15b28317dc19",
+        "5b0b556d-22a4-4c42-990c-60c0b064e83a",
+        "369235b0-146d-4369-953b-224a7b7d4031",
+        "b8cae59b-3dd4-461d-a937-a76236d3655c",
+        "c6921648-21cc-4347-92a5-2f5c4fe4a29c",
+        "0a72136b-ace3-4ef7-af36-02a51f523394",
+        "507911c0-4853-48b9-8e19-5e892205aa7b"
+      ],
+      "settings": {
+        "gallery_title": "",
+        "grid": 3,
+        "desktop_image_height": 500,
+        "mobile_image_height": 380,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": true,
+        "use_alt_bg": false,
+        "enable_carousel": false,
+        "overlay_style": "no_background",
+        "button_style": "link"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "16566320477e0d5023",
+    "16563870001c42937e",
+    "main"
+  ]
+}

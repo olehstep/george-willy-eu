@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "c00cbee3-5dc2-4c81-9b2e-259da1797680": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16086380740766__c00cbee3-5dc2-4c81-9b2e-259da1797680-167349192629c48fde-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Sorry!",
+            "use_h1": false
+          }
+        },
+        "template--16086380740766__c00cbee3-5dc2-4c81-9b2e-259da1797680-167349192629c48fde-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This website is unavailable in your location.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16086380740766__c00cbee3-5dc2-4c81-9b2e-259da1797680-167349192629c48fde-0",
+        "template--16086380740766__c00cbee3-5dc2-4c81-9b2e-259da1797680-167349192629c48fde-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c00cbee3-5dc2-4c81-9b2e-259da1797680"
+  ]
+}

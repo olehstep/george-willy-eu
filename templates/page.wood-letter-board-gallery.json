@@ -1,0 +1,361 @@
+{
+  "sections": {
+    "16566320477e0d5023": {
+      "type": "rich-text",
+      "blocks": {
+        "16566320470fdf659d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Get Inspired",
+            "use_h1": false
+          }
+        },
+        "9a8f52db-c5c7-4a71-b09b-99b1e8c57204": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A gallery of the Wooden Letter Board, a perfect way to use display lettering for beautiful menu design in your interior, cafe, or bakery. <\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16566320470fdf659d-0",
+        "9a8f52db-c5c7-4a71-b09b-99b1e8c57204"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16563870001c42937e": {
+      "type": "gallery",
+      "blocks": {
+        "cf73627a-2bbc-4ff8-a82a-6cdfca3bdf29": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badeggsau_2_65a578b6-c047-40db-ad9a-7f5d39589999.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "16563870001a3123ea-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/infragantipizza_1.2.jpg",
+            "alignment": "top right",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "2b5f5911-d54d-40bf-864f-09b143760237": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/saintceciliavictoria-Dasha_Armstrong-bidgood.co2_1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "68805a51-9e2e-4293-994c-6721ba4f88b4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nyc_restaurant_design.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "dcbd7891-61a8-4e9f-9ac8-be68e3bdc36e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nakedretail-1_1a23e5ae-4d29-453d-a6f0-eb8b76112df1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "c5ecf44f-36b8-46de-b9cb-5f39a4091a97": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/024A4744.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "9a558583-3e62-434f-829d-c2bc665d0749": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1S9A3578.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "b02e9c03-1f4c-44ef-85fb-3e95eab59082": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/strongconstruction_strongconstruction_mmk_creative_cocosprovisions_bidgoodco-1_8c72b03a-95c6-4e94-b2c8-275c0d855571.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "f33404df-0b22-436d-b6e0-2139a2418c06": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wearelionesse_bluesparrowcoffee_463e6b62-a3de-4b34-aa63-5fd9f50019ed.jpg",
+            "alignment": "center left",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "6663eebb-1b93-4890-b43c-543cce02f99b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wooden-Letter-Board-George-and-Willy.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "901b291e-bbea-4aea-ac7a-129a179fe69b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gritandgraceinc_1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "6cb9024d-a76f-4944-9d7c-840fbe26de30": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nightowlcoffeecart-pc_emily.magers-venue_emersonvenue.jpg",
+            "alignment": "top left",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "69a2313a-2b03-4d53-a1b4-94d2073bf01a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hyggelife_bridgetrburnett.jpg",
+            "alignment": "top center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "c6cea94a-5a48-4e31-8fbd-ba21d7f7355e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Letter-Display_60.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "626beed8-e570-4b00-9d93-0a3e810e3c25": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shopburb-1_5c3f396f-5665-4c35-9c6d-d9caaeb36cc2.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "51ef15d8-dfaf-4c41-8615-38478b2dfc6c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GPFCapril_0518.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "b067f27c-c837-4d87-962e-0ebe5d0445ea": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/truehomeblog_4_ac452013-f485-43ab-a6d4-43f525ab6e8c.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "2e77cf92-fdb8-4d81-9f64-5fdc5da2bc08": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gw_norain_d01a6f9a-ba65-4ed6-ac5f-4d194aa30f77.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "0dcbbd29-5cb9-44b3-b072-3b7f2793b0a5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wooden-Letter-Board-white-rails.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "523a95a1-bd5c-41eb-a510-2f4f39e802b6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wooden-Letter-Menu-Board.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "04118dd8-c693-4503-9ffb-3d0ad0b62050": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/andrewwelchphoto---ferrissandcompany3.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/wooden-letter-board",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "cf73627a-2bbc-4ff8-a82a-6cdfca3bdf29",
+        "16563870001a3123ea-1",
+        "2b5f5911-d54d-40bf-864f-09b143760237",
+        "68805a51-9e2e-4293-994c-6721ba4f88b4",
+        "dcbd7891-61a8-4e9f-9ac8-be68e3bdc36e",
+        "c5ecf44f-36b8-46de-b9cb-5f39a4091a97",
+        "9a558583-3e62-434f-829d-c2bc665d0749",
+        "b02e9c03-1f4c-44ef-85fb-3e95eab59082",
+        "f33404df-0b22-436d-b6e0-2139a2418c06",
+        "6663eebb-1b93-4890-b43c-543cce02f99b",
+        "901b291e-bbea-4aea-ac7a-129a179fe69b",
+        "6cb9024d-a76f-4944-9d7c-840fbe26de30",
+        "69a2313a-2b03-4d53-a1b4-94d2073bf01a",
+        "c6cea94a-5a48-4e31-8fbd-ba21d7f7355e",
+        "626beed8-e570-4b00-9d93-0a3e810e3c25",
+        "51ef15d8-dfaf-4c41-8615-38478b2dfc6c",
+        "b067f27c-c837-4d87-962e-0ebe5d0445ea",
+        "2e77cf92-fdb8-4d81-9f64-5fdc5da2bc08",
+        "0dcbbd29-5cb9-44b3-b072-3b7f2793b0a5",
+        "523a95a1-bd5c-41eb-a510-2f4f39e802b6",
+        "04118dd8-c693-4503-9ffb-3d0ad0b62050"
+      ],
+      "settings": {
+        "gallery_title": "",
+        "grid": 3,
+        "desktop_image_height": 500,
+        "mobile_image_height": 380,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": true,
+        "use_alt_bg": false,
+        "enable_carousel": false,
+        "overlay_style": "no_background",
+        "button_style": "link"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "16566320477e0d5023",
+    "16563870001c42937e",
+    "main"
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "16563866841a35bba5": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pricing-Sign_-5_1a613679-2f4b-4b7a-9428-c16a48e8e629.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_header_image_f43fac5a-0da1-40e5-9762-25aa97d755dc.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center bottom",
+        "height": "adapt",
+        "height_desktop": 660,
+        "height_mobile": 440,
+        "image_link": "shopify:\/\/collections\/counter-signs",
+        "subheading": "",
+        "title": "Treat the \nLittle Details \nLike Big Ones",
+        "title_size": 50,
+        "title_size_mobile": 30,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "Explore Countertop Displays",
+        "button_url_1": "shopify:\/\/collections\/counter-signs",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center left",
+        "full_width": true,
+        "mobile_overlay_under": true,
+        "overlay_style": "shadow"
+      }
+    },
+    "8b5820f1-0913-46da-a125-2e3f28db95a6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16071237370014__8b5820f1-0913-46da-a125-2e3f28db95a6-1671553590586db054-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16071237370014__8b5820f1-0913-46da-a125-2e3f28db95a6-1671553590586db054-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16565533761e365a63": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled-6.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Untitled-7_mobile.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    },
+    "1656550498b9b820e2": {
+      "type": "multi-column",
+      "blocks": {
+        "16565504980df8543f-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Pricing_Sign_-23_deb435f8-ec2d-421a-95ed-56eab50bf2a8.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "Shop Pricing Signs",
+            "link": "shopify:\/\/products\/pricing-signs"
+          }
+        },
+        "16565504980df8543f-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/211122_Fusillo-G_W-4_fb89ed6f-f78a-481f-bf0e-d7d1ad0e4905.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "Shop Counter Signs",
+            "link": "shopify:\/\/products\/counter-signs"
+          }
+        },
+        "16565504980df8543f-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/5D3_7730.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "Shop Medium Round Counter Signs",
+            "link": "shopify:\/\/products\/medium-round-counter-signs"
+          }
+        }
+      },
+      "block_order": [
+        "16565504980df8543f-0",
+        "16565504980df8543f-1",
+        "16565504980df8543f-2"
+      ],
+      "settings": {
+        "title": "Designed To Make It Easy To Label Your Goods With Care.",
+        "text_alignment": "center",
+        "button_style": "secondary",
+        "use_alt_bg": false
+      }
+    },
+    "a188d0bb-ae5f-4b2b-bab8-c89be650fcfc": {
+      "type": "logo-list",
+      "blocks": {
+        "2bc48483-fff7-4297-abeb-6ce56342960a": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/100-day-returns.jpg",
+            "image_width": 250,
+            "link": "",
+            "title": ""
+          }
+        },
+        "7fb60c69-498e-4ca3-8787-d3b1970d531b": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lifetime-Warranty.jpg",
+            "image_width": 250,
+            "link": "",
+            "title": ""
+          }
+        },
+        "c6d50115-a2bc-4d30-9754-e29309bb7b96": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/made-to-last.jpg",
+            "image_width": 250,
+            "link": "",
+            "title": ""
+          }
+        },
+        "96358236-f5db-4e0b-90e3-4ab9c12f24d4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/original-product.jpg",
+            "image_width": 250,
+            "link": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "2bc48483-fff7-4297-abeb-6ce56342960a",
+        "7fb60c69-498e-4ca3-8787-d3b1970d531b",
+        "c6d50115-a2bc-4d30-9754-e29309bb7b96",
+        "96358236-f5db-4e0b-90e3-4ab9c12f24d4"
+      ],
+      "settings": {
+        "title": "What makes George & Willy signage superior?",
+        "image_opacity": 100,
+        "use_alt_bg": false
+      }
+    },
+    "1656544458079a676a": {
+      "type": "testimonials",
+      "blocks": {
+        "1656544458b4d622de-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "They're amazing, sales of our cakes and slices have definitely increased due to these Counter Signs. Highly recommended!",
+            "author": "Henry Butler",
+            "image": "shopify:\/\/shop_images\/George_Willy-92._gramjpg.jpg",
+            "image_alignment": "center center",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "1656544458b4d622de-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "These counter signs are beautifully simple and well manufactured.",
+            "author": "Romain Ferraris",
+            "image": "shopify:\/\/shop_images\/5D3_7082.jpg",
+            "image_alignment": "center center",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656544458b4d622de-1",
+        "1656544458b4d622de-0"
+      ],
+      "settings": {
+        "title": "Over 2000 Customer reviews",
+        "layout": "image-right",
+        "text_caps": false,
+        "quote_text_size": 37,
+        "quote_text_size_mobile": 20,
+        "image_shape": "portrait",
+        "use_alt_bg": false,
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "f1c0054e-226e-4e5b-b673-f826391112b6": {
+      "type": "logo-list",
+      "blocks": {
+        "0315d18a-e899-424e-801e-b4762d3cf6f3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ace-Hotel.png",
+            "image_width": 280,
+            "link": "",
+            "title": ""
+          }
+        },
+        "cb7cc349-87db-40b1-be0c-7fcbb885b7b9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Apple_81643542-6e90-4407-bc1d-61a2666ebef7.png",
+            "image_width": 280,
+            "link": "",
+            "title": ""
+          }
+        },
+        "c8a7be41-3a50-4405-8900-ca0f7bca8763": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nike.png",
+            "image_width": 280,
+            "link": "",
+            "title": ""
+          }
+        },
+        "87884e49-b4d9-439b-86ab-6010ee5c697c": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NYT.png",
+            "image_width": 280,
+            "link": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "0315d18a-e899-424e-801e-b4762d3cf6f3",
+        "cb7cc349-87db-40b1-be0c-7fcbb885b7b9",
+        "c8a7be41-3a50-4405-8900-ca0f7bca8763",
+        "87884e49-b4d9-439b-86ab-6010ee5c697c"
+      ],
+      "settings": {
+        "title": "Trusted By",
+        "image_opacity": 100,
+        "use_alt_bg": false
+      }
+    },
+    "6d120ec9-a89f-4b52-b685-956190e1237c": {
+      "type": "video",
+      "settings": {
+        "video": "https:\/\/vimeo.com\/766685241",
+        "subheading": "",
+        "video_title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "text": "",
+        "enlarge_text": true,
+        "text_alignment": "center center",
+        "image": "shopify:\/\/shop_images\/George_Willy_Sept22-3_1571e306-4943-432f-83bf-e171200c0b7e.jpg",
+        "image_position": "center center",
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    },
+    "63572e7a-05f7-46ba-bfde-f9b55671fec9": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16071237370014__63572e7a-05f7-46ba-bfde-f9b55671fec9-1671553587d969caf1-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Card-Counter-Signs_cropped.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "Card Counter Signs",
+            "link": "shopify:\/\/products\/card-counter-signs"
+          }
+        },
+        "template--16071237370014__63572e7a-05f7-46ba-bfde-f9b55671fec9-1671553587d969caf1-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/George-and-Willy-Table-Talkers-5.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "Table Talkers",
+            "link": "shopify:\/\/products\/table-talkers"
+          }
+        },
+        "template--16071237370014__63572e7a-05f7-46ba-bfde-f9b55671fec9-1671553587d969caf1-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Specials_Board-10.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "Specials Board",
+            "link": "shopify:\/\/products\/peg-letter-board-mini"
+          }
+        }
+      },
+      "block_order": [
+        "template--16071237370014__63572e7a-05f7-46ba-bfde-f9b55671fec9-1671553587d969caf1-0",
+        "template--16071237370014__63572e7a-05f7-46ba-bfde-f9b55671fec9-1671553587d969caf1-1",
+        "template--16071237370014__63572e7a-05f7-46ba-bfde-f9b55671fec9-1671553587d969caf1-2"
+      ],
+      "settings": {
+        "title": "More Ways To Display",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "a67b0022-aa57-4c09-9991-418734808f7b": {
+      "type": "image-with-text",
+      "settings": {
+        "section_bg": "#fefbf4",
+        "image": "shopify:\/\/shop_images\/NicePeople-12_copy.jpg",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Meet George & Willy",
+        "use_h1": false,
+        "text": "<p>We’re two long time friends with a pretty specific passion. Signage. That may sound odd, but hear us out.<\/p>",
+        "button_label": "About us",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "image_size": 150,
+        "use_alt_bg": false
+      }
+    },
+    "b3e7a283-50fa-4d68-924a-425b1625e78e": {
+      "type": "custom-row",
+      "blocks": {
+        "e36c3510-e397-4ffb-9c4d-cf5436876fc7": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify:\/\/shop_images\/1080x1080_25_VOUCHER32.jpg",
+            "image_position": "center center",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "027d0fc5-12f3-46f9-aaf0-70722349185d": {
+          "type": "html",
+          "settings": {
+            "width": "half",
+            "code": "<div class=\"klaviyo-form-VptUc4\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "e36c3510-e397-4ffb-9c4d-cf5436876fc7",
+        "027d0fc5-12f3-46f9-aaf0-70722349185d"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "7c1335dc-529a-41be-beb1-74bad8bdb33c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16071237370014__7c1335dc-529a-41be-beb1-74bad8bdb33c-1671553590586db054-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Join Our 200k Instagram Followers",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16071237370014__7c1335dc-529a-41be-beb1-74bad8bdb33c-1671553590586db054-0"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "372d0f38-6ee9-454f-8d41-d975566bb9a0": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16563866841a35bba5",
+    "8b5820f1-0913-46da-a125-2e3f28db95a6",
+    "16565533761e365a63",
+    "1656550498b9b820e2",
+    "a188d0bb-ae5f-4b2b-bab8-c89be650fcfc",
+    "1656544458079a676a",
+    "f1c0054e-226e-4e5b-b673-f826391112b6",
+    "6d120ec9-a89f-4b52-b685-956190e1237c",
+    "63572e7a-05f7-46ba-bfde-f9b55671fec9",
+    "a67b0022-aa57-4c09-9991-418734808f7b",
+    "b3e7a283-50fa-4d68-924a-425b1625e78e",
+    "7c1335dc-529a-41be-beb1-74bad8bdb33c",
+    "372d0f38-6ee9-454f-8d41-d975566bb9a0"
+  ]
+}

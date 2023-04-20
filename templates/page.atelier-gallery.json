@@ -1,0 +1,375 @@
+{
+  "sections": {
+    "16566320477e0d5023": {
+      "type": "rich-text",
+      "blocks": {
+        "16566320470fdf659d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Get Inspired",
+            "use_h1": false
+          }
+        },
+        "2a877efd-4afb-4b0d-8a7e-0dfde5b77db0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The George & Willy Atelier Letter Menu Board, a changeable wall letter display used for displaying menus, messages, and quotes.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16566320470fdf659d-0",
+        "2a877efd-4afb-4b0d-8a7e-0dfde5b77db0"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16563870001c42937e": {
+      "type": "gallery",
+      "blocks": {
+        "16563870001a3123ea-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/annamucciphoto-_compositioncoffee-4.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "7babce72-0aad-4cb9-8ab4-a12f29d43bf5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9-10_julesslutsky-_festivalNYC-258.jpg",
+            "alignment": "top left",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "66f75d70-0180-46d9-b90d-43a820df28e5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PipXGiant-IMG_3275_2.jpg",
+            "alignment": "center left",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "5ef36722-0254-4465-8dfd-46a3471fdf83": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rocknrosieflorals_nourished.studio_1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "026175f2-30e2-4010-b63b-c0fc3a492cbd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Atelier-letter-menboard.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "dcb8b319-5daf-4b60-8d84-2ae6beb1918d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/savorcoffeelv2.jpg",
+            "alignment": "top left",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "1ed3ce39-ac1f-41ec-ad47-cab78a37ba70": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Atelier_Brass_on_Black-5.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "737feeae-6189-41f4-beb7-4469e1c3f12d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/frankie.coffee_5_a162405f-f3e8-485b-b704-4c9b1a943a13.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "d9d00dab-6efe-4d65-a5a1-8f35ee1731a3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slowlanebrewing-_rb_art_brisbane-1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "bf7cb979-31b4-40df-96ad-3027c4790155": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/commongoodicecream_andrea_mclean_emaphotographi_tina_emapeterphoto_1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "12d6e423-26a8-4eeb-a1d5-db94ce5952ce": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/foxandoakcraft_photographer_Chris_van_Dyck_2.jpg",
+            "alignment": "center left",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "fe9f3ece-868f-4c1f-a059-1d639693f062": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/220203_Fusillo-G_W_1-web.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "648fad80-8795-4de6-86c5-7d14c0e22ef0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Atelier-Brass-on-Black-17.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "8ce8b7bf-b657-4416-a20d-55dd7816e741": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/220203_Fusillo-G_W_2-web.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "c1639019-e313-4e9d-ae17-3cdfd83cddf8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wonder.group__goodnessbritomart_manolasbrosnz_26144136-7759-4695-9842-cbb7e05cb3d7.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "2d5048fd-4be1-4165-ae56-231b1a8b6be0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/postcoffeecompany.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "f7fc3bb2-a5b2-4810-bf28-c893edf0ce4b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Atelier_Letters-21_copy.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "2f55d3d4-fd4f-493c-bc09-57acca670b15": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Atelier_Letters-36_copy.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "3920d537-a02f-4f75-ad63-71c6cd36794c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Atelier-Letter-Board.2.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "1524287e-8140-4b50-a7e0-0b467598632f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/monkandnun_co_patriechoco_peteandselena_2.jpg",
+            "alignment": "center right",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "92d880a4-e408-4ad6-bd44-d03199cb2259": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/forincafephl_1.jpg",
+            "alignment": "center right",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "9095296f-4ec4-483b-84cf-bfbb4fe5cc01": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mollie_gray-_teddy_espresso-1.jpg",
+            "alignment": "top right",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/atelier-letter-board",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "16563870001a3123ea-2",
+        "7babce72-0aad-4cb9-8ab4-a12f29d43bf5",
+        "66f75d70-0180-46d9-b90d-43a820df28e5",
+        "5ef36722-0254-4465-8dfd-46a3471fdf83",
+        "026175f2-30e2-4010-b63b-c0fc3a492cbd",
+        "dcb8b319-5daf-4b60-8d84-2ae6beb1918d",
+        "1ed3ce39-ac1f-41ec-ad47-cab78a37ba70",
+        "737feeae-6189-41f4-beb7-4469e1c3f12d",
+        "d9d00dab-6efe-4d65-a5a1-8f35ee1731a3",
+        "bf7cb979-31b4-40df-96ad-3027c4790155",
+        "12d6e423-26a8-4eeb-a1d5-db94ce5952ce",
+        "fe9f3ece-868f-4c1f-a059-1d639693f062",
+        "648fad80-8795-4de6-86c5-7d14c0e22ef0",
+        "8ce8b7bf-b657-4416-a20d-55dd7816e741",
+        "c1639019-e313-4e9d-ae17-3cdfd83cddf8",
+        "2d5048fd-4be1-4165-ae56-231b1a8b6be0",
+        "f7fc3bb2-a5b2-4810-bf28-c893edf0ce4b",
+        "2f55d3d4-fd4f-493c-bc09-57acca670b15",
+        "3920d537-a02f-4f75-ad63-71c6cd36794c",
+        "1524287e-8140-4b50-a7e0-0b467598632f",
+        "92d880a4-e408-4ad6-bd44-d03199cb2259",
+        "9095296f-4ec4-483b-84cf-bfbb4fe5cc01"
+      ],
+      "settings": {
+        "gallery_title": "",
+        "grid": 3,
+        "desktop_image_height": 500,
+        "mobile_image_height": 380,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": true,
+        "use_alt_bg": false,
+        "enable_carousel": false,
+        "overlay_style": "no_background",
+        "button_style": "link"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "16566320477e0d5023",
+    "16563870001c42937e",
+    "main"
+  ]
+}

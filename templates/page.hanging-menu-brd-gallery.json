@@ -1,0 +1,277 @@
+{
+  "sections": {
+    "16566320477e0d5023": {
+      "type": "rich-text",
+      "blocks": {
+        "16566320470fdf659d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Get Inspired",
+            "use_h1": false
+          }
+        },
+        "3cb8a2d8-ecf3-4d10-95d8-82ddea724870": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our favourite pictures of our Hanging Menu Board, a refined and novel way to display your menu.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16566320470fdf659d-0",
+        "3cb8a2d8-ecf3-4d10-95d8-82ddea724870"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16563870001c42937e": {
+      "type": "gallery",
+      "blocks": {
+        "07e87958-22d2-4013-bf4e-329a3efc9295": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hygge-Life-patio-photog-Hygge-photo-Rob-Prechtl-05_dbeb2fb5-cca4-437d-bfc4-79cd67507bbf.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "7bca3653-ac2c-468e-8740-4373e396c680": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/codoscoffee-6.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "c149c49a-edb9-4504-bd9c-16114a3c543b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hanging_Menu_Board_-8.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "view product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "1bd74cc4-21b7-42e9-aecf-08f65c67de96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hanging_Menu_Board_-5840_w_menu_1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "view product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "781a4a29-437f-425a-a3ed-c1430816d813": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lasgemelasdc-3.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "a94d80ca-8594-490f-86a0-22181bbf8b56": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hanging_Menu_Board_-5778.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "view product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "3ac1bbe1-244d-4cf1-99ce-f07b54b5634a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_966b12f2-e12c-46c8-b57b-2d1095e15156.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "view product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "9054e939-aac0-417b-af8d-0283d961834b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hanging_Menu_Board_-3.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "view product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "ce21abc0-6394-4c7e-a058-e60b97261a0b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/codoscoffee-1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "f413dd32-c0d4-44b0-bf42-589b6ddcb264": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/two_greens_37544e2c-6633-494c-8d52-c85b0892c50e.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "753bba21-b232-4dd5-949c-9f5034b0c591": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/secretsoftampabay_paradecocoffee2.jpg",
+            "alignment": "center left",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "view product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "ce828422-0f3b-4300-a7a5-62b11988bda1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hanging_Menu_Board_-21.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "view product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "8ae7366f-632e-47b4-b45c-35259dfb031f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hanging-Menu-Board-14.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "view product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "2472c108-2a57-4b9f-bebc-b1b88ede0052": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hygge-Life-patio-photog-Hygge-photo-Rob-Prechtl-05_3c24a3e5-51d6-4ee2-802f-bdb881fce1f2.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "view product",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        },
+        "6207e528-5a16-42cd-84ec-82485a3bc428": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hanging_Menu_Board_-5590_2x3_e2a63c6d-c84b-4584-83b3-a6be03b04665.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "shopify:\/\/products\/hanging-menu-board",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "07e87958-22d2-4013-bf4e-329a3efc9295",
+        "7bca3653-ac2c-468e-8740-4373e396c680",
+        "c149c49a-edb9-4504-bd9c-16114a3c543b",
+        "1bd74cc4-21b7-42e9-aecf-08f65c67de96",
+        "781a4a29-437f-425a-a3ed-c1430816d813",
+        "a94d80ca-8594-490f-86a0-22181bbf8b56",
+        "3ac1bbe1-244d-4cf1-99ce-f07b54b5634a",
+        "9054e939-aac0-417b-af8d-0283d961834b",
+        "ce21abc0-6394-4c7e-a058-e60b97261a0b",
+        "f413dd32-c0d4-44b0-bf42-589b6ddcb264",
+        "753bba21-b232-4dd5-949c-9f5034b0c591",
+        "ce828422-0f3b-4300-a7a5-62b11988bda1",
+        "8ae7366f-632e-47b4-b45c-35259dfb031f",
+        "2472c108-2a57-4b9f-bebc-b1b88ede0052",
+        "6207e528-5a16-42cd-84ec-82485a3bc428"
+      ],
+      "settings": {
+        "gallery_title": "",
+        "grid": 3,
+        "desktop_image_height": 500,
+        "mobile_image_height": 380,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": true,
+        "use_alt_bg": false,
+        "enable_carousel": false,
+        "overlay_style": "no_background",
+        "button_style": "link"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "16566320477e0d5023",
+    "16563870001c42937e",
+    "main"
+  ]
+}

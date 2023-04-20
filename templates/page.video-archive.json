@@ -1,0 +1,203 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full_width": false
+      }
+    },
+    "148107c9-b037-4a02-af7c-14f192337b80": {
+      "type": "video-with-text",
+      "settings": {
+        "video": "https:\/\/vimeo.com\/802877566",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/George-and-Willy-office-renovation-plywood-square.jpg",
+        "subheading": "",
+        "title": "George & Willy Tour",
+        "use_h1": false,
+        "text": "<p>Over the last 12 months we’ve been renovating our studio space in Mount Maunganui, New Zealand. It’s made for a pretty noisy work space, but we’re at the business end and it’s certainly starting to come together.<\/p>",
+        "button_label": "Read more",
+        "button_link": "shopify:\/\/blogs\/blog\/george-willy-tour",
+        "button_style": "link",
+        "video_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "1652152585ba63aa70": {
+      "type": "video-with-text",
+      "settings": {
+        "video": "https:\/\/vimeo.com\/402303589",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/GW-Moto-174-_1_7661c660-2262-4d55-bdd9-b5e557a85dc4.jpg",
+        "subheading": "",
+        "title": "The Moto Trip",
+        "use_h1": false,
+        "text": "<p>We've had a fair share of whimsical ideas but the motorbike trip finds itself very high up the list. In 2019, the George & Willy staff made the journey down to New Zealand’s southern alps, a familiar backdrop to a lot of branding from the past five years.<\/p>",
+        "button_label": "Read more",
+        "button_link": "",
+        "button_style": "link",
+        "video_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "16521526553c355da7": {
+      "type": "video-with-text",
+      "settings": {
+        "video": "https:\/\/vimeo.com\/399740660",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/moto-trip.jpg",
+        "subheading": "",
+        "title": "The Moto Trip Premiere Night",
+        "use_h1": false,
+        "text": "<p>The premiere of the Moto Trip movie we made on our trip with our mates, burgers and games. <\/p>",
+        "button_label": "Read more",
+        "button_link": "",
+        "button_style": "link",
+        "video_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "165215228360b7ff2e": {
+      "type": "video-with-text",
+      "settings": {
+        "video": "https:\/\/player.vimeo.com\/video\/371259833?h=a0f8ac3ad9",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/Screen-Shot-2022-05-10-at-3.14.41-PM.jpg",
+        "subheading": "",
+        "title": "The George & Willy Workshop Rebuild",
+        "use_h1": false,
+        "text": "<p>Over the course of a week we dismantled our treehut office and created a design studio.<\/p>",
+        "button_label": "Read more",
+        "button_link": "",
+        "button_style": "link",
+        "video_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "e184d8ad-dce2-44d1-aca2-d233978044fb": {
+      "type": "video-with-text",
+      "settings": {
+        "video": "https:\/\/vimeo.com\/766290717",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/274576698_1116490479116903_2633987697102747873_n.jpg",
+        "subheading": "",
+        "title": "Websters Tea Tour",
+        "use_h1": false,
+        "text": "<p>Meet Mark from Webster’s Tea, a man who is all about improving New Zealand’s tea break. We went on a tour of his tea shop where he packages & sells his premium organic, loose leaf tea.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "video_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "44e7533a-d170-48b6-8d93-2a509a766e02": {
+      "type": "video-with-text",
+      "settings": {
+        "video": "https:\/\/vimeo.com\/767087844",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-04_at_11.26.54_AM.png",
+        "subheading": "",
+        "title": "General Service",
+        "use_h1": false,
+        "text": "<p>The team at General Service using the Letter Sidewalk Sign to welcome customers to their shared working space in the heart of Wanaka, New Zealand.<\/p>",
+        "button_label": "See the Letter Sidewalk Sign",
+        "button_link": "shopify:\/\/products\/letter-sidewalk-sign",
+        "button_style": "link",
+        "video_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "f6b93c47-c7f6-4762-ae68-07ae1791420b": {
+      "type": "video-with-text",
+      "settings": {
+        "video": "https:\/\/vimeo.com\/766685241",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/George_Willy_Sept22-3_1571e306-4943-432f-83bf-e171200c0b7e.jpg",
+        "subheading": "",
+        "title": "Unboxing our Counter Signs",
+        "use_h1": false,
+        "text": "<p>A better way to label the little things. Counter display signs for pastries, ceramics and everything in between. Magnet letters make it easy to change what’s on offer.<\/p>",
+        "button_label": "The Counter Signs",
+        "button_link": "shopify:\/\/products\/counter-signs",
+        "button_style": "link",
+        "video_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "ce0128ed-8546-4395-8966-cc666df59a27": {
+      "type": "video-with-text",
+      "settings": {
+        "video": "https:\/\/vimeo.com\/766708755",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/A-Frame-Assembly_72203d2c-f9be-49d6-a6ef-40b2d31fd4a0.jpg",
+        "subheading": "",
+        "title": "Assembling the A-Frame Sign",
+        "use_h1": false,
+        "text": "<p>A fresh take on the traditional sandwich board. A minimal sign, designed to make a good first impression on your customers.<\/p>",
+        "button_label": "The A-Frame Sign",
+        "button_link": "shopify:\/\/products\/a-frame-sign-sandwich-board",
+        "button_style": "link",
+        "video_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "012d556b-25e1-4b4a-aecc-38e5f6c66126": {
+      "type": "video-with-text",
+      "settings": {
+        "video": "https:\/\/vimeo.com\/766726302",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/Pricing-Signs_25791de9-a05a-4ad1-8a78-2a207b858510.jpg",
+        "subheading": "",
+        "title": "Unboxing the Pricing Signs",
+        "use_h1": false,
+        "text": "<p>A smaller version of our Counter Signs. Designed to make it easy to price your goods with care.<\/p>",
+        "button_label": "The Pricing Signs",
+        "button_link": "shopify:\/\/products\/pricing-signs",
+        "button_style": "link",
+        "video_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "395df522-a721-48d6-b865-7bcbae74c9e3": {
+      "type": "video-with-text",
+      "settings": {
+        "video": "https:\/\/vimeo.com\/766730483",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/Installing-the-Led-Round-Sign_731efaac-7c79-4a76-bd6d-eebf37ad8948.jpg",
+        "subheading": "",
+        "title": "Installing The Round Light Box Sign",
+        "use_h1": false,
+        "text": "<p>A sign for day & night. Crafted in the signature G&W round shape, the Round LED Sign is a good spot for nice branding. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "video_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "148107c9-b037-4a02-af7c-14f192337b80",
+    "1652152585ba63aa70",
+    "16521526553c355da7",
+    "165215228360b7ff2e",
+    "e184d8ad-dce2-44d1-aca2-d233978044fb",
+    "44e7533a-d170-48b6-8d93-2a509a766e02",
+    "f6b93c47-c7f6-4762-ae68-07ae1791420b",
+    "ce0128ed-8546-4395-8966-cc666df59a27",
+    "012d556b-25e1-4b4a-aecc-38e5f6c66126",
+    "395df522-a721-48d6-b865-7bcbae74c9e3"
+  ]
+}

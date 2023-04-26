@@ -26,11 +26,11 @@
             "button_style": "primary"
           }
         },
-        "a76cba7b-db45-4bb6-b973-a538832c9b2a": {
+        "82677f51-5833-4c02-bfb6-4badbf7eca49": {
           "type": "button",
           "settings": {
-            "button_label": "Meet Chris Stevens From CTRL space",
-            "button_link": "shopify:\/\/blogs\/blog\/hospitality-design",
+            "button_label": "Blog",
+            "button_link": "shopify:\/\/blogs\/blog",
             "button_style": "primary"
           }
         },
@@ -39,22 +39,6 @@
           "settings": {
             "button_label": "sign up for our emails",
             "button_link": "https:\/\/www.georgeandwilly.com\/pages\/sign-up",
-            "button_style": "primary"
-          }
-        },
-        "afd20142-a65f-45ea-9454-fb3b626f7dfb": {
-          "type": "button",
-          "settings": {
-            "button_label": "Interior Design Essentials from  Wonder Group",
-            "button_link": "shopify:\/\/blogs\/blog\/interior-design-essentials-from-wonder-group",
-            "button_style": "primary"
-          }
-        },
-        "82677f51-5833-4c02-bfb6-4badbf7eca49": {
-          "type": "button",
-          "settings": {
-            "button_label": "Journal",
-            "button_link": "shopify:\/\/blogs\/blog",
             "button_style": "primary"
           }
         },
@@ -87,10 +71,8 @@
         "330fca5b-1f37-4a51-9d31-2bcc828dcf9f",
         "828ee978-0cc4-47bd-8898-1add463d3b8e",
         "7fd02f57-a806-445b-8845-c2fdbdcc7e0a",
-        "a76cba7b-db45-4bb6-b973-a538832c9b2a",
-        "3afaf882-dc37-4256-afad-9522f9ea2e0b",
-        "afd20142-a65f-45ea-9454-fb3b626f7dfb",
         "82677f51-5833-4c02-bfb6-4badbf7eca49",
+        "3afaf882-dc37-4256-afad-9522f9ea2e0b",
         "093f35df-d7db-4db8-9b98-d32d7c380c23",
         "f571e0c4-f5c9-4667-bfab-71293ad0329e",
         "abc438e8-ee03-4e68-a948-6e13af6f7d2c"

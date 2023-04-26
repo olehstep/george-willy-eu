@@ -180,6 +180,7 @@
                     {% endif %}
                   </div>
                 </div>
+                <div><span>{{- 'Inc. VAT' -}}</span></div>
                 <div class="price-descriptors">
                   {%- form 'product', product, id: product_form_installments_id -%}
                     <input type="hidden" name="id" value="{% if current_variant %}{{ current_variant.id }}{% endif %}">
@@ -229,7 +230,6 @@
                   </div>
                 {%- endif -%}
               </div>
-
             {% when 'description' %}
               <div class="{% unless block.settings.show_in_quickbuy %}not-in-quickbuy{% endunless %}{% if block.settings.show_in_tab %} product-detail-accordion{% endif %}" {{ block.shopify_attributes }}>
                 {% if block.settings.show_in_tab %}

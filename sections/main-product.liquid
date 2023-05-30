@@ -326,15 +326,12 @@
                           <a href="#" data-quantity="down">{% render 'svg-minus' %}</a>
                           <input aria-label="{{ 'products.product.quantity' | t }}" id="quantity" type="text" name="quantity" value="1" />
                           <a href="#" data-quantity="up">{% render 'svg-plus' %}</a>
-                       <div class="ships-from-eu">
-                        {{ 'ships-from-the-eu.png' | asset_url | img_tag: 'Ships from EU' }}
-                      </div>  
+                        {% comment %} <div class="ships-from-eu">
+                          {{ 'ships-from-the-eu.png' | asset_url | img_tag: 'Ships from EU' }}
+                        </div> {% endcomment %}
                       
                       </div>
                       {% endif %}
-                      
-                     
-                      
                       
                       <div class="quantity-submit-row__submit input-row">
                         {%- capture add_to_cart_text -%}

@@ -208,6 +208,19 @@
             "text_alignment": "bottom left"
           }
         },
+        "9f0c61a8-e9ac-4fd9-b46c-9f03c08f4dcf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/White-Round-business-sign.jpg",
+            "alignment": "top center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View product",
+            "link": "shopify:\/\/products\/round-outdoor-shop-sign",
+            "text_alignment": "bottom left"
+          }
+        },
         "fe5eafe2-0fd9-45e6-bee3-961e31a32c37": {
           "type": "image",
           "settings": {
@@ -389,6 +402,19 @@
             "link": "shopify:\/\/products\/round-outdoor-shop-sign",
             "text_alignment": "bottom left"
           }
+        },
+        "211121fb-6902-4669-9582-147cc84695fb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/White-Round-business-sign-the-junction.jpg",
+            "alignment": "top center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View product",
+            "link": "shopify:\/\/products\/round-outdoor-shop-sign",
+            "text_alignment": "bottom left"
+          }
         }
       },
       "block_order": [
@@ -405,6 +431,7 @@
         "479499ca-0e7c-422b-8308-48744fd45ff3",
         "80468af1-ee01-44e3-93d6-d34d484a6097",
         "6c134875-fcd2-467c-9e54-d71735cf067c",
+        "9f0c61a8-e9ac-4fd9-b46c-9f03c08f4dcf",
         "fe5eafe2-0fd9-45e6-bee3-961e31a32c37",
         "01cd71e2-0e3a-45ca-adde-1477c3785e8e",
         "fccb9f2f-9d39-4343-8e41-c96eb986b7ca",
@@ -418,7 +445,8 @@
         "bed6f01a-b83f-45c2-a1c8-17f56346abee",
         "b97fe54e-bbee-4818-b937-57e4ec9a608e",
         "4366e075-a334-4ca2-9ed0-1f8a5e3c2d0b",
-        "6f8ff403-3d9f-4727-8d16-b0594640b083"
+        "6f8ff403-3d9f-4727-8d16-b0594640b083",
+        "211121fb-6902-4669-9582-147cc84695fb"
       ],
       "settings": {
         "gallery_title": "",

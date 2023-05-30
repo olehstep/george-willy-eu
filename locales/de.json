@@ -464,5 +464,12 @@
         "shipping_method_notice": "Bitte beachten Sie: Einmal aufgegebene Bestellungen können nicht mehr geändert oder storniert werden. Um eine Bestellung zu ändern, befolgen Sie bitte die Rückgabe- und Umtauschrichtlinie."
       }
     }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "payment": {
+        "card_payment_details": "•••• {{lastDigits}} - {{formattedTransactionAmount}}"
+      }
+    }
   }
 }

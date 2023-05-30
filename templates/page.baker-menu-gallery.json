@@ -421,6 +421,20 @@
             "link": "shopify:\/\/products\/magnetic-letter-menu-board",
             "text_alignment": "bottom left"
           }
+        },
+        "a34fb133-70b2-4f3a-8207-3cebc6a0bc51": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Magnetic-Letter-Menu-Board.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "View Product",
+            "link": "shopify:\/\/products\/magnetic-letter-menu-board",
+            "text_alignment": "bottom left"
+          }
         }
       },
       "block_order": [
@@ -453,7 +467,8 @@
         "b8cae59b-3dd4-461d-a937-a76236d3655c",
         "c6921648-21cc-4347-92a5-2f5c4fe4a29c",
         "0a72136b-ace3-4ef7-af36-02a51f523394",
-        "507911c0-4853-48b9-8e19-5e892205aa7b"
+        "507911c0-4853-48b9-8e19-5e892205aa7b",
+        "a34fb133-70b2-4f3a-8207-3cebc6a0bc51"
       ],
       "settings": {
         "gallery_title": "",

@@ -68,7 +68,7 @@
           "settings": {
             "title": "Specifications",
             "icon": "ruler",
-            "content": "<p>Sign Face: 60cm x 60cm<br>Mounting Bracket: 30cm x 10cm<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0186\/5604\/files\/Medium_LED_Round_Sign_Spec.pdf?v=1661824691\" target=\"_blank\" title=\"Round Outdoor LED Lightbox Sign\">View Specifications PDF<\/a><\/p>",
+            "content": "<p>Sign Face: 60cm x 60cm<br>Mounting Bracket: 30cm x 10cm<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0600\/6584\/1310\/files\/Spec_Sheet_Light_Box_Sign.pdf?v=1684292400\" target=\"_blank\" title=\"Round Outdoor LED Lightbox Sign\">View Specifications PDF<\/a><\/p>",
             "page": "",
             "open": false,
             "show_in_quickbuy": false
@@ -87,11 +87,10 @@
         },
         "4ebd18b8-a4f9-495d-97f8-a029edc1e99a": {
           "type": "accordion",
-          "disabled": true,
           "settings": {
             "title": "Assembly Instructions",
             "icon": "check_mark",
-            "content": "<p>Each Round Light Box Sign comes with all the necessary hardware to get going, with handy instructions below.<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0186\/5604\/files\/Round_Light_Box_Sign_Insructions.pdf?v=1669843725\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0186\/5604\/files\/Round_Light_Box_Sign_Insructions.pdf?v=1669843725\">Download Instructions PDF<\/a><\/p>",
+            "content": "<p>Each Round Light Box Sign comes with all the necessary hardware to get going, with handy instructions below.<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0600\/6584\/1310\/files\/Round_Light_Box_Sign_Instructions.pdf?v=1684282474\" target=\"_blank\">Download Instructions PDF<\/a><\/p>",
             "page": "",
             "open": false,
             "show_in_quickbuy": false

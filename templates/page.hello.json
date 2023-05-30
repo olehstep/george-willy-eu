@@ -2,18 +2,12 @@
   "sections": {
     "1656282874193e6b8a": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
-        "330fca5b-1f37-4a51-9d31-2bcc828dcf9f": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Quality signage, letter boards, and home products for creative spaces.<\/p>",
-            "enlarge_text": true
-          }
-        },
         "828ee978-0cc4-47bd-8898-1add463d3b8e": {
           "type": "button",
           "settings": {
-            "button_label": "Shop",
+            "button_label": "Shop All",
             "button_link": "shopify:\/\/collections\/all",
             "button_style": "primary"
           }
@@ -21,61 +15,42 @@
         "7fd02f57-a806-445b-8845-c2fdbdcc7e0a": {
           "type": "button",
           "settings": {
-            "button_label": "George & Willy Tour",
-            "button_link": "shopify:\/\/blogs\/blog\/george-willy-tour",
+            "button_label": "Shop Signage",
+            "button_link": "shopify:\/\/collections\/signage",
             "button_style": "primary"
           }
         },
         "82677f51-5833-4c02-bfb6-4badbf7eca49": {
           "type": "button",
           "settings": {
-            "button_label": "Blog",
-            "button_link": "shopify:\/\/blogs\/blog",
+            "button_label": "Shop Menu Displays",
+            "button_link": "shopify:\/\/collections\/letter-menu-boards",
             "button_style": "primary"
           }
         },
         "3afaf882-dc37-4256-afad-9522f9ea2e0b": {
           "type": "button",
           "settings": {
-            "button_label": "sign up for our emails",
-            "button_link": "https:\/\/www.georgeandwilly.com\/pages\/sign-up",
+            "button_label": "Shop Tabletop Signs",
+            "button_link": "shopify:\/\/collections\/tabletop",
             "button_style": "primary"
           }
         },
         "093f35df-d7db-4db8-9b98-d32d7c380c23": {
           "type": "button",
           "settings": {
-            "button_label": "For Your Business",
-            "button_link": "shopify:\/\/collections\/for-your-business",
-            "button_style": "primary"
-          }
-        },
-        "f571e0c4-f5c9-4667-bfab-71293ad0329e": {
-          "type": "button",
-          "settings": {
-            "button_label": "For your home",
+            "button_label": "Shop Home Products",
             "button_link": "shopify:\/\/collections\/for-home",
-            "button_style": "primary"
-          }
-        },
-        "abc438e8-ee03-4e68-a948-6e13af6f7d2c": {
-          "type": "button",
-          "settings": {
-            "button_label": "Pinterest",
-            "button_link": "https:\/\/www.pinterest.co.uk\/georgeandwilly\/_created\/",
             "button_style": "primary"
           }
         }
       },
       "block_order": [
-        "330fca5b-1f37-4a51-9d31-2bcc828dcf9f",
         "828ee978-0cc4-47bd-8898-1add463d3b8e",
         "7fd02f57-a806-445b-8845-c2fdbdcc7e0a",
         "82677f51-5833-4c02-bfb6-4badbf7eca49",
         "3afaf882-dc37-4256-afad-9522f9ea2e0b",
-        "093f35df-d7db-4db8-9b98-d32d7c380c23",
-        "f571e0c4-f5c9-4667-bfab-71293ad0329e",
-        "abc438e8-ee03-4e68-a948-6e13af6f7d2c"
+        "093f35df-d7db-4db8-9b98-d32d7c380c23"
       ],
       "settings": {
         "height": "medium",
@@ -90,10 +65,60 @@
       "settings": {
         "full_width": false
       }
+    },
+    "db6bfa4e-28c8-4f62-b53c-e0db7ac82f68": {
+      "type": "collection-list",
+      "blocks": {
+        "8c207a19-b454-4991-a017-e5a81558202e": {
+          "type": "collection",
+          "settings": {
+            "collection": "signage"
+          }
+        },
+        "ec1ea51f-4fdd-479f-864c-bf463358332e": {
+          "type": "collection",
+          "settings": {
+            "collection": "tabletop"
+          }
+        },
+        "9b3deacb-c49a-4345-a9a4-739ef3a27e71": {
+          "type": "collection",
+          "settings": {
+            "collection": "letter-menu-boards"
+          }
+        },
+        "e2bef15f-1278-457f-a9bc-146cf18addea": {
+          "type": "collection",
+          "settings": {
+            "collection": "for-home"
+          }
+        },
+        "7bbb6db7-ba00-40b0-bfec-8e60f182536e": {
+          "type": "collection",
+          "settings": {
+            "collection": "all"
+          }
+        }
+      },
+      "block_order": [
+        "8c207a19-b454-4991-a017-e5a81558202e",
+        "ec1ea51f-4fdd-479f-864c-bf463358332e",
+        "9b3deacb-c49a-4345-a9a4-739ef3a27e71",
+        "e2bef15f-1278-457f-a9bc-146cf18addea",
+        "7bbb6db7-ba00-40b0-bfec-8e60f182536e"
+      ],
+      "settings": {
+        "title": "Shop Our Range of Signage & Menu Displays",
+        "enable_carousel": false,
+        "grid": 3,
+        "use_alt_bg": false,
+        "full_width": true
+      }
     }
   },
   "order": [
     "1656282874193e6b8a",
-    "main"
+    "main",
+    "db6bfa4e-28c8-4f62-b53c-e0db7ac82f68"
   ]
 }

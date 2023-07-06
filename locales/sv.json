@@ -140,7 +140,8 @@
       "subtext": "Här är ditt presentkort!",
       "disabled": "Inaktiverad",
       "remaining_html": "{{ balance }} kvar",
-      "expired": "Gick ut den {{ expiry }}"
+      "expired": "Gick ut den {{ expiry }}",
+      "print": "Skriva ut"
     }
   },
   "general": {
@@ -184,7 +185,8 @@
     "social": {
       "share_on_facebook": "Dela på Facebook",
       "share_heading": "Dela med sig",
-      "share_on_twitter": "Dela på Twitter"
+      "share_on_twitter": "Dela på Twitter",
+      "share_on_pinterest": "Fäst den"
     },
     "quick_search": {
       "pages": "Sidor",
@@ -201,6 +203,9 @@
     },
     "navigation": {
       "main_navigation_aria_label": "Primärnavigering"
+    },
+    "country": {
+      "dropdown_label": "Valuta"
     }
   },
   "products": {
@@ -215,7 +220,8 @@
       "preorder": "Förboka",
       "pick_a": "Välj en",
       "reviews_link": {
-        "other": "Recensioner"
+        "other": "Recensioner",
+        "one": "Recension"
       },
       "unit_price_separator": " \/ ",
       "vendor": "Förbi",
@@ -225,7 +231,9 @@
       "backorder": "är restbeställd och skickas så fort den finns i lager igen.",
       "adding_to_cart": "Lägger till",
       "description": "Beskrivning",
-      "added_to_cart": "Läggs till i kundvagnen"
+      "added_to_cart": "Läggs till i kundvagnen",
+      "view_in_space": "Visa i ditt utrymme",
+      "no_selection": "Välj ett alternativ"
     },
     "added_notification": {
       "subtotal": "Delsumma",
@@ -235,7 +243,8 @@
       "total_price": "Totalbelopp",
       "keep_shopping": "Fortsätt handla",
       "quantity": "Antal",
-      "cart": "Vagn"
+      "cart": "Vagn",
+      "item": "Artikel"
     },
     "labels": {
       "low_stock": "Lågt lager",
@@ -245,7 +254,8 @@
       "value_reduction_html": "{{ amount }} rabatt",
       "new_in": "Ny!",
       "sold_out": "Slutsåld - snart tillbaka",
-      "in_stock": "I lager"
+      "in_stock": "I lager",
+      "sale": "Försäljning"
     },
     "quick_buy": {
       "read_more": "Fler detaljer",
@@ -330,7 +340,9 @@
     "reset_password": {
       "title": "Återställ lösenord",
       "subtext": "Ange ett nytt lösenord för {{ email }}",
-      "password_confirm": "Bekräfta lösenord"
+      "password_confirm": "Bekräfta lösenord",
+      "password": "Lösenord",
+      "submit": "Återställ lösenord"
     },
     "register": {
       "password": "Lösenord",
@@ -376,7 +388,8 @@
       "email": "E-post"
     },
     "general": {
-      "return": "Återgå till butiken"
+      "return": "Återgå till butiken",
+      "or": "eller"
     }
   },
   "store_availability": {
@@ -387,7 +400,8 @@
       "pick_up_available": "Upphämtning tillgänglig",
       "pick_up_available_at_html": "Avhämtning finns kl <strong>{{ location_name }}<\/strong>",
       "invalid_location_address": "Kontakta butiken för att bekräfta adressen",
-      "pick_up_unavailable_at_html": "Upphämtning för närvarande ej tillgänglig kl <strong>{{ location_name }}<\/strong>"
+      "pick_up_unavailable_at_html": "Upphämtning för närvarande ej tillgänglig kl <strong>{{ location_name }}<\/strong>",
+      "kilometers": "km"
     }
   },
   "shopify": {
@@ -424,7 +438,8 @@
     "search": {
       "close": "Stänga",
       "placeholder": "Sök...",
-      "title": "Sök i butik"
+      "title": "Sök i butik",
+      "open": "Sök"
     },
     "breadcrumbs": {
       "title": "Ströbröd",
@@ -445,7 +460,8 @@
     "login": {
       "admin_link_html": "Är du butiksägaren? <a href=\"\/admin\">Logga in här<\/a>",
       "button": "Stiga på",
-      "label": "Gå in i butik med lösenord:"
+      "label": "Gå in i butik med lösenord:",
+      "link": "Ange med lösenord"
     }
   },
   "date_formats": {

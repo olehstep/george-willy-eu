@@ -998,6 +998,7 @@
     "capitalize_headings": false,
     "type_base_font": "archivo_n4",
     "type_nav_font": "cooper_bt_n5",
+    "bold_mobile_nav": false,
     "type_logo_font": "futura_n4",
     "font_size_heading_int": 30,
     "font_size_base_int": 16,
@@ -1069,18 +1070,21 @@
         "blocks": {
           "3688f3eb-8c62-49fb-923c-ef439564ea7a": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "<p>Lifetime Warranty  • 100 Day Returns • Express Shipping<\/p>"
             }
           },
           "93629054-1fa0-4d52-98c5-26c0119bdb37": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "<p>All Pricing Includes Duties & Taxes<\/p>"
             }
           },
           "25c8246f-c19c-4a17-b0a5-4b879a573ff5": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "<p>Enjoy 20% Off Sitewide - <a href=\"\/collections\/all\" title=\"All Products\">Shop Now!<\/a><\/p>"
             }
@@ -1104,27 +1108,67 @@
       "header": {
         "type": "header",
         "blocks": {
-          "afa1c782-b705-4637-b59c-7871489161ed": {
-            "type": "menu-promotion-small",
-            "settings": {
-              "dropdown_link_title": "Shop",
-              "title": "",
-              "link_url": ""
-            }
-          },
           "81115f52-299a-457e-a288-d42bc703da27": {
             "type": "menu-promotion-small",
+            "disabled": true,
             "settings": {
               "dropdown_link_title": "About Us",
               "image": "shopify:\/\/shop_images\/Lightbox-96.jpg",
               "title": "",
               "link_url": ""
             }
+          },
+          "619e4906-4051-4dfb-961c-c541873dc1aa": {
+            "type": "image-for-mobile-menu",
+            "settings": {
+              "top_level_link_title": "Shop all",
+              "image": "shopify:\/\/shop_images\/Shop_all.png"
+            }
+          },
+          "19bcf9ca-8c8e-424b-a310-b2873ae19476": {
+            "type": "image-for-mobile-menu",
+            "settings": {
+              "top_level_link_title": "Signage",
+              "image": "shopify:\/\/shop_images\/SIGNAGE.jpg"
+            }
+          },
+          "e09daa02-c0a7-4c66-88da-26f65b6f63fd": {
+            "type": "image-for-mobile-menu",
+            "settings": {
+              "top_level_link_title": "Menu displays",
+              "image": "shopify:\/\/shop_images\/MENU_DISPLAYS.jpg"
+            }
+          },
+          "ae4df66f-b426-4a55-92c9-22f6546a7b8f": {
+            "type": "image-for-mobile-menu",
+            "settings": {
+              "top_level_link_title": "Tabletop",
+              "image": "shopify:\/\/shop_images\/TABLETOP.jpg"
+            }
+          },
+          "aa191c1a-e930-44af-b01a-036ea0bdf28d": {
+            "type": "image-for-mobile-menu",
+            "settings": {
+              "top_level_link_title": "For your home",
+              "image": "shopify:\/\/shop_images\/FOR_YOUR_HOME.jpg"
+            }
+          },
+          "ee20009f-106c-420c-957e-3677758f82e5": {
+            "type": "image-for-mobile-menu",
+            "settings": {
+              "top_level_link_title": "Shipping",
+              "image": "shopify:\/\/shop_images\/SHIPPING.jpg"
+            }
           }
         },
         "block_order": [
-          "afa1c782-b705-4637-b59c-7871489161ed",
-          "81115f52-299a-457e-a288-d42bc703da27"
+          "81115f52-299a-457e-a288-d42bc703da27",
+          "619e4906-4051-4dfb-961c-c541873dc1aa",
+          "19bcf9ca-8c8e-424b-a310-b2873ae19476",
+          "e09daa02-c0a7-4c66-88da-26f65b6f63fd",
+          "ae4df66f-b426-4a55-92c9-22f6546a7b8f",
+          "aa191c1a-e930-44af-b01a-036ea0bdf28d",
+          "ee20009f-106c-420c-957e-3677758f82e5"
         ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/GEORGE-AND-WILLY.png",
@@ -1137,9 +1181,9 @@
           "menu_layout": "underneath",
           "nav_featured_link": "Sale",
           "enable_mobile_promo_carousel": true,
-          "enable_nav_mob_products": false,
+          "enable_nav_mob_products": true,
           "nav_mob_products_title": "Best Sellers",
-          "nav_mob_products_collection": "",
+          "nav_mob_products_collection": "best-sellers",
           "enable_search": true,
           "search_suggestions_title": "What are you looking for?",
           "search_suggestions_menu": "collection-sidebar",

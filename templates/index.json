@@ -1,51 +1,31 @@
 {
   "sections": {
-    "16359276425da8ce46": {
-      "type": "slideshow",
-      "blocks": {
-        "a483df3e-cbc1-4548-9dc7-8833762356a4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-A-Frame-Mike.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Banner-A-Frame-Mobile.jpg",
-            "image_position": "center center",
-            "mobile_image_position": "center center",
-            "slide_link": "shopify:\/\/collections\/all",
-            "subheading": "",
-            "title": "Looking for Creative Signage <br> Products to Enhance your Brand?",
-            "title_size": 40,
-            "title_size_mobile": 30,
-            "text": "",
-            "enlarge_text": false,
-            "button_label_1": "Shop Now",
-            "button_url_1": "shopify:\/\/collections\/all",
-            "button_label_2": "",
-            "button_url_2": "",
-            "text_alignment": "center left",
-            "cf06_textcolor": "#2e4737",
-            "cf06_curvedtitle": "",
-            "cf06_subtitle": "",
-            "cf06_btn_text": "",
-            "cf06_review_text": "",
-            "cf06_review_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "a483df3e-cbc1-4548-9dc7-8833762356a4"
-      ],
-      "custom_css": [],
+    "65481af8-0a99-45c1-b267-1aa7221e167a": {
+      "type": "image-with-text-overlay",
       "settings": {
-        "height": "adapt",
-        "height_desktop": 600,
-        "height_mobile": 460,
+        "image": "shopify:\/\/shop_images\/English_311efbaa-f797-4900-b80c-c7d4a8f80efd.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/024A4798-new2SQ.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 700,
+        "height_mobile": 360,
+        "image_link": "",
+        "subheading": "",
+        "title": "Looking for Creative Signage \nProducts to Enhance your Brand?",
+        "title_size": 38,
+        "title_size_mobile": 24,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "Shop Now",
+        "button_url_1": "shopify:\/\/collections",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center left",
         "full_width": true,
-        "mobile_overlay_under": false,
-        "overlay_style": "no_background",
-        "slide_transition": "instant",
-        "slide_navigation": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 1
+        "mobile_overlay_under": true,
+        "overlay_style": "shadow"
       }
     },
     "ab965ae8-2e40-4f68-ab81-06b92795f245": {
@@ -525,7 +505,7 @@
     }
   },
   "order": [
-    "16359276425da8ce46",
+    "65481af8-0a99-45c1-b267-1aa7221e167a",
     "ab965ae8-2e40-4f68-ab81-06b92795f245",
     "1651721243512d65d5",
     "16553343122727c31e",

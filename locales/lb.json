@@ -193,7 +193,10 @@
           "range_start": "Range Start"
         },
         "title": "Checkout - {{shopName}}",
-        "submit_for_review_button_label": "Gitt fir Iwwerpréiwung of"
+        "submit_for_review_button_label": "Gitt fir Iwwerpréiwung of",
+        "stepper": {
+          "minimum_reached": "Minimum vun {{value}} erreecht"
+        }
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -377,12 +380,15 @@
         "card_fields": {
           "errors": {
             "required": {
-              "issue_date": "Gitt e gültege Ausgabdatum un"
+              "issue_date": "Gitt e gültege Ausgabdatum un",
+              "issue_number": "Gitt eng valabel Ausgabnummer"
             }
           }
         },
         "brand_not_available": "Dëse Buttek akzeptéiert net {{brand}}. Benotzt w.e.g. eng aner Kaart fir ze bezuelen.",
-        "use_different_credit_card_label": "Benotzt eng aner Kaart"
+        "use_different_credit_card_label": "Benotzt eng aner Kaart",
+        "purchase_options_and_vaulting_agreement_label": "Een oder méi Artikelen an Ärem Wuerekuerf ass e verspéiten oder widderhuelende Kaf. Andeems Dir mat Ärer Bezuelung weidergitt, sidd Dir averstanen datt Är Bezuelmethod automatesch de Präis an d'Frequenz op dëser Säit opgezielt gëtt, bis se eriwwer ass oder Dir annuléiert. All Annuléierungen ënnerleien dem %{cancellation_policy_label}.",
+        "order_edit_banner_subtitle": "Är Bestellung {{order_number}} gouf aktualiséiert. Iwwerpréift dës Ännerungen, bezuelt dann fir Är Bestellung ze bestätegen."
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -584,7 +590,8 @@
           "other": "Verstoppen %{count} Artikelen"
         },
         "duties_label": "Flichten",
-        "may_be_charged_on_delivery": "Kann op Liwwerung verrechent ginn"
+        "may_be_charged_on_delivery": "Kann op Liwwerung verrechent ginn",
+        "deferred_total_due_date_label": "Gesamtbetrag {{date}}"
       },
       "processing": {
         "wait": {
@@ -979,7 +986,8 @@
         "shipping_used_as_billing_notice": "Dëst gëtt och als Är Rechnungsadress fir dës Bestellung benotzt.",
         "company_contact_info": "{{companyName}} · {{contact}}",
         "ship_to_company": "Schéckt op {{companyName}}",
-        "change_company_location_link_label": "Änneren Firma Standuert"
+        "change_company_location_link_label": "Änneren Firma Standuert",
+        "optional_recipient_label": "Opmierksamkeet (optional)"
       },
       "marketing": {
         "unsubscribe": {
@@ -1193,7 +1201,10 @@
         },
         "quantity_column_header": "Quantitéit",
         "unshippable_product": {
-          "status_column_header": "Keng Liwwerung"
+          "status_column_header": "Keng Liwwerung",
+          "header": {
+            "one": "Keng Liwwerung verfügbar fir %{count} Artikel"
+          }
         }
       },
       "shop_policies": {

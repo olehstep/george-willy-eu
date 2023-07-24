@@ -59,7 +59,8 @@
         "datepicker": {
           "show_next_month": "Vis neste måned, {{month}} {{year}}",
           "range_end": "Rekkevidde slutt",
-          "range_start": "Rekkevidde start"
+          "range_start": "Rekkevidde start",
+          "in_range": "Innen rekkevidde"
         },
         "list_formatter": {
           "or": {
@@ -85,7 +86,8 @@
           "step_one": "%{shop_name} - Kasse"
         },
         "back_button_label": "Komme tilbake",
-        "back_to_payment_method": "Gå tilbake til betaling"
+        "back_to_payment_method": "Gå tilbake til betaling",
+        "google_map_title": "Google Kart"
       },
       "contact": {
         "postcode_placeholder": "postnummer",
@@ -1491,7 +1493,8 @@
     },
     "sentence": {
       "last_word_connector": ", og ",
-      "two_words_connector": " og "
+      "two_words_connector": " og ",
+      "words_connector": ", "
     },
     "feed": {
       "more": "Mer"

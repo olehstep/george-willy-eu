@@ -1616,6 +1616,9 @@
       },
       "tags": {
         "label": "Méi Filteren"
+      },
+      "vendor": {
+        "label": "Mark"
       }
     },
     "collections": {
@@ -1830,7 +1833,8 @@
           "other": "All Geschenkkaart gëtt an engem separaten Text geschéckt."
         },
         "gift_resend_success": {
-          "other": "Giftkaarter"
+          "other": "Giftkaarter",
+          "one": "Giftkaart Resentt"
         },
         "company_tracking_number": "{{company}} Tracking Zuel:"
       },
@@ -2085,7 +2089,8 @@
         "edit_accessibility_label": "Profil änneren",
         "phone_number_help_text": "Telefonsnummer benotzt fir Login kann net geännert ginn",
         "save": "Spueren",
-        "last_name": "Familljennumm"
+        "last_name": "Familljennumm",
+        "no_name_provided_accessibility_label": "Keen Numm dobäi"
       },
       "people": {
         "pagination": {
@@ -2286,7 +2291,8 @@
         },
         "manual_payment_methods": {
           "cash_on_delivery": "Cash bei Liwwerung (COD) - {{formattedTransactionAmount}}"
-        }
+        },
+        "gift_card_payment_details": "Enn mat {{lastDigits}} - {{formattedTransactionAmount}}"
       },
       "no_data": "Keen",
       "location": "Location",
@@ -2362,7 +2368,8 @@
         "desktop_qr_code_content": {
           "description": "Kritt Erënnerungen un Är Remboursementer mam Shop."
         },
-        "paid_with_shop_pay_installments": "Bezuelt mat Shop Pay Bezuelungen"
+        "paid_with_shop_pay_installments": "Bezuelt mat Shop Pay Bezuelungen",
+        "payment_reminders_button": "Kritt Bezuelen Erënnerung"
       },
       "login_to_view_all_order_details": "Mellt Iech un fir all Bestellungsdetailer ze gesinn.",
       "error_duties_tooltip": "Dës Bestellung gëtt aus engem anere Land geschéckt, sou datt Flichten a Steiere kënne bei der Liwwerung verrechent ginn.",
@@ -2410,7 +2417,8 @@
       "edit_button": "Edit",
       "delete_button": "Läschen",
       "no_addresses_banner": "Keng Adressen dobäigesat",
-      "back_button_accessibility_label": "Zréck op d'Editiounsadress {{address}}"
+      "back_button_accessibility_label": "Zréck op d'Editiounsadress {{address}}",
+      "add_button_accessibility_label": "Add Adress"
     },
     "payment_method_brands": {
       "googlepay": "Google Pay",

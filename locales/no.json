@@ -2480,7 +2480,8 @@
       "company": "Selskap",
       "country": "Land",
       "edit_address": "Rediger adresse",
-      "delete": "Slett"
+      "delete": "Slett",
+      "city": "By"
     },
     "order": {
       "cancelled_on": "Bestillingen kansellert på {{ date }}",

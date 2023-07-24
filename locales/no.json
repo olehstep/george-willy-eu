@@ -917,7 +917,10 @@
         "estimated_wait_time": {
           "other": "Estimert ventetid: {{count}} minutter"
         },
-        "title": "Kø"
+        "title": "Kø",
+        "too_many_attempts": {
+          "description": "Prøv igjen om noen minutter"
+        }
       },
       "deliverability": {
         "not_deliverable": {
@@ -990,7 +993,8 @@
           "missing": {
             "city": "Skriv inn en by"
           }
-        }
+        },
+        "shipping_line_label": "Shipping"
       },
       "markets": {
         "invalid_market_manager_error": "Gjennomgå kontaktinformasjonen din før du fullfører betaling"
@@ -1000,7 +1004,8 @@
           "PaymentViolations": "Fakturaadresse"
         },
         "editable_shipping_address_violations_message_title": "Legg til denne informasjonen for å fullføre bestillingen:",
-        "editable_shipping_address_violations_message_footer": "Hvis du vil oppdatere adressen for denne plasseringen permanent, {{emailLink}}."
+        "editable_shipping_address_violations_message_footer": "Hvis du vil oppdatere adressen for denne plasseringen permanent, {{emailLink}}.",
+        "violations_title": "{{violation}} mangler eller er ugyldig"
       },
       "discount_errors": {
         "generic_error": "Bestillingen kunne ikke behandles fordi rabattkoden ikke lenger er tilgjengelig. Se gjennom totalsummen for bestillingen, og prøv på nytt."
@@ -1011,10 +1016,24 @@
         }
       },
       "change_country": {
-        "cart_updated_based_on_country": "Handlekurven din har blitt oppdatert basert på fraktlandet ditt."
+        "cart_updated_based_on_country": "Handlekurven din har blitt oppdatert basert på fraktlandet ditt.",
+        "cart_and_currency_updated_based_on_country": "Vognen og valutaen din er oppdatert basert på forsendelseslandet."
       },
       "online_store_chat": {
         "title": "Spørsmål? snakk med oss"
+      },
+      "no_address_location": {
+        "header": "Du har ikke en leveringsadresse for dette stedet"
+      },
+      "session_errors": {
+        "session_already_finished": "Denne bestillingen er allerede sendt. Du kan gå tilbake til butikken for å starte en ny bestilling."
+      },
+      "error_page": {
+        "terminal": {
+          "action": {
+            "cta": "Oppdater side"
+          }
+        }
       }
     },
     "attributes": {

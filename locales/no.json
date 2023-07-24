@@ -630,7 +630,8 @@
         "complete_your_purchase_title_error": "Korriger betalingsinformasjonen din",
         "complete_your_purchase_title": "Fullfør kjøpet",
         "your_order_has_been_received_title": "takk for din bestilling",
-        "redirecting_title": "Omdirigerer …"
+        "redirecting_title": "Omdirigerer …",
+        "continue_to_payment_gateway_button_label_error": "Oppdater betalingsinformasjon"
       },
       "post_purchase": {
         "components": {
@@ -646,7 +647,8 @@
         "shipping_method": "Handlekurven din er oppdatert og den forrige fraktprisen er ikke gyldig. Velg en ny pris.",
         "shipping_method_not_available": "Handlekurven din er oppdatert og varene du har lagt til kan ikke sendes til adressen din. Fjern varene for å fullføre bestillingen.",
         "shipping_method_not_available_updated": {
-          "other": "En eller flere varer du har lagt til, sendes ikke til stedet ditt. Fjern dem for å sjekke ut, eller kontakt butikken."
+          "other": "En eller flere varer du har lagt til, sendes ikke til stedet ditt. Fjern dem for å sjekke ut, eller kontakt butikken.",
+          "one": "Varen du la til, sendes ikke til stedet ditt. Fjern den for å sjekke ut, eller kontakt butikken."
         },
         "shipping_method_not_available_generic": {
           "one": "Denne bestillingen kan ikke sendes til adressen du oppga. Se gjennom adressen din for å sikre at alle feltene er angitt riktig, og prøv igjen.",
@@ -687,7 +689,8 @@
         "invalid_cvc": "Angi en gyldig sikkerhetskode",
         "invalid_number": "Skriv inn et gyldig kortnummer",
         "invalid_expiry_date": "Angi en gyldig utløpsdato for kortet",
-        "credit_card_processing": "Betalingen din kan ikke behandles av tekniske årsaker. Prøv igjen om noen minutter, eller bruk en annen betalingsmetode."
+        "credit_card_processing": "Betalingen din kan ikke behandles av tekniske årsaker. Prøv igjen om noen minutter, eller bruk en annen betalingsmetode.",
+        "test_mode_live_card": "Denne butikken kan ikke godta ekte bestillinger eller reelle betalinger."
       },
       "payment_gateway": {
         "cash_on_delivery_label": "Postoppkrav (COD)",
@@ -702,7 +705,8 @@
             "message": "{{logIn}} til en konto med tilgang til dette stedet for å legge til eller bruke lagrede betalingsmåter."
           }
         },
-        "deferred_payment_label": "Velg betalingsmåte senere"
+        "deferred_payment_label": "Velg betalingsmåte senere",
+        "direct_payment_terms": "Du er på {{translatedName}} vilkår. Kortet ditt vil bli belastet den {{dueDate}}."
       },
       "thank_you": {
         "estimated_arrival": "Estimert leveringsdato: ",

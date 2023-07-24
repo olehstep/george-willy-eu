@@ -1997,7 +1997,8 @@
         "invalid_payment_method_message": "Bruk et nytt kredittkort for å fortsette å motta kommende bestillinger.",
         "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} varer totalt, viser {{totalItemsToDisplay}} elementer.",
         "billing_title": "Fakturaadresse",
-        "invalid_payment_method": "Ugyldig betalingsmåte"
+        "invalid_payment_method": "Ugyldig betalingsmåte",
+        "payment_details_loading": "Laster inn betalingsmåtedetaljer"
       },
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalingsmåten er oppdatert",
@@ -2036,7 +2037,8 @@
         },
         "field_errors": {
           "credit_card_number_invalid": "Skriv inn et gyldig kortnummer",
-          "credit_card_name_invalid": "Skriv inn navnet ditt nøyaktig slik det er skrevet på kortet ditt"
+          "credit_card_name_invalid": "Skriv inn navnet ditt nøyaktig slik det er skrevet på kortet ditt",
+          "credit_card_verification_value_blank": "Skriv inn CVV eller sikkerhetskoden på kortet ditt"
         },
         "card_number_placeholder": "Kortnummer",
         "card_verification_value_placeholder": "Sikkerhetskode",
@@ -2091,7 +2093,8 @@
       "elo": "Hvor mye",
       "hipercard": "hyperkort",
       "jcb": "JCB",
-      "dankort": "Dankort"
+      "dankort": "Dankort",
+      "forbrugsforeningen": "Forbrukerforeningen"
     },
     "shop_policies": {
       "terms_of_sale": "Salgsbetingelser",
@@ -2153,6 +2156,9 @@
     },
     "language": {
       "dropdown_label": "Språk"
+    },
+    "navigation": {
+      "menu_toggle_aria_label": "Bytt meny"
     }
   },
   "cart": {

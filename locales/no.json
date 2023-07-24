@@ -1765,7 +1765,8 @@
       "paid_with_shop_pay_installments_card": {
         "description": "Hold deg oppdatert på betalingsplanen din med påminnelser i Shop-appen.",
         "desktop_qr_code_content": {
-          "title": "Skann etter påminnelser"
+          "title": "Skann etter påminnelser",
+          "description": "Få påminnelser om avdragene dine med Shop."
         }
       },
       "subtotal": "Delsum",
@@ -1782,7 +1783,8 @@
       },
       "discount": "Rabatt",
       "summary_title": "Bestillingssammendrag",
-      "subtitle": "Bekreftet {{date}}"
+      "subtitle": "Bekreftet {{date}}",
+      "billing_address": "Fakturaadresse"
     },
     "address_form": {
       "loading_finished_accessibility_message": "Adresseskjemaet er lastet inn",

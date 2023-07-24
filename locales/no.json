@@ -78,7 +78,12 @@
         "display_name": "{{firstName}} {{lastName}}",
         "continue_to_payment_plans_button_label": "Fortsett til betalingsplaner",
         "edit_link_label": "Redigere",
-        "full_price": "Full pris:"
+        "full_price": "Full pris:",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Kasse"
+        },
+        "back_button_label": "Komme tilbake",
+        "back_to_payment_method": "Gå tilbake til betaling"
       },
       "contact": {
         "postcode_placeholder": "postnummer",

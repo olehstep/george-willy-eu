@@ -303,11 +303,14 @@
         "delivery_today": "Levering samme dag %{time}",
         "loading_progressive_rates": "Søker etter flere priser...",
         "shipping_method_combinations": {
-          "with_separator": "%{rest}, %{current},"
+          "with_separator": "%{rest}, %{current},",
+          "combination": "%{rest} og %{current}"
         },
         "duties_and_taxes_options": {
-          "ddu_title": "Betal ved levering"
-        }
+          "ddu_title": "Betal ved levering",
+          "ddp_caption": "Ingen ekstra avgifter ved levering"
+        },
+        "address_update": "Oppdater adressen"
       },
       "localized_fields": {
         "additional_information": {
@@ -440,7 +443,8 @@
         "same_billing_address_checkbox_label": "Bruk leveringsadresse som faktureringsadresse",
         "discount_button_action_label": "Bruk rabattkode",
         "card_expiration_month_label": "Utløpsmåned",
-        "order_edit_banner_single_item_added": "La til"
+        "order_edit_banner_single_item_added": "La til",
+        "card_verification_value_explanation_other": "3-sifret sikkerhetskode på baksiden av kortet ditt"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

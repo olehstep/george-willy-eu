@@ -820,7 +820,8 @@
         "thank_you_confirmed_order_with_phone_pick_up": "Du vil motta en tekstmelding når bestillingen din er klar for henting.",
         "order_status_confirmed_order_with_email_and_phone": "Du vil motta en e-post når bestillingen er klar.",
         "qr_code": {
-          "subtitle": "Skann koden med telefonens kamera for å spore med Shop."
+          "subtitle": "Skann koden med telefonens kamera for å spore med Shop.",
+          "title": "Spor på telefonen"
         },
         "first_payment_complete": "Første betaling fullført",
         "billing_address_title": "Fakturaadresse",
@@ -846,7 +847,8 @@
         "customer_information_hidden_fields_message": "Logg inn for å se all kundeinformasjon.",
         "page_title_no_name": "Takk skal du ha!",
         "subscriptions_management": {
-          "description": "Fortsett til kontoen din for å se og administrere abonnementene dine."
+          "description": "Fortsett til kontoen din for å se og administrere abonnementene dine.",
+          "button_label": "Administrere abonnementet"
         },
         "payment_method_title": "Betalingsmetode",
         "resend_gift_cards_by_text": "Sende tekstmelding på nytt",

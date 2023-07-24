@@ -1441,7 +1441,8 @@
         "label": "Regnskap",
         "hide_accessibility_label": "Skjul konto-menyen",
         "open_menu_accessibility_label": "Åpne Kontonavigering",
-        "loading_message": "Laster kontonavigering"
+        "loading_message": "Laster kontonavigering",
+        "close_menu_accessibility_label": "Lukk Kontonavigering"
       },
       "delete_confirmation": {
         "delete": "Slett"
@@ -1457,7 +1458,8 @@
       "orders_link_label": "Ordrene",
       "contact_link": "Kontakt oss",
       "generic_accessibility_label": "{{label}}: {{value}}",
-      "contact_email_subject": "Kontakt fra {{shopName}} nettbutikk"
+      "contact_email_subject": "Kontakt fra {{shopName}} nettbutikk",
+      "close_menu_accessibility_label": "Lukk hovednavigasjonen"
     },
     "orders": {
       "order_list": {

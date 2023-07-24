@@ -1295,7 +1295,8 @@
       "taken": "har allerede blitt tatt",
       "too_long": "er for lang (maksimum er %{count} tegn)",
       "invalid": "er ugyldig",
-      "contains_spaces": "starter eller slutter med mellomrom."
+      "contains_spaces": "starter eller slutter med mellomrom.",
+      "too_short": "er for kort (minimum er %{count} tegn)"
     },
     "notices": {
       "order": {
@@ -1326,7 +1327,8 @@
           "other": "Annen",
           "inventory": "Varer er utilgjengelige",
           "customer": "Kunden endret\/kansellerte ordre",
-          "declined": "Betaling avvist"
+          "declined": "Betaling avvist",
+          "fraud": "Uredelig ordre"
         }
       },
       "tags": {
@@ -1460,7 +1462,8 @@
       "prefecture": "Prefektur",
       "zip_code": "post kode",
       "state_and_territory": "Stat\/territorium",
-      "province": "Provins"
+      "province": "Provins",
+      "confirm": "Er du sikker på at du vil slette denne adressen?"
     },
     "links": {
       "powered_by_shopify": "Drevet av Shopify",

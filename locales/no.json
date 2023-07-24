@@ -71,7 +71,8 @@
         "contact_us_html": "Kontakt oss for mer informasjon",
         "display_name": "{{firstName}} {{lastName}}",
         "continue_to_payment_plans_button_label": "Fortsett til betalingsplaner",
-        "edit_link_label": "Redigere"
+        "edit_link_label": "Redigere",
+        "full_price": "Full pris:"
       },
       "contact": {
         "postcode_placeholder": "postnummer",
@@ -2247,7 +2248,8 @@
       "shipping_address": "Sendingsadresse",
       "date": "Plassert på {{ date }}",
       "payment_status": "Betalingsstatus",
-      "product": "Produkt"
+      "product": "Produkt",
+      "title": "Bestill {{ name }}"
     },
     "orders": {
       "payment_status": "Betalingsstatus",

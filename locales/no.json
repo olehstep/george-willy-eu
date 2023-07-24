@@ -1176,7 +1176,10 @@
             "one": "%{first} - %{last} av %{count} punkt"
           },
           "next_accessibility_label": "Neste side",
-          "previous_accessibility_label": "Forrige side"
+          "previous_accessibility_label": "Forrige side",
+          "header": {
+            "one": "Viser %{first} - %{last} av %{count} punkt"
+          }
         },
         "number_of_pickup_points_near_location": {
           "other": "%{count} Hentepunkter i nærheten av der du befinner deg"
@@ -1240,7 +1243,8 @@
         "payment_in_progress_body": "Betalingen din blir behandlet. Bestillingen din vil bli fullført snart.",
         "call_to_action": "Betal med {{walletName}}",
         "payment_in_progress_title": "Betaling pågår",
-        "connect_shipping_methods": "{{method1}} og {{method2}}"
+        "connect_shipping_methods": "{{method1}} og {{method2}}",
+        "return_to_store": "Gå tilbake til butikken"
       },
       "markets": {
         "invalid_market_manager_error": "Gjennomgå kontaktinformasjonen din før du fullfører betaling"

@@ -2157,7 +2157,8 @@
       "no_payment_methods_banner": "Ingen betalingsmetoder lagt til",
       "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}} som slutter på {{lastDigits}}",
       "expiration_warning_button_accessibility_label": "Vis utløpsadvarsel for {{paymentMethodName}} som slutter på {{lastDigits}}",
-      "expires_soon": "Dette kortet utløper snart"
+      "expires_soon": "Dette kortet utløper snart",
+      "expired": "Dette kortet er utløpt"
     },
     "payment_method_brands": {
       "americanexpress": "American Express",

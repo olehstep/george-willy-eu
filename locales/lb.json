@@ -196,7 +196,8 @@
         "submit_for_review_button_label": "Gitt fir Iwwerpréiwung of",
         "stepper": {
           "minimum_reached": "Minimum vun {{value}} erreecht"
-        }
+        },
+        "autocomplete_powered_by_google": "Ugedriwwe vun {{brandName}}"
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -355,7 +356,8 @@
         },
         "preview_not_available": {
           "content": "Maacht Iech keng Suergen, dës Express Checkout funktionnéiert fir Är Clienten.",
-          "title": "Preview net verfügbar"
+          "title": "Preview net verfügbar",
+          "button": "Ok"
         },
         "order_edit_banner_single_item_added": "Dobäigesat",
         "store_credit": {
@@ -388,7 +390,8 @@
         "brand_not_available": "Dëse Buttek akzeptéiert net {{brand}}. Benotzt w.e.g. eng aner Kaart fir ze bezuelen.",
         "use_different_credit_card_label": "Benotzt eng aner Kaart",
         "purchase_options_and_vaulting_agreement_label": "Een oder méi Artikelen an Ärem Wuerekuerf ass e verspéiten oder widderhuelende Kaf. Andeems Dir mat Ärer Bezuelung weidergitt, sidd Dir averstanen datt Är Bezuelmethod automatesch de Präis an d'Frequenz op dëser Säit opgezielt gëtt, bis se eriwwer ass oder Dir annuléiert. All Annuléierungen ënnerleien dem %{cancellation_policy_label}.",
-        "order_edit_banner_subtitle": "Är Bestellung {{order_number}} gouf aktualiséiert. Iwwerpréift dës Ännerungen, bezuelt dann fir Är Bestellung ze bestätegen."
+        "order_edit_banner_subtitle": "Är Bestellung {{order_number}} gouf aktualiséiert. Iwwerpréift dës Ännerungen, bezuelt dann fir Är Bestellung ze bestätegen.",
+        "purchase_options_agreement_label": "Ech verstinn datt een oder méi Elementer a mengem Wuerekuerf e verspéiten oder widderhuelende Kaf ass. Andeems Dir weider geet, averstanen ech mam %{cancellation_policy_label} an autoriséieren Iech meng Bezuelmethod zu de Präisser, Frequenz an Datumen, déi op dëser Säit opgezielt sinn, ze bezuelen bis meng Bestellung erfëllt ass oder ech annuléieren, wann erlaabt."
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -485,7 +488,8 @@
         "duties_and_taxes_options": {
           "ddp_caption": "Keng zousätzlech Käschten op Liwwerung",
           "ddu_title": "Bezuelen op Liwwerung",
-          "ddu_caption": "Zousätzlech Käschten kënnen zoutreffen"
+          "ddu_caption": "Zousätzlech Käschten kënnen zoutreffen",
+          "ddp_title": "Bezuelen elo"
         }
       },
       "order_summary": {
@@ -1120,7 +1124,8 @@
         "three_d_secure_throttled": "Ze vill Versich; weg wait ier Dir nach eng Kéier probéiert",
         "expired_card": "Är Kaart ass ofgelaf. Benotzt eng aner Bezuelmethod.",
         "method_not_available": "D' Gefraagt betenmetode ass net verfügbar.",
-        "transient_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Bezuelung. Probéiert dës Säit z'erfrëschen oder kontrolléiert Är Internetverbindung."
+        "transient_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Bezuelung. Probéiert dës Säit z'erfrëschen oder kontrolléiert Är Internetverbindung.",
+        "cannot_verify": "Är Bezuelungsdetailer konnten net verifizéiert ginn. Kontrolléiert Är Kaartdetailer a probéiert nach eng Kéier."
       },
       "post_purchase": {
         "title": "Post-Akaaf",

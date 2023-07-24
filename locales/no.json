@@ -518,7 +518,8 @@
         "gift_card_invalid": "Gavekortet \"••••%{last_four_characters}\" er ikke lenger gyldig",
         "address_last_name_contains_html_tags": "Etternavn kan ikke inneholde HTML-koder.",
         "address_zip_contains_emojis": "Postnummer kan ikke inneholde emojier",
-        "address_zip_invalid_for_country": "Skriv inn et gyldig postnummer for %{country}"
+        "address_zip_invalid_for_country": "Skriv inn et gyldig postnummer for %{country}",
+        "credit_card_start_invalid": "Angi en gyldig startdato for kortet"
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",
@@ -587,7 +588,10 @@
         "development_store_order_limit_reached": "Du har nådd grensen for utviklingsbutikkbestillinger med denne betalingsbehandleren. For å legge inn en annen bestilling, må du bruke en testbetalingsgateway. Lær mer om %{development_store_order_testing_docs_link}.",
         "deferred_payment_required": "Denne bestillingen krever utsatt betaling. Vennligst sjekk bestillingen din og prøv igjen.",
         "development_store_order_testing_docs_link": "testing av bestillinger i utviklingsbutikker",
-        "development_store_with_order_limit": "For å legge inn en testbestilling, må du bruke en testbetalingsgateway. Lær mer om %{development_store_order_testing_docs_link}."
+        "development_store_with_order_limit": "For å legge inn en testbestilling, må du bruke en testbetalingsgateway. Lær mer om %{development_store_order_testing_docs_link}.",
+        "missing_shipping_address": "Betalingen din kunne ikke behandles fordi leveringsadressen din mangler. Legg til en leveringsadresse, og prøv på nytt.",
+        "deferred_payment_not_allowed": "Utsatt betaling er ikke tillatt. Vennligst sjekk bestillingen din og prøv igjen.",
+        "invalid_cvc": "Angi en gyldig sikkerhetskode"
       },
       "payment_gateway": {
         "cash_on_delivery_label": "Postoppkrav (COD)",
@@ -772,7 +776,8 @@
         },
         "payment_method_title": "Betalingsmetode",
         "resend_gift_cards_by_text": "Sende tekstmelding på nytt",
-        "ready_for_delivery": "Klar for levering"
+        "ready_for_delivery": "Klar for levering",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Du foretok en betaling på bestillingen din %{date}."
       },
       "marketing": {
         "sms": {

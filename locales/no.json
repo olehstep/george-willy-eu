@@ -238,7 +238,8 @@
         },
         "unavailable_label": "Utilgjengelig",
         "products_not_available": {
-          "one": "Dette produktet vil bli fjernet fra handlekurven din fordi det ikke er tilgjengelig i ditt land\/region."
+          "one": "Dette produktet vil bli fjernet fra handlekurven din fordi det ikke er tilgjengelig i ditt land\/region.",
+          "other": "Disse produktene vil bli fjernet fra handlekurven din fordi de ikke er tilgjengelige i ditt land\/region."
         }
       },
       "shipping": {
@@ -913,7 +914,8 @@
       },
       "customer_account": {
         "save_my_information_label": "Lagre denne informasjonen til neste gang",
-        "not_user_label": "Ikke %{first_name}?"
+        "not_user_label": "Ikke %{first_name}?",
+        "sign_out_link_label": "Logg ut"
       },
       "customer_payment_methods": {
         "update_card_button_label": "Oppdater kortet",

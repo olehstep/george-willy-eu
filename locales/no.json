@@ -1885,7 +1885,8 @@
         "close_payment_modal_accessibility_label": "Lukk betalingsmåtedetaljer modal",
         "invalid_payment_method_message": "Bruk et nytt kredittkort for å fortsette å motta kommende bestillinger.",
         "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} varer totalt, viser {{totalItemsToDisplay}} elementer.",
-        "billing_title": "Fakturaadresse"
+        "billing_title": "Fakturaadresse",
+        "invalid_payment_method": "Ugyldig betalingsmåte"
       },
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalingsmåten er oppdatert",
@@ -1919,7 +1920,8 @@
         "card_verification_value_label": "Sikkerhetskode",
         "tooltip": {
           "card_verification_value_explanation": "3-sifret sikkerhetskode finnes vanligvis på baksiden av kortet ditt. American Express-kort har en 4-sifret kode på forsiden.",
-          "tooltip_accessibility_label": "Mer informasjon"
+          "tooltip_accessibility_label": "Mer informasjon",
+          "card_verification_value_explanation_other": "3-sifret sikkerhetskode på baksiden av kortet ditt"
         },
         "field_errors": {
           "credit_card_number_invalid": "Skriv inn et gyldig kortnummer",
@@ -1940,7 +1942,8 @@
       },
       "google_pay": {
         "errors": {
-          "missing_billing_address": "Google Pay krever en faktureringsadresse. Vennligst legg til en til kontoen din."
+          "missing_billing_address": "Google Pay krever en faktureringsadresse. Vennligst legg til en til kontoen din.",
+          "generic": "Det oppsto et problem med Google Pay. Prøv på nytt eller bruk en annen betalingsmetode."
         },
         "loading": "Laster inn Google Pay"
       },

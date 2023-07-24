@@ -177,19 +177,23 @@
         "autocomplete_title": "Virschléi",
         "dates": {
           "weekdays_abbreviation": {
-            "friday": "Fr"
+            "friday": "Fr",
+            "saturday": "op"
           },
           "weekdays": {
             "wednesday": "Mëttwoch"
           },
           "months": {
             "october": "Oktober",
-            "august": "August"
+            "august": "August",
+            "september": "September"
           }
         },
         "datepicker": {
           "range_start": "Range Start"
-        }
+        },
+        "title": "Checkout - {{shopName}}",
+        "submit_for_review_button_label": "Gitt fir Iwwerpréiwung of"
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -955,7 +959,8 @@
         "email_placeholder": "E-Mail",
         "shipping_used_as_billing_notice": "Dëst gëtt och als Är Rechnungsadress fir dës Bestellung benotzt.",
         "company_contact_info": "{{companyName}} · {{contact}}",
-        "ship_to_company": "Schéckt op {{companyName}}"
+        "ship_to_company": "Schéckt op {{companyName}}",
+        "change_company_location_link_label": "Änneren Firma Standuert"
       },
       "marketing": {
         "unsubscribe": {

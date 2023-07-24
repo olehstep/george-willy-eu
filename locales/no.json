@@ -2462,7 +2462,8 @@
     "login": {
       "label": "Gå inn i butikken med passord:",
       "admin_link_html": "Er du butikkeier? <a href=\"\/admin\">Logg inn her<\/a>",
-      "link": "Skriv inn med passord"
+      "link": "Skriv inn med passord",
+      "button": "Tast inn"
     },
     "signup": {
       "success": "Takk for din interesse! Vi vil sørge for å holde deg oppdatert."

@@ -1545,7 +1545,8 @@
         "gift_card_payment_details": "slutter med {{lastDigits}} - {{formattedTransactionAmount}}",
         "card_payment_details": "slutter med {{lastDigits}} - {{formattedTransactionAmount}}",
         "manual_payment_methods": {
-          "money_order": "Postanvisning - {{formattedTransactionAmount}}"
+          "money_order": "Postanvisning - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Postoppkrav (COD) - {{formattedTransactionAmount}}"
         }
       },
       "hide_order_summary": "Skjul ordresammendrag",
@@ -1771,7 +1772,8 @@
         "own_role_contact_name": "Du",
         "payment_terms": "Betalingsbetingelser",
         "multiple_tax_exemptions": "{{taxExemptionsCount}} mer",
-        "taxes_none": "Ingen"
+        "taxes_none": "Ingen",
+        "shipping_address_required": "Legg til en leveringsadresse til dette stedet for å begynne å legge inn bestillinger."
       },
       "location_selection": {
         "selection_cancel_button": "Avbryt",
@@ -1782,7 +1784,8 @@
         "list_loading_accessibility_message": "Laster inn liste over steder",
         "title": "Hvilket sted kjøper du?",
         "list_loading_address_accessibility_message": "Laster adresse for {{locationName}}",
-        "list_item_accessibility_label": "{{name}}: {{address}}"
+        "list_item_accessibility_label": "{{name}}: {{address}}",
+        "search_location_title": "Velg et sted"
       },
       "orders": {
         "order_list_column_headers_contact": "Ta kontakt med",
@@ -1956,7 +1959,8 @@
       "delete_payment_method_button_accessibility_label": "Slett {{paymentMethodName}}",
       "edit_payment_method_brand_button_accessibility_label": "Rediger {{paymentMethodName}}",
       "add_payment_method_button": "Legg til betalingsmåte",
-      "no_payment_methods_banner": "Ingen betalingsmetoder lagt til"
+      "no_payment_methods_banner": "Ingen betalingsmetoder lagt til",
+      "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}} som slutter på {{lastDigits}}"
     },
     "payment_method_brands": {
       "americanexpress": "American Express",

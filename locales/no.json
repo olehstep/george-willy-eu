@@ -331,7 +331,8 @@
           "prepaid_shipping_price_label": "%{shipping_price} per levering x %{delivery_interval_count}",
           "multiple_subscriptions_shipping_price_label": "%{shipping_price} per levering",
           "prepaid_delivery_frequency": {
-            "one": "for %{count} levering"
+            "one": "for %{count} levering",
+            "other": "for %{count} leveranser"
           }
         },
         "two_day_delivery": "2-dagers levering %{time}",
@@ -487,7 +488,8 @@
         "subscription_agreement_label": "Jeg forstår at jeg godtar et abonnement. Den fornyes til prisen og frekvensen som er oppført til den slutter eller er %{cancelled}.",
         "preview_not_available": {
           "title": "Forhåndsvisning er ikke tilgjengelig",
-          "content": "Ikke bekymre deg, denne ekspresskassen fungerer for kundene dine."
+          "content": "Ikke bekymre deg, denne ekspresskassen fungerer for kundene dine.",
+          "button": "Ok"
         },
         "gift_card_wrapper": {
           "payment_tag": "Gavekort",

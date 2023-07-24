@@ -430,7 +430,8 @@
         "order_edit_banner_multiple_items_added": "{{amount}} lagt til",
         "same_billing_address_checkbox_label": "Bruk leveringsadresse som faktureringsadresse",
         "discount_button_action_label": "Bruk rabattkode",
-        "card_expiration_month_label": "Utløpsmåned"
+        "card_expiration_month_label": "Utløpsmåned",
+        "order_edit_banner_single_item_added": "La til"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -497,7 +498,9 @@
         "phone_blank": "Skriv inn et telefonnummer",
         "address_zip_invalid": "Skriv inn et gyldig postnummer",
         "shipping_line_phone_blank": "Skriv inn et telefonnummer for å bruke denne leveringsmetoden",
-        "gift_card_invalid": "Gavekortet \"••••%{last_four_characters}\" er ikke lenger gyldig"
+        "gift_card_invalid": "Gavekortet \"••••%{last_four_characters}\" er ikke lenger gyldig",
+        "address_last_name_contains_html_tags": "Etternavn kan ikke inneholde HTML-koder.",
+        "address_zip_contains_emojis": "Postnummer kan ikke inneholde emojier"
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",
@@ -565,7 +568,8 @@
         "payment_processing": "Betalingen din kan ikke behandles av tekniske årsaker. Prøv på nytt eller bruk en annen betalingsmetode.",
         "development_store_order_limit_reached": "Du har nådd grensen for utviklingsbutikkbestillinger med denne betalingsbehandleren. For å legge inn en annen bestilling, må du bruke en testbetalingsgateway. Lær mer om %{development_store_order_testing_docs_link}.",
         "deferred_payment_required": "Denne bestillingen krever utsatt betaling. Vennligst sjekk bestillingen din og prøv igjen.",
-        "development_store_order_testing_docs_link": "testing av bestillinger i utviklingsbutikker"
+        "development_store_order_testing_docs_link": "testing av bestillinger i utviklingsbutikker",
+        "development_store_with_order_limit": "For å legge inn en testbestilling, må du bruke en testbetalingsgateway. Lær mer om %{development_store_order_testing_docs_link}."
       },
       "payment_gateway": {
         "cash_on_delivery_label": "Postoppkrav (COD)",
@@ -573,7 +577,8 @@
         "credit_card_label": "Kredittkort",
         "draft_order_payment_due_later_no_terms_payment_selected": "Kortet ditt vil bli belastet når bestillingen din er bekreftet.",
         "draft_order_payment_due_later_terms": "Du vil være på {{translatedName}} vilkår når bestillingen din er bekreftet.",
-        "draft_order_payment_due_later_no_terms": "Betalingen din forfaller når bestillingen din er bekreftet."
+        "draft_order_payment_due_later_no_terms": "Betalingen din forfaller når bestillingen din er bekreftet.",
+        "debit_card_label": "Debetkort"
       },
       "thank_you": {
         "estimated_arrival": "Estimert leveringsdato: ",
@@ -586,7 +591,8 @@
           "shop_promise": {
             "out_for_delivery": {
               "delayed": "Forsendelsen din som forventes innen %{date} er forsinket.",
-              "guaranteed_delayed": "Forsendelsen din kom ikke som forventet innen %{date}. Når den kommer kan du sende inn et krav med"
+              "guaranteed_delayed": "Forsendelsen din kom ikke som forventet innen %{date}. Når den kommer kan du sende inn et krav med",
+              "guaranteed_on_time": "Levering garantert av %{date} med"
             },
             "confirmed": {
               "on_time": "Levering innen %{date} med",
@@ -599,7 +605,8 @@
             },
             "delivered": {
               "guaranteed_on_time": "Levert til rett tid med",
-              "guaranteed_delayed": "Siden forsendelsen din kom etter forventet dato på %{date}, kan du være kvalifisert for %{shop_cash} med"
+              "guaranteed_delayed": "Siden forsendelsen din kom etter forventet dato på %{date}, kan du være kvalifisert for %{shop_cash} med",
+              "delayed": "Levert %{date}, opprinnelig forventet av %{original_delivery_date}"
             }
           }
         },
@@ -746,7 +753,8 @@
           "description": "Fortsett til kontoen din for å se og administrere abonnementene dine."
         },
         "payment_method_title": "Betalingsmetode",
-        "resend_gift_cards_by_text": "Sende tekstmelding på nytt"
+        "resend_gift_cards_by_text": "Sende tekstmelding på nytt",
+        "ready_for_delivery": "Klar for levering"
       },
       "marketing": {
         "sms": {

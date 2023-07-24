@@ -1870,7 +1870,8 @@
       "title": "Adresser",
       "delete_button": "Slett",
       "loading_finished_accessibility_message": "Ny side med adresser er lastet inn",
-      "no_addresses_banner": "Ingen adresser lagt til"
+      "no_addresses_banner": "Ingen adresser lagt til",
+      "back_button_accessibility_label": "Tilbake til redigeringsadresse {{address}}"
     },
     "account_information": {
       "profile_card": {
@@ -1986,7 +1987,8 @@
         "contact_list_title": "Mennesker",
         "tax_details_title": "Skattedetaljer",
         "tax_id": "Skatte-ID",
-        "location_picker_accessibility_label": "Stedsnavn: {{locationName}}"
+        "location_picker_accessibility_label": "Stedsnavn: {{locationName}}",
+        "tax_exemptions_modal_button_accessibility_label": "Se alle skattefritak"
       },
       "location_selection": {
         "selection_cancel_button": "Avbryt",
@@ -1998,7 +2000,8 @@
         "title": "Hvilket sted kjøper du?",
         "list_loading_address_accessibility_message": "Laster adresse for {{locationName}}",
         "list_item_accessibility_label": "{{name}}: {{address}}",
-        "search_location_title": "Velg et sted"
+        "search_location_title": "Velg et sted",
+        "loading_store_accessibility_message": "Skal på butikk"
       },
       "orders": {
         "order_list_column_headers_contact": "Ta kontakt med",
@@ -2026,7 +2029,8 @@
       },
       "account_information": {
         "company_card_section_accessibility_label": "Selskap",
-        "company_card_location_count_label": "Steder"
+        "company_card_location_count_label": "Steder",
+        "company_card_name_label": "Selskapsnavn"
       },
       "payment_methods": {
         "payment_delete": {

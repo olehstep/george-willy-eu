@@ -2221,7 +2221,8 @@
     "social": {
       "share_on_pinterest": "Fest den",
       "share_heading": "Dele",
-      "share_on_facebook": "Del på Facebook"
+      "share_on_facebook": "Del på Facebook",
+      "share_on_twitter": "Del på Twitter"
     },
     "meta": {
       "page": "Side {{ page }}",
@@ -2378,7 +2379,8 @@
       "empty": "Du har ingen artikler ennå! Når du har skrevet en, vil den dukke opp her."
     },
     "product": {
-      "sku": "SKU1234"
+      "sku": "SKU1234",
+      "product_title": "Produkttittel"
     }
   },
   "collections": {

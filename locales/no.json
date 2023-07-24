@@ -1363,7 +1363,8 @@
       },
       "address": {
         "created": "Vellykket opprettet adresse",
-        "error_updating": "Feil under oppdatering av adresse"
+        "error_updating": "Feil under oppdatering av adresse",
+        "deleted": "Adressen er slettet"
       },
       "storefront": {
         "invalid_password": "Passordet er feil. Prøv igjen."
@@ -1396,7 +1397,8 @@
       },
       "unsubscribed": {
         "preview": "Du forhåndsviser hva kundene vil se når de avslutter abonnementet.",
-        "confirmation": "Du har meldt deg av e-postlisten vår."
+        "confirmation": "Du har meldt deg av e-postlisten vår.",
+        "disclaimer": "Du vil ikke motta flere markedsføringsoppdateringer fra oss. Du kan abonnere på nytt når som helst."
       },
       "subscribed": {
         "confirmation": "Takk for at du abonnerer på vår e-postliste.",

@@ -41,7 +41,8 @@
             "april": "april",
             "february": "februar",
             "october": "oktober",
-            "september": "september"
+            "september": "september",
+            "may": "Kan"
           },
           "weekdays_abbreviation": {
             "monday": "Mo",
@@ -71,7 +72,8 @@
         "autocomplete_selection": "{{number}} av {{total}}",
         "autocomplete_title": "Forslag",
         "stepper": {
-          "decrease": "Reduser {{type}}"
+          "decrease": "Reduser {{type}}",
+          "minimum_reached": "Minimum {{value}} nådd"
         },
         "submit": "Sende inn",
         "contact_us_html": "Kontakt oss for mer informasjon",

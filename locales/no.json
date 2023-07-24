@@ -1031,12 +1031,14 @@
           "body": "Varer i handlekurven reserveres ikke før du har fullført kassen."
         },
         "estimated_wait_time": {
-          "other": "Estimert ventetid: {{count}} minutter"
+          "other": "Estimert ventetid: {{count}} minutter",
+          "calculating": "Beregner estimert ventetid"
         },
         "title": "Kø",
         "too_many_attempts": {
           "description": "Prøv igjen om noen minutter"
-        }
+        },
+        "time_to_checkout_title": "På tide å sjekke ut - {{shopName}}"
       },
       "deliverability": {
         "not_deliverable": {

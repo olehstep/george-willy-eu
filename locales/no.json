@@ -494,7 +494,12 @@
         "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} totalt %{total_shop_price}",
         "google": {
           "error_authorizing": "Feil ved autorisering av betaling"
-        }
+        },
+        "update_payment_method": "Oppdater betalingsmåten",
+        "store_credit": {
+          "label": "Butikkreditt"
+        },
+        "billing_address_invalid_phone_no_card": "Oppdater telefonnummeret i faktureringsadressen for å fortsette."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

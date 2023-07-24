@@ -1585,7 +1585,8 @@
           "one": "Hvis den ikke ble mottatt, send e-posten på nytt eller"
         },
         "gift_card_resend_description_text": {
-          "other": "Hvis de ikke ble mottatt, send tekstene på nytt eller"
+          "other": "Hvis de ikke ble mottatt, send tekstene på nytt eller",
+          "one": "Hvis den ikke ble mottatt, send teksten på nytt eller"
         },
         "request_return": "Be om retur",
         "delivered_description_gift_card": {
@@ -1601,7 +1602,8 @@
         },
         "gift_card_resend": {
           "one": "Send e-post igjen"
-        }
+        },
+        "submitted_label": "Sendt inn"
       },
       "group_title_label": "Del av: {{groupTitle}}",
       "buy_again": "Kjøp igjen",
@@ -1703,7 +1705,8 @@
       "group_title_label": "Del av: {{groupTitle}}",
       "shop_pay": {
         "learn_more": "Lære mer"
-      }
+      },
+      "discount": "Rabatt"
     },
     "address_form": {
       "loading_finished_accessibility_message": "Adresseskjemaet er lastet inn",

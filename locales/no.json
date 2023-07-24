@@ -527,7 +527,10 @@
         "custom_onsite_payment_method_modal": {
           "title": "Tilpasset betalingsbekreftelse på stedet"
         },
-        "markets_pro_disclaimer_terms_and_conditions": "Vilkår og betingelser"
+        "markets_pro_disclaimer_terms_and_conditions": "Vilkår og betingelser",
+        "purchase_order_number": {
+          "label": "Innkjøpsordrenummer (valgfritt)"
+        }
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

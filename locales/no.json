@@ -696,7 +696,8 @@
             "in_transit": {
               "delayed": "Forsendelsen din som forventes innen %{date} er forsinket.",
               "guaranteed_delayed": "Forsendelsen din kom ikke som forventet innen %{date}. Når den kommer kan du sende inn et krav med",
-              "on_time": "Levering innen %{date} med"
+              "on_time": "Levering innen %{date} med",
+              "guaranteed_on_time": "Levering garantert av %{date} med"
             },
             "delivered": {
               "guaranteed_on_time": "Levert til rett tid med",
@@ -852,7 +853,10 @@
         "ready_for_delivery": "Klar for levering",
         "order_status_confirmed_order_with_email_and_phone_payment": "Du foretok en betaling på bestillingen din %{date}.",
         "shipping_method_title": "Forsendelsesmetode",
-        "login_title": "Logg inn for å se alle ordredetaljer"
+        "login_title": "Logg inn for å se alle ordredetaljer",
+        "resend_gift_cards": "Send gavekort på nytt",
+        "order_updates_description_html": "Oppdateringer vil bli sendt til %{customer_contact}",
+        "unfulfilled_items_title": "Forbereder for frakt"
       },
       "marketing": {
         "sms": {

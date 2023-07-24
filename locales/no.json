@@ -556,7 +556,8 @@
         },
         "purchase_options_agreement_label_html": "Jeg forstår at en eller flere varer i handlekurven min er et utsatt eller tilbakevendende kjøp. Ved å fortsette godtar jeg\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbestillingsregler<\/a>\nog autorisere deg til å belaste betalingsmåten min til prisene, frekvensen og datoene som er oppført på denne siden frem til min\nbestillingen er oppfylt eller jeg kansellerer, hvis det er tillatt.\n",
         "order_edit_banner_single_item_returned": "Returnert",
-        "ftd_vault_credit_card_label": "Lagre dette kredittkortet på kontoen min for en raskere utsjekking"
+        "ftd_vault_credit_card_label": "Lagre dette kredittkortet på kontoen min for en raskere utsjekking",
+        "card_verification_value_explanation": "3-sifret sikkerhetskode finnes vanligvis på baksiden av kortet ditt. American Express-kort har en 4-sifret kode på forsiden."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -1021,7 +1022,8 @@
         "pick_up_in_five_or_more_days": "Vanligvis klar om 5+ dager",
         "subscription_pickup_information": "Denne leveringsmetoden gjelder for alle varer i denne bestillingen og for alle fremtidige bestillinger av dette abonnementet.",
         "pick_up_next_day": "Klar for henting neste dag",
-        "pick_up_in_two_to_four_hours": "Klar for henting om 4 timer"
+        "pick_up_in_two_to_four_hours": "Klar for henting om 4 timer",
+        "pick_up_in_zero_to_two_hours": "Klar for henting om 2 timer"
       },
       "mor_policies": {
         "privacy_policy": "Personvernerklæring for selgere",

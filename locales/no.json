@@ -1615,7 +1615,8 @@
       "status_mark_as_delivered": "Merk som levert",
       "let_us_know": "Gi oss beskjed",
       "contact_us": "kontakt oss.",
-      "list_layout_accessibility_label": "Oppsettalternativer"
+      "list_layout_accessibility_label": "Oppsettalternativer",
+      "havent_received_your_delivery": "Har du ikke mottatt leveringen din?"
     },
     "order_details": {
       "contact": "Ta kontakt med",

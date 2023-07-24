@@ -1258,7 +1258,8 @@
         "transaction_status": {
           "error": "Feil",
           "pending": "Avventer",
-          "success": "Suksess"
+          "success": "Suksess",
+          "failure": "Feil"
         },
         "fulfillment_status": {
           "unfulfilled": "Uoppfylt",

@@ -348,7 +348,8 @@
         "saved_credit_card": "Är gespäichert Kreditkaart",
         "gift_card_wrapper": {
           "apply_gift_card_label": "Gëlle eng Cadeau Kaart",
-          "payment_tag": "Geschenkkaart"
+          "payment_tag": "Geschenkkaart",
+          "heading": "Geschenkkaart"
         },
         "waiting_on_taxes_notice": "Beschel",
         "purchase_order_number": {
@@ -934,7 +935,8 @@
         "resend_gift_cards_by_email": "E-Mail zréckschécken",
         "order_status_confirmed_with_installments_payment_return": "Gitt w.e.g. Är Opmierksamkeet zréck op de Verkeefer Associé.",
         "subscriptions_management": {
-          "description": "Fuert weider op Äre Kont fir Är Abonnementer ze gesinn an ze verwalten."
+          "description": "Fuert weider op Äre Kont fir Är Abonnementer ze gesinn an ze verwalten.",
+          "title": "Abonnement"
         }
       },
       "contact": {
@@ -1339,7 +1341,8 @@
         "save_my_information_label": "Späichert dës Informatioun fir d'nächst Kéier",
         "have_an_account_label": "Hutt Dir schonn e Kont?",
         "not_user_label": "Net %{first_name}?",
-        "sign_out_link_label": "Ausloggen"
+        "sign_out_link_label": "Ausloggen",
+        "invalid_address": "Ausgewien Adress ass net gellgt"
       },
       "notifications": {
         "title": "Notifikatiounen"
@@ -1866,7 +1869,10 @@
           "one": "Giftkaart Resentt"
         },
         "company_tracking_number": "{{company}} Tracking Zuel:",
-        "confirmed_description_digital": "Dir kritt eng E-Mail wann Är Bestellung fäerdeg ass."
+        "confirmed_description_digital": "Dir kritt eng E-Mail wann Är Bestellung fäerdeg ass.",
+        "gift_resend_failure": {
+          "one": "Et gouf e Problem Är Kaddoskaart nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis."
+        }
       },
       "list_layout_accessibility_label": "Layout Optiounen",
       "status_title": "Bestellung Status",
@@ -2414,7 +2420,8 @@
       "zero_duties_tooltip": "Dës Bestellung gëtt aus engem anere Land geschéckt. Flichte ginn net op Bestellunge vun dësem Wäert verrechent.",
       "company": "Firma",
       "order_details_skeleton_accessibility_label": "Mellt Iech un fir all Bestellungsdetailer ze gesinn.",
-      "order_details": "Detailer bestellen"
+      "order_details": "Detailer bestellen",
+      "marketing_description": "Dir kritt Marketing E-Maile. Dir kënnt zu all Moment ofmellen."
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",
@@ -2484,7 +2491,8 @@
       "legal_notice": "Legal Notiz",
       "terms_of_sale": "Konditioune vum Verkaf",
       "subscription_policy": "Abonnement Politik",
-      "privacy_policy": "Privatsphär Politik"
+      "privacy_policy": "Privatsphär Politik",
+      "shipping_policy": "Versandpolitik"
     },
     "enable_javascript": "Fir Äre Kont ze gesinn, aktivéiert JavaScript an Äre Browser-Astellungen oder loggt Iech mat engem anere Browser un."
   },

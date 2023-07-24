@@ -1704,7 +1704,8 @@
         "free": "Gratis",
         "address_map_marker": "Sendingsadresse",
         "subscription": "Abonnementsfrakt",
-        "address": "Sendingsadresse"
+        "address": "Sendingsadresse",
+        "method": "Forsendelsesmetode"
       },
       "payment": {
         "status_unpaid": "Betaling forfaller {{date}}",
@@ -1785,7 +1786,8 @@
       "discount": "Rabatt",
       "summary_title": "Bestillingssammendrag",
       "subtitle": "Bekreftet {{date}}",
-      "billing_address": "Fakturaadresse"
+      "billing_address": "Fakturaadresse",
+      "log_in_to_a_different_account": "Logg på en annen konto"
     },
     "address_form": {
       "loading_finished_accessibility_message": "Adresseskjemaet er lastet inn",
@@ -1952,7 +1954,8 @@
         "shipping_address_required": "Legg til en leveringsadresse til dette stedet for å begynne å legge inn bestillinger.",
         "contact_list_title": "Mennesker",
         "tax_details_title": "Skattedetaljer",
-        "tax_id": "Skatte-ID"
+        "tax_id": "Skatte-ID",
+        "location_picker_accessibility_label": "Stedsnavn: {{locationName}}"
       },
       "location_selection": {
         "selection_cancel_button": "Avbryt",

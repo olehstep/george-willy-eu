@@ -489,7 +489,8 @@
         "billing_must_match_shipping_notice": "Faktureringsadressen til betalingsmåten din må samsvare med leveringsadressen.",
         "markets_pro_disclaimer_terms_and_conditions_title": "Forhandlerens vilkår og betingelser",
         "credit_card_vaulting_sign_in_banner_title": "Lagre kredittkortet ditt",
-        "masked_digits_label": "•••• %{last_digits}"
+        "masked_digits_label": "•••• %{last_digits}",
+        "technical_error": "Betalinger kan ikke behandles akkurat nå på grunn av et teknisk problem. Prøv igjen om noen minutter."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

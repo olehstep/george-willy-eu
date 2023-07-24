@@ -895,7 +895,10 @@
         "resend_gift_cards": "Send gavekort på nytt",
         "order_updates_description_html": "Oppdateringer vil bli sendt til %{customer_contact}",
         "unfulfilled_items_title": "Forbereder for frakt",
-        "confirmed_description": "Vi har godtatt bestillingen din, og vi gjør den klar. Kom tilbake til denne siden for oppdateringer om forsendelsesstatusen din."
+        "confirmed_description": "Vi har godtatt bestillingen din, og vi gjør den klar. Kom tilbake til denne siden for oppdateringer om forsendelsesstatusen din.",
+        "gift_card_text_title": {
+          "one": "Gavekortet ble sendt på SMS"
+        }
       },
       "marketing": {
         "sms": {
@@ -946,7 +949,8 @@
           "change_contact_method_link_label": "Endre kontaktinformasjon",
           "shipping_method_title": "Metode",
           "no_purchase_order_number": "(Ingen PO-nummer)",
-          "purchase_order_number_title": "Postnummer"
+          "purchase_order_number_title": "Postnummer",
+          "change_link_label": "Endring"
         },
         "checkout_as_guest": "Sjekk ut som gjest",
         "review_title": "Gjennomgå bestillingen",

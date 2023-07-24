@@ -2573,7 +2573,8 @@
       "title": "Logg Inn",
       "sign_in": "Logg inn",
       "forgot_password": "Glemt passordet?",
-      "password": "Passord"
+      "password": "Passord",
+      "guest_continue": "Fortsette"
     },
     "general": {
       "or": "eller",

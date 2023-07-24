@@ -197,7 +197,12 @@
         "stepper": {
           "minimum_reached": "Minimum vun {{value}} erreecht"
         },
-        "autocomplete_powered_by_google": "Ugedriwwe vun {{brandName}}"
+        "autocomplete_powered_by_google": "Ugedriwwe vun {{brandName}}",
+        "list_formatter": {
+          "or": {
+            "twoWordConnector": "{{firstWord}} oder {{secondWord}}"
+          }
+        }
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -392,7 +397,9 @@
         "use_different_credit_card_label": "Benotzt eng aner Kaart",
         "purchase_options_and_vaulting_agreement_label": "Een oder méi Artikelen an Ärem Wuerekuerf ass e verspéiten oder widderhuelende Kaf. Andeems Dir mat Ärer Bezuelung weidergitt, sidd Dir averstanen datt Är Bezuelmethod automatesch de Präis an d'Frequenz op dëser Säit opgezielt gëtt, bis se eriwwer ass oder Dir annuléiert. All Annuléierungen ënnerleien dem %{cancellation_policy_label}.",
         "order_edit_banner_subtitle": "Är Bestellung {{order_number}} gouf aktualiséiert. Iwwerpréift dës Ännerungen, bezuelt dann fir Är Bestellung ze bestätegen.",
-        "purchase_options_agreement_label": "Ech verstinn datt een oder méi Elementer a mengem Wuerekuerf e verspéiten oder widderhuelende Kaf ass. Andeems Dir weider geet, averstanen ech mam %{cancellation_policy_label} an autoriséieren Iech meng Bezuelmethod zu de Präisser, Frequenz an Datumen, déi op dëser Säit opgezielt sinn, ze bezuelen bis meng Bestellung erfëllt ass oder ech annuléieren, wann erlaabt."
+        "purchase_options_agreement_label": "Ech verstinn datt een oder méi Elementer a mengem Wuerekuerf e verspéiten oder widderhuelende Kaf ass. Andeems Dir weider geet, averstanen ech mam %{cancellation_policy_label} an autoriséieren Iech meng Bezuelmethod zu de Präisser, Frequenz an Datumen, déi op dëser Säit opgezielt sinn, ze bezuelen bis meng Bestellung erfëllt ass oder ech annuléieren, wann erlaabt.",
+        "vaulting_agreement_label": "Spuert meng Bezuelinformatioun mat %{company} fir e méi séier Checkout.",
+        "shipping_rate_updated": "Verfügbar Versandmethoden goufen aktualiséiert. Bestätegt Äre Choix virum Auschecken."
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -1173,7 +1180,8 @@
         }
       },
       "change_country": {
-        "cart_updated_based_on_country": "Äre Weenchen gouf aktualiséiert baséiert op Ärem Versandland."
+        "cart_updated_based_on_country": "Äre Weenchen gouf aktualiséiert baséiert op Ärem Versandland.",
+        "cart_and_currency_updated_based_on_country": "Äer Cart a Wäicher Aktualiséierungen ass der der Schäfscht."
       },
       "order_payment_collection": {
         "changes_summary": {

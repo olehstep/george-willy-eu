@@ -1462,7 +1462,8 @@
         },
         "request_return": "Be om retur",
         "delivered_description_gift_card": {
-          "one": "Gavekort ble sendt på e-post."
+          "one": "Gavekort ble sendt på e-post.",
+          "other": "Gavekort ble sendt på e-post."
         },
         "confirmed_description_pickup": "Du vil motta en e-post når bestillingen din er klar for henting.",
         "confirmed_description": "Vi har mottatt bestillingen din.",
@@ -1498,7 +1499,8 @@
         "subscription": "Abonnementsfrakt"
       },
       "payment": {
-        "status_unpaid": "Betaling forfaller {{date}}"
+        "status_unpaid": "Betaling forfaller {{date}}",
+        "gift_card_payment_details": "slutter med {{lastDigits}} - {{formattedTransactionAmount}}"
       },
       "hide_order_summary": "Skjul ordresammendrag",
       "total": "Total",
@@ -1630,7 +1632,8 @@
       "people": {
         "pagination": {
           "load_more": "Last mer",
-          "load_more_accessibility_label": "Last inn flere folk"
+          "load_more_accessibility_label": "Last inn flere folk",
+          "loading_accessibility_label": "Laster inn folk"
         }
       },
       "loading_finished_accessibility_message": "Kontoinformasjon er lastet inn",

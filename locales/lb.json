@@ -1392,7 +1392,8 @@
         },
         "too_many_attempts": {
           "description": "Probéiert w.e.g. an eeun Minuten"
-        }
+        },
+        "title": "Schlaang"
       },
       "deliverability": {
         "not_deliverable": {

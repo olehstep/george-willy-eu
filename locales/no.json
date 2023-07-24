@@ -874,7 +874,8 @@
         "customer_validation_error": "Skriv inn en gyldig e-post eller ordrenummer.",
         "order_updates_subscribe_to_email_notifications_email_already_exists": "E-postadressen du skrev inn, eksisterer allerede.",
         "gift_card_resend_failure": {
-          "other": "Det oppstod et problem med å sende gavekortene på nytt. Prøv på nytt eller kontakt oss."
+          "other": "Det oppstod et problem med å sende gavekortene på nytt. Prøv på nytt eller kontakt oss.",
+          "one": "Det oppstod et problem med å sende gavekortet på nytt. Prøv på nytt eller kontakt oss."
         },
         "order_number_label": "Ordrenummer",
         "contact_information_title": "Kontaktinformasjon",

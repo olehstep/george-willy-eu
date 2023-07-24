@@ -267,7 +267,8 @@
     },
     "transfers": {
       "will_not_ship_until": "Skickar {{ date }}",
-      "will_be_in_stock_after": "I lager efter {{ date }}"
+      "will_be_in_stock_after": "I lager efter {{ date }}",
+      "waiting_for_stock": "Mer lager kommer snart"
     },
     "listing": {
       "from": "Från"

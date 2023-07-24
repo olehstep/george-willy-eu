@@ -2291,7 +2291,8 @@
       "submit": "Beregn frakt",
       "loading": "Beregner...",
       "button_show": "Anntatte frakt kostnader",
-      "at": "på"
+      "at": "på",
+      "province": "Provins"
     },
     "general": {
       "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">Shipping<\/a> beregnes i kassen",
@@ -2305,7 +2306,8 @@
       "remove": "Ta bort",
       "backorder": "Produktet er restordret og sendes så snart det er tilbake på lager.",
       "subtotal": "Delsum",
-      "taxes_included_and_shipping_policy_html": "Avgift inkludert. <a href=\"{{ link }}\">Shipping<\/a> beregnes i kassen."
+      "taxes_included_and_shipping_policy_html": "Avgift inkludert. <a href=\"{{ link }}\">Shipping<\/a> beregnes i kassen.",
+      "update": "Oppdater handlekurven"
     },
     "label": {
       "quantity": "Mengde",
@@ -2389,7 +2391,8 @@
     },
     "search": {
       "open": "Søk",
-      "close": "Lukk"
+      "close": "Lukk",
+      "placeholder": "Søk..."
     },
     "customer": {
       "log_out": "Logg ut"

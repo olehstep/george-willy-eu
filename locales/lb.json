@@ -343,7 +343,8 @@
         },
         "saved_credit_card": "Är gespäichert Kreditkaart",
         "gift_card_wrapper": {
-          "apply_gift_card_label": "Gëlle eng Cadeau Kaart"
+          "apply_gift_card_label": "Gëlle eng Cadeau Kaart",
+          "payment_tag": "Geschenkkaart"
         },
         "waiting_on_taxes_notice": "Beschel",
         "purchase_order_number": {
@@ -609,7 +610,8 @@
         "redirecting_notice": "Waart wann mir Iech viruleeden.",
         "complete_your_purchase_title_error": "Korrigéiert Är Bezuelinformatioun",
         "redirecting_page_title": "Viruleedung…",
-        "continue_to_payment_gateway_button_label": "Bezuelen weider"
+        "continue_to_payment_gateway_button_label": "Bezuelen weider",
+        "action_required": "Aktioun néideg"
       },
       "field_errors": {
         "payment_gateway_needs_paid_plan_error": "Dës Bezuelmethod ass elo net am Geschäft verfügbar",
@@ -691,7 +693,8 @@
         "address_suggestion_did_you_mean_html": "Hutt Dir gemengt %{html}?",
         "sms_marketing_phone_invalid": "Gitt eng valabel Telefonsnummer",
         "email_blank": "Gitt eng E-Mail",
-        "address_zip_invalid": "Gitt e gültege Postcode \/ Postcode an"
+        "address_zip_invalid": "Gitt e gültege Postcode \/ Postcode an",
+        "vaulting_agreement_blank": "Fir weiderzemaachen, musst Dir Är nei Kreditkaart späicheren, well d'Bezuelung fir dës Bestellung zu engem spéideren Datum geschitt."
       },
       "thank_you": {
         "branded_promise": {
@@ -916,7 +919,10 @@
         },
         "resend_gift_cards_by_text": "Widderhuelung SMS",
         "resend_gift_cards_by_email": "E-Mail zréckschécken",
-        "order_status_confirmed_with_installments_payment_return": "Gitt w.e.g. Är Opmierksamkeet zréck op de Verkeefer Associé."
+        "order_status_confirmed_with_installments_payment_return": "Gitt w.e.g. Är Opmierksamkeet zréck op de Verkeefer Associé.",
+        "subscriptions_management": {
+          "description": "Fuert weider op Äre Kont fir Är Abonnementer ze gesinn an ze verwalten."
+        }
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1102,7 +1108,9 @@
         "paypal_zero_amount": "Dir kënnt PayPal net fir %{amount} Bestellungen benotzen. Bestätegt Är Bestellung richteg ass a kuckt ouni PayPal.",
         "processing_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Bezuelung. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod.",
         "three_d_secure_throttled": "Ze vill Versich; weg wait ier Dir nach eng Kéier probéiert",
-        "expired_card": "Är Kaart ass ofgelaf. Benotzt eng aner Bezuelmethod."
+        "expired_card": "Är Kaart ass ofgelaf. Benotzt eng aner Bezuelmethod.",
+        "method_not_available": "D' Gefraagt betenmetode ass net verfügbar.",
+        "transient_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Bezuelung. Probéiert dës Säit z'erfrëschen oder kontrolléiert Är Internetverbindung."
       },
       "post_purchase": {
         "title": "Post-Akaaf",
@@ -1212,7 +1220,9 @@
         "draft_order_payment_due_later_terms": "Dir sidd op {{translatedName}} Konditioune wann Är Bestellung bestätegt ass.",
         "draft_order_payment_due_on_fulfillment": "Är Bezuelung gëtt verrechent wann Är Bestellung bestätegt an erfëllt ass.",
         "debit_card_label": "Kreditkaart",
-        "generic_payment_terms": "Dir sidd op {{translatedName}} Begrëffer. Är Bezuelung gëtt op {{dueDate}} verschriwwen."
+        "generic_payment_terms": "Dir sidd op {{translatedName}} Begrëffer. Är Bezuelung gëtt op {{dueDate}} verschriwwen.",
+        "order_due_on_fulfillment_payment": "Är Kaart gëtt berechent wann Är Bestellung erfëllt ass.",
+        "deferred_payment_label": "Wielt spéider Bezuelmethod"
       },
       "review": {
         "title": "Iwwerpréiwung",

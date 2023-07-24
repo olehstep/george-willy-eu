@@ -208,7 +208,9 @@
         "shipping_pending_value": "—",
         "taxes_label": "Skatter",
         "customer_already_used_once_per_customer_discount_notice": "De <strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkoden er allerede brukt",
-        "tip_label": "Tips"
+        "tip_label": "Tips",
+        "expand_order_summary": "Vis ordresammendrag",
+        "estimated_taxes_label": "Beregnet skatt"
       },
       "stock": {
         "title": "Utsolgt",

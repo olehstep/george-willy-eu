@@ -1730,7 +1730,8 @@
         "submitted_label": "Sendt inn",
         "confirmed_gift_card_additional_description_text": {
           "other": "Hvert gavekort sendes i egen tekst."
-        }
+        },
+        "delivered_description_digital": "Bestillingen din er fullført."
       },
       "group_title_label": "Del av: {{groupTitle}}",
       "buy_again": "Kjøp igjen",

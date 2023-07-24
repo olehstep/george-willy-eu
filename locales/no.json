@@ -231,7 +231,8 @@
         "estimated_taxes_label": "Beregnet skatt",
         "maximum_discount_code_limit_reached": "Du har nådd maksimalt antall rabattkoder. Fjern en eksisterende kode for å bruke <strong style=\"text-transform:uppercase\">%{code}<\/strong>.",
         "alternative_payment_currency_total": "Ladd som %{amount_due}",
-        "recurring_total_tooltip": "Inkluderer ikke frakt, avgifter, avgifter eller eventuelle rabatter."
+        "recurring_total_tooltip": "Inkluderer ikke frakt, avgifter, avgifter eller eventuelle rabatter.",
+        "total_updated_label": "Oppdatert totalpris:"
       },
       "stock": {
         "title": "Utsolgt",
@@ -536,7 +537,9 @@
         "markets_pro_disclaimer_terms_and_conditions": "Vilkår og betingelser",
         "purchase_order_number": {
           "label": "Innkjøpsordrenummer (valgfritt)"
-        }
+        },
+        "purchase_options_agreement_label_html": "Jeg forstår at en eller flere varer i handlekurven min er et utsatt eller tilbakevendende kjøp. Ved å fortsette godtar jeg\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbestillingsregler<\/a>\nog autorisere deg til å belaste betalingsmåten min til prisene, frekvensen og datoene som er oppført på denne siden frem til min\nbestillingen er oppfylt eller jeg kansellerer, hvis det er tillatt.\n",
+        "order_edit_banner_single_item_returned": "Returnert"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

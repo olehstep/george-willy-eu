@@ -1926,7 +1926,8 @@
         "shipping_address_required": "Füügt eng Versandadress op dës Plaz fir Bestellungen unzefänken.",
         "own_role_contact_name": "Dir",
         "contact_list_title": "Leit",
-        "location_picker_accessibility_label": "Standuert Numm: {{locationName}}"
+        "location_picker_accessibility_label": "Standuert Numm: {{locationName}}",
+        "staff_and_permissions_title": "Personal an Permissiounen"
       },
       "draft_order_details": {
         "payment_status": {
@@ -2073,7 +2074,9 @@
         "discard": "Wegwerfen",
         "modal_po_number_input_label": "PO Nummer",
         "close_modal_accessibility_label": "Zoumaachen PO Zuel modal",
-        "title": "PO #{{poNumber}}"
+        "title": "PO #{{poNumber}}",
+        "empty_state": "Keng PO Nummer",
+        "modal_po_number_input_max_length_error": "PO Zuelen hunn maximal {{maxLength}} Zeechen."
       }
     },
     "account_information": {
@@ -2266,10 +2269,12 @@
       "apple_pay": {
         "errors": {
           "generic": "Et gouf e Problem mat Apple Pay. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod."
-        }
+        },
+        "loading": "Lueden Apple Pay"
       },
       "expiration_warning_button_accessibility_label": "Weist Verfallswarnung fir {{paymentMethodName}} op en Enn {{lastDigits}}",
-      "add_payment_method_banner": "Füügt Bezuelmethod fir méi séier Checkout oder pre-autoriséiert Servicer"
+      "add_payment_method_banner": "Füügt Bezuelmethod fir méi séier Checkout oder pre-autoriséiert Servicer",
+      "delete_payment_method_button": "Läschen"
     },
     "order_details": {
       "shipping": {

@@ -938,7 +938,8 @@
           "other": "Cadeau Kaarte goufen resent."
         },
         "gift_card_email_title": {
-          "one": "Geschenkkaart gouf per E-Mail geschéckt"
+          "one": "Geschenkkaart gouf per E-Mail geschéckt",
+          "other": "Kaddoskaarten goufen per E-Mail geschéckt"
         },
         "resend_gift_cards_by_text": "Widderhuelung SMS",
         "resend_gift_cards_by_email": "E-Mail zréckschécken",

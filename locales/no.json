@@ -706,7 +706,9 @@
           }
         },
         "deferred_payment_label": "Velg betalingsmåte senere",
-        "direct_payment_terms": "Du er på {{translatedName}} vilkår. Kortet ditt vil bli belastet den {{dueDate}}."
+        "direct_payment_terms": "Du er på {{translatedName}} vilkår. Kortet ditt vil bli belastet den {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Betalingen din forfaller når bestillingen din er oppfylt.",
+        "generic_payment_terms": "Du er på {{translatedName}} vilkår. Betalingen forfaller til {{dueDate}}."
       },
       "thank_you": {
         "estimated_arrival": "Estimert leveringsdato: ",
@@ -892,7 +894,8 @@
         "login_title": "Logg inn for å se alle ordredetaljer",
         "resend_gift_cards": "Send gavekort på nytt",
         "order_updates_description_html": "Oppdateringer vil bli sendt til %{customer_contact}",
-        "unfulfilled_items_title": "Forbereder for frakt"
+        "unfulfilled_items_title": "Forbereder for frakt",
+        "confirmed_description": "Vi har godtatt bestillingen din, og vi gjør den klar. Kom tilbake til denne siden for oppdateringer om forsendelsesstatusen din."
       },
       "marketing": {
         "sms": {

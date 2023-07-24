@@ -1976,6 +1976,9 @@
       },
       "no_access": {
         "back_to_authentication_link": "Logg på en annen konto"
+      },
+      "failed_address_creation": {
+        "description": "Det oppsto et problem med å opprette adressen din. Prøv å oppdatere denne siden eller sjekk internettforbindelsen din."
       }
     },
     "payment_methods": {
@@ -2072,7 +2075,8 @@
       "add_payment_method_button": "Legg til betalingsmåte",
       "no_payment_methods_banner": "Ingen betalingsmetoder lagt til",
       "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}} som slutter på {{lastDigits}}",
-      "expiration_warning_button_accessibility_label": "Vis utløpsadvarsel for {{paymentMethodName}} som slutter på {{lastDigits}}"
+      "expiration_warning_button_accessibility_label": "Vis utløpsadvarsel for {{paymentMethodName}} som slutter på {{lastDigits}}",
+      "expires_soon": "Dette kortet utløper snart"
     },
     "payment_method_brands": {
       "americanexpress": "American Express",

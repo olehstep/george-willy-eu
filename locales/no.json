@@ -2138,7 +2138,8 @@
     },
     "social": {
       "share_on_pinterest": "Fest den",
-      "share_heading": "Dele"
+      "share_heading": "Dele",
+      "share_on_facebook": "Del på Facebook"
     },
     "meta": {
       "page": "Side {{ page }}",
@@ -2194,6 +2195,9 @@
       "price": "Pris",
       "increase": "Øke",
       "product": "Produkt"
+    },
+    "terms": {
+      "agreement_html": "Jeg er enig i <a href=\"{{ terms_url }}\" target=\"_blank\">vilkår og refusjonspolicy<\/a>"
     }
   },
   "products": {

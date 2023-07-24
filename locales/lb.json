@@ -399,7 +399,8 @@
         "order_edit_banner_subtitle": "Är Bestellung {{order_number}} gouf aktualiséiert. Iwwerpréift dës Ännerungen, bezuelt dann fir Är Bestellung ze bestätegen.",
         "purchase_options_agreement_label": "Ech verstinn datt een oder méi Elementer a mengem Wuerekuerf e verspéiten oder widderhuelende Kaf ass. Andeems Dir weider geet, averstanen ech mam %{cancellation_policy_label} an autoriséieren Iech meng Bezuelmethod zu de Präisser, Frequenz an Datumen, déi op dëser Säit opgezielt sinn, ze bezuelen bis meng Bestellung erfëllt ass oder ech annuléieren, wann erlaabt.",
         "vaulting_agreement_label": "Spuert meng Bezuelinformatioun mat %{company} fir e méi séier Checkout.",
-        "shipping_rate_updated": "Verfügbar Versandmethoden goufen aktualiséiert. Bestätegt Äre Choix virum Auschecken."
+        "shipping_rate_updated": "Verfügbar Versandmethoden goufen aktualiséiert. Bestätegt Äre Choix virum Auschecken.",
+        "location_shipping_address_label": "Location Versandadress"
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -1221,7 +1222,8 @@
           "header": {
             "one": "Keng Liwwerung verfügbar fir %{count} Artikel"
           }
-        }
+        },
+        "remove": "Ewechzehuelen"
       },
       "shop_policies": {
         "shipping_policy": "Versandpolitik",

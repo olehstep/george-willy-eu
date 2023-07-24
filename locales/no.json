@@ -1086,7 +1086,8 @@
       "contains_html_tags": "kan ikke inneholde HTML-koder",
       "invalid_for_card_type": "er ikke gyldig",
       "less_than_or_equal_to": "må være mindre enn eller lik %{count}",
-      "gift_card_currency_mismatch": "Gavekortet ditt er på %{gift_card_currency}. Kontakt oss for å få den utstedt på nytt i %{checkout_currency}."
+      "gift_card_currency_mismatch": "Gavekortet ditt er på %{gift_card_currency}. Kontakt oss for å få den utstedt på nytt i %{checkout_currency}.",
+      "product_not_available": "produktet er ikke publisert for denne kunden."
     },
     "notices": {
       "order": {
@@ -1144,7 +1145,8 @@
         "items_changed": "Ett eller flere elementer er endret.",
         "shipping_address_invalid": "Det oppsto et problem med å beregne fraktprisene dine. Fortsett til kassen for å velge en fraktpris før du fullfører bestillingen.",
         "selling_plan_not_available_for_company_locations": "Kun engangskjøp er tilgjengelig for B2B-bestillinger",
-        "link_expired": "Linken er utløpt"
+        "link_expired": "Linken er utløpt",
+        "bundle_requires_components": "Pakkeproduktet '%{name}' kan ikke legges til i handlekurven."
       },
       "address": {
         "created": "Vellykket opprettet adresse",
@@ -1329,7 +1331,8 @@
             "descending": "Bestilling totalt (høy til lav)"
           },
           "location": {
-            "descending": "Plassering (Z-A)"
+            "descending": "Plassering (Z-A)",
+            "ascending": "Plassering (A-Å)"
           },
           "order_number": {
             "descending": "Bestillingsnummer (høyt til lavt)"
@@ -1425,7 +1428,8 @@
         },
         "confirmed_description_pickup": "Du vil motta en e-post når bestillingen din er klar for henting.",
         "confirmed_description": "Vi har mottatt bestillingen din.",
-        "in_review_title": "Bestillingen din blir vurdert"
+        "in_review_title": "Bestillingen din blir vurdert",
+        "confirmed_description_gift_card_text": "Du vil motta en tekstmelding når bestillingen er klar."
       },
       "group_title_label": "Del av: {{groupTitle}}",
       "buy_again": "Kjøp igjen",
@@ -1436,7 +1440,8 @@
       },
       "status_mark_as_delivered": "Merk som levert",
       "let_us_know": "Gi oss beskjed",
-      "contact_us": "kontakt oss."
+      "contact_us": "kontakt oss.",
+      "list_layout_accessibility_label": "Oppsettalternativer"
     },
     "order_details": {
       "contact": "Ta kontakt med",
@@ -1512,7 +1517,11 @@
       "marketing_description": "Du vil motta markedsførings-e-poster. Du kan melde deg av når som helst.",
       "fully_refunded_label": "REFUNDERT",
       "error_duties_tooltip": "Denne bestillingen sendes fra et annet land, så toll og avgifter kan bli belastet ved levering.",
-      "order_details": "Ordre detaljer"
+      "order_details": "Ordre detaljer",
+      "group_title_label": "Del av: {{groupTitle}}",
+      "shop_pay": {
+        "learn_more": "Lære mer"
+      }
     },
     "address_form": {
       "loading_finished_accessibility_message": "Adresseskjemaet er lastet inn",
@@ -1575,7 +1584,8 @@
         "email_help_text": "E-post som brukes til pålogging kan ikke endres",
         "edit_accessibility_label": "Rediger profil",
         "save_accessibility_label": "Lagre profil",
-        "edit": "Redigere"
+        "edit": "Redigere",
+        "last_name": "Etternavn"
       },
       "profile_update_confirmation_message": "Profil oppdatert",
       "people": {

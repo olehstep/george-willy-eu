@@ -195,7 +195,9 @@
         "recurring_total_multiple_label": "Denne ordren har en gjentakende kostnad for flere varer.",
         "remove_gift_card_label": "Tydelig gavekort",
         "discount_has_been_applied": "Rabatten er brukt",
-        "component_quantity_title": "%{quantity} × %{product_title}"
+        "component_quantity_title": "%{quantity} × %{product_title}",
+        "shipping_pending_value": "—",
+        "taxes_label": "Skatter"
       },
       "stock": {
         "title": "Utsolgt",
@@ -318,7 +320,8 @@
           "ddu_title": "Betal ved levering",
           "ddp_caption": "Ingen ekstra avgifter ved levering"
         },
-        "address_update": "Oppdater adressen"
+        "address_update": "Oppdater adressen",
+        "estimated_time": "Estimert %{time}"
       },
       "localized_fields": {
         "additional_information": {

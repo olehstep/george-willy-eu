@@ -2145,7 +2145,8 @@
         "loading": "Laster inn Apple Pay",
         "errors": {
           "not_available": "Apple Pay er ikke tilgjengelig på denne enheten.",
-          "generic": "Det var et problem med Apple Pay. Prøv på nytt eller bruk en annen betalingsmetode."
+          "generic": "Det var et problem med Apple Pay. Prøv på nytt eller bruk en annen betalingsmetode.",
+          "missing_billing_address": "Apple Pay krever en faktureringsadresse. Vennligst legg til en til kontoen din."
         }
       },
       "back_button_accessibility_label": "Tilbake til {{paymentMethodStepTitle}}",

@@ -1394,7 +1394,8 @@
       "tags": {
         "remove_products": "Fjern tag %{tag}",
         "remove_articles": "Utvid søket til artikler som ikke er merket %{tag}",
-        "add_articles": "Begrens søket til artikler som også har tag %{tag}"
+        "add_articles": "Begrens søket til artikler som også har tag %{tag}",
+        "add_products": "Begrens utvalget til produkter som samsvarer med taggen %{tag}"
       },
       "customer": {
         "invalid_credentials": "Feil email eller passord.",
@@ -1420,7 +1421,8 @@
         "bundle_requires_components": "Pakkeproduktet '%{name}' kan ikke legges til i handlekurven.",
         "too_many_items_in_cart": "Du kan ikke legge til flere %{name} i handlekurven.",
         "gift_card_with_components_not_supported": "Pakkeproduktet '%{name}' kan ikke legges til i handlekurven.",
-        "empty_update": "kan ikke oppdatere tom handlekurv"
+        "empty_update": "kan ikke oppdatere tom handlekurv",
+        "missing_parameters": "ingen gyldig ID eller linjeparameter"
       },
       "address": {
         "created": "Vellykket opprettet adresse",
@@ -1658,7 +1660,8 @@
             "due": "Forfaller {{date}}",
             "due_on_fulfillment": "Forfaller ved oppfyllelse",
             "payment_not_due": "Ikke forfall ennå",
-            "overdue": "Forfalt"
+            "overdue": "Forfalt",
+            "pay_to_confirm": "Betal for å bekrefte"
           }
         },
         "no_filtered_results_title": "Ingen filtrerte resultater",
@@ -1864,7 +1867,8 @@
       "summary_totals_title_accessibility_label": "Bestillingssummer",
       "zero_duties_tooltip": "Denne ordren sendes fra et annet land. Tollplikter belastes ikke på bestillinger av denne verdien.",
       "remaining_amount": "Gjenstående",
-      "taxes": "Skatter"
+      "taxes": "Skatter",
+      "paid_amount": "Betalt"
     },
     "address_form": {
       "loading_finished_accessibility_message": "Adresseskjemaet er lastet inn",

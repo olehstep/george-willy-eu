@@ -1379,7 +1379,8 @@
         "link_expired": "Linken er utløpt",
         "bundle_requires_components": "Pakkeproduktet '%{name}' kan ikke legges til i handlekurven.",
         "too_many_items_in_cart": "Du kan ikke legge til flere %{name} i handlekurven.",
-        "gift_card_with_components_not_supported": "Pakkeproduktet '%{name}' kan ikke legges til i handlekurven."
+        "gift_card_with_components_not_supported": "Pakkeproduktet '%{name}' kan ikke legges til i handlekurven.",
+        "empty_update": "kan ikke oppdatere tom handlekurv"
       },
       "address": {
         "created": "Vellykket opprettet adresse",
@@ -1409,7 +1410,8 @@
         },
         "updated_policy": {
           "status_html": "<b>Sporing av åpen e-post rapporteres.<\/b>",
-          "visibility": "Vi har oppdatert retningslinjene våre, og nå åpnes sporings-e-poster. Åpningspriser for e-post vil bli rapportert anonymt. Vi vil bare se om du har åpnet en e-post som en del av den totale åpningshastigheten for e-post."
+          "visibility": "Vi har oppdatert retningslinjene våre, og nå åpnes sporings-e-poster. Åpningspriser for e-post vil bli rapportert anonymt. Vi vil bare se om du har åpnet en e-post som en del av den totale åpningshastigheten for e-post.",
+          "opt_out_html": "Hvis du ikke ønsker å dele denne informasjonen, kan du <a style='text-decoration:underline;' href='%{link}'>Avslutte abonnementet.<\/a>"
         },
         "track": {
           "status_html": "<b>Sporing av åpen e-post rapporteres.<\/b>"

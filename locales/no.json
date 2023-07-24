@@ -1925,7 +1925,8 @@
             },
             "banner_due_today": "Betalingen din forfaller i dag",
             "description_partially_paid": "Denne ordren ble delvis betalt. Du har en gjenværende saldo.",
-            "title_due_on_fulfillment": "Betaling ved oppfyllelse"
+            "title_due_on_fulfillment": "Betaling ved oppfyllelse",
+            "description_authorized": "Betalingsmåten din vil bli belastet på forfallsdatoen, eller du kan betale nå."
           },
           "refund": {
             "title_with_date": "Refundert {{date}}",
@@ -2163,7 +2164,8 @@
           "add_billing_address_button": "Legg til ny",
           "add_billing_address_button_accessibility_label": "Legg til ny faktureringsadresse",
           "choose_billing_address_from_list_button": "Velg fra listen"
-        }
+        },
+        "title": "Legg til betalingsmåte"
       },
       "google_pay": {
         "errors": {

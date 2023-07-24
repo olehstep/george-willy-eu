@@ -1546,7 +1546,8 @@
       "delete_confirmation_title": "Vil du slette adressen?",
       "edit_button": "Redigere",
       "pagination": {
-        "load_more": "Last mer"
+        "load_more": "Last mer",
+        "load_more_accessibility_label": "Last inn flere adresser"
       },
       "delete_confirmation_message": "Vil du slette adressen? Eksisterende bestillinger påvirkes ikke.",
       "loading_accessibility_message": "Laster adresse",
@@ -1635,6 +1636,9 @@
           "paid": {
             "title": "Betalt",
             "description": "Bestillingen din er fullt betalt."
+          },
+          "canceled": {
+            "description": "Du blir ikke belastet."
           }
         },
         "order_timeline": {
@@ -1804,7 +1808,8 @@
         "replace_method_with_new_method_description": "Din {{currentPaymentMethodName}} vil bli slettet og erstattet med din {{newPaymentMethodName}}.",
         "warning_message_with_replacement": {
           "with_pending_orders": "Hvis du sletter denne betalingsmåten, fjernes den fra kontoen din og vil ikke lenger være tilgjengelig for fremtidige kjøp. Med mindre du velger en alternativ betalingsmetode, vil den fortsatt bli belastet for eventuelle utestående saldoer på eksisterende bestillinger.",
-          "with_subscriptions": "Sletting av denne betalingsmåten vil påvirke forhåndsautoriserte betalinger. Erstatt den med en alternativ betalingsmetode for å fortsette å motta kommende bestillinger."
+          "with_subscriptions": "Sletting av denne betalingsmåten vil påvirke forhåndsautoriserte betalinger. Erstatt den med en alternativ betalingsmetode for å fortsette å motta kommende bestillinger.",
+          "with_pending_orders_and_subscriptions": "Sletting av denne betalingsmåten vil påvirke forhåndsautoriserte betalinger. Med mindre du velger en alternativ betalingsmetode, vil denne betalingsmetoden fortsatt bli belastet for eventuelle utestående saldoer på eksisterende bestillinger. Ved å velge en alternativ betalingsmetode kan du motta kommende abonnementsordrer uten avbrudd."
         },
         "warning_message_without_replacement": {
           "with_subscriptions": "Sletting av denne betalingsmåten vil påvirke forhåndsautoriserte betalinger. Legg til en alternativ betalingsmåte for å fortsette å motta kommende bestillinger.",
@@ -1847,14 +1852,16 @@
       "apple_pay": {
         "loading": "Laster inn Apple Pay",
         "errors": {
-          "not_available": "Apple Pay er ikke tilgjengelig på denne enheten."
+          "not_available": "Apple Pay er ikke tilgjengelig på denne enheten.",
+          "generic": "Det var et problem med Apple Pay. Prøv på nytt eller bruk en annen betalingsmetode."
         }
       },
       "back_button_accessibility_label": "Tilbake til {{paymentMethodStepTitle}}",
       "credit_or_debit_card_title": "Kreditt- eller debetkort",
       "card_update_consent": "Denne betalingsmåten vil bli lagret for fremtidige kjøp.",
       "delete_payment_method_button_accessibility_label": "Slett {{paymentMethodName}}",
-      "edit_payment_method_brand_button_accessibility_label": "Rediger {{paymentMethodName}}"
+      "edit_payment_method_brand_button_accessibility_label": "Rediger {{paymentMethodName}}",
+      "add_payment_method_button": "Legg til betalingsmåte"
     },
     "payment_method_brands": {
       "americanexpress": "American Express",
@@ -1940,7 +1947,8 @@
       "zip": "Postnummer",
       "submit": "Beregn frakt",
       "loading": "Beregner...",
-      "button_show": "Anntatte frakt kostnader"
+      "button_show": "Anntatte frakt kostnader",
+      "at": "på"
     },
     "general": {
       "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">Shipping<\/a> beregnes i kassen",
@@ -2009,7 +2017,8 @@
       "in_stock": "På lager"
     },
     "quick_buy": {
-      "read_more": "Mer informasjon"
+      "read_more": "Mer informasjon",
+      "launch": "Rask kjøp"
     }
   },
   "layout": {
@@ -2085,7 +2094,8 @@
       "success": "Vi har sendt deg en e-post med en lenke for å oppdatere passordet ditt.",
       "cancel": "Avbryt",
       "title": "Tilbakestill passordet ditt",
-      "email": "E-post"
+      "email": "E-post",
+      "submit": "Sende inn"
     },
     "activate_account": {
       "password_confirm": "bekreft passord",

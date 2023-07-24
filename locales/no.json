@@ -619,7 +619,9 @@
         "email_blank": "Skriv inn en e-postadresse",
         "gift_card_already_applied": "Dette gavekortet er allerede brukt på bestillingen din",
         "reduction_code_code_not_found": "Skriv inn en gyldig rabattkode eller gavekort",
-        "address_company_contains_html_tags": "Selskapet kan ikke inneholde HTML-koder."
+        "address_company_contains_html_tags": "Selskapet kan ikke inneholde HTML-koder.",
+        "address_address2_blank": "Gå inn i en leilighet, suite osv.",
+        "tips_invalid_tip_amount": "Skriv inn et tips ikke mer enn %{amount}"
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",
@@ -662,7 +664,8 @@
         "shipping_method_not_available_generic": {
           "one": "Denne bestillingen kan ikke sendes til adressen du oppga. Se gjennom adressen din for å sikre at alle feltene er angitt riktig, og prøv igjen.",
           "other": "Noen varer i handlekurven din kan ikke sendes til adressen du oppga. Se gjennom adressen din for å sikre at alle feltene er angitt riktig, og prøv igjen."
-        }
+        },
+        "payment_method_not_supported": "Du kan ikke bruke denne betalingsmåten for %{country}. Bruk en annen betalingsmåte for å sende til dette landet."
       },
       "payment_errors": {
         "paypal_zero_amount": "Du kan ikke bruke PayPal for %{amount} bestillinger. Bekreft at bestillingen din er riktig og sjekk ut uten PayPal.",

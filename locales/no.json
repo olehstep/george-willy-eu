@@ -2227,7 +2227,8 @@
         "card_number_placeholder": "Kortnummer",
         "card_verification_value_placeholder": "Sikkerhetskode",
         "card_expiry_placeholder": "Utløpsdato (MM \/ ÅÅ)",
-        "name_on_card_label": "Navn på kort"
+        "name_on_card_label": "Navn på kort",
+        "card_start_placeholder": "Utstedelsesdato (MM \/ ÅÅ)"
       },
       "title": "Betalingsmetoder",
       "add_payment_method": {

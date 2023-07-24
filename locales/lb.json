@@ -912,7 +912,8 @@
         },
         "manage_order_label": "Verwalte Är Bestellung",
         "gift_card_resent_confirmation": {
-          "one": "Cadeau Kaart gouf resent."
+          "one": "Cadeau Kaart gouf resent.",
+          "other": "Cadeau Kaarte goufen resent."
         },
         "gift_card_email_title": {
           "one": "Geschenkkaart gouf per E-Mail geschéckt"
@@ -1389,7 +1390,8 @@
           "label": {
             "one": "%{first} - %{last} vum %{count} Buttek"
           },
-          "accessibility_label": "Lokal Pickup Paginatioun"
+          "accessibility_label": "Lokal Pickup Paginatioun",
+          "next": "Nächst Säit"
         },
         "location_information": {
           "other": "Et gi %{count} Geschäfter mat Lager no bei %{address}"
@@ -1417,7 +1419,8 @@
             "title": "{{walletName}} net verfügbar"
           },
           "detour": {
-            "queue": "Dir sidd an enger Schlaang fir d'Kasse gesat. Zoumaachen {{walletName}} fir weiderzemaachen."
+            "queue": "Dir sidd an enger Schlaang fir d'Kasse gesat. Zoumaachen {{walletName}} fir weiderzemaachen.",
+            "stock_problems": "E puer Elementer sinn net méi verfügbar. Zoumaachen {{walletName}} a probéiert nach eng Kéier."
           },
           "unsupported": {
             "postal_code": "Dës Plaz gëtt net ënnerstëtzt"
@@ -1425,7 +1428,8 @@
         },
         "connect_shipping_methods": "{{method1}} an {{method2}}",
         "shipping_line_label": "Liwwerung",
-        "redirection_notice": "Nei \"{{buttonLabel}}\" klickt \"[[@ 90000]\", wäert dir op [@ 90001] fir d'Hunner Sekerch erfléit."
+        "redirection_notice": "Nei \"{{buttonLabel}}\" klickt \"[[@ 90000]\", wäert dir op [@ 90001] fir d'Hunner Sekerch erfléit.",
+        "logged_in": "Verbonne mat {{email}}"
       },
       "pickup_point": {
         "selector_tab_map": "Kaart",
@@ -1443,7 +1447,11 @@
         "no_pickup_points_found": "Keng Pickup Punkten fonnt",
         "no_pickup_points_near_location": "Keng Pickup Punkte fonnt bei Ärer Location",
         "business_hours": "Ëffnungszäiten",
-        "could_not_resolve_address": "Är Adress konnt net lokaliséiert ginn. Probéiert nach eng Kéier oder benotzt eng aner Adress"
+        "could_not_resolve_address": "Är Adress konnt net lokaliséiert ginn. Probéiert nach eng Kéier oder benotzt eng aner Adress",
+        "title": "Pickup Punkt",
+        "geolocation": {
+          "shared_location_button": "Benotzt meng Plaz"
+        }
       },
       "marketplaces": {
         "legal_notice": {
@@ -1479,6 +1487,12 @@
         "errors": {
           "not_solved": "Fëllt de CAPTCHA aus fir weiderzemaachen"
         }
+      },
+      "session_errors": {
+        "session_already_finished": "Dës Bestellung ass scho virgestallt ginn. Dir kënnt zréck an de Buttek fir eng nei Bestellung unzefänken."
+      },
+      "online_store_chat": {
+        "title": "Froen? Chat mat eis"
       }
     },
     "email_marketing": {

@@ -196,7 +196,10 @@
         "total_updated_label_with_price": "Oppdatert totalpris: %{totalPrice}",
         "original_price": "Original pris",
         "discount_discovery": {
-          "add_code": "Legg til rabatt"
+          "add_code": "Legg til rabatt",
+          "merchandise_quantity_label": {
+            "other": "%{count} elementer"
+          }
         },
         "duties_and_taxes_label": "Toll og skatter",
         "vat_label_html": "Inkludert %{amount} i skatter",

@@ -1023,7 +1023,8 @@
       "throttle": {
         "inventory": {
           "sold_out": {
-            "heading": "Handlevognen din er utsolgt"
+            "heading": "Handlevognen din er utsolgt",
+            "storefront_body": "Gå tilbake til butikken for å fortsette å handle"
           }
         },
         "footer": {
@@ -1038,7 +1039,8 @@
         "too_many_attempts": {
           "description": "Prøv igjen om noen minutter"
         },
-        "time_to_checkout_title": "På tide å sjekke ut - {{shopName}}"
+        "time_to_checkout_title": "På tide å sjekke ut - {{shopName}}",
+        "cart_summary_heading": "Handlevognen din"
       },
       "deliverability": {
         "not_deliverable": {

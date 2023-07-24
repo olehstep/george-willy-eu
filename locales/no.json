@@ -1572,7 +1572,8 @@
           "three_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} mengde {{lineItemQuantity1}}, {{lineItemName2}} mengde {{lineItemQuantity2}}, {{lineItemName3}} mengde {{lineItemQuantity3}}",
           "two_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} mengde {{lineItemQuantity1}}, {{lineItemName2}} mengde {{lineItemQuantity2}}",
           "previous": "Tidligere",
-          "one_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} antall {{lineItemQuantity1}}"
+          "one_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} antall {{lineItemQuantity1}}",
+          "next": "Neste"
         },
         "sort_by": "Sorter etter: {{option}}",
         "one_images_accessibility_label": "Bestillingen inkluderer {{lineItemName1}}",
@@ -1608,7 +1609,8 @@
         "list_view": "Vis listevisning",
         "show_order_actions_accessibility_label": "Vis ordrehandlinger for ordre {{name}}",
         "empty_state_subtitle": "Gå til butikken for å bestille.",
-        "estimated_delivery": "Estimert levering {{date}}"
+        "estimated_delivery": "Estimert levering {{date}}",
+        "delivered": "Levert {{date}}"
       },
       "order_status": {
         "in_review_label": "I anmeldelse",

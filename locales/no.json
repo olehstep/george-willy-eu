@@ -490,7 +490,11 @@
         "markets_pro_disclaimer_terms_and_conditions_title": "Forhandlerens vilkår og betingelser",
         "credit_card_vaulting_sign_in_banner_title": "Lagre kredittkortet ditt",
         "masked_digits_label": "•••• %{last_digits}",
-        "technical_error": "Betalinger kan ikke behandles akkurat nå på grunn av et teknisk problem. Prøv igjen om noen minutter."
+        "technical_error": "Betalinger kan ikke behandles akkurat nå på grunn av et teknisk problem. Prøv igjen om noen minutter.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} totalt %{total_shop_price}",
+        "google": {
+          "error_authorizing": "Feil ved autorisering av betaling"
+        }
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

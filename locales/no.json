@@ -1052,7 +1052,8 @@
             "postal_code_contains_emoji": "Slett emoji fra postnummeret ditt"
           },
           "missing": {
-            "city": "Skriv inn en by"
+            "city": "Skriv inn en by",
+            "first_name": "Skriv inn et fornavn"
           }
         },
         "shipping_line_label": "Shipping",
@@ -1156,7 +1157,8 @@
       "less_than_or_equal_to": "må være mindre enn eller lik %{count}",
       "gift_card_currency_mismatch": "Gavekortet ditt er på %{gift_card_currency}. Kontakt oss for å få den utstedt på nytt i %{checkout_currency}.",
       "product_not_available": "produktet er ikke publisert for denne kunden.",
-      "gift_card_code_invalid": "Koden er ugyldig"
+      "gift_card_code_invalid": "Koden er ugyldig",
+      "invalid_expiry_year": "er ikke et gyldig utløpsår"
     },
     "notices": {
       "order": {
@@ -1319,7 +1321,8 @@
       "region": "Region",
       "prefecture": "Prefektur",
       "zip_code": "post kode",
-      "state_and_territory": "Stat\/territorium"
+      "state_and_territory": "Stat\/territorium",
+      "province": "Provins"
     },
     "links": {
       "powered_by_shopify": "Drevet av Shopify",

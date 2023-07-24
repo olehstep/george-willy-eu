@@ -1595,7 +1595,13 @@
         "confirmed_description_pickup": "Du vil motta en e-post når bestillingen din er klar for henting.",
         "confirmed_description": "Vi har mottatt bestillingen din.",
         "in_review_title": "Bestillingen din blir vurdert",
-        "confirmed_description_gift_card_text": "Du vil motta en tekstmelding når bestillingen er klar."
+        "confirmed_description_gift_card_text": "Du vil motta en tekstmelding når bestillingen er klar.",
+        "gift_resend_success": {
+          "other": "Gavekort misliker på nytt"
+        },
+        "gift_card_resend": {
+          "one": "Send e-post igjen"
+        }
       },
       "group_title_label": "Del av: {{groupTitle}}",
       "buy_again": "Kjøp igjen",

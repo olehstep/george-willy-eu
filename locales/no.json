@@ -41,6 +41,9 @@
           },
           "weekdays_abbreviation": {
             "monday": "Mo"
+          },
+          "weekdays": {
+            "tuesday": "tirsdag"
           }
         },
         "continue_to_shipping_method": "Fortsett til frakt",
@@ -61,7 +64,9 @@
         "autocomplete_title": "Forslag",
         "stepper": {
           "decrease": "Reduser {{type}}"
-        }
+        },
+        "submit": "Sende inn",
+        "contact_us_html": "Kontakt oss for mer informasjon"
       },
       "contact": {
         "postcode_placeholder": "postnummer",
@@ -97,7 +102,8 @@
         "region_none": "Ingen valgt",
         "civic_number_warning": "Legg til et husnummer hvis du har et",
         "last_name_label": "Etternavn",
-        "governorate_placeholder": "Governorate"
+        "governorate_placeholder": "Governorate",
+        "zip_code_placeholder": "post kode"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",

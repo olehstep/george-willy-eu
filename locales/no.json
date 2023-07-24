@@ -1021,7 +1021,8 @@
           "other": "%{count} Hentepunkter i nærheten av der du befinner deg"
         },
         "title": "Hentepunkt",
-        "location_is_currently_closed": "Lukket"
+        "location_is_currently_closed": "Lukket",
+        "no_pickup_points_near_location": "Ingen hentesteder funnet i nærheten av stedet ditt"
       },
       "local_pickup": {
         "paginator": {
@@ -1065,7 +1066,8 @@
         },
         "editable_shipping_address_violations_message_title": "Legg til denne informasjonen for å fullføre bestillingen:",
         "editable_shipping_address_violations_message_footer": "Hvis du vil oppdatere adressen for denne plasseringen permanent, {{emailLink}}.",
-        "violations_title": "{{violation}} mangler eller er ugyldig"
+        "violations_title": "{{violation}} mangler eller er ugyldig",
+        "company_location_changed_product_removed": "Korva di er oppdatert fordi enkelte produkter ikke er tilgjengelege her. Se gjennom bestillingen før du sender den inn."
       },
       "discount_errors": {
         "generic_error": "Bestillingen kunne ikke behandles fordi rabattkoden ikke lenger er tilgjengelig. Se gjennom totalsummen for bestillingen, og prøv på nytt."

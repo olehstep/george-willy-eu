@@ -1836,7 +1836,8 @@
       },
       "marketing_section_title": "Nyheter og tilbud",
       "pickup": {
-        "pickup_location": "Hentested"
+        "pickup_location": "Hentested",
+        "pickup": "Plukke opp"
       },
       "ok_duties_tooltip": "Denne bestillingen sendes fra et annet land, så tollplikter er lagt til bestillingstotalen din.",
       "tip": "Tips",
@@ -1979,7 +1980,10 @@
             "description_partially_paid": "Denne ordren ble delvis betalt. Du har en gjenværende saldo.",
             "title_due_on_fulfillment": "Betaling ved oppfyllelse",
             "description_authorized": "Betalingsmåten din vil bli belastet på forfallsdatoen, eller du kan betale nå.",
-            "title_due_on_receipt": "Betaling ikke forfalt ennå"
+            "title_due_on_receipt": "Betaling ikke forfalt ennå",
+            "banner_due": {
+              "one": "Betalingen din forfaller innen {{count}} dag"
+            }
           },
           "refund": {
             "title_with_date": "Refundert {{date}}",
@@ -2294,7 +2298,8 @@
       "skip_to_content": "Hopp til innholdet",
       "previous": "Tidligere",
       "video_stop": "Stopp video",
-      "video_play": "Spill av video"
+      "video_play": "Spill av video",
+      "star_reviews_info": "{{ rating_value }} av {{ rating_max }} stjerner"
     },
     "popup_section": {
       "submit": "Abonnere",

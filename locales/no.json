@@ -526,7 +526,8 @@
         "order_edit_banner_subtitle": "Bestillingen din {{order_number}} ble oppdatert. Se gjennom disse endringene, og betal deretter for å bekrefte bestillingen din.",
         "custom_onsite_payment_method_modal": {
           "title": "Tilpasset betalingsbekreftelse på stedet"
-        }
+        },
+        "markets_pro_disclaimer_terms_and_conditions": "Vilkår og betingelser"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -605,7 +606,8 @@
         "delivery_zone_not_found": "Den angitte sonen ble ikke funnet i det angitte landet.",
         "email_blank": "Skriv inn en e-postadresse",
         "gift_card_already_applied": "Dette gavekortet er allerede brukt på bestillingen din",
-        "reduction_code_code_not_found": "Skriv inn en gyldig rabattkode eller gavekort"
+        "reduction_code_code_not_found": "Skriv inn en gyldig rabattkode eller gavekort",
+        "address_company_contains_html_tags": "Selskapet kan ikke inneholde HTML-koder."
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",

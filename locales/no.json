@@ -1595,7 +1595,10 @@
       "ok_duties_tooltip": "Denne bestillingen sendes fra et annet land, så tollplikter er lagt til bestillingstotalen din.",
       "tip": "Tips",
       "paid_with_shop_pay_installments_card": {
-        "description": "Hold deg oppdatert på betalingsplanen din med påminnelser i Shop-appen."
+        "description": "Hold deg oppdatert på betalingsplanen din med påminnelser i Shop-appen.",
+        "desktop_qr_code_content": {
+          "title": "Skann etter påminnelser"
+        }
       },
       "subtotal": "Delsum",
       "summary_list_title_accessibility_label": "Bestill varer",

@@ -181,6 +181,10 @@
           },
           "weekdays": {
             "wednesday": "Mëttwoch"
+          },
+          "months": {
+            "october": "Oktober",
+            "august": "August"
           }
         },
         "datepicker": {
@@ -361,7 +365,10 @@
         "purchase_options_cancellation_policy_label": "Annulatiounspolitik",
         "same_billing_address_checkbox_label": "Benotzt Versandadress als Rechnungsadress",
         "business_customer_vaulting_payment_label": "Späichert dës Kaart fir zukünfteg Akeef fir dës Plaz. Ech autoriséieren %{company} dës Bezuelmethod fir zukünfteg Akeef fir dës Plaz ze bezuelen. All Kontakt op dëser Plaz zougewisen ass autoriséiert dës Kaart ze benotzen.",
-        "order_edit_banner_title": "Bezuelung vun {{amount_owed}} ass néideg"
+        "order_edit_banner_title": "Bezuelung vun {{amount_owed}} ass néideg",
+        "gift_card_code_label": "Cadeau Kaart Code",
+        "simulated_checkout": "Preview kënnt geschwënn",
+        "markets_pro_disclaimer_label": "Andeems Dir hei drënner klickt an Är Bestellung ofgeschloss hutt, averstanen Dir Ären Artikel (en) vu Global-e als Händler of Record fir dës Transaktioun ze kafen, op Global-e's %{markets_pro_terms} an %{privacy_policy}. Global-e ass en internationalen Erfëllungsserviceprovider fir %{shop_name}"
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -559,7 +566,8 @@
         "component_quantity_title": "%{quantity} × %{product_title}",
         "collapse_component_information": {
           "other": "Verstoppen %{count} Artikelen"
-        }
+        },
+        "duties_label": "Flichten"
       },
       "processing": {
         "wait": {
@@ -1153,6 +1161,10 @@
         "title": "Net op Lager",
         "quantity_update": {
           "title": "Quantitéit Update"
+        },
+        "quantity_column_header": "Quantitéit",
+        "unshippable_product": {
+          "status_column_header": "Keng Liwwerung"
         }
       },
       "shop_policies": {

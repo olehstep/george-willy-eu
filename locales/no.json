@@ -1158,7 +1158,9 @@
       "gift_card_currency_mismatch": "Gavekortet ditt er på %{gift_card_currency}. Kontakt oss for å få den utstedt på nytt i %{checkout_currency}.",
       "product_not_available": "produktet er ikke publisert for denne kunden.",
       "gift_card_code_invalid": "Koden er ugyldig",
-      "invalid_expiry_year": "er ikke et gyldig utløpsår"
+      "invalid_expiry_year": "er ikke et gyldig utløpsår",
+      "taken": "har allerede blitt tatt",
+      "too_long": "er for lang (maksimum er %{count} tegn)"
     },
     "notices": {
       "order": {

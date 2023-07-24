@@ -488,7 +488,8 @@
         "card_information_notice": "Alle transaksjoner er sikre og krypterte. Kredittkortinformasjon lagres aldri.",
         "billing_must_match_shipping_notice": "Faktureringsadressen til betalingsmåten din må samsvare med leveringsadressen.",
         "markets_pro_disclaimer_terms_and_conditions_title": "Forhandlerens vilkår og betingelser",
-        "credit_card_vaulting_sign_in_banner_title": "Lagre kredittkortet ditt"
+        "credit_card_vaulting_sign_in_banner_title": "Lagre kredittkortet ditt",
+        "masked_digits_label": "•••• %{last_digits}"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

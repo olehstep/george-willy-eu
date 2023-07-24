@@ -1040,7 +1040,8 @@
           "description": "Prøv igjen om noen minutter"
         },
         "time_to_checkout_title": "På tide å sjekke ut - {{shopName}}",
-        "cart_summary_heading": "Handlevognen din"
+        "cart_summary_heading": "Handlevognen din",
+        "last_checked": "(Sist sjekket: {{time}})"
       },
       "deliverability": {
         "not_deliverable": {
@@ -1082,7 +1083,8 @@
           },
           "selected_page": {
             "one": "%{first} - %{last} av %{count} punkt"
-          }
+          },
+          "next_accessibility_label": "Neste side"
         },
         "number_of_pickup_points_near_location": {
           "other": "%{count} Hentepunkter i nærheten av der du befinner deg"

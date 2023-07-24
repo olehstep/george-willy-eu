@@ -934,7 +934,8 @@
         "contact_us_html": "Trenger hjelp? %{contact_us}",
         "gift_card_email_title": {
           "other": "Gavekort ble sendt på e-post"
-        }
+        },
+        "page_title": "Takk, %{display_name}!"
       },
       "marketing": {
         "sms": {
@@ -990,7 +991,8 @@
         },
         "checkout_as_guest": "Sjekk ut som gjest",
         "review_title": "Gjennomgå bestillingen",
-        "title": "Anmeldelse"
+        "title": "Anmeldelse",
+        "block_title": "Se gjennom informasjonen din"
       },
       "order_payment_collection": {
         "changes_summary": {
@@ -1033,7 +1035,8 @@
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
         "currency_button_label": "%{currency} (%{currency_symbol})",
         "card_provider_fx_charges_warning": "Kortleverandøren din kan kreve gebyrer på %{currency_code} transaksjoner.",
-        "change_currency_link": "Endre til %{currency_name}"
+        "change_currency_link": "Endre til %{currency_name}",
+        "currency_not_supported_by_shop": "Valutaen du valgte er ikke lenger tilgjengelig. Alle priser er nå i %{currency_code}."
       },
       "subscriptions": {
         "recurring_total_intervals": {
@@ -1086,7 +1089,8 @@
         "title": "Betalingsmetoder",
         "delete_customer_mandate": {
           "generic_error": "Det oppsto et problem under behandlingen av forespørselen din."
-        }
+        },
+        "page_title": "Betalingsmetoder"
       },
       "paypal": {
         "button_html": "Kasse med %{logo}"

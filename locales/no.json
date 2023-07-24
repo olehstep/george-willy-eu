@@ -1539,7 +1539,8 @@
         "track_order_with_shop": "Spor bestilling med butikk"
       },
       "edit_summary": {
-        "removed_with_quantity": "{{quantity}} fjernet"
+        "removed_with_quantity": "{{quantity}} fjernet",
+        "added_with_quantity": "{{quantity}} lagt til"
       },
       "marketing_section_title": "Nyheter og tilbud",
       "pickup": {
@@ -1671,7 +1672,8 @@
           "refund": {
             "title_with_date": "Refundert {{date}}",
             "description_single_refund": "Du har mottatt en delvis refusjon for denne bestillingen.",
-            "description_full_refund": "Du har mottatt full refusjon for denne bestillingen."
+            "description_full_refund": "Du har mottatt full refusjon for denne bestillingen.",
+            "description_multiple_refunds": "Du mottok delvis refusjon for denne bestillingen."
           },
           "title": "Betalingsstatus",
           "paid": {
@@ -1719,7 +1721,8 @@
         },
         "own_role_contact_name": "Du",
         "payment_terms": "Betalingsbetingelser",
-        "multiple_tax_exemptions": "{{taxExemptionsCount}} mer"
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} mer",
+        "taxes_none": "Ingen"
       },
       "location_selection": {
         "selection_cancel_button": "Avbryt",

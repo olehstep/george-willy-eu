@@ -1470,6 +1470,9 @@
       },
       "price": {
         "label": "Pris"
+      },
+      "tags": {
+        "label": "Flere filtre"
       }
     },
     "store_availability": {
@@ -1584,7 +1587,8 @@
         },
         "order_status_message": {
           "list_view": {
-            "view_order_for_details": "Se bestillingen for detaljer"
+            "view_order_for_details": "Se bestillingen for detaljer",
+            "last_updated": "Sist oppdatert {{date}}"
           },
           "table_view": {
             "last_updated": "{{date}}",
@@ -1663,7 +1667,8 @@
         "delivered": "Levert {{date}}",
         "sort_title": "Sortere",
         "sort_hide_options_accessibility_label": "Skjul sorteringsalternativer for bekreftede bestillinger.",
-        "plus_more_products": "+{{numberOfAdditionalProducts}} produkter"
+        "plus_more_products": "+{{numberOfAdditionalProducts}} produkter",
+        "sort_show_options_accessibility_label": "Vis sorteringsalternativer for bekreftede bestillinger."
       },
       "order_status": {
         "in_review_label": "I anmeldelse",

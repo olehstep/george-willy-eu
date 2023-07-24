@@ -58,7 +58,10 @@
         "back_to_shipping_method": "Gå tilbake til frakt",
         "autocomplete_zero_item": "Ingen elementer tilgjengelig",
         "autocomplete_selection": "{{number}} av {{total}}",
-        "autocomplete_title": "Forslag"
+        "autocomplete_title": "Forslag",
+        "stepper": {
+          "decrease": "Reduser {{type}}"
+        }
       },
       "contact": {
         "postcode_placeholder": "postnummer",
@@ -93,7 +96,8 @@
         "change_location_link_label": "Endre sted",
         "region_none": "Ingen valgt",
         "civic_number_warning": "Legg til et husnummer hvis du har et",
-        "last_name_label": "Etternavn"
+        "last_name_label": "Etternavn",
+        "governorate_placeholder": "Governorate"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",
@@ -173,7 +177,9 @@
           "add_code": "Legg til rabatt"
         },
         "duties_and_taxes_label": "Toll og skatter",
-        "vat_label_html": "Inkludert %{amount} i skatter"
+        "vat_label_html": "Inkludert %{amount} i skatter",
+        "total_outstanding_label": "Beløp å betale",
+        "recurring_total_multiple_label": "Denne ordren har en gjentakende kostnad for flere varer."
       },
       "stock": {
         "title": "Utsolgt",
@@ -193,7 +199,8 @@
           },
           "header": {
             "other": "Ingen levering tilgjengelig for %{count} varer"
-          }
+          },
+          "title": "Ingen levering tilgjengelig"
         },
         "quantity_update": {
           "title": "Oppdatering av antall"
@@ -232,7 +239,8 @@
               "one": "hvert år"
             },
             "day": {
-              "one": "hver dag"
+              "one": "hver dag",
+              "other": "hver %{count} dag"
             },
             "week": {
               "other": "hver %{count} uke",
@@ -421,7 +429,8 @@
         "order_edit_banner_multiple_items_removed": "{{amount}} fjernet",
         "order_edit_banner_multiple_items_added": "{{amount}} lagt til",
         "same_billing_address_checkbox_label": "Bruk leveringsadresse som faktureringsadresse",
-        "discount_button_action_label": "Bruk rabattkode"
+        "discount_button_action_label": "Bruk rabattkode",
+        "card_expiration_month_label": "Utløpsmåned"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

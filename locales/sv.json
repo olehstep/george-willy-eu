@@ -406,7 +406,8 @@
       "pick_up_available_at_html": "Avhämtning finns kl <strong>{{ location_name }}<\/strong>",
       "invalid_location_address": "Kontakta butiken för att bekräfta adressen",
       "pick_up_unavailable_at_html": "Upphämtning för närvarande ej tillgänglig kl <strong>{{ location_name }}<\/strong>",
-      "kilometers": "km"
+      "kilometers": "km",
+      "pick_up_currently_unavailable": "Upphämtning är inte tillgänglig för närvarande"
     }
   },
   "shopify": {

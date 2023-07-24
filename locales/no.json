@@ -1240,7 +1240,8 @@
       "invalid_expiry_year": "er ikke et gyldig utløpsår",
       "taken": "har allerede blitt tatt",
       "too_long": "er for lang (maksimum er %{count} tegn)",
-      "invalid": "er ugyldig"
+      "invalid": "er ugyldig",
+      "contains_spaces": "starter eller slutter med mellomrom."
     },
     "notices": {
       "order": {

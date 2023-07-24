@@ -2141,7 +2141,8 @@
       "payment_status": "Betalingsstatus",
       "full_details_html": "Fullstendige detaljer  ",
       "none": "Du har ikke lagt inn noen bestillinger ennå.",
-      "fulfillment_status": "Oppfyllelsesstatus"
+      "fulfillment_status": "Oppfyllelsesstatus",
+      "date": "Dato"
     },
     "reset_password": {
       "subtext": "Skriv inn et nytt passord for {{ email }}",

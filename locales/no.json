@@ -2194,7 +2194,9 @@
       "total": "Total",
       "price": "Pris",
       "increase": "Øke",
-      "product": "Produkt"
+      "product": "Produkt",
+      "decrease": "Avta",
+      "note": "Legg til en merknad til bestillingen din"
     },
     "terms": {
       "agreement_html": "Jeg er enig i <a href=\"{{ terms_url }}\" target=\"_blank\">vilkår og refusjonspolicy<\/a>"
@@ -2220,7 +2222,8 @@
       "view_in_space": "Se i rommet ditt",
       "description": "Beskrivelse",
       "no_selection": "Velg et alternativ",
-      "size_chart": "Størrelsesguide"
+      "size_chart": "Størrelsesguide",
+      "include_taxes": "Avgift inkludert."
     },
     "added_notification": {
       "title": "Har nettopp lagt til",

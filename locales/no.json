@@ -91,7 +91,8 @@
         "back_button_label": "Komme tilbake",
         "back_to_payment_method": "Gå tilbake til betaling",
         "google_map_title": "Google Kart",
-        "title": "Checkout - {{shopName}}"
+        "title": "Checkout - {{shopName}}",
+        "processing": "Behandling…"
       },
       "contact": {
         "postcode_placeholder": "postnummer",
@@ -136,7 +137,8 @@
         "county_placeholder": "fylke",
         "state_and_territory_label": "Stat\/territorium",
         "optional_company_label": "Firma (valgfritt)",
-        "optional_address2_label": "Leilighet, suite osv. (valgfritt)"
+        "optional_address2_label": "Leilighet, suite osv. (valgfritt)",
+        "first_name_label": "Fornavn"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",
@@ -275,7 +277,8 @@
         },
         "unpurchasable_product_generic": {
           "header": "Noen varer ble fjernet fra handlekurven din",
-          "title": "Produkt som ikke kan kjøpes"
+          "title": "Produkt som ikke kan kjøpes",
+          "status_column_header": "Ikke tilgjengelig"
         },
         "continue_shopping_button_label": "Fortsette",
         "quantity_column_header": "Mengde",

@@ -454,7 +454,8 @@
         },
         "gift_card_wrapper": {
           "payment_tag": "Gavekort",
-          "apply_gift_card_label": "Bruk et gavekort"
+          "apply_gift_card_label": "Bruk et gavekort",
+          "heading": "Gavekort"
         },
         "order_edit_banner_multiple_items_returned": "{{amount}} returnert",
         "card_fields": {
@@ -499,7 +500,9 @@
         "store_credit": {
           "label": "Butikkreditt"
         },
-        "billing_address_invalid_phone_no_card": "Oppdater telefonnummeret i faktureringsadressen for å fortsette."
+        "billing_address_invalid_phone_no_card": "Oppdater telefonnummeret i faktureringsadressen for å fortsette.",
+        "saved_credit_card_info": "De fire siste sifrene",
+        "purchase_options_and_vaulting_agreement_label": "En eller flere varer i handlekurven er et utsatt eller gjentakende kjøp. Ved å fortsette med betalingen godtar du at betalingsmåten din automatisk blir belastet med prisen og hyppigheten som er oppført på denne siden, til den avsluttes eller du avbryter. Alle kanselleringer er underlagt %{cancellation_policy_label}."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

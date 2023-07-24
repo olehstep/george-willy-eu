@@ -1119,7 +1119,8 @@
       "invalid_for_card_type": "er ikke gyldig",
       "less_than_or_equal_to": "må være mindre enn eller lik %{count}",
       "gift_card_currency_mismatch": "Gavekortet ditt er på %{gift_card_currency}. Kontakt oss for å få den utstedt på nytt i %{checkout_currency}.",
-      "product_not_available": "produktet er ikke publisert for denne kunden."
+      "product_not_available": "produktet er ikke publisert for denne kunden.",
+      "gift_card_code_invalid": "Koden er ugyldig"
     },
     "notices": {
       "order": {
@@ -1178,7 +1179,9 @@
         "shipping_address_invalid": "Det oppsto et problem med å beregne fraktprisene dine. Fortsett til kassen for å velge en fraktpris før du fullfører bestillingen.",
         "selling_plan_not_available_for_company_locations": "Kun engangskjøp er tilgjengelig for B2B-bestillinger",
         "link_expired": "Linken er utløpt",
-        "bundle_requires_components": "Pakkeproduktet '%{name}' kan ikke legges til i handlekurven."
+        "bundle_requires_components": "Pakkeproduktet '%{name}' kan ikke legges til i handlekurven.",
+        "too_many_items_in_cart": "Du kan ikke legge til flere %{name} i handlekurven.",
+        "gift_card_with_components_not_supported": "Pakkeproduktet '%{name}' kan ikke legges til i handlekurven."
       },
       "address": {
         "created": "Vellykket opprettet adresse",
@@ -1208,6 +1211,9 @@
         "updated_policy": {
           "status_html": "<b>Sporing av åpen e-post rapporteres.<\/b>",
           "visibility": "Vi har oppdatert retningslinjene våre, og nå åpnes sporings-e-poster. Åpningspriser for e-post vil bli rapportert anonymt. Vi vil bare se om du har åpnet en e-post som en del av den totale åpningshastigheten for e-post."
+        },
+        "track": {
+          "status_html": "<b>Sporing av åpen e-post rapporteres.<\/b>"
         }
       },
       "unsubscribed": {

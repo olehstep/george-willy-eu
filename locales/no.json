@@ -118,7 +118,8 @@
         "zip_code_placeholder": "post kode",
         "city_label": "By",
         "optional_first_name_label": "Fornavn (valgfritt)",
-        "title": "Informasjon"
+        "title": "Informasjon",
+        "ship_to_company": "Send til {{companyName}}"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",
@@ -205,7 +206,8 @@
         "discount_has_been_applied": "Rabatten er brukt",
         "component_quantity_title": "%{quantity} × %{product_title}",
         "shipping_pending_value": "—",
-        "taxes_label": "Skatter"
+        "taxes_label": "Skatter",
+        "customer_already_used_once_per_customer_discount_notice": "De <strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkoden er allerede brukt"
       },
       "stock": {
         "title": "Utsolgt",
@@ -239,7 +241,8 @@
           "header": "Noen varer ble fjernet fra handlekurven din",
           "title": "Produkt som ikke kan kjøpes"
         },
-        "continue_shopping_button_label": "Fortsette"
+        "continue_shopping_button_label": "Fortsette",
+        "quantity_column_header": "Mengde"
       },
       "contextual_availability": {
         "all_products_in_cart_unavailable": {
@@ -942,7 +945,8 @@
       "customer_account": {
         "save_my_information_label": "Lagre denne informasjonen til neste gang",
         "not_user_label": "Ikke %{first_name}?",
-        "sign_out_link_label": "Logg ut"
+        "sign_out_link_label": "Logg ut",
+        "sign_in_link_label": "Logg Inn"
       },
       "customer_payment_methods": {
         "update_card_button_label": "Oppdater kortet",

@@ -39,7 +39,8 @@
             "march": "mars",
             "december": "desember",
             "april": "april",
-            "february": "februar"
+            "february": "februar",
+            "october": "oktober"
           },
           "weekdays_abbreviation": {
             "monday": "Mo",
@@ -55,7 +56,8 @@
         "submit_for_review_button_label": "Send inn til gjennomgang",
         "datepicker": {
           "show_next_month": "Vis neste måned, {{month}} {{year}}",
-          "range_end": "Rekkevidde slutt"
+          "range_end": "Rekkevidde slutt",
+          "range_start": "Rekkevidde start"
         },
         "list_formatter": {
           "or": {
@@ -114,7 +116,8 @@
         "governorate_placeholder": "Governorate",
         "zip_code_placeholder": "post kode",
         "city_label": "By",
-        "optional_first_name_label": "Fornavn (valgfritt)"
+        "optional_first_name_label": "Fornavn (valgfritt)",
+        "title": "Informasjon"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",

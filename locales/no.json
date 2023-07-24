@@ -611,7 +611,9 @@
         "development_store_with_order_limit": "For å legge inn en testbestilling, må du bruke en testbetalingsgateway. Lær mer om %{development_store_order_testing_docs_link}.",
         "missing_shipping_address": "Betalingen din kunne ikke behandles fordi leveringsadressen din mangler. Legg til en leveringsadresse, og prøv på nytt.",
         "deferred_payment_not_allowed": "Utsatt betaling er ikke tillatt. Vennligst sjekk bestillingen din og prøv igjen.",
-        "invalid_cvc": "Angi en gyldig sikkerhetskode"
+        "invalid_cvc": "Angi en gyldig sikkerhetskode",
+        "invalid_number": "Skriv inn et gyldig kortnummer",
+        "invalid_expiry_date": "Angi en gyldig utløpsdato for kortet"
       },
       "payment_gateway": {
         "cash_on_delivery_label": "Postoppkrav (COD)",
@@ -797,7 +799,8 @@
         "payment_method_title": "Betalingsmetode",
         "resend_gift_cards_by_text": "Sende tekstmelding på nytt",
         "ready_for_delivery": "Klar for levering",
-        "order_status_confirmed_order_with_email_and_phone_payment": "Du foretok en betaling på bestillingen din %{date}."
+        "order_status_confirmed_order_with_email_and_phone_payment": "Du foretok en betaling på bestillingen din %{date}.",
+        "shipping_method_title": "Forsendelsesmetode"
       },
       "marketing": {
         "sms": {

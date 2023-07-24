@@ -465,7 +465,8 @@
         "location_billing_address_label": "Faktureringsadresse for sted",
         "markets_pro_disclaimer_privacy_policy": "Personvernerklæring",
         "card_information_notice": "Alle transaksjoner er sikre og krypterte. Kredittkortinformasjon lagres aldri.",
-        "billing_must_match_shipping_notice": "Faktureringsadressen til betalingsmåten din må samsvare med leveringsadressen."
+        "billing_must_match_shipping_notice": "Faktureringsadressen til betalingsmåten din må samsvare med leveringsadressen.",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Forhandlerens vilkår og betingelser"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -536,7 +537,9 @@
         "address_last_name_contains_html_tags": "Etternavn kan ikke inneholde HTML-koder.",
         "address_zip_contains_emojis": "Postnummer kan ikke inneholde emojier",
         "address_zip_invalid_for_country": "Skriv inn et gyldig postnummer for %{country}",
-        "credit_card_start_invalid": "Angi en gyldig startdato for kortet"
+        "credit_card_start_invalid": "Angi en gyldig startdato for kortet",
+        "address_last_name_contains_emojis": "Etternavn kan ikke inneholde emojier",
+        "credit_card_number_invalid": "Skriv inn et gyldig kortnummer"
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",

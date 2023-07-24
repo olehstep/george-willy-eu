@@ -2095,7 +2095,8 @@
       "quantity": "Mengde",
       "view_in_space": "Se i rommet ditt",
       "description": "Beskrivelse",
-      "no_selection": "Velg et alternativ"
+      "no_selection": "Velg et alternativ",
+      "size_chart": "Størrelsesguide"
     },
     "added_notification": {
       "title": "Har nettopp lagt til",
@@ -2227,7 +2228,8 @@
       "set_default": "Angi som standardadresse",
       "delete_confirm": "Er du sikker på at du vil slette denne adressen?",
       "title": "Dine adresser",
-      "company": "Selskap"
+      "company": "Selskap",
+      "country": "Land"
     },
     "order": {
       "cancelled_on": "Bestillingen kansellert på {{ date }}",

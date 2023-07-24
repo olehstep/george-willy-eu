@@ -1418,6 +1418,9 @@
       },
       "product_type": {
         "label": "Produkttype"
+      },
+      "price": {
+        "label": "Pris"
       }
     },
     "store_availability": {
@@ -1604,7 +1607,8 @@
         "two_images_accessibility_label": "Bestillingen inkluderer {{lineItemName1}}, {{lineItemName2}}",
         "list_view": "Vis listevisning",
         "show_order_actions_accessibility_label": "Vis ordrehandlinger for ordre {{name}}",
-        "empty_state_subtitle": "Gå til butikken for å bestille."
+        "empty_state_subtitle": "Gå til butikken for å bestille.",
+        "estimated_delivery": "Estimert levering {{date}}"
       },
       "order_status": {
         "in_review_label": "I anmeldelse",

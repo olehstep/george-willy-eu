@@ -1626,7 +1626,8 @@
         "print_shipping_label": "Skriv ut fraktetikett",
         "return_and_refund_link_text": "retur- og refusjonspolicy",
         "ineligible_return_without_policy_message": "Ingen varer i denne bestillingen er kvalifisert for retur.",
-        "expand_events_label": "Vis detaljer"
+        "expand_events_label": "Vis detaljer",
+        "ineligible_return_message": "Ingen varer i denne bestillingen er kvalifisert for retur."
       },
       "shipping": {
         "summary": "Shipping",
@@ -1640,7 +1641,8 @@
         "card_payment_details": "slutter med {{lastDigits}} - {{formattedTransactionAmount}}",
         "manual_payment_methods": {
           "money_order": "Postanvisning - {{formattedTransactionAmount}}",
-          "cash_on_delivery": "Postoppkrav (COD) - {{formattedTransactionAmount}}"
+          "cash_on_delivery": "Postoppkrav (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankinnskudd - {{formattedTransactionAmount}}"
         }
       },
       "hide_order_summary": "Skjul ordresammendrag",

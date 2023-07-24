@@ -374,7 +374,8 @@
         "no_pickup_location_notice": "Minst ett av produktene dine er ikke tilgjengelig for henting",
         "duties_and_taxes_title": "Toll og skatter",
         "subscription_pickup": "Henting av abonnement",
-        "shipping_line_phone_label": "Mobilnummer (påkrevd)"
+        "shipping_line_phone_label": "Mobilnummer (påkrevd)",
+        "shipping_used_as_billing_notice": "Dette vil også bli brukt som faktureringsadresse for denne bestillingen."
       },
       "localized_fields": {
         "additional_information": {
@@ -549,7 +550,8 @@
           "label": "Innkjøpsordrenummer (valgfritt)"
         },
         "purchase_options_agreement_label_html": "Jeg forstår at en eller flere varer i handlekurven min er et utsatt eller tilbakevendende kjøp. Ved å fortsette godtar jeg\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbestillingsregler<\/a>\nog autorisere deg til å belaste betalingsmåten min til prisene, frekvensen og datoene som er oppført på denne siden frem til min\nbestillingen er oppfylt eller jeg kansellerer, hvis det er tillatt.\n",
-        "order_edit_banner_single_item_returned": "Returnert"
+        "order_edit_banner_single_item_returned": "Returnert",
+        "ftd_vault_credit_card_label": "Lagre dette kredittkortet på kontoen min for en raskere utsjekking"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

@@ -358,7 +358,8 @@
         },
         "waiting_on_taxes_notice": "Beschel",
         "purchase_order_number": {
-          "title": "PO Nummer"
+          "title": "PO Nummer",
+          "label": "PO Nummer (optional)"
         },
         "preview_not_available": {
           "content": "Maacht Iech keng Suergen, dës Express Checkout funktionnéiert fir Är Clienten.",
@@ -2079,7 +2080,8 @@
           "description_with_replacement": "Dës Bezuelmethod läschen beaflosst virautoriséiert Bezuelungen fir dës Plaz. Ersetzen et mat enger alternativer Bezuelmethod fir weider Bestellungen ze kréien."
         },
         "payment_details": {
-          "draft_label": "Entworf Bestellung {{name}}"
+          "draft_label": "Entworf Bestellung {{name}}",
+          "order_label": "Uerdnung {{name}}"
         }
       },
       "orders": {
@@ -2431,7 +2433,10 @@
       "company": "Firma",
       "order_details_skeleton_accessibility_label": "Mellt Iech un fir all Bestellungsdetailer ze gesinn.",
       "order_details": "Detailer bestellen",
-      "marketing_description": "Dir kritt Marketing E-Maile. Dir kënnt zu all Moment ofmellen."
+      "marketing_description": "Dir kritt Marketing E-Maile. Dir kënnt zu all Moment ofmellen.",
+      "pickup": {
+        "pickup": "Ophiewen"
+      }
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",

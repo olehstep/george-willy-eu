@@ -899,7 +899,8 @@
           "one": "Geschenkkaart gouf per E-Mail geschéckt"
         },
         "resend_gift_cards_by_text": "Widderhuelung SMS",
-        "resend_gift_cards_by_email": "E-Mail zréckschécken"
+        "resend_gift_cards_by_email": "E-Mail zréckschécken",
+        "order_status_confirmed_with_installments_payment_return": "Gitt w.e.g. Är Opmierksamkeet zréck op de Verkeefer Associé."
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1082,7 +1083,9 @@
         "invalid_shipping_address": "Är Bezuelung konnt net veraarbecht ginn well mir Är Versandadress net fanne konnten. Kontrolléiert Är Versandadress a probéiert nach eng Kéier.",
         "missing_shipping_address": "Är Bezuelung konnt net veraarbecht ginn well Är Versandadress fehlt. Füügt eng Versandadress derbäi a probéiert nach eng Kéier.",
         "paypal_zero_amount": "Dir kënnt PayPal net fir %{amount} Bestellungen benotzen. Bestätegt Är Bestellung richteg ass a kuckt ouni PayPal.",
-        "processing_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Bezuelung. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod."
+        "processing_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Bezuelung. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod.",
+        "three_d_secure_throttled": "Ze vill Versich; weg wait ier Dir nach eng Kéier probéiert",
+        "expired_card": "Är Kaart ass ofgelaf. Benotzt eng aner Bezuelmethod."
       },
       "post_purchase": {
         "title": "Post-Akaaf",
@@ -1211,7 +1214,8 @@
           "contact_method_title": "Kontakt",
           "change_purchase_order_number_label": "Änneren PO Zuel",
           "no_address": "(Keng Adress)",
-          "due_after_order_reviewed_html": "Wéinst no Bestellung iwwerpréift"
+          "due_after_order_reviewed_html": "Wéinst no Bestellung iwwerpréift",
+          "purchase_order_number_title": "PO Nummer"
         },
         "review_title": "Iwwerpréiwen Uerdnung",
         "checkout_as_guest": "Kees als Gaascht",
@@ -1383,6 +1387,9 @@
           },
           "detour": {
             "queue": "Dir sidd an enger Schlaang fir d'Kasse gesat. Zoumaachen {{walletName}} fir weiderzemaachen."
+          },
+          "unsupported": {
+            "postal_code": "Dës Plaz gëtt net ënnerstëtzt"
           }
         },
         "connect_shipping_methods": "{{method1}} an {{method2}}",
@@ -1430,11 +1437,17 @@
           "action": {
             "cta": "Frësch Säit"
           },
-          "title": "Et war e Problem mat eiser Kees"
+          "title": "Et war e Problem mat eiser Kees",
+          "message": "Erfrëscht dës Säit oder probéiert nach eng Kéier an e puer Minutten"
         }
       },
       "discount_errors": {
         "generic_error": "Är Bestellung konnt net veraarbecht ginn well Äre Rabattcode net méi verfügbar ass. Iwwerpréift Är Bestellung total a probéiert nach eng Kéier."
+      },
+      "captcha": {
+        "errors": {
+          "not_solved": "Fëllt de CAPTCHA aus fir weiderzemaachen"
+        }
       }
     },
     "email_marketing": {

@@ -577,7 +577,11 @@
         "address_last_name_contains_emojis": "Etternavn kan ikke inneholde emojier",
         "credit_card_number_invalid": "Skriv inn et gyldig kortnummer",
         "handle_phone_invalid": "Skriv inn et gyldig telefonnummer",
-        "address_city_too_long": "Byen er for lang (maksimalt er 255 tegn)"
+        "address_city_too_long": "Byen er for lang (maksimalt er 255 tegn)",
+        "delivery_zone_not_found": "Den angitte sonen ble ikke funnet i det angitte landet.",
+        "email_blank": "Skriv inn en e-postadresse",
+        "gift_card_already_applied": "Dette gavekortet er allerede brukt på bestillingen din",
+        "reduction_code_code_not_found": "Skriv inn en gyldig rabattkode eller gavekort"
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",

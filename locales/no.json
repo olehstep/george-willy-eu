@@ -1710,7 +1710,9 @@
       "shop_pay": {
         "learn_more": "Lære mer"
       },
-      "discount": "Rabatt"
+      "discount": "Rabatt",
+      "summary_title": "Bestillingssammendrag",
+      "subtitle": "Bekreftet {{date}}"
     },
     "address_form": {
       "loading_finished_accessibility_message": "Adresseskjemaet er lastet inn",

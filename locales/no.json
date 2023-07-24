@@ -185,7 +185,10 @@
         "duties_and_taxes_label": "Toll og skatter",
         "vat_label_html": "Inkludert %{amount} i skatter",
         "total_outstanding_label": "Beløp å betale",
-        "recurring_total_multiple_label": "Denne ordren har en gjentakende kostnad for flere varer."
+        "recurring_total_multiple_label": "Denne ordren har en gjentakende kostnad for flere varer.",
+        "remove_gift_card_label": "Tydelig gavekort",
+        "discount_has_been_applied": "Rabatten er brukt",
+        "component_quantity_title": "%{quantity} × %{product_title}"
       },
       "stock": {
         "title": "Utsolgt",
@@ -887,7 +890,8 @@
         "no_tip_label": "Ingen"
       },
       "customer_account": {
-        "save_my_information_label": "Lagre denne informasjonen til neste gang"
+        "save_my_information_label": "Lagre denne informasjonen til neste gang",
+        "not_user_label": "Ikke %{first_name}?"
       },
       "customer_payment_methods": {
         "update_card_button_label": "Oppdater kortet",
@@ -935,7 +939,8 @@
           },
           "message": {
             "other": "Disse varene vil bli fjernet fra handlekurven din fordi det ikke er noen leveringsmetoder tilgjengelig for adressen din."
-          }
+          },
+          "label": "Ingen levering"
         }
       },
       "alternative_payment_method_banner": {

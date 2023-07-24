@@ -984,12 +984,16 @@
         "paginator": {
           "selected_pickup_point_label": {
             "other": "%{pickup_point_index} av %{count} poeng"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} av %{count} punkt"
           }
         },
         "number_of_pickup_points_near_location": {
           "other": "%{count} Hentepunkter i nærheten av der du befinner deg"
         },
-        "title": "Hentepunkt"
+        "title": "Hentepunkt",
+        "location_is_currently_closed": "Lukket"
       },
       "local_pickup": {
         "paginator": {
@@ -1021,7 +1025,8 @@
             "city": "Skriv inn en by"
           }
         },
-        "shipping_line_label": "Shipping"
+        "shipping_line_label": "Shipping",
+        "payment_in_progress_body": "Betalingen din blir behandlet. Bestillingen din vil bli fullført snart."
       },
       "markets": {
         "invalid_market_manager_error": "Gjennomgå kontaktinformasjonen din før du fullfører betaling"

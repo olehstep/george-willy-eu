@@ -1066,7 +1066,8 @@
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "other": ", deretter %{count} betalinger på %{total_price} hver"
+            "other": ", deretter %{count} betalinger på %{total_price} hver",
+            "one": ", deretter %{count} betaling på %{total_price}"
           }
         }
       },
@@ -1316,7 +1317,8 @@
         "price_descending": "Pris, høy til lav",
         "date_descending": "Dato, nytt til gammelt",
         "az": "Alfabetisk, A-Å",
-        "date_ascending": "Dato, gammel til ny"
+        "date_ascending": "Dato, gammel til ny",
+        "price_ascending": "Pris, lav til høy"
       }
     },
     "errors": {
@@ -1429,7 +1431,8 @@
       "address": {
         "created": "Vellykket opprettet adresse",
         "error_updating": "Feil under oppdatering av adresse",
-        "deleted": "Adressen er slettet"
+        "deleted": "Adressen er slettet",
+        "error_deleting": "Feil ved sletting av adresse."
       },
       "storefront": {
         "invalid_password": "Passordet er feil. Prøv igjen."
@@ -1591,7 +1594,8 @@
       "contact_link": "Kontakt oss",
       "generic_accessibility_label": "{{label}}: {{value}}",
       "contact_email_subject": "Kontakt fra {{shopName}} nettbutikk",
-      "close_menu_accessibility_label": "Lukk hovednavigasjonen"
+      "close_menu_accessibility_label": "Lukk hovednavigasjonen",
+      "document_title": "{{sectionName}} - {{shopName}} - Konto"
     },
     "orders": {
       "order_list": {

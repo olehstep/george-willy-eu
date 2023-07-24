@@ -1073,7 +1073,8 @@
         "geolocation": {
           "errors": {
             "unsuported_by_browser": "Geolokalisering støttes ikke av nettleseren din. Prøv på nytt, eller bruk en annen nettleser.",
-            "permission_not_allowed": "Tillat deling av posisjonen din."
+            "permission_not_allowed": "Tillat deling av posisjonen din.",
+            "permission_denied": "Kunne ikke få posisjonen din. Prøv igjen."
           }
         },
         "search_button": "Søk",
@@ -1100,7 +1101,8 @@
         "paginator": {
           "label": {
             "other": "%{first} - %{last} av %{count} butikker"
-          }
+          },
+          "previous": "Forrige side"
         },
         "search_button": "Finn butikker",
         "toggle_location": "Endre posisjonen min",
@@ -1128,7 +1130,8 @@
           }
         },
         "shipping_line_label": "Shipping",
-        "payment_in_progress_body": "Betalingen din blir behandlet. Bestillingen din vil bli fullført snart."
+        "payment_in_progress_body": "Betalingen din blir behandlet. Bestillingen din vil bli fullført snart.",
+        "call_to_action": "Betal med {{walletName}}"
       },
       "markets": {
         "invalid_market_manager_error": "Gjennomgå kontaktinformasjonen din før du fullfører betaling"
@@ -1141,7 +1144,8 @@
         "editable_shipping_address_violations_message_title": "Legg til denne informasjonen for å fullføre bestillingen:",
         "editable_shipping_address_violations_message_footer": "Hvis du vil oppdatere adressen for denne plasseringen permanent, {{emailLink}}.",
         "violations_title": "{{violation}} mangler eller er ugyldig",
-        "company_location_changed_product_removed": "Korva di er oppdatert fordi enkelte produkter ikke er tilgjengelege her. Se gjennom bestillingen før du sender den inn."
+        "company_location_changed_product_removed": "Korva di er oppdatert fordi enkelte produkter ikke er tilgjengelege her. Se gjennom bestillingen før du sender den inn.",
+        "subscription_changed": "Ett av abonnementene dine er endret."
       },
       "discount_errors": {
         "generic_error": "Bestillingen kunne ikke behandles fordi rabattkoden ikke lenger er tilgjengelig. Se gjennom totalsummen for bestillingen, og prøv på nytt."
@@ -1169,8 +1173,7 @@
         "terminal": {
           "action": {
             "cta": "Oppdater side"
-          },
-          "title": "Det oppstod et problem med betalingen"
+          }
         }
       },
       "captcha": {

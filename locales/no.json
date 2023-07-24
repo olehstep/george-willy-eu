@@ -465,7 +465,8 @@
         "generic_incorrect_card_info": "Betalingsopplysningene dine kunne ikke bekreftes. Sjekk kortdetaljene dine og prøv igjen.",
         "subscription_agreement_label": "Jeg forstår at jeg godtar et abonnement. Den fornyes til prisen og frekvensen som er oppført til den slutter eller er %{cancelled}.",
         "preview_not_available": {
-          "title": "Forhåndsvisning er ikke tilgjengelig"
+          "title": "Forhåndsvisning er ikke tilgjengelig",
+          "content": "Ikke bekymre deg, denne ekspresskassen fungerer for kundene dine."
         },
         "gift_card_wrapper": {
           "payment_tag": "Gavekort",
@@ -519,7 +520,13 @@
         "saved_credit_card_info": "De fire siste sifrene",
         "purchase_options_and_vaulting_agreement_label": "En eller flere varer i handlekurven er et utsatt eller gjentakende kjøp. Ved å fortsette med betalingen godtar du at betalingsmåten din automatisk blir belastet med prisen og hyppigheten som er oppført på denne siden, til den avsluttes eller du avbryter. Alle kanselleringer er underlagt %{cancellation_policy_label}.",
         "credit_card_start_month": "Start måned",
-        "payment_method_saved": "Betalingsmåten er lagret"
+        "payment_method_saved": "Betalingsmåten er lagret",
+        "shop_pay_installments_label": "Forretninger med lønn",
+        "clear": "Klar",
+        "order_edit_banner_subtitle": "Bestillingen din {{order_number}} ble oppdatert. Se gjennom disse endringene, og betal deretter for å bekrefte bestillingen din.",
+        "custom_onsite_payment_method_modal": {
+          "title": "Tilpasset betalingsbekreftelse på stedet"
+        }
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

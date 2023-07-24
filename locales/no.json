@@ -1901,7 +1901,8 @@
             "title_with_date": "Refundert {{date}}",
             "description_single_refund": "Du har mottatt en delvis refusjon for denne bestillingen.",
             "description_full_refund": "Du har mottatt full refusjon for denne bestillingen.",
-            "description_multiple_refunds": "Du mottok delvis refusjon for denne bestillingen."
+            "description_multiple_refunds": "Du mottok delvis refusjon for denne bestillingen.",
+            "title": "Refundert"
           },
           "title": "Betalingsstatus",
           "paid": {
@@ -1920,7 +1921,8 @@
         },
         "title": "Bestill {{name}}",
         "subtitle": "Sendt {{date}}",
-        "draft_order_subtitle": "Bekreftet {{date}} fra bestilling {{draftOrderName}}"
+        "draft_order_subtitle": "Bekreftet {{date}} fra bestilling {{draftOrderName}}",
+        "loading_finished_accessibility_message": "Bestillingsdetaljer er lastet inn"
       },
       "addresses": {
         "shipping_address_card_title": "Sendingsadresse",

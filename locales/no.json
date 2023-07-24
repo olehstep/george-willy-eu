@@ -1984,7 +1984,8 @@
       "terms_of_service": "Vilkår for bruk",
       "shipping_policy": "Fraktpolicy",
       "privacy_policy": "Personvernerklæring",
-      "legal_notice": "Juridisk varsel"
+      "legal_notice": "Juridisk varsel",
+      "subscription_policy": "Regler for abonnement"
     }
   },
   "general": {
@@ -2125,6 +2126,9 @@
     "quick_buy": {
       "read_more": "Mer informasjon",
       "launch": "Rask kjøp"
+    },
+    "listing": {
+      "from": "Fra"
     }
   },
   "layout": {

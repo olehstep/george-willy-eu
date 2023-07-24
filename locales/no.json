@@ -43,7 +43,8 @@
             "monday": "Mo"
           },
           "weekdays": {
-            "tuesday": "tirsdag"
+            "tuesday": "tirsdag",
+            "monday": "mandag"
           }
         },
         "continue_to_shipping_method": "Fortsett til frakt",
@@ -55,7 +56,8 @@
         },
         "list_formatter": {
           "or": {
-            "lastWordConnector": "{{previousWords}}, eller {{lastWord}}"
+            "lastWordConnector": "{{previousWords}}, eller {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} eller {{secondWord}}"
           }
         },
         "back_to_shipping_method": "Gå tilbake til frakt",
@@ -106,7 +108,9 @@
         "civic_number_warning": "Legg til et husnummer hvis du har et",
         "last_name_label": "Etternavn",
         "governorate_placeholder": "Governorate",
-        "zip_code_placeholder": "post kode"
+        "zip_code_placeholder": "post kode",
+        "city_label": "By",
+        "optional_first_name_label": "Fornavn (valgfritt)"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",

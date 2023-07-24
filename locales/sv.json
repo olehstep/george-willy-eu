@@ -338,7 +338,8 @@
       "city": "Stad",
       "country": "Land",
       "delete_confirm": "Är du säker på att du vill ta bort den här adressen?",
-      "add_new": "Lägg till en ny adress"
+      "add_new": "Lägg till en ny adress",
+      "cancel": "Annullera"
     },
     "reset_password": {
       "title": "Återställ lösenord",
@@ -379,7 +380,8 @@
       "cancelled_on": "Beställning annullerad på {{ date }}",
       "shipping": "Frakt",
       "payment_status": "Betalningsstatus",
-      "quantity": "Kvantitet"
+      "quantity": "Kvantitet",
+      "subtotal": "Delsumma"
     },
     "login": {
       "guest_title": "Fortsätt som gäst",

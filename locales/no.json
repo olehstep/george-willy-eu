@@ -2174,7 +2174,8 @@
       "hipercard": "hyperkort",
       "jcb": "JCB",
       "dankort": "Dankort",
-      "forbrugsforeningen": "Forbrukerforeningen"
+      "forbrugsforeningen": "Forbrukerforeningen",
+      "dinersclub": "Diners Club"
     },
     "shop_policies": {
       "terms_of_sale": "Salgsbetingelser",
@@ -2202,7 +2203,8 @@
       "total_reviews": "totalt antall anmeldelser",
       "skip_to_content": "Hopp til innholdet",
       "previous": "Tidligere",
-      "video_stop": "Stopp video"
+      "video_stop": "Stopp video",
+      "video_play": "Spill av video"
     },
     "popup_section": {
       "submit": "Abonnere",

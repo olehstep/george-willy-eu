@@ -954,7 +954,8 @@
         },
         "accept_marketing_checkbox_label": "Send meg en e-post med nyheter og tilbud",
         "accept_shop_pay_marketing_checkbox_label": "Registrer meg for nyheter og tilbud fra denne butikken",
-        "pending_accept_marketing_checkbox_label": "Sjekk e-posten din for å bekrefte abonnementet på nyheter og tilbud"
+        "pending_accept_marketing_checkbox_label": "Sjekk e-posten din for å bekrefte abonnementet på nyheter og tilbud",
+        "post_accept_marketing_checkbox_label": "Du abonnerer på å motta nyheter og tilbud på e-post"
       },
       "shop_policies": {
         "legal_notice": "Juridisk varsel",
@@ -2298,7 +2299,8 @@
       "left": "Venstre",
       "down": "Ned",
       "toggle_menu": "Bytt meny",
-      "minus": "Minus"
+      "minus": "Minus",
+      "plus": "I tillegg til"
     },
     "accessibility_labels": {
       "close": "Lukk",

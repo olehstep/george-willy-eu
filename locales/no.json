@@ -1080,7 +1080,8 @@
         "inventory": {
           "sold_out": {
             "heading": "Handlevognen din er utsolgt",
-            "storefront_body": "Gå tilbake til butikken for å fortsette å handle"
+            "storefront_body": "Gå tilbake til butikken for å fortsette å handle",
+            "link": "Tilbake til butikken"
           }
         },
         "footer": {
@@ -1118,7 +1119,8 @@
       "open_graph_meta_tag": {
         "title_with_products": {
           "zero": "Kjøp %{product_name}",
-          "one": "Kjøp %{product_name} og %{count} annen vare"
+          "one": "Kjøp %{product_name} og %{count} annen vare",
+          "other": "Kjøp %{product_name} og %{count} andre varer"
         }
       },
       "pickup_point": {

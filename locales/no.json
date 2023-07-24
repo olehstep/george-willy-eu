@@ -1544,7 +1544,8 @@
         "three_images_accessibility_label": "Bestillingen inkluderer {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
         "two_images_accessibility_label": "Bestillingen inkluderer {{lineItemName1}}, {{lineItemName2}}",
         "list_view": "Vis listevisning",
-        "show_order_actions_accessibility_label": "Vis ordrehandlinger for ordre {{name}}"
+        "show_order_actions_accessibility_label": "Vis ordrehandlinger for ordre {{name}}",
+        "empty_state_subtitle": "Gå til butikken for å bestille."
       },
       "order_status": {
         "in_review_label": "I anmeldelse",
@@ -1761,7 +1762,8 @@
         "edit_accessibility_label": "Rediger profil",
         "save_accessibility_label": "Lagre profil",
         "edit": "Redigere",
-        "last_name": "Etternavn"
+        "last_name": "Etternavn",
+        "no_name_provided_accessibility_label": "Ingen navn lagt til"
       },
       "profile_update_confirmation_message": "Profil oppdatert",
       "people": {

@@ -243,7 +243,8 @@
         "gift_card_and_discount_placeholder": "Gavekort eller rabattkode",
         "collapse_component_information": {
           "one": "Skjul %{count} element"
-        }
+        },
+        "error_duties_tooltip": "Denne bestillingen sendes fra et annet land, så toll og avgifter kan bli belastet ved levering."
       },
       "stock": {
         "title": "Utsolgt",
@@ -1559,7 +1560,8 @@
     },
     "challenge": {
       "error": "Svaret ditt var ikke riktig, prøv igjen.",
-      "submit_button_text": "Sende inn"
+      "submit_button_text": "Sende inn",
+      "message": "For å fortsette, gi oss beskjed om at du ikke er en robot."
     },
     "sentence": {
       "last_word_connector": ", og ",

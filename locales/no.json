@@ -2433,7 +2433,8 @@
       "name": "Navn",
       "author_meta_said": "{{ author }} sa:",
       "email": "E-post",
-      "message": "Kommentar"
+      "message": "Kommentar",
+      "post": "Post Kommentar"
     }
   },
   "store_availability": {

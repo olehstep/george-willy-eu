@@ -1849,7 +1849,9 @@
       "billing_address": "Fakturaadresse",
       "log_in_to_a_different_account": "Logg på en annen konto",
       "summary_totals_title_accessibility_label": "Bestillingssummer",
-      "zero_duties_tooltip": "Denne ordren sendes fra et annet land. Tollplikter belastes ikke på bestillinger av denne verdien."
+      "zero_duties_tooltip": "Denne ordren sendes fra et annet land. Tollplikter belastes ikke på bestillinger av denne verdien.",
+      "remaining_amount": "Gjenstående",
+      "taxes": "Skatter"
     },
     "address_form": {
       "loading_finished_accessibility_message": "Adresseskjemaet er lastet inn",
@@ -1959,7 +1961,8 @@
             "banner_due_today": "Betalingen din forfaller i dag",
             "description_partially_paid": "Denne ordren ble delvis betalt. Du har en gjenværende saldo.",
             "title_due_on_fulfillment": "Betaling ved oppfyllelse",
-            "description_authorized": "Betalingsmåten din vil bli belastet på forfallsdatoen, eller du kan betale nå."
+            "description_authorized": "Betalingsmåten din vil bli belastet på forfallsdatoen, eller du kan betale nå.",
+            "title_due_on_receipt": "Betaling ikke forfalt ennå"
           },
           "refund": {
             "title_with_date": "Refundert {{date}}",
@@ -2035,7 +2038,8 @@
         "list_loading_address_accessibility_message": "Laster adresse for {{locationName}}",
         "list_item_accessibility_label": "{{name}}: {{address}}",
         "search_location_title": "Velg et sted",
-        "loading_store_accessibility_message": "Skal på butikk"
+        "loading_store_accessibility_message": "Skal på butikk",
+        "list_loading_finished_accessibility_message": "Liste over steder er lastet inn"
       },
       "orders": {
         "order_list_column_headers_contact": "Ta kontakt med",
@@ -2083,7 +2087,8 @@
         "edit_modal_title": "Rediger PO-nummer",
         "empty_state": "Ingen PO-nummer",
         "discard_changes_modal_title": "Forkaste endringer?",
-        "save": "Lagre"
+        "save": "Lagre",
+        "cancel": "Avbryt"
       }
     },
     "errors": {

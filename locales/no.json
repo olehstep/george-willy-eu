@@ -1765,7 +1765,8 @@
       "add_address_banner": "Legg til adresser som skal brukes i kassen",
       "title": "Adresser",
       "delete_button": "Slett",
-      "loading_finished_accessibility_message": "Ny side med adresser er lastet inn"
+      "loading_finished_accessibility_message": "Ny side med adresser er lastet inn",
+      "no_addresses_banner": "Ingen adresser lagt til"
     },
     "account_information": {
       "profile_card": {
@@ -1874,7 +1875,8 @@
         "payment_terms": "Betalingsbetingelser",
         "multiple_tax_exemptions": "{{taxExemptionsCount}} mer",
         "taxes_none": "Ingen",
-        "shipping_address_required": "Legg til en leveringsadresse til dette stedet for å begynne å legge inn bestillinger."
+        "shipping_address_required": "Legg til en leveringsadresse til dette stedet for å begynne å legge inn bestillinger.",
+        "contact_list_title": "Mennesker"
       },
       "location_selection": {
         "selection_cancel_button": "Avbryt",

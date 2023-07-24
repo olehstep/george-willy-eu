@@ -2180,7 +2180,8 @@
         "billing_title": "Fakturaadresse",
         "invalid_payment_method": "Ugyldig betalingsmåte",
         "payment_details_loading": "Laster inn betalingsmåtedetaljer",
-        "preauthorized_payments": "Forhåndsautoriserte betalinger"
+        "preauthorized_payments": "Forhåndsautoriserte betalinger",
+        "title": "Detaljer om betalingsmåte"
       },
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalingsmåten er oppdatert",

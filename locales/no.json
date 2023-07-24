@@ -687,7 +687,8 @@
             "out_for_delivery": {
               "delayed": "Forsendelsen din som forventes innen %{date} er forsinket.",
               "guaranteed_delayed": "Forsendelsen din kom ikke som forventet innen %{date}. Når den kommer kan du sende inn et krav med",
-              "guaranteed_on_time": "Levering garantert av %{date} med"
+              "guaranteed_on_time": "Levering garantert av %{date} med",
+              "on_time": "Levering innen %{date} med"
             },
             "confirmed": {
               "on_time": "Levering innen %{date} med",
@@ -873,7 +874,9 @@
           "description": "Du vil ikke motta flere handlekurvpåminnelser fra oss.",
           "title": "Du har avsluttet abonnementet"
         },
-        "accept_marketing_checkbox_label": "Send meg en e-post med nyheter og tilbud"
+        "accept_marketing_checkbox_label": "Send meg en e-post med nyheter og tilbud",
+        "accept_shop_pay_marketing_checkbox_label": "Registrer meg for nyheter og tilbud fra denne butikken",
+        "pending_accept_marketing_checkbox_label": "Sjekk e-posten din for å bekrefte abonnementet på nyheter og tilbud"
       },
       "shop_policies": {
         "legal_notice": "Juridisk varsel",

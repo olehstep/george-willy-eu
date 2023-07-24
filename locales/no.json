@@ -911,7 +911,9 @@
         "confirmed_description": "Vi har godtatt bestillingen din, og vi gjør den klar. Kom tilbake til denne siden for oppdateringer om forsendelsesstatusen din.",
         "gift_card_text_title": {
           "one": "Gavekortet ble sendt på SMS"
-        }
+        },
+        "delivered_title": "Bestillingen din er levert",
+        "contact_us_html": "Trenger hjelp? %{contact_us}"
       },
       "marketing": {
         "sms": {

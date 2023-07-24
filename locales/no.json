@@ -664,7 +664,8 @@
         },
         "title": "Etter kjøp",
         "page_title": "Etter kjøp",
-        "escape_confirmation": "Du har betalt for bestillingen din."
+        "escape_confirmation": "Du har betalt for bestillingen din.",
+        "escape_action": "Se ordrebekreftelse ›"
       },
       "shipping_errors": {
         "shipping_method": "Handlekurven din er oppdatert og den forrige fraktprisen er ikke gyldig. Velg en ny pris.",
@@ -925,7 +926,10 @@
           "one": "Gavekortet ble sendt på SMS"
         },
         "delivered_title": "Bestillingen din er levert",
-        "contact_us_html": "Trenger hjelp? %{contact_us}"
+        "contact_us_html": "Trenger hjelp? %{contact_us}",
+        "gift_card_email_title": {
+          "other": "Gavekort ble sendt på e-post"
+        }
       },
       "marketing": {
         "sms": {

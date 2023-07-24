@@ -1022,7 +1022,8 @@
         },
         "title": "Hentepunkt",
         "location_is_currently_closed": "Lukket",
-        "no_pickup_points_near_location": "Ingen hentesteder funnet i nærheten av stedet ditt"
+        "no_pickup_points_near_location": "Ingen hentesteder funnet i nærheten av stedet ditt",
+        "waiting_on_pickup_point_location_notice": "Søker etter hentesteder..."
       },
       "local_pickup": {
         "paginator": {
@@ -1095,6 +1096,11 @@
           "action": {
             "cta": "Oppdater side"
           }
+        }
+      },
+      "captcha": {
+        "errors": {
+          "not_solved": "Fullfør CAPTCHA for å fortsette"
         }
       }
     },

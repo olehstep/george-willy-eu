@@ -1135,7 +1135,8 @@
       },
       "notice_banner": {
         "individual_violations_title": {
-          "PaymentViolations": "Fakturaadresse"
+          "PaymentViolations": "Fakturaadresse",
+          "OtherViolations": "Bestill informasjon"
         },
         "editable_shipping_address_violations_message_title": "Legg til denne informasjonen for å fullføre bestillingen:",
         "editable_shipping_address_violations_message_footer": "Hvis du vil oppdatere adressen for denne plasseringen permanent, {{emailLink}}.",
@@ -1147,7 +1148,8 @@
       },
       "marketplaces": {
         "legal_notice": {
-          "legal_text": "Anmeldelse"
+          "legal_text": "Anmeldelse",
+          "link_label": "{{partnerDisplayName}} Regler og vilkår"
         }
       },
       "change_country": {
@@ -1167,7 +1169,8 @@
         "terminal": {
           "action": {
             "cta": "Oppdater side"
-          }
+          },
+          "title": "Det oppstod et problem med betalingen"
         }
       },
       "captcha": {

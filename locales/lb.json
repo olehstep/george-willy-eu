@@ -1240,7 +1240,8 @@
         "debit_card_label": "Kreditkaart",
         "generic_payment_terms": "Dir sidd op {{translatedName}} Begrëffer. Är Bezuelung gëtt op {{dueDate}} verschriwwen.",
         "order_due_on_fulfillment_payment": "Är Kaart gëtt berechent wann Är Bestellung erfëllt ass.",
-        "deferred_payment_label": "Wielt spéider Bezuelmethod"
+        "deferred_payment_label": "Wielt spéider Bezuelmethod",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Är Kaart gëtt berechent wann Är Bestellung bestätegt ass."
       },
       "review": {
         "title": "Iwwerpréiwung",
@@ -1443,6 +1444,9 @@
           },
           "unsupported": {
             "postal_code": "Dës Plaz gëtt net ënnerstëtzt"
+          },
+          "formatting": {
+            "name_contains_emojis": "Emoji aus Ärem Numm läschen"
           }
         },
         "connect_shipping_methods": "{{method1}} an {{method2}}",
@@ -1725,7 +1729,8 @@
           "status": "Bestellung Status",
           "total": "Ganzen",
           "delivery_date": "Liwwerungsdatum",
-          "order_number": "Bestellnummer"
+          "order_number": "Bestellnummer",
+          "order": "Uerdnung"
         },
         "carousel": {
           "four_products_accessibility_label": "Bestellung enthält {{lineItemName1}} Quantitéit {{lineItemQuantity1}}, {{lineItemName2}} Quantitéit {{lineItemQuantity2}}, {{lineItemName3}} Quantitéit {{lineItemQuantity3}}, {{lineItemName4}} Quantitéit {{lineItemQuantity4}}",
@@ -2203,7 +2208,8 @@
         },
         "warning_message_with_replacement": {
           "with_pending_orders_and_subscriptions": "Dës Bezuelmethod ze läschen beaflosst d'preautoriséiert Bezuelungen. Ausser Dir wielt eng alternativ Bezuelmethod, gëtt dës Bezuelmethod nach ëmmer berechent fir all aussergewéinlech Salden op existéierend Bestellungen. Wiel vun enger alternativer Bezuelmethod erlaabt Iech zukünfteg Abonnementbestellungen ouni Ënnerbriechung ze kréien.",
-          "with_pending_orders": "Wann Dir dës Bezuelmethod geläscht hutt, gëtt se vun Ärem Kont ewechgeholl an ass net méi fir zukünfteg Akeef verfügbar. Ausser Dir wielt eng alternativ Bezuelmethod, gëtt et nach ëmmer fir all aussergewéinlech Salden op existent Bestellunge verrechent."
+          "with_pending_orders": "Wann Dir dës Bezuelmethod geläscht hutt, gëtt se vun Ärem Kont ewechgeholl an ass net méi fir zukünfteg Akeef verfügbar. Ausser Dir wielt eng alternativ Bezuelmethod, gëtt et nach ëmmer fir all aussergewéinlech Salden op existent Bestellunge verrechent.",
+          "with_subscriptions": "Dës Bezuelmethod ze läschen beaflosst d'preautoriséiert Bezuelungen. Ersetzen et mat enger alternativer Bezuelmethod fir weider Bestellungen ze kréien."
         }
       },
       "card_fields": {
@@ -2407,7 +2413,8 @@
       "ok_duties_tooltip": "Dës Bestellung gëtt aus engem anere Land geschéckt, sou datt Flichte fir Är Bestellungsgesamt bäigefüügt ginn.",
       "zero_duties_tooltip": "Dës Bestellung gëtt aus engem anere Land geschéckt. Flichte ginn net op Bestellunge vun dësem Wäert verrechent.",
       "company": "Firma",
-      "order_details_skeleton_accessibility_label": "Mellt Iech un fir all Bestellungsdetailer ze gesinn."
+      "order_details_skeleton_accessibility_label": "Mellt Iech un fir all Bestellungsdetailer ze gesinn.",
+      "order_details": "Detailer bestellen"
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",

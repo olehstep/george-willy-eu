@@ -210,7 +210,9 @@
         "customer_already_used_once_per_customer_discount_notice": "De <strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkoden er allerede brukt",
         "tip_label": "Tips",
         "expand_order_summary": "Vis ordresammendrag",
-        "estimated_taxes_label": "Beregnet skatt"
+        "estimated_taxes_label": "Beregnet skatt",
+        "maximum_discount_code_limit_reached": "Du har nådd maksimalt antall rabattkoder. Fjern en eksisterende kode for å bruke <strong style=\"text-transform:uppercase\">%{code}<\/strong>.",
+        "alternative_payment_currency_total": "Ladd som %{amount_due}"
       },
       "stock": {
         "title": "Utsolgt",
@@ -335,7 +337,8 @@
           "ddp_caption": "Ingen ekstra avgifter ved levering"
         },
         "address_update": "Oppdater adressen",
-        "estimated_time": "Estimert %{time}"
+        "estimated_time": "Estimert %{time}",
+        "no_pickup_location_notice": "Minst ett av produktene dine er ikke tilgjengelig for henting"
       },
       "localized_fields": {
         "additional_information": {

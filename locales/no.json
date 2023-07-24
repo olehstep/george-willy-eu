@@ -1819,7 +1819,8 @@
               "one": "Betalingen din er {{count}} dag forsinket"
             },
             "banner_due_today": "Betalingen din forfaller i dag",
-            "description_partially_paid": "Denne ordren ble delvis betalt. Du har en gjenværende saldo."
+            "description_partially_paid": "Denne ordren ble delvis betalt. Du har en gjenværende saldo.",
+            "title_due_on_fulfillment": "Betaling ved oppfyllelse"
           },
           "refund": {
             "title_with_date": "Refundert {{date}}",
@@ -2070,7 +2071,8 @@
       "edit_payment_method_brand_button_accessibility_label": "Rediger {{paymentMethodName}}",
       "add_payment_method_button": "Legg til betalingsmåte",
       "no_payment_methods_banner": "Ingen betalingsmetoder lagt til",
-      "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}} som slutter på {{lastDigits}}"
+      "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}} som slutter på {{lastDigits}}",
+      "expiration_warning_button_accessibility_label": "Vis utløpsadvarsel for {{paymentMethodName}} som slutter på {{lastDigits}}"
     },
     "payment_method_brands": {
       "americanexpress": "American Express",

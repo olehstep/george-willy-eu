@@ -800,7 +800,8 @@
         "resend_gift_cards_by_text": "Sende tekstmelding på nytt",
         "ready_for_delivery": "Klar for levering",
         "order_status_confirmed_order_with_email_and_phone_payment": "Du foretok en betaling på bestillingen din %{date}.",
-        "shipping_method_title": "Forsendelsesmetode"
+        "shipping_method_title": "Forsendelsesmetode",
+        "login_title": "Logg inn for å se alle ordredetaljer"
       },
       "marketing": {
         "sms": {

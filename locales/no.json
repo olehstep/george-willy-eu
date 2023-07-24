@@ -807,8 +807,10 @@
         "sms": {
           "disclaimer": {
             "terms_of_service": "Vilkår for bruk",
-            "description_transactional_html": "Du kan motta tekstmeldinger relatert til ordrebekreftelse og fraktoppdateringer. Svar STOP for å avslutte abonnementet. Svar HJELP for hjelp. Meldingsfrekvensen varierer. Meldings- og datatakster kan gjelde. Se våre %{privacy_policy_modal_link} og %{terms_of_service_modal_link}."
-          }
+            "description_transactional_html": "Du kan motta tekstmeldinger relatert til ordrebekreftelse og fraktoppdateringer. Svar STOP for å avslutte abonnementet. Svar HJELP for hjelp. Meldingsfrekvensen varierer. Meldings- og datatakster kan gjelde. Se våre %{privacy_policy_modal_link} og %{terms_of_service_modal_link}.",
+            "privacy_policy": "Personvernerklæring"
+          },
+          "mobile_phone_number": "Mobiltelefonnummer"
         },
         "unsubscribe": {
           "description": "Du vil ikke motta flere handlekurvpåminnelser fra oss.",
@@ -846,7 +848,8 @@
           "payment_method_title": "innbetaling",
           "change_contact_method_link_label": "Endre kontaktinformasjon",
           "shipping_method_title": "Metode",
-          "no_purchase_order_number": "(Ingen PO-nummer)"
+          "no_purchase_order_number": "(Ingen PO-nummer)",
+          "purchase_order_number_title": "Postnummer"
         },
         "checkout_as_guest": "Sjekk ut som gjest",
         "review_title": "Gjennomgå bestillingen"

@@ -128,7 +128,8 @@
         "title": "Informasjon",
         "ship_to_company": "Send til {{companyName}}",
         "county_placeholder": "fylke",
-        "state_and_territory_label": "Stat\/territorium"
+        "state_and_territory_label": "Stat\/territorium",
+        "optional_company_label": "Firma (valgfritt)"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",
@@ -951,7 +952,8 @@
         "pick_up_locations": "Hentesteder",
         "pick_up_in_five_or_more_days": "Vanligvis klar om 5+ dager",
         "subscription_pickup_information": "Denne leveringsmetoden gjelder for alle varer i denne bestillingen og for alle fremtidige bestillinger av dette abonnementet.",
-        "pick_up_next_day": "Klar for henting neste dag"
+        "pick_up_next_day": "Klar for henting neste dag",
+        "pick_up_in_two_to_four_hours": "Klar for henting om 4 timer"
       },
       "mor_policies": {
         "privacy_policy": "Personvernerklæring for selgere",

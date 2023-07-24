@@ -199,7 +199,8 @@
       "next": "Nästa"
     },
     "meta": {
-      "tags": "Taggad \"{{ tags }}\""
+      "tags": "Taggad \"{{ tags }}\"",
+      "page": "Sida {{ page }}"
     },
     "navigation": {
       "main_navigation_aria_label": "Primärnavigering"

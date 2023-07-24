@@ -1009,7 +1009,8 @@
         "order_updated_on": "Bestillingen din ble oppdatert på %{last_edited_at}.",
         "checkout_review_and_pay": "Bestillingen din %{order_name} ble oppdatert. Se gjennom disse endringene, og betal deretter for å bekrefte bestillingen din.",
         "order_review_and_pay": "Bestillingen din ble oppdatert. Se gjennom og betal for å bekrefte bestillingen din.",
-        "custom_line_item_description": "Beløp for bestillingen %{order_name}"
+        "custom_line_item_description": "Beløp for bestillingen %{order_name}",
+        "pay_now": "Betal nå"
       },
       "delivery_options": {
         "pick_up_immediately": "Klar for henting nå",

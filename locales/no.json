@@ -575,7 +575,9 @@
         "address_zip_invalid_for_country": "Skriv inn et gyldig postnummer for %{country}",
         "credit_card_start_invalid": "Angi en gyldig startdato for kortet",
         "address_last_name_contains_emojis": "Etternavn kan ikke inneholde emojier",
-        "credit_card_number_invalid": "Skriv inn et gyldig kortnummer"
+        "credit_card_number_invalid": "Skriv inn et gyldig kortnummer",
+        "handle_phone_invalid": "Skriv inn et gyldig telefonnummer",
+        "address_city_too_long": "Byen er for lang (maksimalt er 255 tegn)"
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",

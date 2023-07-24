@@ -230,7 +230,8 @@
         "expand_order_summary": "Vis ordresammendrag",
         "estimated_taxes_label": "Beregnet skatt",
         "maximum_discount_code_limit_reached": "Du har nådd maksimalt antall rabattkoder. Fjern en eksisterende kode for å bruke <strong style=\"text-transform:uppercase\">%{code}<\/strong>.",
-        "alternative_payment_currency_total": "Ladd som %{amount_due}"
+        "alternative_payment_currency_total": "Ladd som %{amount_due}",
+        "recurring_total_tooltip": "Inkluderer ikke frakt, avgifter, avgifter eller eventuelle rabatter."
       },
       "stock": {
         "title": "Utsolgt",
@@ -249,7 +250,8 @@
             "one": "Denne varen vil bli fjernet fra handlekurven din fordi det ikke er noen leveringsmetoder tilgjengelig for adressen din."
           },
           "header": {
-            "other": "Ingen levering tilgjengelig for %{count} varer"
+            "other": "Ingen levering tilgjengelig for %{count} varer",
+            "one": "Ingen levering tilgjengelig for %{count} vare"
           },
           "title": "Ingen levering tilgjengelig"
         },
@@ -265,7 +267,8 @@
           "title": "Produkt som ikke kan kjøpes"
         },
         "continue_shopping_button_label": "Fortsette",
-        "quantity_column_header": "Mengde"
+        "quantity_column_header": "Mengde",
+        "remove": "Ta bort"
       },
       "contextual_availability": {
         "all_products_in_cart_unavailable": {

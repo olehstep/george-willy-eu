@@ -1876,7 +1876,9 @@
         "multiple_tax_exemptions": "{{taxExemptionsCount}} mer",
         "taxes_none": "Ingen",
         "shipping_address_required": "Legg til en leveringsadresse til dette stedet for å begynne å legge inn bestillinger.",
-        "contact_list_title": "Mennesker"
+        "contact_list_title": "Mennesker",
+        "tax_details_title": "Skattedetaljer",
+        "tax_id": "Skatte-ID"
       },
       "location_selection": {
         "selection_cancel_button": "Avbryt",
@@ -1933,7 +1935,9 @@
         "close_modal_accessibility_label": "Lukk PO nummer modal",
         "modal_po_number_input_max_length_error": "PO-numre har maksimalt {{maxLength}} tegn.",
         "edit_modal_title": "Rediger PO-nummer",
-        "empty_state": "Ingen PO-nummer"
+        "empty_state": "Ingen PO-nummer",
+        "discard_changes_modal_title": "Forkaste endringer?",
+        "save": "Lagre"
       }
     },
     "errors": {

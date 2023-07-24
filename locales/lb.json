@@ -2269,7 +2269,8 @@
         "replace_payment_method": "Bezuelmethod ersetzen",
         "loading_shop_pay": "Lueden Shop Pay",
         "payment_method_not_found_error": "Kënnt keng Bezuelmethod fannen",
-        "invalid_payment_method_message": "Benotzt eng nei Kreditkaart fir weider Bestellungen ze kréien."
+        "invalid_payment_method_message": "Benotzt eng nei Kreditkaart fir weider Bestellungen ze kréien.",
+        "invalid_payment_method": "Ongülteg Bezuelmethod"
       },
       "back_button": "Zréck",
       "back_button_accessibility_label": "Zréck op {{paymentMethodStepTitle}}",

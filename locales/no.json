@@ -188,7 +188,8 @@
         "shipping_label": "Shipping",
         "percent_off_shipping": "%{percent} % rabatt på frakt",
         "unit_price": {
-          "content_html": "%{price}%{accessible_separator}%{per_unit}"
+          "content_html": "%{price}%{accessible_separator}%{per_unit}",
+          "accessible_separator": "til"
         },
         "shipping_pending_message": "Ikke tilgjengelig enda",
         "discount_title": "Rabatt",
@@ -353,7 +354,8 @@
         "address_update": "Oppdater adressen",
         "estimated_time": "Estimert %{time}",
         "no_pickup_location_notice": "Minst ett av produktene dine er ikke tilgjengelig for henting",
-        "duties_and_taxes_title": "Toll og skatter"
+        "duties_and_taxes_title": "Toll og skatter",
+        "subscription_pickup": "Henting av abonnement"
       },
       "localized_fields": {
         "additional_information": {

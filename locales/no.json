@@ -66,7 +66,10 @@
           "decrease": "Reduser {{type}}"
         },
         "submit": "Sende inn",
-        "contact_us_html": "Kontakt oss for mer informasjon"
+        "contact_us_html": "Kontakt oss for mer informasjon",
+        "display_name": "{{firstName}} {{lastName}}",
+        "continue_to_payment_plans_button_label": "Fortsett til betalingsplaner",
+        "edit_link_label": "Redigere"
       },
       "contact": {
         "postcode_placeholder": "postnummer",
@@ -2095,8 +2098,7 @@
       "name": "Navn",
       "phone": "Telefon",
       "email": "E-post",
-      "post_success": "Takk for at du kontaktet oss. Vi kommer tilbake til deg så snart som mulig.",
-      "message": "Beskjed"
+      "post_success": "Takk for at du kontaktet oss. Vi kommer tilbake til deg så snart som mulig."
     }
   },
   "onboarding": {
@@ -2193,7 +2195,8 @@
       "full_details_html": "Fullstendige detaljer  ",
       "none": "Du har ikke lagt inn noen bestillinger ennå.",
       "fulfillment_status": "Oppfyllelsesstatus",
-      "date": "Dato"
+      "date": "Dato",
+      "total": "Total"
     },
     "reset_password": {
       "subtext": "Skriv inn et nytt passord for {{ email }}",

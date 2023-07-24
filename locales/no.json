@@ -1786,7 +1786,8 @@
         "description": "Det oppsto et problem med å oppdatere profilen din. Prøv å oppdatere denne siden eller sjekk internettforbindelsen din."
       },
       "banner_title": {
-        "one": "Det er {{count}} feil"
+        "one": "Det er {{count}} feil",
+        "other": "Det er {{count}} feil"
       },
       "retry_action_label": "Prøv på nytt",
       "no_access_to_locations": {
@@ -1905,7 +1906,8 @@
       "card_update_consent": "Denne betalingsmåten vil bli lagret for fremtidige kjøp.",
       "delete_payment_method_button_accessibility_label": "Slett {{paymentMethodName}}",
       "edit_payment_method_brand_button_accessibility_label": "Rediger {{paymentMethodName}}",
-      "add_payment_method_button": "Legg til betalingsmåte"
+      "add_payment_method_button": "Legg til betalingsmåte",
+      "no_payment_methods_banner": "Ingen betalingsmetoder lagt til"
     },
     "payment_method_brands": {
       "americanexpress": "American Express",
@@ -1972,7 +1974,8 @@
       "dropdown_label": "Valuta"
     },
     "quick_search": {
-      "no_results": "Beklager, vi fant ingen resultater"
+      "no_results": "Beklager, vi fant ingen resultater",
+      "pages": "Sider"
     },
     "pagination": {
       "next": "Neste"

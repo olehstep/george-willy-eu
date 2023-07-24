@@ -1750,7 +1750,8 @@
       "request_return_failed": "Det oppsto et problem under behandlingen av forespørselen din. Vær så snill, prøv på nytt.",
       "shop_order_tracking": {
         "real_time_delivery_updates": "Shop vil sende deg leveringsoppdateringer i sanntid når bestillingen din er sendt.",
-        "track_order_with_shop": "Spor bestilling med butikk"
+        "track_order_with_shop": "Spor bestilling med butikk",
+        "title_header": "Skann med telefonen"
       },
       "edit_summary": {
         "removed_with_quantity": "{{quantity}} fjernet",

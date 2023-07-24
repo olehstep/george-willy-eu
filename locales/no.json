@@ -2357,7 +2357,8 @@
       "note": "Legg til en merknad til bestillingen din"
     },
     "terms": {
-      "agreement_html": "Jeg er enig i <a href=\"{{ terms_url }}\" target=\"_blank\">vilkår og refusjonspolicy<\/a>"
+      "agreement_html": "Jeg er enig i <a href=\"{{ terms_url }}\" target=\"_blank\">vilkår og refusjonspolicy<\/a>",
+      "confirmation": "Du må godta vilkårene og betingelsene før du fortsetter."
     }
   },
   "products": {
@@ -2434,6 +2435,12 @@
     },
     "customer": {
       "log_out": "Logg ut"
+    },
+    "breadcrumbs": {
+      "home": "Hjem"
+    },
+    "live_search": {
+      "see_all": "Se alle resultater"
     }
   },
   "contact": {

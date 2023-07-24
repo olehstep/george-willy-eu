@@ -391,7 +391,8 @@
       "title": "Logga in",
       "register": "Skapa konto",
       "forgot_password": "Glömt ditt lösenord?",
-      "email": "E-post"
+      "email": "E-post",
+      "password": "Lösenord"
     },
     "general": {
       "return": "Återgå till butiken",

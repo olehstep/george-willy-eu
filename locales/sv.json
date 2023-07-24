@@ -291,6 +291,9 @@
     },
     "blog": {
       "empty": "Du har inga artiklar än! När du har skrivit en så kommer den att dyka upp här."
+    },
+    "collection": {
+      "collection_title": "Samlingstitel"
     }
   },
   "customer": {

@@ -2440,7 +2440,9 @@
       "delete_confirm": "Er du sikker på at du vil slette denne adressen?",
       "title": "Dine adresser",
       "company": "Selskap",
-      "country": "Land"
+      "country": "Land",
+      "edit_address": "Rediger adresse",
+      "delete": "Slett"
     },
     "order": {
       "cancelled_on": "Bestillingen kansellert på {{ date }}",

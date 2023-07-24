@@ -838,7 +838,8 @@
         "additional_payment_requested": "Betaling på %{total_outstanding} er nødvendig",
         "order_updated_on": "Bestillingen din ble oppdatert på %{last_edited_at}.",
         "checkout_review_and_pay": "Bestillingen din %{order_name} ble oppdatert. Se gjennom disse endringene, og betal deretter for å bekrefte bestillingen din.",
-        "order_review_and_pay": "Bestillingen din ble oppdatert. Se gjennom og betal for å bekrefte bestillingen din."
+        "order_review_and_pay": "Bestillingen din ble oppdatert. Se gjennom og betal for å bekrefte bestillingen din.",
+        "custom_line_item_description": "Beløp for bestillingen %{order_name}"
       },
       "delivery_options": {
         "pick_up_immediately": "Klar for henting nå",
@@ -963,7 +964,8 @@
       },
       "open_graph_meta_tag": {
         "title_with_products": {
-          "zero": "Kjøp %{product_name}"
+          "zero": "Kjøp %{product_name}",
+          "one": "Kjøp %{product_name} og %{count} annen vare"
         }
       },
       "pickup_point": {

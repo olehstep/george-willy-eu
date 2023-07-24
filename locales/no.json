@@ -1053,6 +1053,11 @@
             "one": "Første betaling %{total_price}"
           },
           "following_cycles": ", deretter %{total_price} hver %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": ", deretter %{count} betalinger på %{total_price} hver"
+          }
         }
       },
       "tips": {
@@ -1172,7 +1177,8 @@
         "no_pickup_points_near_location": "Ingen hentesteder funnet i nærheten av stedet ditt",
         "waiting_on_pickup_point_location_notice": "Søker etter hentesteder...",
         "selector_tabs": "Hentepunktvelger",
-        "selector_tab_list": "Liste"
+        "selector_tab_list": "Liste",
+        "selector_tab_map": "Kart"
       },
       "local_pickup": {
         "paginator": {

@@ -207,7 +207,8 @@
         "component_quantity_title": "%{quantity} × %{product_title}",
         "shipping_pending_value": "—",
         "taxes_label": "Skatter",
-        "customer_already_used_once_per_customer_discount_notice": "De <strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkoden er allerede brukt"
+        "customer_already_used_once_per_customer_discount_notice": "De <strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkoden er allerede brukt",
+        "tip_label": "Tips"
       },
       "stock": {
         "title": "Utsolgt",

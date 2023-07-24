@@ -372,7 +372,16 @@
         "order_edit_banner_title": "Bezuelung vun {{amount_owed}} ass néideg",
         "gift_card_code_label": "Cadeau Kaart Code",
         "simulated_checkout": "Preview kënnt geschwënn",
-        "markets_pro_disclaimer_label": "Andeems Dir hei drënner klickt an Är Bestellung ofgeschloss hutt, averstanen Dir Ären Artikel (en) vu Global-e als Händler of Record fir dës Transaktioun ze kafen, op Global-e's %{markets_pro_terms} an %{privacy_policy}. Global-e ass en internationalen Erfëllungsserviceprovider fir %{shop_name}"
+        "markets_pro_disclaimer_label": "Andeems Dir hei drënner klickt an Är Bestellung ofgeschloss hutt, averstanen Dir Ären Artikel (en) vu Global-e als Händler of Record fir dës Transaktioun ze kafen, op Global-e's %{markets_pro_terms} an %{privacy_policy}. Global-e ass en internationalen Erfëllungsserviceprovider fir %{shop_name}",
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Gitt e gültege Ausgabdatum un"
+            }
+          }
+        },
+        "brand_not_available": "Dëse Buttek akzeptéiert net {{brand}}. Benotzt w.e.g. eng aner Kaart fir ze bezuelen.",
+        "use_different_credit_card_label": "Benotzt eng aner Kaart"
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -467,7 +476,9 @@
         "address2_add_label": "Füügt Appartement, Suite, asw.",
         "no_other_methods_available": "Keng aner Methoden verfügbar",
         "duties_and_taxes_options": {
-          "ddp_caption": "Keng zousätzlech Käschten op Liwwerung"
+          "ddp_caption": "Keng zousätzlech Käschten op Liwwerung",
+          "ddu_title": "Bezuelen op Liwwerung",
+          "ddu_caption": "Zousätzlech Käschten kënnen zoutreffen"
         }
       },
       "order_summary": {
@@ -571,7 +582,8 @@
         "collapse_component_information": {
           "other": "Verstoppen %{count} Artikelen"
         },
-        "duties_label": "Flichten"
+        "duties_label": "Flichten",
+        "may_be_charged_on_delivery": "Kann op Liwwerung verrechent ginn"
       },
       "processing": {
         "wait": {
@@ -1342,6 +1354,10 @@
         "not_deliverable": {
           "title": {
             "other": "Keng Liwwerung verfügbar fir %{count} Artikelen"
+          },
+          "label": "Keng Liwwerung",
+          "message": {
+            "one": "Dësen Artikel gëtt aus Ärem Weenchen geläscht well et keng Liwwermethoden fir Är Adress verfügbar sinn."
           }
         }
       },

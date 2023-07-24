@@ -1610,7 +1610,9 @@
         "show_order_actions_accessibility_label": "Vis ordrehandlinger for ordre {{name}}",
         "empty_state_subtitle": "Gå til butikken for å bestille.",
         "estimated_delivery": "Estimert levering {{date}}",
-        "delivered": "Levert {{date}}"
+        "delivered": "Levert {{date}}",
+        "sort_title": "Sortere",
+        "sort_hide_options_accessibility_label": "Skjul sorteringsalternativer for bekreftede bestillinger."
       },
       "order_status": {
         "in_review_label": "I anmeldelse",
@@ -1668,7 +1670,10 @@
         "gift_card_resend": {
           "one": "Send e-post igjen"
         },
-        "submitted_label": "Sendt inn"
+        "submitted_label": "Sendt inn",
+        "confirmed_gift_card_additional_description_text": {
+          "other": "Hvert gavekort sendes i egen tekst."
+        }
       },
       "group_title_label": "Del av: {{groupTitle}}",
       "buy_again": "Kjøp igjen",

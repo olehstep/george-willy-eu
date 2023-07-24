@@ -1127,7 +1127,8 @@
           "missing": {
             "city": "Skriv inn en by",
             "first_name": "Skriv inn et fornavn",
-            "phone": "Skriv inn et telefonnummer"
+            "phone": "Skriv inn et telefonnummer",
+            "country": "Velg et land\/region"
           }
         },
         "shipping_line_label": "Shipping",

@@ -1876,7 +1876,8 @@
         "contact_email": "E-Mail",
         "shipping_address_required": "Füügt eng Versandadress op dës Plaz fir Bestellungen unzefänken.",
         "own_role_contact_name": "Dir",
-        "contact_list_title": "Leit"
+        "contact_list_title": "Leit",
+        "location_picker_accessibility_label": "Standuert Numm: {{locationName}}"
       },
       "draft_order_details": {
         "payment_status": {
@@ -2022,7 +2023,8 @@
         "edit_accessibility_label": "Änneren PO Zuel",
         "discard": "Wegwerfen",
         "modal_po_number_input_label": "PO Nummer",
-        "close_modal_accessibility_label": "Zoumaachen PO Zuel modal"
+        "close_modal_accessibility_label": "Zoumaachen PO Zuel modal",
+        "title": "PO #{{poNumber}}"
       }
     },
     "account_information": {
@@ -2321,7 +2323,8 @@
       "error_duties_tooltip": "Dës Bestellung gëtt aus engem anere Land geschéckt, sou datt Flichten a Steiere kënne bei der Liwwerung verrechent ginn.",
       "ok_duties_tooltip": "Dës Bestellung gëtt aus engem anere Land geschéckt, sou datt Flichte fir Är Bestellungsgesamt bäigefüügt ginn.",
       "zero_duties_tooltip": "Dës Bestellung gëtt aus engem anere Land geschéckt. Flichte ginn net op Bestellunge vun dësem Wäert verrechent.",
-      "company": "Firma"
+      "company": "Firma",
+      "order_details_skeleton_accessibility_label": "Mellt Iech un fir all Bestellungsdetailer ze gesinn."
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",

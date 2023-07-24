@@ -600,7 +600,8 @@
         "title": "Behandler ordre",
         "complete_your_purchase_title_error": "Korriger betalingsinformasjonen din",
         "complete_your_purchase_title": "Fullfør kjøpet",
-        "your_order_has_been_received_title": "takk for din bestilling"
+        "your_order_has_been_received_title": "takk for din bestilling",
+        "redirecting_title": "Omdirigerer …"
       },
       "post_purchase": {
         "components": {
@@ -619,7 +620,8 @@
           "other": "En eller flere varer du har lagt til, sendes ikke til stedet ditt. Fjern dem for å sjekke ut, eller kontakt butikken."
         },
         "shipping_method_not_available_generic": {
-          "one": "Denne bestillingen kan ikke sendes til adressen du oppga. Se gjennom adressen din for å sikre at alle feltene er angitt riktig, og prøv igjen."
+          "one": "Denne bestillingen kan ikke sendes til adressen du oppga. Se gjennom adressen din for å sikre at alle feltene er angitt riktig, og prøv igjen.",
+          "other": "Noen varer i handlekurven din kan ikke sendes til adressen du oppga. Se gjennom adressen din for å sikre at alle feltene er angitt riktig, og prøv igjen."
         }
       },
       "payment_errors": {
@@ -655,7 +657,8 @@
         "deferred_payment_not_allowed": "Utsatt betaling er ikke tillatt. Vennligst sjekk bestillingen din og prøv igjen.",
         "invalid_cvc": "Angi en gyldig sikkerhetskode",
         "invalid_number": "Skriv inn et gyldig kortnummer",
-        "invalid_expiry_date": "Angi en gyldig utløpsdato for kortet"
+        "invalid_expiry_date": "Angi en gyldig utløpsdato for kortet",
+        "credit_card_processing": "Betalingen din kan ikke behandles av tekniske årsaker. Prøv igjen om noen minutter, eller bruk en annen betalingsmetode."
       },
       "payment_gateway": {
         "cash_on_delivery_label": "Postoppkrav (COD)",
@@ -664,7 +667,13 @@
         "draft_order_payment_due_later_no_terms_payment_selected": "Kortet ditt vil bli belastet når bestillingen din er bekreftet.",
         "draft_order_payment_due_later_terms": "Du vil være på {{translatedName}} vilkår når bestillingen din er bekreftet.",
         "draft_order_payment_due_later_no_terms": "Betalingen din forfaller når bestillingen din er bekreftet.",
-        "debit_card_label": "Debetkort"
+        "debit_card_label": "Debetkort",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} til en konto med tilgang til dette stedet for å legge til eller bruke lagrede betalingsmåter."
+          }
+        },
+        "deferred_payment_label": "Velg betalingsmåte senere"
       },
       "thank_you": {
         "estimated_arrival": "Estimert leveringsdato: ",

@@ -366,7 +366,8 @@
         "billing_address_description_no_shipping_address": "Skriv inn adressen som samsvarer med kortet eller betalingsmåten.",
         "klarna_pay_later_label": "Betal senere med Klarna",
         "apple": {
-          "not_available": "Apple Pay er ikke tilgjengelig i denne nettleseren. For å koble til Apple Pay-kontoen din må du bruke Safari på en Apple-enhet."
+          "not_available": "Apple Pay er ikke tilgjengelig i denne nettleseren. For å koble til Apple Pay-kontoen din må du bruke Safari på en Apple-enhet.",
+          "connect": "Klikk for å koble til Apple Pay-kontoen din"
         },
         "ideal_label": "iDEAL",
         "detected_card_brand": "Oppdaget kortmerke: {brand}",
@@ -459,7 +460,8 @@
         "card_fields_processing_error": "Det oppsto et problem med å behandle betalingen. Prøv å oppdatere denne siden eller sjekk internettforbindelsen din.",
         "order_covered_by_store_credit_notice": "Bestillingen din dekkes av butikkreditten din.",
         "location_billing_address_label": "Faktureringsadresse for sted",
-        "markets_pro_disclaimer_privacy_policy": "Personvernerklæring"
+        "markets_pro_disclaimer_privacy_policy": "Personvernerklæring",
+        "card_information_notice": "Alle transaksjoner er sikre og krypterte. Kredittkortinformasjon lagres aldri."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

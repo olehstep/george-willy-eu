@@ -1542,7 +1542,11 @@
       },
       "payment": {
         "status_unpaid": "Betaling forfaller {{date}}",
-        "gift_card_payment_details": "slutter med {{lastDigits}} - {{formattedTransactionAmount}}"
+        "gift_card_payment_details": "slutter med {{lastDigits}} - {{formattedTransactionAmount}}",
+        "card_payment_details": "slutter med {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Postanvisning - {{formattedTransactionAmount}}"
+        }
       },
       "hide_order_summary": "Skjul ordresammendrag",
       "total": "Total",

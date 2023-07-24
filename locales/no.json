@@ -2548,7 +2548,8 @@
       "country": "Land",
       "edit_address": "Rediger adresse",
       "delete": "Slett",
-      "city": "By"
+      "city": "By",
+      "update": "Oppdater adresse"
     },
     "order": {
       "cancelled_on": "Bestillingen kansellert på {{ date }}",
@@ -2607,7 +2608,8 @@
       "submit": "Skape",
       "email": "E-post",
       "last_name": "Etternavn",
-      "title": "Opprett konto"
+      "title": "Opprett konto",
+      "first_name": "Fornavn"
     }
   },
   "blogs": {

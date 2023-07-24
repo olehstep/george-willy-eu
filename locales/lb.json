@@ -701,7 +701,8 @@
         "sms_marketing_phone_invalid": "Gitt eng valabel Telefonsnummer",
         "email_blank": "Gitt eng E-Mail",
         "address_zip_invalid": "Gitt e gültege Postcode \/ Postcode an",
-        "vaulting_agreement_blank": "Fir weiderzemaachen, musst Dir Är nei Kreditkaart späicheren, well d'Bezuelung fir dës Bestellung zu engem spéideren Datum geschitt."
+        "vaulting_agreement_blank": "Fir weiderzemaachen, musst Dir Är nei Kreditkaart späicheren, well d'Bezuelung fir dës Bestellung zu engem spéideren Datum geschitt.",
+        "address_country_invalid": "Wielt e Land \/ Regioun aus der Lëscht"
       },
       "thank_you": {
         "branded_promise": {
@@ -1392,7 +1393,8 @@
         "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} fir d'Quantitéiten ze aktualiséieren",
         "return_to_cart_link_text": "Zréck op de Weenchen",
         "all_violations_content": "Rufft oder {{emailLink}} eis fir dës Informatioun ze aktualiséieren an Är Bestellung ofzeschléissen:",
-        "editable_shipping_address_violations_message_title": "Füügt dës Informatioun un fir Är Bestellung ze kompletéieren:"
+        "editable_shipping_address_violations_message_title": "Füügt dës Informatioun un fir Är Bestellung ze kompletéieren:",
+        "editable_shipping_address_violations_message_footer": "Fir d'Adress fir dës Plaz permanent ze aktualiséieren, {{emailLink}}."
       },
       "local_pickup": {
         "could_not_resolve_address": "Är Adress konnt net lokaliséiert ginn. Probéiert nach eng Kéier oder benotzt eng aner Adress",
@@ -1416,7 +1418,8 @@
           "invalid": {
             "shipping_address": "Gitt eng valabel Versandadress un",
             "zone": "Gitt eng valabel Staat \/ Provënz",
-            "reduction_code": "Gitt eng valabel Remise Code oder Cadeau Kaart"
+            "reduction_code": "Gitt eng valabel Remise Code oder Cadeau Kaart",
+            "shipping_option": "Wielt eng valabel Versandoptioun"
           },
           "missing": {
             "address1": "Gitt eng Adress un",
@@ -1461,8 +1464,13 @@
         "could_not_resolve_address": "Är Adress konnt net lokaliséiert ginn. Probéiert nach eng Kéier oder benotzt eng aner Adress",
         "title": "Pickup Punkt",
         "geolocation": {
-          "shared_location_button": "Benotzt meng Plaz"
-        }
+          "shared_location_button": "Benotzt meng Plaz",
+          "errors": {
+            "permission_not_allowed": "Erlaabt Är Location ze deelen."
+          }
+        },
+        "search_button": "Sichen",
+        "selector_tabs": "Pickup Point Selector"
       },
       "marketplaces": {
         "legal_notice": {
@@ -1847,7 +1855,8 @@
           "other": "Giftkaarter",
           "one": "Giftkaart Resentt"
         },
-        "company_tracking_number": "{{company}} Tracking Zuel:"
+        "company_tracking_number": "{{company}} Tracking Zuel:",
+        "confirmed_description_digital": "Dir kritt eng E-Mail wann Är Bestellung fäerdeg ass."
       },
       "list_layout_accessibility_label": "Layout Optiounen",
       "status_title": "Bestellung Status",

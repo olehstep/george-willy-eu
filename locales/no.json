@@ -131,7 +131,8 @@
         "ship_to_company": "Send til {{companyName}}",
         "county_placeholder": "fylke",
         "state_and_territory_label": "Stat\/territorium",
-        "optional_company_label": "Firma (valgfritt)"
+        "optional_company_label": "Firma (valgfritt)",
+        "optional_address2_label": "Leilighet, suite osv. (valgfritt)"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",

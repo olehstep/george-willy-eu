@@ -217,7 +217,8 @@
         "discount_discovery": {
           "add_code": "Legg til rabatt",
           "merchandise_quantity_label": {
-            "other": "%{count} elementer"
+            "other": "%{count} elementer",
+            "one": "%{count} element"
           }
         },
         "duties_and_taxes_label": "Toll og skatter",
@@ -236,7 +237,11 @@
         "maximum_discount_code_limit_reached": "Du har nådd maksimalt antall rabattkoder. Fjern en eksisterende kode for å bruke <strong style=\"text-transform:uppercase\">%{code}<\/strong>.",
         "alternative_payment_currency_total": "Ladd som %{amount_due}",
         "recurring_total_tooltip": "Inkluderer ikke frakt, avgifter, avgifter eller eventuelle rabatter.",
-        "total_updated_label": "Oppdatert totalpris:"
+        "total_updated_label": "Oppdatert totalpris:",
+        "gift_card_and_discount_placeholder": "Gavekort eller rabattkode",
+        "collapse_component_information": {
+          "one": "Skjul %{count} element"
+        }
       },
       "stock": {
         "title": "Utsolgt",
@@ -258,7 +263,8 @@
             "other": "Ingen levering tilgjengelig for %{count} varer",
             "one": "Ingen levering tilgjengelig for %{count} vare"
           },
-          "title": "Ingen levering tilgjengelig"
+          "title": "Ingen levering tilgjengelig",
+          "status_column_header": "Ingen levering"
         },
         "quantity_update": {
           "title": "Oppdatering av antall"

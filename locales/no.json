@@ -1315,7 +1315,8 @@
       "too_long": "er for lang (maksimum er %{count} tegn)",
       "invalid": "er ugyldig",
       "contains_spaces": "starter eller slutter med mellomrom.",
-      "too_short": "er for kort (minimum er %{count} tegn)"
+      "too_short": "er for kort (minimum er %{count} tegn)",
+      "discount_not_found": "Kan ikke finne en gyldig rabatt som samsvarer med koden som er oppgitt"
     },
     "notices": {
       "order": {

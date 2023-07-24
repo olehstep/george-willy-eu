@@ -1178,7 +1178,8 @@
           "invalid": {
             "zone": "Angi en gyldig delstat\/provins",
             "reduction_code": "Skriv inn en gyldig rabattkode eller gavekort",
-            "shipping_address": "Skriv inn en gyldig leveringsadresse"
+            "shipping_address": "Skriv inn en gyldig leveringsadresse",
+            "shipping_option": "Velg et gyldig fraktalternativ"
           },
           "unavailable": {
             "description": "{{walletName}} var ikke tilgjengelig. Bruk en annen betalingsmåte, eller prøv på nytt senere.",
@@ -1195,7 +1196,8 @@
             "first_name": "Skriv inn et fornavn",
             "phone": "Skriv inn et telefonnummer",
             "country": "Velg et land\/region",
-            "address2": "Gå inn i en leilighet, suite osv."
+            "address2": "Gå inn i en leilighet, suite osv.",
+            "province": "Velg en stat\/provins"
           },
           "generic": "Det oppstod et problem med {{walletName}}. Prøv på nytt eller bruk en annen betalingsmetode."
         },
@@ -1216,7 +1218,8 @@
         "editable_shipping_address_violations_message_footer": "Hvis du vil oppdatere adressen for denne plasseringen permanent, {{emailLink}}.",
         "violations_title": "{{violation}} mangler eller er ugyldig",
         "company_location_changed_product_removed": "Korva di er oppdatert fordi enkelte produkter ikke er tilgjengelege her. Se gjennom bestillingen før du sender den inn.",
-        "subscription_changed": "Ett av abonnementene dine er endret."
+        "subscription_changed": "Ett av abonnementene dine er endret.",
+        "return_to_cart_link_text": "Gå tilbake til handlekurven"
       },
       "discount_errors": {
         "generic_error": "Bestillingen kunne ikke behandles fordi rabattkoden ikke lenger er tilgjengelig. Se gjennom totalsummen for bestillingen, og prøv på nytt."

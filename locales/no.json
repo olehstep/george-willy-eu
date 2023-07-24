@@ -2008,7 +2008,8 @@
       "checkout": "Sjekk ut",
       "remove": "Ta bort",
       "backorder": "Produktet er restordret og sendes så snart det er tilbake på lager.",
-      "subtotal": "Delsum"
+      "subtotal": "Delsum",
+      "taxes_included_and_shipping_policy_html": "Avgift inkludert. <a href=\"{{ link }}\">Shipping<\/a> beregnes i kassen."
     },
     "label": {
       "quantity": "Mengde",
@@ -2036,7 +2037,8 @@
       "sku": "SKU:",
       "quantity": "Mengde",
       "view_in_space": "Se i rommet ditt",
-      "description": "Beskrivelse"
+      "description": "Beskrivelse",
+      "no_selection": "Velg et alternativ"
     },
     "added_notification": {
       "title": "Har nettopp lagt til",
@@ -2061,7 +2063,8 @@
       "percent_reduction": "{{ amount }} % rabatt",
       "sale": "Salg",
       "low_stock": "Lite lager",
-      "in_stock": "På lager"
+      "in_stock": "På lager",
+      "sold_out": "Utsolgt - snart tilbake"
     },
     "quick_buy": {
       "read_more": "Mer informasjon",
@@ -2092,7 +2095,8 @@
       "name": "Navn",
       "phone": "Telefon",
       "email": "E-post",
-      "post_success": "Takk for at du kontaktet oss. Vi kommer tilbake til deg så snart som mulig."
+      "post_success": "Takk for at du kontaktet oss. Vi kommer tilbake til deg så snart som mulig.",
+      "message": "Beskjed"
     }
   },
   "onboarding": {

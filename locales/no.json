@@ -1084,7 +1084,8 @@
           "selected_page": {
             "one": "%{first} - %{last} av %{count} punkt"
           },
-          "next_accessibility_label": "Neste side"
+          "next_accessibility_label": "Neste side",
+          "previous_accessibility_label": "Forrige side"
         },
         "number_of_pickup_points_near_location": {
           "other": "%{count} Hentepunkter i nærheten av der du befinner deg"
@@ -1092,7 +1093,8 @@
         "title": "Hentepunkt",
         "location_is_currently_closed": "Lukket",
         "no_pickup_points_near_location": "Ingen hentesteder funnet i nærheten av stedet ditt",
-        "waiting_on_pickup_point_location_notice": "Søker etter hentesteder..."
+        "waiting_on_pickup_point_location_notice": "Søker etter hentesteder...",
+        "selector_tabs": "Hentepunktvelger"
       },
       "local_pickup": {
         "paginator": {

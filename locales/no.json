@@ -1711,7 +1711,8 @@
       "let_us_know": "Gi oss beskjed",
       "contact_us": "kontakt oss.",
       "list_layout_accessibility_label": "Oppsettalternativer",
-      "havent_received_your_delivery": "Har du ikke mottatt leveringen din?"
+      "havent_received_your_delivery": "Har du ikke mottatt leveringen din?",
+      "didnt_pick_up_order": "Har du ikke hentet bestillingen din?"
     },
     "order_details": {
       "contact": "Ta kontakt med",
@@ -1730,7 +1731,8 @@
         "address_map_marker": "Sendingsadresse",
         "subscription": "Abonnementsfrakt",
         "address": "Sendingsadresse",
-        "method": "Forsendelsesmetode"
+        "method": "Forsendelsesmetode",
+        "free_shipping_discount": "Gratis frakt"
       },
       "payment": {
         "status_unpaid": "Betaling forfaller {{date}}",
@@ -1812,7 +1814,9 @@
       "summary_title": "Bestillingssammendrag",
       "subtitle": "Bekreftet {{date}}",
       "billing_address": "Fakturaadresse",
-      "log_in_to_a_different_account": "Logg på en annen konto"
+      "log_in_to_a_different_account": "Logg på en annen konto",
+      "summary_totals_title_accessibility_label": "Bestillingssummer",
+      "zero_duties_tooltip": "Denne ordren sendes fra et annet land. Tollplikter belastes ikke på bestillinger av denne verdien."
     },
     "address_form": {
       "loading_finished_accessibility_message": "Adresseskjemaet er lastet inn",

@@ -884,7 +884,8 @@
         "refund_policy": "Angrerett",
         "contact_information": "Kontaktinformasjon",
         "terms_of_service": "Vilkår for bruk",
-        "terms_of_sale": "Salgsbetingelser"
+        "terms_of_sale": "Salgsbetingelser",
+        "privacy_policy": "Personvernerklæring"
       },
       "remember_me": {
         "external_acessibility_label": "(åpner et nytt vindu)",
@@ -912,7 +913,8 @@
           "purchase_order_number_title": "Postnummer"
         },
         "checkout_as_guest": "Sjekk ut som gjest",
-        "review_title": "Gjennomgå bestillingen"
+        "review_title": "Gjennomgå bestillingen",
+        "title": "Anmeldelse"
       },
       "order_payment_collection": {
         "changes_summary": {

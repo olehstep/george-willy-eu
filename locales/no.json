@@ -37,10 +37,13 @@
           "months": {
             "august": "august",
             "march": "mars",
-            "december": "desember"
+            "december": "desember",
+            "april": "april",
+            "february": "februar"
           },
           "weekdays_abbreviation": {
-            "monday": "Mo"
+            "monday": "Mo",
+            "thursday": "Th"
           },
           "weekdays": {
             "tuesday": "tirsdag",

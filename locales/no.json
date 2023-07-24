@@ -1152,16 +1152,21 @@
         "search_button": "Finn butikker",
         "toggle_location": "Endre posisjonen min",
         "no_stores_found": "Fant ingen butikker",
-        "or": "ELLER"
+        "or": "ELLER",
+        "reveal_more_label": {
+          "one": "Vis %{count} mer sted"
+        }
       },
       "wallets": {
         "errors": {
           "invalid": {
             "zone": "Angi en gyldig delstat\/provins",
-            "reduction_code": "Skriv inn en gyldig rabattkode eller gavekort"
+            "reduction_code": "Skriv inn en gyldig rabattkode eller gavekort",
+            "shipping_address": "Skriv inn en gyldig leveringsadresse"
           },
           "unavailable": {
-            "description": "{{walletName}} var ikke tilgjengelig. Bruk en annen betalingsmåte, eller prøv på nytt senere."
+            "description": "{{walletName}} var ikke tilgjengelig. Bruk en annen betalingsmåte, eller prøv på nytt senere.",
+            "title": "{{walletName}} ikke tilgjengelig"
           },
           "unsupported": {
             "postal_code": "Denne plasseringen støttes ikke"
@@ -1173,12 +1178,15 @@
             "city": "Skriv inn en by",
             "first_name": "Skriv inn et fornavn",
             "phone": "Skriv inn et telefonnummer",
-            "country": "Velg et land\/region"
-          }
+            "country": "Velg et land\/region",
+            "address2": "Gå inn i en leilighet, suite osv."
+          },
+          "generic": "Det oppstod et problem med {{walletName}}. Prøv på nytt eller bruk en annen betalingsmetode."
         },
         "shipping_line_label": "Shipping",
         "payment_in_progress_body": "Betalingen din blir behandlet. Bestillingen din vil bli fullført snart.",
-        "call_to_action": "Betal med {{walletName}}"
+        "call_to_action": "Betal med {{walletName}}",
+        "payment_in_progress_title": "Betaling pågår"
       },
       "markets": {
         "invalid_market_manager_error": "Gjennomgå kontaktinformasjonen din før du fullfører betaling"

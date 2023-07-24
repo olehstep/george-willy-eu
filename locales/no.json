@@ -345,7 +345,8 @@
         "loading_progressive_rates": "Søker etter flere priser...",
         "shipping_method_combinations": {
           "with_separator": "%{rest}, %{current},",
-          "combination": "%{rest} og %{current}"
+          "combination": "%{rest} og %{current}",
+          "without_separator": "%{firstMethod}, %{secondMethod}"
         },
         "duties_and_taxes_options": {
           "ddu_title": "Betal ved levering",
@@ -355,7 +356,8 @@
         "estimated_time": "Estimert %{time}",
         "no_pickup_location_notice": "Minst ett av produktene dine er ikke tilgjengelig for henting",
         "duties_and_taxes_title": "Toll og skatter",
-        "subscription_pickup": "Henting av abonnement"
+        "subscription_pickup": "Henting av abonnement",
+        "shipping_line_phone_label": "Mobilnummer (påkrevd)"
       },
       "localized_fields": {
         "additional_information": {
@@ -515,7 +517,9 @@
         },
         "billing_address_invalid_phone_no_card": "Oppdater telefonnummeret i faktureringsadressen for å fortsette.",
         "saved_credit_card_info": "De fire siste sifrene",
-        "purchase_options_and_vaulting_agreement_label": "En eller flere varer i handlekurven er et utsatt eller gjentakende kjøp. Ved å fortsette med betalingen godtar du at betalingsmåten din automatisk blir belastet med prisen og hyppigheten som er oppført på denne siden, til den avsluttes eller du avbryter. Alle kanselleringer er underlagt %{cancellation_policy_label}."
+        "purchase_options_and_vaulting_agreement_label": "En eller flere varer i handlekurven er et utsatt eller gjentakende kjøp. Ved å fortsette med betalingen godtar du at betalingsmåten din automatisk blir belastet med prisen og hyppigheten som er oppført på denne siden, til den avsluttes eller du avbryter. Alle kanselleringer er underlagt %{cancellation_policy_label}.",
+        "credit_card_start_month": "Start måned",
+        "payment_method_saved": "Betalingsmåten er lagret"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",

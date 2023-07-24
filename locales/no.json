@@ -2175,7 +2175,8 @@
         "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} varer totalt, viser {{totalItemsToDisplay}} elementer.",
         "billing_title": "Fakturaadresse",
         "invalid_payment_method": "Ugyldig betalingsmåte",
-        "payment_details_loading": "Laster inn betalingsmåtedetaljer"
+        "payment_details_loading": "Laster inn betalingsmåtedetaljer",
+        "preauthorized_payments": "Forhåndsautoriserte betalinger"
       },
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalingsmåten er oppdatert",

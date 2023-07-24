@@ -1118,7 +1118,8 @@
             "unsuported_by_browser": "Geolokalisering støttes ikke av nettleseren din. Prøv på nytt, eller bruk en annen nettleser.",
             "permission_not_allowed": "Tillat deling av posisjonen din.",
             "permission_denied": "Kunne ikke få posisjonen din. Prøv igjen."
-          }
+          },
+          "shared_location_button": "Bruk posisjonen min"
         },
         "search_button": "Søk",
         "paginator": {
@@ -1138,7 +1139,8 @@
         "location_is_currently_closed": "Lukket",
         "no_pickup_points_near_location": "Ingen hentesteder funnet i nærheten av stedet ditt",
         "waiting_on_pickup_point_location_notice": "Søker etter hentesteder...",
-        "selector_tabs": "Hentepunktvelger"
+        "selector_tabs": "Hentepunktvelger",
+        "selector_tab_list": "Liste"
       },
       "local_pickup": {
         "paginator": {
@@ -1218,7 +1220,8 @@
         "terminal": {
           "action": {
             "cta": "Oppdater side"
-          }
+          },
+          "message": "Oppdater denne siden, eller prøv på nytt om noen minutter"
         }
       },
       "captcha": {

@@ -1633,7 +1633,8 @@
         "summary": "Shipping",
         "free": "Gratis",
         "address_map_marker": "Sendingsadresse",
-        "subscription": "Abonnementsfrakt"
+        "subscription": "Abonnementsfrakt",
+        "address": "Sendingsadresse"
       },
       "payment": {
         "status_unpaid": "Betaling forfaller {{date}}",

@@ -1126,7 +1126,8 @@
           },
           "missing": {
             "city": "Skriv inn en by",
-            "first_name": "Skriv inn et fornavn"
+            "first_name": "Skriv inn et fornavn",
+            "phone": "Skriv inn et telefonnummer"
           }
         },
         "shipping_line_label": "Shipping",
@@ -1237,7 +1238,8 @@
       "gift_card_code_invalid": "Koden er ugyldig",
       "invalid_expiry_year": "er ikke et gyldig utløpsår",
       "taken": "har allerede blitt tatt",
-      "too_long": "er for lang (maksimum er %{count} tegn)"
+      "too_long": "er for lang (maksimum er %{count} tegn)",
+      "invalid": "er ugyldig"
     },
     "notices": {
       "order": {

@@ -66,6 +66,9 @@
           "or": {
             "lastWordConnector": "{{previousWords}}, eller {{lastWord}}",
             "twoWordConnector": "{{firstWord}} eller {{secondWord}}"
+          },
+          "narrow": {
+            "lastWordConnector": "{{previousWords}}, {{lastWord}}"
           }
         },
         "back_to_shipping_method": "Gå tilbake til frakt",
@@ -87,7 +90,8 @@
         },
         "back_button_label": "Komme tilbake",
         "back_to_payment_method": "Gå tilbake til betaling",
-        "google_map_title": "Google Kart"
+        "google_map_title": "Google Kart",
+        "title": "Checkout - {{shopName}}"
       },
       "contact": {
         "postcode_placeholder": "postnummer",

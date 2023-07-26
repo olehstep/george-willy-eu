@@ -198,12 +198,26 @@
         "show_vendor": false,
         "grid": 4
       }
+    },
+    "ea8e8282-3078-42a3-80e0-1009aaf0733e": {
+      "type": "metafields_featured-collection",
+      "settings": {
+        "metafield_key": "custom.featured_collection",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "use_alt_bg": false,
+        "show_view_all": true,
+        "full_width": true
+      }
     }
   },
   "order": [
     "main",
     "1655433418cebadf50",
     "1655859379d08f0f7b",
-    "recommendations"
+    "recommendations",
+    "ea8e8282-3078-42a3-80e0-1009aaf0733e"
   ]
 }

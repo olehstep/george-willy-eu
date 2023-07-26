@@ -5,7 +5,8 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
@@ -16,7 +17,8 @@
         },
         "0fda3a8c-030e-4888-bc7b-dfee296a290e": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+          }
         },
         "divider": {
           "type": "divider",
@@ -99,7 +101,7 @@
         "8be4ade6-b8f5-4425-b082-347fd28c6415": {
           "type": "accordion_m",
           "settings": {
-            "title": "Assembly",
+            "title": "Assembly Instructions",
             "icon": "check_mark",
             "metafield_key": "custom.accordion_assembly_instructions",
             "page": "",
@@ -109,6 +111,7 @@
         },
         "41376d26-63b8-489d-a91b-9828ddd21a16": {
           "type": "related_products_m",
+          "disabled": true,
           "settings": {
             "metafield_key": "custom.related_products_title",
             "product_list": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}"
@@ -176,7 +179,8 @@
       "blocks": {
         "eaf5c8d7-60a8-4660-bf30-4b284a3bf90c": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [

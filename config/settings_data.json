@@ -1026,7 +1026,7 @@
     "prod_sale_show": false,
     "prod_sold_out_show": false,
     "prod_pre_order_label_show": false,
-    "enable_product_reviews_collection": false,
+    "enable_product_reviews_collection": true,
     "swatch_enabled": true,
     "swatch_option_name": "Color,Colour,Couleur,Farbe,Rail Colour,Letter Colour,Board Colour,Strap Colour,Tile Colour",
     "swatch_method": "standard",

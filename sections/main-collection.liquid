@@ -298,7 +298,7 @@
               endif
             -%}
             {% for product in collection.products %}
-              {% render 'product-block', product: product, custom_aspect_ratio: chosen_aspect_ratio, animate: true %}
+              {% render 'product-block', product: product, custom_aspect_ratio: chosen_aspect_ratio, animate: true, enable_button: section.settings.enable_button %}
             {% endfor %}
           </div>
         {% endif %}

@@ -1052,6 +1052,7 @@
     "cart_currency_code_enabled": true,
     "image_09_desktop": "shopify:\/\/shop_images\/trust_seals.png",
     "enable_cf06": true,
+    "cf08_imp": false,
     "cf23_imp": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/George_and_Willy_Logo.jpg",
     "checkout_logo_position": "left",

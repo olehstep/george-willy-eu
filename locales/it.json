@@ -462,6 +462,55 @@
     "checkout": {
       "shipping": {
         "shipping_method_notice": "Nota: gli ordini non possono essere modificati o annullati una volta effettuati. Per modificare un ordine, segui la politica Resi e Cambi."
+      },
+      "payment_errors": {
+        "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
+      },
+      "note": {
+        "length_exceeds_maximum": "Ridurre la dimensione della nota a 5000 o meno caratteri."
+      },
+      "payment": {
+        "business_customer_vaulting_payment_label": "Salva questa carta per acquisti futuri per questa sede. Autorizzo %{company} ad addebitare su questo metodo di pagamento gli acquisti futuri per questa sede. Ogni contatto assegnato a questa sede è autorizzato a utilizzare questa carta.",
+        "delete_credit_card_modal": {
+          "confirmation": "Sei sicuro di voler eliminare il {{brandName}} Che termina tra {{lastDigits}} ?"
+        }
+      },
+      "order_summary": {
+        "discount_order_stacking": {
+          "one": "Sconto ordine"
+        }
+      },
+      "customer_account": {
+        "have_an_account_label": "Hai già un account?"
+      },
+      "field_errors": {
+        "credit_card_month_invalid": "Inserisci un mese di scadenza carta valido"
+      }
+    },
+    "errors": {
+      "shop_404": {
+        "owner_ctas": {
+          "fix_domain_link_text": "Impostazioni del tuo dominio",
+          "admin_link_text": "Admin"
+        },
+        "heros": {
+          "store_unavailable": "Spiacenti, questo negozio non è al momento disponibile."
+        },
+        "ctas": {
+          "editions": {
+            "caption": "Con oltre 100 aggiornamenti del prodotto, puoi essere più produttivo, creativo e potente nel commercio di quanto tu abbia mai immaginato."
+          }
+        },
+        "links": {
+          "start_free_trial": "Inizia una prova gratuita"
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "edit_summary": {
+        "returned": "Restituito"
       }
     }
   }

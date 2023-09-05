@@ -481,28 +481,50 @@
         }
       },
       "customer_account": {
-        "have_an_account_label": "Hai già un account?"
+        "have_an_account_label": "Hai già un account?",
+        "invalid_address": "L'indirizzo selezionato non è valido"
       },
       "field_errors": {
-        "credit_card_month_invalid": "Inserisci un mese di scadenza carta valido"
+        "credit_card_month_invalid": "Inserisci un mese di scadenza carta valido",
+        "credit_card_year_invalid": "Inserisci un anno di scadenza carta valido"
+      },
+      "store_credit_errors": {
+        "generic_error": "C' è stato un problema con il credito del tuo negozio.  Riprova o ricarica la pagina."
       }
     },
     "errors": {
       "shop_404": {
         "owner_ctas": {
           "fix_domain_link_text": "Impostazioni del tuo dominio",
-          "admin_link_text": "Admin"
+          "admin_link_text": "Admin",
+          "forgot_your_store_link_text": "Hai dimenticato il tuo negozio",
+          "add_storefront": "Puoi configurare il tuo sito web aggiungendo il canale del negozio online nel tuo %{admin_link} .  Se hai problemi ad entrare nel tuo negozio, prova %{forgot_your_store_link} Pagina.",
+          "fix_domain": "Completa l'impostazione del tuo nuovo indirizzo web, vai a %{domain_settings_link} .  Clicca su Connetti dominio e inserisci: %{domain} .<br>Se hai problemi ad entrare nel tuo negozio, prova %{forgot_your_store_link} Pagina."
         },
         "heros": {
           "store_unavailable": "Spiacenti, questo negozio non è al momento disponibile."
         },
         "ctas": {
           "editions": {
-            "caption": "Con oltre 100 aggiornamenti del prodotto, puoi essere più produttivo, creativo e potente nel commercio di quanto tu abbia mai immaginato."
+            "caption": "Con oltre 100 aggiornamenti del prodotto, puoi essere più produttivo, creativo e potente nel commercio di quanto tu abbia mai immaginato.",
+            "header": "Dai un'occhiata alle edizioni Shopify"
+          },
+          "store_owner": {
+            "caption": "Hai problemi ad entrare nel tuo negozio?  Prova il %{forgot_your_store_link} Caratteristica.  Se desideri riattivare il contatto del tuo negozio %{shopify_support_link} ."
+          },
+          "sell_in_person": {
+            "caption": "Ottieni le funzionalità necessarie per gestire il tuo negozio al dettaglio sia che tu stia iniziando o ridimensionando."
           }
         },
         "links": {
           "start_free_trial": "Inizia una prova gratuita"
+        }
+      }
+    },
+    "notices": {
+      "line_item": {
+        "item_status": {
+          "decrement_item": "Rimosso %{delta} Di %{total}"
         }
       }
     }
@@ -510,7 +532,18 @@
   "customer_accounts": {
     "order_details": {
       "edit_summary": {
-        "returned": "Restituito"
+        "returned": "Restituito",
+        "removed_with_quantities": "{{delta}} Di {{total}} Rimosso"
+      }
+    },
+    "orders": {
+      "order_list": {
+        "filter": {
+          "apply": "Applicare",
+          "date": {
+            "today": "In data odierna"
+          }
+        }
       }
     }
   }

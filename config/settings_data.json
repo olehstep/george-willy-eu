@@ -1175,7 +1175,7 @@
           "logo": "shopify:\/\/shop_images\/GEORGE-AND-WILLY.png",
           "logo_img_width_int": 160,
           "mobile_logo_img_width_int": 150,
-          "enable_sticky": true,
+          "enable_sticky": false,
           "enable_transparent": false,
           "transparent_color": "#fefbf4",
           "menu_linklist": "main-menu",

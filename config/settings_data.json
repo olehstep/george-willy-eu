@@ -1165,6 +1165,7 @@
             "type": "menu-promotion-small",
             "settings": {
               "dropdown_link_title": "SHOP SIGNAGE",
+              "image": "shopify:\/\/shop_images\/a-frame-sign-741434_e6c99c5b-ac69-4196-859d-1d9cf5562616.jpg",
               "title": "Signage",
               "link_url": "shopify:\/\/collections\/signage"
             }

@@ -1160,6 +1160,14 @@
               "top_level_link_title": "Shipping",
               "image": "shopify:\/\/shop_images\/SHIPPING.jpg"
             }
+          },
+          "3362659b-74c4-446c-a8ed-f6ac5a55ddcc": {
+            "type": "menu-promotion-small",
+            "settings": {
+              "dropdown_link_title": "SHOP SIGNAGE",
+              "title": "Signage",
+              "link_url": "shopify:\/\/collections\/signage"
+            }
           }
         },
         "block_order": [
@@ -1169,7 +1177,8 @@
           "e09daa02-c0a7-4c66-88da-26f65b6f63fd",
           "ae4df66f-b426-4a55-92c9-22f6546a7b8f",
           "aa191c1a-e930-44af-b01a-036ea0bdf28d",
-          "ee20009f-106c-420c-957e-3677758f82e5"
+          "ee20009f-106c-420c-957e-3677758f82e5",
+          "3362659b-74c4-446c-a8ed-f6ac5a55ddcc"
         ],
         "custom_css": [
           "a:hover {color: #b0272a;}"

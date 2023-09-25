@@ -1171,6 +1171,9 @@
           "aa191c1a-e930-44af-b01a-036ea0bdf28d",
           "ee20009f-106c-420c-957e-3677758f82e5"
         ],
+        "custom_css": [
+          "a:hover {color: #b0272a;}"
+        ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/GEORGE-AND-WILLY.png",
           "logo_img_width_int": 160,
@@ -1178,7 +1181,7 @@
           "enable_sticky": false,
           "enable_transparent": false,
           "transparent_color": "#fefbf4",
-          "menu_linklist": "main-menu",
+          "menu_linklist": "header-mega-nav",
           "menu_layout": "inline-menu-center",
           "nav_featured_link": "Sale",
           "enable_mobile_promo_carousel": true,

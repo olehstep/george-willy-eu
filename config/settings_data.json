@@ -1178,6 +1178,13 @@
               "title": "Menu Displays",
               "link_url": "shopify:\/\/collections\/letter-menu-boards"
             }
+          },
+          "c84e97fc-ef90-4fa5-81be-bd960a92da46": {
+            "type": "image-for-mobile-menu",
+            "settings": {
+              "top_level_link_title": "SHOP SIGNAGE",
+              "image": "shopify:\/\/shop_images\/a-frame-sign-741434_e6c99c5b-ac69-4196-859d-1d9cf5562616.jpg"
+            }
           }
         },
         "block_order": [
@@ -1189,7 +1196,8 @@
           "aa191c1a-e930-44af-b01a-036ea0bdf28d",
           "ee20009f-106c-420c-957e-3677758f82e5",
           "3362659b-74c4-446c-a8ed-f6ac5a55ddcc",
-          "d948e9f6-a296-48e9-a8ea-f6e01f150fd2"
+          "d948e9f6-a296-48e9-a8ea-f6e01f150fd2",
+          "c84e97fc-ef90-4fa5-81be-bd960a92da46"
         ],
         "custom_css": [
           "a:hover {color: #b0272a;}"

@@ -64,6 +64,7 @@
         "b4fd713e-4dfa-40e1-9a4f-e9538edc0f83",
         "03f866e7-be19-4d2d-87f1-4ece06af605e"
       ],
+      "disabled": true,
       "settings": {
         "height": "medium",
         "text_alignment": "center",

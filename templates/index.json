@@ -507,19 +507,6 @@
     "96f410ab-e0b6-4a18-8bde-50a753328b4e": {
       "type": "gallery",
       "blocks": {
-        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hanging-menu-board-194887.jpg",
-            "alignment": "center center",
-            "enlarge_image": false,
-            "subheading": "",
-            "title": "",
-            "button_label": "Shop Menu Displays",
-            "link": "shopify:\/\/collections\/letter-menu-boards",
-            "text_alignment": "bottom left"
-          }
-        },
         "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-2": {
           "type": "image",
           "settings": {
@@ -533,28 +520,28 @@
             "text_alignment": "bottom left"
           }
         },
-        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-3": {
+        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hanging-menu-board-194887.jpg",
             "alignment": "center center",
             "enlarge_image": false,
-            "subheading": "Gallery",
-            "title": "Tell your story",
-            "button_label": "",
-            "link": "",
+            "subheading": "",
+            "title": "",
+            "button_label": "Shop Menu Displays",
+            "link": "shopify:\/\/collections\/letter-menu-boards",
             "text_alignment": "bottom left"
           }
         }
       },
       "block_order": [
-        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-1",
         "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-2",
-        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-3"
+        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-1"
       ],
       "settings": {
         "gallery_title": "",
         "grid": 3,
-        "desktop_image_height": 400,
+        "desktop_image_height": 520,
         "mobile_image_height": 400,
         "title_size": 30,
         "title_size_mobile": 22,

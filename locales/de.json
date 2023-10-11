@@ -464,7 +464,8 @@
         "shipping_method_notice": "Bitte beachten Sie: Einmal aufgegebene Bestellungen können nicht mehr geändert oder storniert werden. Um eine Bestellung zu ändern, befolgen Sie bitte die Rückgabe- und Umtauschrichtlinie.",
         "local_pickup": {
           "search_address": "Suche nach Adresse"
-        }
+        },
+        "address_more": "Weitere Aktionen für diese Adresse"
       },
       "payment": {
         "business_customer_vaulting_payment_label": "Speichere diese Karte beim Checkout und autorisiere %{company}, diese Karte für zukünftige Käufe an diesem Standort zu belasten. Jeder diesem Standort zugewiesene Kontakt darf diese Karte nutzen.",

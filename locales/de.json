@@ -461,7 +461,18 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "shipping_method_notice": "Bitte beachten Sie: Einmal aufgegebene Bestellungen können nicht mehr geändert oder storniert werden. Um eine Bestellung zu ändern, befolgen Sie bitte die Rückgabe- und Umtauschrichtlinie."
+        "shipping_method_notice": "Bitte beachten Sie: Einmal aufgegebene Bestellungen können nicht mehr geändert oder storniert werden. Um eine Bestellung zu ändern, befolgen Sie bitte die Rückgabe- und Umtauschrichtlinie.",
+        "local_pickup": {
+          "search_address": "Suche nach Adresse"
+        }
+      },
+      "payment": {
+        "business_customer_vaulting_payment_label": "Speichere diese Karte beim Checkout und autorisiere %{company}, diese Karte für zukünftige Käufe an diesem Standort zu belasten. Jeder diesem Standort zugewiesene Kontakt darf diese Karte nutzen.",
+        "purchase_options_agreement_label": "Ich verstehe, dass es sich bei einem Artikel oder mehreren Artikeln in meinem Warenkorb um einen ausstehenden oder wiederkehrenden Kauf handelt. Durch das Fortfahren stimme ich den %{cancellation_policy_label} zu und autorisiere die Belastung meiner Zahlungsmethode zu den auf dieser Seite angegebenen Preisen, Häufigkeiten und Daten, bis meine Bestellung ausgeführt wurde oder bis ich die Bestellung, sofern möglich, storniere.",
+        "subscription_heading": "Abonnement-Vertrag",
+        "edit_credit_card_modal": {
+          "cancel": "Abbrechen"
+        }
       }
     }
   },
@@ -470,6 +481,9 @@
       "payment": {
         "card_payment_details": "•••• {{lastDigits}} - {{formattedTransactionAmount}}"
       }
+    },
+    "ui_components": {
+      "removeItem": "Entfernen {{label}}"
     }
   }
 }

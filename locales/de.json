@@ -587,7 +587,8 @@
             "link_text": "Kostenlos testen"
           },
           "open_a_store": {
-            "header": "Öffnen Sie einen neuen Shopify Store"
+            "header": "Öffnen Sie einen neuen Shopify Store",
+            "caption": "Starten Sie eine 3-tägige kostenlose Testversion und fahren Sie dann für 1 USD\/Monat für die nächsten 3 Monate fort."
           }
         },
         "owner_ctas": {
@@ -601,7 +602,8 @@
           "start_free_trial": "Starten Sie eine kostenlose Testversion"
         },
         "heros": {
-          "no_storefront": "Dieser Store hat noch keine Website."
+          "no_storefront": "Dieser Store hat noch keine Website.",
+          "store_not_exist": "Dieser Laden existiert nicht."
         },
         "title": "Erstellen Sie eine E-Commerce-Website und verkaufen Sie online!  E-Commerce-Software von Shopify"
       }
@@ -641,7 +643,8 @@
       "may": "Kann",
       "tuesdayAbbreviation": "Tu",
       "showPreviousMonth": "Vor monat zeigen, {{month}}  {{year}}",
-      "wednesdayAbbreviation": "Wir"
+      "wednesdayAbbreviation": "Wir",
+      "closeModal": "Nah dran"
     },
     "B2B": {
       "draft_order_details": {

@@ -551,6 +551,9 @@
           "shipping_method_title": "Art"
         },
         "review_title": "Bestellung überprüfen"
+      },
+      "contact": {
+        "title": "Information"
       }
     },
     "errors": {

@@ -171,6 +171,57 @@
         "button_style": "secondary"
       }
     },
+    "96f410ab-e0b6-4a18-8bde-50a753328b4e": {
+      "type": "gallery",
+      "blocks": {
+        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-frame-sign-741434_e6c99c5b-ac69-4196-859d-1d9cf5562616.jpg",
+            "alignment": "bottom right",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "Shop Signage",
+            "link": "shopify:\/\/collections\/signage",
+            "text_alignment": "bottom left"
+          }
+        },
+        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hanging-menu-board-194887.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "Shop Menu Displays",
+            "link": "shopify:\/\/collections\/letter-menu-boards",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-2",
+        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "gallery_title": "",
+        "grid": 3,
+        "desktop_image_height": 520,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": true,
+        "use_alt_bg": false,
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
     "165543266112ffbf5b": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -503,56 +554,6 @@
         "image_position": "right",
         "text_alignment": "center"
       }
-    },
-    "96f410ab-e0b6-4a18-8bde-50a753328b4e": {
-      "type": "gallery",
-      "blocks": {
-        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/a-frame-sign-741434_e6c99c5b-ac69-4196-859d-1d9cf5562616.jpg",
-            "alignment": "bottom right",
-            "enlarge_image": false,
-            "subheading": "",
-            "title": "",
-            "button_label": "Shop Signage",
-            "link": "shopify:\/\/collections\/signage",
-            "text_alignment": "bottom left"
-          }
-        },
-        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hanging-menu-board-194887.jpg",
-            "alignment": "center center",
-            "enlarge_image": false,
-            "subheading": "",
-            "title": "",
-            "button_label": "Shop Menu Displays",
-            "link": "shopify:\/\/collections\/letter-menu-boards",
-            "text_alignment": "bottom left"
-          }
-        }
-      },
-      "block_order": [
-        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-2",
-        "template--16227174383774__96f410ab-e0b6-4a18-8bde-50a753328b4e-image-1"
-      ],
-      "settings": {
-        "gallery_title": "",
-        "grid": 3,
-        "desktop_image_height": 520,
-        "mobile_image_height": 400,
-        "title_size": 30,
-        "title_size_mobile": 22,
-        "enable_margin": true,
-        "enable_row_spacing": true,
-        "full_width": true,
-        "use_alt_bg": false,
-        "enable_carousel": true,
-        "overlay_style": "full",
-        "button_style": "primary"
-      }
     }
   },
   "order": [
@@ -561,6 +562,7 @@
     "ab965ae8-2e40-4f68-ab81-06b92795f245",
     "16553343122727c31e",
     "16547282491ee4d8ac",
+    "96f410ab-e0b6-4a18-8bde-50a753328b4e",
     "165543266112ffbf5b",
     "16359281184fd0d618",
     "1656365281da19ef8d",
@@ -569,7 +571,6 @@
     "16578285197d2e1681",
     "1658893820d916cc6e",
     "165578347791355877",
-    "c6d150df-6ae1-430b-a976-0287af85a46c",
-    "96f410ab-e0b6-4a18-8bde-50a753328b4e"
+    "c6d150df-6ae1-430b-a976-0287af85a46c"
   ]
 }

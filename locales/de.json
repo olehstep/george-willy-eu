@@ -485,7 +485,8 @@
         "edit_credit_card_modal": {
           "cancel": "Abbrechen",
           "fields": {
-            "billing": "Gesetzesentwurf für"
+            "billing": "Gesetzesentwurf für",
+            "default": "Als Standard einstellen"
           }
         },
         "delete_credit_card_modal": {
@@ -507,7 +508,8 @@
         "billing_address_title": "Gesetzesentwurf für",
         "add_address": "Verwenden Sie eine andere Adresse",
         "address_more": "Weitere Aktionen für diese Adresse",
-        "same_as_shipping": "Gleich wie Lieferadresse"
+        "same_as_shipping": "Gleich wie Lieferadresse",
+        "address_confirm": "Sind Sie sicher, dass Sie diese Adresse aus Ihrem Konto löschen möchten?"
       },
       "order_summary": {
         "gift_card_and_discount_title": "Geschenkkarte oder Rabattcode",
@@ -525,6 +527,9 @@
         "price_update": {
           "description": "Die Preise für diese Artikel haben sich geändert und werden in Ihrem Warenkorb aktualisiert."
         }
+      },
+      "general": {
+        "page_title": "Bezahlung"
       }
     },
     "errors": {

@@ -483,7 +483,8 @@
         }
       },
       "billing": {
-        "billing_address_title": "Gesetzesentwurf für"
+        "billing_address_title": "Gesetzesentwurf für",
+        "add_address": "Verwenden Sie eine andere Adresse"
       },
       "order_summary": {
         "gift_card_and_discount_title": "Geschenkkarte oder Rabattcode"
@@ -496,6 +497,16 @@
             "link_text": "Entdecken Sie die neuesten Editionen",
             "caption": "Mit mehr als 100 Produkt-Updates können Sie produktiver, kreativer und leistungs fähiger im Handel sein, als Sie es sich jemals vorgestellt haben."
           }
+        },
+        "owner_ctas": {
+          "add_storefront": "Sie können Ihre Website einrichten, indem Sie den Online-Shop-Kanal in Ihrem %{admin_link} .  Wenn Sie Probleme haben, in Ihr Geschäft zu gelangen, probieren Sie die %{forgot_your_store_link} Seite."
+        }
+      }
+    },
+    "notices": {
+      "line_item": {
+        "item_status": {
+          "add_variant": "Hinzugefügt %{delta}"
         }
       }
     }

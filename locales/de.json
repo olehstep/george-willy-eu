@@ -469,7 +469,8 @@
         "shipping_address_title": "Ausliefern",
         "address_form": {
           "generic_error": "Beim Speichern Ihrer Adresse ist ein Problem aufgetreten.  Bitte versuche es erneut."
-        }
+        },
+        "add_delivery_instructions": "Lieferanweisungen hinzufügen"
       },
       "payment": {
         "business_customer_vaulting_payment_label": "Speichere diese Karte beim Checkout und autorisiere %{company}, diese Karte für zukünftige Käufe an diesem Standort zu belasten. Jeder diesem Standort zugewiesene Kontakt darf diese Karte nutzen.",
@@ -488,11 +489,13 @@
         "subscription_agreement_label": "Ich verstehe, dass ich einem Abonnement zustimme. Es wird zum aufgeführten Preis und in der festgelegten Häufigkeit verlängert, bis es ausläuft oder %{cancelled} wird.",
         "order_edit_banner_items_returned": {
           "with_quantities": "{{delta}} Von {{quantity}} Zurück gegeben"
-        }
+        },
+        "use_order_billing_address_label": "Bestell abrechnung adresse nutzen"
       },
       "billing": {
         "billing_address_title": "Gesetzesentwurf für",
-        "add_address": "Verwenden Sie eine andere Adresse"
+        "add_address": "Verwenden Sie eine andere Adresse",
+        "address_more": "Weitere Aktionen für diese Adresse"
       },
       "order_summary": {
         "gift_card_and_discount_title": "Geschenkkarte oder Rabattcode"
@@ -514,6 +517,9 @@
         },
         "owner_ctas": {
           "add_storefront": "Sie können Ihre Website einrichten, indem Sie den Online-Shop-Kanal in Ihrem %{admin_link} .  Wenn Sie Probleme haben, in Ihr Geschäft zu gelangen, probieren Sie die %{forgot_your_store_link} Seite."
+        },
+        "links": {
+          "start_free_trial": "Starten Sie eine kostenlose Testversion"
         }
       }
     },

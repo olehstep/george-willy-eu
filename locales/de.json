@@ -487,7 +487,8 @@
           "cancel": "Abbrechen",
           "fields": {
             "billing": "Gesetzesentwurf für",
-            "default": "Als Standard einstellen"
+            "default": "Als Standard einstellen",
+            "expiry": "Haltbarkeitsdatum"
           },
           "description": "Sie können nur die Rechnungs adresse Ihrer Karte ändern."
         },

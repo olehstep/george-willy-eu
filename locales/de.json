@@ -488,14 +488,16 @@
           "fields": {
             "billing": "Gesetzesentwurf für",
             "default": "Als Standard einstellen"
-          }
+          },
+          "description": "Sie können nur die Rechnungs adresse Ihrer Karte ändern."
         },
         "delete_credit_card_modal": {
           "confirmation": "Sind Sie sicher, dass Sie die {{brandName}} Endend in {{lastDigits}} ?",
           "cancel": "Abbrechen"
         },
         "order_edit_banner_items_removed": {
-          "in_full": "ENTFERNT"
+          "in_full": "ENTFERNT",
+          "with_quantities": "{{delta}} Von {{quantity}} Entfernt"
         },
         "subscription_agreement_label": "Ich verstehe, dass ich einem Abonnement zustimme. Es wird zum aufgeführten Preis und in der festgelegten Häufigkeit verlängert, bis es ausläuft oder %{cancelled} wird.",
         "order_edit_banner_items_returned": {
@@ -538,7 +540,8 @@
       },
       "review": {
         "blocks": {
-          "payment_method_title": "Zahlung"
+          "payment_method_title": "Zahlung",
+          "shipping_method_title": "Art"
         }
       }
     },
@@ -597,7 +600,8 @@
       "expandNotification": "Mehr sehen",
       "minimumReached": "Minimum von {{value}} Erreichte",
       "march": "Marsch",
-      "thursdayAbbreviation": "Th"
+      "thursdayAbbreviation": "Th",
+      "submit": "einreichen"
     }
   }
 }

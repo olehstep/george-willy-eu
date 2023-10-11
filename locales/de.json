@@ -492,7 +492,8 @@
             "default": "Als Standard einstellen",
             "expiry": "Haltbarkeitsdatum"
           },
-          "description": "Sie können nur die Rechnungs adresse Ihrer Karte ändern."
+          "description": "Sie können nur die Rechnungs adresse Ihrer Karte ändern.",
+          "done": "Erledigt"
         },
         "delete_credit_card_modal": {
           "confirmation": "Sind Sie sicher, dass Sie die {{brandName}} Endend in {{lastDigits}} ?",
@@ -512,6 +513,9 @@
         "subscription_agreement_cancelled": "storniert",
         "add_credit_card_modal": {
           "cancel": "Abbrechen"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} Hinzugefügt"
         }
       },
       "billing": {
@@ -526,7 +530,8 @@
         "gift_card_and_discount_placeholder": "Geschenkkarte oder Rabattcode",
         "shipping_default_value": "Wird im nächsten Schritt berechnet",
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> konnte nicht mit deinen vorhandenen Rabatten verwendet werden. Du hast bereits eine bessere Kombination.",
-        "collapse_order_summary": "Bestellübersicht verbergen"
+        "collapse_order_summary": "Bestellübersicht verbergen",
+        "expand_order_summary": "Bestellübersicht anzeigen"
       },
       "customer_account": {
         "invalid_shipping_method_summary": "Wählen Sie eine gültige Lieferadresse aus, um die verfügbaren Versandarten anzuzeigen"
@@ -534,7 +539,8 @@
       "shipping_errors": {
         "shipping_method_not_available_generic": {
           "one": "Diese Bestellung kann nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut."
-        }
+        },
+        "title": "Versand nicht möglich"
       },
       "stock": {
         "price_update": {
@@ -543,7 +549,10 @@
         "items_unavailable_notice": "Einige Artikel sind nicht mehr verfügbar. Dein Warenkorb wurde aktualisiert."
       },
       "general": {
-        "page_title": "Bezahlung"
+        "page_title": "Bezahlung",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Bezahlung"
+        }
       },
       "review": {
         "blocks": {
@@ -554,6 +563,9 @@
       },
       "contact": {
         "title": "Information"
+      },
+      "field_errors": {
+        "tips_invalid_tip_amount": "Gib ein Trinkgeld von höchstens %{amount} ein"
       }
     },
     "errors": {
@@ -570,7 +582,8 @@
             "header": "Sind Sie der Ladenbesitzer?"
           },
           "sell_in_person": {
-            "caption": "Holen Sie sich die Funktionen, die Sie benötigen, um Ihr Einzelhandel geschäft zu betreiben, egal ob Sie anfangen oder skalieren."
+            "caption": "Holen Sie sich die Funktionen, die Sie benötigen, um Ihr Einzelhandel geschäft zu betreiben, egal ob Sie anfangen oder skalieren.",
+            "link_text": "Kostenlos testen"
           },
           "open_a_store": {
             "header": "Öffnen Sie einen neuen Shopify Store"
@@ -588,7 +601,8 @@
         },
         "heros": {
           "no_storefront": "Dieser Store hat noch keine Website."
-        }
+        },
+        "title": "Erstellen Sie eine E-Commerce-Website und verkaufen Sie online!  E-Commerce-Software von Shopify"
       }
     },
     "notices": {
@@ -596,7 +610,8 @@
         "item_status": {
           "add_variant": "Hinzugefügt %{delta}",
           "decrement_fulfilled_line_item": "Zurück gegeben %{delta} Von %{total}",
-          "increment_item": "Hinzugefügt %{delta}"
+          "increment_item": "Hinzugefügt %{delta}",
+          "decrement_item": "Entfernt %{delta} Von %{total}"
         }
       }
     }
@@ -621,7 +636,19 @@
       "march": "Marsch",
       "thursdayAbbreviation": "Th",
       "submit": "einreichen",
-      "showNextMonth": "Zeigen Sie nächsten Monat, {{month}}  {{year}}"
+      "showNextMonth": "Zeigen Sie nächsten Monat, {{month}}  {{year}}",
+      "may": "Kann",
+      "tuesdayAbbreviation": "Tu",
+      "showPreviousMonth": "Vor monat zeigen, {{month}}  {{year}}"
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "canceled": {
+            "description": "Dir wird nichts berechnet."
+          }
+        }
+      }
     }
   }
 }

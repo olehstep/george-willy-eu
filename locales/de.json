@@ -475,14 +475,18 @@
         "add_delivery_instructions": "Lieferanweisungen hinzufügen",
         "method_summary": {
           "incomplete_address_entered": "Geben Sie eine vollständige Lieferadresse ein, um die verfügbaren Versandarten anzuzeigen"
-        }
+        },
+        "different_shipping_method_summary": "Geben Sie eine andere Liefer adresse ein, um die verfügbaren Versand methoden anzuzeigen"
       },
       "payment": {
         "business_customer_vaulting_payment_label": "Speichere diese Karte beim Checkout und autorisiere %{company}, diese Karte für zukünftige Käufe an diesem Standort zu belasten. Jeder diesem Standort zugewiesene Kontakt darf diese Karte nutzen.",
         "purchase_options_agreement_label": "Ich verstehe, dass es sich bei einem Artikel oder mehreren Artikeln in meinem Warenkorb um einen ausstehenden oder wiederkehrenden Kauf handelt. Durch das Fortfahren stimme ich den %{cancellation_policy_label} zu und autorisiere die Belastung meiner Zahlungsmethode zu den auf dieser Seite angegebenen Preisen, Häufigkeiten und Daten, bis meine Bestellung ausgeführt wurde oder bis ich die Bestellung, sofern möglich, storniere.",
         "subscription_heading": "Abonnement-Vertrag",
         "edit_credit_card_modal": {
-          "cancel": "Abbrechen"
+          "cancel": "Abbrechen",
+          "fields": {
+            "billing": "Gesetzesentwurf für"
+          }
         },
         "delete_credit_card_modal": {
           "confirmation": "Sind Sie sicher, dass Sie die {{brandName}} Endend in {{lastDigits}} ?",
@@ -496,7 +500,8 @@
           "with_quantities": "{{delta}} Von {{quantity}} Zurück gegeben"
         },
         "use_order_billing_address_label": "Bestell abrechnung adresse nutzen",
-        "use_location_billing_address_label": "Standort abrechnung adresse verwenden"
+        "use_location_billing_address_label": "Standort abrechnung adresse verwenden",
+        "expired_payment_method": "Ausgewählte Zahlungsmethode ist abgelaufen"
       },
       "billing": {
         "billing_address_title": "Gesetzesentwurf für",
@@ -505,10 +510,21 @@
         "same_as_shipping": "Gleich wie Lieferadresse"
       },
       "order_summary": {
-        "gift_card_and_discount_title": "Geschenkkarte oder Rabattcode"
+        "gift_card_and_discount_title": "Geschenkkarte oder Rabattcode",
+        "gift_card_and_discount_placeholder": "Geschenkkarte oder Rabattcode"
       },
       "customer_account": {
         "invalid_shipping_method_summary": "Wählen Sie eine gültige Lieferadresse aus, um die verfügbaren Versandarten anzuzeigen"
+      },
+      "shipping_errors": {
+        "shipping_method_not_available_generic": {
+          "one": "Diese Bestellung kann nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut."
+        }
+      },
+      "stock": {
+        "price_update": {
+          "description": "Die Preise für diese Artikel haben sich geändert und werden in Ihrem Warenkorb aktualisiert."
+        }
       }
     },
     "errors": {
@@ -562,7 +578,8 @@
       "rangeStart": "Range-Start",
       "maximumReached": "Maximal von {{value}} Erreichte",
       "increase": "Steigerung {{type}}",
-      "rangeEnd": "Ende des Bereichs"
+      "rangeEnd": "Ende des Bereichs",
+      "expandNotification": "Mehr sehen"
     }
   }
 }

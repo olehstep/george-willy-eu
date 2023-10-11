@@ -465,7 +465,8 @@
         "local_pickup": {
           "search_address": "Suche nach Adresse"
         },
-        "address_more": "Weitere Aktionen für diese Adresse"
+        "address_more": "Weitere Aktionen für diese Adresse",
+        "shipping_address_title": "Ausliefern"
       },
       "payment": {
         "business_customer_vaulting_payment_label": "Speichere diese Karte beim Checkout und autorisiere %{company}, diese Karte für zukünftige Käufe an diesem Standort zu belasten. Jeder diesem Standort zugewiesene Kontakt darf diese Karte nutzen.",
@@ -473,6 +474,18 @@
         "subscription_heading": "Abonnement-Vertrag",
         "edit_credit_card_modal": {
           "cancel": "Abbrechen"
+        },
+        "delete_credit_card_modal": {
+          "confirmation": "Sind Sie sicher, dass Sie die {{brandName}} Endend in {{lastDigits}} ?"
+        }
+      }
+    },
+    "errors": {
+      "shop_404": {
+        "ctas": {
+          "editions": {
+            "link_text": "Entdecken Sie die neuesten Editionen"
+          }
         }
       }
     }
@@ -484,7 +497,8 @@
       }
     },
     "ui_components": {
-      "removeItem": "Entfernen {{label}}"
+      "removeItem": "Entfernen {{label}}",
+      "saturdayAbbreviation": "An"
     }
   }
 }

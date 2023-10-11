@@ -563,7 +563,10 @@
         },
         "owner_ctas": {
           "add_storefront": "Sie können Ihre Website einrichten, indem Sie den Online-Shop-Kanal in Ihrem %{admin_link} .  Wenn Sie Probleme haben, in Ihr Geschäft zu gelangen, probieren Sie die %{forgot_your_store_link} Seite.",
-          "forgot_your_store_link_text": "Vergaß deinen Laden"
+          "forgot_your_store_link_text": "Vergaß deinen Laden",
+          "header": "Sind Sie der Ladenbesitzer?",
+          "fix_domain": "Beenden Sie die Einrichtung Ihrer neuen Web adresse, gehen Sie zu %{domain_settings_link} .  Klicken Sie auf „ Domain verbinden &ldquo;und geben Sie Folgendes ein: %{domain} .<br>Wenn Sie Probleme haben, in Ihr Geschäft zu gelangen, probieren Sie die %{forgot_your_store_link} Seite.",
+          "fix_domain_link_text": "Ihre Domain-Einstellungen"
         },
         "links": {
           "start_free_trial": "Starten Sie eine kostenlose Testversion"

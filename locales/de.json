@@ -531,14 +531,16 @@
         "shipping_default_value": "Wird im nächsten Schritt berechnet",
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> konnte nicht mit deinen vorhandenen Rabatten verwendet werden. Du hast bereits eine bessere Kombination.",
         "collapse_order_summary": "Bestellübersicht verbergen",
-        "expand_order_summary": "Bestellübersicht anzeigen"
+        "expand_order_summary": "Bestellübersicht anzeigen",
+        "gift_card_and_discount_label": "Geschenkkarte oder Rabattcode"
       },
       "customer_account": {
         "invalid_shipping_method_summary": "Wählen Sie eine gültige Lieferadresse aus, um die verfügbaren Versandarten anzuzeigen"
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "one": "Diese Bestellung kann nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut."
+          "one": "Diese Bestellung kann nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut.",
+          "other": "Einige Artikel in deinem Warenkorb können nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut."
         },
         "title": "Versand nicht möglich"
       },
@@ -567,6 +569,9 @@
       },
       "field_errors": {
         "tips_invalid_tip_amount": "Gib ein Trinkgeld von höchstens %{amount} ein"
+      },
+      "notice_banner": {
+        "shipping_address_incomplete_title": "Liefer adresse ist unvollständig"
       }
     },
     "errors": {

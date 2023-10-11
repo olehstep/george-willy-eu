@@ -557,7 +557,8 @@
       "review": {
         "blocks": {
           "payment_method_title": "Zahlung",
-          "shipping_method_title": "Art"
+          "shipping_method_title": "Art",
+          "review_title_free_order": "Überprüfen Sie Ihre Bestellung und schließen Sie sie ab"
         },
         "review_title": "Bestellung überprüfen"
       },
@@ -639,7 +640,8 @@
       "showNextMonth": "Zeigen Sie nächsten Monat, {{month}}  {{year}}",
       "may": "Kann",
       "tuesdayAbbreviation": "Tu",
-      "showPreviousMonth": "Vor monat zeigen, {{month}}  {{year}}"
+      "showPreviousMonth": "Vor monat zeigen, {{month}}  {{year}}",
+      "wednesdayAbbreviation": "Wir"
     },
     "B2B": {
       "draft_order_details": {

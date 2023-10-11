@@ -463,7 +463,8 @@
       "shipping": {
         "shipping_method_notice": "Bitte beachten Sie: Einmal aufgegebene Bestellungen können nicht mehr geändert oder storniert werden. Um eine Bestellung zu ändern, befolgen Sie bitte die Rückgabe- und Umtauschrichtlinie.",
         "local_pickup": {
-          "search_address": "Suche nach Adresse"
+          "search_address": "Suche nach Adresse",
+          "rollup_title": "Treffpunkt"
         },
         "address_more": "Weitere Aktionen für diese Adresse",
         "shipping_address_title": "Ausliefern",
@@ -522,6 +523,9 @@
         },
         "links": {
           "start_free_trial": "Starten Sie eine kostenlose Testversion"
+        },
+        "heros": {
+          "no_storefront": "Dieser Store hat noch keine Website."
         }
       }
     },

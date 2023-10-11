@@ -472,7 +472,10 @@
           "generic_error": "Beim Speichern Ihrer Adresse ist ein Problem aufgetreten.  Bitte versuche es erneut.",
           "one_time_address_subtitle": "Verwenden Sie für diese Bestellung eine Einmaladresse"
         },
-        "add_delivery_instructions": "Lieferanweisungen hinzufügen"
+        "add_delivery_instructions": "Lieferanweisungen hinzufügen",
+        "method_summary": {
+          "incomplete_address_entered": "Geben Sie eine vollständige Lieferadresse ein, um die verfügbaren Versandarten anzuzeigen"
+        }
       },
       "payment": {
         "business_customer_vaulting_payment_label": "Speichere diese Karte beim Checkout und autorisiere %{company}, diese Karte für zukünftige Käufe an diesem Standort zu belasten. Jeder diesem Standort zugewiesene Kontakt darf diese Karte nutzen.",
@@ -492,15 +495,20 @@
         "order_edit_banner_items_returned": {
           "with_quantities": "{{delta}} Von {{quantity}} Zurück gegeben"
         },
-        "use_order_billing_address_label": "Bestell abrechnung adresse nutzen"
+        "use_order_billing_address_label": "Bestell abrechnung adresse nutzen",
+        "use_location_billing_address_label": "Standort abrechnung adresse verwenden"
       },
       "billing": {
         "billing_address_title": "Gesetzesentwurf für",
         "add_address": "Verwenden Sie eine andere Adresse",
-        "address_more": "Weitere Aktionen für diese Adresse"
+        "address_more": "Weitere Aktionen für diese Adresse",
+        "same_as_shipping": "Gleich wie Lieferadresse"
       },
       "order_summary": {
         "gift_card_and_discount_title": "Geschenkkarte oder Rabattcode"
+      },
+      "customer_account": {
+        "invalid_shipping_method_summary": "Wählen Sie eine gültige Lieferadresse aus, um die verfügbaren Versandarten anzuzeigen"
       }
     },
     "errors": {
@@ -508,7 +516,8 @@
         "ctas": {
           "editions": {
             "link_text": "Entdecken Sie die neuesten Editionen",
-            "caption": "Mit mehr als 100 Produkt-Updates können Sie produktiver, kreativer und leistungs fähiger im Handel sein, als Sie es sich jemals vorgestellt haben."
+            "caption": "Mit mehr als 100 Produkt-Updates können Sie produktiver, kreativer und leistungs fähiger im Handel sein, als Sie es sich jemals vorgestellt haben.",
+            "header": "Schauen Sie sich Shopify Editions an"
           },
           "store_owner": {
             "caption": "Haben Sie Probleme, in Ihr Geschäft zu gelangen?  Versuchen Sie die %{forgot_your_store_link} Feature.  Wenn Sie Ihren Shop reaktivieren möchten, kontaktieren Sie %{shopify_support_link} ."
@@ -532,7 +541,9 @@
     "notices": {
       "line_item": {
         "item_status": {
-          "add_variant": "Hinzugefügt %{delta}"
+          "add_variant": "Hinzugefügt %{delta}",
+          "decrement_fulfilled_line_item": "Zurück gegeben %{delta} Von %{total}",
+          "increment_item": "Hinzugefügt %{delta}"
         }
       }
     }
@@ -548,7 +559,10 @@
       "saturdayAbbreviation": "An",
       "closeNotification": "Nah dran",
       "decrease": "Abnahme {{type}}",
-      "rangeStart": "Range-Start"
+      "rangeStart": "Range-Start",
+      "maximumReached": "Maximal von {{value}} Erreichte",
+      "increase": "Steigerung {{type}}",
+      "rangeEnd": "Ende des Bereichs"
     }
   }
 }

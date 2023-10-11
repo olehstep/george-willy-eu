@@ -466,7 +466,10 @@
           "search_address": "Suche nach Adresse"
         },
         "address_more": "Weitere Aktionen für diese Adresse",
-        "shipping_address_title": "Ausliefern"
+        "shipping_address_title": "Ausliefern",
+        "address_form": {
+          "generic_error": "Beim Speichern Ihrer Adresse ist ein Problem aufgetreten.  Bitte versuche es erneut."
+        }
       },
       "payment": {
         "business_customer_vaulting_payment_label": "Speichere diese Karte beim Checkout und autorisiere %{company}, diese Karte für zukünftige Käufe an diesem Standort zu belasten. Jeder diesem Standort zugewiesene Kontakt darf diese Karte nutzen.",
@@ -478,13 +481,20 @@
         "delete_credit_card_modal": {
           "confirmation": "Sind Sie sicher, dass Sie die {{brandName}} Endend in {{lastDigits}} ?"
         }
+      },
+      "billing": {
+        "billing_address_title": "Gesetzesentwurf für"
+      },
+      "order_summary": {
+        "gift_card_and_discount_title": "Geschenkkarte oder Rabattcode"
       }
     },
     "errors": {
       "shop_404": {
         "ctas": {
           "editions": {
-            "link_text": "Entdecken Sie die neuesten Editionen"
+            "link_text": "Entdecken Sie die neuesten Editionen",
+            "caption": "Mit mehr als 100 Produkt-Updates können Sie produktiver, kreativer und leistungs fähiger im Handel sein, als Sie es sich jemals vorgestellt haben."
           }
         }
       }

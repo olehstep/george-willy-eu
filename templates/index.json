@@ -511,7 +511,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/a-frame-sign-741434_e6c99c5b-ac69-4196-859d-1d9cf5562616.jpg",
-            "alignment": "center center",
+            "alignment": "bottom right",
             "enlarge_image": false,
             "subheading": "",
             "title": "",

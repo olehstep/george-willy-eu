@@ -476,7 +476,8 @@
         "method_summary": {
           "incomplete_address_entered": "Geben Sie eine vollständige Lieferadresse ein, um die verfügbaren Versandarten anzuzeigen"
         },
-        "different_shipping_method_summary": "Geben Sie eine andere Liefer adresse ein, um die verfügbaren Versand methoden anzuzeigen"
+        "different_shipping_method_summary": "Geben Sie eine andere Liefer adresse ein, um die verfügbaren Versand methoden anzuzeigen",
+        "add_address": "Verwenden Sie eine andere Adresse"
       },
       "payment": {
         "business_customer_vaulting_payment_label": "Speichere diese Karte beim Checkout und autorisiere %{company}, diese Karte für zukünftige Käufe an diesem Standort zu belasten. Jeder diesem Standort zugewiesene Kontakt darf diese Karte nutzen.",
@@ -513,7 +514,9 @@
       },
       "order_summary": {
         "gift_card_and_discount_title": "Geschenkkarte oder Rabattcode",
-        "gift_card_and_discount_placeholder": "Geschenkkarte oder Rabattcode"
+        "gift_card_and_discount_placeholder": "Geschenkkarte oder Rabattcode",
+        "shipping_default_value": "Wird im nächsten Schritt berechnet",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> konnte nicht mit deinen vorhandenen Rabatten verwendet werden. Du hast bereits eine bessere Kombination."
       },
       "customer_account": {
         "invalid_shipping_method_summary": "Wählen Sie eine gültige Lieferadresse aus, um die verfügbaren Versandarten anzuzeigen"
@@ -530,6 +533,11 @@
       },
       "general": {
         "page_title": "Bezahlung"
+      },
+      "review": {
+        "blocks": {
+          "payment_method_title": "Zahlung"
+        }
       }
     },
     "errors": {
@@ -584,7 +592,9 @@
       "maximumReached": "Maximal von {{value}} Erreichte",
       "increase": "Steigerung {{type}}",
       "rangeEnd": "Ende des Bereichs",
-      "expandNotification": "Mehr sehen"
+      "expandNotification": "Mehr sehen",
+      "minimumReached": "Minimum von {{value}} Erreichte",
+      "march": "Marsch"
     }
   }
 }

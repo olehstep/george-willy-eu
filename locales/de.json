@@ -468,7 +468,8 @@
         "address_more": "Weitere Aktionen für diese Adresse",
         "shipping_address_title": "Ausliefern",
         "address_form": {
-          "generic_error": "Beim Speichern Ihrer Adresse ist ein Problem aufgetreten.  Bitte versuche es erneut."
+          "generic_error": "Beim Speichern Ihrer Adresse ist ein Problem aufgetreten.  Bitte versuche es erneut.",
+          "one_time_address_subtitle": "Verwenden Sie für diese Bestellung eine Einmaladresse"
         },
         "add_delivery_instructions": "Lieferanweisungen hinzufügen"
       },
@@ -516,7 +517,8 @@
           }
         },
         "owner_ctas": {
-          "add_storefront": "Sie können Ihre Website einrichten, indem Sie den Online-Shop-Kanal in Ihrem %{admin_link} .  Wenn Sie Probleme haben, in Ihr Geschäft zu gelangen, probieren Sie die %{forgot_your_store_link} Seite."
+          "add_storefront": "Sie können Ihre Website einrichten, indem Sie den Online-Shop-Kanal in Ihrem %{admin_link} .  Wenn Sie Probleme haben, in Ihr Geschäft zu gelangen, probieren Sie die %{forgot_your_store_link} Seite.",
+          "forgot_your_store_link_text": "Vergaß deinen Laden"
         },
         "links": {
           "start_free_trial": "Starten Sie eine kostenlose Testversion"
@@ -539,7 +541,10 @@
     },
     "ui_components": {
       "removeItem": "Entfernen {{label}}",
-      "saturdayAbbreviation": "An"
+      "saturdayAbbreviation": "An",
+      "closeNotification": "Nah dran",
+      "decrease": "Abnahme {{type}}",
+      "rangeStart": "Range-Start"
     }
   }
 }

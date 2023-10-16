@@ -234,6 +234,10 @@
 
                 <button type="submit" class="button button--large" id="update-cart" name="checkout">{{ 'cart.general.checkout' | t }}</button>
 
+                SufioVAT.onCart({
+    selectors: "#cart-page-vat-form"
+  });
+
                 {% if section.settings.show_additional_checkout_buttons and additional_checkout_buttons and section.settings.cart_terms_page == blank %}
                 <div class="additional-checkout-buttons">
                   {{ content_for_additional_checkout_buttons }}

@@ -1053,6 +1053,7 @@
     "image_09_desktop": "shopify:\/\/shop_images\/trust_seals.png",
     "enable_cf06": true,
     "cf08_imp": false,
+    "cf10_estDeliveryDate": 4,
     "cf23_imp": false,
     "cf25_imp": false,
     "cf251_imp": false,

@@ -11,7 +11,7 @@
       "blocks": {
         "price": {
           "settings": {
-            "show_tax_and_shipping": true
+            "show_tax_and_shipping": false
           }
         }
       }

@@ -150,7 +150,7 @@
       "preorder": "Pre-order",
       "view_in_space": "View in your space",
       "include_taxes": "Duties and taxes included.",
-      "shipping_policy_html": "",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "reviews_link": {
         "one": "Review",
         "other": "Reviews"

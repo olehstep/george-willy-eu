@@ -464,7 +464,13 @@
         "shipping_method_notice": "Nota: gli ordini non possono essere modificati o annullati una volta effettuati. Per modificare un ordine, segui la politica Resi e Cambi.",
         "title": "Spedizione",
         "add_address": "Usa un indirizzo diverso",
-        "different_shipping_method_summary": "Inserisci un indirizzo di spedizione diverso per visualizzare i metodi di spedizione disponibili"
+        "different_shipping_method_summary": "Inserisci un indirizzo di spedizione diverso per visualizzare i metodi di spedizione disponibili",
+        "split_cart_merchandise_shipment_number": "Spedizione %{number} Di %{total}",
+        "address_form": {
+          "generic_error": "C' è stato un problema nel salvare il tuo indirizzo.  Per favore riprova."
+        },
+        "invalid_shipping_method_summary": "Inserisci un indirizzo di spedizione valido per visualizzare i metodi di spedizione disponibili",
+        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Altro"
       },
       "payment_errors": {
         "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
@@ -485,6 +491,9 @@
         },
         "saved_credit_card_actions": {
           "edit": "Modificare"
+        },
+        "gift_card_wrapper": {
+          "apply_another_gift_card_label": "Applica un'altra carta regalo"
         }
       },
       "order_summary": {
@@ -509,6 +518,16 @@
       "stock": {
         "item_label": {
           "one": "{{count}} Articolo"
+        }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "insufficient_funds": "Questa carta regalo non ha fondi rimasti"
+        }
+      },
+      "review": {
+        "blocks": {
+          "payment_method_saved_company_location": "Salva la carta per questa posizione"
         }
       }
     },
@@ -569,7 +588,8 @@
           "date": {
             "today": "In data odierna",
             "custom": "Costume",
-            "last_7_days": "Ultimi 7 giorni"
+            "last_7_days": "Ultimi 7 giorni",
+            "title": "Data dell'ordine"
           }
         }
       },
@@ -600,7 +620,14 @@
       "expandNotification": "Visualizza di più",
       "inRange": "Nell'intervallo",
       "rangeEnd": "Intervallo",
-      "sunday": "Domenica"
+      "sunday": "Domenica",
+      "showPreviousMonth": "Mostra il mese precedente, {{month}}  {{year}}",
+      "maximumReached": "Massimo di {{value}} Raggiunto",
+      "monday": "Lunedi",
+      "september": "settembre"
+    },
+    "profile_preview_bar": {
+      "previewing": "Stai visualizzando in anteprima:"
     }
   }
 }

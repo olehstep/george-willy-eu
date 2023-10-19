@@ -464,8 +464,33 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "shipping_method_notice": "Bemærk venligst: Ordrer kan ikke ændres eller annulleres, når de først er afgivet. For at ændre en ordre skal du følge politikken for returnering og ombytning."
+        "shipping_method_notice": "Bemærk venligst: Ordrer kan ikke ændres eller annulleres, når de først er afgivet. For at ændre en ordre skal du følge politikken for returnering og ombytning.",
+        "address_more": "Flere handlinger til denne adresse"
+      },
+      "review": {
+        "review_title": "Gennemgå ordre"
+      },
+      "general": {
+        "map": {
+          "cluster_title": {
+            "other": "Klynger {{number}} Markører"
+          }
+        }
+      },
+      "payment": {
+        "subscription_agreement_cancelled": "annulleret"
+      },
+      "stock": {
+        "out_of_stock": {
+          "description": "Disse varer er ikke længere tilgængelige og er blevet fjernet fra din kurv."
+        }
       }
+    }
+  },
+  "customer_accounts": {
+    "ui_components": {
+      "august": "august",
+      "may": "Kan"
     }
   }
 }

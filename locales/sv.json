@@ -125,6 +125,20 @@
       "wednesdayAbbreviation": "Vi",
       "processing": "Bearbetar...",
       "decrease": "Minska {{type}}"
+    },
+    "orders": {
+      "order_list": {
+        "filter": {
+          "date": {
+            "last_7_days": "Senaste 7 dagar"
+          }
+        }
+      }
+    },
+    "order_details": {
+      "edit_summary": {
+        "removed_with_quantities": "{{delta}} Av {{total}} Borttagen"
+      }
     }
   },
   "contact": {
@@ -389,7 +403,8 @@
       "shipping": "Frakt",
       "payment_status": "Betalningsstatus",
       "quantity": "Kvantitet",
-      "subtotal": "Delsumma"
+      "subtotal": "Delsumma",
+      "date": "Placerad på {{ date }}"
     },
     "login": {
       "guest_title": "Fortsätt som gäst",
@@ -423,7 +438,8 @@
     "checkout": {
       "shipping": {
         "shipping_method_notice": "Observera: Beställningar kan inte ändras eller annulleras när de väl har lagts. För att ändra en beställning, följ policyn för returer och byten.",
-        "split_cart_merchandise_quantity_label_standard": "%{quantity} Poster"
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} Poster",
+        "shipping_address_title": "Frakta till"
       },
       "stock": {
         "out_of_stock": {

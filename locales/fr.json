@@ -465,7 +465,32 @@
     "checkout": {
       "shipping": {
         "shipping_method_notice": "Veuillez noter : Les commandes ne peuvent pas être modifiées ou annulées une fois passées. Pour modifier une commande, veuillez suivre la politique de retours et échanges."
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "invalid": "Entrez une carte-cadeau valide"
+        }
+      },
+      "payment_errors": {
+        "invalid_expiry_date": "Saisissez une date d'expiration valide pour la carte"
+      },
+      "thank_you": {
+        "order_status_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
       }
+    },
+    "errors": {
+      "shop_404": {
+        "ctas": {
+          "store_owner": {
+            "caption": "Vous avez des difficultés à entrer dans votre magasin?  Essayez le %{forgot_your_store_link} Caractéristique.  Si vous souhaitez réactiver votre boutique contact %{shopify_support_link} ."
+          }
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "ui_components": {
+      "inRange": "Dans la gamme"
     }
   }
 }

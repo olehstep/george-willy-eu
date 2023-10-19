@@ -492,6 +492,14 @@
       },
       "thank_you": {
         "order_status_payments_app_failed_pending_payment": "Je bent niet aangeklaagd voor je bestelling.  Ga terug naar uw winkelwagen om uw bestelling te bekijken en betaal opnieuw."
+      },
+      "billing": {
+        "billing_address_title": "Rekening naar"
+      },
+      "stock": {
+        "price_update": {
+          "description": "De prijzen voor deze artikelen zijn gewijzigd en worden bijgewerkt in uw winkelwagen."
+        }
       }
     }
   },

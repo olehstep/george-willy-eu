@@ -465,7 +465,23 @@
     "checkout": {
       "shipping": {
         "shipping_method_notice": "Observação: os pedidos não podem ser alterados ou cancelados depois de feitos. Para alterar um pedido, siga a política de trocas e devoluções."
+      },
+      "field_errors": {
+        "address_phone_invalid": "Insira um número de telefone válido"
+      },
+      "stock": {
+        "price_update": {
+          "title": "Atualização de preços"
+        }
+      },
+      "payment": {
+        "purchase_options_agreement_label_wallets": "Ao continuar com o seu pagamento, você concorda com as futuras cobranças listadas nesta página e com a política de cancelamento."
       }
+    }
+  },
+  "customer_accounts": {
+    "ui_components": {
+      "september": "Setembro"
     }
   }
 }

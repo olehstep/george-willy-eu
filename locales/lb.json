@@ -253,7 +253,8 @@
             "may": "Mee",
             "june": "Juni",
             "april": "Abrëll",
-            "july": "Juli"
+            "july": "Juli",
+            "november": "November"
           }
         },
         "datepicker": {
@@ -285,7 +286,8 @@
           },
           "narrow": {
             "twoWordConnector": "{{firstWord}}, {{secondWord}}",
-            "wordConnector": "{{previousWords}}, {{anotherWord}}"
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, {{lastWord}}"
           }
         },
         "continue_to_payment_plans_button_label": "Fuert weider op Bezuelpläng",
@@ -307,7 +309,8 @@
           }
         },
         "choose_delivery_strategy": "Wielt eng Liwwerung Method",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "breadcrumb": "Brout"
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -528,7 +531,8 @@
             "billing": "Bill zu",
             "security_code": "Sécherheets Code",
             "default": "Set als Standard",
-            "name": "Numm op der Kaart"
+            "name": "Numm op der Kaart",
+            "expiry": "D' Erwaaun"
           },
           "title": "Kaarter änneren",
           "description": "Dir kënnt nëmme d' Biller-Adress vung.",
@@ -547,7 +551,8 @@
         "delete_credit_card_modal": {
           "title": "Kaarter ewesselen",
           "delete": "Läschen",
-          "cancel": "Ofbriechen"
+          "cancel": "Ofbriechen",
+          "confirmation": "Wëllt Dir wierer de geläichen {{brandName}} Gemm {{lastDigits}} ?"
         },
         "order_edit_banner_items_added": {
           "one": "Dobäigesat",
@@ -572,8 +577,12 @@
         "markets_pro_disclaimer_terms_and_conditions_title": "Händler vun Record Konditioune",
         "purchase_options_agreement_label_wallets": "Er weider mat Äer Betaal, stemmett de hifuchtige Laachen, an d'Aflösung-Polie d' Löschen.",
         "expired_cards_info": {
-          "other": "Et gi %{count} ofgelaaf Kaarten, déi Dir an Ärem Kont kucken an änneren."
-        }
+          "other": "Et gi %{count} ofgelaaf Kaarten, déi Dir an Ärem Kont kucken an änneren.",
+          "one": "Et gëtt %{count} ofgelaaf Kaart, déi Dir op Ärem Kont kucke kënnt an änneren."
+        },
+        "order_covered_by_redeemables_notice": "Eger Ordeert ass verweert.",
+        "fact_billing_address_label": "Rechnungsadress",
+        "no_working_method_error": "Dëse Buttek kann elo keng Bezuelungen akzeptéieren. Erfrëscht dës Säit oder kommt méi spéit zréck."
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -709,7 +718,8 @@
         "shipping_information_required_notice": "Versandinformatioun ass erfuerderlech. {{link}}.",
         "shipping_method_combinations": {
           "combination": "%{rest} an %{current}",
-          "without_separator": "%{firstMethod}, %{secondMethod}"
+          "without_separator": "%{firstMethod}, %{secondMethod}",
+          "with_separator": "%{rest}, %{current},"
         },
         "missing_shipping_address": "Versandadress feelt",
         "address_delete": "Adress läschen",
@@ -840,7 +850,8 @@
           "one": "Weisen %{count} Artikel"
         },
         "price_per_item": {
-          "accessibility_label": "%{price} Per item"
+          "accessibility_label": "%{price} Per item",
+          "label": "%{price} \/Ea"
         },
         "gift_card_masked": "•••• %{last_characters}",
         "recurring_payments": "Widderhuelend Bezuelungen",
@@ -1371,7 +1382,8 @@
         "shipping_method_not_available": "Äre Wuerekuerf gouf aktualiséiert an d'Elementer déi Dir bäigefüügt hutt kënnen net op Är Adress geschéckt ginn. Ewechzehuelen d'Elementer fir Är Bestellung ofzeschléissen.",
         "shipping_method": "D'Versandoptiounen hu fir Är Bestellung geännert. Iwwerpréift Är Auswiel a probéiert nach eng Kéier.",
         "title": "Rasiewung net verfügbar.",
-        "shipping_method_not_available_due_to_unsatisfied_conditions": "Elementen an der Cart vertellt net Pret oder Weit-Biddieden, fir fir fir d'Schief vun. Aktualiséierung."
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Elementen an der Cart vertellt net Pret oder Weit-Biddieden, fir fir fir d'Schief vun. Aktualiséierung.",
+        "empty_state": "Gitt Är Versandadress un fir verfügbar Versandmethoden ze gesinn."
       },
       "customer_payment_methods": {
         "delete_customer_mandate": {
@@ -1546,7 +1558,8 @@
         },
         "unpurchasable_product": {
           "message": "Dës Artikele sinn net verfügbar fir B2B Bestellungen.",
-          "status_column_header": "Nët accessible"
+          "status_column_header": "Nët accessible",
+          "title": "Onkaafbar Produkt"
         },
         "item_label": {
           "one": "{{count}} Deelett"
@@ -1555,7 +1568,8 @@
         "empty_cart_label": "Äre Weenchen ass eidel",
         "price_update": {
           "description": "Preces fir dës Elementen huet geännert a git an deer Cart aktualiséiert."
-        }
+        },
+        "return_to_store_label": "Zréck an de Buttek"
       },
       "shop_policies": {
         "shipping_policy": "Versandpolitik",
@@ -1713,7 +1727,8 @@
         "estimated_wait_time": {
           "other": "Geschätzte Waardezäit: {{count}} Minutten",
           "calculating": "Berechent geschätzte Waardezäit",
-          "less_than_one": "Geschätzte Waardezäit: Manner wéi eng Minutt"
+          "less_than_one": "Geschätzte Waardezäit: Manner wéi eng Minutt",
+          "one": "Geschätzte Waardezäit: {{count}} Minutt"
         },
         "last_checked": "(Lescht gepréift: {{time}})",
         "inventory": {
@@ -1967,7 +1982,8 @@
         "gift_card": {
           "insufficient_funds": "Dës Kaddokaart huet keng Fongen méi",
           "generic": "De Giftkaart konnt net fir d'Ock-After",
-          "invalid": "Gitt eng valabel Cadeau Kaart"
+          "invalid": "Gitt eng valabel Cadeau Kaart",
+          "expired": "Dës Kaddokaart ass ofgelaf"
         }
       },
       "note": {
@@ -2272,7 +2288,8 @@
             "end_date": "Enndailg",
             "custom": "&amp; Benotzen",
             "start_date": "Startdatum",
-            "title": "Bestellungsdatum"
+            "title": "Bestellungsdatum",
+            "last_7_days": "Lescht 7 Deeg"
           },
           "clear_section": "Seksion",
           "apply": "Bewerbung"
@@ -3097,7 +3114,9 @@
       "sundayAbbreviation": "Su",
       "friday": "Freideg",
       "thursday": "Donneschdeg",
-      "processing": "Veraarbechtung…"
+      "processing": "Veraarbechtung…",
+      "tuesdayAbbreviation": "Dat",
+      "january": "Januar"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

@@ -472,18 +472,34 @@
         },
         "discount_order_stacking": {
           "one": "Descuento de pedido"
-        }
+        },
+        "gift_card_and_discount_title": "Tarjeta de regalo o código de descuento",
+        "shipping_default_value": "Calculado en el siguiente paso"
       },
       "payment": {
         "purchase_options_agreement_label_wallets": "Al continuar con su pago, usted acepta los cargos futuros que figuran en esta página y la política de cancelación.",
         "gift_card_wrapper": {
           "apply_another_gift_card_label": "Aplicar otra tarjeta de regalo"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "devuelto"
         }
       },
       "redeemable_errors": {
         "gift_card": {
           "expired": "Esta tarjeta de regalo ha caducado",
           "insufficient_funds": "A esta tarjeta de regalo no le quedan fondos"
+        }
+      },
+      "thank_you": {
+        "order_status_payments_app_pending_payment_description_default_with_email": "Recibirá un correo electrónico de confirmación pronto.  Rastree su pedido utilizando la aplicación Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Pronto recibirás un mensaje de confirmación.  Rastree su pedido utilizando la aplicación Shop."
+      },
+      "general": {
+        "map": {
+          "cluster_title": {
+            "other": "Cluster de {{number}} Marcadores"
+          }
         }
       }
     },
@@ -496,6 +512,9 @@
           "editions": {
             "caption": "Con más de 100 actualizaciones de productos, puede ser más productivo y creativo, y poderoso en el comercio de lo que nunca imaginó."
           }
+        },
+        "owner_ctas": {
+          "fix_domain_link_text": "La configuración de su dominio"
         }
       }
     }
@@ -506,11 +525,16 @@
       "showNextMonth": "Mostrar el próximo mes, {{month}}  {{year}}",
       "wednesdayAbbreviation": "Nosotros",
       "thursday": "jueves",
-      "processing": "Procesando…"
+      "processing": "Procesando…",
+      "january": "enero",
+      "saturdayAbbreviation": "en",
+      "saturday": "sábado",
+      "decrease": "Disminución {{type}}"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",
-      "navigate_to_admin": "Navegar a admin"
+      "navigate_to_admin": "Navegar a admin",
+      "customize_button": "personalizar"
     },
     "orders": {
       "order_list": {

@@ -476,7 +476,8 @@
         "invalid_expiry_date": "Saisissez une date d'expiration valide pour la carte"
       },
       "thank_you": {
-        "order_status_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
+        "order_status_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
       },
       "billing": {
         "address_more": "Plus d'actions pour cette adresse",
@@ -490,6 +491,9 @@
         "price_update": {
           "description": "Les prix de ces articles ont changé et sont mis à jour dans votre panier."
         }
+      },
+      "order_summary": {
+        "discount_label": "code de réduction"
       }
     },
     "errors": {
@@ -513,6 +517,15 @@
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:"
+    },
+    "orders": {
+      "order_list": {
+        "filter": {
+          "date": {
+            "last_90_days": "90 derniers jours"
+          }
+        }
+      }
     }
   }
 }

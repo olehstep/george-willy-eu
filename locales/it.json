@@ -487,7 +487,8 @@
         "subscription_heading": "Accordo di sottoscrizione",
         "purchase_options_agreement_label": "Comprendo che uno o più articoli nel mio carrello costituiscono un acquisto ricorrente o posticipato. Continuando, acconsento alla %{cancellation_policy_label} e autorizzo l'addebito del mio metodo di pagamento ai prezzi, alla frequenza e alle date elencati su questa pagina fino all'evasione del mio ordine o all'annullamento da parte mia, se consentito.",
         "order_edit_banner_items_removed": {
-          "with_quantities": "{{delta}} Di {{quantity}} Rimosso"
+          "with_quantities": "{{delta}} Di {{quantity}} Rimosso",
+          "in_full": "RIMOSSO"
         },
         "saved_credit_card_actions": {
           "edit": "Modificare"
@@ -501,7 +502,8 @@
           "one": "Sconto ordine",
           "other": "Sconti sugli ordini"
         },
-        "higher_value_discount_applied": "Impossibile utilizzare <strong style=\"text-transform:uppercase\">%{code}<\/strong> con gli sconti esistenti. Disponi già di una combinazione più vantaggiosa."
+        "higher_value_discount_applied": "Impossibile utilizzare <strong style=\"text-transform:uppercase\">%{code}<\/strong> con gli sconti esistenti. Disponi già di una combinazione più vantaggiosa.",
+        "gift_card_and_discount_label": "Buono regalo o codice sconto"
       },
       "customer_account": {
         "have_an_account_label": "Hai già un account?",
@@ -561,7 +563,8 @@
             "link_text": "Scopri le ultime edizioni"
           },
           "store_owner": {
-            "caption": "Hai problemi ad entrare nel tuo negozio?  Prova il %{forgot_your_store_link} Caratteristica.  Se desideri riattivare il contatto del tuo negozio %{shopify_support_link} ."
+            "caption": "Hai problemi ad entrare nel tuo negozio?  Prova il %{forgot_your_store_link} Caratteristica.  Se desideri riattivare il contatto del tuo negozio %{shopify_support_link} .",
+            "shopify_support_link_text": "Supporto per la shopify"
           },
           "sell_in_person": {
             "caption": "Ottieni le funzionalità necessarie per gestire il tuo negozio al dettaglio sia che tu stia iniziando o ridimensionando."
@@ -601,7 +604,8 @@
             "custom": "Costume",
             "last_7_days": "Ultimi 7 giorni",
             "title": "Data dell'ordine"
-          }
+          },
+          "clear_section": "Sezione chiara"
         }
       },
       "order_status": {

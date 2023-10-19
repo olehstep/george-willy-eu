@@ -488,7 +488,8 @@
         "order_edit_banner_items_removed": {
           "with_quantities": "{{delta}} Van {{quantity}} Verwijderd"
         },
-        "use_location_shipping_address_label": "Gebruik het verzendadres van de locatie"
+        "use_location_shipping_address_label": "Gebruik het verzendadres van de locatie",
+        "purchase_options_agreement_label": "Ik begrijp dat een of meer artikelen in mijn winkelwagen een uitgestelde of terugkerende aankoop zijn. Als ik doorga, ga ik akkoord met het %{cancellation_policy_label} en geef ik je ook toestemming om de vermelde prijzen af te schrijven van mijn betaalmethode, op de vermelde frequentie en datums, totdat mijn bestelling is afgehandeld of totdat ik, indien toegestaan, annuleer."
       },
       "customer_account": {
         "rollup_label": "Rekening"
@@ -525,6 +526,12 @@
             "other": "Cluster van {{number}} Stiften"
           }
         }
+      },
+      "order_summary": {
+        "discount_order_stacking": {
+          "other": "Kortingen voor bestellingen"
+        },
+        "shipping_default_value": "Berekend bij de volgende stap"
       }
     },
     "errors": {
@@ -549,7 +556,11 @@
       "february": "Februari",
       "saturdayAbbreviation": "Zijn",
       "rangeEnd": "Einde van het bereik",
-      "monday": "Maandag"
+      "monday": "Maandag",
+      "january": "Januari",
+      "december": "December",
+      "thursdayAbbreviation": "E",
+      "expandNotification": "Bekijk meer"
     },
     "orders": {
       "order_list": {
@@ -559,6 +570,9 @@
           }
         }
       }
+    },
+    "profile_preview_bar": {
+      "hide_bar": "Verberg Bar"
     }
   }
 }

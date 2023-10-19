@@ -947,7 +947,8 @@
         "subscriptions_management": {
           "description": "Fuert weider op Äre Kont fir Är Abonnementer ze gesinn an ze verwalten.",
           "title": "Abonnement"
-        }
+        },
+        "order_status_confirmed_order_with_phone_payment": "Dir hutt eng Bezuelung op Ärer Bestellung gemaach %{date}."
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1225,7 +1226,10 @@
             "one": "Keng Liwwerung verfügbar fir %{count} Artikel"
           }
         },
-        "remove": "Ewechzehuelen"
+        "remove": "Ewechzehuelen",
+        "out_of_stock": {
+          "items_unavailable": "Kie Elementen sinne net më verfügbar an ass aus déi Cart geläucht."
+        }
       },
       "shop_policies": {
         "shipping_policy": "Versandpolitik",
@@ -1537,6 +1541,9 @@
       },
       "online_store_chat": {
         "title": "Froen? Chat mat eis"
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Demande, kontaktéiert w.e.g. de Buttekbesëtzer."
       }
     },
     "email_marketing": {
@@ -2126,7 +2133,8 @@
         "close_modal_accessibility_label": "Zoumaachen PO Zuel modal",
         "title": "PO #{{poNumber}}",
         "empty_state": "Keng PO Nummer",
-        "modal_po_number_input_max_length_error": "PO Zuelen hunn maximal {{maxLength}} Zeechen."
+        "modal_po_number_input_max_length_error": "PO Zuelen hunn maximal {{maxLength}} Zeechen.",
+        "cancel": "Ofbriechen"
       }
     },
     "account_information": {
@@ -2335,7 +2343,8 @@
         "summary": "Liwwerung",
         "address": "Liwweradress",
         "free": "fräi",
-        "subscription": "Abonnement Schëffer"
+        "subscription": "Abonnement Schëffer",
+        "one_time": "Eemol Versand"
       },
       "show_items": "Artikelen weisen",
       "payment": {
@@ -2417,7 +2426,8 @@
       "edit_summary": {
         "updated_at": "Är Bestellung gouf aktualiséiert op {{date}}",
         "removed_with_quantity": "{{quantity}} ewechgeholl",
-        "removed": "Geläscht"
+        "removed": "Geläscht",
+        "added_with_quantity": "{{quantity}} dobäigesat"
       },
       "marketing_checkbox_label": "E-Mail mech mat Neiegkeeten an Offeren",
       "paid_with_shop_pay_installments_card": {

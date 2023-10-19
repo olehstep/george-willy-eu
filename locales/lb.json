@@ -224,7 +224,8 @@
           "weekdays": {
             "wednesday": "Mëttwoch",
             "monday": "Méindeg",
-            "friday": "Freideg"
+            "friday": "Freideg",
+            "saturday": "Samschdeg"
           },
           "months": {
             "october": "Oktober",
@@ -233,7 +234,8 @@
             "march": "Mäerz",
             "february": "Februar",
             "january": "Januar",
-            "may": "Mee"
+            "may": "Mee",
+            "june": "Juni"
           }
         },
         "datepicker": {
@@ -1185,7 +1187,8 @@
         "title": "Informatiounen",
         "different_shipping_address_text": "Benotzt eng eemoleg Adress fir dës Bestellung",
         "change_location_link_label": "Plaz änneren",
-        "optional_last_name_label": "Familljennumm (fakultativ)"
+        "optional_last_name_label": "Familljennumm (fakultativ)",
+        "postal_code_label": "Postleitzuel"
       },
       "marketing": {
         "unsubscribe": {
@@ -1326,7 +1329,8 @@
         "invalid_number": "Gitt eng valabel Kaart Zuel",
         "successful_offsite_with_gift_card_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Kaddokaartbezuelung. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod.",
         "test_mode_live_card": "Dëse Buttek kann net richteg Bestellungen oder richteg Bezuelungen akzeptéieren.",
-        "development_store_order_limit_reached": "Dir hutt d'Limite fir Entwécklungsgeschäft Bestellunge mat dësem Bezuelprozessor erreecht. Fir eng aner Bestellung ze maachen, musst Dir en Testbezuelungsgateway benotzen. Léiere méi iwwer %{development_store_order_testing_docs_link}."
+        "development_store_order_limit_reached": "Dir hutt d'Limite fir Entwécklungsgeschäft Bestellunge mat dësem Bezuelprozessor erreecht. Fir eng aner Bestellung ze maachen, musst Dir en Testbezuelungsgateway benotzen. Léiere méi iwwer %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "Testbestellungen an Entwécklungsgeschäfter"
       },
       "post_purchase": {
         "title": "Post-Akaaf",
@@ -2423,7 +2427,8 @@
           "pending_tab_accessibility_label": {
             "no_pending_orders": "Dir hutt keng Pending Commanden",
             "pending_orders": {
-              "other": "Dir hutt {{count}} pendende Bestellungen"
+              "other": "Dir hutt {{count}} pendende Bestellungen",
+              "one": "Dir hutt {{count}} ofhängeg Bestellung"
             },
             "more_than_pagination_length": "Dir hutt méi wéi {{count}} pendende Bestellungen"
           },
@@ -2662,7 +2667,8 @@
       "add_payment_method_banner": "Füügt Bezuelmethod fir méi séier Checkout oder pre-autoriséiert Servicer",
       "delete_payment_method_button": "Läschen",
       "no_payment_methods_banner": "Keng Bezuelmethoden dobäigesat",
-      "edit_payment_method_brand_button_accessibility_label": "Edit {{paymentMethodName}}"
+      "edit_payment_method_brand_button_accessibility_label": "Edit {{paymentMethodName}}",
+      "edit_payment_method_button_accessibility_label": "Änneren {{paymentMethodName}} op en Enn {{lastDigits}}"
     },
     "order_details": {
       "shipping": {

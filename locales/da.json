@@ -527,7 +527,8 @@
         "expired_payment_method": "Valgt betalingsmetode er udløbet",
         "purchase_options_and_vaulting_agreement_label": "Én eller flere varer i din indkøbskurv er et udskudt eller tilbagevendende køb. Hvis du fortsætter med din betaling, accepterer du, at din betalingsmetode automatisk opkræves til den pris og med den hyppighed, der er angivet på denne side, indtil det ophører, eller du opsiger det. Alle opsigelser er underlagt vores %{cancellation_policy_label}.",
         "order_edit_banner_items_returned": {
-          "with_quantities": "{{delta}} Af {{quantity}} Returneret:"
+          "with_quantities": "{{delta}} Af {{quantity}} Returneret:",
+          "in_full": "Vendt tilbage"
         },
         "add_credit_card_modal": {
           "save": "Gemme"
@@ -574,7 +575,8 @@
         "gift_card": {
           "duplicate": "Gavekortet er allerede blevet anvendt på din ordre.",
           "generic": "Gavekortet kunne ikke tilføjes til kassen.",
-          "insufficient_funds": "Dette gavekort har ingen penge tilbage"
+          "insufficient_funds": "Dette gavekort har ingen penge tilbage",
+          "currency_mismatch": "Kun gavekort i %{shop_currency} Er accepteret"
         }
       },
       "note": {
@@ -633,7 +635,8 @@
           },
           "sell_in_person": {
             "caption": "Få de funktioner, du har brug for at køre din butik, uanset om du starter ud eller skalerer op.",
-            "header": "Sælg personligt."
+            "header": "Sælg personligt.",
+            "link_text": "Start gratis prøvel"
           }
         },
         "title": "Opret en e-commerce hjemmeside og Sælg Online!  E-handel software af Shopify",

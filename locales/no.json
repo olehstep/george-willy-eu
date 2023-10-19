@@ -318,7 +318,8 @@
         },
         "unpurchasable_product": {
           "message": "Disse varene er ikke tilgjengelige for B2B-bestillinger.",
-          "status_column_header": "Ikke tilgjengelig"
+          "status_column_header": "Ikke tilgjengelig",
+          "title": "Produkt som ikke kan kjøpes"
         },
         "unpurchasable_product_generic": {
           "header": "Noen varer ble fjernet fra handlekurven din",
@@ -353,7 +354,8 @@
           "other": "Disse produktene vil bli fjernet fra handlekurven din fordi de ikke er tilgjengelige i ditt land\/region."
         },
         "title": {
-          "other": "Ikke tilgjengelige produkter"
+          "other": "Ikke tilgjengelige produkter",
+          "one": "Utilgjengelig produkt"
         }
       },
       "shipping": {
@@ -462,7 +464,9 @@
         "delete": "Slett",
         "estimated_delivery_date": {
           "other": "%{count} virkedager"
-        }
+        },
+        "estimated_delivery_time_range": "Estimert levering %{min_time}–%{max_time}",
+        "address_edit": "Rediger adresse"
       },
       "localized_fields": {
         "additional_information": {
@@ -695,7 +699,8 @@
         "no_working_method_error": "Denne butikken kan ikke godta betalinger akkurat nå. Oppdater denne siden eller kom tilbake senere.",
         "waiting_on_taxes_message": "Hvis skattene ikke beregnes i løpet av de neste sekundene, oppfrisk siden.",
         "order_edit_banner_single_item_removed": "Fjernet",
-        "brand_not_available": "Denne butikken godtar ikke {{brand}}. Bruk et annet kort til å betale."
+        "brand_not_available": "Denne butikken godtar ikke {{brand}}. Bruk et annet kort til å betale.",
+        "mor_disclaimer_html": "Ved å klikke nedenfor og fullføre bestillingen, godtar du å kjøpe varen(e) fra Global-e som registrert selger\nfor denne transaksjonen, på Global-e's <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Vilkår og betingelser<\/a>\nog <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Personvernerklæring<\/a>. Global-e er en internasjonal\ntjenesteleverogør til %{shop_name}\n"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -1234,7 +1239,8 @@
         "pick_up_in_zero_to_two_hours": "Klar for henting om 2 timer",
         "retail_method_definition": "Detaljhandel frakt",
         "none_method_definition": "Ingen frakt",
-        "pick_up": "Plukke opp"
+        "pick_up": "Plukke opp",
+        "pickup_point_method_definition": "Send til hentested"
       },
       "mor_policies": {
         "privacy_policy": "Personvernerklæring for selgere",
@@ -1439,7 +1445,10 @@
         "reveal_more_label": {
           "one": "Vis %{count} mer sted"
         },
-        "could_not_resolve_address": "Adressen din kunne ikke finnes. Prøv på nytt, eller bruk en annen adresse"
+        "could_not_resolve_address": "Adressen din kunne ikke finnes. Prøv på nytt, eller bruk en annen adresse",
+        "location_information": {
+          "other": "Det er %{count} butikker med lager nær %{address}"
+        }
       },
       "wallets": {
         "errors": {
@@ -1732,7 +1741,8 @@
         "missing_parameters": "ingen gyldig ID eller linjeparameter",
         "bundle_products_not_supported_for_b2b_draft": "Pakkede element kan ikkje leggjast til i B2B-ordrer for denne staden.",
         "more_than_maximum": "Denne varen har maksimalt %{max}.",
-        "product_not_available": "Produktet er ikke tilgjengelig"
+        "product_not_available": "Produktet er ikke tilgjengelig",
+        "stock_problems_html": "En eller flere varer er ikke lenger tilgjengelig. Vi har gitt en <a href='%{link}'>oppdatert handlekurv<\/a>."
       },
       "address": {
         "created": "Vellykket opprettet adresse",
@@ -2201,7 +2211,8 @@
         "removed_with_quantities": "{{delta}} Av {{total}} Fjernt",
         "returned_with_quantities": "{{delta}} Av {{total}} Returnert",
         "returned": "Returnert",
-        "removed": "Fjernet"
+        "removed": "Fjernet",
+        "updated_at": "Bestillingen din ble oppdatert på {{date}}"
       },
       "marketing_section_title": "Nyheter og tilbud",
       "pickup": {
@@ -2244,7 +2255,8 @@
       "order_details_skeleton_accessibility_label": "Logg inn for å se alle ordredetaljer.",
       "log_in": "Logg Inn",
       "no_data_provided_accessibility_label": "{{fieldName}} er tom",
-      "contact_information": "Kontaktinformasjon"
+      "contact_information": "Kontaktinformasjon",
+      "hide_items": "Skjul elementer"
     },
     "address_form": {
       "loading_finished_accessibility_message": "Adresseskjemaet er lastet inn",
@@ -2447,7 +2459,8 @@
         "loading_store_accessibility_message": "Skal på butikk",
         "list_loading_finished_accessibility_message": "Liste over steder er lastet inn",
         "search": "Søk etter et sted",
-        "no_locations_found": "Ingen steder funnet"
+        "no_locations_found": "Ingen steder funnet",
+        "try_new_search": "Prøv et nytt søk"
       },
       "orders": {
         "order_list_column_headers_contact": "Ta kontakt med",
@@ -2635,7 +2648,8 @@
           "add_billing_address_button": "Legg til ny",
           "add_billing_address_button_accessibility_label": "Legg til ny faktureringsadresse",
           "choose_billing_address_from_list_button": "Velg fra listen",
-          "missing_billing_address_error_message": "Vennligst spesifiser en faktureringsadresse"
+          "missing_billing_address_error_message": "Vennligst spesifiser en faktureringsadresse",
+          "title": "Fakturaadresse"
         },
         "title": "Legg til betalingsmåte",
         "payment_method_added_confirmation": "Betalingsmåte lagt til"
@@ -2720,7 +2734,8 @@
         "one": "{{count}} Oppføring tilgjengeleg"
       },
       "december": "desember",
-      "fridayAbbreviation": "Fr"
+      "fridayAbbreviation": "Fr",
+      "sundayAbbreviation": "Hans"
     },
     "profile_preview_bar": {
       "saved_at": "Lagrat {{date}} Kje {{time}}",
@@ -2730,7 +2745,8 @@
   },
   "general": {
     "404": {
-      "subtext_html": "Det kan være lurt å gå tilbake til <a href=\"{{ root_url }}\">hjemmeside<\/a> eller <a href=\"{{ search_url }}\">prøv et søk<\/a>."
+      "subtext_html": "Det kan være lurt å gå tilbake til <a href=\"{{ root_url }}\">hjemmeside<\/a> eller <a href=\"{{ search_url }}\">prøv et søk<\/a>.",
+      "title": "404 Side Ikke Funnet"
     },
     "icon_labels": {
       "right": "Ikke sant",

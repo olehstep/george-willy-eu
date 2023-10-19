@@ -145,7 +145,10 @@
         "one": "{{count}} Objekt"
       },
       "sunday": "söndag",
-      "submit": "Skicka in"
+      "submit": "Skicka in",
+      "sundayAbbreviation": "Dom är",
+      "january": "januari",
+      "september": "september"
     },
     "orders": {
       "order_list": {
@@ -162,7 +165,13 @@
         "filter_title": "Filtrera"
       },
       "order_status": {
-        "there_was_a_problem_label": "Det var ett problem."
+        "there_was_a_problem_label": "Det var ett problem.",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Spåra och hantera Köp med Prime ordning"
+          }
+        },
+        "attempted_to_deliver_label": "Försökte att levera"
       }
     },
     "order_details": {
@@ -533,7 +542,8 @@
           "accessibility_label": "%{price} Per post.",
           "label": "%{price} \/Ea"
         },
-        "gift_card_and_discount_title": "Presentkort eller rabattkod"
+        "gift_card_and_discount_title": "Presentkort eller rabattkod",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kunde inte användas med dina befintliga rabatter. Du har redan en bättre kombination."
       },
       "customer_account": {
         "rollup_label": "konto",
@@ -555,7 +565,8 @@
         "thank_you_title_payments_app_pending_buyer_action_required": "Din beställning mottogs",
         "order_status_payments_app_failed_pending_payment": "Du blev inte betalad för din beställning.  Återvänd till din kundvagn för att granska din beställning och betala igen.",
         "thank_you_title_payments_app_failed_pending_payment": "Din betalning kunde inte behandlas",
-        "failed_pending_payment_page_title": "Det är ett problem med din betalning."
+        "failed_pending_payment_page_title": "Det är ett problem med din betalning.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "När du har slutfört din betalning får du ett e-postmeddelande.  Följ din beställning med appen Shop."
       },
       "no_address_location": {
         "alt_header": "Adress saknas."
@@ -630,6 +641,9 @@
         "shipping_method_not_available_generic": {
           "one": "Denna order kan inte levereras till den adress du angav. Granska din adress för att säkerställa att alla fält har fyllts i korrekt och försök igen."
         }
+      },
+      "store_credit_errors": {
+        "generic_error": "Det var ett problem med din butikskredit.  Försök igen eller ladda om sidan."
       }
     },
     "notices": {
@@ -663,12 +677,16 @@
             "header": "Kolla in Shopify Edition"
           },
           "open_a_store": {
-            "link_text": "Anmäl dig nu."
+            "link_text": "Anmäl dig nu.",
+            "caption": "Starta en 3 dagars gratis prövning, fortsätt sedan för $ 1\/månad under de kommande 3 månaderna."
           }
         },
         "title": "Skapa en e-handelswebbplats och sälja online!  E-handel programvara från Shopify",
         "heros": {
           "store_unavailable": "Tyvärr, den här butiken är för närvarande inte tillgänglig."
+        },
+        "links": {
+          "start_free_trial": "Starta en gratis prövning"
         }
       }
     }

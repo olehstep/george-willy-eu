@@ -539,7 +539,8 @@
       "customer_account": {
         "rollup_label": "Rekening",
         "invalid_address": "Het geselecteerde adres is ongeldig",
-        "have_an_account_label": "Heb je al een account?"
+        "have_an_account_label": "Heb je al een account?",
+        "invalid_shipping_method_summary": "Selecteer een geldig verzendadres om beschikbare verzendmethoden te bekijken"
       },
       "order_errors": {
         "inventory_reservation_failure": "Sommige artikelen zijn niet meer leverbaar."
@@ -622,7 +623,8 @@
         "gift_card": {
           "currency_mismatch": "Alleen cadeaubonnen in %{shop_currency} Worden geaccepteerd",
           "insufficient_funds": "Deze cadeaubon heeft geen saldo meer",
-          "not_available": "Deze cadeaubon is niet meer beschikbaar"
+          "not_available": "Deze cadeaubon is niet meer beschikbaar",
+          "generic": "De cadeaubon kon niet worden toegevoegd aan de kassa"
         }
       },
       "store_credit_errors": {
@@ -660,7 +662,8 @@
             "caption": "Heeft u problemen om in uw winkel te komen?  Probeer de %{forgot_your_store_link} Functie.  Als u uw winkel opnieuw wilt activeren, neem dan contact op %{shopify_support_link} ."
           },
           "sell_in_person": {
-            "header": "Verkopen in persoon"
+            "header": "Verkopen in persoon",
+            "caption": "Krijg de functies die u nodig hebt om uw winkel te runnen, of u nu begint of opschaalt."
           },
           "open_a_store": {
             "link_text": "Meld u nu aan"
@@ -721,7 +724,8 @@
       "tuesday": "Dinsdag",
       "decrease": "Daling {{type}}",
       "processing": "Verwerken…",
-      "mondayAbbreviation": "Mo"
+      "mondayAbbreviation": "Mo",
+      "tuesdayAbbreviation": "Jij"
     },
     "orders": {
       "order_list": {
@@ -734,15 +738,18 @@
             "last_365_days": "Laatste 12 maanden"
           },
           "apply": "Van toepassing zijn",
-          "clear_all": "Wis alles"
+          "clear_all": "Wis alles",
+          "clear_section": "Duidelijke sectie"
         }
       },
       "order_status": {
         "amazon_buy_with_prime": {
           "order_tracking_link": {
-            "text": "Volg en beheer Kopen met Prime order"
+            "text": "Volg en beheer Kopen met Prime order",
+            "new_window_disclaimer": "(opent een nieuw venster)"
           }
-        }
+        },
+        "attempted_to_deliver_label": "Poging om te leveren"
       }
     },
     "profile_preview_bar": {

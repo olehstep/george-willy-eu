@@ -484,7 +484,8 @@
         "merchandise_quantity_label_inline_primary": "Quantité: %{quantity}",
         "different_shipping_method_summary": "Entrez une adresse de livraison différente pour voir les méthodes d'expédition disponibles",
         "enter_address_manually_label": "Entrez l'adresse manuellement",
-        "shipping_information_required_notice": "Les informations sur l'expédition sont obligatoires. {{link}}."
+        "shipping_information_required_notice": "Les informations sur l'expédition sont obligatoires. {{link}}.",
+        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte?"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -516,9 +517,11 @@
         "address_edit": "Modifier l'adresse",
         "add_address": "Utilisez une adresse différente",
         "address_form": {
-          "save": "Sauvegarder"
+          "save": "Sauvegarder",
+          "add_address": "Ajoutez l'adresse"
         },
-        "billing_address_title": "facturer"
+        "billing_address_title": "facturer",
+        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte?"
       },
       "payment": {
         "subscription_agreement_label": "Je comprends que je suis en train d'accepter un abonnement. Celui-ci se renouvellera au prix et à la fréquence indiqués et ce, jusqu'à ce qu'il prenne fin ou soit %{cancelled}.",
@@ -585,7 +588,8 @@
         "price_per_item": {
           "label": "%{price} \/Ea"
         },
-        "higher_value_discount_applied": "Le <strong style=\"text-transform:uppercase\">%{code}<\/strong> ne pouvait pas être utilisé avec vos réductions existantes. Vous avez déjà une meilleure combinaison."
+        "higher_value_discount_applied": "Le <strong style=\"text-transform:uppercase\">%{code}<\/strong> ne pouvait pas être utilisé avec vos réductions existantes. Vous avez déjà une meilleure combinaison.",
+        "gift_card_and_discount_title": "Carte-cadeau ou code promo"
       },
       "wallets": {
         "errors": {
@@ -637,6 +641,9 @@
       },
       "no_address_location": {
         "alt_header": "Adresse de livraison manquante"
+      },
+      "store_credit_errors": {
+        "generic_error": "Il y avait un problème avec votre crédit de magasin.  Réessayez ou rechargez la page."
       }
     },
     "errors": {
@@ -654,7 +661,8 @@
             "link_text": "Inscrivez-vous maintenant"
           },
           "editions": {
-            "link_text": "Explorez les dernières éditions"
+            "link_text": "Explorez les dernières éditions",
+            "header": "Découvrez les éditions Shopify"
           }
         },
         "owner_ctas": {
@@ -713,7 +721,8 @@
       "decrease": "Diminution {{type}}",
       "june": "juin",
       "july": "juillet",
-      "rangeStart": "Début de l’intervalle"
+      "rangeStart": "Début de l’intervalle",
+      "march": "mars"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",
@@ -728,7 +737,8 @@
           "date": {
             "last_90_days": "90 derniers jours",
             "today": "Aujourd'hui",
-            "last_7_days": "7 derniers jours"
+            "last_7_days": "7 derniers jours",
+            "last_365_days": "12 derniers mois"
           },
           "clear_section": "Section claire"
         },
@@ -760,7 +770,8 @@
     },
     "order_details": {
       "edit_summary": {
-        "returned_with_quantities": "{{delta}} de {{total}} retournés"
+        "returned_with_quantities": "{{delta}} de {{total}} retournés",
+        "removed_with_quantities": "{{delta}} sur {{total}} supprimé"
       }
     }
   }

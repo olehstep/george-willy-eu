@@ -526,7 +526,8 @@
         "use_order_billing_address_label": "Utilizar o endereço de faturação da encomenda",
         "gift_card_wrapper": {
           "gift_card_label": "Cartão presente %{identifier}"
-        }
+        },
+        "purchase_options_agreement_label": "Compreendo que um ou mais itens no meu carrinho são uma compra diferida ou recorrente. Ao continuar, aceito a %{cancellation_policy_label} e autorizo a cobrança no meu método de pagamento de acordo com os preços, a frequência e as datas indicadas nesta página até que a minha encomenda seja processada ou cancelada, se permitido."
       },
       "order_summary": {
         "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto",
@@ -672,7 +673,8 @@
       "tuesday": "Terça-feira",
       "saturdayAbbreviation": "sobre",
       "fridayAbbreviation": "Fr",
-      "may": "Poderia"
+      "may": "Poderia",
+      "thursday": "Quinta-feira"
     },
     "order_details": {
       "edit_summary": {
@@ -706,6 +708,15 @@
     "profile_preview_bar": {
       "viewing": "Você está vendo:",
       "saved_at": "Salvo {{date}} em {{time}}"
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "canceled": {
+            "description": "Não será cobrado."
+          }
+        }
+      }
     }
   }
 }

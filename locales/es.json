@@ -464,7 +464,8 @@
         "shipping_method_notice": "Tenga en cuenta: los pedidos no se pueden cambiar ni cancelar una vez realizados. Para cambiar un pedido, siga la política de devoluciones y cambios.",
         "address_form": {
           "generic_error": "Hubo un problema al guardar su dirección.  Inténtalo de nuevo.",
-          "save": "Ahorrar"
+          "save": "Ahorrar",
+          "one_time_address_subtitle": "Utilice una dirección de un solo uso para este pedido"
         },
         "split_cart_merchandise_shipment_number": "Envío %{number} De %{total}",
         "invalid_shipping_method_summary": "Ingrese una dirección de envío válida para ver los métodos de envío disponibles",
@@ -483,7 +484,8 @@
           "rollup_title": "Lugar de recogida",
           "search_address": "Búsqueda de dirección"
         },
-        "missing_shipping_address": "Falta la dirección de envío"
+        "missing_shipping_address": "Falta la dirección de envío",
+        "delete": "Borrar"
       },
       "order_summary": {
         "price_per_item": {
@@ -507,7 +509,8 @@
           "apply_another_gift_card_label": "Aplicar otra tarjeta de regalo"
         },
         "order_edit_banner_items_returned": {
-          "in_full": "devuelto"
+          "in_full": "devuelto",
+          "with_quantities": "{{delta}} De {{quantity}} Regresó"
         },
         "order_edit_banner_items_removed": {
           "with_quantities": "{{delta}} De {{quantity}} Eliminado",
@@ -523,9 +526,11 @@
           "fields": {
             "name": "Nombre en la tarjeta",
             "billing": "Cobrar a",
-            "expiry": "Fecha de caducidad"
+            "expiry": "Fecha de caducidad",
+            "default": "Establecer por defecto"
           },
-          "description": "Solo puede modificar la dirección de facturación de su tarjeta."
+          "description": "Solo puede modificar la dirección de facturación de su tarjeta.",
+          "done": "Hecho"
         },
         "purchase_options_and_vaulting_agreement_label": "Uno o varios artículos del carrito son una compra diferida o recurrente. Al continuar con el pago, aceptas que se aplicarán cargos a la forma de pago automáticamente según el precio y la frecuencia indicados en esta página hasta que termine o la canceles. Todas las cancelaciones están sujetas a la %{cancellation_policy_label}.",
         "order_edit_banner_items_added": {
@@ -550,7 +555,8 @@
           "not_available": "Esta tarjeta de regalo ya no está disponible",
           "duplicate": "La tarjeta de regalo ya se ha aplicado a su pedido",
           "currency_mismatch": "Sólo tarjetas regalo en %{shop_currency} Son aceptados",
-          "generic": "No se pudo agregar la tarjeta regalo a la caja"
+          "generic": "No se pudo agregar la tarjeta regalo a la caja",
+          "invalid": "Ingrese una tarjeta de regalo válida"
         }
       },
       "thank_you": {
@@ -574,7 +580,8 @@
         "credit_card_month_invalid": "Introduce un mes de expiración de tarjeta válido",
         "address_phone_invalid": "Introduce un número de teléfono válido",
         "tips_invalid_tip_amount": "Introduce una propina no mayor que %{amount}",
-        "credit_card_year_invalid": "Introduce un año de expiración de tarjeta válido"
+        "credit_card_year_invalid": "Introduce un año de expiración de tarjeta válido",
+        "credit_card_expiry_invalid": "Introduce una fecha de expiración de tarjeta válida"
       },
       "billing": {
         "address_form": {
@@ -648,6 +655,9 @@
           "sell_in_person": {
             "header": "Vender en persona",
             "link_text": "Empiza la prueba gratuita"
+          },
+          "store_owner": {
+            "shopify_support_link_text": "Soporte técnico de Shopify"
           }
         },
         "owner_ctas": {
@@ -658,7 +668,8 @@
           "fix_domain": "Termine de configurar su nueva dirección web, vaya a %{domain_settings_link} .  Haga clic en &ldquo;Conectar dominio” e ingrese: %{domain} .<br>Si tiene problemas para ingresar a su tienda, pruebe el %{forgot_your_store_link} Página."
         },
         "links": {
-          "start_free_trial": "Iniciar una prueba gratuita"
+          "start_free_trial": "Iniciar una prueba gratuita",
+          "explore_other_stores": "Explora otras tiendas"
         },
         "heros": {
           "no_storefront": "Esta tienda aún no tiene página web.",
@@ -670,7 +681,8 @@
       "line_item": {
         "item_status": {
           "increment_item": "Añadido %{delta}",
-          "decrement_fulfilled_line_item": "Devuelto %{delta} De %{total}"
+          "decrement_fulfilled_line_item": "Devuelto %{delta} De %{total}",
+          "add_variant": "Añadido %{delta}"
         }
       }
     }
@@ -703,7 +715,8 @@
       "increase": "Aumento {{type}}",
       "removeTag": "Remover etiqueta",
       "thursdayAbbreviation": "el",
-      "showPreviousMonth": "Mostrar mes anterior, {{month}}  {{year}}"
+      "showPreviousMonth": "Mostrar mes anterior, {{month}}  {{year}}",
+      "closeNotification": "Cerca"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",
@@ -744,7 +757,8 @@
             "description": "No se te cobrará."
           },
           "pending": {
-            "title_with_date": "Pago vencido el {{date}}"
+            "title_with_date": "Pago vencido el {{date}}",
+            "title": "Pago vencido"
           }
         }
       }

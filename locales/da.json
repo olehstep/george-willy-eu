@@ -592,7 +592,8 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter at have fuldført din betaling, vil du få en bekræftelse tekst.  Spor din ordre ved hjælp af Shop-appen.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Efter at have fuldført din betaling, vil du få en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
         "thank_you_title_payments_app_pending_default": "Din betaling bliver behandlet",
-        "order_status_payments_app_pending_payment_description_default_with_email": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen."
+        "order_status_payments_app_pending_payment_description_default_with_email": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
+        "failed_pending_payment_page_title": "Der er et problem med din betaling"
       },
       "contact": {
         "title": "Oplysninger"
@@ -613,6 +614,9 @@
       },
       "address_management": {
         "confirm_address_deletion": "Er du sikker på at du vil slette adressen {{address}} ?"
+      },
+      "payment_errors": {
+        "invalid_expiry_date": "Indtast en gyldig udløbsdato på kortet"
       }
     },
     "errors": {

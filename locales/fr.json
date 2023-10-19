@@ -549,10 +549,12 @@
         "use_location_billing_address_label": "Utiliser l'adresse de facturation de l'emplacement",
         "subscription_agreement_cancelled": "annulé",
         "order_edit_banner_items_returned": {
-          "in_full": "Revenu"
+          "in_full": "Revenu",
+          "with_quantities": "{{delta}} de {{quantity}} retournés"
         },
         "use_location_shipping_address_label": "Utiliser l'adresse d'expédition emplacement",
-        "use_order_billing_address_label": "Utiliser l'adresse de facturation de commande"
+        "use_order_billing_address_label": "Utiliser l'adresse de facturation de commande",
+        "business_customer_vaulting_payment_label": "Enregistrez cette carte en vue de futurs achats pour cet emplacement. J’autorise %{company} à facturer ce moyen de paiement en vue de futurs achats pour cet emplacement. Tout contact attribué à cet emplacement est autorisé à utiliser cette carte."
       },
       "stock": {
         "price_update": {
@@ -601,13 +603,15 @@
       "general": {
         "map": {
           "cluster_title": {
-            "other": "Cluster de {{number}} Marqueurs"
+            "other": "Cluster de {{number}} Marqueurs",
+            "one": "Cluster de {{number}} Marqueur"
           }
         }
       },
       "review": {
         "blocks": {
-          "payment_method_title": "Paiement"
+          "payment_method_title": "Paiement",
+          "shipping_method_title": "Méthode"
         },
         "review_title": "Réviser la commande"
       },
@@ -648,6 +652,9 @@
           "open_a_store": {
             "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $\/mois pendant les 3 prochains mois.",
             "link_text": "Inscrivez-vous maintenant"
+          },
+          "editions": {
+            "link_text": "Explorez les dernières éditions"
           }
         },
         "owner_ctas": {
@@ -704,7 +711,9 @@
       "processing": "Traitement…",
       "october": "octobre",
       "decrease": "Diminution {{type}}",
-      "june": "juin"
+      "june": "juin",
+      "july": "juillet",
+      "rangeStart": "Début de l’intervalle"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",
@@ -747,6 +756,11 @@
     "payment_methods": {
       "payment_details": {
         "checkout_card_banner": "Ce mode de paiement ne peut être utilisé que pour les paiements préautorisés.  Il n'apparaîtra pas à la caisse si vous êtes connecté à ce magasin."
+      }
+    },
+    "order_details": {
+      "edit_summary": {
+        "returned_with_quantities": "{{delta}} de {{total}} retournés"
       }
     }
   }

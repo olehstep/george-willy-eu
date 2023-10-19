@@ -179,6 +179,11 @@
       "payment_details": {
         "checkout_card_banner": "Denna betalningsmetod kan endast användas för förhandsgodkända betalningar.  Det kommer inte att visas vid kassan om du är inloggad i den här butiken."
       }
+    },
+    "errors": {
+      "load_extension_error": {
+        "description": "Uppdatera denna sida eller försök igen på några minuter."
+      }
     }
   },
   "contact": {
@@ -498,11 +503,13 @@
           "rollup_title": "Upphämtningsplats"
         },
         "split_cart_merchandise_quantity_label_additional": "+ ++ %{quantity} Fler",
-        "title": "Frakt"
+        "title": "Frakt",
+        "shipping_information_required_notice": "Leveransuppgifter krävs. {{link}}."
       },
       "stock": {
         "out_of_stock": {
-          "items_unavailable": "Vissa varor är inte längre tillgängliga och har tagits bort från din kundvagn."
+          "items_unavailable": "Vissa varor är inte längre tillgängliga och har tagits bort från din kundvagn.",
+          "description": "Dessa artiklar är inte längre tillgängliga och har tagits bort från din kundvagn."
         },
         "items_unavailable_notice": "Vissa objekt är inte längre tillgängliga. Din e-postadress har uppdaterats",
         "continue_cta_label": "Fortsätt kassan",
@@ -525,7 +532,8 @@
         "price_per_item": {
           "accessibility_label": "%{price} Per post.",
           "label": "%{price} \/Ea"
-        }
+        },
+        "gift_card_and_discount_title": "Presentkort eller rabattkod"
       },
       "customer_account": {
         "rollup_label": "konto",
@@ -586,7 +594,8 @@
           "done": "Gjort"
         },
         "order_edit_banner_items_added": {
-          "other": "%{count} Tillägg"
+          "other": "%{count} Tillägg",
+          "one": "Lagt till"
         }
       },
       "billing": {

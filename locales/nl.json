@@ -552,7 +552,8 @@
         "failed_pending_payment_page_title": "Er is een probleem met uw betaling",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Na het voltooien van uw betaling, ontvangt u een bevestigingsmail.  Volg uw bestelling met behulp van de Shop-app.",
         "thank_you_payments_app_failed_pending_payment": "Je bent niet aangeklaagd voor je bestelling.  Ga terug naar uw winkelwagen om uw bestelling te bekijken en betaal opnieuw.",
-        "order_status_payments_app_pending_payment_description_default_with_email": "Je krijgt binnenkort een bevestigingsmail.  Volg uw bestelling met behulp van de Shop-app."
+        "order_status_payments_app_pending_payment_description_default_with_email": "Je krijgt binnenkort een bevestigingsmail.  Volg uw bestelling met behulp van de Shop-app.",
+        "thank_you_title_payments_app_pending_default": "Uw betaling wordt verwerkt"
       },
       "billing": {
         "billing_address_title": "Rekening naar",
@@ -719,7 +720,8 @@
       },
       "tuesday": "Dinsdag",
       "decrease": "Daling {{type}}",
-      "processing": "Verwerken…"
+      "processing": "Verwerken…",
+      "mondayAbbreviation": "Mo"
     },
     "orders": {
       "order_list": {
@@ -746,7 +748,8 @@
     "profile_preview_bar": {
       "hide_bar": "Verberg Bar",
       "navigate_to_admin": "Navigeer naar admin",
-      "saved_at": "Opgeslagen {{date}} Bij {{time}}"
+      "saved_at": "Opgeslagen {{date}} Bij {{time}}",
+      "previewing": "Je kijkt vooruit:"
     },
     "B2B": {
       "draft_order_details": {

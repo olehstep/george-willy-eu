@@ -480,7 +480,8 @@
         "shipping_address_title": "Envie a",
         "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}",
         "local_pickup": {
-          "rollup_title": "Lugar de recogida"
+          "rollup_title": "Lugar de recogida",
+          "search_address": "Búsqueda de dirección"
         },
         "missing_shipping_address": "Falta la dirección de envío"
       },
@@ -497,7 +498,8 @@
         "discount_title_stacking": {
           "other": "Descuentos."
         },
-        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> no se pudo usar con los descuentos existentes. Ya tienes una combinación mejor."
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> no se pudo usar con los descuentos existentes. Ya tienes una combinación mejor.",
+        "gift_card_and_discount_label": "Tarjeta de regalo o código de descuento"
       },
       "payment": {
         "purchase_options_agreement_label_wallets": "Al continuar con su pago, usted acepta los cargos futuros que figuran en esta página y la política de cancelación.",
@@ -538,7 +540,8 @@
         "use_location_billing_address_label": "Usar la dirección de facturación de la ubicación",
         "saved_credit_card_actions": {
           "delete": "Borrar"
-        }
+        },
+        "expired_payment_method": "El método de pago seleccionado ha caducado"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -546,7 +549,8 @@
           "insufficient_funds": "A esta tarjeta de regalo no le quedan fondos",
           "not_available": "Esta tarjeta de regalo ya no está disponible",
           "duplicate": "La tarjeta de regalo ya se ha aplicado a su pedido",
-          "currency_mismatch": "Sólo tarjetas regalo en %{shop_currency} Son aceptados"
+          "currency_mismatch": "Sólo tarjetas regalo en %{shop_currency} Son aceptados",
+          "generic": "No se pudo agregar la tarjeta regalo a la caja"
         }
       },
       "thank_you": {
@@ -569,7 +573,8 @@
         "address_zip_too_long": "El código postal es demasiado largo (el máximo es de 255 caracteres)",
         "credit_card_month_invalid": "Introduce un mes de expiración de tarjeta válido",
         "address_phone_invalid": "Introduce un número de teléfono válido",
-        "tips_invalid_tip_amount": "Introduce una propina no mayor que %{amount}"
+        "tips_invalid_tip_amount": "Introduce una propina no mayor que %{amount}",
+        "credit_card_year_invalid": "Introduce un año de expiración de tarjeta válido"
       },
       "billing": {
         "address_form": {
@@ -616,7 +621,8 @@
       "shipping_errors": {
         "shipping_method_not_available_generic": {
           "one": "Este pedido no se puede enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo."
-        }
+        },
+        "title": "Envío no disponible"
       },
       "address_management": {
         "confirm_address_deletion": "¿Está seguro de que desea eliminar la dirección? {{address}} ¿?"
@@ -640,7 +646,8 @@
             "header": "Echa un vistazo a las ediciones de Shopify"
           },
           "sell_in_person": {
-            "header": "Vender en persona"
+            "header": "Vender en persona",
+            "link_text": "Empiza la prueba gratuita"
           }
         },
         "owner_ctas": {

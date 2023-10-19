@@ -466,7 +466,14 @@
       "shipping": {
         "shipping_method_notice": "Veuillez noter : Les commandes ne peuvent pas être modifiées ou annulées une fois passées. Pour modifier une commande, veuillez suivre la politique de retours et échanges.",
         "invalid_shipping_method_summary": "Entrez une adresse de livraison valide pour voir les méthodes d'expédition disponibles",
-        "split_cart_merchandise_quantity_label_standard": "%{quantity} Articles"
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} Articles",
+        "add_delivery_instructions": "Ajouter des instructions de livraison",
+        "method_summary": {
+          "incomplete_address_selected": "Sélectionnez une adresse de livraison complète pour afficher les méthodes d'expédition disponibles"
+        },
+        "address_form": {
+          "save": "Sauvegarder"
+        }
       },
       "redeemable_errors": {
         "gift_card": {
@@ -487,7 +494,10 @@
       },
       "payment": {
         "subscription_agreement_label": "Je comprends que je suis en train d'accepter un abonnement. Celui-ci se renouvellera au prix et à la fréquence indiqués et ce, jusqu'à ce qu'il prenne fin ou soit %{cancelled}.",
-        "expired_payment_method": "Le mode de paiement sélectionné a expiré"
+        "expired_payment_method": "Le mode de paiement sélectionné a expiré",
+        "delete_credit_card_modal": {
+          "confirmation": "Voulez-vous vraiment supprimer le {{brandName}} se terminant par {{lastDigits}} ?"
+        }
       },
       "stock": {
         "price_update": {
@@ -520,7 +530,9 @@
           }
         },
         "owner_ctas": {
-          "fix_domain_link_text": "Vos paramètres de domaine"
+          "fix_domain_link_text": "Vos paramètres de domaine",
+          "header": "Êtes-vous le propriétaire du magasin ?",
+          "fix_domain": "Terminez la configuration de votre nouvelle adresse Web, accédez à %{domain_settings_link} .  Cliquez sur «Connecter le domaine» et entrez: %{domain} .<br>Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page."
         }
       }
     }
@@ -533,7 +545,9 @@
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Articles disponibles"
       },
-      "friday": "vendredi"
+      "friday": "vendredi",
+      "wednesdayAbbreviation": "Nous",
+      "tuesdayAbbreviation": "Ma"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:"
@@ -543,6 +557,15 @@
         "filter": {
           "date": {
             "last_90_days": "90 derniers jours"
+          }
+        }
+      }
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "canceled": {
+            "description": "Aucun montant ne vous sera prélevé."
           }
         }
       }

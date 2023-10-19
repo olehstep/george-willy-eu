@@ -487,6 +487,9 @@
         "subscription_agreement_cancelled": "annulleret",
         "edit_credit_card_modal": {
           "description": "Du kan kun ændre faktureringsadressen på dit kort."
+        },
+        "delete_credit_card_modal": {
+          "confirmation": "Er du sikker på at du vil slette den {{brandName}} Ender i {{lastDigits}} ?"
         }
       },
       "stock": {
@@ -531,7 +534,11 @@
             "header": "Se Shopify udgaver"
           },
           "store_owner": {
-            "shopify_support_link_text": "Støtte til Shopify"
+            "shopify_support_link_text": "Støtte til Shopify",
+            "caption": "Har du svært ved at komme ind i din butik?  Prøv den. %{forgot_your_store_link} Egenskaber.  Hvis du gerne vil genaktivere din butikskontakt. %{shopify_support_link} ."
+          },
+          "sell_in_person": {
+            "caption": "Få de funktioner, du har brug for at køre din butik, uanset om du starter ud eller skalerer op."
           }
         },
         "title": "Opret en e-commerce hjemmeside og Sælg Online!  E-handel software af Shopify"

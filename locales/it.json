@@ -470,7 +470,8 @@
           "generic_error": "C' è stato un problema nel salvare il tuo indirizzo.  Per favore riprova."
         },
         "invalid_shipping_method_summary": "Inserisci un indirizzo di spedizione valido per visualizzare i metodi di spedizione disponibili",
-        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Altro"
+        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Altro",
+        "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?"
       },
       "payment_errors": {
         "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
@@ -502,7 +503,8 @@
           "fields": {
             "card_number": "Numero di carta"
           }
-        }
+        },
+        "use_location_shipping_address_label": "Utilizza l'indirizzo di spedizione della posizione"
       },
       "order_summary": {
         "discount_order_stacking": {
@@ -559,6 +561,9 @@
         "shipping_method_not_available_generic": {
           "other": "Alcuni articoli nel carrello non possono essere spediti all'indirizzo inserito. Controlla l'indirizzo per assicurarti che tutti i campi siano stati inseriti correttamente e riprova."
         }
+      },
+      "billing": {
+        "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?"
       }
     },
     "errors": {
@@ -663,7 +668,8 @@
       "wednesdayAbbreviation": "Noi",
       "thursday": "Giovedì",
       "increase": "Aumento {{type}}",
-      "saturdayAbbreviation": "su"
+      "saturdayAbbreviation": "su",
+      "april": "aprile"
     },
     "profile_preview_bar": {
       "previewing": "Stai visualizzando in anteprima:",

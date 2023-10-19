@@ -143,6 +143,9 @@
       "edit_summary": {
         "removed_with_quantities": "{{delta}} Av {{total}} Borttagen"
       }
+    },
+    "profile_preview_bar": {
+      "navigate_to_admin": "Navigera till administration"
     }
   },
   "contact": {
@@ -381,7 +384,8 @@
       "last_name": "Efternamn",
       "cancel": "Återgå till butiken",
       "title": "Skapa konto",
-      "log_in": "Logga in med ett befintligt konto"
+      "log_in": "Logga in med ett befintligt konto",
+      "email": "E-post"
     },
     "orders": {
       "none": "Du har inte lagt några beställningar än.",
@@ -444,7 +448,10 @@
       "shipping": {
         "shipping_method_notice": "Observera: Beställningar kan inte ändras eller annulleras när de väl har lagts. För att ändra en beställning, följ policyn för returer och byten.",
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Poster",
-        "shipping_address_title": "Frakta till"
+        "shipping_address_title": "Frakta till",
+        "address_form": {
+          "one_time_address_subtitle": "Använd en engångsadress för den här beställningen"
+        }
       },
       "stock": {
         "out_of_stock": {
@@ -454,7 +461,8 @@
       },
       "review": {
         "blocks": {
-          "review_title_free_order": "Granska och slutför din beställning"
+          "review_title_free_order": "Granska och slutför din beställning",
+          "shipping_method_title": "Metod"
         }
       },
       "order_summary": {
@@ -499,6 +507,11 @@
       "shop_404": {
         "owner_ctas": {
           "add_storefront": "Du kan ställa in din webbplats genom att lägga till Online Store kanal i din webbplats %{admin_link} .  Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan."
+        },
+        "ctas": {
+          "store_owner": {
+            "header": "Är du butiksägaren?"
+          }
         }
       }
     }

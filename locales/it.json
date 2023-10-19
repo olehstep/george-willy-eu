@@ -474,7 +474,8 @@
         "business_customer_vaulting_payment_label": "Salva questa carta per acquisti futuri per questa sede. Autorizzo %{company} ad addebitare su questo metodo di pagamento gli acquisti futuri per questa sede. Ogni contatto assegnato a questa sede è autorizzato a utilizzare questa carta.",
         "delete_credit_card_modal": {
           "confirmation": "Sei sicuro di voler eliminare il {{brandName}} Che termina tra {{lastDigits}} ?"
-        }
+        },
+        "use_location_billing_address_label": "Utilizza l'indirizzo di fatturazione della posizione"
       },
       "order_summary": {
         "discount_order_stacking": {
@@ -561,6 +562,9 @@
           }
         }
       }
+    },
+    "ui_components": {
+      "february": "febbraio"
     }
   }
 }

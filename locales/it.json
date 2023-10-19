@@ -461,7 +461,8 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "shipping_method_notice": "Nota: gli ordini non possono essere modificati o annullati una volta effettuati. Per modificare un ordine, segui la politica Resi e Cambi."
+        "shipping_method_notice": "Nota: gli ordini non possono essere modificati o annullati una volta effettuati. Per modificare un ordine, segui la politica Resi e Cambi.",
+        "title": "Spedizione"
       },
       "payment_errors": {
         "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
@@ -517,6 +518,9 @@
           },
           "sell_in_person": {
             "caption": "Ottieni le funzionalità necessarie per gestire il tuo negozio al dettaglio sia che tu stia iniziando o ridimensionando."
+          },
+          "open_a_store": {
+            "caption": "Inizia una prova gratuita di 3 giorni, quindi continua per $1\/mese per i prossimi 3 mesi."
           }
         },
         "links": {

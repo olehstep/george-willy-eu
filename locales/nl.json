@@ -467,10 +467,12 @@
         "shipping_method_notice": "Let op: eenmaal geplaatste bestellingen kunnen niet meer worden gewijzigd of geannuleerd. Om een bestelling te wijzigen, volg je het beleid voor retourneren en ruilen.",
         "shipping_information_required_notice": "Verzendingsgegevens zijn vereist. {{link}}.",
         "address_form": {
-          "generic_error": "Er was een probleem met het opslaan van uw adres.  Probeer het opnieuw."
+          "generic_error": "Er was een probleem met het opslaan van uw adres.  Probeer het opnieuw.",
+          "one_time_address_subtitle": "Gebruik een eenmalig adres voor deze bestelling"
         },
         "missing_shipping_address": "Verzendadres ontbreekt",
-        "shipping_address_title": "Verzend naar"
+        "shipping_address_title": "Verzend naar",
+        "enter_address_manually_label": "Voer het adres handmatig in"
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
@@ -518,7 +520,8 @@
         }
       },
       "field_errors": {
-        "address_zip_too_long": "ZIP\/postcode is te lang (maximaal 255 tekens)"
+        "address_zip_too_long": "ZIP\/postcode is te lang (maximaal 255 tekens)",
+        "credit_card_month_invalid": "Voer een geldige vervalmaand in voor de kaart"
       },
       "general": {
         "map": {
@@ -560,7 +563,8 @@
       "january": "Januari",
       "december": "December",
       "thursdayAbbreviation": "E",
-      "expandNotification": "Bekijk meer"
+      "expandNotification": "Bekijk meer",
+      "fridayAbbreviation": "Vr"
     },
     "orders": {
       "order_list": {

@@ -930,14 +930,17 @@
         "unfulfilled_items_title": "Forbereder for frakt",
         "confirmed_description": "Vi har godtatt bestillingen din, og vi gjør den klar. Kom tilbake til denne siden for oppdateringer om forsendelsesstatusen din.",
         "gift_card_text_title": {
-          "one": "Gavekortet ble sendt på SMS"
+          "one": "Gavekortet ble sendt på SMS",
+          "other": "Gavekort ble sendt på SMS"
         },
         "delivered_title": "Bestillingen din er levert",
         "contact_us_html": "Trenger hjelp? %{contact_us}",
         "gift_card_email_title": {
           "other": "Gavekort ble sendt på e-post"
         },
-        "page_title": "Takk, %{display_name}!"
+        "page_title": "Takk, %{display_name}!",
+        "choose_payment_method_later": "Velg betalingsmåte senere",
+        "attempted_delivery_local_title": "Mistet levering"
       },
       "marketing": {
         "sms": {
@@ -1088,7 +1091,9 @@
         "save_my_information_label": "Lagre denne informasjonen til neste gang",
         "not_user_label": "Ikke %{first_name}?",
         "sign_out_link_label": "Logg ut",
-        "sign_in_link_label": "Logg Inn"
+        "sign_in_link_label": "Logg Inn",
+        "incomplete_address": "Vald adresse er ufullstendig. %{update_address_link} eller vel ei anna adresse.",
+        "rollup_label": "Regnskap"
       },
       "customer_payment_methods": {
         "update_card_button_label": "Oppdater kortet",
@@ -1439,6 +1444,11 @@
       },
       "storefront": {
         "invalid_password": "Passordet er feil. Prøv igjen."
+      },
+      "line_item": {
+        "item_status": {
+          "decrement_fulfilled_line_item": "Returtert %{delta} Av %{total}"
+        }
       }
     },
     "email_marketing": {
@@ -1581,7 +1591,8 @@
         "hide_accessibility_label": "Skjul konto-menyen",
         "open_menu_accessibility_label": "Åpne Kontonavigering",
         "loading_message": "Laster kontonavigering",
-        "close_menu_accessibility_label": "Lukk Kontonavigering"
+        "close_menu_accessibility_label": "Lukk Kontonavigering",
+        "show_accessibility_label": "Vis kontomenyen"
       },
       "delete_confirmation": {
         "delete": "Slett"
@@ -2120,7 +2131,8 @@
         "empty_state": "Ingen PO-nummer",
         "discard_changes_modal_title": "Forkaste endringer?",
         "save": "Lagre",
-        "cancel": "Avbryt"
+        "cancel": "Avbryt",
+        "discard": "Kast"
       }
     },
     "errors": {
@@ -2182,7 +2194,8 @@
         "invalid_payment_method": "Ugyldig betalingsmåte",
         "payment_details_loading": "Laster inn betalingsmåtedetaljer",
         "preauthorized_payments": "Forhåndsautoriserte betalinger",
-        "title": "Detaljer om betalingsmåte"
+        "title": "Detaljer om betalingsmåte",
+        "replace_payment_method": "Bytt ut betalingsmåten"
       },
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalingsmåten er oppdatert",
@@ -2209,7 +2222,8 @@
           "with_subscriptions": "Sletting av denne betalingsmåten vil påvirke forhåndsautoriserte betalinger. Legg til en alternativ betalingsmåte for å fortsette å motta kommende bestillinger.",
           "with_pending_orders": "Hvis du sletter denne betalingsmåten, fjernes den fra kontoen din og vil ikke lenger være tilgjengelig for fremtidige kjøp. Det vil fortsatt bli belastet for eventuelle utestående saldoer på eksisterende bestillinger.",
           "with_pending_orders_and_subscriptions": "Sletting av denne betalingsmåten vil påvirke forhåndsautoriserte betalinger. Denne betalingsmåten vil fortsatt bli belastet for eventuelle utestående saldoer på eksisterende bestillinger, men du vil ikke motta kommende abonnementsbestillinger. Legg til en alternativ betalingsmåte for å fortsette å motta abonnementsbestillinger."
-        }
+        },
+        "title": "Slett betalingsmåte"
       },
       "card_fields": {
         "card_number_label": "Kortnummer",
@@ -2292,6 +2306,9 @@
       "privacy_policy": "Personvernerklæring",
       "legal_notice": "Juridisk varsel",
       "subscription_policy": "Regler for abonnement"
+    },
+    "ui_components": {
+      "saturday": "lørdag"
     }
   },
   "general": {
@@ -2500,7 +2517,8 @@
     },
     "product": {
       "sku": "SKU1234",
-      "product_title": "Produkttittel"
+      "product_title": "Produkttittel",
+      "vendor": "Leverandør"
     }
   },
   "collections": {
@@ -2537,7 +2555,8 @@
       "cancel": "Avbryt",
       "title": "Tilbakestill passordet ditt",
       "email": "E-post",
-      "submit": "Sende inn"
+      "submit": "Sende inn",
+      "subtext": "Vi sender deg en e-post for å tilbakestille passordet ditt."
     },
     "activate_account": {
       "password_confirm": "bekreft passord",
@@ -2624,7 +2643,8 @@
       "email": "E-post",
       "last_name": "Etternavn",
       "title": "Opprett konto",
-      "first_name": "Fornavn"
+      "first_name": "Fornavn",
+      "cancel": "Gå tilbake til butikken"
     }
   },
   "blogs": {

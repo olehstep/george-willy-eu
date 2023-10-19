@@ -163,7 +163,8 @@
       "disabled": "Inaktiverad",
       "remaining_html": "{{ balance }} kvar",
       "expired": "Gick ut den {{ expiry }}",
-      "print": "Skriva ut"
+      "print": "Skriva ut",
+      "initial_value_html": "Presentkortsvärde: {{ value }}"
     }
   },
   "general": {

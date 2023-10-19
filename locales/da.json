@@ -465,7 +465,10 @@
     "checkout": {
       "shipping": {
         "shipping_method_notice": "Bemærk venligst: Ordrer kan ikke ændres eller annulleres, når de først er afgivet. For at ændre en ordre skal du følge politikken for returnering og ombytning.",
-        "address_more": "Flere handlinger til denne adresse"
+        "address_more": "Flere handlinger til denne adresse",
+        "local_pickup": {
+          "rollup_title": "Opsamlingssted"
+        }
       },
       "review": {
         "review_title": "Gennemgå ordre",
@@ -490,7 +493,8 @@
         "items_unavailable_notice": "Nogle varer er ikke længere tilgængelige. Din indkøbskurv er blevet opdateret."
       },
       "billing": {
-        "same_as_shipping": "Samme som leveringsadresse"
+        "same_as_shipping": "Samme som leveringsadresse",
+        "address_confirm": "Vil du virkelig slette denne adresse fra din konto?"
       },
       "order_summary": {
         "price_per_item": {
@@ -498,7 +502,8 @@
         },
         "discount_order_stacking": {
           "other": "Ordrerrabatt"
-        }
+        },
+        "shipping_default_value": "Beregnet ved næste trin"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -510,6 +515,9 @@
       },
       "field_errors": {
         "credit_card_month_invalid": "Indtast gyldig udløbsmåned på kort"
+      },
+      "thank_you": {
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Du får snart en bekræftelsesms.  Spor din ordre ved hjælp af Shop-appen."
       }
     },
     "errors": {
@@ -532,7 +540,8 @@
       "february": "februar",
       "sundayAbbreviation": "Hans",
       "rangeStart": "Start af rækkevidde",
-      "mondayAbbreviation": "Mo"
+      "mondayAbbreviation": "Mo",
+      "maximumReached": "Maksimum {{value}} Nåedes"
     },
     "orders": {
       "order_list": {

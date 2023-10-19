@@ -482,10 +482,21 @@
         "purchase_options_agreement_label_wallets": "Ao continuar com o seu pagamento, você concorda com as futuras cobranças listadas nesta página e com a política de cancelamento.",
         "delete_credit_card_modal": {
           "title": "Excluir cartão"
+        },
+        "add_credit_card_modal": {
+          "save": "Salvar"
         }
       },
       "order_summary": {
         "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto"
+      },
+      "review": {
+        "blocks": {
+          "shipping_method_title": "Método"
+        }
+      },
+      "thank_you": {
+        "thank_you_title_payments_app_pending_default": "O seu pagamento está a ser processado"
       }
     },
     "errors": {
@@ -496,6 +507,9 @@
         "ctas": {
           "store_owner": {
             "shopify_support_link_text": "Suporte da Shopify"
+          },
+          "open_a_store": {
+            "link_text": "Inscreva-se agora"
           }
         }
       }
@@ -512,6 +526,11 @@
     "ui_components": {
       "september": "Setembro",
       "thursdayAbbreviation": "º"
+    },
+    "order_details": {
+      "edit_summary": {
+        "returned": "Retornou"
+      }
     }
   }
 }

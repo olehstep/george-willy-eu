@@ -493,7 +493,11 @@
         }
       },
       "order_summary": {
-        "discount_label": "code de réduction"
+        "discount_label": "code de réduction",
+        "discount_title_stacking": {
+          "one": "Rabais"
+        },
+        "gift_card_and_discount_placeholder": "Carte-cadeau ou code promo"
       }
     },
     "errors": {

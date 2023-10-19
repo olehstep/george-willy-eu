@@ -40,7 +40,12 @@
       "too_short": "ass ze kuerz (minimum ass %{count} Zeechen)",
       "discount_disabled": "Dës Remise gouf behënnert",
       "gift_card_code_invalid": "Code ass ongëlteg",
-      "invalid_state_in_country": "ass net e gültege Staat an %{country}"
+      "invalid_state_in_country": "ass net e gültege Staat an %{country}",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Dëst Späichen ist net."
+        }
+      }
     },
     "notices": {
       "order": {
@@ -103,7 +108,8 @@
         "too_many_line_items_error": "Äre Weenchen kann net méi wéi %{max} Artikelen enthalen.",
         "selling_plan_not_available_for_company_locations": "Nëmmen eemolege Kaf ass verfügbar fir B2B Bestellungen",
         "link_no_longer_exists": "Link gëtt et net méi.",
-        "gift_card_with_components_not_supported": "De Bündelprodukt '%{name}' kann net an de Weenchen bäigefüügt ginn."
+        "gift_card_with_components_not_supported": "De Bündelprodukt '%{name}' kann net an de Weenchen bäigefüügt ginn.",
+        "bundle_requires_components": "De Bündelprodukt '%{name}' kann net an de Weenchen bäigefüügt ginn."
       },
       "storefront": {
         "invalid_password": "Passwuert falsch, probéiert w.e.g. nach eng Kéier."
@@ -178,7 +184,8 @@
         "dates": {
           "weekdays_abbreviation": {
             "friday": "Fr",
-            "saturday": "op"
+            "saturday": "op",
+            "monday": "Mo"
           },
           "weekdays": {
             "wednesday": "Mëttwoch"
@@ -186,7 +193,8 @@
           "months": {
             "october": "Oktober",
             "august": "August",
-            "september": "September"
+            "september": "September",
+            "march": "Mäerz"
           }
         },
         "datepicker": {
@@ -401,7 +409,8 @@
         "purchase_options_agreement_label": "Ech verstinn datt een oder méi Elementer a mengem Wuerekuerf e verspéiten oder widderhuelende Kaf ass. Andeems Dir weider geet, averstanen ech mam %{cancellation_policy_label} an autoriséieren Iech meng Bezuelmethod zu de Präisser, Frequenz an Datumen, déi op dëser Säit opgezielt sinn, ze bezuelen bis meng Bestellung erfëllt ass oder ech annuléieren, wann erlaabt.",
         "vaulting_agreement_label": "Spuert meng Bezuelinformatioun mat %{company} fir e méi séier Checkout.",
         "shipping_rate_updated": "Verfügbar Versandmethoden goufen aktualiséiert. Bestätegt Äre Choix virum Auschecken.",
-        "location_shipping_address_label": "Location Versandadress"
+        "location_shipping_address_label": "Location Versandadress",
+        "use_order_billing_address_label": "Orderfolling-Adress benotzen"
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -500,6 +509,9 @@
           "ddu_title": "Bezuelen op Liwwerung",
           "ddu_caption": "Zousätzlech Käschten kënnen zoutreffen",
           "ddp_title": "Bezuelen elo"
+        },
+        "local_pickup": {
+          "search_address": "Adress zeichen"
         }
       },
       "order_summary": {
@@ -948,7 +960,11 @@
           "description": "Fuert weider op Äre Kont fir Är Abonnementer ze gesinn an ze verwalten.",
           "title": "Abonnement"
         },
-        "order_status_confirmed_order_with_phone_payment": "Dir hutt eng Bezuelung op Ärer Bestellung gemaach %{date}."
+        "order_status_confirmed_order_with_phone_payment": "Dir hutt eng Bezuelung op Ärer Bestellung gemaach %{date}.",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Äer Ordreegen ass emmaachen",
+        "gift_card_resend_failure": {
+          "one": "Et gouf e Problem Är Kaddoskaart nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis."
+        }
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1005,7 +1021,8 @@
         "company_contact_info": "{{companyName}} · {{contact}}",
         "ship_to_company": "Schéckt op {{companyName}}",
         "change_company_location_link_label": "Änneren Firma Standuert",
-        "optional_recipient_label": "Opmierksamkeet (optional)"
+        "optional_recipient_label": "Opmierksamkeet (optional)",
+        "different_shipping_address_label": "Schéckt op eng aner Adress"
       },
       "marketing": {
         "unsubscribe": {
@@ -1229,6 +1246,9 @@
         "remove": "Ewechzehuelen",
         "out_of_stock": {
           "items_unavailable": "Kie Elementen sinne net më verfügbar an ass aus déi Cart geläucht."
+        },
+        "unpurchasable_product_generic": {
+          "header": "E puer Elementer goufen aus Ärem Weenchen geläscht"
         }
       },
       "shop_policies": {
@@ -1358,7 +1378,8 @@
         "have_an_account_label": "Hutt Dir schonn e Kont?",
         "not_user_label": "Net %{first_name}?",
         "sign_out_link_label": "Ausloggen",
-        "invalid_address": "Ausgewien Adress ass net gellgt"
+        "invalid_address": "Ausgewien Adress ass net gellgt",
+        "invalid_shipping_method_summary": "Auswiel eng geldilt Zéip- Adress fir verfügbar Rasie- Metodolen"
       },
       "notifications": {
         "title": "Notifikatiounen"
@@ -1420,7 +1441,8 @@
         "return_to_cart_link_text": "Zréck op de Weenchen",
         "all_violations_content": "Rufft oder {{emailLink}} eis fir dës Informatioun ze aktualiséieren an Är Bestellung ofzeschléissen:",
         "editable_shipping_address_violations_message_title": "Füügt dës Informatioun un fir Är Bestellung ze kompletéieren:",
-        "editable_shipping_address_violations_message_footer": "Fir d'Adress fir dës Plaz permanent ze aktualiséieren, {{emailLink}}."
+        "editable_shipping_address_violations_message_footer": "Fir d'Adress fir dës Plaz permanent ze aktualiséieren, {{emailLink}}.",
+        "editable_shipping_address_violations_email_link": "Kontaktéiert eis"
       },
       "local_pickup": {
         "could_not_resolve_address": "Är Adress konnt net lokaliséiert ginn. Probéiert nach eng Kéier oder benotzt eng aner Adress",
@@ -2427,7 +2449,8 @@
         "updated_at": "Är Bestellung gouf aktualiséiert op {{date}}",
         "removed_with_quantity": "{{quantity}} ewechgeholl",
         "removed": "Geläscht",
-        "added_with_quantity": "{{quantity}} dobäigesat"
+        "added_with_quantity": "{{quantity}} dobäigesat",
+        "added": "Dobäigesat"
       },
       "marketing_checkbox_label": "E-Mail mech mat Neiegkeeten an Offeren",
       "paid_with_shop_pay_installments_card": {
@@ -2521,7 +2544,14 @@
       "privacy_policy": "Privatsphär Politik",
       "shipping_policy": "Versandpolitik"
     },
-    "enable_javascript": "Fir Äre Kont ze gesinn, aktivéiert JavaScript an Äre Browser-Astellungen oder loggt Iech mat engem anere Browser un."
+    "enable_javascript": "Fir Äre Kont ze gesinn, aktivéiert JavaScript an Äre Browser-Astellungen oder loggt Iech mat engem anere Browser un.",
+    "ui_components": {
+      "wednesdayAbbreviation": "Mir",
+      "december": "Dezember"
+    },
+    "profile_preview_bar": {
+      "previewing": "Dir ass veurbonert:"
+    }
   },
   "contact": {
     "form": {
@@ -2617,7 +2647,8 @@
       "company": "Firma",
       "phone": "Telefon",
       "first_name": "Virnumm",
-      "address2": "Adress 2"
+      "address2": "Adress 2",
+      "country": "Land"
     },
     "orders": {
       "full_details_html": "Voll Detailer & rarr;",

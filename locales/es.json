@@ -510,7 +510,14 @@
       "billing": {
         "address_form": {
           "save": "Ahorrar"
-        }
+        },
+        "add_address": "Usar una dirección diferente"
+      },
+      "stock": {
+        "return_to_store_label": "volver a la tienda"
+      },
+      "no_address_location": {
+        "alt_header": "Dirección de envío faltante"
       }
     },
     "errors": {
@@ -553,6 +560,11 @@
             "due_without_date": "Pago vencido"
           }
         }
+      }
+    },
+    "order_details": {
+      "edit_summary": {
+        "returned": "devuelto"
       }
     }
   }

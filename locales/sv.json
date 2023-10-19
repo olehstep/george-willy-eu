@@ -126,13 +126,15 @@
       "processing": "Bearbetar...",
       "decrease": "Minska {{type}}",
       "saturdayAbbreviation": "på",
-      "closeNotification": "Stänga"
+      "closeNotification": "Stänga",
+      "inRange": "Inom räckhåll"
     },
     "orders": {
       "order_list": {
         "filter": {
           "date": {
-            "last_7_days": "Senaste 7 dagar"
+            "last_7_days": "Senaste 7 dagar",
+            "today": "I dag"
           }
         }
       }
@@ -462,7 +464,28 @@
         "rollup_label": "konto"
       },
       "field_errors": {
-        "credit_card_month_invalid": "Ange en giltig utgångsmånad för kortet"
+        "credit_card_month_invalid": "Ange en giltig utgångsmånad för kortet",
+        "gift_card_already_applied": "Detta presentkort har redan tillämpats på din beställning",
+        "tips_invalid_tip_amount": "Ange dricks som inte är större än %{amount}"
+      },
+      "thank_you": {
+        "order_status_payments_app_pending_payment_description_default_with_email": "Du får en bekräftelse mejl snart.  Följ din beställning med appen Shop."
+      },
+      "no_address_location": {
+        "alt_header": "Adress saknas."
+      },
+      "payment": {
+        "delete_credit_card_modal": {
+          "confirmation": "Är du säker på att du vill ta bort filen {{brandName}} Avslutas i {{lastDigits}} ?"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} Av {{quantity}} Borttagen"
+        }
+      },
+      "billing": {
+        "address_form": {
+          "cancel": "Annullera"
+        }
       }
     },
     "notices": {

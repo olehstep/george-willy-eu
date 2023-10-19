@@ -44,6 +44,14 @@
       "shop_404": {
         "heros": {
           "store_not_exist": "Dëst Späichen ist net."
+        },
+        "owner_ctas": {
+          "add_storefront": "Dir kënnt dat Äer Web äusst, wenn d' Online Store-Kanal %{admin_link} .  Wann du eeugs d'Gergaaf %{forgot_your_store_link} Säit."
+        },
+        "ctas": {
+          "editions": {
+            "caption": "Mat 100 Produk-Aktiounen, kënnt dir méi produtiv an kreativ, a krachcht an de Commerce a äus deer äusch gewied."
+          }
         }
       }
     },
@@ -185,7 +193,8 @@
           "weekdays_abbreviation": {
             "friday": "Fr",
             "saturday": "op",
-            "monday": "Mo"
+            "monday": "Mo",
+            "thursday": "Th"
           },
           "weekdays": {
             "wednesday": "Mëttwoch"
@@ -194,7 +203,8 @@
             "october": "Oktober",
             "august": "August",
             "september": "September",
-            "march": "Mäerz"
+            "march": "Mäerz",
+            "december": "Dezember"
           }
         },
         "datepicker": {
@@ -410,7 +420,10 @@
         "vaulting_agreement_label": "Spuert meng Bezuelinformatioun mat %{company} fir e méi séier Checkout.",
         "shipping_rate_updated": "Verfügbar Versandmethoden goufen aktualiséiert. Bestätegt Äre Choix virum Auschecken.",
         "location_shipping_address_label": "Location Versandadress",
-        "use_order_billing_address_label": "Orderfolling-Adress benotzen"
+        "use_order_billing_address_label": "Orderfolling-Adress benotzen",
+        "add_credit_card_modal": {
+          "cancel": "Ofbriechen"
+        }
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -617,7 +630,13 @@
         },
         "duties_label": "Flichten",
         "may_be_charged_on_delivery": "Kann op Liwwerung verrechent ginn",
-        "deferred_total_due_date_label": "Gesamtbetrag {{date}}"
+        "deferred_total_due_date_label": "Gesamtbetrag {{date}}",
+        "free_shipping_discount_label": "Versand fräi",
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} Artikel"
+          }
+        }
       },
       "processing": {
         "wait": {
@@ -1249,6 +1268,9 @@
         },
         "unpurchasable_product_generic": {
           "header": "E puer Elementer goufen aus Ärem Weenchen geläscht"
+        },
+        "item_label": {
+          "other": "{{count}} Elementen"
         }
       },
       "shop_policies": {
@@ -1379,7 +1401,8 @@
         "not_user_label": "Net %{first_name}?",
         "sign_out_link_label": "Ausloggen",
         "invalid_address": "Ausgewien Adress ass net gellgt",
-        "invalid_shipping_method_summary": "Auswiel eng geldilt Zéip- Adress fir verfügbar Rasie- Metodolen"
+        "invalid_shipping_method_summary": "Auswiel eng geldilt Zéip- Adress fir verfügbar Rasie- Metodolen",
+        "incomplete_address": "Ausgewieden Adress ass net volfullt. [@ 90000] oder eng angere Adress wielen."
       },
       "notifications": {
         "title": "Notifikatiounen"
@@ -1418,12 +1441,15 @@
         "too_many_attempts": {
           "description": "Probéiert w.e.g. an eeun Minuten"
         },
-        "title": "Schlaang"
+        "title": "Schlaang",
+        "time_to_checkout_title": "Zäit fir erauszekréien - {{shopName}}",
+        "line_to_check_out": "Dir sidd an der Linn fir ze kontrolléieren"
       },
       "deliverability": {
         "not_deliverable": {
           "title": {
-            "other": "Keng Liwwerung verfügbar fir %{count} Artikelen"
+            "other": "Keng Liwwerung verfügbar fir %{count} Artikelen",
+            "one": "Keng Liwwerung verfügbar fir %{count} Artikel"
           },
           "label": "Keng Liwwerung",
           "message": {
@@ -1467,7 +1493,8 @@
             "shipping_address": "Gitt eng valabel Versandadress un",
             "zone": "Gitt eng valabel Staat \/ Provënz",
             "reduction_code": "Gitt eng valabel Remise Code oder Cadeau Kaart",
-            "shipping_option": "Wielt eng valabel Versandoptioun"
+            "shipping_option": "Wielt eng valabel Versandoptioun",
+            "postal_code": "Gitt e gültege Postcode \/ Postcode an"
           },
           "missing": {
             "address1": "Gitt eng Adress un",
@@ -1566,6 +1593,9 @@
       },
       "cart_checkout_validation": {
         "runtime_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Demande, kontaktéiert w.e.g. de Buttekbesëtzer."
+      },
+      "billing": {
+        "add_address": "Benot eng angere Adress"
       }
     },
     "email_marketing": {
@@ -1849,7 +1879,10 @@
         "order_number": "Bestellung {{name}}",
         "sort_show_options_accessibility_label": "Show Zort Optiounen fir bestätegt Commanden.",
         "more_than_three_products_accessibility_label": "Bestellung enthält {{lineItemName1}}, {{lineItemName2}}, an {{numberOfAdditionalProducts}} méi Produkter",
-        "plus_more": "+{{numberOfAdditionalProducts}}"
+        "plus_more": "+{{numberOfAdditionalProducts}}",
+        "filter": {
+          "clear_all": "Alles läschen"
+        }
       },
       "group_title_label": "Deel vun: {{groupTitle}}",
       "order_status": {
@@ -1928,7 +1961,8 @@
       "havent_received_your_delivery": "Hutt Dir Är Liwwerung net kritt?",
       "if_not_received": {
         "other": "Wann se net emmerg sinn,"
-      }
+      },
+      "if_you_didnt_receive_this": "Wann Dir dëst net kritt hutt,"
     },
     "errors": {
       "no_access_to_locations": {
@@ -2450,7 +2484,8 @@
         "removed_with_quantity": "{{quantity}} ewechgeholl",
         "removed": "Geläscht",
         "added_with_quantity": "{{quantity}} dobäigesat",
-        "added": "Dobäigesat"
+        "added": "Dobäigesat",
+        "returned_with_quantities": "{{delta}} A {{total}} Erfägt"
       },
       "marketing_checkbox_label": "E-Mail mech mat Neiegkeeten an Offeren",
       "paid_with_shop_pay_installments_card": {
@@ -2547,10 +2582,12 @@
     "enable_javascript": "Fir Äre Kont ze gesinn, aktivéiert JavaScript an Äre Browser-Astellungen oder loggt Iech mat engem anere Browser un.",
     "ui_components": {
       "wednesdayAbbreviation": "Mir",
-      "december": "Dezember"
+      "december": "Dezember",
+      "fridayAbbreviation": "Fr"
     },
     "profile_preview_bar": {
-      "previewing": "Dir ass veurbonert:"
+      "previewing": "Dir ass veurbonert:",
+      "customize_button": "&amp; Benotzen"
     }
   },
   "contact": {

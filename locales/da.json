@@ -484,7 +484,10 @@
         }
       },
       "payment": {
-        "subscription_agreement_cancelled": "annulleret"
+        "subscription_agreement_cancelled": "annulleret",
+        "edit_credit_card_modal": {
+          "description": "Du kan kun ændre faktureringsadressen på dit kort."
+        }
       },
       "stock": {
         "out_of_stock": {
@@ -494,7 +497,8 @@
       },
       "billing": {
         "same_as_shipping": "Samme som leveringsadresse",
-        "address_confirm": "Vil du virkelig slette denne adresse fra din konto?"
+        "address_confirm": "Vil du virkelig slette denne adresse fra din konto?",
+        "address_more": "Flere handlinger til denne adresse"
       },
       "order_summary": {
         "price_per_item": {
@@ -529,7 +533,8 @@
           "store_owner": {
             "shopify_support_link_text": "Støtte til Shopify"
           }
-        }
+        },
+        "title": "Opret en e-commerce hjemmeside og Sælg Online!  E-handel software af Shopify"
       }
     }
   },
@@ -550,6 +555,18 @@
             "last_365_days": "De seneste 12 måneder"
           }
         }
+      },
+      "order_status": {
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Spor og administrer Køb med Prime ordre."
+          }
+        }
+      }
+    },
+    "errors": {
+      "load_extension_error": {
+        "refresh_button": "Opdater siden"
       }
     }
   }

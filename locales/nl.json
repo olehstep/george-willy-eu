@@ -472,7 +472,8 @@
         },
         "missing_shipping_address": "Verzendadres ontbreekt",
         "shipping_address_title": "Verzend naar",
-        "enter_address_manually_label": "Voer het adres handmatig in"
+        "enter_address_manually_label": "Voer het adres handmatig in",
+        "address_edit": "Verander adres"
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
@@ -482,7 +483,8 @@
         "edit_credit_card_modal": {
           "fields": {
             "default": "Instellen als standaard"
-          }
+          },
+          "done": "Klaar"
         },
         "subscription_agreement_label": "Ik begrijp dat ik akkoord ga met een abonnement. Het zal worden vernieuwd tegen de vermelde prijs en frequentie totdat het afloopt of wordt %{cancelled}.",
         "expired_payment_method": "Geselecteerde betaalmethode is verlopen",
@@ -500,7 +502,8 @@
         "inventory_reservation_failure": "Sommige artikelen zijn niet meer leverbaar."
       },
       "thank_you": {
-        "order_status_payments_app_failed_pending_payment": "Je bent niet aangeklaagd voor je bestelling.  Ga terug naar uw winkelwagen om uw bestelling te bekijken en betaal opnieuw."
+        "order_status_payments_app_failed_pending_payment": "Je bent niet aangeklaagd voor je bestelling.  Ga terug naar uw winkelwagen om uw bestelling te bekijken en betaal opnieuw.",
+        "thank_you_title_payments_app_failed_pending_payment": "Uw betaling kon niet worden verwerkt"
       },
       "billing": {
         "billing_address_title": "Rekening naar",
@@ -511,13 +514,17 @@
       "stock": {
         "price_update": {
           "description": "De prijzen voor deze artikelen zijn gewijzigd en worden bijgewerkt in uw winkelwagen."
+        },
+        "item_label": {
+          "one": "{{count}} Artikel"
         }
       },
       "review": {
         "blocks": {
           "payment_method_saved_company_location": "Bewaar kaart voor deze locatie",
           "shipping_method_title": "Wijze"
-        }
+        },
+        "review_title": "Bestelling nakijken"
       },
       "field_errors": {
         "address_zip_too_long": "ZIP\/postcode is te lang (maximaal 255 tekens)",
@@ -534,7 +541,8 @@
         "discount_order_stacking": {
           "other": "Kortingen voor bestellingen"
         },
-        "shipping_default_value": "Berekend bij de volgende stap"
+        "shipping_default_value": "Berekend bij de volgende stap",
+        "gift_card_and_discount_title": "Cadeaubon of kortingscode"
       }
     },
     "errors": {
@@ -564,7 +572,8 @@
       "december": "December",
       "thursdayAbbreviation": "E",
       "expandNotification": "Bekijk meer",
-      "fridayAbbreviation": "Vr"
+      "fridayAbbreviation": "Vr",
+      "march": "Maart"
     },
     "orders": {
       "order_list": {
@@ -576,7 +585,8 @@
       }
     },
     "profile_preview_bar": {
-      "hide_bar": "Verberg Bar"
+      "hide_bar": "Verberg Bar",
+      "navigate_to_admin": "Navigeer naar admin"
     }
   }
 }

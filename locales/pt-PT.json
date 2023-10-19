@@ -468,7 +468,8 @@
         "enter_address_manually_label": "Introduza o endereço manualmente",
         "address_form": {
           "save": "Salvar"
-        }
+        },
+        "split_cart_merchandise_shipment_number": "Transferência %{number} de %{total}"
       },
       "field_errors": {
         "address_phone_invalid": "Insira um número de telefone válido"
@@ -485,6 +486,10 @@
         },
         "add_credit_card_modal": {
           "save": "Salvar"
+        },
+        "purchase_options_and_vaulting_agreement_label": "Um ou mais itens no seu carrinho são uma compra diferida ou recorrente. Ao prosseguir com o pagamento, aceita que qualquer método de pagamento será cobrado automaticamente com o preço e a frequência apresentados nesta página até que termine ou que cancele. Todos os cancelamentos estão sujeitos à %{cancellation_policy_label}.",
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} de {{quantity}} removido"
         }
       },
       "order_summary": {
@@ -497,6 +502,11 @@
       },
       "thank_you": {
         "thank_you_title_payments_app_pending_default": "O seu pagamento está a ser processado"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "generic": "Não foi possível adicionar o cartão-presente ao checkout"
+        }
       }
     },
     "errors": {
@@ -510,8 +520,12 @@
           },
           "open_a_store": {
             "link_text": "Inscreva-se agora"
+          },
+          "sell_in_person": {
+            "caption": "Obtenha os recursos de que precisa para gerir a sua loja de retalho, quer esteja a começar ou a expandir."
           }
-        }
+        },
+        "title": "Crie um site de comércio eletrônico e venda on-line!  Software de comércio eletrônico da Shopify"
       }
     },
     "notices": {
@@ -525,11 +539,19 @@
   "customer_accounts": {
     "ui_components": {
       "september": "Setembro",
-      "thursdayAbbreviation": "º"
+      "thursdayAbbreviation": "º",
+      "closeModal": "Perto",
+      "june": "Junho",
+      "october": "Outubro"
     },
     "order_details": {
       "edit_summary": {
         "returned": "Retornou"
+      }
+    },
+    "errors": {
+      "load_extension_error": {
+        "description": "Atualize esta página ou tente novamente em alguns minutos."
       }
     }
   }

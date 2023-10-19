@@ -465,11 +465,13 @@
     "checkout": {
       "shipping": {
         "shipping_method_notice": "Veuillez noter : Les commandes ne peuvent pas être modifiées ou annulées une fois passées. Pour modifier une commande, veuillez suivre la politique de retours et échanges.",
-        "invalid_shipping_method_summary": "Entrez une adresse de livraison valide pour voir les méthodes d'expédition disponibles"
+        "invalid_shipping_method_summary": "Entrez une adresse de livraison valide pour voir les méthodes d'expédition disponibles",
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} Articles"
       },
       "redeemable_errors": {
         "gift_card": {
-          "invalid": "Entrez une carte-cadeau valide"
+          "invalid": "Entrez une carte-cadeau valide",
+          "not_available": "Cette carte cadeau n'est plus disponible"
         }
       },
       "payment_errors": {
@@ -490,6 +492,9 @@
       "stock": {
         "price_update": {
           "description": "Les prix de ces articles ont changé et sont mis à jour dans votre panier."
+        },
+        "item_label": {
+          "one": "{{count}} Article"
         }
       },
       "order_summary": {
@@ -498,6 +503,13 @@
           "one": "Rabais"
         },
         "gift_card_and_discount_placeholder": "Carte-cadeau ou code promo"
+      },
+      "wallets": {
+        "errors": {
+          "invalid": {
+            "reduction_code": "Saisissez un code de réduction ou une carte-cadeau valide"
+          }
+        }
       }
     },
     "errors": {
@@ -517,7 +529,11 @@
     "ui_components": {
       "inRange": "Dans la gamme",
       "maximumReached": "Maximum de {{value}} Atteint",
-      "sunday": "dimanche"
+      "sunday": "dimanche",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Articles disponibles"
+      },
+      "friday": "vendredi"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:"

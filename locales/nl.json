@@ -465,6 +465,34 @@
     "checkout": {
       "shipping": {
         "shipping_method_notice": "Let op: eenmaal geplaatste bestellingen kunnen niet meer worden gewijzigd of geannuleerd. Om een bestelling te wijzigen, volg je het beleid voor retourneren en ruilen."
+      },
+      "note": {
+        "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
+      },
+      "payment": {
+        "purchase_options_agreement_label_wallets": "Als u doorgaat met uw betaling, gaat u akkoord met de toekomstige kosten die op deze pagina worden vermeld en met het annuleringsbeleid."
+      },
+      "customer_account": {
+        "rollup_label": "Rekening"
+      }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "edit_summary": {
+        "removed_with_quantities": "{{delta}} Van {{total}} Verwijderd"
+      }
+    },
+    "ui_components": {
+      "wednesday": "Woensdag"
+    },
+    "orders": {
+      "order_list": {
+        "filter": {
+          "date": {
+            "start_date": "Startdatum"
+          }
+        }
       }
     }
   }

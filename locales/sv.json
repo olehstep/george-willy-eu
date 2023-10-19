@@ -194,6 +194,15 @@
       "load_extension_error": {
         "description": "Uppdatera denna sida eller försök igen på några minuter."
       }
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "canceled": {
+            "description": "Du debiteras inte."
+          }
+        }
+      }
     }
   },
   "contact": {
@@ -525,6 +534,9 @@
         "continue_cta_label": "Fortsätt kassan",
         "item_label": {
           "one": "{{count}} Posten"
+        },
+        "price_update": {
+          "description": "Priserna för dessa artiklar har ändrats och uppdateras i din kundvagn."
         }
       },
       "review": {
@@ -567,7 +579,8 @@
         "order_status_payments_app_failed_pending_payment": "Du blev inte betalad för din beställning.  Återvänd till din kundvagn för att granska din beställning och betala igen.",
         "thank_you_title_payments_app_failed_pending_payment": "Din betalning kunde inte behandlas",
         "failed_pending_payment_page_title": "Det är ett problem med din betalning.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "När du har slutfört din betalning får du ett e-postmeddelande.  Följ din beställning med appen Shop."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "När du har slutfört din betalning får du ett e-postmeddelande.  Följ din beställning med appen Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "När du har slutfört din betalning får du ett e-postmeddelande.  Följ din beställning med appen Shop."
       },
       "no_address_location": {
         "alt_header": "Adress saknas."
@@ -665,7 +678,8 @@
         "owner_ctas": {
           "add_storefront": "Du kan ställa in din webbplats genom att lägga till Online Store kanal i din webbplats %{admin_link} .  Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan.",
           "fix_domain": "Avsluta inställningen av din nya webbadress, gå till %{domain_settings_link} .  Klicka på ”Anslut domän” och ange: %{domain} .<br>Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan.",
-          "fix_domain_link_text": "Dina domäninställningar"
+          "fix_domain_link_text": "Dina domäninställningar",
+          "admin_link_text": "Admin:"
         },
         "ctas": {
           "store_owner": {

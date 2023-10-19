@@ -565,7 +565,9 @@
         "order_status_payments_app_failed_pending_payment": "No le cobraron por su pedido.  Regrese a su carrito para revisar su pedido y pagar de nuevo.",
         "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Recibirá un correo electrónico de confirmación pronto.  Rastree su pedido utilizando la aplicación Shop.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Después de completar su pago, recibirá un texto de confirmación.  Rastree su pedido utilizando la aplicación Shop.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Después de completar su pago, recibirá un correo electrónico de confirmación.  Rastree su pedido utilizando la aplicación Shop."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Después de completar su pago, recibirá un correo electrónico de confirmación.  Rastree su pedido utilizando la aplicación Shop.",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Su pedido fue recibido",
+        "thank_you_title_payments_app_pending_default": "Su pago está siendo procesado"
       },
       "general": {
         "map": {
@@ -638,7 +640,8 @@
       "review": {
         "blocks": {
           "payment_method_title": "Pago",
-          "review_title_free_order": "Revisa y completa tu pedido"
+          "review_title_free_order": "Revisa y completa tu pedido",
+          "payment_method_saved_company_location": "Guardar tarjeta para esta ubicación"
         },
         "review_title": "Revisar pedido"
       }
@@ -652,7 +655,8 @@
           },
           "editions": {
             "caption": "Con más de 100 actualizaciones de productos, puede ser más productivo y creativo, y poderoso en el comercio de lo que nunca imaginó.",
-            "header": "Echa un vistazo a las ediciones de Shopify"
+            "header": "Echa un vistazo a las ediciones de Shopify",
+            "link_text": "Explorar las últimas ediciones"
           },
           "sell_in_person": {
             "header": "Vender en persona",
@@ -744,6 +748,9 @@
           "clear_all": "Limpiar todo",
           "clear_section": "Sección clara"
         }
+      },
+      "order_status": {
+        "there_was_a_problem_label": "Había un problema"
       }
     },
     "order_details": {

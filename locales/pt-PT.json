@@ -483,7 +483,8 @@
           "search_address": "Procurar endereço"
         },
         "missing_shipping_address": "Falta o endereço de entrega",
-        "title": "Envio"
+        "title": "Envio",
+        "shipping_information_required_notice": "São necessárias informações de envio. {{link}}."
       },
       "field_errors": {
         "address_phone_invalid": "Insira um número de telefone válido",
@@ -497,13 +498,17 @@
         "items_unavailable_notice": "Alguns itens já não estão disponíveis. O seu carrinho foi atualizado.",
         "item_label": {
           "other": "{{count}} Itens"
+        },
+        "out_of_stock": {
+          "description": "Estes artigos já não estão disponíveis e foram removidos do seu carrinho."
         }
       },
       "payment": {
         "purchase_options_agreement_label_wallets": "Ao continuar com o seu pagamento, você concorda com as futuras cobranças listadas nesta página e com a política de cancelamento.",
         "delete_credit_card_modal": {
           "title": "Excluir cartão",
-          "delete": "Excluir"
+          "delete": "Excluir",
+          "confirmation": "Tem certeza de que deseja excluir o {{brandName}} que termina em {{lastDigits}}?"
         },
         "add_credit_card_modal": {
           "save": "Salvar"
@@ -518,12 +523,14 @@
         "use_location_shipping_address_label": "Utilize a morada de envio da localização",
         "business_customer_vaulting_payment_label": "Guarde este cartão para compras futuras neste local. Autorizo %{company} a utilizar este método de pagamento em compras futuras neste local. Qualquer contato atribuído a este local está autorizado a utilizar o cartão.",
         "order_edit_banner_items_returned": {
-          "in_full": "Retornou"
+          "in_full": "Retornou",
+          "with_quantities": "{{delta}} de {{quantity}} devolvido"
         },
         "subscription_agreement_cancelled": "cancelado",
         "edit_credit_card_modal": {
           "fields": {
-            "default": "Definir como padrão"
+            "default": "Definir como padrão",
+            "billing": "projeto de lei para"
           }
         },
         "use_location_billing_address_label": "Utilizar o endereço de faturação da localização",
@@ -563,7 +570,8 @@
         "order_status_payments_app_pending_payment_description_default_with_email": "Você receberá um e-mail de confirmação em breve.  Acompanhe a sua encomenda através da aplicação Loja.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Depois de concluir o pagamento, receberá uma mensagem de confirmação.  Acompanhe a sua encomenda através da aplicação Loja.",
         "failed_pending_payment_page_title": "Há um problema com o seu pagamento",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Depois de concluir o pagamento, você receberá um e-mail de confirmação.  Acompanhe a sua encomenda através da aplicação Loja."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Depois de concluir o pagamento, você receberá um e-mail de confirmação.  Acompanhe a sua encomenda através da aplicação Loja.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Depois de concluir o pagamento, você receberá um e-mail de confirmação.  Acompanhe a sua encomenda através da aplicação Loja."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -684,7 +692,8 @@
     "order_details": {
       "edit_summary": {
         "returned": "Retornou",
-        "returned_with_quantities": "{{delta}} de {{total}} devolvido"
+        "returned_with_quantities": "{{delta}} de {{total}} devolvido",
+        "removed_with_quantities": "{{delta}} de {{total}} removido"
       }
     },
     "errors": {
@@ -722,6 +731,11 @@
             "description": "Não será cobrado."
           }
         }
+      }
+    },
+    "payment_methods": {
+      "payment_details": {
+        "checkout_card_banner": "Este método de pagamento só pode ser utilizado para pagamentos pré-autorizados.  Ele não aparecerá no checkout se você estiver logado nesta loja."
       }
     }
   }

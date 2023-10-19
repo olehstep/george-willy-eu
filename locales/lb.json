@@ -62,7 +62,8 @@
             "shopify_support_link_text": "Shopify-Stzert"
           },
           "sell_in_person": {
-            "header": "An Persoon Verel"
+            "header": "An Persoon Verel",
+            "link_text": "Fräi Test starten"
           }
         },
         "owner_ctas": {
@@ -105,7 +106,8 @@
           "inventory": "Artikelen net verfügbar",
           "fraud": "Bedruchlech Uerdnung",
           "customer": "Client geännert \/ annuléiert Bestellung",
-          "declined": "Bezuelung refuséiert"
+          "declined": "Bezuelung refuséiert",
+          "staff": "Staffeler"
         },
         "not_available": "Dës Bestellung ass net verfügbar"
       },
@@ -225,7 +227,8 @@
             "wednesday": "Mëttwoch",
             "monday": "Méindeg",
             "friday": "Freideg",
-            "saturday": "Samschdeg"
+            "saturday": "Samschdeg",
+            "sunday": "Sonndeg"
           },
           "months": {
             "october": "Oktober",
@@ -247,13 +250,15 @@
         "submit_for_review_button_label": "Gitt fir Iwwerpréiwung of",
         "stepper": {
           "minimum_reached": "Minimum vun {{value}} erreecht",
-          "increase": "Erhéijung {{type}}"
+          "increase": "Erhéijung {{type}}",
+          "maximum_reached": "Maximum vun {{value}} erreecht"
         },
         "autocomplete_powered_by_google": "Ugedriwwe vun {{brandName}}",
         "list_formatter": {
           "or": {
             "twoWordConnector": "{{firstWord}} oder {{secondWord}}",
-            "wordConnector": "{{previousWords}}, {{anotherWord}}"
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, oder {{lastWord}}"
           },
           "and": {
             "wordConnector": "{{previousWords}}, {{anotherWord}}",
@@ -272,7 +277,8 @@
         "remove_item": "Ewechzehuelen %{label}",
         "autocomplete_zero_item": "Keng Artikele verfügbar",
         "submit_order_button_label": "Bestellung ofginn",
-        "remove_tag": "Tag ewechhuelen"
+        "remove_tag": "Tag ewechhuelen",
+        "submit": "Ofginn"
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -514,7 +520,10 @@
         "local_payment_method_receiver_notice": "Nodeems Dir Är Bestellung gemaach hutt, kritt Dir Bezuelungsdetailer. Maacht d'Bezuelung bei engem Geldautomaten oder online bannent {{dueDays}} Deeg.",
         "order_edit_banner_items_removed": {
           "in_full": "Geläscht"
-        }
+        },
+        "shop_pay_installments_label": "Shop-Baille-Installéieren",
+        "order_edit_banner_multiple_items_returned": "[@ 90000] zefgett",
+        "card_fields_processing_error": "Et gouf e Problem beim Veraarbechtung vun der Bezuelung. Probéiert dës Säit z'erfrëschen oder kontrolléiert Är Internetverbindung."
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -637,7 +646,12 @@
         "subscription_shipping": "Abonnement Schëffer",
         "add_address": "Benot eng angere Adress",
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Elementen",
-        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Méien"
+        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Méien",
+        "merchandise_quantity_label_inline_primary": "Keits: %{quantity}",
+        "method_summary": {
+          "incomplete_address_entered": "Gitt e fullms-Adress fir verfügbar Rasie- Metoden"
+        },
+        "loading_progressive_rates": "Sich no méi Tariffer ..."
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -1115,7 +1129,8 @@
         "order_status_confirmed_with_installments_payment_return": "Gitt w.e.g. Är Opmierksamkeet zréck op de Verkeefer Associé.",
         "subscriptions_management": {
           "description": "Fuert weider op Äre Kont fir Är Abonnementer ze gesinn an ze verwalten.",
-          "title": "Abonnement"
+          "title": "Abonnement",
+          "button_label": "Verwalte Ären Abonnement"
         },
         "order_status_confirmed_order_with_phone_payment": "Dir hutt eng Bezuelung op Ärer Bestellung gemaach %{date}.",
         "thank_you_title_payments_app_pending_buyer_action_required": "Äer Ordreegen ass emmaachen",
@@ -1505,7 +1520,8 @@
           "due_after_order_reviewed_html": "Wéinst no Bestellung iwwerpréift",
           "purchase_order_number_title": "PO Nummer",
           "no_purchase_order_number": "(Keng PO Nummer)",
-          "review_title_free_order": "Äer Ordég Rebekachen"
+          "review_title_free_order": "Äer Ordég Rebekachen",
+          "payment_method_saved_company_location": "Kaarter fir dës Stilt späicheren"
         },
         "review_title": "Iwwerpréiwen Uerdnung",
         "checkout_as_guest": "Kees als Gaascht",
@@ -1767,13 +1783,15 @@
         "search_button": "Sichen",
         "selector_tabs": "Pickup Point Selector",
         "number_of_pickup_points_near_location": {
-          "other": "%{count} Pickup Punkten no bei Ärer Plaz"
+          "other": "%{count} Pickup Punkten no bei Ärer Plaz",
+          "one": "%{count} Pickup Point bei Ärer Location"
         },
         "change": "Änneren"
       },
       "marketplaces": {
         "legal_notice": {
-          "legal_text": "Iwwerpréiwung"
+          "legal_text": "Iwwerpréiwung",
+          "link_label": "{{partnerDisplayName}} Konditioune"
         }
       },
       "no_address_location": {
@@ -2235,7 +2253,8 @@
       "contact_us": "kontaktéiert eis.",
       "havent_received_your_delivery": "Hutt Dir Är Liwwerung net kritt?",
       "if_not_received": {
-        "other": "Wann se net emmerg sinn,"
+        "other": "Wann se net emmerg sinn,",
+        "one": "Wann et net emmerg ass,"
       },
       "if_you_didnt_receive_this": "Wann Dir dëst net kritt hutt,",
       "let_us_know": "Loosst eis wëssen"
@@ -2807,7 +2826,8 @@
       "duties": "Flichten",
       "paid_amount": "Bezuelt",
       "card_ending_with": "Enn mat {{lastDigits}}",
-      "remaining_amount": "Rescht"
+      "remaining_amount": "Rescht",
+      "no_data_provided": "-"
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",
@@ -2917,7 +2937,12 @@
       "monday": "Méindeg",
       "closeModal": "Zoumaachen",
       "thursdayAbbreviation": "Th",
-      "increase": "Ermaachen {{type}}"
+      "increase": "Ermaachen {{type}}",
+      "saturdayAbbreviation": "op",
+      "expandNotification": "Kuckt méi",
+      "minimumReached": "Minimum vunt {{value}} Erréucht",
+      "removeTag": "Tag ewechhuelen",
+      "tuesday": "Dënschdeg"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

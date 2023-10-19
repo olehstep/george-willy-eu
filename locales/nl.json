@@ -702,7 +702,8 @@
   "customer_accounts": {
     "order_details": {
       "edit_summary": {
-        "removed_with_quantities": "{{delta}} Van {{total}} Verwijderd"
+        "removed_with_quantities": "{{delta}} Van {{total}} Verwijderd",
+        "returned_with_quantities": "{{delta}} Van {{total}} Geretourneerd"
       }
     },
     "ui_components": {
@@ -758,7 +759,8 @@
             "new_window_disclaimer": "(opent een nieuw venster)"
           }
         },
-        "attempted_to_deliver_label": "Poging om te leveren"
+        "attempted_to_deliver_label": "Poging om te leveren",
+        "there_was_a_problem_label": "Er was een probleem"
       }
     },
     "profile_preview_bar": {

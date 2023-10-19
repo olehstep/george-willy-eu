@@ -163,7 +163,8 @@
         "pincode_label": "PIN-kode",
         "new_address_label": "Bruk en ny adresse",
         "change_company_location_link_label": "Endre firmasted",
-        "zip_code_label": "post kode"
+        "zip_code_label": "post kode",
+        "shipping_used_as_billing_notice": "Dette vil også bli brukt som faktureringsadresse for denne bestillingen."
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",
@@ -288,7 +289,8 @@
         "expand_component_information": {
           "other": "Vis %{count} elementer"
         },
-        "recurring_payments": "Gjentakende betalinger"
+        "recurring_payments": "Gjentakende betalinger",
+        "gift_card_masked": "•••• %{last_characters}"
       },
       "stock": {
         "title": "Utsolgt",
@@ -466,7 +468,8 @@
         },
         "delete": "Slett",
         "estimated_delivery_date": {
-          "other": "%{count} virkedager"
+          "other": "%{count} virkedager",
+          "one": "%{count} virkedag"
         },
         "estimated_delivery_time_range": "Estimert levering %{min_time}–%{max_time}",
         "address_edit": "Rediger adresse"
@@ -1178,7 +1181,8 @@
         "terms_of_service": "Vilkår for bruk",
         "terms_of_sale": "Salgsbetingelser",
         "privacy_policy": "Personvernerklæring",
-        "subscription_policy": "Regler for abonnement"
+        "subscription_policy": "Regler for abonnement",
+        "shipping_policy": "Fraktpolicy"
       },
       "remember_me": {
         "external_acessibility_label": "(åpner et nytt vindu)",
@@ -1385,7 +1389,8 @@
       },
       "alternative_payment_method_banner": {
         "or": "ELLER",
-        "show_more_options": "Vis flere alternativer"
+        "show_more_options": "Vis flere alternativer",
+        "express_checkout": "hurtigutsjekking"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -1856,7 +1861,11 @@
       "collections": "Samlinger",
       "shopping_cart": "din handlevogn",
       "search": "Søk",
-      "products": "Produkter"
+      "products": "Produkter",
+      "search_results": {
+        "one": "Søk: %{count} resultat funnet for \"%{terms}\"",
+        "other": "Søk: %{count} resultater funnet for \"%{terms}\""
+      }
     },
     "search": {
       "sorting": {
@@ -2239,7 +2248,8 @@
         "desktop_qr_code_content": {
           "title": "Skann etter påminnelser",
           "description": "Få påminnelser om avdragene dine med Shop."
-        }
+        },
+        "paid_with_shop_pay_installments": "Betales med Shop Pay avdrag"
       },
       "subtotal": "Delsum",
       "summary_list_title_accessibility_label": "Bestill varer",
@@ -2328,7 +2338,8 @@
       "no_addresses_banner": "Ingen adresser lagt til",
       "back_button_accessibility_label": "Tilbake til redigeringsadresse {{address}}",
       "add_button_accessibility_label": "Legg til adresse",
-      "cancel_adding_address_accessibility_label": "Avbryt å legge til adresse"
+      "cancel_adding_address_accessibility_label": "Avbryt å legge til adresse",
+      "address_deleted_notification": "Adresse slettet"
     },
     "account_information": {
       "profile_card": {
@@ -2457,7 +2468,8 @@
         "tax_id": "Skatte-ID",
         "location_picker_accessibility_label": "Stedsnavn: {{locationName}}",
         "tax_exemptions_modal_button_accessibility_label": "Se alle skattefritak",
-        "payment_details_title": "Betalingsinformasjon"
+        "payment_details_title": "Betalingsinformasjon",
+        "tax_exemption_not_applicable": "N\/A"
       },
       "location_selection": {
         "selection_cancel_button": "Avbryt",
@@ -2632,7 +2644,8 @@
         },
         "title": "Slett betalingsmåte",
         "delete_and_replace_button": "Slett og erstatt",
-        "delete_and_replace_button_accessibility_label": "Slett {{currentPaymentMethodName}} og erstatt med {{newPaymentMethodName}}."
+        "delete_and_replace_button_accessibility_label": "Slett {{currentPaymentMethodName}} og erstatt med {{newPaymentMethodName}}.",
+        "loading_available_payment_methods_accessibility_label": "Laster tilgjengelige betalingsmåter"
       },
       "card_fields": {
         "card_number_label": "Kortnummer",
@@ -2746,7 +2759,8 @@
       },
       "removeItem": "Fjern {{label}}",
       "autocompleteOptionsAvailable": {
-        "one": "{{count}} Oppføring tilgjengeleg"
+        "one": "{{count}} Oppføring tilgjengeleg",
+        "other": "{{count}} Tilgjengelege oppføringar"
       },
       "december": "desember",
       "fridayAbbreviation": "Fr",

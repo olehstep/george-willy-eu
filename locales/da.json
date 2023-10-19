@@ -476,7 +476,8 @@
         "edit": "Redigere",
         "merchandise_quantity_label_inline_primary": "Mængde: %{quantity}",
         "address_form": {
-          "cancel": "Afbestille"
+          "cancel": "Afbestille",
+          "save": "Gemme"
         },
         "split_cart_merchandise_shipment_number": "Forsendelse %{number} Af %{total}",
         "address_confirm": "Vil du virkelig slette denne adresse fra din konto?",
@@ -508,9 +509,11 @@
           "description": "Du kan kun ændre faktureringsadressen på dit kort.",
           "fields": {
             "default": "Indstillet som standard",
-            "name": "Navn på kort"
+            "name": "Navn på kort",
+            "billing": "Regning til"
           },
-          "cancel": "Afbestille"
+          "cancel": "Afbestille",
+          "title": "Redigér kort"
         },
         "delete_credit_card_modal": {
           "confirmation": "Er du sikker på at du vil slette den {{brandName}} Ender i {{lastDigits}} ?",
@@ -546,7 +549,10 @@
         "price_update": {
           "description": "Priserne for disse varer har ændret sig og opdateres i din kurv."
         },
-        "continue_cta_label": "Fortsæt kontrol"
+        "continue_cta_label": "Fortsæt kontrol",
+        "item_label": {
+          "one": "{{count}} Poste"
+        }
       },
       "billing": {
         "same_as_shipping": "Samme som leveringsadresse",
@@ -570,7 +576,8 @@
         "shipping_default_value": "Beregnet ved næste trin",
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kunne ikke bruges med dine eksisterende rabatter. Du har allerede en bedre kombination.",
         "gift_card_and_discount_title": "Gavekort eller rabatkode",
-        "gift_card_and_discount_placeholder": "Gavekort eller rabatkode"
+        "gift_card_and_discount_placeholder": "Gavekort eller rabatkode",
+        "gift_card_and_discount_label": "Gavekort eller rabatkode"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -596,7 +603,8 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Efter at have fuldført din betaling, vil du få en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
         "thank_you_title_payments_app_pending_default": "Din betaling bliver behandlet",
         "order_status_payments_app_pending_payment_description_default_with_email": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
-        "failed_pending_payment_page_title": "Der er et problem med din betaling"
+        "failed_pending_payment_page_title": "Der er et problem med din betaling",
+        "order_status_payments_app_failed_pending_payment": "Du blev ikke betalt for din ordre.  Retur til din kurv for at gennemgå din ordre og betale igen."
       },
       "contact": {
         "title": "Oplysninger"
@@ -638,6 +646,9 @@
             "caption": "Få de funktioner, du har brug for at køre din butik, uanset om du starter ud eller skalerer op.",
             "header": "Sælg personligt.",
             "link_text": "Start gratis prøvel"
+          },
+          "open_a_store": {
+            "caption": "Start en 3-dages gratis prøveversion, derefter fortsætte i $ \/ måned i de næste 3 måneder."
           }
         },
         "title": "Opret en e-commerce hjemmeside og Sælg Online!  E-handel software af Shopify",
@@ -695,7 +706,9 @@
       "decrease": "Nedsæt {{type}}",
       "march": "marts",
       "showNextMonth": "Vis næste måned. {{month}}  {{year}}",
-      "closeModal": "Tæt"
+      "closeModal": "Tæt",
+      "inRange": "Inden for rækkevidde",
+      "january": "januar"
     },
     "orders": {
       "order_list": {
@@ -704,7 +717,8 @@
             "last_365_days": "De seneste 12 måneder",
             "title": "Bestillingsdato",
             "last_30_days": "Sidste 30 dage",
-            "last_7_days": "Sidste 7 dage"
+            "last_7_days": "Sidste 7 dage",
+            "custom": "Brugerdefinerede"
           },
           "clear_all": "Slet alt",
           "apply": "ansøge"
@@ -735,7 +749,8 @@
     },
     "order_details": {
       "edit_summary": {
-        "removed_with_quantities": "{{delta}} Af {{total}} Fjernet"
+        "removed_with_quantities": "{{delta}} Af {{total}} Fjernet",
+        "returned_with_quantities": "{{delta}} Af {{total}} Returneret:"
       }
     },
     "B2B": {

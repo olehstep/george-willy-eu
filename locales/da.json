@@ -486,7 +486,8 @@
           "incomplete_address_selected": "Vælg en komplet leveringsadresse for at se tilgængelige forsendelsesmetoder"
         },
         "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}",
-        "invalid_shipping_method_summary": "Indtast en gyldig leveringsadresse for at se tilgængelige forsendelsesmetoder"
+        "invalid_shipping_method_summary": "Indtast en gyldig leveringsadresse for at se tilgængelige forsendelsesmetoder",
+        "missing_shipping_address": "Forsendelsesadresse mangler"
       },
       "review": {
         "review_title": "Gennemgå ordre",
@@ -545,7 +546,10 @@
         "order_edit_banner_items_removed": {
           "with_quantities": "{{delta}} Af {{quantity}} Fjernet"
         },
-        "use_order_billing_address_label": "Brug ordre faktureringsadressen"
+        "use_order_billing_address_label": "Brug ordre faktureringsadressen",
+        "saved_credit_card_actions": {
+          "edit": "Redigere"
+        }
       },
       "stock": {
         "out_of_stock": {
@@ -559,7 +563,8 @@
         },
         "continue_cta_label": "Fortsæt kontrol",
         "item_label": {
-          "one": "{{count}} Poste"
+          "one": "{{count}} Poste",
+          "other": "{{count}} Poster"
         }
       },
       "billing": {
@@ -775,7 +780,8 @@
     },
     "profile_preview_bar": {
       "navigate_to_admin": "Naviger til administration",
-      "previewing": "Du forhåndsviser:"
+      "previewing": "Du forhåndsviser:",
+      "saved_at": "Gemt {{date}} I {{time}}"
     },
     "order_details": {
       "edit_summary": {

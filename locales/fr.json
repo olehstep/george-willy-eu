@@ -489,9 +489,13 @@
         "shipping_information_required_notice": "Les informations sur l'expédition sont obligatoires. {{link}}.",
         "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte?",
         "local_pickup": {
-          "rollup_title": "Lieu de ramassage"
+          "rollup_title": "Lieu de ramassage",
+          "search_address": "Rechercher l'adresse"
         },
-        "split_cart_merchandise_shipment_number": "Expédition %{number} De %{total}"
+        "split_cart_merchandise_shipment_number": "Expédition %{number} De %{total}",
+        "missing_shipping_address": "L'adresse de livraison est manquante",
+        "add_address": "Utilisez une adresse différente",
+        "address_edit": "Modifier l'adresse"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -606,7 +610,8 @@
         },
         "customer_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> n'est pas disponible pour vous pour le moment",
         "price_per_item": {
-          "label": "%{price} \/Ea"
+          "label": "%{price} \/Ea",
+          "accessibility_label": "%{price}  Par article"
         },
         "higher_value_discount_applied": "Le <strong style=\"text-transform:uppercase\">%{code}<\/strong> ne pouvait pas être utilisé avec vos réductions existantes. Vous avez déjà une meilleure combinaison.",
         "gift_card_and_discount_title": "Carte-cadeau ou code promo",
@@ -773,7 +778,8 @@
       "showPreviousMonth": "Afficher le mois précédent, {{month}}  {{year}}",
       "sundayAbbreviation": "Le sien",
       "thursdayAbbreviation": "E",
-      "april": "avril"
+      "april": "avril",
+      "saturdayAbbreviation": "sur"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",

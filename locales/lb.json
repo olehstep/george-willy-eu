@@ -256,7 +256,8 @@
         "stepper": {
           "minimum_reached": "Minimum vun {{value}} erreecht",
           "increase": "Erhéijung {{type}}",
-          "maximum_reached": "Maximum vun {{value}} erreecht"
+          "maximum_reached": "Maximum vun {{value}} erreecht",
+          "decrease": "erofgoen {{type}}"
         },
         "autocomplete_powered_by_google": "Ugedriwwe vun {{brandName}}",
         "list_formatter": {
@@ -545,7 +546,8 @@
         "subscription_heading": "Beschreiwung",
         "card_vaulted_company_location": "Kaart fir dës Plaz gespäichert",
         "order_edit_banner_single_item_returned": "Zréckkomm",
-        "billing_must_match_shipping_notice": "D'Rechnungsadress vun Ärer Bezuelmethod muss mat der Versandadress passen."
+        "billing_must_match_shipping_notice": "D'Rechnungsadress vun Ärer Bezuelmethod muss mat der Versandadress passen.",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Händler vun Record Konditioune"
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -678,7 +680,8 @@
         "shipping_address_title": "Schiff an",
         "shipping_information_required_notice": "Versandinformatioun ass erfuerderlech. {{link}}.",
         "shipping_method_combinations": {
-          "combination": "%{rest} an %{current}"
+          "combination": "%{rest} an %{current}",
+          "without_separator": "%{firstMethod}, %{secondMethod}"
         },
         "missing_shipping_address": "Versandadress feelt",
         "address_delete": "Adress läschen"
@@ -815,8 +818,12 @@
         "duties_and_taxes_label": "Flichten a Steieren",
         "calculating": "Berechent…",
         "discount_title_stacking": {
-          "one": "Remise"
-        }
+          "one": "Remise",
+          "other": "Remise"
+        },
+        "error_duties_tooltip": "Dës Bestellung gëtt aus engem anere Land geschéckt, sou datt Flichten a Steiere kënne bei der Liwwerung verrechent ginn.",
+        "alternative_payment_currency_total": "[@ 90000]",
+        "total_updated_label_with_price": "Aktualiséiert Gesamtpräis: %{totalPrice}"
       },
       "processing": {
         "wait": {
@@ -1829,7 +1836,8 @@
           "shared_location_button": "Benotzt meng Plaz",
           "errors": {
             "permission_not_allowed": "Erlaabt Är Location ze deelen.",
-            "unsuported_by_browser": "Geolocatioun kréien gëtt net vun Ärem Browser ënnerstëtzt. Probéiert nach eng Kéier oder benotzt en anere Browser."
+            "unsuported_by_browser": "Geolocatioun kréien gëtt net vun Ärem Browser ënnerstëtzt. Probéiert nach eng Kéier oder benotzt en anere Browser.",
+            "permission_denied": "Konnt Är Location net kréien. Versich et nach eng Kéier."
           }
         },
         "search_button": "Sichen",
@@ -2052,7 +2060,8 @@
         "price_descending": "Präis, héich bis niddreg",
         "az": "Alphabetesch, A-Z",
         "za": "Alphabetesch, Z-A",
-        "best_selling": "Beschte verkafen"
+        "best_selling": "Beschte verkafen",
+        "date_descending": "Datum, nei bis al"
       }
     },
     "sentence": {
@@ -2303,7 +2312,8 @@
         },
         "amazon_buy_with_prime": {
           "order_tracking_link": {
-            "text": "Leit an a verwieden"
+            "text": "Leit an a verwieden",
+            "new_window_disclaimer": "(maacht eng nei Fënster op)"
           }
         }
       },
@@ -2555,7 +2565,8 @@
         "title": "PO #{{poNumber}}",
         "empty_state": "Keng PO Nummer",
         "modal_po_number_input_max_length_error": "PO Zuelen hunn maximal {{maxLength}} Zeechen.",
-        "cancel": "Ofbriechen"
+        "cancel": "Ofbriechen",
+        "edit_modal_title": "Änneren PO Zuel"
       }
     },
     "account_information": {
@@ -2862,7 +2873,8 @@
         "removed": "Geläscht",
         "added_with_quantity": "{{quantity}} dobäigesat",
         "added": "Dobäigesat",
-        "returned_with_quantities": "{{delta}} A {{total}} Erfägt"
+        "returned_with_quantities": "{{delta}} A {{total}} Erfägt",
+        "returned": "Zréckkomm"
       },
       "marketing_checkbox_label": "E-Mail mech mat Neiegkeeten an Offeren",
       "paid_with_shop_pay_installments_card": {
@@ -3013,7 +3025,8 @@
       "removeTag": "Tag ewechhuelen",
       "tuesday": "Dënschdeg",
       "mondayAbbreviation": "Mo",
-      "september": "September"
+      "september": "September",
+      "saturday": "Samschdeg"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

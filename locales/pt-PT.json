@@ -484,7 +484,9 @@
         },
         "missing_shipping_address": "Falta o endereço de entrega",
         "title": "Envio",
-        "shipping_information_required_notice": "São necessárias informações de envio. {{link}}."
+        "shipping_information_required_notice": "São necessárias informações de envio. {{link}}.",
+        "split_cart_merchandise_quantity_label_additional": "+%{quantity} mais",
+        "invalid_shipping_method_summary": "Introduza uma morada de envio válida para ver os métodos de envio disponíveis"
       },
       "field_errors": {
         "address_phone_invalid": "Insira um número de telefone válido",
@@ -532,7 +534,8 @@
           "fields": {
             "default": "Definir como padrão",
             "billing": "projeto de lei para"
-          }
+          },
+          "done": "Feito"
         },
         "use_location_billing_address_label": "Utilizar o endereço de faturação da localização",
         "use_order_billing_address_label": "Utilizar o endereço de faturação da encomenda",
@@ -575,7 +578,8 @@
         "failed_pending_payment_page_title": "Há um problema com o seu pagamento",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Depois de concluir o pagamento, você receberá um e-mail de confirmação.  Acompanhe a sua encomenda através da aplicação Loja.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Depois de concluir o pagamento, você receberá um e-mail de confirmação.  Acompanhe a sua encomenda através da aplicação Loja.",
-        "thank_you_title_payments_app_failed_pending_payment": "Seu pagamento não pôde ser processado"
+        "thank_you_title_payments_app_failed_pending_payment": "Seu pagamento não pôde ser processado",
+        "order_status_payments_app_failed_pending_payment": "Você não foi cobrado pelo seu pedido.  Volte ao seu carrinho para rever a sua encomenda e pagar novamente."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -612,7 +616,8 @@
         "title": "Informações"
       },
       "customer_account": {
-        "invalid_address": "O endereço selecionado não é válido"
+        "invalid_address": "O endereço selecionado não é válido",
+        "invalid_shipping_method_summary": "Selecione um endereço de envio válido para visualizar os métodos de envio disponíveis"
       },
       "notice_banner": {
         "shipping_address_incomplete_title": "A morada de envio está incompleta"
@@ -628,7 +633,8 @@
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "one": "Não é possível enviar esta encomenda para o endereço que introduziu. Reveja o seu endereço para garantir que todos os campos foram introduzidos corretamente e tente de novo."
+          "one": "Não é possível enviar esta encomenda para o endereço que introduziu. Reveja o seu endereço para garantir que todos os campos foram introduzidos corretamente e tente de novo.",
+          "other": "Não é possível enviar alguns itens do seu carrinho para o endereço que introduziu. Reveja o seu endereço para garantir que todos os campos foram introduzidos corretamente e tente de novo."
         },
         "title": "Portes de envio não disponíveis"
       },

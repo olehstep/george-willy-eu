@@ -581,7 +581,9 @@
           "generic": "Não foi possível adicionar o cartão-presente ao checkout",
           "duplicate": "O cartão-presente já foi aplicado ao seu pedido",
           "currency_mismatch": "Só são aceites cartões-presente em %{shop_currency}",
-          "insufficient_funds": "Este vale-presente não tem mais fundos"
+          "insufficient_funds": "Este vale-presente não tem mais fundos",
+          "invalid": "Insira um vale-presente válido",
+          "not_available": "Este vale-presente não está mais disponível"
         }
       },
       "general": {
@@ -627,6 +629,9 @@
           "one": "Não é possível enviar esta encomenda para o endereço que introduziu. Reveja o seu endereço para garantir que todos os campos foram introduzidos corretamente e tente de novo."
         },
         "title": "Portes de envio não disponíveis"
+      },
+      "note": {
+        "length_exceeds_maximum": "Reduza o tamanho da nota para 5000 ou menos caracteres."
       }
     },
     "errors": {
@@ -635,7 +640,8 @@
           "fix_domain_link_text": "suas configurações de domínio",
           "fix_domain": "Termine de configurar seu novo endereço da Web, vá para %{domain_settings_link}.  Clique em \"Conectar domínio\" e digite: %{domain}.<br>Se estiver a ter problemas para entrar na sua loja, experimente a página %{forgot_your_store_link}.",
           "add_storefront": "Pode configurar o seu website adicionando o canal da Loja Online no seu %{admin_link}.  Se estiver a ter problemas para entrar na sua loja, experimente a página %{forgot_your_store_link}.",
-          "header": "Você é o dono da loja?"
+          "header": "Você é o dono da loja?",
+          "admin_link_text": "administrador"
         },
         "ctas": {
           "store_owner": {
@@ -697,7 +703,9 @@
       "thursday": "Quinta-feira",
       "saturday": "Sábado",
       "expandNotification": "Veja mais",
-      "submit": "Enviar"
+      "submit": "Enviar",
+      "july": "Julho",
+      "wednesdayAbbreviation": "Nós"
     },
     "order_details": {
       "edit_summary": {

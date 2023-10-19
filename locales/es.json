@@ -549,7 +549,8 @@
           "delete": "Borrar"
         },
         "expired_payment_method": "El método de pago seleccionado ha caducado",
-        "subscription_agreement_label": "Reconozco que estoy aceptando una suscripción. Se renovará al precio y con la frecuencia indicados hasta que finalice o se %{cancelled}."
+        "subscription_agreement_label": "Reconozco que estoy aceptando una suscripción. Se renovará al precio y con la frecuencia indicados hasta que finalice o se %{cancelled}.",
+        "purchase_options_agreement_label": "Entiendo que uno o más artículos de mi carrito son una compra diferida o recurrente. Al continuar, acepto la %{cancellation_policy_label} y autorizo que se apliquen cargos en mi forma de pago según los precios, la frecuencia y las fechas indicadas en esta página hasta que se prepare mi pedido o lo cancele, si está permitido."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -571,7 +572,8 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Después de completar su pago, recibirá un correo electrónico de confirmación.  Rastree su pedido utilizando la aplicación Shop.",
         "thank_you_title_payments_app_pending_buyer_action_required": "Su pedido fue recibido",
         "thank_you_title_payments_app_pending_default": "Su pago está siendo procesado",
-        "thank_you_title_payments_app_failed_pending_payment": "Su pago no pudo ser procesado"
+        "thank_you_title_payments_app_failed_pending_payment": "Su pago no pudo ser procesado",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Después de completar su pago, recibirá un correo electrónico de confirmación.  Rastree su pedido utilizando la aplicación Shop."
       },
       "general": {
         "map": {
@@ -634,7 +636,8 @@
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "one": "Este pedido no se puede enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo."
+          "one": "Este pedido no se puede enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo.",
+          "other": "Algunos artículos en tu carrito no se pueden enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo."
         },
         "title": "Envío no disponible"
       },
@@ -665,7 +668,8 @@
           },
           "sell_in_person": {
             "header": "Vender en persona",
-            "link_text": "Empiza la prueba gratuita"
+            "link_text": "Empiza la prueba gratuita",
+            "caption": "Obtenga las funciones que necesita para administrar su tienda minorista, ya sea que esté comenzando o escalando."
           },
           "store_owner": {
             "shopify_support_link_text": "Soporte técnico de Shopify",

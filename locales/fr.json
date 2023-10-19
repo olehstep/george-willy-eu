@@ -475,7 +475,8 @@
         "address_form": {
           "save": "Sauvegarder",
           "generic_error": "Il y a eu un problème pour sauvegarder votre adresse.  Veuillez réessayer.",
-          "add_address": "Ajoutez l'adresse"
+          "add_address": "Ajoutez l'adresse",
+          "one_time_address_subtitle": "Utilisez une adresse à usage unique pour cette commande"
         },
         "address_delete": "Supprimer l'adresse",
         "address_more": "Plus d'actions pour cette adresse",
@@ -565,8 +566,10 @@
         "use_order_billing_address_label": "Utiliser l'adresse de facturation de commande",
         "business_customer_vaulting_payment_label": "Enregistrez cette carte en vue de futurs achats pour cet emplacement. J’autorise %{company} à facturer ce moyen de paiement en vue de futurs achats pour cet emplacement. Tout contact attribué à cet emplacement est autorisé à utiliser cette carte.",
         "order_edit_banner_items_added": {
-          "one": "Ajoutée"
-        }
+          "one": "Ajoutée",
+          "other": "%{count} Ajouté"
+        },
+        "purchase_options_and_vaulting_agreement_label": "Au moins un article de votre panier est un achat différé ou récurrent. En poursuivant votre paiement, vous acceptez que votre moyen de paiement soit automatiquement facturé au prix et à la fréquence indiqués sur cette page, jusqu’à ce qu’ils prennent fin ou que vous choisissiez de les résilier. Toutes les résiliations sont soumises à la %{cancellation_policy_label}."
       },
       "stock": {
         "price_update": {
@@ -582,7 +585,8 @@
           "items_unavailable": "Certains articles ne sont plus disponibles et ont été supprimés de votre panier."
         },
         "items_unavailable_notice": "Certains articles ne sont plus disponibles. Votre panier a été mis à jour.",
-        "return_to_store_label": "Retour au magasin"
+        "return_to_store_label": "Retour au magasin",
+        "continue_cta_label": "Continuer le paiement"
       },
       "order_summary": {
         "discount_label": "code de réduction",
@@ -617,7 +621,9 @@
         "address_zip_too_long": "ZIP\/code postal est trop long (le maximum est de 255 caractères)",
         "credit_card_expiry_invalid": "Entrez une date d'expiration de carte valide",
         "address_phone_invalid": "Entrez un numéro de téléphone valide",
-        "tips_invalid_tip_amount": "Saisissez un pourboire inférieur ou égal à %{amount}"
+        "tips_invalid_tip_amount": "Saisissez un pourboire inférieur ou égal à %{amount}",
+        "reduction_code_discount_not_found": "Saisir un code de réduction valide",
+        "reduction_code_code_not_found": "Entrez un code de réduction ou une carte-cadeau valide"
       },
       "general": {
         "map": {
@@ -672,7 +678,8 @@
         "ctas": {
           "store_owner": {
             "caption": "Vous avez des difficultés à entrer dans votre magasin?  Essayez le %{forgot_your_store_link} Caractéristique.  Si vous souhaitez réactiver votre boutique contact %{shopify_support_link} .",
-            "header": "Êtes-vous le propriétaire du magasin ?"
+            "header": "Êtes-vous le propriétaire du magasin ?",
+            "shopify_support_link_text": "Assistance Shopify"
           },
           "sell_in_person": {
             "link_text": "Commencer l'essai gratuit",
@@ -684,7 +691,8 @@
           },
           "editions": {
             "link_text": "Explorez les dernières éditions",
-            "header": "Découvrez les éditions Shopify"
+            "header": "Découvrez les éditions Shopify",
+            "caption": "Avec plus de 100 mises à jour de produits, vous pouvez être plus productif et créatif, et puissant dans le commerce que vous n'auriez jamais imaginé."
           }
         },
         "owner_ctas": {
@@ -702,14 +710,17 @@
           "store_unavailable": "Désolé, ce magasin est actuellement indisponible.",
           "store_not_exist": "Ce magasin n'existe pas.",
           "no_storefront": "Ce magasin n'a pas encore de site web."
-        }
+        },
+        "title": "Créez un site Web de commerce électronique et vendez en ligne!  Logiciel de commerce électronique par Shopify"
       }
     },
     "notices": {
       "line_item": {
         "item_status": {
           "add_variant": "Ajouté %{delta}",
-          "increment_item": "Ajouté %{delta}"
+          "increment_item": "Ajouté %{delta}",
+          "decrement_item": "Supprimé %{delta} De %{total}",
+          "decrement_fulfilled_line_item": "Retourné %{delta} De %{total}"
         }
       }
     }
@@ -746,7 +757,9 @@
       "june": "juin",
       "july": "juillet",
       "rangeStart": "Début de l’intervalle",
-      "march": "mars"
+      "march": "mars",
+      "rangeEnd": "Fin de gamme",
+      "september": "septembre"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",

@@ -480,7 +480,8 @@
         "shipping_information_required_notice": "I dati di spedizione sono obbligatori. {{link}}.",
         "missing_shipping_address": "Manca l'indirizzo di spedizione",
         "delete": "Eliminare",
-        "edit": "Modificare"
+        "edit": "Modificare",
+        "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}"
       },
       "payment_errors": {
         "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
@@ -540,7 +541,8 @@
       },
       "customer_account": {
         "have_an_account_label": "Hai già un account?",
-        "invalid_address": "L'indirizzo selezionato non è valido"
+        "invalid_address": "L'indirizzo selezionato non è valido",
+        "invalid_shipping_method_summary": "Seleziona un indirizzo di spedizione valido per visualizzare i metodi di spedizione disponibili"
       },
       "field_errors": {
         "credit_card_month_invalid": "Inserisci un mese di scadenza carta valido",

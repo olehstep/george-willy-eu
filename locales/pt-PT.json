@@ -483,7 +483,8 @@
       },
       "field_errors": {
         "address_phone_invalid": "Insira um número de telefone válido",
-        "tips_invalid_tip_amount": "Introduzir uma gorjeta não superior a %{amount}"
+        "tips_invalid_tip_amount": "Introduzir uma gorjeta não superior a %{amount}",
+        "address_zip_too_long": "CEP \/ código postal é muito longo (máximo é de 255 caracteres)"
       },
       "stock": {
         "price_update": {
@@ -516,7 +517,8 @@
           "fields": {
             "default": "Definir como padrão"
           }
-        }
+        },
+        "use_location_billing_address_label": "Utilizar o endereço de faturação da localização"
       },
       "order_summary": {
         "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto",
@@ -528,7 +530,10 @@
           "other": "Encomendar descontos"
         },
         "gift_card_and_discount_label": "Cartão de oferta ou código de desconto",
-        "gift_card_and_discount_title": "Cartão de oferta ou código de desconto"
+        "gift_card_and_discount_title": "Cartão de oferta ou código de desconto",
+        "discount_title_stacking": {
+          "other": "descontos"
+        }
       },
       "review": {
         "blocks": {
@@ -539,7 +544,8 @@
       "thank_you": {
         "thank_you_title_payments_app_pending_default": "O seu pagamento está a ser processado",
         "order_status_payments_app_pending_payment_description_default_with_phone": "Você receberá um texto de confirmação em breve.  Acompanhe a sua encomenda através da aplicação Loja.",
-        "thank_you_payments_app_failed_pending_payment": "Você não foi cobrado pelo seu pedido.  Volte ao seu carrinho para rever a sua encomenda e pagar novamente."
+        "thank_you_payments_app_failed_pending_payment": "Você não foi cobrado pelo seu pedido.  Volte ao seu carrinho para rever a sua encomenda e pagar novamente.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Você receberá um e-mail de confirmação em breve.  Acompanhe a sua encomenda através da aplicação Loja."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -638,7 +644,8 @@
       "minimumReached": "Mínimo de {{value}} atingido",
       "maximumReached": "Máximo de {{value}} atingido",
       "august": "Agosto",
-      "monday": "Segunda-feira"
+      "monday": "Segunda-feira",
+      "tuesday": "Terça-feira"
     },
     "order_details": {
       "edit_summary": {

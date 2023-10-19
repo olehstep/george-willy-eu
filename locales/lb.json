@@ -238,7 +238,8 @@
         "title": "Checkout - {{shopName}}",
         "submit_for_review_button_label": "Gitt fir Iwwerpréiwung of",
         "stepper": {
-          "minimum_reached": "Minimum vun {{value}} erreecht"
+          "minimum_reached": "Minimum vun {{value}} erreecht",
+          "increase": "Erhéijung {{type}}"
         },
         "autocomplete_powered_by_google": "Ugedriwwe vun {{brandName}}",
         "list_formatter": {
@@ -735,7 +736,8 @@
           "accessibility_label": "%{price} Per item"
         },
         "gift_card_masked": "•••• %{last_characters}",
-        "recurring_payments": "Widderhuelend Bezuelungen"
+        "recurring_payments": "Widderhuelend Bezuelungen",
+        "group_title_label": "Deel vun \"%{group_title}\""
       },
       "processing": {
         "wait": {
@@ -849,7 +851,8 @@
         "address_country_invalid": "Wielt e Land \/ Regioun aus der Lëscht",
         "address_phone_invalid": "Gitt eng valabel Telefonsnummer",
         "payment_gateway_incompatible_with_multi_currency": "Fir dës Kees an Ärer lokaler Währung ofzeschléissen, musst Dir mat Kreditkaart bezuelen.",
-        "address_zip_invalid_for_province": "Gitt e gültege Postcode \/ Postcode fir %{province}"
+        "address_zip_invalid_for_province": "Gitt e gültege Postcode \/ Postcode fir %{province}",
+        "gift_card_invalid": "Geschenkkaart \"••••%{last_four_characters}\" ass net méi valabel"
       },
       "thank_you": {
         "branded_promise": {
@@ -1453,7 +1456,8 @@
           "no_address": "(Keng Adress)",
           "due_after_order_reviewed_html": "Wéinst no Bestellung iwwerpréift",
           "purchase_order_number_title": "PO Nummer",
-          "no_purchase_order_number": "(Keng PO Nummer)"
+          "no_purchase_order_number": "(Keng PO Nummer)",
+          "review_title_free_order": "Äer Ordég Rebekachen"
         },
         "review_title": "Iwwerpréiwen Uerdnung",
         "checkout_as_guest": "Kees als Gaascht",
@@ -1718,7 +1722,8 @@
       "no_address_location": {
         "header": "Dir hutt keng Versandadress fir dës Plaz",
         "message": "Kontaktéiert eis fir eng Adress fir dës Plaz ze addéieren fir d'Kasse komplett ze maachen.",
-        "email_us_button_label": "Schéckt eis eng E-Mail"
+        "email_us_button_label": "Schéckt eis eng E-Mail",
+        "title": "Location ouni Adress"
       },
       "markets": {
         "invalid_market_manager_error": "Informatiounen vun den Kontakt ierder ierder Betaat erfléiten"
@@ -1760,7 +1765,11 @@
       "billing": {
         "same_as_shipping": "Selwecht wéi Versandadress",
         "address_more": "Méi Aktiounen fir dës Adress",
-        "delete": "Läschen"
+        "delete": "Läschen",
+        "address_form": {
+          "cancel": "Ofbriechen"
+        },
+        "address_delete": "Adress läschen"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -2142,6 +2151,9 @@
         },
         "gift_card_label": {
           "other": "Kaddoskaarten"
+        },
+        "delivered_description_gift_card": {
+          "one": "Geschenkkaart gouf per E-Mail geschéckt."
         }
       },
       "list_layout_accessibility_label": "Layout Optiounen",
@@ -2336,7 +2348,8 @@
         "title": "Wéi eng Plaz kaaft Dir fir?",
         "selection_confirmation_button": "Wielt Plaz",
         "list_loading_address_accessibility_message": "Luede Adress fir {{locationName}}",
-        "no_location_title": "Nëmme perséinlech Bestellungen"
+        "no_location_title": "Nëmme perséinlech Bestellungen",
+        "search_location_title": "Wielt eng Plaz"
       },
       "payment_methods": {
         "payment_delete": {
@@ -2808,7 +2821,8 @@
       "february": "Februar",
       "rangeStart": "Range Start",
       "month": {
-        "other": "Monten"
+        "other": "Monten",
+        "one": "Mount"
       },
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Elemente verfügbart",
@@ -2817,7 +2831,10 @@
       "wednesday": "Mëttwoch",
       "decrease": "Verlengden {{type}}",
       "showNextMonth": "Weis de noch Mes, {{month}}  {{year}}",
-      "august": "August"
+      "august": "August",
+      "october": "Oktober",
+      "june": "Juni",
+      "march": "Mäerz"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

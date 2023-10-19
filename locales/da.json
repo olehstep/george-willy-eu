@@ -534,7 +534,10 @@
           "items_unavailable": "Nogle varer er ikke længere tilgængelige og er blevet fjernet fra din kurv."
         },
         "items_unavailable_notice": "Nogle varer er ikke længere tilgængelige. Din indkøbskurv er blevet opdateret.",
-        "return_to_store_label": "Tilbage til butikken"
+        "return_to_store_label": "Tilbage til butikken",
+        "price_update": {
+          "description": "Priserne for disse varer har ændret sig og opdateres i din kurv."
+        }
       },
       "billing": {
         "same_as_shipping": "Samme som leveringsadresse",
@@ -651,14 +654,16 @@
       "showPreviousMonth": "Vis forrige måned, {{month}}  {{year}}",
       "increase": "Forøger {{type}}",
       "october": "oktober",
-      "september": "september"
+      "september": "september",
+      "rangeEnd": "Rækkevidde ende"
     },
     "orders": {
       "order_list": {
         "filter": {
           "date": {
             "last_365_days": "De seneste 12 måneder",
-            "title": "Bestillingsdato"
+            "title": "Bestillingsdato",
+            "last_30_days": "Sidste 30 dage"
           },
           "clear_all": "Slet alt",
           "apply": "ansøge"
@@ -686,6 +691,11 @@
     },
     "profile_preview_bar": {
       "navigate_to_admin": "Naviger til administration"
+    },
+    "order_details": {
+      "edit_summary": {
+        "removed_with_quantities": "{{delta}} Af {{total}} Fjernet"
+      }
     }
   }
 }

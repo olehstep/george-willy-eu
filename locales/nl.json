@@ -485,7 +485,9 @@
         "add_delivery_instructions": "Leveringsinstructies toevoegen",
         "edit": "Bewerking",
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Artikelen",
-        "merchandise_quantity_label_inline": "× %{quantity}   %{merchandise_title}"
+        "merchandise_quantity_label_inline": "× %{quantity}   %{merchandise_title}",
+        "split_cart_merchandise_shipment_number": "Verzending %{number} Van %{total}",
+        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Meer"
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
@@ -551,7 +553,8 @@
         },
         "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?",
         "add_address": "Gebruik een ander adres",
-        "same_as_shipping": "Hetzelfde als verzendadres"
+        "same_as_shipping": "Hetzelfde als verzendadres",
+        "address_edit": "Verander adres"
       },
       "stock": {
         "price_update": {
@@ -622,6 +625,12 @@
       },
       "contact": {
         "title": "Informatie"
+      },
+      "notice_banner": {
+        "shipping_address_incomplete_title": "Het verzendadres is onvolledig"
+      },
+      "payment_errors": {
+        "invalid_expiry_date": "Voer een geldige vervaldatum voor de kaart in"
       }
     },
     "errors": {
@@ -686,7 +695,8 @@
       "showNextMonth": "Laat volgende maand zien, {{month}}  {{year}}",
       "autocompleteOptionsAvailable": {
         "one": "{{count}} Item beschikbaar"
-      }
+      },
+      "tuesday": "Dinsdag"
     },
     "orders": {
       "order_list": {

@@ -597,7 +597,8 @@
         "owner_ctas": {
           "forgot_your_store_link_text": "Har glemt din butik.",
           "header": "Er du butiksejer?",
-          "add_storefront": "Du kan oprette din hjemmeside ved at tilføje Online Store kanal i dine %{admin_link} .  Hvis du har problemer med at komme ind i din butik, så prøv... %{forgot_your_store_link} Side."
+          "add_storefront": "Du kan oprette din hjemmeside ved at tilføje Online Store kanal i dine %{admin_link} .  Hvis du har problemer med at komme ind i din butik, så prøv... %{forgot_your_store_link} Side.",
+          "fix_domain_link_text": "Dine domæneindstillinger"
         },
         "heros": {
           "no_storefront": "Denne butik har ikke en hjemmeside endnu.",
@@ -620,7 +621,10 @@
         "other": "{{count}} Tilgængelige elementer"
       },
       "expandNotification": "Se mere",
-      "closeNotification": "Tæt"
+      "closeNotification": "Tæt",
+      "saturday": "lørdag",
+      "july": "juli",
+      "tuesdayAbbreviation": "Du"
     },
     "orders": {
       "order_list": {

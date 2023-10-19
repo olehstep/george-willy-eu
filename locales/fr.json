@@ -588,7 +588,8 @@
       "shipping_errors": {
         "shipping_method_not_available_generic": {
           "other": "Certains articles de votre panier ne peuvent pas être expédiés à l'adresse que vous avez saisie. Vérifiez que tous les champs de votre adresse ont été renseignés correctement, puis réessayez."
-        }
+        },
+        "title": "Expédition non disponible"
       },
       "address_management": {
         "confirm_address_deletion": "Voulez-vous vraiment supprimer l'adresse {{address}} ?"
@@ -615,10 +616,13 @@
           "add_storefront": "Vous pouvez configurer votre site Web en ajoutant le canal Boutique en ligne dans votre %{admin_link} .  Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page."
         },
         "links": {
-          "start_free_trial": "Commencer un essai gratuit"
+          "start_free_trial": "Commencer un essai gratuit",
+          "explore_other_stores": "Explorez d'autres magasins"
         },
         "heros": {
-          "store_unavailable": "Désolé, ce magasin est actuellement indisponible."
+          "store_unavailable": "Désolé, ce magasin est actuellement indisponible.",
+          "store_not_exist": "Ce magasin n'existe pas.",
+          "no_storefront": "Ce magasin n'a pas encore de site web."
         }
       }
     },
@@ -650,11 +654,14 @@
       "february": "février",
       "showNextMonth": "Spectacle le mois prochain, {{month}}  {{year}}",
       "january": "janvier",
-      "december": "décembre"
+      "december": "décembre",
+      "thursday": "jeudi"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",
-      "hide_bar": "Cacher la barre"
+      "hide_bar": "Cacher la barre",
+      "saved_at": "Sauvé {{date}} À {{time}}",
+      "navigate_to_admin": "Naviguer vers admin"
     },
     "orders": {
       "order_list": {
@@ -667,7 +674,8 @@
         }
       },
       "order_status": {
-        "attempted_to_deliver_label": "Tenté de livrer"
+        "attempted_to_deliver_label": "Tenté de livrer",
+        "there_was_a_problem_label": "Il y avait un problème"
       }
     },
     "B2B": {

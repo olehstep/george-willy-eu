@@ -473,7 +473,9 @@
         },
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Artículos",
         "different_shipping_method_summary": "Ingrese una dirección de envío diferente para ver los métodos de envío disponibles",
-        "add_delivery_instructions": "Añadir instrucciones de entrega"
+        "add_delivery_instructions": "Añadir instrucciones de entrega",
+        "enter_address_manually_label": "Ingresar la dirección manualmente",
+        "shipping_information_required_notice": "La información de envío es obligatoria. {{link}}."
       },
       "order_summary": {
         "price_per_item": {
@@ -590,7 +592,8 @@
             "header": "Abrir una nueva tienda Shopify"
           },
           "editions": {
-            "caption": "Con más de 100 actualizaciones de productos, puede ser más productivo y creativo, y poderoso en el comercio de lo que nunca imaginó."
+            "caption": "Con más de 100 actualizaciones de productos, puede ser más productivo y creativo, y poderoso en el comercio de lo que nunca imaginó.",
+            "header": "Echa un vistazo a las ediciones de Shopify"
           }
         },
         "owner_ctas": {
@@ -637,7 +640,9 @@
       "tuesdayAbbreviation": "Que",
       "rangeEnd": "Extremo de rango",
       "rangeStart": "Inicio de rango",
-      "increase": "Aumento {{type}}"
+      "increase": "Aumento {{type}}",
+      "removeTag": "Remover etiqueta",
+      "thursdayAbbreviation": "el"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",

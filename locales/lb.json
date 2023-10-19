@@ -226,7 +226,8 @@
         "autocomplete_powered_by_google": "Ugedriwwe vun {{brandName}}",
         "list_formatter": {
           "or": {
-            "twoWordConnector": "{{firstWord}} oder {{secondWord}}"
+            "twoWordConnector": "{{firstWord}} oder {{secondWord}}",
+            "wordConnector": "{{previousWords}}, {{anotherWord}}"
           },
           "and": {
             "wordConnector": "{{previousWords}}, {{anotherWord}}",
@@ -580,7 +581,9 @@
         "address_form": {
           "generic_error": "Et ass e Problem ze späicheren.  Probéiert w.e.g. nach eng Kéier."
         },
-        "add_delivery_instructions": "Leaver- Instruktiounen bäifügen"
+        "add_delivery_instructions": "Leaver- Instruktiounen bäifügen",
+        "address_confirm": "Wëllt Dir wier dës Adress op déi Kont geläichen?",
+        "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}"
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -700,7 +703,8 @@
         "price_per_item": {
           "accessibility_label": "%{price} Per item"
         },
-        "gift_card_masked": "•••• %{last_characters}"
+        "gift_card_masked": "•••• %{last_characters}",
+        "recurring_payments": "Widderhuelend Bezuelungen"
       },
       "processing": {
         "wait": {
@@ -813,7 +817,8 @@
         "vaulting_agreement_blank": "Fir weiderzemaachen, musst Dir Är nei Kreditkaart späicheren, well d'Bezuelung fir dës Bestellung zu engem spéideren Datum geschitt.",
         "address_country_invalid": "Wielt e Land \/ Regioun aus der Lëscht",
         "address_phone_invalid": "Gitt eng valabel Telefonsnummer",
-        "payment_gateway_incompatible_with_multi_currency": "Fir dës Kees an Ärer lokaler Währung ofzeschléissen, musst Dir mat Kreditkaart bezuelen."
+        "payment_gateway_incompatible_with_multi_currency": "Fir dës Kees an Ärer lokaler Währung ofzeschléissen, musst Dir mat Kreditkaart bezuelen.",
+        "address_zip_invalid_for_province": "Gitt e gültege Postcode \/ Postcode fir %{province}"
       },
       "thank_you": {
         "branded_promise": {
@@ -1054,7 +1059,8 @@
         },
         "thank_you_title_payments_app_pending_default": "Äer Betaaun",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Nei Äer Betaal erfléidt, mer dir e-Postum vunt.  Schéckt.",
-        "thank_you_payments_app_failed_pending_payment": "Dir büst net fir Äer Ordeert.  D'Geier"
+        "thank_you_payments_app_failed_pending_payment": "Dir büst net fir Äer Ordeert.  D'Geier",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "D'E-Mail, déi Dir aginn hutt, existéiert schonn."
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1599,7 +1605,8 @@
             "last_name": "Gitt e Familljennumm",
             "first_name": "Gitt e Virnumm",
             "address2": "Gitt en Appartement, Suite, etc.",
-            "zip": "Gitt e Postcode \/ Postleitzuel un"
+            "zip": "Gitt e Postcode \/ Postleitzuel un",
+            "province": "Wielt e Staat \/ Provënz"
           },
           "unavailable": {
             "instructions": "Et gouf e Problem mat {{walletName}}. Zréck an de Buttek fir nach eng Kéier ze probéieren oder op eng aner Manéier ze kucken.",
@@ -1635,7 +1642,10 @@
           "selected_page": {
             "other": "%{first} - %{last} vun %{count} Punkten"
           },
-          "next_accessibility_label": "Nächst Säit"
+          "next_accessibility_label": "Nächst Säit",
+          "header": {
+            "one": "Weist %{first} - %{last} vum %{count} Punkt"
+          }
         },
         "or": "oder",
         "selector_tab_list": "Lëscht",
@@ -2002,7 +2012,8 @@
           "date": {
             "today": "Haut",
             "last_365_days": "Lescht 12 Maanden",
-            "last_30_days": "Lescht 30 Deeg"
+            "last_30_days": "Lescht 30 Deeg",
+            "last_90_days": "Lescht 90 Deeg"
           }
         }
       },
@@ -2078,7 +2089,8 @@
         },
         "gift_card_resend_text": {
           "one": "Text erëm schécken"
-        }
+        },
+        "attempted_to_deliver_label": "Fäichen"
       },
       "list_layout_accessibility_label": "Layout Optiounen",
       "status_title": "Bestellung Status",
@@ -2693,7 +2705,8 @@
       "delete_button": "Läschen",
       "no_addresses_banner": "Keng Adressen dobäigesat",
       "back_button_accessibility_label": "Zréck op d'Editiounsadress {{address}}",
-      "add_button_accessibility_label": "Add Adress"
+      "add_button_accessibility_label": "Add Adress",
+      "add_button_text": "Addéieren"
     },
     "payment_method_brands": {
       "googlepay": "Google Pay",

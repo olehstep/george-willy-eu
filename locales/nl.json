@@ -525,7 +525,8 @@
       "thank_you": {
         "order_status_payments_app_failed_pending_payment": "Je bent niet aangeklaagd voor je bestelling.  Ga terug naar uw winkelwagen om uw bestelling te bekijken en betaal opnieuw.",
         "thank_you_title_payments_app_failed_pending_payment": "Uw betaling kon niet worden verwerkt",
-        "thank_you_title_payments_app_pending_buyer_action_required": "Uw bestelling is ontvangen"
+        "thank_you_title_payments_app_pending_buyer_action_required": "Uw bestelling is ontvangen",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Na het voltooien van uw betaling, krijgt u een bevestigingstekst.  Volg uw bestelling met behulp van de Shop-app."
       },
       "billing": {
         "billing_address_title": "Rekening naar",

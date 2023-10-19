@@ -478,7 +478,8 @@
         },
         "enter_address_manually_label": "Inserisci l'indirizzo manualmente",
         "shipping_information_required_notice": "I dati di spedizione sono obbligatori. {{link}}.",
-        "missing_shipping_address": "Manca l'indirizzo di spedizione"
+        "missing_shipping_address": "Manca l'indirizzo di spedizione",
+        "delete": "Eliminare"
       },
       "payment_errors": {
         "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
@@ -503,13 +504,15 @@
           "edit": "Modificare"
         },
         "gift_card_wrapper": {
-          "apply_another_gift_card_label": "Applica un'altra carta regalo"
+          "apply_another_gift_card_label": "Applica un'altra carta regalo",
+          "gift_card_label": "Carta regalo %{identifier}"
         },
         "use_order_billing_address_label": "Utilizza l'indirizzo di fatturazione dell'ordine",
         "edit_credit_card_modal": {
           "fields": {
             "card_number": "Numero di carta",
-            "billing": "Fatturare a"
+            "billing": "Fatturare a",
+            "name": "nome sulla carta"
           }
         },
         "use_location_shipping_address_label": "Utilizza l'indirizzo di spedizione della posizione",
@@ -696,7 +699,8 @@
     "ui_components": {
       "february": "febbraio",
       "autocompleteOptionsAvailable": {
-        "one": "{{count}} Articolo disponibile"
+        "one": "{{count}} Articolo disponibile",
+        "other": "{{count}} Articoli disponibili"
       },
       "decrease": "Diminuzione {{type}}",
       "expandNotification": "Visualizza di più",
@@ -719,7 +723,8 @@
       "thursdayAbbreviation": "Th",
       "tuesday": "Martedì",
       "november": "novembre",
-      "october": "ottobre"
+      "october": "ottobre",
+      "fridayAbbreviation": "Fr"
     },
     "profile_preview_bar": {
       "previewing": "Stai visualizzando in anteprima:",

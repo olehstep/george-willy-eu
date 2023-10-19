@@ -472,7 +472,8 @@
         "split_cart_merchandise_shipment_number": "Transferência %{number} de %{total}",
         "add_address": "Usar um endereço diferente",
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Itens",
-        "address_edit": "Editar Endereço"
+        "address_edit": "Editar Endereço",
+        "address_delete": "Excluir endereço"
       },
       "field_errors": {
         "address_phone_invalid": "Insira um número de telefone válido",
@@ -499,7 +500,10 @@
           "delete": "Excluir"
         },
         "use_location_shipping_address_label": "Utilize a morada de envio da localização",
-        "business_customer_vaulting_payment_label": "Guarde este cartão para compras futuras neste local. Autorizo %{company} a utilizar este método de pagamento em compras futuras neste local. Qualquer contato atribuído a este local está autorizado a utilizar o cartão."
+        "business_customer_vaulting_payment_label": "Guarde este cartão para compras futuras neste local. Autorizo %{company} a utilizar este método de pagamento em compras futuras neste local. Qualquer contato atribuído a este local está autorizado a utilizar o cartão.",
+        "order_edit_banner_items_returned": {
+          "in_full": "Retornou"
+        }
       },
       "order_summary": {
         "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto",
@@ -509,7 +513,8 @@
         },
         "discount_order_stacking": {
           "other": "Encomendar descontos"
-        }
+        },
+        "gift_card_and_discount_label": "Cartão de oferta ou código de desconto"
       },
       "review": {
         "blocks": {
@@ -547,6 +552,9 @@
       },
       "contact": {
         "title": "Informações"
+      },
+      "customer_account": {
+        "invalid_address": "O endereço selecionado não é válido"
       }
     },
     "errors": {
@@ -600,7 +608,8 @@
       "closeNotification": "Perto",
       "march": "Marchar",
       "january": "Janeiro",
-      "minimumReached": "Mínimo de {{value}} atingido"
+      "minimumReached": "Mínimo de {{value}} atingido",
+      "maximumReached": "Máximo de {{value}} atingido"
     },
     "order_details": {
       "edit_summary": {

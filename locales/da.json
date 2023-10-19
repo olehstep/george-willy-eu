@@ -469,7 +469,8 @@
         "local_pickup": {
           "rollup_title": "Opsamlingssted"
         },
-        "enter_address_manually_label": "Indtast adresse manuelt"
+        "enter_address_manually_label": "Indtast adresse manuelt",
+        "different_shipping_method_summary": "Indtast en anden leveringsadresse for at se tilgængelige forsendelsesmetoder"
       },
       "review": {
         "review_title": "Gennemgå ordre",
@@ -531,7 +532,8 @@
       },
       "order_summary": {
         "price_per_item": {
-          "accessibility_label": "%{price} Produkter"
+          "accessibility_label": "%{price} Produkter",
+          "label": "%{price} \/Ea"
         },
         "discount_order_stacking": {
           "other": "Ordrerrabatt"
@@ -559,6 +561,9 @@
       },
       "contact": {
         "title": "Oplysninger"
+      },
+      "customer_account": {
+        "have_an_account_label": "Har du allerede en konto?"
       }
     },
     "errors": {

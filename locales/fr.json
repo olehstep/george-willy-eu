@@ -534,7 +534,8 @@
         "out_of_stock": {
           "description": "Ces articles ne sont plus disponibles et ont été supprimés de votre panier."
         },
-        "items_unavailable_notice": "Certains articles ne sont plus disponibles. Votre panier a été mis à jour."
+        "items_unavailable_notice": "Certains articles ne sont plus disponibles. Votre panier a été mis à jour.",
+        "return_to_store_label": "Retour au magasin"
       },
       "order_summary": {
         "discount_label": "code de réduction",
@@ -583,7 +584,8 @@
       "shop_404": {
         "ctas": {
           "store_owner": {
-            "caption": "Vous avez des difficultés à entrer dans votre magasin?  Essayez le %{forgot_your_store_link} Caractéristique.  Si vous souhaitez réactiver votre boutique contact %{shopify_support_link} ."
+            "caption": "Vous avez des difficultés à entrer dans votre magasin?  Essayez le %{forgot_your_store_link} Caractéristique.  Si vous souhaitez réactiver votre boutique contact %{shopify_support_link} .",
+            "header": "Êtes-vous le propriétaire du magasin ?"
           },
           "sell_in_person": {
             "link_text": "Commencer l'essai gratuit"
@@ -600,6 +602,9 @@
         },
         "links": {
           "start_free_trial": "Commencer un essai gratuit"
+        },
+        "heros": {
+          "store_unavailable": "Désolé, ce magasin est actuellement indisponible."
         }
       }
     },
@@ -627,7 +632,8 @@
       "minimumReached": "Minimum de {{value}} Atteint",
       "fridayAbbreviation": "Ve",
       "august": "août",
-      "mondayAbbreviation": "mois"
+      "mondayAbbreviation": "mois",
+      "february": "février"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",

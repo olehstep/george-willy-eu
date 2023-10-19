@@ -394,7 +394,8 @@
         "gift_card_wrapper": {
           "apply_gift_card_label": "Gëlle eng Cadeau Kaart",
           "payment_tag": "Geschenkkaart",
-          "heading": "Geschenkkaart"
+          "heading": "Geschenkkaart",
+          "apply_another_gift_card_label": "Anere Giftkaartwengen"
         },
         "waiting_on_taxes_notice": "Beschel",
         "purchase_order_number": {
@@ -456,7 +457,14 @@
         "saved_credit_card_actions": {
           "edit": "Edit"
         },
-        "use_location_billing_address_label": "Adress Plétt benotz"
+        "use_location_billing_address_label": "Adress Plétt benotz",
+        "multibanco_label": "Geldautomaten",
+        "delete_credit_card_modal": {
+          "title": "Kaarter ewesselen"
+        },
+        "order_edit_banner_items_added": {
+          "one": "Dobäigesat"
+        }
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -795,7 +803,8 @@
         "address_zip_invalid": "Gitt e gültege Postcode \/ Postcode an",
         "vaulting_agreement_blank": "Fir weiderzemaachen, musst Dir Är nei Kreditkaart späicheren, well d'Bezuelung fir dës Bestellung zu engem spéideren Datum geschitt.",
         "address_country_invalid": "Wielt e Land \/ Regioun aus der Lëscht",
-        "address_phone_invalid": "Gitt eng valabel Telefonsnummer"
+        "address_phone_invalid": "Gitt eng valabel Telefonsnummer",
+        "payment_gateway_incompatible_with_multi_currency": "Fir dës Kees an Ärer lokaler Währung ofzeschléissen, musst Dir mat Kreditkaart bezuelen."
       },
       "thank_you": {
         "branded_promise": {
@@ -1227,7 +1236,9 @@
         "expired_card": "Är Kaart ass ofgelaf. Benotzt eng aner Bezuelmethod.",
         "method_not_available": "D' Gefraagt betenmetode ass net verfügbar.",
         "transient_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Bezuelung. Probéiert dës Säit z'erfrëschen oder kontrolléiert Är Internetverbindung.",
-        "cannot_verify": "Är Bezuelungsdetailer konnten net verifizéiert ginn. Kontrolléiert Är Kaartdetailer a probéiert nach eng Kéier."
+        "cannot_verify": "Är Bezuelungsdetailer konnten net verifizéiert ginn. Kontrolléiert Är Kaartdetailer a probéiert nach eng Kéier.",
+        "call_issuer": "Är Kaart gouf refuséiert. Benotzt eng aner Bezuelmethod oder kontaktéiert Är Bank fir méi Informatioun.",
+        "invalid_number": "Gitt eng valabel Kaart Zuel"
       },
       "post_purchase": {
         "title": "Post-Akaaf",
@@ -1332,7 +1343,8 @@
         },
         "item_label": {
           "one": "{{count}} Deelett"
-        }
+        },
+        "continue_cta_label": "Control weider"
       },
       "shop_policies": {
         "shipping_policy": "Versandpolitik",
@@ -1551,7 +1563,8 @@
         "cancel": "Ofbriechen",
         "your_location": "Är Plaz",
         "reveal_more_label": {
-          "other": "Show %{count} méi Plazen"
+          "other": "Show %{count} méi Plazen",
+          "one": "Show %{count} méi Location"
         },
         "no_stores_found": "Keng Geschäfter fonnt"
       },
@@ -2512,7 +2525,8 @@
           "view_schedule": "Kuckt Zäitplang"
         },
         "manual_payment_methods": {
-          "cash_on_delivery": "Cash bei Liwwerung (COD) - {{formattedTransactionAmount}}"
+          "cash_on_delivery": "Cash bei Liwwerung (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bank Depot - {{formattedTransactionAmount}}"
         },
         "gift_card_payment_details": "Enn mat {{lastDigits}} - {{formattedTransactionAmount}}"
       },

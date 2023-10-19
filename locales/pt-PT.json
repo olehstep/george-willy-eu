@@ -471,10 +471,12 @@
         },
         "split_cart_merchandise_shipment_number": "Transferência %{number} de %{total}",
         "add_address": "Usar um endereço diferente",
-        "split_cart_merchandise_quantity_label_standard": "%{quantity} Itens"
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} Itens",
+        "address_edit": "Editar Endereço"
       },
       "field_errors": {
-        "address_phone_invalid": "Insira um número de telefone válido"
+        "address_phone_invalid": "Insira um número de telefone válido",
+        "tips_invalid_tip_amount": "Introduzir uma gorjeta não superior a %{amount}"
       },
       "stock": {
         "price_update": {
@@ -496,7 +498,8 @@
         "saved_credit_card_actions": {
           "delete": "Excluir"
         },
-        "use_location_shipping_address_label": "Utilize a morada de envio da localização"
+        "use_location_shipping_address_label": "Utilize a morada de envio da localização",
+        "business_customer_vaulting_payment_label": "Guarde este cartão para compras futuras neste local. Autorizo %{company} a utilizar este método de pagamento em compras futuras neste local. Qualquer contato atribuído a este local está autorizado a utilizar o cartão."
       },
       "order_summary": {
         "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto",
@@ -538,6 +541,9 @@
       },
       "payment_errors": {
         "invalid_expiry_date": "Introduza uma data de expiração válida"
+      },
+      "contact": {
+        "title": "Informações"
       }
     },
     "errors": {
@@ -561,7 +567,10 @@
             "header": "Confira as edições do Shopify"
           }
         },
-        "title": "Crie um site de comércio eletrônico e venda on-line!  Software de comércio eletrônico da Shopify"
+        "title": "Crie um site de comércio eletrônico e venda on-line!  Software de comércio eletrônico da Shopify",
+        "heros": {
+          "no_storefront": "Esta loja ainda não tem um site."
+        }
       }
     },
     "notices": {
@@ -586,7 +595,8 @@
       "february": "Fevereiro",
       "mondayAbbreviation": "Mo",
       "closeNotification": "Perto",
-      "march": "Marchar"
+      "march": "Marchar",
+      "january": "Janeiro"
     },
     "order_details": {
       "edit_summary": {

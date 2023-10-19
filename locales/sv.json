@@ -123,7 +123,8 @@
     "ui_components": {
       "rangeEnd": "Räckviddens slut",
       "wednesdayAbbreviation": "Vi",
-      "processing": "Bearbetar..."
+      "processing": "Bearbetar...",
+      "decrease": "Minska {{type}}"
     }
   },
   "contact": {
@@ -421,7 +422,8 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "shipping_method_notice": "Observera: Beställningar kan inte ändras eller annulleras när de väl har lagts. För att ändra en beställning, följ policyn för returer och byten."
+        "shipping_method_notice": "Observera: Beställningar kan inte ändras eller annulleras när de väl har lagts. För att ändra en beställning, följ policyn för returer och byten.",
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} Poster"
       },
       "stock": {
         "out_of_stock": {
@@ -431,6 +433,16 @@
       "review": {
         "blocks": {
           "review_title_free_order": "Granska och slutför din beställning"
+        }
+      },
+      "order_summary": {
+        "shipping_default_value": "Beräknas vid nästa steg"
+      }
+    },
+    "notices": {
+      "line_item": {
+        "item_status": {
+          "decrement_item": "Borttagen %{delta} Av %{total}"
         }
       }
     }

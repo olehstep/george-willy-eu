@@ -462,7 +462,31 @@
     "checkout": {
       "shipping": {
         "shipping_method_notice": "Tenga en cuenta: los pedidos no se pueden cambiar ni cancelar una vez realizados. Para cambiar un pedido, siga la política de devoluciones y cambios."
+      },
+      "order_summary": {
+        "price_per_item": {
+          "accessibility_label": "%{price} Por artículo"
+        },
+        "discount_order_stacking": {
+          "one": "Descuento de pedido"
+        }
+      },
+      "payment": {
+        "purchase_options_agreement_label_wallets": "Al continuar con su pago, usted acepta los cargos futuros que figuran en esta página y la política de cancelación.",
+        "gift_card_wrapper": {
+          "apply_another_gift_card_label": "Aplicar otra tarjeta de regalo"
+        }
       }
+    }
+  },
+  "customer_accounts": {
+    "ui_components": {
+      "maximumReached": "Máximo de {{value}} Alcanzada",
+      "showNextMonth": "Mostrar el próximo mes, {{month}}  {{year}}",
+      "wednesdayAbbreviation": "Nosotros"
+    },
+    "profile_preview_bar": {
+      "previewing": "Estás previsualizando:"
     }
   }
 }

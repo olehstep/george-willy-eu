@@ -544,7 +544,8 @@
           "start_free_trial": "Inizia una prova gratuita"
         }
       },
-      "reset_password_html": "Questo indirizzo e‑mail è già associato ad un account. Se l'account è tuo, puoi <a href=\"\/account\/login#recover\">resettare la tua password<\/a>"
+      "reset_password_html": "Questo indirizzo e‑mail è già associato ad un account. Se l'account è tuo, puoi <a href=\"\/account\/login#recover\">resettare la tua password<\/a>",
+      "invalid_email": "l'indirizzo e‑mail deve essere valido"
     },
     "notices": {
       "line_item": {
@@ -567,7 +568,8 @@
           "apply": "Applicare",
           "date": {
             "today": "In data odierna",
-            "custom": "Costume"
+            "custom": "Costume",
+            "last_7_days": "Ultimi 7 giorni"
           }
         }
       },
@@ -576,7 +578,8 @@
           "order_tracking_link": {
             "text": "Traccia e gestisci Acquista con l'ordine Prime"
           }
-        }
+        },
+        "attempted_to_deliver_label": "Tentato di consegnare"
       }
     },
     "B2B": {

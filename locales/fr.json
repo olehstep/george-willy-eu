@@ -481,7 +481,8 @@
         "shipping_address_title": "Envoyez à",
         "edit": "Éditer",
         "merchandise_quantity_label_inline_primary": "Quantité: %{quantity}",
-        "different_shipping_method_summary": "Entrez une adresse de livraison différente pour voir les méthodes d'expédition disponibles"
+        "different_shipping_method_summary": "Entrez une adresse de livraison différente pour voir les méthodes d'expédition disponibles",
+        "enter_address_manually_label": "Entrez l'adresse manuellement"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -501,7 +502,10 @@
         "thank_you_title_payments_app_failed_pending_payment": "Votre paiement n'a pas pu être traité",
         "failed_pending_payment_page_title": "Il y a un problème avec votre paiement",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
-        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
+        "order_status_payments_app_failed_pending_payment": "Vous n'avez pas été facturé pour votre commande.  Retournez à votre panier pour revoir votre commande et payer à nouveau.",
+        "thank_you_payments_app_failed_pending_payment": "Vous n'avez pas été facturé pour votre commande.  Retournez à votre panier pour revoir votre commande et payer à nouveau.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Une fois votre paiement effectué, vous recevrez un texto de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
       },
       "billing": {
         "address_more": "Plus d'actions pour cette adresse",
@@ -510,7 +514,8 @@
         "add_address": "Utilisez une adresse différente",
         "address_form": {
           "save": "Sauvegarder"
-        }
+        },
+        "billing_address_title": "facturer"
       },
       "payment": {
         "subscription_agreement_label": "Je comprends que je suis en train d'accepter un abonnement. Celui-ci se renouvellera au prix et à la fréquence indiqués et ce, jusqu'à ce qu'il prenne fin ou soit %{cancelled}.",
@@ -522,7 +527,8 @@
           "fields": {
             "expiry": "Date d'expiration",
             "billing": "facturer"
-          }
+          },
+          "done": "Fait"
         },
         "purchase_options_agreement_label_wallets": "En poursuivant votre paiement, vous acceptez les frais futurs indiqués sur cette page et la politique d'annulation.",
         "payment_method": "Mode de paiement",
@@ -538,7 +544,12 @@
           "save": "Sauvegarder"
         },
         "use_location_billing_address_label": "Utiliser l'adresse de facturation de l'emplacement",
-        "subscription_agreement_cancelled": "annulé"
+        "subscription_agreement_cancelled": "annulé",
+        "order_edit_banner_items_returned": {
+          "in_full": "Revenu"
+        },
+        "use_location_shipping_address_label": "Utiliser l'adresse d'expédition emplacement",
+        "use_order_billing_address_label": "Utiliser l'adresse de facturation de commande"
       },
       "stock": {
         "price_update": {
@@ -579,7 +590,8 @@
       },
       "field_errors": {
         "credit_card_month_invalid": "Entrez un mois d'expiration de carte valide",
-        "address_zip_too_long": "ZIP\/code postal est trop long (le maximum est de 255 caractères)"
+        "address_zip_too_long": "ZIP\/code postal est trop long (le maximum est de 255 caractères)",
+        "credit_card_expiry_invalid": "Entrez une date d'expiration de carte valide"
       },
       "general": {
         "map": {
@@ -599,7 +611,8 @@
       },
       "customer_account": {
         "have_an_account_label": "Vous avez déjà un compte ?",
-        "invalid_shipping_method_summary": "Sélectionnez une adresse de livraison valide pour afficher les méthodes d'expédition disponibles"
+        "invalid_shipping_method_summary": "Sélectionnez une adresse de livraison valide pour afficher les méthodes d'expédition disponibles",
+        "invalid_address": "L’adresse sélectionnée n’est pas valide"
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
@@ -609,6 +622,9 @@
       },
       "address_management": {
         "confirm_address_deletion": "Voulez-vous vraiment supprimer l'adresse {{address}} ?"
+      },
+      "note": {
+        "length_exceeds_maximum": "Réduisez la taille de la note à 5000 caractères ou moins."
       }
     },
     "errors": {
@@ -681,7 +697,8 @@
       "previewing": "Vous prévisualisez:",
       "hide_bar": "Cacher la barre",
       "saved_at": "Sauvé {{date}} À {{time}}",
-      "navigate_to_admin": "Naviguer vers admin"
+      "navigate_to_admin": "Naviguer vers admin",
+      "viewing": "Vous regardez:"
     },
     "orders": {
       "order_list": {

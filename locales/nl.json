@@ -483,7 +483,9 @@
         "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?",
         "title": "Verzending",
         "add_delivery_instructions": "Leveringsinstructies toevoegen",
-        "edit": "Bewerking"
+        "edit": "Bewerking",
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} Artikelen",
+        "merchandise_quantity_label_inline": "× %{quantity}   %{merchandise_title}"
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
@@ -521,7 +523,11 @@
         "payment_method": "Betalingswijze",
         "gift_card_wrapper": {
           "gift_card_label": "Cadeaukaart %{identifier}"
-        }
+        },
+        "saved_credit_card_actions": {
+          "edit": "Bewerking"
+        },
+        "purchase_options_and_vaulting_agreement_label": "Een of meer artikelen in de winkelwagen zijn een uitgestelde of terugkerende aankoop. Als je doorgaat met de betaling, ga je ermee akkoord dat we de aankoopbedragen automatisch in rekening brengen via jouw betaalmethode tegen de prijs en frequentie die op deze pagina worden vermeld, totdat het afloopt of je het zelf opzegt. Voor alle opzeggingen geldt het %{cancellation_policy_label}."
       },
       "customer_account": {
         "rollup_label": "Rekening",
@@ -544,7 +550,8 @@
           "add_address": "Voeg adres toe"
         },
         "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?",
-        "add_address": "Gebruik een ander adres"
+        "add_address": "Gebruik een ander adres",
+        "same_as_shipping": "Hetzelfde als verzendadres"
       },
       "stock": {
         "price_update": {
@@ -552,7 +559,8 @@
           "title": "Prijs update"
         },
         "item_label": {
-          "one": "{{count}} Artikel"
+          "one": "{{count}} Artikel",
+          "other": "{{count}} Artikelen"
         },
         "items_unavailable_notice": "Sommige artikelen zijn niet meer beschikbaar. Je winkelwagen is aangepast.",
         "out_of_stock": {
@@ -626,6 +634,9 @@
           },
           "store_owner": {
             "shopify_support_link_text": "Shopify-ondersteuning"
+          },
+          "sell_in_person": {
+            "header": "Verkopen in persoon"
           }
         },
         "title": "Maak een e-commerce website en verkoop online!  E-commercesoftware door Shopify",

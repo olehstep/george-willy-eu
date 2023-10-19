@@ -140,7 +140,10 @@
       "removeItem": "Ta bort marken {{label}}",
       "july": "juli",
       "tuesdayAbbreviation": "Du",
-      "august": "augusti"
+      "august": "augusti",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} Objekt"
+      }
     },
     "orders": {
       "order_list": {
@@ -257,7 +260,8 @@
       "page": "Sida {{ page }}"
     },
     "navigation": {
-      "main_navigation_aria_label": "Primärnavigering"
+      "main_navigation_aria_label": "Primärnavigering",
+      "menu_toggle_aria_label": "Växla meny"
     },
     "country": {
       "dropdown_label": "Valuta"
@@ -531,7 +535,9 @@
         "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du får en bekräftelse mejl snart.  Följ din beställning med appen Shop.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter avslutad betalning får du en bekräftelsetext.  Följ din beställning med appen Shop.",
         "thank_you_title_payments_app_pending_buyer_action_required": "Din beställning mottogs",
-        "order_status_payments_app_failed_pending_payment": "Du blev inte betalad för din beställning.  Återvänd till din kundvagn för att granska din beställning och betala igen."
+        "order_status_payments_app_failed_pending_payment": "Du blev inte betalad för din beställning.  Återvänd till din kundvagn för att granska din beställning och betala igen.",
+        "thank_you_title_payments_app_failed_pending_payment": "Din betalning kunde inte behandlas",
+        "failed_pending_payment_page_title": "Det är ett problem med din betalning."
       },
       "no_address_location": {
         "alt_header": "Adress saknas."
@@ -562,7 +568,8 @@
         },
         "edit_credit_card_modal": {
           "fields": {
-            "name": "namn på kort"
+            "name": "namn på kort",
+            "billing": "Bill till"
           },
           "cancel": "Annullera"
         },
@@ -618,7 +625,8 @@
       "shop_404": {
         "owner_ctas": {
           "add_storefront": "Du kan ställa in din webbplats genom att lägga till Online Store kanal i din webbplats %{admin_link} .  Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan.",
-          "fix_domain": "Avsluta inställningen av din nya webbadress, gå till %{domain_settings_link} .  Klicka på ”Anslut domän” och ange: %{domain} .<br>Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan."
+          "fix_domain": "Avsluta inställningen av din nya webbadress, gå till %{domain_settings_link} .  Klicka på ”Anslut domän” och ange: %{domain} .<br>Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan.",
+          "fix_domain_link_text": "Dina domäninställningar"
         },
         "ctas": {
           "store_owner": {

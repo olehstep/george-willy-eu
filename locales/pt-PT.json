@@ -476,6 +476,9 @@
         "address_delete": "Excluir endereço",
         "method_summary": {
           "incomplete_address_entered": "Introduza uma morada de envio completa para ver os métodos de envio disponíveis"
+        },
+        "local_pickup": {
+          "rollup_title": "Local de retirada"
         }
       },
       "field_errors": {
@@ -508,7 +511,12 @@
         "order_edit_banner_items_returned": {
           "in_full": "Retornou"
         },
-        "subscription_agreement_cancelled": "cancelado"
+        "subscription_agreement_cancelled": "cancelado",
+        "edit_credit_card_modal": {
+          "fields": {
+            "default": "Definir como padrão"
+          }
+        }
       },
       "order_summary": {
         "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto",
@@ -552,7 +560,8 @@
           "save": "Salvar"
         },
         "address_edit": "Editar Endereço",
-        "billing_address_title": "projeto de lei para"
+        "billing_address_title": "projeto de lei para",
+        "same_as_shipping": "Igual ao endereço de entrega"
       },
       "payment_errors": {
         "invalid_expiry_date": "Introduza uma data de expiração válida"
@@ -628,7 +637,8 @@
       "january": "Janeiro",
       "minimumReached": "Mínimo de {{value}} atingido",
       "maximumReached": "Máximo de {{value}} atingido",
-      "august": "Agosto"
+      "august": "Agosto",
+      "monday": "Segunda-feira"
     },
     "order_details": {
       "edit_summary": {
@@ -655,7 +665,8 @@
           "date": {
             "title": "Data do pedido"
           }
-        }
+        },
+        "filter_title": "Filtro"
       }
     },
     "profile_preview_bar": {

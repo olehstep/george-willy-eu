@@ -477,7 +477,9 @@
         "merchandise_quantity_label_inline_primary": "Mængde: %{quantity}",
         "address_form": {
           "cancel": "Afbestille"
-        }
+        },
+        "split_cart_merchandise_shipment_number": "Forsendelse %{number} Af %{total}",
+        "address_confirm": "Vil du virkelig slette denne adresse fra din konto?"
       },
       "review": {
         "review_title": "Gennemgå ordre",
@@ -572,7 +574,9 @@
         "order_status_payments_app_pending_payment_description_default_with_phone": "Du får snart en bekræftelsesms.  Spor din ordre ved hjælp af Shop-appen.",
         "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
         "thank_you_title_payments_app_pending_buyer_action_required": "Din ordre blev modtaget.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter at have fuldført din betaling, vil du få en bekræftelse tekst.  Spor din ordre ved hjælp af Shop-appen."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter at have fuldført din betaling, vil du få en bekræftelse tekst.  Spor din ordre ved hjælp af Shop-appen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Efter at have fuldført din betaling, vil du få en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
+        "thank_you_title_payments_app_pending_default": "Din betaling bliver behandlet"
       },
       "contact": {
         "title": "Oplysninger"
@@ -587,7 +591,8 @@
         "shipping_method_not_available_generic": {
           "other": "Nogle varer i din indkøbskurv kan ikke afsendes til den angivne adresse. Gennemgå din adresse for at sikre at alle felter er udfyldt korrekt, og prøv igen.",
           "one": "Denne ordre kan ikke afsendes til den angivne adresse. Gennemgå din adresse for at sikre at alle felter er udfyldt korrekt, og prøv igen."
-        }
+        },
+        "title": "Forsendelse er ikke tilgængelig"
       }
     },
     "errors": {
@@ -599,7 +604,8 @@
           },
           "store_owner": {
             "shopify_support_link_text": "Støtte til Shopify",
-            "caption": "Har du svært ved at komme ind i din butik?  Prøv den. %{forgot_your_store_link} Egenskaber.  Hvis du gerne vil genaktivere din butikskontakt. %{shopify_support_link} ."
+            "caption": "Har du svært ved at komme ind i din butik?  Prøv den. %{forgot_your_store_link} Egenskaber.  Hvis du gerne vil genaktivere din butikskontakt. %{shopify_support_link} .",
+            "header": "Er du butiksejer?"
           },
           "sell_in_person": {
             "caption": "Få de funktioner, du har brug for at køre din butik, uanset om du starter ud eller skalerer op."
@@ -634,14 +640,18 @@
       "maximumReached": "Maksimum {{value}} Nåedes",
       "processing": "Forarbejdning…",
       "autocompleteOptionsAvailable": {
-        "other": "{{count}} Tilgængelige elementer"
+        "other": "{{count}} Tilgængelige elementer",
+        "one": "{{count}} Vare tilgængelig"
       },
       "expandNotification": "Se mere",
       "closeNotification": "Tæt",
       "saturday": "lørdag",
       "july": "juli",
       "tuesdayAbbreviation": "Du",
-      "showPreviousMonth": "Vis forrige måned, {{month}}  {{year}}"
+      "showPreviousMonth": "Vis forrige måned, {{month}}  {{year}}",
+      "increase": "Forøger {{type}}",
+      "october": "oktober",
+      "september": "september"
     },
     "orders": {
       "order_list": {

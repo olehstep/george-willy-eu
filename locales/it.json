@@ -479,7 +479,8 @@
         "enter_address_manually_label": "Inserisci l'indirizzo manualmente",
         "shipping_information_required_notice": "I dati di spedizione sono obbligatori. {{link}}.",
         "missing_shipping_address": "Manca l'indirizzo di spedizione",
-        "delete": "Eliminare"
+        "delete": "Eliminare",
+        "edit": "Modificare"
       },
       "payment_errors": {
         "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
@@ -560,7 +561,8 @@
           "title": "Aggiornamento del prezzo"
         },
         "return_to_store_label": "Ritorna in negozio",
-        "continue_cta_label": "Continuare Checkout"
+        "continue_cta_label": "Continuare Checkout",
+        "items_unavailable_notice": "Alcuni articoli non sono più disponibili. Il tuo carrello è stato aggiornato."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -607,7 +609,8 @@
       "billing": {
         "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?",
         "billing_address_title": "Fatturare a",
-        "delete": "Eliminare"
+        "delete": "Eliminare",
+        "add_address": "Usa un indirizzo diverso"
       },
       "contact": {
         "title": "Informazioni"

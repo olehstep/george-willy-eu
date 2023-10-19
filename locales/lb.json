@@ -52,7 +52,8 @@
         "title": "Ecommerce Websit erwaachen an Online Verzel!  Ecommerce Software mat Shopify",
         "ctas": {
           "open_a_store": {
-            "link_text": "Nun"
+            "link_text": "Nun",
+            "caption": "Start ee 3-Dag Fräie Test, a weider fir $\/mont fir d's nakande 3 Monten."
           },
           "store_owner": {
             "header": "Sidd Dir de Buttek Besëtzer?"
@@ -62,7 +63,8 @@
           }
         },
         "owner_ctas": {
-          "header": "Sidd Dir de Buttek Besëtzer?"
+          "header": "Sidd Dir de Buttek Besëtzer?",
+          "fix_domain_link_text": "Äer Domein Astellungen"
         }
       }
     },
@@ -489,7 +491,8 @@
         },
         "markets_pro_disclaimer_terms_and_conditions": "Konditioune",
         "order_edit_banner_multiple_items_removed": "{{amount}} ewechgeholl",
-        "expired_payment_method": "Ausgewieden Betautemetode ass erflétt"
+        "expired_payment_method": "Ausgewieden Betautemetode ass erflétt",
+        "waiting_on_taxes_message": "Wann Äerd Äerdäus net an de noel Sekonden bereellett, mat de Säit opfrisch."
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -608,7 +611,8 @@
         "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}",
         "edit": "Edit",
         "enter_address_manually_label": "Adress mank git",
-        "subscription_shipping": "Abonnement Schëffer"
+        "subscription_shipping": "Abonnement Schëffer",
+        "add_address": "Benot eng angere Adress"
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -2712,7 +2716,8 @@
       "logged_in_account_no_permission_to_order": "Dir sidd ageloggt als {{email}}. Dëse Kont huet keng Erlaabnis fir dës Bestellung ze managen.",
       "hide_items": "Verstoppen Elementer",
       "log_in_to_a_different_account": "Mellt Iech op en anere Kont un",
-      "contact_information": "Kontakt-Informatioun"
+      "contact_information": "Kontakt-Informatioun",
+      "group_title_label": "Deel vun: {{groupTitle}}"
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",
@@ -2810,7 +2815,9 @@
         "one": "{{count}} Element verfügbart"
       },
       "wednesday": "Mëttwoch",
-      "decrease": "Verlengden {{type}}"
+      "decrease": "Verlengden {{type}}",
+      "showNextMonth": "Weis de noch Mes, {{month}}  {{year}}",
+      "august": "August"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

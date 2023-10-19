@@ -528,7 +528,10 @@
           "delete": "Borrar"
         },
         "business_customer_vaulting_payment_label": "Guarda esta tarjeta para futuras compras para esta sucursal. Autorizo a %{company} a guardar esta forma de pago para futuras compras para esta sucursal. Cualquier contacto asignado a esta sucursal tiene autorización para usar esta tarjeta.",
-        "use_location_billing_address_label": "Usar la dirección de facturación de la ubicación"
+        "use_location_billing_address_label": "Usar la dirección de facturación de la ubicación",
+        "saved_credit_card_actions": {
+          "delete": "Borrar"
+        }
       },
       "redeemable_errors": {
         "gift_card": {
@@ -664,7 +667,8 @@
       "decrease": "Disminución {{type}}",
       "mondayAbbreviation": "Mes",
       "autocompleteOptionsAvailable": {
-        "one": "{{count}} Artículo disponible"
+        "one": "{{count}} Artículo disponible",
+        "other": "{{count}} Artículos disponibles"
       },
       "minimumReached": "Mínimo de {{value}} Alcanzada",
       "submit": "Entregar",

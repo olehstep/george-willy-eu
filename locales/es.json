@@ -486,7 +486,8 @@
         },
         "missing_shipping_address": "Falta la dirección de envío",
         "delete": "Borrar",
-        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?"
+        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?",
+        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Más"
       },
       "order_summary": {
         "price_per_item": {
@@ -644,7 +645,8 @@
         "blocks": {
           "payment_method_title": "Pago",
           "review_title_free_order": "Revisa y completa tu pedido",
-          "payment_method_saved_company_location": "Guardar tarjeta para esta ubicación"
+          "payment_method_saved_company_location": "Guardar tarjeta para esta ubicación",
+          "shipping_method_title": "Método"
         },
         "review_title": "Revisar pedido"
       }
@@ -727,7 +729,8 @@
       "removeTag": "Remover etiqueta",
       "thursdayAbbreviation": "el",
       "showPreviousMonth": "Mostrar mes anterior, {{month}}  {{year}}",
-      "closeNotification": "Cerca"
+      "closeNotification": "Cerca",
+      "fridayAbbreviation": "fr"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",

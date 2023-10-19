@@ -558,7 +558,11 @@
           "label": "%{price} \/Ea"
         },
         "gift_card_and_discount_title": "Presentkort eller rabattkod",
-        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kunde inte användas med dina befintliga rabatter. Du har redan en bättre kombination."
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kunde inte användas med dina befintliga rabatter. Du har redan en bättre kombination.",
+        "gift_card_and_discount_placeholder": "Presentkort eller rabattkod",
+        "discount_order_stacking": {
+          "other": "Orderrabatt"
+        }
       },
       "customer_account": {
         "rollup_label": "konto",
@@ -631,14 +635,16 @@
         "address_form": {
           "cancel": "Annullera"
         },
-        "billing_address_title": "Bill till"
+        "billing_address_title": "Bill till",
+        "address_confirm": "Är du säker på att du vill ta bort den här adressen från ditt konto?"
       },
       "redeemable_errors": {
         "gift_card": {
           "currency_mismatch": "Endast presentkort i %{shop_currency} Godkänns",
           "duplicate": "Presentkortet har redan använts på din beställning.",
           "insufficient_funds": "Detta presentkort har inga pengar kvar",
-          "generic": "Presentkortet kunde inte läggas till i kassan."
+          "generic": "Presentkortet kunde inte läggas till i kassan.",
+          "expired": "Detta presentkort har löpt ut"
         }
       },
       "note": {
@@ -666,6 +672,13 @@
       },
       "notice_banner": {
         "shipping_address_incomplete_title": "Fraktadressen är ofullständig."
+      },
+      "general": {
+        "map": {
+          "cluster_title": {
+            "one": "Kluster {{number}} Märkere"
+          }
+        }
       }
     },
     "notices": {

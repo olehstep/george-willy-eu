@@ -475,7 +475,8 @@
           "save": "Sauvegarder"
         },
         "address_delete": "Supprimer l'adresse",
-        "address_more": "Plus d'actions pour cette adresse"
+        "address_more": "Plus d'actions pour cette adresse",
+        "split_cart_merchandise_quantity_label_additional": "%{quantity} Plus"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -516,7 +517,10 @@
         "order_edit_banner_items_removed": {
           "in_full": "Supprimé"
         },
-        "purchase_options_agreement_label": "Je comprends qu’un ou plusieurs articles de mon panier constituent un achat différé ou récurrent. En continuant, j’accepte la %{cancellation_policy_label} et vous autorise à facturer mon moyen de paiement aux prix, fréquences et dates indiqués sur cette page, jusqu’à ce que ma commande soit traitée ou que je l’annule, si cela est autorisé."
+        "purchase_options_agreement_label": "Je comprends qu’un ou plusieurs articles de mon panier constituent un achat différé ou récurrent. En continuant, j’accepte la %{cancellation_policy_label} et vous autorise à facturer mon moyen de paiement aux prix, fréquences et dates indiqués sur cette page, jusqu’à ce que ma commande soit traitée ou que je l’annule, si cela est autorisé.",
+        "saved_credit_card_actions": {
+          "edit": "Éditer"
+        }
       },
       "stock": {
         "price_update": {
@@ -529,7 +533,8 @@
         },
         "out_of_stock": {
           "description": "Ces articles ne sont plus disponibles et ont été supprimés de votre panier."
-        }
+        },
+        "items_unavailable_notice": "Certains articles ne sont plus disponibles. Votre panier a été mis à jour."
       },
       "order_summary": {
         "discount_label": "code de réduction",
@@ -540,7 +545,8 @@
         "shipping_default_value": "Calculé à l'étape suivante",
         "discount_order_stacking": {
           "other": "Remises de commande"
-        }
+        },
+        "customer_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> n'est pas disponible pour vous pour le moment"
       },
       "wallets": {
         "errors": {
@@ -568,6 +574,9 @@
       },
       "contact": {
         "title": "Informations"
+      },
+      "customer_account": {
+        "have_an_account_label": "Vous avez déjà un compte ?"
       }
     },
     "errors": {

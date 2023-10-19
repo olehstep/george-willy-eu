@@ -496,7 +496,8 @@
         "credit_card_month_invalid": "Ange en giltig utgångsmånad för kortet",
         "gift_card_already_applied": "Detta presentkort har redan tillämpats på din beställning",
         "tips_invalid_tip_amount": "Ange dricks som inte är större än %{amount}",
-        "address_zip_too_long": "Postnummer \/ postnummer är för lång (högst 255 tecken)"
+        "address_zip_too_long": "Postnummer \/ postnummer är för lång (högst 255 tecken)",
+        "credit_card_expiry_invalid": "Ange ett giltigt utgångsdatum för kortet"
       },
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_email": "Du får en bekräftelse mejl snart.  Följ din beställning med appen Shop.",
@@ -557,7 +558,8 @@
     "errors": {
       "shop_404": {
         "owner_ctas": {
-          "add_storefront": "Du kan ställa in din webbplats genom att lägga till Online Store kanal i din webbplats %{admin_link} .  Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan."
+          "add_storefront": "Du kan ställa in din webbplats genom att lägga till Online Store kanal i din webbplats %{admin_link} .  Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan.",
+          "fix_domain": "Avsluta inställningen av din nya webbadress, gå till %{domain_settings_link} .  Klicka på ”Anslut domän” och ange: %{domain} .<br>Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan."
         },
         "ctas": {
           "store_owner": {
@@ -571,6 +573,9 @@
           "editions": {
             "caption": "Med 100+ produktuppdateringar kan du vara mer produktiv och kreativ och kraftfull än du någonsin föreställt dig.",
             "header": "Kolla in Shopify Edition"
+          },
+          "open_a_store": {
+            "link_text": "Anmäl dig nu."
           }
         },
         "title": "Skapa en e-handelswebbplats och sälja online!  E-handel programvara från Shopify"

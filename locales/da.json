@@ -493,7 +493,8 @@
           "fields": {
             "default": "Indstillet som standard",
             "name": "Navn på kort"
-          }
+          },
+          "cancel": "Afbestille"
         },
         "delete_credit_card_modal": {
           "confirmation": "Er du sikker på at du vil slette den {{brandName}} Ender i {{lastDigits}} ?",
@@ -507,7 +508,8 @@
         "use_location_shipping_address_label": "Brug placeringsenhedsadressen",
         "order_edit_banner_items_added": {
           "other": "%{count} Tilføjet"
-        }
+        },
+        "expired_payment_method": "Valgt betalingsmetode er udløbet"
       },
       "stock": {
         "out_of_stock": {
@@ -551,7 +553,9 @@
       },
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_phone": "Du får snart en bekræftelsesms.  Spor din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen."
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Din ordre blev modtaget.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter at have fuldført din betaling, vil du få en bekræftelse tekst.  Spor din ordre ved hjælp af Shop-appen."
       },
       "contact": {
         "title": "Oplysninger"
@@ -620,6 +624,11 @@
     "errors": {
       "load_extension_error": {
         "refresh_button": "Opdater siden"
+      }
+    },
+    "payment_methods": {
+      "payment_details": {
+        "checkout_card_banner": "Denne betalingsmetode kan kun anvendes til forhåndsgodkendte betalinger.  Det vil ikke vise sig ved kassen, hvis du er logget ind i denne butik."
       }
     }
   }

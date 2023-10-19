@@ -508,6 +508,9 @@
         },
         "order_edit_banner_items_returned": {
           "with_quantities": "{{delta}} Van {{quantity}} Geretourneerd"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} Toegevoegd"
         }
       },
       "customer_account": {
@@ -590,7 +593,8 @@
         "ctas": {
           "editions": {
             "header": "Bekijk Shopify Editions",
-            "caption": "Met meer dan 100 productupdates kunt u productiever en creatiever en krachtiger in de handel zijn dan u zich ooit had kunnen voorstellen."
+            "caption": "Met meer dan 100 productupdates kunt u productiever en creatiever en krachtiger in de handel zijn dan u zich ooit had kunnen voorstellen.",
+            "link_text": "Ontdek de nieuwste Editions"
           },
           "store_owner": {
             "shopify_support_link_text": "Shopify-ondersteuning"
@@ -600,7 +604,8 @@
         "owner_ctas": {
           "add_storefront": "U kunt uw website instellen door het Online Store-kanaal toe te voegen aan uw %{admin_link} .  Als je problemen hebt om in je winkel te komen, probeer dan de %{forgot_your_store_link} Pagina.",
           "admin_link_text": "Admin",
-          "fix_domain_link_text": "Uw domeininstellingen"
+          "fix_domain_link_text": "Uw domeininstellingen",
+          "forgot_your_store_link_text": "Je winkel vergeten"
         }
       }
     }
@@ -629,7 +634,8 @@
       "removeItem": "Verwijderen {{label}}",
       "wednesdayAbbreviation": "We",
       "minimumReached": "Minimum van {{value}} Bereikt",
-      "sundayAbbreviation": "zo"
+      "sundayAbbreviation": "zo",
+      "showPreviousMonth": "Vorige maand laten zien, {{month}}  {{year}}"
     },
     "orders": {
       "order_list": {

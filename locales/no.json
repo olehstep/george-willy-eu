@@ -70,7 +70,8 @@
             "twoWordConnector": "{{firstWord}} eller {{secondWord}}"
           },
           "narrow": {
-            "lastWordConnector": "{{previousWords}}, {{lastWord}}"
+            "lastWordConnector": "{{previousWords}}, {{lastWord}}",
+            "wordConnector": "{{previousWords}}, {{anotherWord}}"
           }
         },
         "back_to_shipping_method": "Gå tilbake til frakt",
@@ -262,7 +263,8 @@
         "title": "Bestillingssammendrag",
         "discount_title_stacking": {
           "other": "Rabatter"
-        }
+        },
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkoden er ikke tilgjengelig for deg akkurat nå"
       },
       "stock": {
         "title": "Utsolgt",
@@ -304,6 +306,10 @@
         "remove": "Ta bort",
         "price_update": {
           "title": "Prisoppdatering"
+        },
+        "page_title": "Inventarproblemer",
+        "out_of_stock": {
+          "items_unavailable": "Noen varer er ikke lenger tilgjengelige og har blitt fjernet fra handlekurven."
         }
       },
       "contextual_availability": {
@@ -408,7 +414,12 @@
         "local_pickup": {
           "rollup_title": "Hentested"
         },
-        "enter_address_manually_label": "Skriv inn adresse manuelt"
+        "enter_address_manually_label": "Skriv inn adresse manuelt",
+        "address_form": {
+          "cancel": "Avbryt"
+        },
+        "shipping_method_notice": "For frakt til enkelte land kan importavgifter påløpe. Se vår fraktpolicy for ytterligere detaljer.",
+        "no_other_methods_available": "Ingen andre metoder tilgjengelig"
       },
       "localized_fields": {
         "additional_information": {
@@ -593,7 +604,10 @@
         "use_location_shipping_address_label": "Bruk adresse",
         "order_edit_banner_title": "Betaling på {{amount_owed}} er nødvendig",
         "edit_credit_card_modal": {
-          "done": "Gjort"
+          "done": "Gjort",
+          "fields": {
+            "expiry": "Utløpsdato"
+          }
         },
         "local_payment_method_receiver_notice": "Etter at du har lagt inn bestillingen din, vil du motta betalingsinformasjon. Foreta betalingen i en minibank eller online innen {{dueDays}} dager.",
         "billing_address_associated_with_mandate_info": "Hvis du ønsker å endre faktureringsadressen din, vennligst fjern og skriv inn kredittkortopplysningene dine på nytt",
@@ -764,7 +778,8 @@
         "invalid_number": "Skriv inn et gyldig kortnummer",
         "invalid_expiry_date": "Angi en gyldig utløpsdato for kortet",
         "credit_card_processing": "Betalingen din kan ikke behandles av tekniske årsaker. Prøv igjen om noen minutter, eller bruk en annen betalingsmetode.",
-        "test_mode_live_card": "Denne butikken kan ikke godta ekte bestillinger eller reelle betalinger."
+        "test_mode_live_card": "Denne butikken kan ikke godta ekte bestillinger eller reelle betalinger.",
+        "invalid_shipping_address": "Betalingen din kunne ikke behandles fordi vi ikke kunne finne leveringsadressen din. Sjekk leveringsadressen din, og prøv på nytt."
       },
       "payment_gateway": {
         "cash_on_delivery_label": "Postoppkrav (COD)",
@@ -994,7 +1009,9 @@
         "in_transit": "På vei",
         "order_status_payments_app_pending_payment_description_default_with_email": "Du får en e-post med bekreftelse snart.  Følg bestillingen din ved hjelp av Shop-appen.",
         "manage_order_label": "Administrer bestillingen din",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Etter å ha fullført betalingen, får du en bekreftelsestekst.  Følg bestillingen din ved hjelp av Shop-appen."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Etter å ha fullført betalingen, får du en bekreftelsestekst.  Følg bestillingen din ved hjelp av Shop-appen.",
+        "attempted_delivery_description_html": "Det ble gjort et forsøk på å levere bestillingen din, men det var mislykket. %{contact_us} for å arrangere et nytt leveringsforsøk.",
+        "order_updates_submit_subscription": "Sende inn"
       },
       "marketing": {
         "sms": {
@@ -1289,7 +1306,8 @@
             "reduction_code": "Skriv inn en gyldig rabattkode eller gavekort",
             "shipping_address": "Skriv inn en gyldig leveringsadresse",
             "shipping_option": "Velg et gyldig fraktalternativ",
-            "email": "Skriv inn en gyldig e-post"
+            "email": "Skriv inn en gyldig e-post",
+            "billing_address": "Skriv inn en gyldig faktureringsadresse"
           },
           "unavailable": {
             "description": "{{walletName}} var ikke tilgjengelig. Bruk en annen betalingsmåte, eller prøv på nytt senere.",
@@ -1495,7 +1513,8 @@
           "inventory": "Varer er utilgjengelige",
           "customer": "Kunden endret\/kansellerte ordre",
           "declined": "Betaling avvist",
-          "fraud": "Uredelig ordre"
+          "fraud": "Uredelig ordre",
+          "staff": "Personalfeil"
         }
       },
       "tags": {
@@ -1960,7 +1979,8 @@
       "not_applicable": "N\/A",
       "image_gallery": {
         "previous": "Vis tidligere elementer",
-        "product_name_and_quantity": "{{productName}} mengde {{quantity}}"
+        "product_name_and_quantity": "{{productName}} mengde {{quantity}}",
+        "next": "Vis neste elementer"
       },
       "request_return_failed": "Det oppsto et problem under behandlingen av forespørselen din. Vær så snill, prøv på nytt.",
       "shop_order_tracking": {
@@ -2304,7 +2324,8 @@
       },
       "load_extension_error": {
         "refresh_button": "Oppdater side",
-        "description": "Oppdater denne sida eller prøv igjen om noen minutt."
+        "description": "Oppdater denne sida eller prøv igjen om noen minutt.",
+        "title": "Feil"
       }
     },
     "payment_methods": {
@@ -2453,7 +2474,8 @@
       "february": "februar",
       "wednesday": "onsdag",
       "expandNotification": "Se mer",
-      "decrease": "Minsk {{type}}"
+      "decrease": "Minsk {{type}}",
+      "inRange": "Innen rekkevidde"
     },
     "profile_preview_bar": {
       "saved_at": "Lagrat {{date}} Kje {{time}}"
@@ -2688,7 +2710,8 @@
       "view_all": "Se alt",
       "more_swatches": "+ {{ count }} til",
       "product_count": {
-        "one": "{{ count }} produkt"
+        "one": "{{ count }} produkt",
+        "other": "{{ count }} produkter"
       },
       "see_all_subcollections": "Se alt..."
     },

@@ -641,6 +641,13 @@
           "decrement_fulfilled_line_item": "Restituito %{delta} Di %{total}"
         }
       }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "opt_in": {
+          "opt_out_html": "Se non vuoi condividere questa informazione, puoi <a style='text-decoration:underline;' href='%{link}'>rifiutare esplicitamente<\/a> dal monitoraggio dell'apertura delle email."
+        }
+      }
     }
   },
   "customer_accounts": {

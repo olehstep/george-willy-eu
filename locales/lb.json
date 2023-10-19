@@ -209,7 +209,8 @@
             "august": "August",
             "september": "September",
             "march": "Mäerz",
-            "february": "Februar"
+            "february": "Februar",
+            "january": "Januar"
           }
         },
         "datepicker": {
@@ -454,7 +455,8 @@
         },
         "saved_credit_card_actions": {
           "edit": "Edit"
-        }
+        },
+        "use_location_billing_address_label": "Adress Plétt benotz"
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -557,7 +559,11 @@
         "local_pickup": {
           "search_address": "Adress zeichen"
         },
-        "address_edit": "Adress änneren"
+        "address_edit": "Adress änneren",
+        "shipping_used_as_billing_notice": "Dëst gëtt och als Är Rechnungsadress fir dës Bestellung benotzt.",
+        "different_shipping_method_summary": "Gidt eng angereen Zéip-Adress fir verfügbar schawunge-Metodolen",
+        "duties_and_taxes_title": "Flichten a Steieren",
+        "address_update": "Update Adress"
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -671,7 +677,8 @@
           "add_code": "Füügt Remise"
         },
         "expand_component_information": {
-          "other": "Show %{count} Artikelen"
+          "other": "Show %{count} Artikelen",
+          "one": "Weisen %{count} Artikel"
         },
         "price_per_item": {
           "accessibility_label": "%{price} Per item"
@@ -1322,6 +1329,9 @@
         },
         "unpurchasable_product": {
           "message": "Dës Artikele sinn net verfügbar fir B2B Bestellungen."
+        },
+        "item_label": {
+          "one": "{{count}} Deelett"
         }
       },
       "shop_policies": {
@@ -1372,7 +1382,8 @@
           "change_purchase_order_number_label": "Änneren PO Zuel",
           "no_address": "(Keng Adress)",
           "due_after_order_reviewed_html": "Wéinst no Bestellung iwwerpréift",
-          "purchase_order_number_title": "PO Nummer"
+          "purchase_order_number_title": "PO Nummer",
+          "no_purchase_order_number": "(Keng PO Nummer)"
         },
         "review_title": "Iwwerpréiwen Uerdnung",
         "checkout_as_guest": "Kees als Gaascht",
@@ -1490,7 +1501,8 @@
           "heading": "Erfrëscht dës Säit net, se gëtt automatesch aktualiséiert."
         },
         "too_many_attempts": {
-          "description": "Probéiert w.e.g. an eeun Minuten"
+          "description": "Probéiert w.e.g. an eeun Minuten",
+          "message": "Iwwer angen"
         },
         "title": "Schlaang",
         "time_to_checkout_title": "Zäit fir erauszekréien - {{shopName}}",
@@ -1589,7 +1601,8 @@
           "previous_accessibility_label": "Virdrun Säit",
           "selected_page": {
             "other": "%{first} - %{last} vun %{count} Punkten"
-          }
+          },
+          "next_accessibility_label": "Nächst Säit"
         },
         "or": "oder",
         "selector_tab_list": "Lëscht",
@@ -1658,7 +1671,9 @@
         "generic_error": "Et ass e Problem mat Äer Spischoene.  Probéiert eng eng oder d'Sit allgeelueden."
       },
       "billing": {
-        "same_as_shipping": "Selwecht wéi Versandadress"
+        "same_as_shipping": "Selwecht wéi Versandadress",
+        "address_more": "Méi Aktiounen fir dës Adress",
+        "delete": "Läschen"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -2594,7 +2609,8 @@
       },
       "not_applicable": "N\/A",
       "logged_in_account_no_permission_to_order": "Dir sidd ageloggt als {{email}}. Dëse Kont huet keng Erlaabnis fir dës Bestellung ze managen.",
-      "hide_items": "Verstoppen Elementer"
+      "hide_items": "Verstoppen Elementer",
+      "log_in_to_a_different_account": "Mellt Iech op en anere Kont un"
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",
@@ -2680,7 +2696,8 @@
       "rangeEnd": "Range Enn",
       "submit": "Ofginn",
       "may": "Mee",
-      "sunday": "Sonndeg"
+      "sunday": "Sonndeg",
+      "february": "Februar"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

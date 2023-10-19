@@ -507,7 +507,8 @@
       },
       "review": {
         "blocks": {
-          "shipping_method_title": "Método"
+          "shipping_method_title": "Método",
+          "payment_method_title": "Pagamento"
         }
       },
       "thank_you": {
@@ -532,7 +533,8 @@
       "billing": {
         "address_form": {
           "save": "Salvar"
-        }
+        },
+        "address_edit": "Editar Endereço"
       },
       "payment_errors": {
         "invalid_expiry_date": "Introduza uma data de expiração válida"
@@ -541,7 +543,8 @@
     "errors": {
       "shop_404": {
         "owner_ctas": {
-          "fix_domain_link_text": "suas configurações de domínio"
+          "fix_domain_link_text": "suas configurações de domínio",
+          "fix_domain": "Termine de configurar seu novo endereço da Web, vá para %{domain_settings_link}.  Clique em \"Conectar domínio\" e digite: %{domain}.<br>Se estiver a ter problemas para entrar na sua loja, experimente a página %{forgot_your_store_link}."
         },
         "ctas": {
           "store_owner": {
@@ -564,7 +567,8 @@
     "notices": {
       "line_item": {
         "item_status": {
-          "decrement_fulfilled_line_item": "Devolvido %{delta} de %{total}"
+          "decrement_fulfilled_line_item": "Devolvido %{delta} de %{total}",
+          "decrement_item": "Removido %{delta} de %{total}"
         }
       }
     }
@@ -581,11 +585,13 @@
       "tuesdayAbbreviation": "Você",
       "february": "Fevereiro",
       "mondayAbbreviation": "Mo",
-      "closeNotification": "Perto"
+      "closeNotification": "Perto",
+      "march": "Marchar"
     },
     "order_details": {
       "edit_summary": {
-        "returned": "Retornou"
+        "returned": "Retornou",
+        "returned_with_quantities": "{{delta}} de {{total}} devolvido"
       }
     },
     "errors": {

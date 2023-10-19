@@ -472,7 +472,8 @@
           "incomplete_address_selected": "Seleccione una dirección de envío completa para ver los métodos de envío disponibles"
         },
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Artículos",
-        "different_shipping_method_summary": "Ingrese una dirección de envío diferente para ver los métodos de envío disponibles"
+        "different_shipping_method_summary": "Ingrese una dirección de envío diferente para ver los métodos de envío disponibles",
+        "add_delivery_instructions": "Añadir instrucciones de entrega"
       },
       "order_summary": {
         "price_per_item": {
@@ -522,7 +523,8 @@
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_email": "Recibirá un correo electrónico de confirmación pronto.  Rastree su pedido utilizando la aplicación Shop.",
         "order_status_payments_app_pending_payment_description_default_with_phone": "Pronto recibirás un mensaje de confirmación.  Rastree su pedido utilizando la aplicación Shop.",
-        "order_status_payments_app_failed_pending_payment": "No le cobraron por su pedido.  Regrese a su carrito para revisar su pedido y pagar de nuevo."
+        "order_status_payments_app_failed_pending_payment": "No le cobraron por su pedido.  Regrese a su carrito para revisar su pedido y pagar de nuevo.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Recibirá un correo electrónico de confirmación pronto.  Rastree su pedido utilizando la aplicación Shop."
       },
       "general": {
         "map": {
@@ -534,7 +536,8 @@
       "field_errors": {
         "address_zip_too_long": "El código postal es demasiado largo (el máximo es de 255 caracteres)",
         "credit_card_month_invalid": "Introduce un mes de expiración de tarjeta válido",
-        "address_phone_invalid": "Introduce un número de teléfono válido"
+        "address_phone_invalid": "Introduce un número de teléfono válido",
+        "tips_invalid_tip_amount": "Introduce una propina no mayor que %{amount}"
       },
       "billing": {
         "address_form": {
@@ -547,7 +550,12 @@
         "return_to_store_label": "volver a la tienda",
         "out_of_stock": {
           "items_unavailable": "Algunos artículos ya no están disponibles y se han eliminado de su carrito."
-        }
+        },
+        "items_unavailable_notice": "Algunos artículos no se encuentran disponibles. Se ha actualizado la cesta de compra.",
+        "price_update": {
+          "description": "Los precios de estos artículos han cambiado y se actualizan en su carrito."
+        },
+        "continue_cta_label": "Continuar la desprotección"
       },
       "no_address_location": {
         "alt_header": "Dirección de envío faltante"
@@ -592,7 +600,8 @@
     "notices": {
       "line_item": {
         "item_status": {
-          "increment_item": "Añadido %{delta}"
+          "increment_item": "Añadido %{delta}",
+          "decrement_fulfilled_line_item": "Devuelto %{delta} De %{total}"
         }
       }
     }
@@ -617,7 +626,11 @@
       "inRange": "En el rango",
       "may": "Puede",
       "tuesday": "martes",
-      "wednesday": "miércoles"
+      "wednesday": "miércoles",
+      "tuesdayAbbreviation": "Que",
+      "rangeEnd": "Extremo de rango",
+      "rangeStart": "Inicio de rango",
+      "increase": "Aumento {{type}}"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",
@@ -652,6 +665,16 @@
             "description": "No se te cobrará."
           }
         }
+      }
+    },
+    "payment_methods": {
+      "payment_details": {
+        "checkout_card_banner": "Este método de pago solo se puede utilizar para pagos preautorizados.  No aparecerá en el momento del pago si ha iniciado sesión en esta tienda."
+      }
+    },
+    "errors": {
+      "load_extension_error": {
+        "description": "Actualice esta página o inténtelo de nuevo en unos minutos."
       }
     }
   }

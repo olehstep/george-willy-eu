@@ -495,6 +495,11 @@
         "price_per_item": {
           "accessibility_label": "%{price} Produkter"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Gavekortet er allerede blevet anvendt på din ordre."
+        }
       }
     },
     "errors": {
@@ -502,6 +507,9 @@
         "ctas": {
           "editions": {
             "header": "Se Shopify udgaver"
+          },
+          "store_owner": {
+            "shopify_support_link_text": "Støtte til Shopify"
           }
         }
       }
@@ -515,6 +523,15 @@
       "sundayAbbreviation": "Hans",
       "rangeStart": "Start af rækkevidde",
       "mondayAbbreviation": "Mo"
+    },
+    "orders": {
+      "order_list": {
+        "filter": {
+          "date": {
+            "last_365_days": "De seneste 12 måneder"
+          }
+        }
+      }
     }
   }
 }

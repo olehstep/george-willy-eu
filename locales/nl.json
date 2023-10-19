@@ -487,7 +487,8 @@
         "subscription_agreement_cancelled": "geannuleerd",
         "order_edit_banner_items_removed": {
           "with_quantities": "{{delta}} Van {{quantity}} Verwijderd"
-        }
+        },
+        "use_location_shipping_address_label": "Gebruik het verzendadres van de locatie"
       },
       "customer_account": {
         "rollup_label": "Rekening"
@@ -499,7 +500,10 @@
         "order_status_payments_app_failed_pending_payment": "Je bent niet aangeklaagd voor je bestelling.  Ga terug naar uw winkelwagen om uw bestelling te bekijken en betaal opnieuw."
       },
       "billing": {
-        "billing_address_title": "Rekening naar"
+        "billing_address_title": "Rekening naar",
+        "address_form": {
+          "add_address": "Voeg adres toe"
+        }
       },
       "stock": {
         "price_update": {
@@ -508,7 +512,8 @@
       },
       "review": {
         "blocks": {
-          "payment_method_saved_company_location": "Bewaar kaart voor deze locatie"
+          "payment_method_saved_company_location": "Bewaar kaart voor deze locatie",
+          "shipping_method_title": "Wijze"
         }
       },
       "field_errors": {
@@ -528,7 +533,8 @@
           "editions": {
             "header": "Bekijk Shopify Editions"
           }
-        }
+        },
+        "title": "Maak een e-commerce website en verkoop online!  E-commercesoftware door Shopify"
       }
     }
   },
@@ -542,7 +548,8 @@
       "wednesday": "Woensdag",
       "february": "Februari",
       "saturdayAbbreviation": "Zijn",
-      "rangeEnd": "Einde van het bereik"
+      "rangeEnd": "Einde van het bereik",
+      "monday": "Maandag"
     },
     "orders": {
       "order_list": {

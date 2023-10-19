@@ -527,7 +527,18 @@
       },
       "review": {
         "blocks": {
-          "payment_method_saved_company_location": "Salva la carta per questa posizione"
+          "payment_method_saved_company_location": "Salva la carta per questa posizione",
+          "payment_method_title": "Pagamento"
+        }
+      },
+      "thank_you": {
+        "failed_pending_payment_page_title": "C' è un problema con il tuo pagamento"
+      },
+      "general": {
+        "map": {
+          "cluster_title": {
+            "other": "Cluster di marcatori {{number}}"
+          }
         }
       }
     },
@@ -624,7 +635,9 @@
       "showPreviousMonth": "Mostra il mese precedente, {{month}}  {{year}}",
       "maximumReached": "Massimo di {{value}} Raggiunto",
       "monday": "Lunedi",
-      "september": "settembre"
+      "september": "settembre",
+      "mondayAbbreviation": "Mo",
+      "tuesdayAbbreviation": "Tu"
     },
     "profile_preview_bar": {
       "previewing": "Stai visualizzando in anteprima:"

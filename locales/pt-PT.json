@@ -464,7 +464,11 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "shipping_method_notice": "Observação: os pedidos não podem ser alterados ou cancelados depois de feitos. Para alterar um pedido, siga a política de trocas e devoluções."
+        "shipping_method_notice": "Observação: os pedidos não podem ser alterados ou cancelados depois de feitos. Para alterar um pedido, siga a política de trocas e devoluções.",
+        "enter_address_manually_label": "Introduza o endereço manualmente",
+        "address_form": {
+          "save": "Salvar"
+        }
       },
       "field_errors": {
         "address_phone_invalid": "Insira um número de telefone válido"
@@ -475,13 +479,39 @@
         }
       },
       "payment": {
-        "purchase_options_agreement_label_wallets": "Ao continuar com o seu pagamento, você concorda com as futuras cobranças listadas nesta página e com a política de cancelamento."
+        "purchase_options_agreement_label_wallets": "Ao continuar com o seu pagamento, você concorda com as futuras cobranças listadas nesta página e com a política de cancelamento.",
+        "delete_credit_card_modal": {
+          "title": "Excluir cartão"
+        }
+      },
+      "order_summary": {
+        "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto"
+      }
+    },
+    "errors": {
+      "shop_404": {
+        "owner_ctas": {
+          "fix_domain_link_text": "suas configurações de domínio"
+        },
+        "ctas": {
+          "store_owner": {
+            "shopify_support_link_text": "Suporte da Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "line_item": {
+        "item_status": {
+          "decrement_fulfilled_line_item": "Devolvido %{delta} de %{total}"
+        }
       }
     }
   },
   "customer_accounts": {
     "ui_components": {
-      "september": "Setembro"
+      "september": "Setembro",
+      "thursdayAbbreviation": "º"
     }
   }
 }

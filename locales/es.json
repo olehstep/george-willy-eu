@@ -482,7 +482,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "expired": "Esta tarjeta de regalo ha caducado"
+          "expired": "Esta tarjeta de regalo ha caducado",
+          "insufficient_funds": "A esta tarjeta de regalo no le quedan fondos"
         }
       }
     },
@@ -491,6 +492,9 @@
         "ctas": {
           "open_a_store": {
             "header": "Abrir una nueva tienda Shopify"
+          },
+          "editions": {
+            "caption": "Con más de 100 actualizaciones de productos, puede ser más productivo y creativo, y poderoso en el comercio de lo que nunca imaginó."
           }
         }
       }
@@ -505,7 +509,8 @@
       "processing": "Procesando…"
     },
     "profile_preview_bar": {
-      "previewing": "Estás previsualizando:"
+      "previewing": "Estás previsualizando:",
+      "navigate_to_admin": "Navegar a admin"
     },
     "orders": {
       "order_list": {

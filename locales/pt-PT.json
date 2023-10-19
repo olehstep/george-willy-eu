@@ -494,12 +494,16 @@
         "price_update": {
           "title": "Atualização de preços"
         },
-        "items_unavailable_notice": "Alguns itens já não estão disponíveis. O seu carrinho foi atualizado."
+        "items_unavailable_notice": "Alguns itens já não estão disponíveis. O seu carrinho foi atualizado.",
+        "item_label": {
+          "other": "{{count}} Itens"
+        }
       },
       "payment": {
         "purchase_options_agreement_label_wallets": "Ao continuar com o seu pagamento, você concorda com as futuras cobranças listadas nesta página e com a política de cancelamento.",
         "delete_credit_card_modal": {
-          "title": "Excluir cartão"
+          "title": "Excluir cartão",
+          "delete": "Excluir"
         },
         "add_credit_card_modal": {
           "save": "Salvar"
@@ -608,7 +612,8 @@
       "shipping_errors": {
         "shipping_method_not_available_generic": {
           "one": "Não é possível enviar esta encomenda para o endereço que introduziu. Reveja o seu endereço para garantir que todos os campos foram introduzidos corretamente e tente de novo."
-        }
+        },
+        "title": "Portes de envio não disponíveis"
       }
     },
     "errors": {
@@ -707,7 +712,8 @@
     },
     "profile_preview_bar": {
       "viewing": "Você está vendo:",
-      "saved_at": "Salvo {{date}} em {{time}}"
+      "saved_at": "Salvo {{date}} em {{time}}",
+      "hide_bar": "Ocultar bar"
     },
     "B2B": {
       "draft_order_details": {

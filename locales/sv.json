@@ -182,7 +182,8 @@
     },
     "profile_preview_bar": {
       "navigate_to_admin": "Navigera till administration",
-      "viewing": "Du tittar:"
+      "viewing": "Du tittar:",
+      "saved_at": "Sparat {{date}} För {{time}}"
     },
     "payment_methods": {
       "payment_details": {
@@ -607,7 +608,9 @@
         "order_edit_banner_items_added": {
           "other": "%{count} Tillägg",
           "one": "Lagt till"
-        }
+        },
+        "subscription_agreement_label": "Jag förstår att jag godkänner en prenumeration. Den kommer förnyas med listat pris och frekvens, tills den upphör eller %{cancelled}.",
+        "use_location_billing_address_label": "Använd platsens faktureringsadress"
       },
       "billing": {
         "address_form": {
@@ -619,7 +622,8 @@
         "gift_card": {
           "currency_mismatch": "Endast presentkort i %{shop_currency} Godkänns",
           "duplicate": "Presentkortet har redan använts på din beställning.",
-          "insufficient_funds": "Detta presentkort har inga pengar kvar"
+          "insufficient_funds": "Detta presentkort har inga pengar kvar",
+          "generic": "Presentkortet kunde inte läggas till i kassan."
         }
       },
       "note": {

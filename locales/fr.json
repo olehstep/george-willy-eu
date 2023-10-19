@@ -493,7 +493,8 @@
           "not_available": "Cette carte cadeau n'est plus disponible",
           "expired": "Cette carte cadeau a expiré",
           "currency_mismatch": "Seules les cartes-cadeaux dans %{shop_currency} Sont acceptés",
-          "insufficient_funds": "Cette carte-cadeau n'a plus de fonds"
+          "insufficient_funds": "Cette carte-cadeau n'a plus de fonds",
+          "generic": "La carte-cadeau n'a pas pu être ajoutée à la caisse"
         }
       },
       "payment_errors": {
@@ -521,7 +522,8 @@
           "add_address": "Ajoutez l'adresse"
         },
         "billing_address_title": "facturer",
-        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte?"
+        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte?",
+        "edit": "Éditer"
       },
       "payment": {
         "subscription_agreement_label": "Je comprends que je suis en train d'accepter un abonnement. Celui-ci se renouvellera au prix et à la fréquence indiqués et ce, jusqu'à ce qu'il prenne fin ou soit %{cancelled}.",
@@ -534,7 +536,8 @@
             "expiry": "Date d'expiration",
             "billing": "facturer"
           },
-          "done": "Fait"
+          "done": "Fait",
+          "description": "Vous pouvez uniquement modifier l'adresse de facturation de votre carte."
         },
         "purchase_options_agreement_label_wallets": "En poursuivant votre paiement, vous acceptez les frais futurs indiqués sur cette page et la politique d'annulation.",
         "payment_method": "Mode de paiement",
@@ -547,7 +550,8 @@
           "edit": "Éditer"
         },
         "add_credit_card_modal": {
-          "save": "Sauvegarder"
+          "save": "Sauvegarder",
+          "title": "Ajouter une carte"
         },
         "use_location_billing_address_label": "Utiliser l'adresse de facturation de l'emplacement",
         "subscription_agreement_cancelled": "annulé",
@@ -557,7 +561,10 @@
         },
         "use_location_shipping_address_label": "Utiliser l'adresse d'expédition emplacement",
         "use_order_billing_address_label": "Utiliser l'adresse de facturation de commande",
-        "business_customer_vaulting_payment_label": "Enregistrez cette carte en vue de futurs achats pour cet emplacement. J’autorise %{company} à facturer ce moyen de paiement en vue de futurs achats pour cet emplacement. Tout contact attribué à cet emplacement est autorisé à utiliser cette carte."
+        "business_customer_vaulting_payment_label": "Enregistrez cette carte en vue de futurs achats pour cet emplacement. J’autorise %{company} à facturer ce moyen de paiement en vue de futurs achats pour cet emplacement. Tout contact attribué à cet emplacement est autorisé à utiliser cette carte.",
+        "order_edit_banner_items_added": {
+          "one": "Ajoutée"
+        }
       },
       "stock": {
         "price_update": {
@@ -589,7 +596,9 @@
           "label": "%{price} \/Ea"
         },
         "higher_value_discount_applied": "Le <strong style=\"text-transform:uppercase\">%{code}<\/strong> ne pouvait pas être utilisé avec vos réductions existantes. Vous avez déjà une meilleure combinaison.",
-        "gift_card_and_discount_title": "Carte-cadeau ou code promo"
+        "gift_card_and_discount_title": "Carte-cadeau ou code promo",
+        "gift_card_and_discount_label": "Carte-cadeau ou code promo",
+        "discount_placeholder": "code de réduction"
       },
       "wallets": {
         "errors": {
@@ -602,7 +611,8 @@
         "credit_card_month_invalid": "Entrez un mois d'expiration de carte valide",
         "address_zip_too_long": "ZIP\/code postal est trop long (le maximum est de 255 caractères)",
         "credit_card_expiry_invalid": "Entrez une date d'expiration de carte valide",
-        "address_phone_invalid": "Entrez un numéro de téléphone valide"
+        "address_phone_invalid": "Entrez un numéro de téléphone valide",
+        "tips_invalid_tip_amount": "Saisissez un pourboire inférieur ou égal à %{amount}"
       },
       "general": {
         "map": {
@@ -644,6 +654,9 @@
       },
       "store_credit_errors": {
         "generic_error": "Il y avait un problème avec votre crédit de magasin.  Réessayez ou rechargez la page."
+      },
+      "notice_banner": {
+        "shipping_address_incomplete_title": "L’adresse de livraison est incomplète"
       }
     },
     "errors": {
@@ -654,7 +667,8 @@
             "header": "Êtes-vous le propriétaire du magasin ?"
           },
           "sell_in_person": {
-            "link_text": "Commencer l'essai gratuit"
+            "link_text": "Commencer l'essai gratuit",
+            "caption": "Obtenez les fonctionnalités dont vous avez besoin pour gérer votre magasin de détail, que vous soyez débutant ou en développement."
           },
           "open_a_store": {
             "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $\/mois pendant les 3 prochains mois.",
@@ -697,7 +711,8 @@
       "maximumReached": "Maximum de {{value}} Atteint",
       "sunday": "dimanche",
       "autocompleteOptionsAvailable": {
-        "other": "{{count}} Articles disponibles"
+        "other": "{{count}} Articles disponibles",
+        "one": "{{count}} Article disponible"
       },
       "friday": "vendredi",
       "wednesdayAbbreviation": "Nous",

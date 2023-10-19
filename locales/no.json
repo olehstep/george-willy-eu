@@ -162,7 +162,8 @@
         "postal_code_label": "Postnummer",
         "pincode_label": "PIN-kode",
         "new_address_label": "Bruk en ny adresse",
-        "change_company_location_link_label": "Endre firmasted"
+        "change_company_location_link_label": "Endre firmasted",
+        "zip_code_label": "post kode"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",
@@ -303,7 +304,8 @@
         "items_unavailable_notice": "Noen varer er ikke lenger tilgjengelig. Handlekurven din har blitt oppdatert.",
         "unshippable_product": {
           "message": {
-            "one": "Denne varen vil bli fjernet fra handlekurven din fordi det ikke er noen leveringsmetoder tilgjengelig for adressen din."
+            "one": "Denne varen vil bli fjernet fra handlekurven din fordi det ikke er noen leveringsmetoder tilgjengelig for adressen din.",
+            "other": "Disse varene vil bli fjernet fra handlekurven din fordi det ikke er noen leveringsmetoder tilgjengelig for adressen din."
           },
           "header": {
             "other": "Ingen levering tilgjengelig for %{count} varer",
@@ -399,7 +401,8 @@
             "other": "for %{count} leveranser"
           },
           "prepaid_initial_order_discounted_with_renewal": "Første fraktkostnad %{discounted_shipping_price} %{prepaid_delivery_frequency}, deretter %{shipping_price} %{billing_cycle}",
-          "prepaid_initial_order_discounted_with_per_delivery_price": "Første fraktkostnad %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})"
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Første fraktkostnad %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Første fraktkostnad %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), deretter %{shipping_price} %{billing_cycle}"
         },
         "two_day_delivery": "2-dagers levering %{time}",
         "waiting_on_rate_notice": "Får tilgjengelige fraktpriser …",
@@ -569,7 +572,8 @@
         "amazon_payments_abandoned_mfa_challenge": "Betalingen din kunne ikke fullføres. Prøv en annen betalingsmåte eller kontakt banken eller kortutstederen din.",
         "billing_address_associated_with_mandate": "Bruk adressen knyttet til betalingsmåten",
         "paypal_modal": {
-          "order_contains_fixed_selling_plans": "Summen inkluderer kanskje ikke skatter, frakt, utsatte kostnader og enkelte rabatter. Fortsett å betale for beløpet som skal betales i dag."
+          "order_contains_fixed_selling_plans": "Summen inkluderer kanskje ikke skatter, frakt, utsatte kostnader og enkelte rabatter. Fortsett å betale for beløpet som skal betales i dag.",
+          "order_contains_subscriptions": "Abonnement"
         },
         "giropay_label": "Giropay",
         "generic_incorrect_card_info": "Betalingsopplysningene dine kunne ikke bekreftes. Sjekk kortdetaljene dine og prøv igjen.",
@@ -680,7 +684,8 @@
           "cancel": "Avbryt"
         },
         "add_credit_card_modal": {
-          "cancel": "Avbryt"
+          "cancel": "Avbryt",
+          "save": "Lagre"
         },
         "amazon_payments_logout": "Logg ut fra Amazon Pay",
         "pay_with_payment_method": "Betal med %{payment_method}",
@@ -700,7 +705,8 @@
         "waiting_on_taxes_message": "Hvis skattene ikke beregnes i løpet av de neste sekundene, oppfrisk siden.",
         "order_edit_banner_single_item_removed": "Fjernet",
         "brand_not_available": "Denne butikken godtar ikke {{brand}}. Bruk et annet kort til å betale.",
-        "mor_disclaimer_html": "Ved å klikke nedenfor og fullføre bestillingen, godtar du å kjøpe varen(e) fra Global-e som registrert selger\nfor denne transaksjonen, på Global-e's <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Vilkår og betingelser<\/a>\nog <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Personvernerklæring<\/a>. Global-e er en internasjonal\ntjenesteleverogør til %{shop_name}\n"
+        "mor_disclaimer_html": "Ved å klikke nedenfor og fullføre bestillingen, godtar du å kjøpe varen(e) fra Global-e som registrert selger\nfor denne transaksjonen, på Global-e's <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Vilkår og betingelser<\/a>\nog <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Personvernerklæring<\/a>. Global-e er en internasjonal\ntjenesteleverogør til %{shop_name}\n",
+        "amazon_payments_could_not_enqueue_authorize": "Det oppsto et problem under behandlingen av betalingen din. Prøv på nytt eller bruk en annen betalingsmetode."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -1141,7 +1147,8 @@
         "location_title": "plassering",
         "thank_you_title_payments_app_pending_buyer_action_required": "Din ordre ble mottatt",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Etter at du har fullført betalingen, får du en e-post bekreftelse.  Følg bestillingen din ved hjelp av Shop-appen.",
-        "order_status_payments_app_pending_payment_description_default_with_phone": "Du får en bekreftelse snart.  Følg bestillingen din ved hjelp av Shop-appen."
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Du får en bekreftelse snart.  Følg bestillingen din ved hjelp av Shop-appen.",
+        "order_updates_subscribe_to_email_notifications_failed": "Vi kan ikke lagre denne e-posten for oppdateringer. Prøv på nytt eller bruk en annen e-postadresse."
       },
       "marketing": {
         "sms": {
@@ -1663,6 +1670,9 @@
           },
           "store_owner": {
             "shopify_support_link_text": "Støtte for shopify"
+          },
+          "sell_in_person": {
+            "header": "Selg personlig."
           }
         },
         "links": {
@@ -1683,7 +1693,8 @@
           "unpaid": "Ubetalt",
           "pending": "Avventer",
           "partially_refunded": "Delvis refundert",
-          "partially_paid": "Delvis betalt"
+          "partially_paid": "Delvis betalt",
+          "paid": "Betalt"
         },
         "transaction_status": {
           "error": "Feil",
@@ -2033,7 +2044,8 @@
           }
         },
         "plus_more": "+{{numberOfAdditionalProducts}}",
-        "sort_currently_sorted_by_accessibility_label": "For øyeblikket sortert etter: {{option}}"
+        "sort_currently_sorted_by_accessibility_label": "For øyeblikket sortert etter: {{option}}",
+        "order_status_and_message": "{{orderStatus}} - {{message}}"
       },
       "order_status": {
         "in_review_label": "I anmeldelse",
@@ -2123,7 +2135,8 @@
       "contact_us": "kontakt oss.",
       "list_layout_accessibility_label": "Oppsettalternativer",
       "havent_received_your_delivery": "Har du ikke mottatt leveringen din?",
-      "didnt_pick_up_order": "Har du ikke hentet bestillingen din?"
+      "didnt_pick_up_order": "Har du ikke hentet bestillingen din?",
+      "if_you_didnt_receive_this": "Hvis du ikke mottok dette,"
     },
     "order_details": {
       "contact": "Ta kontakt med",
@@ -2314,7 +2327,8 @@
       "loading_finished_accessibility_message": "Ny side med adresser er lastet inn",
       "no_addresses_banner": "Ingen adresser lagt til",
       "back_button_accessibility_label": "Tilbake til redigeringsadresse {{address}}",
-      "add_button_accessibility_label": "Legg til adresse"
+      "add_button_accessibility_label": "Legg til adresse",
+      "cancel_adding_address_accessibility_label": "Avbryt å legge til adresse"
     },
     "account_information": {
       "profile_card": {
@@ -2460,7 +2474,8 @@
         "list_loading_finished_accessibility_message": "Liste over steder er lastet inn",
         "search": "Søk etter et sted",
         "no_locations_found": "Ingen steder funnet",
-        "try_new_search": "Prøv et nytt søk"
+        "try_new_search": "Prøv et nytt søk",
+        "continue_to_store": "Fortsett å lagre"
       },
       "orders": {
         "order_list_column_headers_contact": "Ta kontakt med",

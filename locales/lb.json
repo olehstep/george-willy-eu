@@ -510,7 +510,11 @@
         "markets_pro_disclaimer_terms_and_conditions": "Konditioune",
         "order_edit_banner_multiple_items_removed": "{{amount}} ewechgeholl",
         "expired_payment_method": "Ausgewieden Betautemetode ass erflétt",
-        "waiting_on_taxes_message": "Wann Äerd Äerdäus net an de noel Sekonden bereellett, mat de Säit opfrisch."
+        "waiting_on_taxes_message": "Wann Äerd Äerdäus net an de noel Sekonden bereellett, mat de Säit opfrisch.",
+        "local_payment_method_receiver_notice": "Nodeems Dir Är Bestellung gemaach hutt, kritt Dir Bezuelungsdetailer. Maacht d'Bezuelung bei engem Geldautomaten oder online bannent {{dueDays}} Deeg.",
+        "order_edit_banner_items_removed": {
+          "in_full": "Geläscht"
+        }
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -622,7 +626,8 @@
         "invalid_shipping_method_summary": "Gidt eng geldilt Zéie-Adress fir verfügbar Rasie- Metodeen äusgen",
         "address_form": {
           "generic_error": "Et ass e Problem ze späicheren.  Probéiert w.e.g. nach eng Kéier.",
-          "add_address": "Add Adress"
+          "add_address": "Add Adress",
+          "save": "Spueren"
         },
         "add_delivery_instructions": "Leaver- Instruktiounen bäifügen",
         "address_confirm": "Wëllt Dir wier dës Adress op déi Kont geläichen?",
@@ -631,7 +636,8 @@
         "enter_address_manually_label": "Adress mank git",
         "subscription_shipping": "Abonnement Schëffer",
         "add_address": "Benot eng angere Adress",
-        "split_cart_merchandise_quantity_label_standard": "%{quantity} Elementen"
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} Elementen",
+        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Méien"
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -1686,7 +1692,8 @@
             "zone": "Gitt eng valabel Staat \/ Provënz",
             "reduction_code": "Gitt eng valabel Remise Code oder Cadeau Kaart",
             "shipping_option": "Wielt eng valabel Versandoptioun",
-            "billing_address": "Gitt eng valabel Rechnungsadress un"
+            "billing_address": "Gitt eng valabel Rechnungsadress un",
+            "email": "Gitt eng valabel E-Mail"
           },
           "missing": {
             "address1": "Gitt eng Adress un",
@@ -1821,7 +1828,8 @@
           "save": "Spueren"
         },
         "address_delete": "Adress läschen",
-        "address_confirm": "Wëllt Dir wier dës Adress op déi Kont geläichen?"
+        "address_confirm": "Wëllt Dir wier dës Adress op déi Kont geläichen?",
+        "address_edit": "Adress änneren"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -2773,7 +2781,8 @@
       "paid_with_shop_pay_installments_card": {
         "description": "Bleift um Top vun Ärem Bezuelungsplang mat Erënnerungen an der Shop App.",
         "desktop_qr_code_content": {
-          "description": "Kritt Erënnerungen un Är Remboursementer mam Shop."
+          "description": "Kritt Erënnerungen un Är Remboursementer mam Shop.",
+          "title": "Scan fir Erënnerungen"
         },
         "paid_with_shop_pay_installments": "Bezuelt mat Shop Pay Bezuelungen",
         "payment_reminders_button": "Kritt Bezuelen Erënnerung"
@@ -2797,7 +2806,8 @@
       "group_title_label": "Deel vun: {{groupTitle}}",
       "duties": "Flichten",
       "paid_amount": "Bezuelt",
-      "card_ending_with": "Enn mat {{lastDigits}}"
+      "card_ending_with": "Enn mat {{lastDigits}}",
+      "remaining_amount": "Rescht"
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",

@@ -483,7 +483,8 @@
         "method_summary": {
           "incomplete_address_entered": "Indtast en komplet leveringsadresse for at se tilgængelige forsendelsesmetoder",
           "incomplete_address_selected": "Vælg en komplet leveringsadresse for at se tilgængelige forsendelsesmetoder"
-        }
+        },
+        "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}"
       },
       "review": {
         "review_title": "Gennemgå ordre",
@@ -656,6 +657,13 @@
           "start_free_trial": "Start en gratis prøvel"
         }
       }
+    },
+    "notices": {
+      "line_item": {
+        "item_status": {
+          "decrement_item": "Fjernet %{delta} Af %{total}"
+        }
+      }
     }
   },
   "customer_accounts": {
@@ -686,7 +694,8 @@
       "minimumReached": "Mindste ar {{value}} Nåedes",
       "decrease": "Nedsæt {{type}}",
       "march": "marts",
-      "showNextMonth": "Vis næste måned. {{month}}  {{year}}"
+      "showNextMonth": "Vis næste måned. {{month}}  {{year}}",
+      "closeModal": "Tæt"
     },
     "orders": {
       "order_list": {

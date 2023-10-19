@@ -478,7 +478,8 @@
         "merchandise_quantity_label_inline_primary": "Hoeveelheid: %{quantity}",
         "invalid_shipping_method_summary": "Voer een geldig verzendadres in om de beschikbare verzendmethoden te bekijken",
         "method_summary": {
-          "incomplete_address_selected": "Selecteer een volledig verzendadres om de beschikbare verzendmethoden te bekijken"
+          "incomplete_address_selected": "Selecteer een volledig verzendadres om de beschikbare verzendmethoden te bekijken",
+          "incomplete_address_entered": "Voer een volledig verzendadres in om de beschikbare verzendmethoden te bekijken"
         },
         "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?",
         "title": "Verzending",
@@ -534,7 +535,8 @@
         "saved_credit_card_actions": {
           "edit": "Bewerking"
         },
-        "purchase_options_and_vaulting_agreement_label": "Een of meer artikelen in de winkelwagen zijn een uitgestelde of terugkerende aankoop. Als je doorgaat met de betaling, ga je ermee akkoord dat we de aankoopbedragen automatisch in rekening brengen via jouw betaalmethode tegen de prijs en frequentie die op deze pagina worden vermeld, totdat het afloopt of je het zelf opzegt. Voor alle opzeggingen geldt het %{cancellation_policy_label}."
+        "purchase_options_and_vaulting_agreement_label": "Een of meer artikelen in de winkelwagen zijn een uitgestelde of terugkerende aankoop. Als je doorgaat met de betaling, ga je ermee akkoord dat we de aankoopbedragen automatisch in rekening brengen via jouw betaalmethode tegen de prijs en frequentie die op deze pagina worden vermeld, totdat het afloopt of je het zelf opzegt. Voor alle opzeggingen geldt het %{cancellation_policy_label}.",
+        "business_customer_vaulting_payment_label": "Sla deze kaart op voor toekomstige aankopen bij deze locatie. Ik geef %{company} toestemming om via deze betaalmethode geld af te schrijven voor toekomstige aankopen op deze locatie. Alle contacten die aan deze locatie zijn toegewezen, hebben toestemming om deze kaart te gebruiken."
       },
       "customer_account": {
         "rollup_label": "Rekening",
@@ -554,7 +556,8 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Na het voltooien van uw betaling, ontvangt u een bevestigingsmail.  Volg uw bestelling met behulp van de Shop-app.",
         "thank_you_payments_app_failed_pending_payment": "Je bent niet aangeklaagd voor je bestelling.  Ga terug naar uw winkelwagen om uw bestelling te bekijken en betaal opnieuw.",
         "order_status_payments_app_pending_payment_description_default_with_email": "Je krijgt binnenkort een bevestigingsmail.  Volg uw bestelling met behulp van de Shop-app.",
-        "thank_you_title_payments_app_pending_default": "Uw betaling wordt verwerkt"
+        "thank_you_title_payments_app_pending_default": "Uw betaling wordt verwerkt",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Je krijgt binnenkort een bevestigingsmail.  Volg uw bestelling met behulp van de Shop-app."
       },
       "billing": {
         "billing_address_title": "Rekening naar",
@@ -624,7 +627,8 @@
           "currency_mismatch": "Alleen cadeaubonnen in %{shop_currency} Worden geaccepteerd",
           "insufficient_funds": "Deze cadeaubon heeft geen saldo meer",
           "not_available": "Deze cadeaubon is niet meer beschikbaar",
-          "generic": "De cadeaubon kon niet worden toegevoegd aan de kassa"
+          "generic": "De cadeaubon kon niet worden toegevoegd aan de kassa",
+          "expired": "Deze cadeaukaart is verlopen"
         }
       },
       "store_credit_errors": {
@@ -679,6 +683,9 @@
         },
         "links": {
           "start_free_trial": "Start een gratis proefversie"
+        },
+        "heros": {
+          "store_unavailable": "Sorry, deze winkel is momenteel niet beschikbaar."
         }
       }
     },
@@ -686,7 +693,8 @@
       "line_item": {
         "item_status": {
           "decrement_fulfilled_line_item": "Geretourneerd %{delta} Van %{total}",
-          "increment_item": "Toegevoegd %{delta}"
+          "increment_item": "Toegevoegd %{delta}",
+          "add_variant": "Toegevoegd %{delta}"
         }
       }
     }
@@ -725,7 +733,8 @@
       "decrease": "Daling {{type}}",
       "processing": "Verwerken…",
       "mondayAbbreviation": "Mo",
-      "tuesdayAbbreviation": "Jij"
+      "tuesdayAbbreviation": "Jij",
+      "thursday": "Donderdag"
     },
     "orders": {
       "order_list": {

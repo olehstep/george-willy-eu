@@ -611,7 +611,8 @@
         "alt_header": "Dirección de envío faltante"
       },
       "customer_account": {
-        "invalid_address": "La dirección seleccionada no es válida."
+        "invalid_address": "La dirección seleccionada no es válida.",
+        "have_an_account_label": "¿Ya tienes una cuenta?"
       },
       "store_credit_errors": {
         "generic_error": "Hubo un problema con el crédito de su tienda.  Inténtelo de nuevo o vuelva a cargar la página."
@@ -646,7 +647,8 @@
       "shop_404": {
         "ctas": {
           "open_a_store": {
-            "header": "Abrir una nueva tienda Shopify"
+            "header": "Abrir una nueva tienda Shopify",
+            "caption": "Comience una prueba gratuita de 3 días, luego continúe por $1\/mes durante los próximos 3 meses."
           },
           "editions": {
             "caption": "Con más de 100 actualizaciones de productos, puede ser más productivo y creativo, y poderoso en el comercio de lo que nunca imaginó.",
@@ -674,7 +676,8 @@
         "heros": {
           "no_storefront": "Esta tienda aún no tiene página web.",
           "store_unavailable": "Lo sentimos, esta tienda no está disponible actualmente."
-        }
+        },
+        "title": "¡Crear un sitio web de comercio electrónico y vender en línea!  Software de comercio electrónico por Shopify"
       }
     },
     "notices": {

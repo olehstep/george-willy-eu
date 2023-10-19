@@ -73,7 +73,8 @@
         "list_formatter": {
           "or": {
             "lastWordConnector": "{{previousWords}}, eller {{lastWord}}",
-            "twoWordConnector": "{{firstWord}} eller {{secondWord}}"
+            "twoWordConnector": "{{firstWord}} eller {{secondWord}}",
+            "wordConnector": "{{previousWords}}, {{anotherWord}}"
           },
           "narrow": {
             "lastWordConnector": "{{previousWords}}, {{lastWord}}",
@@ -302,7 +303,8 @@
         "recurring_payments": "Gjentakende betalinger",
         "gift_card_masked": "•••• %{last_characters}",
         "deferred_total_due_date_label": "Total forfall {{date}}",
-        "subscriptions": "Abonnementer"
+        "subscriptions": "Abonnementer",
+        "may_be_charged_on_delivery": "Kan bli belastet ved levering"
       },
       "stock": {
         "title": "Utsolgt",
@@ -948,7 +950,8 @@
         "debit_card_label": "Debetkort",
         "login_prompt": {
           "no_access": {
-            "message": "{{logIn}} til en konto med tilgang til dette stedet for å legge til eller bruke lagrede betalingsmåter."
+            "message": "{{logIn}} til en konto med tilgang til dette stedet for å legge til eller bruke lagrede betalingsmåter.",
+            "link": "Logg Inn"
           }
         },
         "deferred_payment_label": "Velg betalingsmåte senere",
@@ -1198,7 +1201,9 @@
         "gift_card_confirmation_by_text": "Hvis du ikke mottok den, sender du teksten på nytt eller kontakter oss.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Etter at du har fullført betalingen, får du en e-post bekreftelse.  Følg bestillingen din ved hjelp av Shop-appen.",
         "thank_you_confirmed_order_with_email_and_phone_payment": "Du foretok en betaling på bestillingen din %{date}.",
-        "picked_up_title": "Bestillingen din er hentet"
+        "picked_up_title": "Bestillingen din er hentet",
+        "order_status_confirmed_order_with_phone": "Du kan motta en tekstmelding når bestillingen er klar.",
+        "failed_pending_payment_page_title": "Det er et problem med betalingen din."
       },
       "marketing": {
         "sms": {
@@ -1515,7 +1520,8 @@
         "location_information": {
           "other": "Det er %{count} butikker med lager nær %{address}"
         },
-        "cancel": "Avbryt"
+        "cancel": "Avbryt",
+        "your_location": "Posisjonen din"
       },
       "wallets": {
         "errors": {
@@ -1551,7 +1557,8 @@
           },
           "generic": "Det oppstod et problem med {{walletName}}. Prøv på nytt eller bruk en annen betalingsmetode.",
           "detour": {
-            "price_change": "Noen varepriser er endret. Lukk {{walletName}} for å se gjennom bestillingen, og prøv på nytt."
+            "price_change": "Noen varepriser er endret. Lukk {{walletName}} for å se gjennom bestillingen, og prøv på nytt.",
+            "queue": "Du har blitt plassert i kø til kassen. Lukk {{walletName}} for å fortsette."
           },
           "terminal": "Det oppstod et problem med {{walletName}}. Vennligst bruk en annen betalingsmetode.",
           "outdated": {
@@ -1647,7 +1654,8 @@
         "same_as_shipping": "samme som leveringsadressen",
         "edit": "Redigere",
         "delete": "Slett",
-        "address_delete": "Slett adresse"
+        "address_delete": "Slett adresse",
+        "billing_address_title": "Regning til"
       },
       "order_errors": {
         "network_failure": "Bestillingen kunne ikke sendes inn på grunn av en nettverksfeil. Kontroller tilkoblingen, og prøv på nytt.",
@@ -1753,7 +1761,8 @@
         },
         "owner_ctas": {
           "fix_domain": "Avslutt å setja opp din nye vevadresse. Gå til %{domain_settings_link} .  Klikk på «Koble til domene» og skriv inn: %{domain} .<br>Hvis du har problemer med å komme inn i butikken din, så prøv... %{forgot_your_store_link} Side.",
-          "forgot_your_store_link_text": "Glemte butikken din."
+          "forgot_your_store_link_text": "Glemte butikken din.",
+          "header": "Er du butikkeier?"
         }
       },
       "empty": "kan ikke være tom",
@@ -1940,7 +1949,8 @@
       "search_results": {
         "one": "Søk: %{count} resultat funnet for \"%{terms}\"",
         "other": "Søk: %{count} resultater funnet for \"%{terms}\""
-      }
+      },
+      "not_found": "404 ikke funnet"
     },
     "search": {
       "sorting": {
@@ -2234,7 +2244,8 @@
       "havent_received_your_delivery": "Har du ikke mottatt leveringen din?",
       "didnt_pick_up_order": "Har du ikke hentet bestillingen din?",
       "if_you_didnt_receive_this": "Hvis du ikke mottok dette,",
-      "manage": "Få til"
+      "manage": "Få til",
+      "list_title": "Ordrene"
     },
     "order_details": {
       "contact": "Ta kontakt med",
@@ -2446,7 +2457,8 @@
         "edit": "Redigere",
         "last_name": "Etternavn",
         "no_name_provided_accessibility_label": "Ingen navn lagt til",
-        "title": "Profil"
+        "title": "Profil",
+        "cancel_accessibility_label": "Avbryt redigering av profil"
       },
       "profile_update_confirmation_message": "Profil oppdatert",
       "people": {
@@ -3029,7 +3041,8 @@
     },
     "transfers": {
       "will_not_ship_until": "Sender {{ date }}",
-      "waiting_for_stock": "Mer lager kommer snart"
+      "waiting_for_stock": "Mer lager kommer snart",
+      "will_be_in_stock_after": "På lager etter {{ date }}"
     },
     "labels": {
       "only_x_left": "{{ quantity }} på lager",

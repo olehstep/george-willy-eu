@@ -515,7 +515,8 @@
             "billing": "Regning til"
           },
           "cancel": "Afbestille",
-          "title": "Redigér kort"
+          "title": "Redigér kort",
+          "done": "Gjort"
         },
         "delete_credit_card_modal": {
           "confirmation": "Er du sikker på at du vil slette den {{brandName}} Ender i {{lastDigits}} ?",
@@ -537,7 +538,8 @@
           "in_full": "Vendt tilbage"
         },
         "add_credit_card_modal": {
-          "save": "Gemme"
+          "save": "Gemme",
+          "cancel": "Afbestille"
         },
         "purchase_options_agreement_label": "Jeg forstår, at én eller flere af varerne i min indkøbskurv er et udskudt eller tilbagevendende køb. Ved at fortsætte accepterer jeg %{cancellation_policy_label} og giver jer tilladelse til at debitere min betalingsmetode til de priser, med den hyppighed og på de datoer, der er angivet på denne side, indtil min ordre er klargjort, eller indtil jeg opsiger, såfremt dette er tilladt.",
         "order_edit_banner_items_removed": {
@@ -613,7 +615,8 @@
         "order_status_payments_app_pending_payment_description_default_with_email": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
         "failed_pending_payment_page_title": "Der er et problem med din betaling",
         "order_status_payments_app_failed_pending_payment": "Du blev ikke betalt for din ordre.  Retur til din kurv for at gennemgå din ordre og betale igen.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Efter at have fuldført din betaling, vil du få en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Efter at have fuldført din betaling, vil du få en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
+        "thank_you_payments_app_failed_pending_payment": "Du blev ikke betalt for din ordre.  Retur til din kurv for at gennemgå din ordre og betale igen."
       },
       "contact": {
         "title": "Oplysninger"
@@ -651,7 +654,8 @@
         "ctas": {
           "editions": {
             "header": "Se Shopify udgaver",
-            "caption": "Med 100 + produktopdateringer, kan du være mere produktiv og kreativ, og stærk i handel, end du nogensinde havde forestillet dig."
+            "caption": "Med 100 + produktopdateringer, kan du være mere produktiv og kreativ, og stærk i handel, end du nogensinde havde forestillet dig.",
+            "link_text": "Udforsk seneste udgaver"
           },
           "store_owner": {
             "shopify_support_link_text": "Støtte til Shopify",
@@ -691,7 +695,8 @@
     "notices": {
       "line_item": {
         "item_status": {
-          "decrement_item": "Fjernet %{delta} Af %{total}"
+          "decrement_item": "Fjernet %{delta} Af %{total}",
+          "decrement_fulfilled_line_item": "Returret %{delta} Af %{total}"
         }
       }
     }
@@ -728,7 +733,10 @@
       "closeModal": "Tæt",
       "inRange": "Inden for rækkevidde",
       "january": "januar",
-      "june": "juni"
+      "june": "juni",
+      "submit": "Indsend",
+      "december": "december",
+      "november": "november"
     },
     "orders": {
       "order_list": {
@@ -750,7 +758,8 @@
           "order_tracking_link": {
             "text": "Spor og administrer Køb med Prime ordre."
           }
-        }
+        },
+        "there_was_a_problem_label": "Der var et problem."
       }
     },
     "errors": {
@@ -765,7 +774,8 @@
       }
     },
     "profile_preview_bar": {
-      "navigate_to_admin": "Naviger til administration"
+      "navigate_to_admin": "Naviger til administration",
+      "previewing": "Du forhåndsviser:"
     },
     "order_details": {
       "edit_summary": {

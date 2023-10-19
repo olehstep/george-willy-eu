@@ -63,7 +63,8 @@
           },
           "sell_in_person": {
             "header": "An Persoon Verel",
-            "link_text": "Fräi Test starten"
+            "link_text": "Fräi Test starten",
+            "caption": "Agen d'Fiatchelz, d'Mecheenschoen, déi d'Afschiermen aus aus aus aus."
           }
         },
         "owner_ctas": {
@@ -543,7 +544,8 @@
         "card_fields_processing_error": "Et gouf e Problem beim Veraarbechtung vun der Bezuelung. Probéiert dës Säit z'erfrëschen oder kontrolléiert Är Internetverbindung.",
         "subscription_heading": "Beschreiwung",
         "card_vaulted_company_location": "Kaart fir dës Plaz gespäichert",
-        "order_edit_banner_single_item_returned": "Zréckkomm"
+        "order_edit_banner_single_item_returned": "Zréckkomm",
+        "billing_must_match_shipping_notice": "D'Rechnungsadress vun Ärer Bezuelmethod muss mat der Versandadress passen."
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -677,7 +679,9 @@
         "shipping_information_required_notice": "Versandinformatioun ass erfuerderlech. {{link}}.",
         "shipping_method_combinations": {
           "combination": "%{rest} an %{current}"
-        }
+        },
+        "missing_shipping_address": "Versandadress feelt",
+        "address_delete": "Adress läschen"
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -1385,7 +1389,8 @@
         "successful_offsite_with_gift_card_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Kaddokaartbezuelung. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod.",
         "test_mode_live_card": "Dëse Buttek kann net richteg Bestellungen oder richteg Bezuelungen akzeptéieren.",
         "development_store_order_limit_reached": "Dir hutt d'Limite fir Entwécklungsgeschäft Bestellunge mat dësem Bezuelprozessor erreecht. Fir eng aner Bestellung ze maachen, musst Dir en Testbezuelungsgateway benotzen. Léiere méi iwwer %{development_store_order_testing_docs_link}.",
-        "development_store_order_testing_docs_link": "Testbestellungen an Entwécklungsgeschäfter"
+        "development_store_order_testing_docs_link": "Testbestellungen an Entwécklungsgeschäfter",
+        "pick_up_card": "Är Kaart gouf refuséiert. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod."
       },
       "post_purchase": {
         "title": "Post-Akaaf",
@@ -1891,7 +1896,8 @@
         "delete": "Läschen",
         "address_form": {
           "cancel": "Ofbriechen",
-          "save": "Spueren"
+          "save": "Spueren",
+          "add_address": "Add Adress"
         },
         "address_delete": "Adress läschen",
         "address_confirm": "Wëllt Dir wier dës Adress op déi Kont geläichen?",
@@ -2276,7 +2282,8 @@
         },
         "ready_for_pickup_location": "Är Bestellung ass prett fir op der Plaz ofzehuelen",
         "delivered_description_gift_card_text": {
-          "other": "Kaddoskaarte goufen per Text geschéckt."
+          "other": "Kaddoskaarte goufen per Text geschéckt.",
+          "one": "Geschenkkaart gouf per Text geschéckt."
         },
         "gift_card_resend_text": {
           "one": "Text erëm schécken",
@@ -2291,7 +2298,8 @@
           "other": "Kaddoskaarten"
         },
         "delivered_description_gift_card": {
-          "one": "Geschenkkaart gouf per E-Mail geschéckt."
+          "one": "Geschenkkaart gouf per E-Mail geschéckt.",
+          "other": "Kaddoskaarten goufen per E-Mail geschéckt."
         },
         "amazon_buy_with_prime": {
           "order_tracking_link": {
@@ -3010,7 +3018,8 @@
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",
       "saved_at": "Späichert {{date}} Am {{time}}",
-      "hide_bar": "Bar verstopen"
+      "hide_bar": "Bar verstopen",
+      "viewing": "Dir gwesch:"
     }
   },
   "contact": {

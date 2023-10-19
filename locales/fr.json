@@ -529,7 +529,8 @@
         },
         "billing_address_title": "facturer",
         "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte?",
-        "edit": "Éditer"
+        "edit": "Éditer",
+        "address_delete": "Supprimer l'adresse"
       },
       "payment": {
         "subscription_agreement_label": "Je comprends que je suis en train d'accepter un abonnement. Celui-ci se renouvellera au prix et à la fréquence indiqués et ce, jusqu'à ce qu'il prenne fin ou soit %{cancelled}.",
@@ -642,7 +643,8 @@
       "review": {
         "blocks": {
           "payment_method_title": "Paiement",
-          "shipping_method_title": "Méthode"
+          "shipping_method_title": "Méthode",
+          "review_title_free_order": "Examiner et compléter votre commande"
         },
         "review_title": "Réviser la commande"
       },

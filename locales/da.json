@@ -468,7 +468,10 @@
         "address_more": "Flere handlinger til denne adresse"
       },
       "review": {
-        "review_title": "Gennemgå ordre"
+        "review_title": "Gennemgå ordre",
+        "blocks": {
+          "review_title_free_order": "Gennemgå og fuldføre din ordre."
+        }
       },
       "general": {
         "map": {
@@ -484,13 +487,34 @@
         "out_of_stock": {
           "description": "Disse varer er ikke længere tilgængelige og er blevet fjernet fra din kurv."
         }
+      },
+      "billing": {
+        "same_as_shipping": "Samme som leveringsadresse"
+      },
+      "order_summary": {
+        "price_per_item": {
+          "accessibility_label": "%{price} Produkter"
+        }
+      }
+    },
+    "errors": {
+      "shop_404": {
+        "ctas": {
+          "editions": {
+            "header": "Se Shopify udgaver"
+          }
+        }
       }
     }
   },
   "customer_accounts": {
     "ui_components": {
       "august": "august",
-      "may": "Kan"
+      "may": "Kan",
+      "february": "februar",
+      "sundayAbbreviation": "Hans",
+      "rangeStart": "Start af rækkevidde",
+      "mondayAbbreviation": "Mo"
     }
   }
 }

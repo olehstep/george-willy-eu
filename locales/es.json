@@ -461,7 +461,10 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "shipping_method_notice": "Tenga en cuenta: los pedidos no se pueden cambiar ni cancelar una vez realizados. Para cambiar un pedido, siga la política de devoluciones y cambios."
+        "shipping_method_notice": "Tenga en cuenta: los pedidos no se pueden cambiar ni cancelar una vez realizados. Para cambiar un pedido, siga la política de devoluciones y cambios.",
+        "address_form": {
+          "generic_error": "Hubo un problema al guardar su dirección.  Inténtalo de nuevo."
+        }
       },
       "order_summary": {
         "price_per_item": {
@@ -476,6 +479,20 @@
         "gift_card_wrapper": {
           "apply_another_gift_card_label": "Aplicar otra tarjeta de regalo"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "expired": "Esta tarjeta de regalo ha caducado"
+        }
+      }
+    },
+    "errors": {
+      "shop_404": {
+        "ctas": {
+          "open_a_store": {
+            "header": "Abrir una nueva tienda Shopify"
+          }
+        }
       }
     }
   },
@@ -483,10 +500,21 @@
     "ui_components": {
       "maximumReached": "Máximo de {{value}} Alcanzada",
       "showNextMonth": "Mostrar el próximo mes, {{month}}  {{year}}",
-      "wednesdayAbbreviation": "Nosotros"
+      "wednesdayAbbreviation": "Nosotros",
+      "thursday": "jueves",
+      "processing": "Procesando…"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:"
+    },
+    "orders": {
+      "order_list": {
+        "payment_status": {
+          "list_view": {
+            "due_without_date": "Pago vencido"
+          }
+        }
+      }
     }
   }
 }

@@ -469,7 +469,8 @@
         "address_form": {
           "generic_error": "Er was een probleem met het opslaan van uw adres.  Probeer het opnieuw."
         },
-        "missing_shipping_address": "Verzendadres ontbreekt"
+        "missing_shipping_address": "Verzendadres ontbreekt",
+        "shipping_address_title": "Verzend naar"
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
@@ -482,7 +483,11 @@
           }
         },
         "subscription_agreement_label": "Ik begrijp dat ik akkoord ga met een abonnement. Het zal worden vernieuwd tegen de vermelde prijs en frequentie totdat het afloopt of wordt %{cancelled}.",
-        "expired_payment_method": "Geselecteerde betaalmethode is verlopen"
+        "expired_payment_method": "Geselecteerde betaalmethode is verlopen",
+        "subscription_agreement_cancelled": "geannuleerd",
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} Van {{quantity}} Verwijderd"
+        }
       },
       "customer_account": {
         "rollup_label": "Rekening"
@@ -500,6 +505,30 @@
         "price_update": {
           "description": "De prijzen voor deze artikelen zijn gewijzigd en worden bijgewerkt in uw winkelwagen."
         }
+      },
+      "review": {
+        "blocks": {
+          "payment_method_saved_company_location": "Bewaar kaart voor deze locatie"
+        }
+      },
+      "field_errors": {
+        "address_zip_too_long": "ZIP\/postcode is te lang (maximaal 255 tekens)"
+      },
+      "general": {
+        "map": {
+          "cluster_title": {
+            "other": "Cluster van {{number}} Stiften"
+          }
+        }
+      }
+    },
+    "errors": {
+      "shop_404": {
+        "ctas": {
+          "editions": {
+            "header": "Bekijk Shopify Editions"
+          }
+        }
       }
     }
   },
@@ -511,7 +540,9 @@
     },
     "ui_components": {
       "wednesday": "Woensdag",
-      "february": "Februari"
+      "february": "Februari",
+      "saturdayAbbreviation": "Zijn",
+      "rangeEnd": "Einde van het bereik"
     },
     "orders": {
       "order_list": {

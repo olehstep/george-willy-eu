@@ -464,7 +464,8 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "shipping_method_notice": "Veuillez noter : Les commandes ne peuvent pas être modifiées ou annulées une fois passées. Pour modifier une commande, veuillez suivre la politique de retours et échanges."
+        "shipping_method_notice": "Veuillez noter : Les commandes ne peuvent pas être modifiées ou annulées une fois passées. Pour modifier une commande, veuillez suivre la politique de retours et échanges.",
+        "invalid_shipping_method_summary": "Entrez une adresse de livraison valide pour voir les méthodes d'expédition disponibles"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -476,6 +477,19 @@
       },
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
+      },
+      "billing": {
+        "address_more": "Plus d'actions pour cette adresse",
+        "same_as_shipping": "Même que l'adresse d'expédition"
+      },
+      "payment": {
+        "subscription_agreement_label": "Je comprends que je suis en train d'accepter un abonnement. Celui-ci se renouvellera au prix et à la fréquence indiqués et ce, jusqu'à ce qu'il prenne fin ou soit %{cancelled}.",
+        "expired_payment_method": "Le mode de paiement sélectionné a expiré"
+      },
+      "stock": {
+        "price_update": {
+          "description": "Les prix de ces articles ont changé et sont mis à jour dans votre panier."
+        }
       }
     },
     "errors": {
@@ -484,13 +498,21 @@
           "store_owner": {
             "caption": "Vous avez des difficultés à entrer dans votre magasin?  Essayez le %{forgot_your_store_link} Caractéristique.  Si vous souhaitez réactiver votre boutique contact %{shopify_support_link} ."
           }
+        },
+        "owner_ctas": {
+          "fix_domain_link_text": "Vos paramètres de domaine"
         }
       }
     }
   },
   "customer_accounts": {
     "ui_components": {
-      "inRange": "Dans la gamme"
+      "inRange": "Dans la gamme",
+      "maximumReached": "Maximum de {{value}} Atteint",
+      "sunday": "dimanche"
+    },
+    "profile_preview_bar": {
+      "previewing": "Vous prévisualisez:"
     }
   }
 }

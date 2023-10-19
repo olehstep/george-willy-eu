@@ -87,7 +87,8 @@
             "twoWordConnector": "{{firstWord}}, {{secondWord}}"
           },
           "and": {
-            "lastWordConnector": "{{previousWords}}, og {{lastWord}}"
+            "lastWordConnector": "{{previousWords}}, og {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} og {{secondWord}}"
           }
         },
         "back_to_shipping_method": "Gå tilbake til frakt",
@@ -300,7 +301,8 @@
         "group_title_label": "Del av «%{group_title}»",
         "title": "Bestillingssammendrag",
         "discount_title_stacking": {
-          "other": "Rabatter"
+          "other": "Rabatter",
+          "one": "Rabatt"
         },
         "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkoden er ikke tilgjengelig for deg akkurat nå",
         "discount_order_stacking": {
@@ -809,7 +811,8 @@
         "paypal": {
           "connect": "Klikk for å koble til PayPal-kontoen din"
         },
-        "vaulting_agreement_label": "Lagre betalingsinformasjonen min med %{company} for en raskere betaling."
+        "vaulting_agreement_label": "Lagre betalingsinformasjonen min med %{company} for en raskere betaling.",
+        "purchase_options_agreement_label_wallets": "Ved å fortsette med betalingen din godkjenner du framtidige avgifter oppført på denne siden og avlysingsreglene."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -907,7 +910,9 @@
         "address_phone_contains_emojis": "Telefonnummeret kan ikke inneholde emojier",
         "address_first_name_blank": "Skriv inn et fornavn",
         "sms_marketing_phone_invalid": "Skriv inn et gyldig telefonnummer",
-        "vaulting_agreement_blank": "For å fortsette, må du lagre det nye kredittkortet ditt fordi betaling for denne bestillingen vil skje på et senere tidspunkt."
+        "vaulting_agreement_blank": "For å fortsette, må du lagre det nye kredittkortet ditt fordi betaling for denne bestillingen vil skje på et senere tidspunkt.",
+        "payment_gateway_unsupported_for_development_store_html": "For å legge inn en testbestilling, må du bruke en testbetalingsgateway. Lære mer om <a href=\"%{docs_link}\">testing av bestillinger i utviklingsbutikker<\/a>.",
+        "credit_card_expiry_invalid": "Angi en gyldig utløpsdato for kortet"
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",
@@ -1870,7 +1875,8 @@
           "header": "Er du butikkeier?",
           "fix_domain_link_text": "Ditt domeneinnstillingar",
           "admin_link_text": "Admin:"
-        }
+        },
+        "title": "Lag ei e-handels nettsted og Selg på nettet!  E-handelsprogrammerce fra Shopify"
       },
       "empty": "kan ikke være tom",
       "gift_card_already_applied": "Koden er allerede brukt på kassen din"
@@ -2198,7 +2204,8 @@
           "two_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} mengde {{lineItemQuantity1}}, {{lineItemName2}} mengde {{lineItemQuantity2}}",
           "previous": "Tidligere",
           "one_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} antall {{lineItemQuantity1}}",
-          "next": "Neste"
+          "next": "Neste",
+          "six_and_more_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} mengde {{lineItemQuantity1}}, {{lineItemName2}} mengde {{lineItemQuantity2}}, {{lineItemName3}} mengde {{lineItemQuantity3}}, {{lineItemName4}} mengde {{lineItemQuantity4}}, {{lineItemName5}} mengde [@9 ], {{lineItemName6}} mengde {{lineItemQuantity6}} og mer"
         },
         "sort_by": "Sorter etter: {{option}}",
         "one_images_accessibility_label": "Bestillingen inkluderer {{lineItemName1}}",
@@ -2254,7 +2261,8 @@
             "last_365_days": "Siste 12 månader",
             "today": "I dag",
             "last_30_days": "Siste 30 dager",
-            "custom": "Tilpasset"
+            "custom": "Tilpasset",
+            "end_date": "Sluttdato"
           },
           "apply": "Søke om",
           "clear_all": "Slett alt",
@@ -2359,7 +2367,8 @@
         },
         "confirmed_label": "Bekreftet",
         "last_updated": "Sist oppdatert {{date}}",
-        "attempted_to_deliver_label": "Forsøkte å levere"
+        "attempted_to_deliver_label": "Forsøkte å levere",
+        "delivered_description": "Denne forsendelsen er levert."
       },
       "group_title_label": "Del av: {{groupTitle}}",
       "buy_again": "Kjøp igjen",
@@ -2391,7 +2400,8 @@
         "expand_events_label": "Vis detaljer",
         "ineligible_return_message": "Ingen varer i denne bestillingen er kvalifisert for retur.",
         "ineligible_return_message_when_returned": "Ingen ytterligere poster i denne rekkefølgen kan returneres.",
-        "return_and_refund_modal_header": "Angrerett"
+        "return_and_refund_modal_header": "Angrerett",
+        "tracking_number": "Sporingsnummer:"
       },
       "shipping": {
         "summary": "Shipping",
@@ -2645,7 +2655,8 @@
             "banner_due": {
               "one": "Betalingen din forfaller innen {{count}} dag"
             },
-            "description_due_on_fulfillment": "Betaling forfaller når alle varene i denne bestillingen er oppfylt."
+            "description_due_on_fulfillment": "Betaling forfaller når alle varene i denne bestillingen er oppfylt.",
+            "title_with_date": "Forfaller betaling {{date}}"
           },
           "refund": {
             "title_with_date": "Refundert {{date}}",
@@ -2738,7 +2749,8 @@
         "try_new_search": "Prøv et nytt søk",
         "continue_to_store": "Fortsett å lagre",
         "selection_confirmation_button": "Velg plassering",
-        "no_location_title": "Kun personlige bestillinger"
+        "no_location_title": "Kun personlige bestillinger",
+        "no_location_description": "Du har ikke lenger tillatelse til å legge inn bestillinger for {{company}}. Du kan fortsatt legge inn personlige bestillinger."
       },
       "orders": {
         "order_list_column_headers_contact": "Ta kontakt med",
@@ -3046,7 +3058,10 @@
       "march": "mars",
       "tuesdayAbbreviation": "At",
       "april": "april",
-      "november": "november"
+      "november": "november",
+      "increase": "Auk {{type}}",
+      "may": "Kan",
+      "rangeStart": "Rekkevidde start"
     },
     "profile_preview_bar": {
       "saved_at": "Lagrat {{date}} Kje {{time}}",

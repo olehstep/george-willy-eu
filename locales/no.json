@@ -311,7 +311,9 @@
         "subscriptions": "Abonnementer",
         "may_be_charged_on_delivery": "Kan bli belastet ved levering",
         "duties_label": "Plikter",
-        "calculating": "Beregner …"
+        "calculating": "Beregner …",
+        "paid_label": "Betalt",
+        "gift_card_and_discount_label": "Gavekort eller rabattkode"
       },
       "stock": {
         "title": "Utsolgt",
@@ -759,7 +761,8 @@
         "use_order_billing_address_label": "Bruk ordrefaktureringsadresse",
         "shipping_rate_updated": "Tilgjengelige forsendelsesmetoder er oppdatert. Bekreft valget ditt før du sjekker ut.",
         "billing_address_invalid_phone": "Oppdater telefonnummeret i faktureringsadressen for {{label}} {{last_digits}} for å fortsette.",
-        "amazon_payments_failed_mfa_challenge": "Den valgte betalingsmåten kunne ikke brukes. Velg en annen metode eller kontakt banken eller kortutstederen din."
+        "amazon_payments_failed_mfa_challenge": "Den valgte betalingsmåten kunne ikke brukes. Velg en annen metode eller kontakt banken eller kortutstederen din.",
+        "markets_pro_disclaimer_privacy_policy_title": "Personvernerklæring for selgere"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -1500,7 +1503,8 @@
             "one": "%{pickup_point_index} av %{count} punkt"
           },
           "selected_page": {
-            "one": "%{first} - %{last} av %{count} punkt"
+            "one": "%{first} - %{last} av %{count} punkt",
+            "other": "%{first} - %{last} av %{count} poeng"
           },
           "next_accessibility_label": "Neste side",
           "previous_accessibility_label": "Forrige side",
@@ -1576,7 +1580,8 @@
             "address2": "Gå inn i en leilighet, suite osv.",
             "province": "Velg en stat\/provins",
             "zip": "Skriv inn et postnummer",
-            "address1": "Skriv inn en adresse"
+            "address1": "Skriv inn en adresse",
+            "last_name": "Skriv inn et etternavn"
           },
           "generic": "Det oppstod et problem med {{walletName}}. Prøv på nytt eller bruk en annen betalingsmetode.",
           "detour": {
@@ -2133,7 +2138,8 @@
             "due_on_fulfillment": "Forfaller ved oppfyllelse",
             "payment_not_due": "Ikke forfall ennå",
             "overdue": "Forfalt",
-            "pay_to_confirm": "Betal for å bekrefte"
+            "pay_to_confirm": "Betal for å bekrefte",
+            "due_today": "Har termin i dag"
           }
         },
         "no_filtered_results_title": "Ingen filtrerte resultater",
@@ -2262,7 +2268,8 @@
             "new_window_disclaimer": "(åpner et nytt vindu)"
           }
         },
-        "confirmed_label": "Bekreftet"
+        "confirmed_label": "Bekreftet",
+        "last_updated": "Sist oppdatert {{date}}"
       },
       "group_title_label": "Del av: {{groupTitle}}",
       "buy_again": "Kjøp igjen",
@@ -2765,7 +2772,8 @@
         "replace_payment_method": "Bytt ut betalingsmåten",
         "loading_shop_pay": "Laster Shop Pay",
         "card_info_title": "Kortinformasjon",
-        "checkout_card_banner": "Denne betalingsmetoden kan bare brukes for forhåndsgodkjente betalinger.  Det vil ikke synes i kassan om du er logga inn i denne butikken."
+        "checkout_card_banner": "Denne betalingsmetoden kan bare brukes for forhåndsgodkjente betalinger.  Det vil ikke synes i kassan om du er logga inn i denne butikken.",
+        "total_amount_of_subscription_line_items_left": "og {{total}} flere"
       },
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalingsmåten er oppdatert",
@@ -2882,7 +2890,8 @@
       "dankort": "Dankort",
       "forbrugsforeningen": "Forbrukerforeningen",
       "dinersclub": "Diners Club",
-      "applepay": "Apple Pay"
+      "applepay": "Apple Pay",
+      "laser": "Laser"
     },
     "shop_policies": {
       "terms_of_sale": "Salgsbetingelser",

@@ -65,6 +65,9 @@
             "header": "An Persoon Verel",
             "link_text": "Fräi Test starten",
             "caption": "Agen d'Fiatchelz, d'Mecheenschoen, déi d'Afschiermen aus aus aus aus."
+          },
+          "editions": {
+            "link_text": "Lesten Editiounen"
           }
         },
         "owner_ctas": {
@@ -225,7 +228,8 @@
             "saturday": "op",
             "monday": "Mo",
             "thursday": "Th",
-            "tuesday": "Dat"
+            "tuesday": "Dat",
+            "sunday": "Su"
           },
           "weekdays": {
             "wednesday": "Mëttwoch",
@@ -244,7 +248,9 @@
             "february": "Februar",
             "january": "Januar",
             "may": "Mee",
-            "june": "Juni"
+            "june": "Juni",
+            "april": "Abrëll",
+            "july": "Juli"
           }
         },
         "datepicker": {
@@ -293,7 +299,8 @@
           "cluster_title": {
             "other": "Cluster vunt {{number}} Marker"
           }
-        }
+        },
+        "choose_delivery_strategy": "Wielt eng Liwwerung Method"
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -503,7 +510,8 @@
         "use_order_billing_address_label": "Orderfolling-Adress benotzen",
         "add_credit_card_modal": {
           "cancel": "Ofbriechen",
-          "save": "Spueren"
+          "save": "Spueren",
+          "title": "Kaarter dobäimaachen"
         },
         "payment_method": "Bezuelmethod",
         "edit_credit_card_modal": {
@@ -664,7 +672,8 @@
         "address_form": {
           "generic_error": "Et ass e Problem ze späicheren.  Probéiert w.e.g. nach eng Kéier.",
           "add_address": "Add Adress",
-          "save": "Spueren"
+          "save": "Spueren",
+          "one_time_address_subtitle": "Benotzt eng eemoleg Adress fir dës Bestellung"
         },
         "add_delivery_instructions": "Leaver- Instruktiounen bäifügen",
         "address_confirm": "Wëllt Dir wier dës Adress op déi Kont geläichen?",
@@ -948,7 +957,8 @@
         "gift_card_invalid": "Geschenkkaart \"••••%{last_four_characters}\" ass net méi valabel",
         "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Dir hutt d'Limite fir Entwécklungsgeschäft Bestellunge mat dësem Bezuelprozessor erreecht. Fir eng aner Bestellung ze maachen, musst Dir en Testbezuelungsgateway benotzen. Léiere méi iwwer <a href=\"%{docs_link}\">Testbestellungen an Entwécklungsgeschäfter<\/a>.",
         "phone_blank": "Gitt eng Telefonsnummer",
-        "delivery_zone_not_found": "Déi spezifizéiert Zone gouf net am spezifizéierte Land fonnt."
+        "delivery_zone_not_found": "Déi spezifizéiert Zone gouf net am spezifizéierte Land fonnt.",
+        "address_zip_too_long": "ZIP \/ Postcode ass ze laang (maachm ass 255 Zeechen)"
       },
       "thank_you": {
         "branded_promise": {
@@ -1490,7 +1500,8 @@
         "title": "Net op Lager",
         "quantity_update": {
           "title": "Quantitéit Update",
-          "page_title": "Quantitéit Update"
+          "page_title": "Quantitéit Update",
+          "description": "Verfügbar Quantitéite fir dës Artikelen hu geännert a ginn an Ärem Weenchen aktualiséiert."
         },
         "quantity_column_header": "Quantitéit",
         "unshippable_product": {
@@ -1537,7 +1548,8 @@
         "terms_of_service": "Konditioune vum Service",
         "contact_information": "Kontakt-Informatioun",
         "refund_policy": "Remboursement Politik",
-        "purchase_options_cancellation_policy": "Annulatiounspolitik"
+        "purchase_options_cancellation_policy": "Annulatiounspolitik",
+        "terms_of_sale": "Konditioune vum Verkaf"
       },
       "payment_gateway": {
         "bank_deposit_label": "Bank Depot",
@@ -1817,7 +1829,8 @@
         "payment_in_progress_body": "Är Bezuelung gëtt veraarbecht. Är Bestellung gëtt geschwënn ofgeschloss.",
         "payment_in_progress_title": "Bezuelung amgaang",
         "return_to_store": "Zréck an de Buttek",
-        "redirect_hint": "Dir wäert gefrot ginn mat {{walletName}} aloggen."
+        "redirect_hint": "Dir wäert gefrot ginn mat {{walletName}} aloggen.",
+        "call_to_action": "Bezuelt mat {{walletName}}"
       },
       "pickup_point": {
         "selector_tab_map": "Kaart",
@@ -1900,7 +1913,8 @@
         }
       },
       "session_errors": {
-        "session_already_finished": "Dës Bestellung ass scho virgestallt ginn. Dir kënnt zréck an de Buttek fir eng nei Bestellung unzefänken."
+        "session_already_finished": "Dës Bestellung ass scho virgestallt ginn. Dir kënnt zréck an de Buttek fir eng nei Bestellung unzefänken.",
+        "session_not_unique": "Et gouf e Problem beim Veraarbechtung vun Ärer Bestellung. Erfrëscht dës Säit fir zréck an de Buttek."
       },
       "online_store_chat": {
         "title": "Froen? Chat mat eis"
@@ -2777,7 +2791,8 @@
       },
       "apple_pay": {
         "errors": {
-          "generic": "Et gouf e Problem mat Apple Pay. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod."
+          "generic": "Et gouf e Problem mat Apple Pay. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod.",
+          "missing_billing_address": "Apple Pay erfuerdert eng Rechnungsadress. Gitt w.e.g. een op Äre Kont."
         },
         "loading": "Lueden Apple Pay"
       },
@@ -2925,7 +2940,8 @@
       "remaining_amount": "Rescht",
       "no_data_provided": "-",
       "no_data_provided_accessibility_label": "{{fieldName}} ass eidel",
-      "log_in": "Mellt Iech un"
+      "log_in": "Mellt Iech un",
+      "tip": "Tipp"
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",
@@ -3043,13 +3059,15 @@
       "tuesday": "Dënschdeg",
       "mondayAbbreviation": "Mo",
       "september": "September",
-      "saturday": "Samschdeg"
+      "saturday": "Samschdeg",
+      "sundayAbbreviation": "Su"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",
       "saved_at": "Späichert {{date}} Am {{time}}",
       "hide_bar": "Bar verstopen",
-      "viewing": "Dir gwesch:"
+      "viewing": "Dir gwesch:",
+      "navigate_to_admin": "Navigaider"
     }
   },
   "contact": {

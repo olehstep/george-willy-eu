@@ -74,7 +74,8 @@
           "header": "Sidd Dir de Buttek Besëtzer?",
           "fix_domain_link_text": "Äer Domein Astellungen",
           "admin_link_text": "Admen",
-          "forgot_your_store_link_text": "Vergetellt."
+          "forgot_your_store_link_text": "Vergetellt.",
+          "fix_domain": "D'Adress vun der nei Web-Adress aflétt %{domain_settings_link} .  Klickt \"Connect Domein\" an an: %{domain} .<br>Wann du eeugs d'Gergaaf %{forgot_your_store_link} Säit."
         }
       },
       "invalid_for_card_type": "ass net valabel"
@@ -256,7 +257,9 @@
         "datepicker": {
           "range_start": "Range Start",
           "in_range": "Am Beräich",
-          "show_next_month": "Nächste Mount weisen, {{month}} {{year}}"
+          "show_next_month": "Nächste Mount weisen, {{month}} {{year}}",
+          "show_previous_month": "Viregt Mount weisen, {{month}} {{year}}",
+          "range_end": "Range Enn"
         },
         "title": "Checkout - {{shopName}}",
         "submit_for_review_button_label": "Gitt fir Iwwerpréiwung of",
@@ -297,10 +300,12 @@
         "back_button_label": "Retour",
         "map": {
           "cluster_title": {
-            "other": "Cluster vunt {{number}} Marker"
+            "other": "Cluster vunt {{number}} Marker",
+            "one": "Cluster vunt {{number}} Marker"
           }
         },
-        "choose_delivery_strategy": "Wielt eng Liwwerung Method"
+        "choose_delivery_strategy": "Wielt eng Liwwerung Method",
+        "display_name": "{{firstName}} {{lastName}}"
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -527,16 +532,19 @@
           "description": "Dir kënnt nëmme d' Biller-Adress vung."
         },
         "order_edit_banner_items_returned": {
-          "in_full": "Zréckkomm"
+          "in_full": "Zréckkomm",
+          "with_quantities": "{{delta}} A {{quantity}} Erfägt"
         },
         "saved_credit_card_actions": {
-          "edit": "Edit"
+          "edit": "Edit",
+          "delete": "Läschen"
         },
         "use_location_billing_address_label": "Adress Plétt benotz",
         "multibanco_label": "Geldautomaten",
         "delete_credit_card_modal": {
           "title": "Kaarter ewesselen",
-          "delete": "Läschen"
+          "delete": "Läschen",
+          "cancel": "Ofbriechen"
         },
         "order_edit_banner_items_added": {
           "one": "Dobäigesat",
@@ -673,7 +681,8 @@
           "generic_error": "Et ass e Problem ze späicheren.  Probéiert w.e.g. nach eng Kéier.",
           "add_address": "Add Adress",
           "save": "Spueren",
-          "one_time_address_subtitle": "Benotzt eng eemoleg Adress fir dës Bestellung"
+          "one_time_address_subtitle": "Benotzt eng eemoleg Adress fir dës Bestellung",
+          "cancel": "Ofbriechen"
         },
         "add_delivery_instructions": "Leaver- Instruktiounen bäifügen",
         "address_confirm": "Wëllt Dir wier dës Adress op déi Kont geläichen?",
@@ -1797,11 +1806,13 @@
             "address2": "Gitt en Appartement, Suite, etc.",
             "zip": "Gitt e Postcode \/ Postleitzuel un",
             "province": "Wielt e Staat \/ Provënz",
-            "phone": "Gitt eng Telefonsnummer"
+            "phone": "Gitt eng Telefonsnummer",
+            "city": "Gitt eng Stad an"
           },
           "unavailable": {
             "instructions": "Et gouf e Problem mat {{walletName}}. Zréck an de Buttek fir nach eng Kéier ze probéieren oder op eng aner Manéier ze kucken.",
-            "title": "{{walletName}} net verfügbar"
+            "title": "{{walletName}} net verfügbar",
+            "description": "{{walletName}} war net verfügbar. Benotzt eng aner Bezuelmethod oder probéiert méi spéit nach eng Kéier."
           },
           "detour": {
             "queue": "Dir sidd an enger Schlaang fir d'Kasse gesat. Zoumaachen {{walletName}} fir weiderzemaachen.",
@@ -1814,7 +1825,8 @@
           },
           "formatting": {
             "name_contains_emojis": "Emoji aus Ärem Numm läschen",
-            "postal_code_contains_emoji": "Emoji aus Ärem Postcode läschen"
+            "postal_code_contains_emoji": "Emoji aus Ärem Postcode läschen",
+            "last_name_too_long": "Familljenumm enthält ze vill Buschtawen"
           },
           "outdated": {
             "shipping_method": "D'Versandoptiounen hu fir Är Bestellung geännert. Iwwerpréift Är Auswiel."
@@ -2151,7 +2163,8 @@
             "due": "Zäit {{date}}",
             "pay_to_confirm": "Bezuelen fir ze bestätegen",
             "paid": "Bezuelt",
-            "overdue": "Iwwerhaapt"
+            "overdue": "Iwwerhaapt",
+            "payment_not_due": "Nach net duer"
           }
         },
         "column_headers": {
@@ -2315,7 +2328,8 @@
         "company_tracking_number": "{{company}} Tracking Zuel:",
         "confirmed_description_digital": "Dir kritt eng E-Mail wann Är Bestellung fäerdeg ass.",
         "gift_resend_failure": {
-          "one": "Et gouf e Problem Är Kaddoskaart nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis."
+          "one": "Et gouf e Problem Är Kaddoskaart nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis.",
+          "other": "Et gouf e Problem Är Kaddoskaarten nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis."
         },
         "ready_for_pickup_location": "Är Bestellung ass prett fir op der Plaz ofzehuelen",
         "delivered_description_gift_card_text": {
@@ -2409,7 +2423,8 @@
       },
       "load_extension_error": {
         "title": "Feeler",
-        "description": "Dëse Säit opfrisch, oder probéiert an eeun Minuten."
+        "description": "Dëse Säit opfrisch, oder probéiert an eeun Minuten.",
+        "refresh_button": "Siet opfrischen"
       }
     },
     "B2B": {
@@ -2441,7 +2456,8 @@
         "own_role_contact_name": "Dir",
         "contact_list_title": "Leit",
         "location_picker_accessibility_label": "Standuert Numm: {{locationName}}",
-        "staff_and_permissions_title": "Personal an Permissiounen"
+        "staff_and_permissions_title": "Personal an Permissiounen",
+        "tax_exemptions": "Steiererliichterungen"
       },
       "draft_order_details": {
         "payment_status": {
@@ -2771,7 +2787,8 @@
         "loading_shop_pay": "Lueden Shop Pay",
         "payment_method_not_found_error": "Kënnt keng Bezuelmethod fannen",
         "invalid_payment_method_message": "Benotzt eng nei Kreditkaart fir weider Bestellungen ze kréien.",
-        "invalid_payment_method": "Ongülteg Bezuelmethod"
+        "invalid_payment_method": "Ongülteg Bezuelmethod",
+        "checkout_card_banner": "Dëst betalmetode kënnt kënnt nëmme fir ass-Austiiert betalen benotzt ginn.  Et wäert keng op Checkup ass wann Dir an dëst loggt ass."
       },
       "back_button": "Zréck",
       "back_button_accessibility_label": "Zréck op {{paymentMethodStepTitle}}",
@@ -2926,7 +2943,8 @@
       "order_details": "Detailer bestellen",
       "marketing_description": "Dir kritt Marketing E-Maile. Dir kënnt zu all Moment ofmellen.",
       "pickup": {
-        "pickup": "Ophiewen"
+        "pickup": "Ophiewen",
+        "pickup_location": "Pickup Plaz"
       },
       "not_applicable": "N\/A",
       "logged_in_account_no_permission_to_order": "Dir sidd ageloggt als {{email}}. Dëse Kont huet keng Erlaabnis fir dës Bestellung ze managen.",
@@ -3060,7 +3078,9 @@
       "mondayAbbreviation": "Mo",
       "september": "September",
       "saturday": "Samschdeg",
-      "sundayAbbreviation": "Su"
+      "sundayAbbreviation": "Su",
+      "friday": "Freideg",
+      "thursday": "Donneschdeg"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

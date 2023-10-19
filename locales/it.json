@@ -504,7 +504,10 @@
             "card_number": "Numero di carta"
           }
         },
-        "use_location_shipping_address_label": "Utilizza l'indirizzo di spedizione della posizione"
+        "use_location_shipping_address_label": "Utilizza l'indirizzo di spedizione della posizione",
+        "order_edit_banner_items_returned": {
+          "with_quantities": "{{delta}} Di {{quantity}} Restituito"
+        }
       },
       "order_summary": {
         "discount_order_stacking": {
@@ -521,7 +524,8 @@
       "field_errors": {
         "credit_card_month_invalid": "Inserisci un mese di scadenza carta valido",
         "credit_card_year_invalid": "Inserisci un anno di scadenza carta valido",
-        "credit_card_expiry_invalid": "Inserisci una data di scadenza carta valida"
+        "credit_card_expiry_invalid": "Inserisci una data di scadenza carta valida",
+        "tips_invalid_tip_amount": "Inserisci una mancia di importo non superiore a %{amount}"
       },
       "store_credit_errors": {
         "generic_error": "C' è stato un problema con il credito del tuo negozio.  Riprova o ricarica la pagina."
@@ -531,12 +535,15 @@
           "one": "{{count}} Articolo"
         },
         "price_update": {
-          "description": "I prezzi per questi articoli sono cambiati e vengono aggiornati nel carrello."
-        }
+          "description": "I prezzi per questi articoli sono cambiati e vengono aggiornati nel carrello.",
+          "title": "Aggiornamento del prezzo"
+        },
+        "return_to_store_label": "Ritorna in negozio"
       },
       "redeemable_errors": {
         "gift_card": {
-          "insufficient_funds": "Questa carta regalo non ha fondi rimasti"
+          "insufficient_funds": "Questa carta regalo non ha fondi rimasti",
+          "duplicate": "La carta regalo è già stata applicata al tuo ordine"
         }
       },
       "review": {
@@ -548,7 +555,8 @@
       "thank_you": {
         "failed_pending_payment_page_title": "C' è un problema con il tuo pagamento",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Dopo aver completato il pagamento, riceverai un testo di conferma.  Tieni traccia del tuo ordine utilizzando l'app Shop.",
-        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Presto riceverai un' e-mail di conferma.  Tieni traccia del tuo ordine utilizzando l'app Shop."
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Presto riceverai un' e-mail di conferma.  Tieni traccia del tuo ordine utilizzando l'app Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Dopo aver completato il pagamento, riceverai un' e-mail di conferma.  Tieni traccia del tuo ordine utilizzando l'app Shop."
       },
       "general": {
         "map": {
@@ -564,6 +572,9 @@
       },
       "billing": {
         "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?"
+      },
+      "contact": {
+        "title": "Informazioni"
       }
     },
     "errors": {
@@ -597,7 +608,8 @@
         },
         "links": {
           "start_free_trial": "Inizia una prova gratuita"
-        }
+        },
+        "title": "Creare un sito web e-commerce e vendere online!  Software di e-commerce di Shopify"
       },
       "reset_password_html": "Questo indirizzo e‑mail è già associato ad un account. Se l'account è tuo, puoi <a href=\"\/account\/login#recover\">resettare la tua password<\/a>",
       "invalid_email": "l'indirizzo e‑mail deve essere valido"
@@ -669,7 +681,10 @@
       "thursday": "Giovedì",
       "increase": "Aumento {{type}}",
       "saturdayAbbreviation": "su",
-      "april": "aprile"
+      "april": "aprile",
+      "friday": "Venerdì",
+      "thursdayAbbreviation": "Th",
+      "tuesday": "Martedì"
     },
     "profile_preview_bar": {
       "previewing": "Stai visualizzando in anteprima:",

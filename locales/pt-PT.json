@@ -469,7 +469,8 @@
         "address_form": {
           "save": "Salvar"
         },
-        "split_cart_merchandise_shipment_number": "Transferência %{number} de %{total}"
+        "split_cart_merchandise_shipment_number": "Transferência %{number} de %{total}",
+        "add_address": "Usar um endereço diferente"
       },
       "field_errors": {
         "address_phone_invalid": "Insira um número de telefone válido"
@@ -493,7 +494,8 @@
         }
       },
       "order_summary": {
-        "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto"
+        "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> não pôde ser utilizado com os teus descontos existentes. Já possuis uma combinação superior."
       },
       "review": {
         "blocks": {
@@ -542,7 +544,8 @@
       "thursdayAbbreviation": "º",
       "closeModal": "Perto",
       "june": "Junho",
-      "october": "Outubro"
+      "october": "Outubro",
+      "friday": "Sexta-feira"
     },
     "order_details": {
       "edit_summary": {

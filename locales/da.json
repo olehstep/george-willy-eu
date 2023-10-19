@@ -468,7 +468,8 @@
         "address_more": "Flere handlinger til denne adresse",
         "local_pickup": {
           "rollup_title": "Opsamlingssted"
-        }
+        },
+        "enter_address_manually_label": "Indtast adresse manuelt"
       },
       "review": {
         "review_title": "Gennemgå ordre",
@@ -490,11 +491,15 @@
         },
         "delete_credit_card_modal": {
           "confirmation": "Er du sikker på at du vil slette den {{brandName}} Ender i {{lastDigits}} ?"
-        }
+        },
+        "subscription_agreement_label": "Jeg forstår, at jeg accepterer et abonnement. Det fornys til den pris og med den hyppighed, der er angivet, indtil det ophører eller %{cancelled}.",
+        "subscription_heading": "Abonnementsaftalen",
+        "use_location_billing_address_label": "Brug adresse"
       },
       "stock": {
         "out_of_stock": {
-          "description": "Disse varer er ikke længere tilgængelige og er blevet fjernet fra din kurv."
+          "description": "Disse varer er ikke længere tilgængelige og er blevet fjernet fra din kurv.",
+          "items_unavailable": "Nogle varer er ikke længere tilgængelige og er blevet fjernet fra din kurv."
         },
         "items_unavailable_notice": "Nogle varer er ikke længere tilgængelige. Din indkøbskurv er blevet opdateret."
       },
@@ -524,7 +529,8 @@
         "credit_card_month_invalid": "Indtast gyldig udløbsmåned på kort"
       },
       "thank_you": {
-        "order_status_payments_app_pending_payment_description_default_with_phone": "Du får snart en bekræftelsesms.  Spor din ordre ved hjælp af Shop-appen."
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Du får snart en bekræftelsesms.  Spor din ordre ved hjælp af Shop-appen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen."
       }
     },
     "errors": {
@@ -541,7 +547,10 @@
             "caption": "Få de funktioner, du har brug for at køre din butik, uanset om du starter ud eller skalerer op."
           }
         },
-        "title": "Opret en e-commerce hjemmeside og Sælg Online!  E-handel software af Shopify"
+        "title": "Opret en e-commerce hjemmeside og Sælg Online!  E-handel software af Shopify",
+        "owner_ctas": {
+          "forgot_your_store_link_text": "Har glemt din butik."
+        }
       }
     }
   },
@@ -553,14 +562,19 @@
       "sundayAbbreviation": "Hans",
       "rangeStart": "Start af rækkevidde",
       "mondayAbbreviation": "Mo",
-      "maximumReached": "Maksimum {{value}} Nåedes"
+      "maximumReached": "Maksimum {{value}} Nåedes",
+      "processing": "Forarbejdning…",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Tilgængelige elementer"
+      }
     },
     "orders": {
       "order_list": {
         "filter": {
           "date": {
             "last_365_days": "De seneste 12 måneder"
-          }
+          },
+          "clear_all": "Slet alt"
         }
       },
       "order_status": {

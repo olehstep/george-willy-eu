@@ -527,6 +527,9 @@
         "ctas": {
           "store_owner": {
             "caption": "Vous avez des difficultés à entrer dans votre magasin?  Essayez le %{forgot_your_store_link} Caractéristique.  Si vous souhaitez réactiver votre boutique contact %{shopify_support_link} ."
+          },
+          "sell_in_person": {
+            "link_text": "Commencer l'essai gratuit"
           }
         },
         "owner_ctas": {

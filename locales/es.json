@@ -479,7 +479,10 @@
           "one": "Descuento de pedido"
         },
         "gift_card_and_discount_title": "Tarjeta de regalo o código de descuento",
-        "shipping_default_value": "Calculado en el siguiente paso"
+        "shipping_default_value": "Calculado en el siguiente paso",
+        "discount_title_stacking": {
+          "other": "Descuentos."
+        }
       },
       "payment": {
         "purchase_options_agreement_label_wallets": "Al continuar con su pago, usted acepta los cargos futuros que figuran en esta página y la política de cancelación.",
@@ -488,12 +491,16 @@
         },
         "order_edit_banner_items_returned": {
           "in_full": "devuelto"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} De {{quantity}} Eliminado"
         }
       },
       "redeemable_errors": {
         "gift_card": {
           "expired": "Esta tarjeta de regalo ha caducado",
-          "insufficient_funds": "A esta tarjeta de regalo no le quedan fondos"
+          "insufficient_funds": "A esta tarjeta de regalo no le quedan fondos",
+          "not_available": "Esta tarjeta de regalo ya no está disponible"
         }
       },
       "thank_you": {
@@ -534,7 +541,8 @@
           }
         },
         "owner_ctas": {
-          "fix_domain_link_text": "La configuración de su dominio"
+          "fix_domain_link_text": "La configuración de su dominio",
+          "forgot_your_store_link_text": "Olvidé tu tienda"
         }
       }
     },
@@ -556,7 +564,8 @@
       "january": "enero",
       "saturdayAbbreviation": "en",
       "saturday": "sábado",
-      "decrease": "Disminución {{type}}"
+      "decrease": "Disminución {{type}}",
+      "mondayAbbreviation": "Mes"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",
@@ -575,6 +584,15 @@
     "order_details": {
       "edit_summary": {
         "returned": "devuelto"
+      }
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "canceled": {
+            "description": "No se te cobrará."
+          }
+        }
       }
     }
   }

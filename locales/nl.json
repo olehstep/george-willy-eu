@@ -490,7 +490,8 @@
         "expired_payment_method": "Geselecteerde betaalmethode is verlopen",
         "subscription_agreement_cancelled": "geannuleerd",
         "order_edit_banner_items_removed": {
-          "with_quantities": "{{delta}} Van {{quantity}} Verwijderd"
+          "with_quantities": "{{delta}} Van {{quantity}} Verwijderd",
+          "in_full": "VERWIJDERD"
         },
         "use_location_shipping_address_label": "Gebruik het verzendadres van de locatie",
         "purchase_options_agreement_label": "Ik begrijp dat een of meer artikelen in mijn winkelwagen een uitgestelde of terugkerende aankoop zijn. Als ik doorga, ga ik akkoord met het %{cancellation_policy_label} en geef ik je ook toestemming om de vermelde prijzen af te schrijven van mijn betaalmethode, op de vermelde frequentie en datums, totdat mijn bestelling is afgehandeld of totdat ik, indien toegestaan, annuleer."
@@ -503,7 +504,8 @@
       },
       "thank_you": {
         "order_status_payments_app_failed_pending_payment": "Je bent niet aangeklaagd voor je bestelling.  Ga terug naar uw winkelwagen om uw bestelling te bekijken en betaal opnieuw.",
-        "thank_you_title_payments_app_failed_pending_payment": "Uw betaling kon niet worden verwerkt"
+        "thank_you_title_payments_app_failed_pending_payment": "Uw betaling kon niet worden verwerkt",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Uw bestelling is ontvangen"
       },
       "billing": {
         "billing_address_title": "Rekening naar",
@@ -517,7 +519,8 @@
         },
         "item_label": {
           "one": "{{count}} Artikel"
-        }
+        },
+        "items_unavailable_notice": "Sommige artikelen zijn niet meer beschikbaar. Je winkelwagen is aangepast."
       },
       "review": {
         "blocks": {
@@ -552,7 +555,10 @@
             "header": "Bekijk Shopify Editions"
           }
         },
-        "title": "Maak een e-commerce website en verkoop online!  E-commercesoftware door Shopify"
+        "title": "Maak een e-commerce website en verkoop online!  E-commercesoftware door Shopify",
+        "owner_ctas": {
+          "add_storefront": "U kunt uw website instellen door het Online Store-kanaal toe te voegen aan uw %{admin_link} .  Als je problemen hebt om in je winkel te komen, probeer dan de %{forgot_your_store_link} Pagina."
+        }
       }
     }
   },
@@ -579,8 +585,11 @@
       "order_list": {
         "filter": {
           "date": {
-            "start_date": "Startdatum"
-          }
+            "start_date": "Startdatum",
+            "last_7_days": "Laatste 7 dagen",
+            "last_30_days": "Laatste 30 dagen"
+          },
+          "apply": "Van toepassing zijn"
         }
       }
     },

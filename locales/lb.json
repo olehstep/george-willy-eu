@@ -43,15 +43,11 @@
       "invalid_state_in_country": "ass net e gültege Staat an %{country}",
       "shop_404": {
         "heros": {
-          "store_not_exist": "Dëst Späichen ist net."
+          "store_not_exist": "Dëst Späichen ist net.",
+          "no_storefront": "Dëse Späer hach noch net e Websz."
         },
-        "owner_ctas": {
-          "add_storefront": "Dir kënnt dat Äer Web äusst, wenn d' Online Store-Kanal %{admin_link} .  Wann du eeugs d'Gergaaf %{forgot_your_store_link} Säit."
-        },
-        "ctas": {
-          "editions": {
-            "caption": "Mat 100 Produk-Aktiounen, kënnt dir méi produtiv an kreativ, a krachcht an de Commerce a äus deer äusch gewied."
-          }
+        "links": {
+          "start_free_trial": "E Fräi Test starten"
         }
       }
     },
@@ -197,18 +193,19 @@
             "thursday": "Th"
           },
           "weekdays": {
-            "wednesday": "Mëttwoch"
+            "wednesday": "Mëttwoch",
+            "monday": "Méindeg"
           },
           "months": {
             "october": "Oktober",
             "august": "August",
             "september": "September",
-            "march": "Mäerz",
-            "december": "Dezember"
+            "march": "Mäerz"
           }
         },
         "datepicker": {
-          "range_start": "Range Start"
+          "range_start": "Range Start",
+          "in_range": "Am Beräich"
         },
         "title": "Checkout - {{shopName}}",
         "submit_for_review_button_label": "Gitt fir Iwwerpréiwung of",
@@ -219,8 +216,13 @@
         "list_formatter": {
           "or": {
             "twoWordConnector": "{{firstWord}} oder {{secondWord}}"
+          },
+          "and": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}"
           }
-        }
+        },
+        "continue_to_payment_plans_button_label": "Fuert weider op Bezuelpläng",
+        "loading_title": "Checkout - {{shopName}}"
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -366,7 +368,8 @@
         "saved_credit_card_info": "Déi lescht véier Zifferen",
         "markets_pro_disclaimer_privacy_policy": "Privatsphär Politik",
         "saved_credit_cards_modal": {
-          "done": "Gemaach"
+          "done": "Gemaach",
+          "cancel": "Ofbriechen"
         },
         "saved_credit_card": "Är gespäichert Kreditkaart",
         "gift_card_wrapper": {
@@ -525,7 +528,8 @@
         },
         "local_pickup": {
           "search_address": "Adress zeichen"
-        }
+        },
+        "address_edit": "Adress änneren"
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -631,12 +635,7 @@
         "duties_label": "Flichten",
         "may_be_charged_on_delivery": "Kann op Liwwerung verrechent ginn",
         "deferred_total_due_date_label": "Gesamtbetrag {{date}}",
-        "free_shipping_discount_label": "Versand fräi",
-        "discount_discovery": {
-          "merchandise_quantity_label": {
-            "one": "%{count} Artikel"
-          }
-        }
+        "free_shipping_discount_label": "Versand fräi"
       },
       "processing": {
         "wait": {
@@ -982,8 +981,10 @@
         "order_status_confirmed_order_with_phone_payment": "Dir hutt eng Bezuelung op Ärer Bestellung gemaach %{date}.",
         "thank_you_title_payments_app_pending_buyer_action_required": "Äer Ordreegen ass emmaachen",
         "gift_card_resend_failure": {
-          "one": "Et gouf e Problem Är Kaddoskaart nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis."
-        }
+          "one": "Et gouf e Problem Är Kaddoskaart nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis.",
+          "other": "Et gouf e Problem Är Kaddoskaarten nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis."
+        },
+        "thank_you_title_payments_app_pending_default": "Äer Betaaun"
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1041,7 +1042,8 @@
         "ship_to_company": "Schéckt op {{companyName}}",
         "change_company_location_link_label": "Änneren Firma Standuert",
         "optional_recipient_label": "Opmierksamkeet (optional)",
-        "different_shipping_address_label": "Schéckt op eng aner Adress"
+        "different_shipping_address_label": "Schéckt op eng aner Adress",
+        "title": "Informatiounen"
       },
       "marketing": {
         "unsubscribe": {
@@ -1210,7 +1212,8 @@
         "ship": "Schëff",
         "pick_up_in_two_to_four_hours": "Fäerdeg fir opzehuelen a 4 Stonnen",
         "pick_up_in_four_hours": "Normalerweis fäerdeg a 4 Stonnen",
-        "pick_up_in_zero_to_two_hours": "Fäerdeg fir opzehuelen an 2 Stonnen"
+        "pick_up_in_zero_to_two_hours": "Fäerdeg fir opzehuelen an 2 Stonnen",
+        "none_method_definition": "Keng Versand"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -1268,9 +1271,6 @@
         },
         "unpurchasable_product_generic": {
           "header": "E puer Elementer goufen aus Ärem Weenchen geläscht"
-        },
-        "item_label": {
-          "other": "{{count}} Elementen"
         }
       },
       "shop_policies": {
@@ -1485,7 +1485,11 @@
         },
         "toggle_location": "Änneren meng Positioun",
         "cancel": "Ofbriechen",
-        "your_location": "Är Plaz"
+        "your_location": "Är Plaz",
+        "reveal_more_label": {
+          "other": "Show %{count} méi Plazen"
+        },
+        "no_stores_found": "Keng Geschäfter fonnt"
       },
       "wallets": {
         "errors": {
@@ -1493,8 +1497,7 @@
             "shipping_address": "Gitt eng valabel Versandadress un",
             "zone": "Gitt eng valabel Staat \/ Provënz",
             "reduction_code": "Gitt eng valabel Remise Code oder Cadeau Kaart",
-            "shipping_option": "Wielt eng valabel Versandoptioun",
-            "postal_code": "Gitt e gültege Postcode \/ Postcode an"
+            "shipping_option": "Wielt eng valabel Versandoptioun"
           },
           "missing": {
             "address1": "Gitt eng Adress un",
@@ -1521,7 +1524,8 @@
         "connect_shipping_methods": "{{method1}} an {{method2}}",
         "shipping_line_label": "Liwwerung",
         "redirection_notice": "Nei \"{{buttonLabel}}\" klickt \"[[@ 90000]\", wäert dir op [@ 90001] fir d'Hunner Sekerch erfléit.",
-        "logged_in": "Verbonne mat {{email}}"
+        "logged_in": "Verbonne mat {{email}}",
+        "payment_in_progress_body": "Är Bezuelung gëtt veraarbecht. Är Bestellung gëtt geschwënn ofgeschloss."
       },
       "pickup_point": {
         "selector_tab_map": "Kaart",
@@ -1594,8 +1598,11 @@
       "cart_checkout_validation": {
         "runtime_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Demande, kontaktéiert w.e.g. de Buttekbesëtzer."
       },
+      "store_credit_errors": {
+        "generic_error": "Et ass e Problem mat Äer Spischoene.  Probéiert eng eng oder d'Sit allgeelueden."
+      },
       "billing": {
-        "add_address": "Benot eng angere Adress"
+        "same_as_shipping": "Selwecht wéi Versandadress"
       }
     },
     "email_marketing": {
@@ -1880,9 +1887,7 @@
         "sort_show_options_accessibility_label": "Show Zort Optiounen fir bestätegt Commanden.",
         "more_than_three_products_accessibility_label": "Bestellung enthält {{lineItemName1}}, {{lineItemName2}}, an {{numberOfAdditionalProducts}} méi Produkter",
         "plus_more": "+{{numberOfAdditionalProducts}}",
-        "filter": {
-          "clear_all": "Alles läschen"
-        }
+        "filter_title": "Filter"
       },
       "group_title_label": "Deel vun: {{groupTitle}}",
       "order_status": {
@@ -1947,7 +1952,8 @@
         "confirmed_description_digital": "Dir kritt eng E-Mail wann Är Bestellung fäerdeg ass.",
         "gift_resend_failure": {
           "one": "Et gouf e Problem Är Kaddoskaart nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis."
-        }
+        },
+        "ready_for_pickup_location": "Är Bestellung ass prett fir op der Plaz ofzehuelen"
       },
       "list_layout_accessibility_label": "Layout Optiounen",
       "status_title": "Bestellung Status",
@@ -2390,7 +2396,8 @@
       },
       "expiration_warning_button_accessibility_label": "Weist Verfallswarnung fir {{paymentMethodName}} op en Enn {{lastDigits}}",
       "add_payment_method_banner": "Füügt Bezuelmethod fir méi séier Checkout oder pre-autoriséiert Servicer",
-      "delete_payment_method_button": "Läschen"
+      "delete_payment_method_button": "Läschen",
+      "no_payment_methods_banner": "Keng Bezuelmethoden dobäigesat"
     },
     "order_details": {
       "shipping": {
@@ -2583,11 +2590,16 @@
     "ui_components": {
       "wednesdayAbbreviation": "Mir",
       "december": "Dezember",
-      "fridayAbbreviation": "Fr"
+      "november": "November",
+      "april": "Abrëll",
+      "july": "Juli",
+      "inRange": "Am Beräich",
+      "showPreviousMonth": "Weisen {{month}}  {{year}}",
+      "maximumReached": "Maximum vunt {{value}} Erréucht",
+      "rangeEnd": "Range Enn"
     },
     "profile_preview_bar": {
-      "previewing": "Dir ass veurbonert:",
-      "customize_button": "&amp; Benotzen"
+      "previewing": "Dir ass veurbonert:"
     }
   },
   "contact": {

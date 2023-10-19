@@ -42,7 +42,8 @@
             "february": "februar",
             "october": "oktober",
             "september": "september",
-            "may": "Kan"
+            "may": "Kan",
+            "july": "juli"
           },
           "weekdays_abbreviation": {
             "monday": "Mo",
@@ -77,7 +78,8 @@
         "autocomplete_title": "Forslag",
         "stepper": {
           "decrease": "Reduser {{type}}",
-          "minimum_reached": "Minimum {{value}} nådd"
+          "minimum_reached": "Minimum {{value}} nådd",
+          "increase": "Øk {{type}}"
         },
         "submit": "Sende inn",
         "contact_us_html": "Kontakt oss for mer informasjon",
@@ -388,7 +390,8 @@
         "duties_and_taxes_title": "Toll og skatter",
         "subscription_pickup": "Henting av abonnement",
         "shipping_line_phone_label": "Mobilnummer (påkrevd)",
-        "shipping_used_as_billing_notice": "Dette vil også bli brukt som faktureringsadresse for denne bestillingen."
+        "shipping_used_as_billing_notice": "Dette vil også bli brukt som faktureringsadresse for denne bestillingen.",
+        "invalid_shipping_method_summary": "Skriv inn en gyldig leveringsadresse for å se tilgjengelige forsendelsesmetoder"
       },
       "localized_fields": {
         "additional_information": {
@@ -566,7 +569,8 @@
         "purchase_options_agreement_label_html": "Jeg forstår at en eller flere varer i handlekurven min er et utsatt eller tilbakevendende kjøp. Ved å fortsette godtar jeg\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbestillingsregler<\/a>\nog autorisere deg til å belaste betalingsmåten min til prisene, frekvensen og datoene som er oppført på denne siden frem til min\nbestillingen er oppfylt eller jeg kansellerer, hvis det er tillatt.\n",
         "order_edit_banner_single_item_returned": "Returnert",
         "ftd_vault_credit_card_label": "Lagre dette kredittkortet på kontoen min for en raskere utsjekking",
-        "card_verification_value_explanation": "3-sifret sikkerhetskode finnes vanligvis på baksiden av kortet ditt. American Express-kort har en 4-sifret kode på forsiden."
+        "card_verification_value_explanation": "3-sifret sikkerhetskode finnes vanligvis på baksiden av kortet ditt. American Express-kort har en 4-sifret kode på forsiden.",
+        "payment_method": "Betalingsmetode"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -925,7 +929,8 @@
         "page_title_no_name": "Takk skal du ha!",
         "subscriptions_management": {
           "description": "Fortsett til kontoen din for å se og administrere abonnementene dine.",
-          "button_label": "Administrere abonnementet"
+          "button_label": "Administrere abonnementet",
+          "title": "Abonnement"
         },
         "payment_method_title": "Betalingsmetode",
         "resend_gift_cards_by_text": "Sende tekstmelding på nytt",
@@ -1224,7 +1229,8 @@
           "label": {
             "other": "%{first} - %{last} av %{count} butikker"
           },
-          "previous": "Forrige side"
+          "previous": "Forrige side",
+          "next": "Neste side"
         },
         "search_button": "Finn butikker",
         "toggle_location": "Endre posisjonen min",
@@ -1272,7 +1278,8 @@
         "call_to_action": "Betal med {{walletName}}",
         "payment_in_progress_title": "Betaling pågår",
         "connect_shipping_methods": "{{method1}} og {{method2}}",
-        "return_to_store": "Gå tilbake til butikken"
+        "return_to_store": "Gå tilbake til butikken",
+        "logged_in": "Koblet til {{email}}"
       },
       "markets": {
         "invalid_market_manager_error": "Gjennomgå kontaktinformasjonen din før du fullfører betaling"
@@ -1329,6 +1336,9 @@
         "gift_card": {
           "invalid": "Skriv inn et gyldig gavekort"
         }
+      },
+      "billing": {
+        "add_address": "Bruk en annen adresse"
       }
     },
     "attributes": {
@@ -1741,7 +1751,8 @@
             "last_7_days": "De siste 7 dagane",
             "last_90_days": "Siste 90 daga"
           }
-        }
+        },
+        "plus_more": "+{{numberOfAdditionalProducts}}"
       },
       "order_status": {
         "in_review_label": "I anmeldelse",
@@ -2176,7 +2187,8 @@
         "discard_changes_modal_title": "Forkaste endringer?",
         "save": "Lagre",
         "cancel": "Avbryt",
-        "discard": "Kast"
+        "discard": "Kast",
+        "edit_accessibility_label": "Rediger PO-nummer"
       }
     },
     "errors": {
@@ -2353,7 +2365,11 @@
     },
     "ui_components": {
       "saturday": "lørdag",
-      "friday": "fredag"
+      "friday": "fredag",
+      "mondayAbbreviation": "Mo"
+    },
+    "profile_preview_bar": {
+      "saved_at": "Lagrat {{date}} Kje {{time}}"
     }
   },
   "general": {
@@ -2667,7 +2683,8 @@
     },
     "account": {
       "return": "Gå tilbake til kontodetaljer",
-      "view_addresses": "Se adresser"
+      "view_addresses": "Se adresser",
+      "title": "Min konto"
     },
     "login": {
       "register": "Opprett konto",

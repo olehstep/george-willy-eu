@@ -127,7 +127,8 @@
       "decrease": "Minska {{type}}",
       "saturdayAbbreviation": "på",
       "closeNotification": "Stänga",
-      "inRange": "Inom räckhåll"
+      "inRange": "Inom räckhåll",
+      "april": "april"
     },
     "orders": {
       "order_list": {
@@ -146,6 +147,11 @@
     },
     "profile_preview_bar": {
       "navigate_to_admin": "Navigera till administration"
+    },
+    "payment_methods": {
+      "payment_details": {
+        "checkout_card_banner": "Denna betalningsmetod kan endast användas för förhandsgodkända betalningar.  Det kommer inte att visas vid kassan om du är inloggad i den här butiken."
+      }
     }
   },
   "contact": {
@@ -487,12 +493,20 @@
           "confirmation": "Är du säker på att du vill ta bort filen {{brandName}} Avslutas i {{lastDigits}} ?"
         },
         "order_edit_banner_items_removed": {
-          "with_quantities": "{{delta}} Av {{quantity}} Borttagen"
-        }
+          "with_quantities": "{{delta}} Av {{quantity}} Borttagen",
+          "in_full": "Tog bort"
+        },
+        "subscription_agreement_cancelled": "avbruten"
       },
       "billing": {
         "address_form": {
           "cancel": "Annullera"
+        },
+        "billing_address_title": "Bill till"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "currency_mismatch": "Endast presentkort i %{shop_currency} Godkänns"
         }
       }
     },
@@ -511,8 +525,12 @@
         "ctas": {
           "store_owner": {
             "header": "Är du butiksägaren?"
+          },
+          "sell_in_person": {
+            "header": "Sälj personligt."
           }
-        }
+        },
+        "title": "Skapa en e-handelswebbplats och sälja online!  E-handel programvara från Shopify"
       }
     }
   },

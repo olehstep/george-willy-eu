@@ -485,7 +485,8 @@
         "shipping_default_value": "Beräknas vid nästa steg"
       },
       "customer_account": {
-        "rollup_label": "konto"
+        "rollup_label": "konto",
+        "invalid_address": "Vald adress är inte giltig"
       },
       "field_errors": {
         "credit_card_month_invalid": "Ange en giltig utgångsmånad för kortet",
@@ -494,7 +495,8 @@
         "address_zip_too_long": "Postnummer \/ postnummer är för lång (högst 255 tecken)"
       },
       "thank_you": {
-        "order_status_payments_app_pending_payment_description_default_with_email": "Du får en bekräftelse mejl snart.  Följ din beställning med appen Shop."
+        "order_status_payments_app_pending_payment_description_default_with_email": "Du får en bekräftelse mejl snart.  Följ din beställning med appen Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du får en bekräftelse mejl snart.  Följ din beställning med appen Shop."
       },
       "no_address_location": {
         "alt_header": "Adress saknas."
@@ -536,6 +538,9 @@
       },
       "contact": {
         "title": "Information"
+      },
+      "address_management": {
+        "confirm_address_deletion": "Är du säker på att du vill ta bort adressen {{address}} ?"
       }
     },
     "notices": {
@@ -553,7 +558,8 @@
         "ctas": {
           "store_owner": {
             "header": "Är du butiksägaren?",
-            "caption": "Har du svårt att komma in i affären?  Försök. %{forgot_your_store_link} Egenskaper.  Om du vill återaktivera din butik kontakta %{shopify_support_link} ."
+            "caption": "Har du svårt att komma in i affären?  Försök. %{forgot_your_store_link} Egenskaper.  Om du vill återaktivera din butik kontakta %{shopify_support_link} .",
+            "shopify_support_link_text": "Stöd för shopify"
           },
           "sell_in_person": {
             "header": "Sälj personligt."

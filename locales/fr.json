@@ -489,7 +489,9 @@
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
-        "order_status_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un texto de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un texto de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
+        "thank_you_title_payments_app_failed_pending_payment": "Votre paiement n'a pas pu être traité",
+        "failed_pending_payment_page_title": "Il y a un problème avec votre paiement"
       },
       "billing": {
         "address_more": "Plus d'actions pour cette adresse",
@@ -530,7 +532,10 @@
           "one": "Rabais"
         },
         "gift_card_and_discount_placeholder": "Carte-cadeau ou code promo",
-        "shipping_default_value": "Calculé à l'étape suivante"
+        "shipping_default_value": "Calculé à l'étape suivante",
+        "discount_order_stacking": {
+          "other": "Remises de commande"
+        }
       },
       "wallets": {
         "errors": {
@@ -549,6 +554,12 @@
             "other": "Cluster de {{number}} Marqueurs"
           }
         }
+      },
+      "review": {
+        "blocks": {
+          "payment_method_title": "Paiement"
+        },
+        "review_title": "Réviser la commande"
       }
     },
     "errors": {
@@ -596,7 +607,8 @@
       "tuesdayAbbreviation": "Ma",
       "tuesday": "mardi",
       "november": "novembre",
-      "minimumReached": "Minimum de {{value}} Atteint"
+      "minimumReached": "Minimum de {{value}} Atteint",
+      "fridayAbbreviation": "Ve"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",
@@ -611,6 +623,9 @@
           },
           "clear_section": "Section claire"
         }
+      },
+      "order_status": {
+        "attempted_to_deliver_label": "Tenté de livrer"
       }
     },
     "B2B": {

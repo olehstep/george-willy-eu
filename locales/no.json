@@ -301,7 +301,10 @@
         },
         "continue_shopping_button_label": "Fortsette",
         "quantity_column_header": "Mengde",
-        "remove": "Ta bort"
+        "remove": "Ta bort",
+        "price_update": {
+          "title": "Prisoppdatering"
+        }
       },
       "contextual_availability": {
         "all_products_in_cart_unavailable": {
@@ -520,7 +523,8 @@
         "gift_card_wrapper": {
           "payment_tag": "Gavekort",
           "apply_gift_card_label": "Bruk et gavekort",
-          "heading": "Gavekort"
+          "heading": "Gavekort",
+          "gift_card_label": "Gavekort %{identifier}"
         },
         "order_edit_banner_multiple_items_returned": "{{amount}} returnert",
         "card_fields": {
@@ -777,7 +781,8 @@
         "deferred_payment_label": "Velg betalingsmåte senere",
         "direct_payment_terms": "Du er på {{translatedName}} vilkår. Kortet ditt vil bli belastet den {{dueDate}}.",
         "order_due_on_fulfillment_choose_later": "Betalingen din forfaller når bestillingen din er oppfylt.",
-        "generic_payment_terms": "Du er på {{translatedName}} vilkår. Betalingen forfaller til {{dueDate}}."
+        "generic_payment_terms": "Du er på {{translatedName}} vilkår. Betalingen forfaller til {{dueDate}}.",
+        "draft_order_payment_due_on_fulfillment": "Betalingen din forfaller når bestillingen din er bekreftet og oppfylt."
       },
       "thank_you": {
         "estimated_arrival": "Estimert leveringsdato: ",
@@ -1158,7 +1163,8 @@
       },
       "failed_payment": {
         "return_to_cart_button_label": "Gå tilbake til handlekurven",
-        "payment_not_processed_title": "Betalingen din kunne ikke behandles"
+        "payment_not_processed_title": "Betalingen din kunne ikke behandles",
+        "title": "Betalingen kunne ikke behandles"
       },
       "alternative_payment_method": {
         "button_label": "Kasse med: %{method}",
@@ -1257,7 +1263,8 @@
       "local_pickup": {
         "paginator": {
           "label": {
-            "other": "%{first} - %{last} av %{count} butikker"
+            "other": "%{first} - %{last} av %{count} butikker",
+            "one": "%{first} - %{last} av %{count} butikk"
           },
           "previous": "Forrige side",
           "next": "Neste side",
@@ -1371,7 +1378,8 @@
         }
       },
       "billing": {
-        "add_address": "Bruk en annen adresse"
+        "add_address": "Bruk en annen adresse",
+        "address_more": "Flere handlinger for denne adressen"
       },
       "order_errors": {
         "network_failure": "Bestillingen kunne ikke sendes inn på grunn av en nettverksfeil. Kontroller tilkoblingen, og prøv på nytt."
@@ -1441,6 +1449,11 @@
       "shop_404": {
         "heros": {
           "no_storefront": "Denne butikken har ingen nettsted ennå."
+        },
+        "ctas": {
+          "editions": {
+            "link_text": "Utforsk siste utgave"
+          }
         }
       },
       "empty": "kan ikke være tom"
@@ -1509,7 +1522,8 @@
         "too_many_items_in_cart": "Du kan ikke legge til flere %{name} i handlekurven.",
         "gift_card_with_components_not_supported": "Pakkeproduktet '%{name}' kan ikke legges til i handlekurven.",
         "empty_update": "kan ikke oppdatere tom handlekurv",
-        "missing_parameters": "ingen gyldig ID eller linjeparameter"
+        "missing_parameters": "ingen gyldig ID eller linjeparameter",
+        "bundle_products_not_supported_for_b2b_draft": "Pakkede element kan ikkje leggjast til i B2B-ordrer for denne staden."
       },
       "address": {
         "created": "Vellykket opprettet adresse",
@@ -1949,7 +1963,8 @@
       },
       "edit_summary": {
         "removed_with_quantity": "{{quantity}} fjernet",
-        "added_with_quantity": "{{quantity}} lagt til"
+        "added_with_quantity": "{{quantity}} lagt til",
+        "removed_with_quantities": "{{delta}} Av {{total}} Fjernt"
       },
       "marketing_section_title": "Nyheter og tilbud",
       "pickup": {
@@ -2423,7 +2438,8 @@
       "mondayAbbreviation": "Mo",
       "august": "august",
       "maximumReached": "Maksimum {{value}} Nådd",
-      "wednesdayAbbreviation": "Vi"
+      "wednesdayAbbreviation": "Vi",
+      "february": "februar"
     },
     "profile_preview_bar": {
       "saved_at": "Lagrat {{date}} Kje {{time}}"

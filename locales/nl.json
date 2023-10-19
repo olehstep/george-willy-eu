@@ -479,7 +479,8 @@
         "invalid_shipping_method_summary": "Voer een geldig verzendadres in om de beschikbare verzendmethoden te bekijken",
         "method_summary": {
           "incomplete_address_selected": "Selecteer een volledig verzendadres om de beschikbare verzendmethoden te bekijken"
-        }
+        },
+        "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?"
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
@@ -535,7 +536,10 @@
         "item_label": {
           "one": "{{count}} Artikel"
         },
-        "items_unavailable_notice": "Sommige artikelen zijn niet meer beschikbaar. Je winkelwagen is aangepast."
+        "items_unavailable_notice": "Sommige artikelen zijn niet meer beschikbaar. Je winkelwagen is aangepast.",
+        "out_of_stock": {
+          "items_unavailable": "Sommige artikelen zijn niet meer beschikbaar en zijn uit uw winkelwagentje verwijderd."
+        }
       },
       "review": {
         "blocks": {
@@ -561,7 +565,11 @@
           "other": "Kortingen voor bestellingen"
         },
         "shipping_default_value": "Berekend bij de volgende stap",
-        "gift_card_and_discount_title": "Cadeaubon of kortingscode"
+        "gift_card_and_discount_title": "Cadeaubon of kortingscode",
+        "price_per_item": {
+          "label": "%{price} \/Ea"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kan niet worden gebruikt met je bestaande kortingen. Je hebt al een betere combinatie."
       },
       "address_management": {
         "confirm_address_deletion": "Weet u zeker dat u het adres wilt verwijderen {{address}} ?"

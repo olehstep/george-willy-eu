@@ -552,7 +552,8 @@
           "insufficient_funds": "Questa carta regalo non ha fondi rimasti",
           "duplicate": "La carta regalo è già stata applicata al tuo ordine",
           "expired": "Questa carta regalo è scaduta",
-          "not_available": "Questa carta regalo non è più disponibile"
+          "not_available": "Questa carta regalo non è più disponibile",
+          "currency_mismatch": "Solo carte regalo in %{shop_currency} Sono accettati"
         }
       },
       "review": {

@@ -537,7 +537,8 @@
         "shipping_default_value": "Calcolato al passaggio successivo",
         "price_per_item": {
           "label": "%{price} \/Ea"
-        }
+        },
+        "gift_card_and_discount_placeholder": "Buono regalo o codice sconto"
       },
       "customer_account": {
         "have_an_account_label": "Hai già un account?",
@@ -742,7 +743,9 @@
       "minimumReached": "Minimo di {{value}} Raggiunto",
       "closeModal": "Vicino",
       "saturday": "il sabato",
-      "august": "agosto"
+      "august": "agosto",
+      "showNextMonth": "Mostra il mese prossimo, {{month}}  {{year}}",
+      "sundayAbbreviation": "La sua"
     },
     "profile_preview_bar": {
       "previewing": "Stai visualizzando in anteprima:",
@@ -752,6 +755,11 @@
     "payment_methods": {
       "payment_details": {
         "checkout_card_banner": "Questo metodo di pagamento può essere utilizzato solo per i pagamenti pre-autorizzati.  Non apparirà al checkout se sei connesso a questo negozio."
+      }
+    },
+    "errors": {
+      "load_extension_error": {
+        "description": "Aggiorna questa pagina o riprova tra qualche minuto."
       }
     }
   }

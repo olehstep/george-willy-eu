@@ -489,7 +489,8 @@
           "invalid": "Entrez une carte-cadeau valide",
           "not_available": "Cette carte cadeau n'est plus disponible",
           "expired": "Cette carte cadeau a expiré",
-          "currency_mismatch": "Seules les cartes-cadeaux dans %{shop_currency} Sont acceptés"
+          "currency_mismatch": "Seules les cartes-cadeaux dans %{shop_currency} Sont acceptés",
+          "insufficient_funds": "Cette carte-cadeau n'a plus de fonds"
         }
       },
       "payment_errors": {
@@ -625,6 +626,9 @@
       },
       "note": {
         "length_exceeds_maximum": "Réduisez la taille de la note à 5000 caractères ou moins."
+      },
+      "no_address_location": {
+        "alt_header": "Adresse de livraison manquante"
       }
     },
     "errors": {
@@ -638,7 +642,8 @@
             "link_text": "Commencer l'essai gratuit"
           },
           "open_a_store": {
-            "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $\/mois pendant les 3 prochains mois."
+            "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $\/mois pendant les 3 prochains mois.",
+            "link_text": "Inscrivez-vous maintenant"
           }
         },
         "owner_ctas": {
@@ -691,7 +696,8 @@
       "saturday": "samedi",
       "increase": "Augmentation {{type}}",
       "removeTag": "Enlever l'étiquette",
-      "processing": "Traitement…"
+      "processing": "Traitement…",
+      "october": "octobre"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",

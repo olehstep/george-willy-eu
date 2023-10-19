@@ -53,7 +53,8 @@
             "tuesday": "tirsdag",
             "monday": "mandag",
             "saturday": "lørdag",
-            "friday": "fredag"
+            "friday": "fredag",
+            "thursday": "Torsdag"
           }
         },
         "continue_to_shipping_method": "Fortsett til frakt",
@@ -73,6 +74,9 @@
           "narrow": {
             "lastWordConnector": "{{previousWords}}, {{lastWord}}",
             "wordConnector": "{{previousWords}}, {{anotherWord}}"
+          },
+          "and": {
+            "lastWordConnector": "{{previousWords}}, og {{lastWord}}"
           }
         },
         "back_to_shipping_method": "Gå tilbake til frakt",
@@ -103,7 +107,8 @@
             "other": "Klynge av {{number}} markører"
           }
         },
-        "expand_notice_label": "Se mer"
+        "expand_notice_label": "Se mer",
+        "autocomplete_powered_by_google": "Drevet av {{brandName}}"
       },
       "contact": {
         "postcode_placeholder": "postnummer",
@@ -275,7 +280,10 @@
         "price_per_item": {
           "label": "%{price} \/Ea"
         },
-        "discount_placeholder": "Rabattkode"
+        "discount_placeholder": "Rabattkode",
+        "expand_component_information": {
+          "other": "Vis %{count} elementer"
+        }
       },
       "stock": {
         "title": "Utsolgt",
@@ -326,7 +334,8 @@
         "return_to_store_label": "Gå tilbake til butikken",
         "item_label": {
           "other": "{{count}} Oppføringar"
-        }
+        },
+        "empty_cart_label": "Vognen din er tom"
       },
       "contextual_availability": {
         "all_products_in_cart_unavailable": {
@@ -665,7 +674,10 @@
           "in_full": "Returnert"
         },
         "alternative_payment_currency_total_notice": "Merk: du vil bli betalt %{amount_due}.",
-        "card_security_notice": "Alle transaksjoner er sikre og krypterte."
+        "card_security_notice": "Alle transaksjoner er sikre og krypterte.",
+        "order_edit_banner_items_removed": {
+          "in_full": "Fjernet"
+        }
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -753,7 +765,8 @@
         "address_country_invalid": "Velg et land\/område fra listen",
         "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Du har nådd grensen for utviklingsbutikkbestillinger med denne betalingsbehandleren. For å legge inn en annen bestilling, må du bruke en testbetalingsgateway. Lære mer om <a href=\"%{docs_link}\">testing av bestillinger i utviklingsbutikker<\/a>.",
         "payment_gateway_unsupported_for_country": "Denne betalingsmåten er ikke tilgjengelig for leveringslandet ditt.",
-        "address_zip_too_long": "ZIP \/ postnummer er for lang (høyst 255 teikn)"
+        "address_zip_too_long": "ZIP \/ postnummer er for lang (høyst 255 teikn)",
+        "credit_card_name_invalid": "Skriv inn navnet ditt nøyaktig slik det er skrevet på kortet ditt"
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",
@@ -801,7 +814,8 @@
           "one": "Denne bestillingen kan ikke sendes til adressen du oppga. Se gjennom adressen din for å sikre at alle feltene er angitt riktig, og prøv igjen.",
           "other": "Noen varer i handlekurven din kan ikke sendes til adressen du oppga. Se gjennom adressen din for å sikre at alle feltene er angitt riktig, og prøv igjen."
         },
-        "payment_method_not_supported": "Du kan ikke bruke denne betalingsmåten for %{country}. Bruk en annen betalingsmåte for å sende til dette landet."
+        "payment_method_not_supported": "Du kan ikke bruke denne betalingsmåten for %{country}. Bruk en annen betalingsmåte for å sende til dette landet.",
+        "empty_state": "Skriv inn leveringsadressen din for å se tilgjengelige forsendelsesmetoder."
       },
       "payment_errors": {
         "paypal_zero_amount": "Du kan ikke bruke PayPal for %{amount} bestillinger. Bekreft at bestillingen din er riktig og sjekk ut uten PayPal.",
@@ -1270,7 +1284,8 @@
       "failed_payment": {
         "return_to_cart_button_label": "Gå tilbake til handlekurven",
         "payment_not_processed_title": "Betalingen din kunne ikke behandles",
-        "title": "Betalingen kunne ikke behandles"
+        "title": "Betalingen kunne ikke behandles",
+        "payment_not_processed_text": "Du har ikke blitt belastet. Gå tilbake til handlekurven for å fullføre kjøpet."
       },
       "alternative_payment_method": {
         "button_label": "Kasse med: %{method}",
@@ -1303,7 +1318,10 @@
         "time_to_checkout_title": "På tide å sjekke ut - {{shopName}}",
         "cart_summary_heading": "Handlevognen din",
         "last_checked": "(Sist sjekket: {{time}})",
-        "line_to_check_out": "Du står i kø for å sjekke ut"
+        "line_to_check_out": "Du står i kø for å sjekke ut",
+        "merchandise": {
+          "sold_out": "Utsolgt"
+        }
       },
       "deliverability": {
         "not_deliverable": {
@@ -1500,7 +1518,10 @@
         "add_address": "Bruk en annen adresse",
         "address_more": "Flere handlinger for denne adressen",
         "address_confirm": "Er du sikker på at du vil slette denne adressen fra kontoen din?",
-        "address_edit": "Rediger adresse"
+        "address_edit": "Rediger adresse",
+        "address_form": {
+          "cancel": "Avbryt"
+        }
       },
       "order_errors": {
         "network_failure": "Bestillingen kunne ikke sendes inn på grunn av en nettverksfeil. Kontroller tilkoblingen, og prøv på nytt.",
@@ -1585,6 +1606,9 @@
           "open_a_store": {
             "link_text": "Tilmelding no",
             "header": "Opna ei ny Shopify-butikk"
+          },
+          "store_owner": {
+            "shopify_support_link_text": "Støtte for shopify"
           }
         },
         "links": {
@@ -1677,7 +1701,8 @@
       },
       "line_item": {
         "item_status": {
-          "decrement_fulfilled_line_item": "Returtert %{delta} Av %{total}"
+          "decrement_fulfilled_line_item": "Returtert %{delta} Av %{total}",
+          "decrement_item": "Fjerna %{delta} Av %{total}"
         }
       }
     },
@@ -2074,7 +2099,8 @@
         "status_in_review": "Betaling forfaller etter gjennomgang",
         "shop_pay_installments": {
           "view_schedule": "Se tidsplan"
-        }
+        },
+        "title": "innbetaling"
       },
       "hide_order_summary": "Skjul ordresammendrag",
       "total": "Total",
@@ -2457,7 +2483,8 @@
       },
       "no_access": {
         "back_to_authentication_link": "Logg på en annen konto",
-        "description": "Du er ikke registrert som B2B-kunde hos {{shopName}}"
+        "description": "Du er ikke registrert som B2B-kunde hos {{shopName}}",
+        "title": "Ingen adgang"
       },
       "failed_address_creation": {
         "description": "Det oppsto et problem med å opprette adressen din. Prøv å oppdatere denne siden eller sjekk internettforbindelsen din."
@@ -2517,7 +2544,8 @@
           "with_pending_orders": "Hvis du sletter denne betalingsmåten, fjernes den fra kontoen din og vil ikke lenger være tilgjengelig for fremtidige kjøp. Det vil fortsatt bli belastet for eventuelle utestående saldoer på eksisterende bestillinger.",
           "with_pending_orders_and_subscriptions": "Sletting av denne betalingsmåten vil påvirke forhåndsautoriserte betalinger. Denne betalingsmåten vil fortsatt bli belastet for eventuelle utestående saldoer på eksisterende bestillinger, men du vil ikke motta kommende abonnementsbestillinger. Legg til en alternativ betalingsmåte for å fortsette å motta abonnementsbestillinger."
         },
-        "title": "Slett betalingsmåte"
+        "title": "Slett betalingsmåte",
+        "delete_and_replace_button": "Slett og erstatt"
       },
       "card_fields": {
         "card_number_label": "Kortnummer",

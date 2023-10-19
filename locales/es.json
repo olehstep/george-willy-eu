@@ -478,7 +478,10 @@
         "enter_address_manually_label": "Ingresar la dirección manualmente",
         "shipping_information_required_notice": "La información de envío es obligatoria. {{link}}.",
         "shipping_address_title": "Envie a",
-        "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}"
+        "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}",
+        "local_pickup": {
+          "rollup_title": "Lugar de recogida"
+        }
       },
       "order_summary": {
         "price_per_item": {
@@ -517,7 +520,8 @@
           "fields": {
             "name": "Nombre en la tarjeta",
             "billing": "Cobrar a"
-          }
+          },
+          "description": "Solo puede modificar la dirección de facturación de su tarjeta."
         },
         "purchase_options_and_vaulting_agreement_label": "Uno o varios artículos del carrito son una compra diferida o recurrente. Al continuar con el pago, aceptas que se aplicarán cargos a la forma de pago automáticamente según el precio y la frecuencia indicados en esta página hasta que termine o la canceles. Todas las cancelaciones están sujetas a la %{cancellation_policy_label}.",
         "order_edit_banner_items_added": {
@@ -615,7 +619,8 @@
       },
       "review": {
         "blocks": {
-          "payment_method_title": "Pago"
+          "payment_method_title": "Pago",
+          "review_title_free_order": "Revisa y completa tu pedido"
         }
       }
     },
@@ -699,10 +704,12 @@
           "date": {
             "title": "Fecha de orden",
             "last_7_days": "Últimos 7 días",
-            "last_30_days": "últimos 30 días"
+            "last_30_days": "últimos 30 días",
+            "today": "Este Dia"
           },
           "apply": "Solicitar",
-          "clear_all": "Limpiar todo"
+          "clear_all": "Limpiar todo",
+          "clear_section": "Sección clara"
         }
       }
     },

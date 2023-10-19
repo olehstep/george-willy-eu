@@ -52,7 +52,8 @@
           "weekdays": {
             "tuesday": "tirsdag",
             "monday": "mandag",
-            "saturday": "lørdag"
+            "saturday": "lørdag",
+            "friday": "fredag"
           }
         },
         "continue_to_shipping_method": "Fortsett til frakt",
@@ -438,7 +439,10 @@
           "cancel": "Avbryt"
         },
         "shipping_method_notice": "For frakt til enkelte land kan importavgifter påløpe. Se vår fraktpolicy for ytterligere detaljer.",
-        "no_other_methods_available": "Ingen andre metoder tilgjengelig"
+        "no_other_methods_available": "Ingen andre metoder tilgjengelig",
+        "method_summary": {
+          "incomplete_address_entered": "Skriv inn en fullstendig leveringsadresse for å se tilgjengelige forsendelsesmetoder"
+        }
       },
       "localized_fields": {
         "additional_information": {
@@ -573,7 +577,8 @@
         "markets_pro_disclaimer_label": "Ved å klikke nedenfor og fullføre bestillingen, godtar du å kjøpe varen(e) fra Global-e som registrert forhandler for denne transaksjonen, på Global-e %{markets_pro_terms} og %{privacy_policy}. Global-e er en internasjonal leverandør av oppfyllelsestjenester til %{shop_name}",
         "saved_credit_cards_modal": {
           "view_all_label": "Vis alle lagrede kort",
-          "done": "Gjort"
+          "done": "Gjort",
+          "cancel": "Avbryt"
         },
         "use_different_credit_card_label": "Bruk et annet kort",
         "no_js_credit_card_fields_redirect_hint": "Du vil bli omdirigert for å legge til betalingsinformasjonen din.",
@@ -653,7 +658,12 @@
         "amazon_payments_logout": "Logg ut fra Amazon Pay",
         "pay_with_payment_method": "Betal med %{payment_method}",
         "purchase_options_agreement_label": "Jeg forstår at en eller flere varer i handlekurven min er et utsatt eller tilbakevendende kjøp. Ved å fortsette godtar jeg %{cancellation_policy_label} og autoriserer deg til å belaste betalingsmåten min til prisene, frekvensen og datoene som er oppført på denne siden til bestillingen min er oppfylt eller jeg kansellerer, hvis tillatt.",
-        "waiting_on_taxes_notice": "Beregning av skatter"
+        "waiting_on_taxes_notice": "Beregning av skatter",
+        "order_edit_banner_items_returned": {
+          "in_full": "Returnert"
+        },
+        "alternative_payment_currency_total_notice": "Merk: du vil bli betalt %{amount_due}.",
+        "card_security_notice": "Alle transaksjoner er sikre og krypterte."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -1473,16 +1483,21 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "invalid": "Skriv inn et gyldig gavekort"
+          "invalid": "Skriv inn et gyldig gavekort",
+          "not_available": "Dette gavekortet er ikke lenger tilgjengelig"
         }
       },
       "billing": {
         "add_address": "Bruk en annen adresse",
-        "address_more": "Flere handlinger for denne adressen"
+        "address_more": "Flere handlinger for denne adressen",
+        "address_confirm": "Er du sikker på at du vil slette denne adressen fra kontoen din?"
       },
       "order_errors": {
         "network_failure": "Bestillingen kunne ikke sendes inn på grunn av en nettverksfeil. Kontroller tilkoblingen, og prøv på nytt.",
         "creation_failure": "Det oppstod et problem under oppretting av bestillingen. Prøv på nytt, eller kontakt oss for mer informasjon."
+      },
+      "store_credit_errors": {
+        "generic_error": "Det var et problem med butikkens kreditt.  Prøv igjen eller last sida på nytt."
       }
     },
     "attributes": {
@@ -1637,7 +1652,8 @@
         "empty_update": "kan ikke oppdatere tom handlekurv",
         "missing_parameters": "ingen gyldig ID eller linjeparameter",
         "bundle_products_not_supported_for_b2b_draft": "Pakkede element kan ikkje leggjast til i B2B-ordrer for denne staden.",
-        "more_than_maximum": "Denne varen har maksimalt %{max}."
+        "more_than_maximum": "Denne varen har maksimalt %{max}.",
+        "product_not_available": "Produktet er ikke tilgjengelig"
       },
       "address": {
         "created": "Vellykket opprettet adresse",
@@ -2089,7 +2105,8 @@
         "added_with_quantity": "{{quantity}} lagt til",
         "removed_with_quantities": "{{delta}} Av {{total}} Fjernt",
         "returned_with_quantities": "{{delta}} Av {{total}} Returnert",
-        "returned": "Returnert"
+        "returned": "Returnert",
+        "removed": "Fjernet"
       },
       "marketing_section_title": "Nyheter og tilbud",
       "pickup": {
@@ -2594,7 +2611,8 @@
       }
     },
     "profile_preview_bar": {
-      "saved_at": "Lagrat {{date}} Kje {{time}}"
+      "saved_at": "Lagrat {{date}} Kje {{time}}",
+      "previewing": "Du førehandsvisingar:"
     }
   },
   "general": {
@@ -2788,6 +2806,9 @@
     },
     "live_search": {
       "see_all": "Se alle resultater"
+    },
+    "header": {
+      "search_submit": "Sende inn"
     }
   },
   "contact": {
@@ -2960,7 +2981,8 @@
       "author_meta_said": "{{ author }} sa:",
       "email": "E-post",
       "message": "Kommentar",
-      "post": "Post Kommentar"
+      "post": "Post Kommentar",
+      "form_title": "Legg igjen en kommentar"
     }
   },
   "store_availability": {

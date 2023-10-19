@@ -138,7 +138,9 @@
       "showPreviousMonth": "Visa föregående månad, {{month}}  {{year}}",
       "closeModal": "Stänga",
       "removeItem": "Ta bort marken {{label}}",
-      "july": "juli"
+      "july": "juli",
+      "tuesdayAbbreviation": "Du",
+      "august": "augusti"
     },
     "orders": {
       "order_list": {
@@ -484,7 +486,8 @@
         "local_pickup": {
           "rollup_title": "Upphämtningsplats"
         },
-        "split_cart_merchandise_quantity_label_additional": "+ ++ %{quantity} Fler"
+        "split_cart_merchandise_quantity_label_additional": "+ ++ %{quantity} Fler",
+        "title": "Frakt"
       },
       "stock": {
         "out_of_stock": {
@@ -535,7 +538,9 @@
       },
       "payment": {
         "delete_credit_card_modal": {
-          "confirmation": "Är du säker på att du vill ta bort filen {{brandName}} Avslutas i {{lastDigits}} ?"
+          "confirmation": "Är du säker på att du vill ta bort filen {{brandName}} Avslutas i {{lastDigits}} ?",
+          "title": "Ta bort kort",
+          "cancel": "Annullera"
         },
         "order_edit_banner_items_removed": {
           "with_quantities": "{{delta}} Av {{quantity}} Borttagen",
@@ -558,7 +563,8 @@
         "edit_credit_card_modal": {
           "fields": {
             "name": "namn på kort"
-          }
+          },
+          "cancel": "Annullera"
         },
         "order_edit_banner_items_added": {
           "other": "%{count} Tillägg"
@@ -591,6 +597,11 @@
       },
       "payment_errors": {
         "invalid_expiry_date": "Ange ett giltigt utgångsdatum för kortet"
+      },
+      "shipping_errors": {
+        "shipping_method_not_available_generic": {
+          "one": "Denna order kan inte levereras till den adress du angav. Granska din adress för att säkerställa att alla fält har fyllts i korrekt och försök igen."
+        }
       }
     },
     "notices": {

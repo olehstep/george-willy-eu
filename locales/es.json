@@ -469,7 +469,8 @@
         "split_cart_merchandise_shipment_number": "Envío %{number} De %{total}",
         "invalid_shipping_method_summary": "Ingrese una dirección de envío válida para ver los métodos de envío disponibles",
         "method_summary": {
-          "incomplete_address_selected": "Seleccione una dirección de envío completa para ver los métodos de envío disponibles"
+          "incomplete_address_selected": "Seleccione una dirección de envío completa para ver los métodos de envío disponibles",
+          "incomplete_address_entered": "Ingrese una dirección de envío completa para ver los métodos de envío disponibles"
         },
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Artículos",
         "different_shipping_method_summary": "Ingrese una dirección de envío diferente para ver los métodos de envío disponibles",
@@ -514,7 +515,8 @@
         },
         "edit_credit_card_modal": {
           "fields": {
-            "name": "Nombre en la tarjeta"
+            "name": "Nombre en la tarjeta",
+            "billing": "Cobrar a"
           }
         },
         "purchase_options_and_vaulting_agreement_label": "Uno o varios artículos del carrito son una compra diferida o recurrente. Al continuar con el pago, aceptas que se aplicarán cargos a la forma de pago automáticamente según el precio y la frecuencia indicados en esta página hasta que termine o la canceles. Todas las cancelaciones están sujetas a la %{cancellation_policy_label}.",
@@ -548,7 +550,8 @@
       "general": {
         "map": {
           "cluster_title": {
-            "other": "Cluster de {{number}} Marcadores"
+            "other": "Cluster de {{number}} Marcadores",
+            "one": "Cluster de {{number}} Marcador"
           }
         }
       },
@@ -564,7 +567,8 @@
           "add_address": "Añadir dirección"
         },
         "add_address": "Usar una dirección diferente",
-        "billing_address_title": "Cobrar a"
+        "billing_address_title": "Cobrar a",
+        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?"
       },
       "stock": {
         "return_to_store_label": "volver a la tienda",
@@ -575,7 +579,10 @@
         "price_update": {
           "description": "Los precios de estos artículos han cambiado y se actualizan en su carrito."
         },
-        "continue_cta_label": "Continuar la desprotección"
+        "continue_cta_label": "Continuar la desprotección",
+        "item_label": {
+          "other": "{{count}} Artículos"
+        }
       },
       "no_address_location": {
         "alt_header": "Dirección de envío faltante"
@@ -690,7 +697,8 @@
             "last_7_days": "Últimos 7 días",
             "last_30_days": "últimos 30 días"
           },
-          "apply": "Solicitar"
+          "apply": "Solicitar",
+          "clear_all": "Limpiar todo"
         }
       }
     },

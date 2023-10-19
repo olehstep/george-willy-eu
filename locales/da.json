@@ -521,6 +521,9 @@
         "purchase_options_and_vaulting_agreement_label": "Én eller flere varer i din indkøbskurv er et udskudt eller tilbagevendende køb. Hvis du fortsætter med din betaling, accepterer du, at din betalingsmetode automatisk opkræves til den pris og med den hyppighed, der er angivet på denne side, indtil det ophører, eller du opsiger det. Alle opsigelser er underlagt vores %{cancellation_policy_label}.",
         "order_edit_banner_items_returned": {
           "with_quantities": "{{delta}} Af {{quantity}} Returneret:"
+        },
+        "add_credit_card_modal": {
+          "save": "Gemme"
         }
       },
       "stock": {
@@ -591,7 +594,8 @@
       "shop_404": {
         "ctas": {
           "editions": {
-            "header": "Se Shopify udgaver"
+            "header": "Se Shopify udgaver",
+            "caption": "Med 100 + produktopdateringer, kan du være mere produktiv og kreativ, og stærk i handel, end du nogensinde havde forestillet dig."
           },
           "store_owner": {
             "shopify_support_link_text": "Støtte til Shopify",
@@ -643,7 +647,8 @@
       "order_list": {
         "filter": {
           "date": {
-            "last_365_days": "De seneste 12 måneder"
+            "last_365_days": "De seneste 12 måneder",
+            "title": "Bestillingsdato"
           },
           "clear_all": "Slet alt",
           "apply": "ansøge"

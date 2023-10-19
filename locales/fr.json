@@ -472,14 +472,16 @@
           "incomplete_address_selected": "Sélectionnez une adresse de livraison complète pour afficher les méthodes d'expédition disponibles"
         },
         "address_form": {
-          "save": "Sauvegarder"
+          "save": "Sauvegarder",
+          "generic_error": "Il y a eu un problème pour sauvegarder votre adresse.  Veuillez réessayer."
         },
         "address_delete": "Supprimer l'adresse",
         "address_more": "Plus d'actions pour cette adresse",
         "split_cart_merchandise_quantity_label_additional": "%{quantity} Plus",
         "shipping_address_title": "Envoyez à",
         "edit": "Éditer",
-        "merchandise_quantity_label_inline_primary": "Quantité: %{quantity}"
+        "merchandise_quantity_label_inline_primary": "Quantité: %{quantity}",
+        "different_shipping_method_summary": "Entrez une adresse de livraison différente pour voir les méthodes d'expédition disponibles"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -505,7 +507,10 @@
         "address_more": "Plus d'actions pour cette adresse",
         "same_as_shipping": "Même que l'adresse d'expédition",
         "address_edit": "Modifier l'adresse",
-        "add_address": "Utilisez une adresse différente"
+        "add_address": "Utilisez une adresse différente",
+        "address_form": {
+          "save": "Sauvegarder"
+        }
       },
       "payment": {
         "subscription_agreement_label": "Je comprends que je suis en train d'accepter un abonnement. Celui-ci se renouvellera au prix et à la fréquence indiqués et ce, jusqu'à ce qu'il prenne fin ou soit %{cancelled}.",
@@ -532,7 +537,8 @@
         "add_credit_card_modal": {
           "save": "Sauvegarder"
         },
-        "use_location_billing_address_label": "Utiliser l'adresse de facturation de l'emplacement"
+        "use_location_billing_address_label": "Utiliser l'adresse de facturation de l'emplacement",
+        "subscription_agreement_cancelled": "annulé"
       },
       "stock": {
         "price_update": {
@@ -667,7 +673,9 @@
       "december": "décembre",
       "thursday": "jeudi",
       "saturday": "samedi",
-      "increase": "Augmentation {{type}}"
+      "increase": "Augmentation {{type}}",
+      "removeTag": "Enlever l'étiquette",
+      "processing": "Traitement…"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",
@@ -680,7 +688,8 @@
         "filter": {
           "date": {
             "last_90_days": "90 derniers jours",
-            "today": "Aujourd'hui"
+            "today": "Aujourd'hui",
+            "last_7_days": "7 derniers jours"
           },
           "clear_section": "Section claire"
         },
@@ -703,6 +712,11 @@
             "description": "Aucun montant ne vous sera prélevé."
           }
         }
+      }
+    },
+    "payment_methods": {
+      "payment_details": {
+        "checkout_card_banner": "Ce mode de paiement ne peut être utilisé que pour les paiements préautorisés.  Il n'apparaîtra pas à la caisse si vous êtes connecté à ce magasin."
       }
     }
   }

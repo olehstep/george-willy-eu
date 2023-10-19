@@ -496,7 +496,8 @@
             "name": "naam op kaart",
             "billing": "Rekening naar"
           },
-          "done": "Klaar"
+          "done": "Klaar",
+          "description": "U kunt alleen het factuuradres van uw kaart wijzigen."
         },
         "subscription_agreement_label": "Ik begrijp dat ik akkoord ga met een abonnement. Het zal worden vernieuwd tegen de vermelde prijs en frequentie totdat het afloopt of wordt %{cancelled}.",
         "expired_payment_method": "Geselecteerde betaalmethode is verlopen",
@@ -534,14 +535,16 @@
         "order_status_payments_app_failed_pending_payment": "Je bent niet aangeklaagd voor je bestelling.  Ga terug naar uw winkelwagen om uw bestelling te bekijken en betaal opnieuw.",
         "thank_you_title_payments_app_failed_pending_payment": "Uw betaling kon niet worden verwerkt",
         "thank_you_title_payments_app_pending_buyer_action_required": "Uw bestelling is ontvangen",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Na het voltooien van uw betaling, krijgt u een bevestigingstekst.  Volg uw bestelling met behulp van de Shop-app."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Na het voltooien van uw betaling, krijgt u een bevestigingstekst.  Volg uw bestelling met behulp van de Shop-app.",
+        "failed_pending_payment_page_title": "Er is een probleem met uw betaling"
       },
       "billing": {
         "billing_address_title": "Rekening naar",
         "address_form": {
           "add_address": "Voeg adres toe"
         },
-        "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?"
+        "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?",
+        "add_address": "Gebruik een ander adres"
       },
       "stock": {
         "price_update": {
@@ -681,7 +684,8 @@
             "start_date": "Startdatum",
             "last_7_days": "Laatste 7 dagen",
             "last_30_days": "Laatste 30 dagen",
-            "last_90_days": "Laatste 90 dagen"
+            "last_90_days": "Laatste 90 dagen",
+            "last_365_days": "Laatste 12 maanden"
           },
           "apply": "Van toepassing zijn",
           "clear_all": "Wis alles"

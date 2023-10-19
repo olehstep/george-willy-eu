@@ -559,7 +559,8 @@
           "description": "I prezzi per questi articoli sono cambiati e vengono aggiornati nel carrello.",
           "title": "Aggiornamento del prezzo"
         },
-        "return_to_store_label": "Ritorna in negozio"
+        "return_to_store_label": "Ritorna in negozio",
+        "continue_cta_label": "Continuare Checkout"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -574,7 +575,8 @@
       "review": {
         "blocks": {
           "payment_method_saved_company_location": "Salva la carta per questa posizione",
-          "payment_method_title": "Pagamento"
+          "payment_method_title": "Pagamento",
+          "shipping_method_title": "Metodo"
         }
       },
       "thank_you": {
@@ -591,7 +593,8 @@
       "general": {
         "map": {
           "cluster_title": {
-            "other": "Cluster di marcatori {{number}}"
+            "other": "Cluster di marcatori {{number}}",
+            "one": "Cluster di {{number}} Marcatore"
           }
         }
       },
@@ -603,7 +606,8 @@
       },
       "billing": {
         "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?",
-        "billing_address_title": "Fatturare a"
+        "billing_address_title": "Fatturare a",
+        "delete": "Eliminare"
       },
       "contact": {
         "title": "Informazioni"
@@ -731,7 +735,9 @@
       "october": "ottobre",
       "fridayAbbreviation": "Fr",
       "minimumReached": "Minimo di {{value}} Raggiunto",
-      "closeModal": "Vicino"
+      "closeModal": "Vicino",
+      "saturday": "il sabato",
+      "august": "agosto"
     },
     "profile_preview_bar": {
       "previewing": "Stai visualizzando in anteprima:",

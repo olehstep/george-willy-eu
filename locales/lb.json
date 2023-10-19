@@ -463,7 +463,8 @@
         "location_shipping_address_label": "Location Versandadress",
         "use_order_billing_address_label": "Orderfolling-Adress benotzen",
         "add_credit_card_modal": {
-          "cancel": "Ofbriechen"
+          "cancel": "Ofbriechen",
+          "save": "Spueren"
         },
         "payment_method": "Bezuelmethod",
         "edit_credit_card_modal": {
@@ -708,7 +709,8 @@
         "subscriptions": "Abonnementer",
         "component_quantity_title": "%{quantity} × %{product_title}",
         "collapse_component_information": {
-          "other": "Verstoppen %{count} Artikelen"
+          "other": "Verstoppen %{count} Artikelen",
+          "one": "Verstoppen %{count} Element"
         },
         "duties_label": "Flichten",
         "may_be_charged_on_delivery": "Kann op Liwwerung verrechent ginn",
@@ -1227,7 +1229,8 @@
           "other": "Een oder méi Elementer, déi Dir bäigefüügt hutt, verschéckt net op Är Plaz. Ewechzehuelen se fir erauszekréien, oder kontaktéiert de Buttek."
         },
         "shipping_method_not_available": "Äre Wuerekuerf gouf aktualiséiert an d'Elementer déi Dir bäigefüügt hutt kënnen net op Är Adress geschéckt ginn. Ewechzehuelen d'Elementer fir Är Bestellung ofzeschléissen.",
-        "shipping_method": "D'Versandoptiounen hu fir Är Bestellung geännert. Iwwerpréift Är Auswiel a probéiert nach eng Kéier."
+        "shipping_method": "D'Versandoptiounen hu fir Är Bestellung geännert. Iwwerpréift Är Auswiel a probéiert nach eng Kéier.",
+        "title": "Rasiewung net verfügbar."
       },
       "customer_payment_methods": {
         "delete_customer_mandate": {
@@ -1414,7 +1417,8 @@
         "money_order_label": "Money Order",
         "login_prompt": {
           "no_access": {
-            "message": "{{logIn}} op e Kont mat Zougang zu dëser Plaz fir gespäichert Bezuelmethoden ze addéieren oder ze benotzen."
+            "message": "{{logIn}} op e Kont mat Zougang zu dëser Plaz fir gespäichert Bezuelmethoden ze addéieren oder ze benotzen.",
+            "link": "Mellt Iech un"
           }
         },
         "direct_payment_terms": "Dir sidd op {{translatedName}} Begrëffer. Är Kaart gëtt op {{dueDate}} berechent.",
@@ -1510,7 +1514,8 @@
       },
       "alternative_payment_method_banner": {
         "or": "ODER",
-        "express_checkout": "Express Kees"
+        "express_checkout": "Express Kees",
+        "show_more_options": "Méi Optiounen weisen"
       },
       "change_cart_localization": {
         "verify_shipping_address": "Äert Land \/ Är Regioun gouf aktualiséiert. Gitt Är Versandadress un fir weider ze bezuelen."
@@ -1655,7 +1660,8 @@
           },
           "outdated": {
             "shipping_method": "D'Versandoptiounen hu fir Är Bestellung geännert. Iwwerpréift Är Auswiel."
-          }
+          },
+          "terminal": "Et gouf e Problem mat {{walletName}}. Benotzt w.e.g. eng aner Bezuelmethod."
         },
         "connect_shipping_methods": "{{method1}} an {{method2}}",
         "shipping_line_label": "Liwwerung",
@@ -1675,7 +1681,8 @@
           },
           "next_accessibility_label": "Nächst Säit",
           "header": {
-            "one": "Weist %{first} - %{last} vum %{count} Punkt"
+            "one": "Weist %{first} - %{last} vum %{count} Punkt",
+            "other": "Weist %{first} - %{last} vun %{count} Punkten"
           }
         },
         "or": "oder",
@@ -1688,7 +1695,8 @@
         "geolocation": {
           "shared_location_button": "Benotzt meng Plaz",
           "errors": {
-            "permission_not_allowed": "Erlaabt Är Location ze deelen."
+            "permission_not_allowed": "Erlaabt Är Location ze deelen.",
+            "unsuported_by_browser": "Geolocatioun kréien gëtt net vun Ärem Browser ënnerstëtzt. Probéiert nach eng Kéier oder benotzt en anere Browser."
           }
         },
         "search_button": "Sichen",
@@ -2046,7 +2054,8 @@
             "today": "Haut",
             "last_365_days": "Lescht 12 Maanden",
             "last_30_days": "Lescht 30 Deeg",
-            "last_90_days": "Lescht 90 Deeg"
+            "last_90_days": "Lescht 90 Deeg",
+            "end_date": "Enndailg"
           }
         }
       },
@@ -2123,7 +2132,13 @@
         "gift_card_resend_text": {
           "one": "Text erëm schécken"
         },
-        "attempted_to_deliver_label": "Fäichen"
+        "attempted_to_deliver_label": "Fäichen",
+        "gift_card_resend_description_text": {
+          "other": "Wann se net ugeholl goufen, schéckt d'Texter nach eng Kéier oder"
+        },
+        "gift_card_label": {
+          "other": "Kaddoskaarten"
+        }
       },
       "list_layout_accessibility_label": "Layout Optiounen",
       "status_title": "Bestellung Status",
@@ -2791,9 +2806,11 @@
         "other": "Monten"
       },
       "autocompleteOptionsAvailable": {
-        "other": "{{count}} Elemente verfügbart"
+        "other": "{{count}} Elemente verfügbart",
+        "one": "{{count}} Element verfügbart"
       },
-      "wednesday": "Mëttwoch"
+      "wednesday": "Mëttwoch",
+      "decrease": "Verlengden {{type}}"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

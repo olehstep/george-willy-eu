@@ -473,7 +473,10 @@
         "add_address": "Usar um endereço diferente",
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Itens",
         "address_edit": "Editar Endereço",
-        "address_delete": "Excluir endereço"
+        "address_delete": "Excluir endereço",
+        "method_summary": {
+          "incomplete_address_entered": "Introduza uma morada de envio completa para ver os métodos de envio disponíveis"
+        }
       },
       "field_errors": {
         "address_phone_invalid": "Insira um número de telefone válido",
@@ -565,6 +568,9 @@
       },
       "order_errors": {
         "inventory_reservation_failure": "Alguns itens não estão mais disponíveis."
+      },
+      "address_management": {
+        "confirm_address_deletion": "Tem certeza de que deseja excluir o endereço {{address}}?"
       }
     },
     "errors": {
@@ -577,7 +583,8 @@
         "ctas": {
           "store_owner": {
             "shopify_support_link_text": "Suporte da Shopify",
-            "caption": "Está a ter problemas para entrar na sua loja?  Experimente a funcionalidade %{forgot_your_store_link}.  Se pretender reativar a sua loja, contacte %{shopify_support_link}."
+            "caption": "Está a ter problemas para entrar na sua loja?  Experimente a funcionalidade %{forgot_your_store_link}.  Se pretender reativar a sua loja, contacte %{shopify_support_link}.",
+            "header": "Você é o dono da loja?"
           },
           "open_a_store": {
             "link_text": "Inscreva-se agora"

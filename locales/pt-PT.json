@@ -506,6 +506,9 @@
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> não pôde ser utilizado com os teus descontos existentes. Já possuis uma combinação superior.",
         "price_per_item": {
           "label": "%{price}\/EA"
+        },
+        "discount_order_stacking": {
+          "other": "Encomendar descontos"
         }
       },
       "review": {
@@ -596,7 +599,8 @@
       "mondayAbbreviation": "Mo",
       "closeNotification": "Perto",
       "march": "Marchar",
-      "january": "Janeiro"
+      "january": "Janeiro",
+      "minimumReached": "Mínimo de {{value}} atingido"
     },
     "order_details": {
       "edit_summary": {

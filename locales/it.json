@@ -477,7 +477,8 @@
           "incomplete_address_entered": "Inserisci un indirizzo di spedizione completo per visualizzare i metodi di spedizione disponibili"
         },
         "enter_address_manually_label": "Inserisci l'indirizzo manualmente",
-        "shipping_information_required_notice": "I dati di spedizione sono obbligatori. {{link}}."
+        "shipping_information_required_notice": "I dati di spedizione sono obbligatori. {{link}}.",
+        "missing_shipping_address": "Manca l'indirizzo di spedizione"
       },
       "payment_errors": {
         "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
@@ -516,7 +517,8 @@
           "with_quantities": "{{delta}} Di {{quantity}} Restituito"
         },
         "subscription_agreement_label": "Comprendo che sto accettando un abbonamento. Verrà rinnovato al costo e con la frequenza indicati fino al termine o alla %{cancelled}.",
-        "purchase_options_agreement_label_wallets": "Continuando con il pagamento, accetti le spese future elencate in questa pagina e la politica di cancellazione."
+        "purchase_options_agreement_label_wallets": "Continuando con il pagamento, accetti le spese future elencate in questa pagina e la politica di cancellazione.",
+        "purchase_options_and_vaulting_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto ricorrente o dilazionato. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga automaticamente addebitato al prezzo e alla frequenza qui indicati fino al termine o all'annullamento. Tutti gli annullamenti sono soggetti all'%{cancellation_policy_label}."
       },
       "order_summary": {
         "discount_order_stacking": {

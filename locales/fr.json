@@ -476,13 +476,16 @@
         },
         "address_delete": "Supprimer l'adresse",
         "address_more": "Plus d'actions pour cette adresse",
-        "split_cart_merchandise_quantity_label_additional": "%{quantity} Plus"
+        "split_cart_merchandise_quantity_label_additional": "%{quantity} Plus",
+        "shipping_address_title": "Envoyez à",
+        "edit": "Éditer"
       },
       "redeemable_errors": {
         "gift_card": {
           "invalid": "Entrez une carte-cadeau valide",
           "not_available": "Cette carte cadeau n'est plus disponible",
-          "expired": "Cette carte cadeau a expiré"
+          "expired": "Cette carte cadeau a expiré",
+          "currency_mismatch": "Seules les cartes-cadeaux dans %{shop_currency} Sont acceptés"
         }
       },
       "payment_errors": {
@@ -493,7 +496,8 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
         "order_status_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un texto de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
         "thank_you_title_payments_app_failed_pending_payment": "Votre paiement n'a pas pu être traité",
-        "failed_pending_payment_page_title": "Il y a un problème avec votre paiement"
+        "failed_pending_payment_page_title": "Il y a un problème avec votre paiement",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
       },
       "billing": {
         "address_more": "Plus d'actions pour cette adresse",
@@ -508,7 +512,8 @@
         },
         "edit_credit_card_modal": {
           "fields": {
-            "expiry": "Date d'expiration"
+            "expiry": "Date d'expiration",
+            "billing": "facturer"
           }
         },
         "purchase_options_agreement_label_wallets": "En poursuivant votre paiement, vous acceptez les frais futurs indiqués sur cette page et la politique d'annulation.",
@@ -577,7 +582,16 @@
         "title": "Informations"
       },
       "customer_account": {
-        "have_an_account_label": "Vous avez déjà un compte ?"
+        "have_an_account_label": "Vous avez déjà un compte ?",
+        "invalid_shipping_method_summary": "Sélectionnez une adresse de livraison valide pour afficher les méthodes d'expédition disponibles"
+      },
+      "shipping_errors": {
+        "shipping_method_not_available_generic": {
+          "other": "Certains articles de votre panier ne peuvent pas être expédiés à l'adresse que vous avez saisie. Vérifiez que tous les champs de votre adresse ont été renseignés correctement, puis réessayez."
+        }
+      },
+      "address_management": {
+        "confirm_address_deletion": "Voulez-vous vraiment supprimer l'adresse {{address}} ?"
       }
     },
     "errors": {
@@ -633,7 +647,10 @@
       "fridayAbbreviation": "Ve",
       "august": "août",
       "mondayAbbreviation": "mois",
-      "february": "février"
+      "february": "février",
+      "showNextMonth": "Spectacle le mois prochain, {{month}}  {{year}}",
+      "january": "janvier",
+      "december": "décembre"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",

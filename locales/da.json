@@ -470,7 +470,11 @@
           "rollup_title": "Opsamlingssted"
         },
         "enter_address_manually_label": "Indtast adresse manuelt",
-        "different_shipping_method_summary": "Indtast en anden leveringsadresse for at se tilgængelige forsendelsesmetoder"
+        "different_shipping_method_summary": "Indtast en anden leveringsadresse for at se tilgængelige forsendelsesmetoder",
+        "split_cart_merchandise_quantity_label_additional": "+ +. %{quantity} Mere",
+        "shipping_information_required_notice": "Der kræves leveringsoplysninger. {{link}}.",
+        "edit": "Redigere",
+        "merchandise_quantity_label_inline_primary": "Mængde: %{quantity}"
       },
       "review": {
         "review_title": "Gennemgå ordre",
@@ -510,7 +514,8 @@
         "order_edit_banner_items_added": {
           "other": "%{count} Tilføjet"
         },
-        "expired_payment_method": "Valgt betalingsmetode er udløbet"
+        "expired_payment_method": "Valgt betalingsmetode er udløbet",
+        "purchase_options_and_vaulting_agreement_label": "Én eller flere varer i din indkøbskurv er et udskudt eller tilbagevendende køb. Hvis du fortsætter med din betaling, accepterer du, at din betalingsmetode automatisk opkræves til den pris og med den hyppighed, der er angivet på denne side, indtil det ophører, eller du opsiger det. Alle opsigelser er underlagt vores %{cancellation_policy_label}."
       },
       "stock": {
         "out_of_stock": {
@@ -564,6 +569,14 @@
       },
       "customer_account": {
         "have_an_account_label": "Har du allerede en konto?"
+      },
+      "store_credit_errors": {
+        "generic_error": "Der var et problem med din butiks kredit.  Prøv igen eller genlæs siden."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available_generic": {
+          "other": "Nogle varer i din indkøbskurv kan ikke afsendes til den angivne adresse. Gennemgå din adresse for at sikre at alle felter er udfyldt korrekt, og prøv igen."
+        }
       }
     },
     "errors": {
@@ -587,7 +600,8 @@
           "add_storefront": "Du kan oprette din hjemmeside ved at tilføje Online Store kanal i dine %{admin_link} .  Hvis du har problemer med at komme ind i din butik, så prøv... %{forgot_your_store_link} Side."
         },
         "heros": {
-          "no_storefront": "Denne butik har ikke en hjemmeside endnu."
+          "no_storefront": "Denne butik har ikke en hjemmeside endnu.",
+          "store_unavailable": "Denne butik er desværre ikke tilgængelig."
         }
       }
     }
@@ -616,7 +630,8 @@
           },
           "clear_all": "Slet alt",
           "apply": "ansøge"
-        }
+        },
+        "filter_title": "Filter"
       },
       "order_status": {
         "amazon_buy_with_prime": {

@@ -67,7 +67,8 @@
             "caption": "Agen d'Fiatchelz, d'Mecheenschoen, déi d'Afschiermen aus aus aus aus."
           },
           "editions": {
-            "link_text": "Lesten Editiounen"
+            "link_text": "Lesten Editiounen",
+            "header": "Shopify Editiounen"
           }
         },
         "owner_ctas": {
@@ -230,7 +231,8 @@
             "monday": "Mo",
             "thursday": "Th",
             "tuesday": "Dat",
-            "sunday": "Su"
+            "sunday": "Su",
+            "wednesday": "Mir"
           },
           "weekdays": {
             "wednesday": "Mëttwoch",
@@ -529,7 +531,8 @@
             "name": "Numm op der Kaart"
           },
           "title": "Kaarter änneren",
-          "description": "Dir kënnt nëmme d' Biller-Adress vung."
+          "description": "Dir kënnt nëmme d' Biller-Adress vung.",
+          "cancel": "Ofbriechen"
         },
         "order_edit_banner_items_returned": {
           "in_full": "Zréckkomm",
@@ -567,7 +570,10 @@
         "order_edit_banner_single_item_returned": "Zréckkomm",
         "billing_must_match_shipping_notice": "D'Rechnungsadress vun Ärer Bezuelmethod muss mat der Versandadress passen.",
         "markets_pro_disclaimer_terms_and_conditions_title": "Händler vun Record Konditioune",
-        "purchase_options_agreement_label_wallets": "Er weider mat Äer Betaal, stemmett de hifuchtige Laachen, an d'Aflösung-Polie d' Löschen."
+        "purchase_options_agreement_label_wallets": "Er weider mat Äer Betaal, stemmett de hifuchtige Laachen, an d'Aflösung-Polie d' Löschen.",
+        "expired_cards_info": {
+          "other": "Et gi %{count} ofgelaaf Kaarten, déi Dir an Ärem Kont kucken an änneren."
+        }
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -708,7 +714,8 @@
         "missing_shipping_address": "Versandadress feelt",
         "address_delete": "Adress läschen",
         "free_rate_label": "fräi",
-        "address_more": "Méi Aktiounen fir dës Adress"
+        "address_more": "Méi Aktiounen fir dës Adress",
+        "split_cart_merchandise_shipment_number": "ShipmentName %{number} A %{total}"
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -848,7 +855,8 @@
         },
         "error_duties_tooltip": "Dës Bestellung gëtt aus engem anere Land geschéckt, sou datt Flichten a Steiere kënne bei der Liwwerung verrechent ginn.",
         "alternative_payment_currency_total": "[@ 90000]",
-        "total_updated_label_with_price": "Aktualiséiert Gesamtpräis: %{totalPrice}"
+        "total_updated_label_with_price": "Aktualiséiert Gesamtpräis: %{totalPrice}",
+        "due_on_fulfillment": "Wéinst Erfëllung"
       },
       "processing": {
         "wait": {
@@ -1217,7 +1225,8 @@
         "order_status_payments_app_pending_payment_description_default_with_email": "Dir mer e-E-E-E-Post eel all.  Schéckt.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Nei Äer Betaal erfléidt, mer dir e-Postum vunt.  Schéckt.",
         "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Dir mer e-E-E-E-Post eel all.  Schéckt.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Nei Äer Betaal erfléidt, mer dir ee Bewachtung-Text huen.  Schéckt."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Nei Äer Betaal erfléidt, mer dir ee Bewachtung-Text huen.  Schéckt.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Dir gitt ee Bewachtung-Text äus.  Schéckt."
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1603,7 +1612,8 @@
           "purchase_order_number_title": "PO Nummer",
           "no_purchase_order_number": "(Keng PO Nummer)",
           "review_title_free_order": "Äer Ordég Rebekachen",
-          "payment_method_saved_company_location": "Kaarter fir dës Stilt späicheren"
+          "payment_method_saved_company_location": "Kaarter fir dës Stilt späicheren",
+          "change_delivery_method_link_label": "Änneren Liwwerung Method"
         },
         "review_title": "Iwwerpréiwen Uerdnung",
         "checkout_as_guest": "Kees als Gaascht",
@@ -1761,7 +1771,8 @@
         "editable_shipping_address_violations_email_link": "Kontaktéiert eis",
         "all_violations_email_link": "Email",
         "company_location_changed_product_removed": "Äer Cart ass Aktualiséierung, wier kied Producer ass net verfügbar. Iwwerpréift Är Bestellung ier Dir se ofginn.",
-        "company_location_changed": "Äre Weenchen gouf aktualiséiert. Iwwerpréift Är Bestellung ier Dir se ofginn."
+        "company_location_changed": "Äre Weenchen gouf aktualiséiert. Iwwerpréift Är Bestellung ier Dir se ofginn.",
+        "shipping_address_incomplete_title": "Adress schuwung ass onvollt"
       },
       "local_pickup": {
         "could_not_resolve_address": "Är Adress konnt net lokaliséiert ginn. Probéiert nach eng Kéier oder benotzt eng aner Adress",
@@ -1885,7 +1896,8 @@
         },
         "change": "Änneren",
         "waiting_on_pickup_point_location_notice": "Sich no Pickup Punkten ...",
-        "location_is_currently_closed": "Zougemaach"
+        "location_is_currently_closed": "Zougemaach",
+        "no_pickup_points_near_you": "Keng Pickup Punkte fonnt bei der gewielter Adress"
       },
       "marketplaces": {
         "legal_notice": {
@@ -1948,7 +1960,8 @@
         },
         "address_delete": "Adress läschen",
         "address_confirm": "Wëllt Dir wier dës Adress op déi Kont geläichen?",
-        "address_edit": "Adress änneren"
+        "address_edit": "Adress änneren",
+        "edit": "Edit"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -2258,7 +2271,8 @@
             "last_90_days": "Lescht 90 Deeg",
             "end_date": "Enndailg",
             "custom": "&amp; Benotzen",
-            "start_date": "Startdatum"
+            "start_date": "Startdatum",
+            "title": "Bestellungsdatum"
           },
           "clear_section": "Seksion",
           "apply": "Bewerbung"
@@ -2818,7 +2832,8 @@
       "delete_payment_method_button": "Läschen",
       "no_payment_methods_banner": "Keng Bezuelmethoden dobäigesat",
       "edit_payment_method_brand_button_accessibility_label": "Edit {{paymentMethodName}}",
-      "edit_payment_method_button_accessibility_label": "Änneren {{paymentMethodName}} op en Enn {{lastDigits}}"
+      "edit_payment_method_button_accessibility_label": "Änneren {{paymentMethodName}} op en Enn {{lastDigits}}",
+      "card_update_consent": "Dës Bezuelmethod gëtt fir zukünfteg Akeef gespäichert."
     },
     "order_details": {
       "shipping": {
@@ -2912,7 +2927,8 @@
       },
       "image_gallery": {
         "previous": "Show virdrun Elementer",
-        "product_name_and_quantity": "{{productName}} Quantitéit {{quantity}}"
+        "product_name_and_quantity": "{{productName}} Quantitéit {{quantity}}",
+        "next": "Show nächst Elementer"
       },
       "edit_summary": {
         "updated_at": "Är Bestellung gouf aktualiséiert op {{date}}",
@@ -3080,7 +3096,8 @@
       "saturday": "Samschdeg",
       "sundayAbbreviation": "Su",
       "friday": "Freideg",
-      "thursday": "Donneschdeg"
+      "thursday": "Donneschdeg",
+      "processing": "Veraarbechtung…"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

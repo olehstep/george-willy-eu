@@ -168,7 +168,8 @@
       "line_item": {
         "item_status": {
           "increment_item": "Bäigent %{delta}",
-          "decrement_fulfilled_line_item": "Ermelt %{delta} A %{total}"
+          "decrement_fulfilled_line_item": "Ermelt %{delta} A %{total}",
+          "decrement_item": "Erwesselt %{delta} A %{total}"
         }
       }
     },
@@ -526,7 +527,8 @@
         "use_location_billing_address_label": "Adress Plétt benotz",
         "multibanco_label": "Geldautomaten",
         "delete_credit_card_modal": {
-          "title": "Kaarter ewesselen"
+          "title": "Kaarter ewesselen",
+          "delete": "Läschen"
         },
         "order_edit_banner_items_added": {
           "one": "Dobäigesat",
@@ -548,7 +550,8 @@
         "card_vaulted_company_location": "Kaart fir dës Plaz gespäichert",
         "order_edit_banner_single_item_returned": "Zréckkomm",
         "billing_must_match_shipping_notice": "D'Rechnungsadress vun Ärer Bezuelmethod muss mat der Versandadress passen.",
-        "markets_pro_disclaimer_terms_and_conditions_title": "Händler vun Record Konditioune"
+        "markets_pro_disclaimer_terms_and_conditions_title": "Händler vun Record Konditioune",
+        "purchase_options_agreement_label_wallets": "Er weider mat Äer Betaal, stemmett de hifuchtige Laachen, an d'Aflösung-Polie d' Löschen."
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -719,7 +722,8 @@
           "due_on_fulfillment": "Total wéinst Erfëllung",
           "due_today": "Gesamtbetrag haut",
           "due_later": "Gesamtbetrag %{due_at}",
-          "due_later_checkout_to_draft": "Gesamtbetrag méi spéit"
+          "due_later_checkout_to_draft": "Gesamtbetrag méi spéit",
+          "due_on_receipt": "Gesamtbetrag op Empfang"
         },
         "deferred_payment_info": {
           "title": "Bezuelung vun %{amount_due} ass op %{due_at}",
@@ -1461,7 +1465,8 @@
             "other": "%{count} dobäigesat"
           },
           "removed": "Geläscht",
-          "subtracted": "%{count} ewechgeholl"
+          "subtracted": "%{count} ewechgeholl",
+          "returned": "[@ 90000] zefgett"
         },
         "order_review_and_pay": "Är Bestellung gouf aktualiséiert. Iwwerpréift a bezuelt fir Är Bestellung ze bestätegen.",
         "pay_now": "Bezuelen elo",
@@ -1507,7 +1512,8 @@
         "unpurchasable_product_generic": {
           "header": "E puer Elementer goufen aus Ärem Weenchen geläscht",
           "message": "Dës Elementer sinn net verfügbar.",
-          "status_column_header": "Nët accessible"
+          "status_column_header": "Nët accessible",
+          "title": "Onkaafbar Produkt"
         },
         "unpurchasable_product": {
           "message": "Dës Artikele sinn net verfügbar fir B2B Bestellungen.",
@@ -1810,7 +1816,8 @@
         "logged_in": "Verbonne mat {{email}}",
         "payment_in_progress_body": "Är Bezuelung gëtt veraarbecht. Är Bestellung gëtt geschwënn ofgeschloss.",
         "payment_in_progress_title": "Bezuelung amgaang",
-        "return_to_store": "Zréck an de Buttek"
+        "return_to_store": "Zréck an de Buttek",
+        "redirect_hint": "Dir wäert gefrot ginn mat {{walletName}} aloggen."
       },
       "pickup_point": {
         "selector_tab_map": "Kaart",
@@ -2387,7 +2394,8 @@
         "description": "Et gëtt e Problem beim Luede PayPal. Probéiert w.e.g. nach eng Kéier."
       },
       "load_extension_error": {
-        "title": "Feeler"
+        "title": "Feeler",
+        "description": "Dëse Säit opfrisch, oder probéiert an eeun Minuten."
       }
     },
     "B2B": {
@@ -2916,7 +2924,8 @@
       "card_ending_with": "Enn mat {{lastDigits}}",
       "remaining_amount": "Rescht",
       "no_data_provided": "-",
-      "no_data_provided_accessibility_label": "{{fieldName}} ass eidel"
+      "no_data_provided_accessibility_label": "{{fieldName}} ass eidel",
+      "log_in": "Mellt Iech un"
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",

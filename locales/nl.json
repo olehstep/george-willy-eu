@@ -559,6 +559,9 @@
         "gift_card": {
           "currency_mismatch": "Alleen cadeaubonnen in %{shop_currency} Worden geaccepteerd"
         }
+      },
+      "store_credit_errors": {
+        "generic_error": "Er was een probleem met uw winkeltegoed.  Probeer het opnieuw of laad de pagina opnieuw."
       }
     },
     "errors": {
@@ -574,7 +577,8 @@
         },
         "title": "Maak een e-commerce website en verkoop online!  E-commercesoftware door Shopify",
         "owner_ctas": {
-          "add_storefront": "U kunt uw website instellen door het Online Store-kanaal toe te voegen aan uw %{admin_link} .  Als je problemen hebt om in je winkel te komen, probeer dan de %{forgot_your_store_link} Pagina."
+          "add_storefront": "U kunt uw website instellen door het Online Store-kanaal toe te voegen aan uw %{admin_link} .  Als je problemen hebt om in je winkel te komen, probeer dan de %{forgot_your_store_link} Pagina.",
+          "admin_link_text": "Admin"
         }
       }
     }
@@ -597,7 +601,8 @@
       "expandNotification": "Bekijk meer",
       "fridayAbbreviation": "Vr",
       "march": "Maart",
-      "increase": "Verhogen {{type}}"
+      "increase": "Verhogen {{type}}",
+      "rangeStart": "Start van het bereik"
     },
     "orders": {
       "order_list": {
@@ -608,6 +613,13 @@
             "last_30_days": "Laatste 30 dagen"
           },
           "apply": "Van toepassing zijn"
+        }
+      },
+      "order_status": {
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Volg en beheer Kopen met Prime order"
+          }
         }
       }
     },

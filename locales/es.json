@@ -469,7 +469,8 @@
         "invalid_shipping_method_summary": "Ingrese una dirección de envío válida para ver los métodos de envío disponibles",
         "method_summary": {
           "incomplete_address_selected": "Seleccione una dirección de envío completa para ver los métodos de envío disponibles"
-        }
+        },
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} Artículos"
       },
       "order_summary": {
         "price_per_item": {
@@ -495,7 +496,8 @@
         "order_edit_banner_items_removed": {
           "with_quantities": "{{delta}} De {{quantity}} Eliminado"
         },
-        "payment_method": "Método de pago"
+        "payment_method": "Método de pago",
+        "use_location_shipping_address_label": "Utilizar la dirección de envío de ubicación"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -517,7 +519,8 @@
       },
       "field_errors": {
         "address_zip_too_long": "El código postal es demasiado largo (el máximo es de 255 caracteres)",
-        "credit_card_month_invalid": "Introduce un mes de expiración de tarjeta válido"
+        "credit_card_month_invalid": "Introduce un mes de expiración de tarjeta válido",
+        "address_phone_invalid": "Introduce un número de teléfono válido"
       },
       "billing": {
         "address_form": {
@@ -539,6 +542,9 @@
       },
       "store_credit_errors": {
         "generic_error": "Hubo un problema con el crédito de su tienda.  Inténtelo de nuevo o vuelva a cargar la página."
+      },
+      "note": {
+        "length_exceeds_maximum": "Reduzca el tamaño de la nota a 5000 caracteres o menos."
       }
     },
     "errors": {
@@ -553,7 +559,9 @@
         },
         "owner_ctas": {
           "fix_domain_link_text": "La configuración de su dominio",
-          "forgot_your_store_link_text": "Olvidé tu tienda"
+          "forgot_your_store_link_text": "Olvidé tu tienda",
+          "admin_link_text": "Admin",
+          "add_storefront": "Puede configurar su sitio web agregando el canal Tienda en línea en su %{admin_link} .  Si tiene problemas para ingresar a su tienda, pruebe el %{forgot_your_store_link} Página."
         }
       }
     },
@@ -576,7 +584,12 @@
       "saturdayAbbreviation": "en",
       "saturday": "sábado",
       "decrease": "Disminución {{type}}",
-      "mondayAbbreviation": "Mes"
+      "mondayAbbreviation": "Mes",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} Artículo disponible"
+      },
+      "minimumReached": "Mínimo de {{value}} Alcanzada",
+      "submit": "Entregar"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",
@@ -588,6 +601,11 @@
         "payment_status": {
           "list_view": {
             "due_without_date": "Pago vencido"
+          }
+        },
+        "filter": {
+          "date": {
+            "title": "Fecha de orden"
           }
         }
       }

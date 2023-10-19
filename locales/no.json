@@ -147,7 +147,8 @@
         "optional_company_label": "Firma (valgfritt)",
         "optional_address2_label": "Leilighet, suite osv. (valgfritt)",
         "first_name_label": "Fornavn",
-        "optional_phone_label": "Telefon valgfritt)"
+        "optional_phone_label": "Telefon valgfritt)",
+        "prefecture_placeholder": "Prefektur"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",
@@ -253,7 +254,9 @@
         "collapse_component_information": {
           "one": "Skjul %{count} element"
         },
-        "error_duties_tooltip": "Denne bestillingen sendes fra et annet land, så toll og avgifter kan bli belastet ved levering."
+        "error_duties_tooltip": "Denne bestillingen sendes fra et annet land, så toll og avgifter kan bli belastet ved levering.",
+        "group_title_label": "Del av «%{group_title}»",
+        "title": "Bestillingssammendrag"
       },
       "stock": {
         "title": "Utsolgt",
@@ -391,7 +394,8 @@
         "subscription_pickup": "Henting av abonnement",
         "shipping_line_phone_label": "Mobilnummer (påkrevd)",
         "shipping_used_as_billing_notice": "Dette vil også bli brukt som faktureringsadresse for denne bestillingen.",
-        "invalid_shipping_method_summary": "Skriv inn en gyldig leveringsadresse for å se tilgjengelige forsendelsesmetoder"
+        "invalid_shipping_method_summary": "Skriv inn en gyldig leveringsadresse for å se tilgjengelige forsendelsesmetoder",
+        "address_delete": "Slett adresse"
       },
       "localized_fields": {
         "additional_information": {
@@ -570,7 +574,12 @@
         "order_edit_banner_single_item_returned": "Returnert",
         "ftd_vault_credit_card_label": "Lagre dette kredittkortet på kontoen min for en raskere utsjekking",
         "card_verification_value_explanation": "3-sifret sikkerhetskode finnes vanligvis på baksiden av kortet ditt. American Express-kort har en 4-sifret kode på forsiden.",
-        "payment_method": "Betalingsmetode"
+        "payment_method": "Betalingsmetode",
+        "use_location_shipping_address_label": "Bruk adresse",
+        "order_edit_banner_title": "Betaling på {{amount_owed}} er nødvendig",
+        "edit_credit_card_modal": {
+          "done": "Gjort"
+        }
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -652,7 +661,8 @@
         "reduction_code_code_not_found": "Skriv inn en gyldig rabattkode eller gavekort",
         "address_company_contains_html_tags": "Selskapet kan ikke inneholde HTML-koder.",
         "address_address2_blank": "Gå inn i en leilighet, suite osv.",
-        "tips_invalid_tip_amount": "Skriv inn et tips ikke mer enn %{amount}"
+        "tips_invalid_tip_amount": "Skriv inn et tips ikke mer enn %{amount}",
+        "address_province_blank": "Velg en stat\/provins"
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",
@@ -673,7 +683,8 @@
         "complete_your_purchase_title": "Fullfør kjøpet",
         "your_order_has_been_received_title": "takk for din bestilling",
         "redirecting_title": "Omdirigerer …",
-        "continue_to_payment_gateway_button_label_error": "Oppdater betalingsinformasjon"
+        "continue_to_payment_gateway_button_label_error": "Oppdater betalingsinformasjon",
+        "action_required": "Handling kreves"
       },
       "post_purchase": {
         "components": {
@@ -949,7 +960,8 @@
         "delivered_title": "Bestillingen din er levert",
         "contact_us_html": "Trenger hjelp? %{contact_us}",
         "gift_card_email_title": {
-          "other": "Gavekort ble sendt på e-post"
+          "other": "Gavekort ble sendt på e-post",
+          "one": "Gavekortet ble sendt på e-post"
         },
         "page_title": "Takk, %{display_name}!",
         "choose_payment_method_later": "Velg betalingsmåte senere",
@@ -1012,7 +1024,8 @@
           "shipping_method_title": "Metode",
           "no_purchase_order_number": "(Ingen PO-nummer)",
           "purchase_order_number_title": "Postnummer",
-          "change_link_label": "Endring"
+          "change_link_label": "Endring",
+          "change_delivery_method_link_label": "Endre leveringsmetode"
         },
         "checkout_as_guest": "Sjekk ut som gjest",
         "review_title": "Gjennomgå bestillingen",
@@ -1095,7 +1108,8 @@
             "other": ", deretter %{count} betalinger på %{total_price} hver",
             "one": ", deretter %{count} betaling på %{total_price}"
           }
-        }
+        },
+        "recurring_totals": "%{total_price} hver %{interval}"
       },
       "tips": {
         "message": "Takk, det setter vi pris på",
@@ -1230,7 +1244,8 @@
             "other": "%{first} - %{last} av %{count} butikker"
           },
           "previous": "Forrige side",
-          "next": "Neste side"
+          "next": "Neste side",
+          "accessibility_label": "Paginering av lokal henting"
         },
         "search_button": "Finn butikker",
         "toggle_location": "Endre posisjonen min",
@@ -1294,7 +1309,8 @@
         "violations_title": "{{violation}} mangler eller er ugyldig",
         "company_location_changed_product_removed": "Korva di er oppdatert fordi enkelte produkter ikke er tilgjengelege her. Se gjennom bestillingen før du sender den inn.",
         "subscription_changed": "Ett av abonnementene dine er endret.",
-        "return_to_cart_link_text": "Gå tilbake til handlekurven"
+        "return_to_cart_link_text": "Gå tilbake til handlekurven",
+        "company_location_changed": "Handlekurven din har blitt oppdatert. Se gjennom bestillingen før du sender den inn."
       },
       "discount_errors": {
         "generic_error": "Bestillingen kunne ikke behandles fordi rabattkoden ikke lenger er tilgjengelig. Se gjennom totalsummen for bestillingen, og prøv på nytt."
@@ -1339,6 +1355,9 @@
       },
       "billing": {
         "add_address": "Bruk en annen adresse"
+      },
+      "order_errors": {
+        "network_failure": "Bestillingen kunne ikke sendes inn på grunn av en nettverksfeil. Kontroller tilkoblingen, og prøv på nytt."
       }
     },
     "attributes": {
@@ -1479,7 +1498,8 @@
         "created": "Vellykket opprettet adresse",
         "error_updating": "Feil under oppdatering av adresse",
         "deleted": "Adressen er slettet",
-        "error_deleting": "Feil ved sletting av adresse."
+        "error_deleting": "Feil ved sletting av adresse.",
+        "error_creating": "Feil ved opprettelse av adresse."
       },
       "storefront": {
         "invalid_password": "Passordet er feil. Prøv igjen."
@@ -1572,7 +1592,8 @@
       "addresses": "Adresser",
       "collections": "Samlinger",
       "shopping_cart": "din handlevogn",
-      "search": "Søk"
+      "search": "Søk",
+      "products": "Produkter"
     },
     "search": {
       "sorting": {
@@ -1806,7 +1827,8 @@
         "in_review_title": "Bestillingen din blir vurdert",
         "confirmed_description_gift_card_text": "Du vil motta en tekstmelding når bestillingen er klar.",
         "gift_resend_success": {
-          "other": "Gavekort misliker på nytt"
+          "other": "Gavekort misliker på nytt",
+          "one": "Gavekort sendes på nytt"
         },
         "gift_card_resend": {
           "one": "Send e-post igjen"
@@ -1819,7 +1841,8 @@
         "on_its_way_description": "Denne forsendelsen er på vei.",
         "gift_card_resend_text": {
           "one": "Send tekst på nytt"
-        }
+        },
+        "confirmed_title": "Bestillingen din er bekreftet"
       },
       "group_title_label": "Del av: {{groupTitle}}",
       "buy_again": "Kjøp igjen",
@@ -1844,7 +1867,8 @@
         "return_and_refund_link_text": "retur- og refusjonspolicy",
         "ineligible_return_without_policy_message": "Ingen varer i denne bestillingen er kvalifisert for retur.",
         "expand_events_label": "Vis detaljer",
-        "ineligible_return_message": "Ingen varer i denne bestillingen er kvalifisert for retur."
+        "ineligible_return_message": "Ingen varer i denne bestillingen er kvalifisert for retur.",
+        "ineligible_return_message_when_returned": "Ingen ytterligere poster i denne rekkefølgen kan returneres."
       },
       "shipping": {
         "summary": "Shipping",
@@ -1853,7 +1877,8 @@
         "subscription": "Abonnementsfrakt",
         "address": "Sendingsadresse",
         "method": "Forsendelsesmetode",
-        "free_shipping_discount": "Gratis frakt"
+        "free_shipping_discount": "Gratis frakt",
+        "one_time": "Engangsfrakt"
       },
       "payment": {
         "status_unpaid": "Betaling forfaller {{date}}",
@@ -2012,7 +2037,8 @@
         "save_accessibility_label": "Lagre profil",
         "edit": "Redigere",
         "last_name": "Etternavn",
-        "no_name_provided_accessibility_label": "Ingen navn lagt til"
+        "no_name_provided_accessibility_label": "Ingen navn lagt til",
+        "title": "Profil"
       },
       "profile_update_confirmation_message": "Profil oppdatert",
       "people": {
@@ -2137,7 +2163,8 @@
         "list_item_accessibility_label": "{{name}}: {{address}}",
         "search_location_title": "Velg et sted",
         "loading_store_accessibility_message": "Skal på butikk",
-        "list_loading_finished_accessibility_message": "Liste over steder er lastet inn"
+        "list_loading_finished_accessibility_message": "Liste over steder er lastet inn",
+        "search": "Søk etter et sted"
       },
       "orders": {
         "order_list_column_headers_contact": "Ta kontakt med",
@@ -2188,7 +2215,8 @@
         "save": "Lagre",
         "cancel": "Avbryt",
         "discard": "Kast",
-        "edit_accessibility_label": "Rediger PO-nummer"
+        "edit_accessibility_label": "Rediger PO-nummer",
+        "title": "PO #{{poNumber}}"
       }
     },
     "errors": {
@@ -2229,6 +2257,9 @@
       },
       "failed_address_creation": {
         "description": "Det oppsto et problem med å opprette adressen din. Prøv å oppdatere denne siden eller sjekk internettforbindelsen din."
+      },
+      "load_extension_error": {
+        "refresh_button": "Oppdater side"
       }
     },
     "payment_methods": {
@@ -2287,7 +2318,8 @@
         "tooltip": {
           "card_verification_value_explanation": "3-sifret sikkerhetskode finnes vanligvis på baksiden av kortet ditt. American Express-kort har en 4-sifret kode på forsiden.",
           "tooltip_accessibility_label": "Mer informasjon",
-          "card_verification_value_explanation_other": "3-sifret sikkerhetskode på baksiden av kortet ditt"
+          "card_verification_value_explanation_other": "3-sifret sikkerhetskode på baksiden av kortet ditt",
+          "card_security_notice": "Alle transaksjoner er sikre og krypterte."
         },
         "field_errors": {
           "credit_card_number_invalid": "Skriv inn et gyldig kortnummer",
@@ -2337,7 +2369,8 @@
       "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}} som slutter på {{lastDigits}}",
       "expiration_warning_button_accessibility_label": "Vis utløpsadvarsel for {{paymentMethodName}} som slutter på {{lastDigits}}",
       "expires_soon": "Dette kortet utløper snart",
-      "expired": "Dette kortet er utløpt"
+      "expired": "Dette kortet er utløpt",
+      "back_button": "Tilbake"
     },
     "payment_method_brands": {
       "americanexpress": "American Express",
@@ -2366,7 +2399,8 @@
     "ui_components": {
       "saturday": "lørdag",
       "friday": "fredag",
-      "mondayAbbreviation": "Mo"
+      "mondayAbbreviation": "Mo",
+      "august": "august"
     },
     "profile_preview_bar": {
       "saved_at": "Lagrat {{date}} Kje {{time}}"
@@ -2498,7 +2532,8 @@
       "description": "Beskrivelse",
       "no_selection": "Velg et alternativ",
       "size_chart": "Størrelsesguide",
-      "include_taxes": "Avgift inkludert."
+      "include_taxes": "Avgift inkludert.",
+      "next_product": "Neste"
     },
     "added_notification": {
       "title": "Har nettopp lagt til",

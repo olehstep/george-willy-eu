@@ -467,7 +467,8 @@
         "different_shipping_method_summary": "Inserisci un indirizzo di spedizione diverso per visualizzare i metodi di spedizione disponibili",
         "split_cart_merchandise_shipment_number": "Spedizione %{number} Di %{total}",
         "address_form": {
-          "generic_error": "C' è stato un problema nel salvare il tuo indirizzo.  Per favore riprova."
+          "generic_error": "C' è stato un problema nel salvare il tuo indirizzo.  Per favore riprova.",
+          "one_time_address_subtitle": "Usa un indirizzo una tantum per questo ordine"
         },
         "invalid_shipping_method_summary": "Inserisci un indirizzo di spedizione valido per visualizzare i metodi di spedizione disponibili",
         "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Altro",
@@ -507,7 +508,8 @@
         "use_location_shipping_address_label": "Utilizza l'indirizzo di spedizione della posizione",
         "order_edit_banner_items_returned": {
           "with_quantities": "{{delta}} Di {{quantity}} Restituito"
-        }
+        },
+        "subscription_agreement_label": "Comprendo che sto accettando un abbonamento. Verrà rinnovato al costo e con la frequenza indicati fino al termine o alla %{cancelled}."
       },
       "order_summary": {
         "discount_order_stacking": {
@@ -515,7 +517,8 @@
           "other": "Sconti sugli ordini"
         },
         "higher_value_discount_applied": "Impossibile utilizzare <strong style=\"text-transform:uppercase\">%{code}<\/strong> con gli sconti esistenti. Disponi già di una combinazione più vantaggiosa.",
-        "gift_card_and_discount_label": "Buono regalo o codice sconto"
+        "gift_card_and_discount_label": "Buono regalo o codice sconto",
+        "shipping_default_value": "Calcolato al passaggio successivo"
       },
       "customer_account": {
         "have_an_account_label": "Hai già un account?",
@@ -543,7 +546,8 @@
       "redeemable_errors": {
         "gift_card": {
           "insufficient_funds": "Questa carta regalo non ha fondi rimasti",
-          "duplicate": "La carta regalo è già stata applicata al tuo ordine"
+          "duplicate": "La carta regalo è già stata applicata al tuo ordine",
+          "expired": "Questa carta regalo è scaduta"
         }
       },
       "review": {
@@ -571,7 +575,8 @@
         }
       },
       "billing": {
-        "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?"
+        "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?",
+        "billing_address_title": "Fatturare a"
       },
       "contact": {
         "title": "Informazioni"
@@ -617,7 +622,8 @@
     "notices": {
       "line_item": {
         "item_status": {
-          "decrement_item": "Rimosso %{delta} Di %{total}"
+          "decrement_item": "Rimosso %{delta} Di %{total}",
+          "decrement_fulfilled_line_item": "Restituito %{delta} Di %{total}"
         }
       }
     }
@@ -688,7 +694,8 @@
     },
     "profile_preview_bar": {
       "previewing": "Stai visualizzando in anteprima:",
-      "navigate_to_admin": "Vai all'amministratore"
+      "navigate_to_admin": "Vai all'amministratore",
+      "saved_at": "Salvato {{date}} Presso {{time}}"
     },
     "payment_methods": {
       "payment_details": {

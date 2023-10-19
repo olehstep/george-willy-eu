@@ -491,6 +491,9 @@
         "purchase_options_and_vaulting_agreement_label": "Um ou mais itens no seu carrinho são uma compra diferida ou recorrente. Ao prosseguir com o pagamento, aceita que qualquer método de pagamento será cobrado automaticamente com o preço e a frequência apresentados nesta página até que termine ou que cancele. Todos os cancelamentos estão sujeitos à %{cancellation_policy_label}.",
         "order_edit_banner_items_removed": {
           "with_quantities": "{{delta}} de {{quantity}} removido"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Excluir"
         }
       },
       "order_summary": {
@@ -503,7 +506,8 @@
         }
       },
       "thank_you": {
-        "thank_you_title_payments_app_pending_default": "O seu pagamento está a ser processado"
+        "thank_you_title_payments_app_pending_default": "O seu pagamento está a ser processado",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Você receberá um texto de confirmação em breve.  Acompanhe a sua encomenda através da aplicação Loja."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -552,7 +556,9 @@
       "closeModal": "Perto",
       "june": "Junho",
       "october": "Outubro",
-      "friday": "Sexta-feira"
+      "friday": "Sexta-feira",
+      "inRange": "No intervalo",
+      "tuesdayAbbreviation": "Você"
     },
     "order_details": {
       "edit_summary": {

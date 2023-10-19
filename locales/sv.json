@@ -136,7 +136,8 @@
         "filter": {
           "date": {
             "last_7_days": "Senaste 7 dagar",
-            "today": "I dag"
+            "today": "I dag",
+            "last_90_days": "Senaste 90 dagar"
           },
           "clear_section": "Rensa sektionen"
         }
@@ -393,7 +394,8 @@
       "cancel": "Återgå till butiken",
       "title": "Skapa konto",
       "log_in": "Logga in med ett befintligt konto",
-      "email": "E-post"
+      "email": "E-post",
+      "submit": "Skapa"
     },
     "orders": {
       "none": "Du har inte lagt några beställningar än.",
@@ -501,7 +503,11 @@
           "in_full": "Tog bort"
         },
         "subscription_agreement_cancelled": "avbruten",
-        "purchase_options_agreement_label": "Jag är införstådd med att en eller flera artiklar i min varukorg är ett fördröjt eller återkommande inköp. Genom att fortsätta godkänner jag %{cancellation_policy_label}. Jag godkänner också att ni debiterar min betalningsmetod vid det datum, med de priser och den frekvens som angivits på denna sida, tills min order är distribuerad eller tills jag avbryter, om detta tillåts."
+        "purchase_options_agreement_label": "Jag är införstådd med att en eller flera artiklar i min varukorg är ett fördröjt eller återkommande inköp. Genom att fortsätta godkänner jag %{cancellation_policy_label}. Jag godkänner också att ni debiterar min betalningsmetod vid det datum, med de priser och den frekvens som angivits på denna sida, tills min order är distribuerad eller tills jag avbryter, om detta tillåts.",
+        "expired_payment_method": "Vald betalningsmetod har upphört att gälla",
+        "add_credit_card_modal": {
+          "cancel": "Annullera"
+        }
       },
       "billing": {
         "address_form": {
@@ -511,11 +517,15 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "currency_mismatch": "Endast presentkort i %{shop_currency} Godkänns"
+          "currency_mismatch": "Endast presentkort i %{shop_currency} Godkänns",
+          "duplicate": "Presentkortet har redan använts på din beställning."
         }
       },
       "note": {
         "length_exceeds_maximum": "Reducera tonens storlek till 5000 eller färre tecken."
+      },
+      "contact": {
+        "title": "Information"
       }
     },
     "notices": {
@@ -532,7 +542,8 @@
         },
         "ctas": {
           "store_owner": {
-            "header": "Är du butiksägaren?"
+            "header": "Är du butiksägaren?",
+            "caption": "Har du svårt att komma in i affären?  Försök. %{forgot_your_store_link} Egenskaper.  Om du vill återaktivera din butik kontakta %{shopify_support_link} ."
           },
           "sell_in_person": {
             "header": "Sälj personligt."

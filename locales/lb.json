@@ -227,7 +227,8 @@
           }
         },
         "continue_to_payment_plans_button_label": "Fuert weider op Bezuelpläng",
-        "loading_title": "Checkout - {{shopName}}"
+        "loading_title": "Checkout - {{shopName}}",
+        "google_map_title": "Google Map"
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -374,7 +375,8 @@
         "markets_pro_disclaimer_privacy_policy": "Privatsphär Politik",
         "saved_credit_cards_modal": {
           "done": "Gemaach",
-          "cancel": "Ofbriechen"
+          "cancel": "Ofbriechen",
+          "view_all_label": "Gesinn all gespäichert Kaarte"
         },
         "saved_credit_card": "Är gespäichert Kreditkaart",
         "gift_card_wrapper": {
@@ -432,7 +434,10 @@
         "add_credit_card_modal": {
           "cancel": "Ofbriechen"
         },
-        "payment_method": "Bezuelmethod"
+        "payment_method": "Bezuelmethod",
+        "edit_credit_card_modal": {
+          "done": "Gemaach"
+        }
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -644,6 +649,9 @@
         "free_shipping_discount_label": "Versand fräi",
         "discount_order_stacking": {
           "one": "Orden"
+        },
+        "discount_discovery": {
+          "add_code": "Füügt Remise"
         }
       },
       "processing": {
@@ -995,7 +1003,8 @@
           "other": "Et gouf e Problem Är Kaddoskaarten nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis."
         },
         "thank_you_title_payments_app_pending_default": "Äer Betaaun",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Nei Äer Betaal erfléidt, mer dir e-Postum vunt.  Schéckt."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Nei Äer Betaal erfléidt, mer dir e-Postum vunt.  Schéckt.",
+        "thank_you_payments_app_failed_pending_payment": "Dir büst net fir Äer Ordeert.  D'Geier"
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1282,6 +1291,9 @@
         },
         "unpurchasable_product_generic": {
           "header": "E puer Elementer goufen aus Ärem Weenchen geläscht"
+        },
+        "unpurchasable_product": {
+          "message": "Dës Artikele sinn net verfügbar fir B2B Bestellungen."
         }
       },
       "shop_policies": {
@@ -1710,7 +1722,8 @@
         "twenty_four_hours": "Normalerweis fäerdeg an 24 Stonnen",
         "two_to_four_days": "Normalerweis fäerdeg an 2-4 Deeg",
         "five_or_more_days": "Normalerweis fäerdeg an 5+ Deeg",
-        "zero_to_two_hours": "Normalerweis fäerdeg an 2 Stonnen"
+        "zero_to_two_hours": "Normalerweis fäerdeg an 2 Stonnen",
+        "two_to_four_hours": "Normalerweis fäerdeg a 4 Stonnen"
       }
     },
     "attributes": {
@@ -1951,11 +1964,13 @@
         },
         "delivered_title": "Är Sendung gouf geliwwert",
         "gift_card_resend": {
-          "one": "E-Mail zréckschécken"
+          "one": "E-Mail zréckschécken",
+          "other": "E-Mailen erëm schécken"
         },
         "confirmed_description_pickup": "Dir kritt eng E-Mail wann Är Bestellung prett ass fir ofzehuelen.",
         "confirmed_gift_card_additional_description": {
-          "one": "Kaddoskaart gëtt an enger separater E-Mail geschéckt."
+          "one": "Kaddoskaart gëtt an enger separater E-Mail geschéckt.",
+          "other": "All Geschenkkaart gëtt an enger separater E-Mail geschéckt."
         },
         "confirmed_description_gift_card_text": "Dir kritt en Text wann Är Bestellung fäerdeg ass.",
         "confirmed_gift_card_additional_description_text": {
@@ -2615,7 +2630,8 @@
       "inRange": "Am Beräich",
       "showPreviousMonth": "Weisen {{month}}  {{year}}",
       "maximumReached": "Maximum vunt {{value}} Erréucht",
-      "rangeEnd": "Range Enn"
+      "rangeEnd": "Range Enn",
+      "submit": "Ofginn"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:"

@@ -487,7 +487,8 @@
       },
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un texto de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
       },
       "billing": {
         "address_more": "Plus d'actions pour cette adresse",
@@ -508,7 +509,8 @@
       },
       "stock": {
         "price_update": {
-          "description": "Les prix de ces articles ont changé et sont mis à jour dans votre panier."
+          "description": "Les prix de ces articles ont changé et sont mis à jour dans votre panier.",
+          "title": "Mise à jour des prix"
         },
         "item_label": {
           "one": "{{count}} Article",
@@ -534,7 +536,8 @@
         }
       },
       "field_errors": {
-        "credit_card_month_invalid": "Entrez un mois d'expiration de carte valide"
+        "credit_card_month_invalid": "Entrez un mois d'expiration de carte valide",
+        "address_zip_too_long": "ZIP\/code postal est trop long (le maximum est de 255 caractères)"
       }
     },
     "errors": {
@@ -568,7 +571,8 @@
       },
       "friday": "vendredi",
       "wednesdayAbbreviation": "Nous",
-      "tuesdayAbbreviation": "Ma"
+      "tuesdayAbbreviation": "Ma",
+      "tuesday": "mardi"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",

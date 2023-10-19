@@ -462,7 +462,9 @@
     "checkout": {
       "shipping": {
         "shipping_method_notice": "Nota: gli ordini non possono essere modificati o annullati una volta effettuati. Per modificare un ordine, segui la politica Resi e Cambi.",
-        "title": "Spedizione"
+        "title": "Spedizione",
+        "add_address": "Usa un indirizzo diverso",
+        "different_shipping_method_summary": "Inserisci un indirizzo di spedizione diverso per visualizzare i metodi di spedizione disponibili"
       },
       "payment_errors": {
         "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
@@ -552,6 +554,13 @@
             "today": "In data odierna"
           }
         }
+      },
+      "order_status": {
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Traccia e gestisci Acquista con l'ordine Prime"
+          }
+        }
       }
     },
     "B2B": {
@@ -564,7 +573,10 @@
       }
     },
     "ui_components": {
-      "february": "febbraio"
+      "february": "febbraio",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} Articolo disponibile"
+      }
     }
   }
 }

@@ -485,7 +485,8 @@
           "search_address": "Búsqueda de dirección"
         },
         "missing_shipping_address": "Falta la dirección de envío",
-        "delete": "Borrar"
+        "delete": "Borrar",
+        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?"
       },
       "order_summary": {
         "price_per_item": {
@@ -546,7 +547,8 @@
         "saved_credit_card_actions": {
           "delete": "Borrar"
         },
-        "expired_payment_method": "El método de pago seleccionado ha caducado"
+        "expired_payment_method": "El método de pago seleccionado ha caducado",
+        "subscription_agreement_label": "Reconozco que estoy aceptando una suscripción. Se renovará al precio y con la frecuencia indicados hasta que finalice o se %{cancelled}."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -567,7 +569,8 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Después de completar su pago, recibirá un texto de confirmación.  Rastree su pedido utilizando la aplicación Shop.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Después de completar su pago, recibirá un correo electrónico de confirmación.  Rastree su pedido utilizando la aplicación Shop.",
         "thank_you_title_payments_app_pending_buyer_action_required": "Su pedido fue recibido",
-        "thank_you_title_payments_app_pending_default": "Su pago está siendo procesado"
+        "thank_you_title_payments_app_pending_default": "Su pago está siendo procesado",
+        "thank_you_title_payments_app_failed_pending_payment": "Su pago no pudo ser procesado"
       },
       "general": {
         "map": {
@@ -663,7 +666,8 @@
             "link_text": "Empiza la prueba gratuita"
           },
           "store_owner": {
-            "shopify_support_link_text": "Soporte técnico de Shopify"
+            "shopify_support_link_text": "Soporte técnico de Shopify",
+            "caption": "¿Tienes problemas para entrar en tu tienda?  Prueba el %{forgot_your_store_link} Característica.  Si desea reactivar el contacto de su tienda %{shopify_support_link} ."
           }
         },
         "owner_ctas": {

@@ -469,7 +469,8 @@
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Articles",
         "add_delivery_instructions": "Ajouter des instructions de livraison",
         "method_summary": {
-          "incomplete_address_selected": "Sélectionnez une adresse de livraison complète pour afficher les méthodes d'expédition disponibles"
+          "incomplete_address_selected": "Sélectionnez une adresse de livraison complète pour afficher les méthodes d'expédition disponibles",
+          "incomplete_address_entered": "Entrez une adresse de livraison complète pour voir les méthodes de livraison disponibles"
         },
         "address_form": {
           "save": "Sauvegarder",
@@ -543,7 +544,8 @@
         "payment_method": "Mode de paiement",
         "discount_button_action_label": "Appliquer un code de réduction",
         "order_edit_banner_items_removed": {
-          "in_full": "Supprimé"
+          "in_full": "Supprimé",
+          "with_quantities": "{{delta}} sur {{quantity}} supprimé"
         },
         "purchase_options_agreement_label": "Je comprends qu’un ou plusieurs articles de mon panier constituent un achat différé ou récurrent. En continuant, j’accepte la %{cancellation_policy_label} et vous autorise à facturer mon moyen de paiement aux prix, fréquences et dates indiqués sur cette page, jusqu’à ce que ma commande soit traitée ou que je l’annule, si cela est autorisé.",
         "saved_credit_card_actions": {
@@ -576,7 +578,8 @@
           "other": "{{count}} Articles"
         },
         "out_of_stock": {
-          "description": "Ces articles ne sont plus disponibles et ont été supprimés de votre panier."
+          "description": "Ces articles ne sont plus disponibles et ont été supprimés de votre panier.",
+          "items_unavailable": "Certains articles ne sont plus disponibles et ont été supprimés de votre panier."
         },
         "items_unavailable_notice": "Certains articles ne sont plus disponibles. Votre panier a été mis à jour.",
         "return_to_store_label": "Retour au magasin"
@@ -598,7 +601,9 @@
         "higher_value_discount_applied": "Le <strong style=\"text-transform:uppercase\">%{code}<\/strong> ne pouvait pas être utilisé avec vos réductions existantes. Vous avez déjà une meilleure combinaison.",
         "gift_card_and_discount_title": "Carte-cadeau ou code promo",
         "gift_card_and_discount_label": "Carte-cadeau ou code promo",
-        "discount_placeholder": "code de réduction"
+        "discount_placeholder": "code de réduction",
+        "discount_requires_customer_notice": "Saisissez vos informations d'expédition pour appliquer le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
+        "cart_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> n'est pas valide pour les articles de votre panier"
       },
       "wallets": {
         "errors": {
@@ -657,6 +662,9 @@
       },
       "notice_banner": {
         "shipping_address_incomplete_title": "L’adresse de livraison est incomplète"
+      },
+      "discount_errors": {
+        "generic_error": "Votre commande n’a pas pu être traitée car votre code de réduction n’est plus disponible. Vérifiez le total de votre commande et réessayez."
       }
     },
     "errors": {
@@ -683,7 +691,8 @@
           "fix_domain_link_text": "Vos paramètres de domaine",
           "header": "Êtes-vous le propriétaire du magasin ?",
           "fix_domain": "Terminez la configuration de votre nouvelle adresse Web, accédez à %{domain_settings_link} .  Cliquez sur «Connecter le domaine» et entrez: %{domain} .<br>Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page.",
-          "add_storefront": "Vous pouvez configurer votre site Web en ajoutant le canal Boutique en ligne dans votre %{admin_link} .  Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page."
+          "add_storefront": "Vous pouvez configurer votre site Web en ajoutant le canal Boutique en ligne dans votre %{admin_link} .  Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page.",
+          "admin_link_text": "administrateur"
         },
         "links": {
           "start_free_trial": "Commencer un essai gratuit",
@@ -753,7 +762,9 @@
             "last_90_days": "90 derniers jours",
             "today": "Aujourd'hui",
             "last_7_days": "7 derniers jours",
-            "last_365_days": "12 derniers mois"
+            "last_365_days": "12 derniers mois",
+            "title": "Date de commande",
+            "last_30_days": "Les 30 derniers jours"
           },
           "clear_section": "Section claire"
         },
@@ -786,7 +797,13 @@
     "order_details": {
       "edit_summary": {
         "returned_with_quantities": "{{delta}} de {{total}} retournés",
-        "removed_with_quantities": "{{delta}} sur {{total}} supprimé"
+        "removed_with_quantities": "{{delta}} sur {{total}} supprimé",
+        "returned": "Revenu"
+      }
+    },
+    "errors": {
+      "load_extension_error": {
+        "refresh_button": "Rafraîchir la page"
       }
     }
   }

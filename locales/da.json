@@ -492,7 +492,8 @@
         "blocks": {
           "review_title_free_order": "Gennemgå og fuldføre din ordre.",
           "shipping_method_title": "Metode",
-          "payment_method_saved_company_location": "Gem kort til denne placering"
+          "payment_method_saved_company_location": "Gem kort til denne placering",
+          "payment_method_title": "Betaling"
         }
       },
       "general": {
@@ -560,7 +561,8 @@
         "address_more": "Flere handlinger til denne adresse",
         "billing_address_title": "Regning til",
         "address_form": {
-          "save": "Gemme"
+          "save": "Gemme",
+          "cancel": "Afbestille"
         },
         "edit": "Redigere"
       },
@@ -593,7 +595,8 @@
       "field_errors": {
         "credit_card_month_invalid": "Indtast gyldig udløbsmåned på kort",
         "tips_invalid_tip_amount": "Angiv drikkepenge for højst %{amount}",
-        "address_zip_too_long": "ZIP \/ postnummer er for lang (højst 255 tegn)"
+        "address_zip_too_long": "ZIP \/ postnummer er for lang (højst 255 tegn)",
+        "credit_card_year_invalid": "Indtast gyldigt udløbsår på kort"
       },
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_phone": "Du får snart en bekræftelsesms.  Spor din ordre ved hjælp af Shop-appen.",
@@ -604,7 +607,8 @@
         "thank_you_title_payments_app_pending_default": "Din betaling bliver behandlet",
         "order_status_payments_app_pending_payment_description_default_with_email": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
         "failed_pending_payment_page_title": "Der er et problem med din betaling",
-        "order_status_payments_app_failed_pending_payment": "Du blev ikke betalt for din ordre.  Retur til din kurv for at gennemgå din ordre og betale igen."
+        "order_status_payments_app_failed_pending_payment": "Du blev ikke betalt for din ordre.  Retur til din kurv for at gennemgå din ordre og betale igen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Efter at have fuldført din betaling, vil du få en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen."
       },
       "contact": {
         "title": "Oplysninger"
@@ -628,6 +632,9 @@
       },
       "payment_errors": {
         "invalid_expiry_date": "Indtast en gyldig udløbsdato på kortet"
+      },
+      "no_address_location": {
+        "alt_header": "Forsendelsesadresse"
       }
     },
     "errors": {
@@ -708,7 +715,8 @@
       "showNextMonth": "Vis næste måned. {{month}}  {{year}}",
       "closeModal": "Tæt",
       "inRange": "Inden for rækkevidde",
-      "january": "januar"
+      "january": "januar",
+      "june": "juni"
     },
     "orders": {
       "order_list": {

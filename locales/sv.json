@@ -253,7 +253,8 @@
     },
     "search": {
       "results_with_count": {
-        "other": "Vi hittade {{ count }} resultat"
+        "other": "Vi hittade {{ count }} resultat",
+        "one": "Vi hittade {{ count }} resultat"
       },
       "title": "Sök",
       "no_results": "Din sökning efter \"{{ terms }}\" gav inga resultat.",
@@ -533,7 +534,8 @@
         "items_unavailable_notice": "Vissa objekt är inte längre tillgängliga. Din e-postadress har uppdaterats",
         "continue_cta_label": "Fortsätt kassan",
         "item_label": {
-          "one": "{{count}} Posten"
+          "one": "{{count}} Posten",
+          "other": "{{count}} Poster"
         },
         "price_update": {
           "description": "Priserna för dessa artiklar har ändrats och uppdateras i din kundvagn."
@@ -661,6 +663,9 @@
       },
       "store_credit_errors": {
         "generic_error": "Det var ett problem med din butikskredit.  Försök igen eller ladda om sidan."
+      },
+      "notice_banner": {
+        "shipping_address_incomplete_title": "Fraktadressen är ofullständig."
       }
     },
     "notices": {
@@ -692,7 +697,8 @@
           },
           "editions": {
             "caption": "Med 100+ produktuppdateringar kan du vara mer produktiv och kreativ och kraftfull än du någonsin föreställt dig.",
-            "header": "Kolla in Shopify Edition"
+            "header": "Kolla in Shopify Edition",
+            "link_text": "Utforska senaste utgåvar"
           },
           "open_a_store": {
             "link_text": "Anmäl dig nu.",

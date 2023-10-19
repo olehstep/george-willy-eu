@@ -501,7 +501,8 @@
         },
         "out_of_stock": {
           "description": "Estes artigos já não estão disponíveis e foram removidos do seu carrinho."
-        }
+        },
+        "continue_cta_label": "Continuar a finalizar compra"
       },
       "payment": {
         "purchase_options_agreement_label_wallets": "Ao continuar com o seu pagamento, você concorda com as futuras cobranças listadas nesta página e com a política de cancelamento.",
@@ -554,7 +555,8 @@
         "gift_card_and_discount_title": "Cartão de oferta ou código de desconto",
         "discount_title_stacking": {
           "other": "descontos"
-        }
+        },
+        "shipping_default_value": "Calculado no próximo passo"
       },
       "review": {
         "blocks": {
@@ -571,13 +573,15 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Depois de concluir o pagamento, receberá uma mensagem de confirmação.  Acompanhe a sua encomenda através da aplicação Loja.",
         "failed_pending_payment_page_title": "Há um problema com o seu pagamento",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Depois de concluir o pagamento, você receberá um e-mail de confirmação.  Acompanhe a sua encomenda através da aplicação Loja.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Depois de concluir o pagamento, você receberá um e-mail de confirmação.  Acompanhe a sua encomenda através da aplicação Loja."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Depois de concluir o pagamento, você receberá um e-mail de confirmação.  Acompanhe a sua encomenda através da aplicação Loja.",
+        "thank_you_title_payments_app_failed_pending_payment": "Seu pagamento não pôde ser processado"
       },
       "redeemable_errors": {
         "gift_card": {
           "generic": "Não foi possível adicionar o cartão-presente ao checkout",
           "duplicate": "O cartão-presente já foi aplicado ao seu pedido",
-          "currency_mismatch": "Só são aceites cartões-presente em %{shop_currency}"
+          "currency_mismatch": "Só são aceites cartões-presente em %{shop_currency}",
+          "insufficient_funds": "Este vale-presente não tem mais fundos"
         }
       },
       "general": {
@@ -594,7 +598,8 @@
         },
         "address_edit": "Editar Endereço",
         "billing_address_title": "projeto de lei para",
-        "same_as_shipping": "Igual ao endereço de entrega"
+        "same_as_shipping": "Igual ao endereço de entrega",
+        "add_address": "Usar um endereço diferente"
       },
       "payment_errors": {
         "invalid_expiry_date": "Introduza uma data de expiração válida"
@@ -642,7 +647,9 @@
             "link_text": "Inscreva-se agora"
           },
           "sell_in_person": {
-            "caption": "Obtenha os recursos de que precisa para gerir a sua loja de retalho, quer esteja a começar ou a expandir."
+            "caption": "Obtenha os recursos de que precisa para gerir a sua loja de retalho, quer esteja a começar ou a expandir.",
+            "link_text": "Iniciar avaliação gratuita",
+            "header": "Venda presencialmente"
           },
           "editions": {
             "header": "Confira as edições do Shopify",
@@ -687,7 +694,10 @@
       "saturdayAbbreviation": "sobre",
       "fridayAbbreviation": "Fr",
       "may": "Poderia",
-      "thursday": "Quinta-feira"
+      "thursday": "Quinta-feira",
+      "saturday": "Sábado",
+      "expandNotification": "Veja mais",
+      "submit": "Enviar"
     },
     "order_details": {
       "edit_summary": {
@@ -698,7 +708,8 @@
     },
     "errors": {
       "load_extension_error": {
-        "description": "Atualize esta página ou tente novamente em alguns minutos."
+        "description": "Atualize esta página ou tente novamente em alguns minutos.",
+        "refresh_button": "Atualizar a página"
       }
     },
     "orders": {
@@ -722,7 +733,8 @@
     "profile_preview_bar": {
       "viewing": "Você está vendo:",
       "saved_at": "Salvo {{date}} em {{time}}",
-      "hide_bar": "Ocultar bar"
+      "hide_bar": "Ocultar bar",
+      "navigate_to_admin": "Navegue até admin"
     },
     "B2B": {
       "draft_order_details": {

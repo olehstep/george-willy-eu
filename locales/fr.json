@@ -479,7 +479,8 @@
       "redeemable_errors": {
         "gift_card": {
           "invalid": "Entrez une carte-cadeau valide",
-          "not_available": "Cette carte cadeau n'est plus disponible"
+          "not_available": "Cette carte cadeau n'est plus disponible",
+          "expired": "Cette carte cadeau a expiré"
         }
       },
       "payment_errors": {
@@ -492,7 +493,8 @@
       },
       "billing": {
         "address_more": "Plus d'actions pour cette adresse",
-        "same_as_shipping": "Même que l'adresse d'expédition"
+        "same_as_shipping": "Même que l'adresse d'expédition",
+        "address_edit": "Modifier l'adresse"
       },
       "payment": {
         "subscription_agreement_label": "Je comprends que je suis en train d'accepter un abonnement. Celui-ci se renouvellera au prix et à la fréquence indiqués et ce, jusqu'à ce qu'il prenne fin ou soit %{cancelled}.",
@@ -505,7 +507,8 @@
             "expiry": "Date d'expiration"
           }
         },
-        "purchase_options_agreement_label_wallets": "En poursuivant votre paiement, vous acceptez les frais futurs indiqués sur cette page et la politique d'annulation."
+        "purchase_options_agreement_label_wallets": "En poursuivant votre paiement, vous acceptez les frais futurs indiqués sur cette page et la politique d'annulation.",
+        "payment_method": "Mode de paiement"
       },
       "stock": {
         "price_update": {
@@ -538,6 +541,13 @@
       "field_errors": {
         "credit_card_month_invalid": "Entrez un mois d'expiration de carte valide",
         "address_zip_too_long": "ZIP\/code postal est trop long (le maximum est de 255 caractères)"
+      },
+      "general": {
+        "map": {
+          "cluster_title": {
+            "other": "Cluster de {{number}} Marqueurs"
+          }
+        }
       }
     },
     "errors": {
@@ -559,6 +569,13 @@
           "fix_domain": "Terminez la configuration de votre nouvelle adresse Web, accédez à %{domain_settings_link} .  Cliquez sur «Connecter le domaine» et entrez: %{domain} .<br>Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page."
         }
       }
+    },
+    "notices": {
+      "line_item": {
+        "item_status": {
+          "add_variant": "Ajouté %{delta}"
+        }
+      }
     }
   },
   "customer_accounts": {
@@ -572,7 +589,9 @@
       "friday": "vendredi",
       "wednesdayAbbreviation": "Nous",
       "tuesdayAbbreviation": "Ma",
-      "tuesday": "mardi"
+      "tuesday": "mardi",
+      "november": "novembre",
+      "minimumReached": "Minimum de {{value}} Atteint"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",
@@ -582,7 +601,8 @@
       "order_list": {
         "filter": {
           "date": {
-            "last_90_days": "90 derniers jours"
+            "last_90_days": "90 derniers jours",
+            "today": "Aujourd'hui"
           }
         }
       }

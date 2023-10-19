@@ -468,13 +468,15 @@
         "shipping_information_required_notice": "Verzendingsgegevens zijn vereist. {{link}}.",
         "address_form": {
           "generic_error": "Er was een probleem met het opslaan van uw adres.  Probeer het opnieuw.",
-          "one_time_address_subtitle": "Gebruik een eenmalig adres voor deze bestelling"
+          "one_time_address_subtitle": "Gebruik een eenmalig adres voor deze bestelling",
+          "add_address": "Voeg adres toe"
         },
         "missing_shipping_address": "Verzendadres ontbreekt",
         "shipping_address_title": "Verzend naar",
         "enter_address_manually_label": "Voer het adres handmatig in",
         "address_edit": "Verander adres",
-        "merchandise_quantity_label_inline_primary": "Hoeveelheid: %{quantity}"
+        "merchandise_quantity_label_inline_primary": "Hoeveelheid: %{quantity}",
+        "invalid_shipping_method_summary": "Voer een geldig verzendadres in om de beschikbare verzendmethoden te bekijken"
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
@@ -498,10 +500,15 @@
         "purchase_options_agreement_label": "Ik begrijp dat een of meer artikelen in mijn winkelwagen een uitgestelde of terugkerende aankoop zijn. Als ik doorga, ga ik akkoord met het %{cancellation_policy_label} en geef ik je ook toestemming om de vermelde prijzen af te schrijven van mijn betaalmethode, op de vermelde frequentie en datums, totdat mijn bestelling is afgehandeld of totdat ik, indien toegestaan, annuleer.",
         "delete_credit_card_modal": {
           "confirmation": "Weet u zeker dat u de {{brandName}} Eindigend in {{lastDigits}} ?"
+        },
+        "order_edit_banner_items_returned": {
+          "with_quantities": "{{delta}} Van {{quantity}} Geretourneerd"
         }
       },
       "customer_account": {
-        "rollup_label": "Rekening"
+        "rollup_label": "Rekening",
+        "invalid_address": "Het geselecteerde adres is ongeldig",
+        "have_an_account_label": "Heb je al een account?"
       },
       "order_errors": {
         "inventory_reservation_failure": "Sommige artikelen zijn niet meer leverbaar."
@@ -602,7 +609,10 @@
       "fridayAbbreviation": "Vr",
       "march": "Maart",
       "increase": "Verhogen {{type}}",
-      "rangeStart": "Start van het bereik"
+      "rangeStart": "Start van het bereik",
+      "closeModal": "Dichtbij",
+      "removeItem": "Verwijderen {{label}}",
+      "wednesdayAbbreviation": "We"
     },
     "orders": {
       "order_list": {

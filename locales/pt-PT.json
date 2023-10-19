@@ -511,7 +511,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "generic": "Não foi possível adicionar o cartão-presente ao checkout"
+          "generic": "Não foi possível adicionar o cartão-presente ao checkout",
+          "duplicate": "O cartão-presente já foi aplicado ao seu pedido"
         }
       },
       "general": {
@@ -558,7 +559,8 @@
       "october": "Outubro",
       "friday": "Sexta-feira",
       "inRange": "No intervalo",
-      "tuesdayAbbreviation": "Você"
+      "tuesdayAbbreviation": "Você",
+      "february": "Fevereiro"
     },
     "order_details": {
       "edit_summary": {

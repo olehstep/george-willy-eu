@@ -51,7 +51,8 @@
           },
           "weekdays": {
             "tuesday": "tirsdag",
-            "monday": "mandag"
+            "monday": "mandag",
+            "saturday": "lørdag"
           }
         },
         "continue_to_shipping_method": "Fortsett til frakt",
@@ -256,7 +257,10 @@
         },
         "error_duties_tooltip": "Denne bestillingen sendes fra et annet land, så toll og avgifter kan bli belastet ved levering.",
         "group_title_label": "Del av «%{group_title}»",
-        "title": "Bestillingssammendrag"
+        "title": "Bestillingssammendrag",
+        "discount_title_stacking": {
+          "other": "Rabatter"
+        }
       },
       "stock": {
         "title": "Utsolgt",
@@ -579,7 +583,8 @@
         "order_edit_banner_title": "Betaling på {{amount_owed}} er nødvendig",
         "edit_credit_card_modal": {
           "done": "Gjort"
-        }
+        },
+        "local_payment_method_receiver_notice": "Etter at du har lagt inn bestillingen din, vil du motta betalingsinformasjon. Foreta betalingen i en minibank eller online innen {{dueDays}} dager."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -970,7 +975,8 @@
           "other": "Gavekort ble sendt på nytt."
         },
         "thank_you_ready_for_picked_up": "Bestillingen din ble hentet på %{address}.",
-        "in_transit": "På vei"
+        "in_transit": "På vei",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Du får en e-post med bekreftelse snart.  Følg bestillingen din ved hjelp av Shop-appen."
       },
       "marketing": {
         "sms": {
@@ -1842,7 +1848,8 @@
         "gift_card_resend_text": {
           "one": "Send tekst på nytt"
         },
-        "confirmed_title": "Bestillingen din er bekreftet"
+        "confirmed_title": "Bestillingen din er bekreftet",
+        "view_order_for_details": "Se bestillingen for detaljer"
       },
       "group_title_label": "Del av: {{groupTitle}}",
       "buy_again": "Kjøp igjen",
@@ -1902,7 +1909,8 @@
       "addresses_section_title": "Fakturering og frakt",
       "shipment_timeline": {
         "hide_events_label": "Skjul detaljer",
-        "hide_events_accessibility_label": "Skjul ordreforsendelsesdetaljer"
+        "hide_events_accessibility_label": "Skjul ordreforsendelsesdetaljer",
+        "expand_events_label": "Vis detaljer"
       },
       "card_ending_with": "slutter med {{lastDigits}}",
       "unit_price": "({{price}}\/ea)",
@@ -2253,7 +2261,8 @@
         "title": "Finner ikke bestillingen"
       },
       "no_access": {
-        "back_to_authentication_link": "Logg på en annen konto"
+        "back_to_authentication_link": "Logg på en annen konto",
+        "description": "Du er ikke registrert som B2B-kunde hos {{shopName}}"
       },
       "failed_address_creation": {
         "description": "Det oppsto et problem med å opprette adressen din. Prøv å oppdatere denne siden eller sjekk internettforbindelsen din."
@@ -2370,7 +2379,8 @@
       "expiration_warning_button_accessibility_label": "Vis utløpsadvarsel for {{paymentMethodName}} som slutter på {{lastDigits}}",
       "expires_soon": "Dette kortet utløper snart",
       "expired": "Dette kortet er utløpt",
-      "back_button": "Tilbake"
+      "back_button": "Tilbake",
+      "add_payment_method_banner": "Legg til betalingsmetode for raskere utsjekking eller forhåndsautoriserte tjenester"
     },
     "payment_method_brands": {
       "americanexpress": "American Express",
@@ -2400,7 +2410,9 @@
       "saturday": "lørdag",
       "friday": "fredag",
       "mondayAbbreviation": "Mo",
-      "august": "august"
+      "august": "august",
+      "maximumReached": "Maksimum {{value}} Nådd",
+      "wednesdayAbbreviation": "Vi"
     },
     "profile_preview_bar": {
       "saved_at": "Lagrat {{date}} Kje {{time}}"

@@ -507,12 +507,17 @@
           "description": "Disse varer er ikke længere tilgængelige og er blevet fjernet fra din kurv.",
           "items_unavailable": "Nogle varer er ikke længere tilgængelige og er blevet fjernet fra din kurv."
         },
-        "items_unavailable_notice": "Nogle varer er ikke længere tilgængelige. Din indkøbskurv er blevet opdateret."
+        "items_unavailable_notice": "Nogle varer er ikke længere tilgængelige. Din indkøbskurv er blevet opdateret.",
+        "return_to_store_label": "Tilbage til butikken"
       },
       "billing": {
         "same_as_shipping": "Samme som leveringsadresse",
         "address_confirm": "Vil du virkelig slette denne adresse fra din konto?",
-        "address_more": "Flere handlinger til denne adresse"
+        "address_more": "Flere handlinger til denne adresse",
+        "billing_address_title": "Regning til",
+        "address_form": {
+          "save": "Gemme"
+        }
       },
       "order_summary": {
         "price_per_item": {
@@ -556,7 +561,8 @@
         },
         "title": "Opret en e-commerce hjemmeside og Sælg Online!  E-handel software af Shopify",
         "owner_ctas": {
-          "forgot_your_store_link_text": "Har glemt din butik."
+          "forgot_your_store_link_text": "Har glemt din butik.",
+          "header": "Er du butiksejer?"
         }
       }
     }
@@ -573,7 +579,8 @@
       "processing": "Forarbejdning…",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Tilgængelige elementer"
-      }
+      },
+      "expandNotification": "Se mere"
     },
     "orders": {
       "order_list": {

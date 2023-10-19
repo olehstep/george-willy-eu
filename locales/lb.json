@@ -48,6 +48,12 @@
         },
         "links": {
           "start_free_trial": "E Fräi Test starten"
+        },
+        "title": "Ecommerce Websit erwaachen an Online Verzel!  Ecommerce Software mat Shopify",
+        "ctas": {
+          "open_a_store": {
+            "link_text": "Nun"
+          }
         }
       }
     },
@@ -1290,7 +1296,8 @@
           "items_unavailable": "Kie Elementen sinne net më verfügbar an ass aus déi Cart geläucht."
         },
         "unpurchasable_product_generic": {
-          "header": "E puer Elementer goufen aus Ärem Weenchen geläscht"
+          "header": "E puer Elementer goufen aus Ärem Weenchen geläscht",
+          "message": "Dës Elementer sinn net verfügbar."
         },
         "unpurchasable_product": {
           "message": "Dës Artikele sinn net verfügbar fir B2B Bestellungen."
@@ -1917,7 +1924,12 @@
         "sort_show_options_accessibility_label": "Show Zort Optiounen fir bestätegt Commanden.",
         "more_than_three_products_accessibility_label": "Bestellung enthält {{lineItemName1}}, {{lineItemName2}}, an {{numberOfAdditionalProducts}} méi Produkter",
         "plus_more": "+{{numberOfAdditionalProducts}}",
-        "filter_title": "Filter"
+        "filter_title": "Filter",
+        "filter": {
+          "date": {
+            "today": "Haut"
+          }
+        }
       },
       "group_title_label": "Deel vun: {{groupTitle}}",
       "order_status": {
@@ -2000,7 +2012,8 @@
       "if_not_received": {
         "other": "Wann se net emmerg sinn,"
       },
-      "if_you_didnt_receive_this": "Wann Dir dëst net kritt hutt,"
+      "if_you_didnt_receive_this": "Wann Dir dëst net kritt hutt,",
+      "let_us_know": "Loosst eis wëssen"
     },
     "errors": {
       "no_access_to_locations": {
@@ -2046,6 +2059,9 @@
       },
       "load_paypal_error": {
         "description": "Et gëtt e Problem beim Luede PayPal. Probéiert w.e.g. nach eng Kéier."
+      },
+      "load_extension_error": {
+        "title": "Feeler"
       }
     },
     "B2B": {
@@ -2430,7 +2446,8 @@
       "expiration_warning_button_accessibility_label": "Weist Verfallswarnung fir {{paymentMethodName}} op en Enn {{lastDigits}}",
       "add_payment_method_banner": "Füügt Bezuelmethod fir méi séier Checkout oder pre-autoriséiert Servicer",
       "delete_payment_method_button": "Läschen",
-      "no_payment_methods_banner": "Keng Bezuelmethoden dobäigesat"
+      "no_payment_methods_banner": "Keng Bezuelmethoden dobäigesat",
+      "edit_payment_method_brand_button_accessibility_label": "Edit {{paymentMethodName}}"
     },
     "order_details": {
       "shipping": {

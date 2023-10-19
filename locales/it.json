@@ -472,7 +472,10 @@
         },
         "invalid_shipping_method_summary": "Inserisci un indirizzo di spedizione valido per visualizzare i metodi di spedizione disponibili",
         "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Altro",
-        "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?"
+        "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?",
+        "method_summary": {
+          "incomplete_address_entered": "Inserisci un indirizzo di spedizione completo per visualizzare i metodi di spedizione disponibili"
+        }
       },
       "payment_errors": {
         "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
@@ -509,7 +512,8 @@
         "order_edit_banner_items_returned": {
           "with_quantities": "{{delta}} Di {{quantity}} Restituito"
         },
-        "subscription_agreement_label": "Comprendo che sto accettando un abbonamento. Verrà rinnovato al costo e con la frequenza indicati fino al termine o alla %{cancelled}."
+        "subscription_agreement_label": "Comprendo che sto accettando un abbonamento. Verrà rinnovato al costo e con la frequenza indicati fino al termine o alla %{cancelled}.",
+        "purchase_options_agreement_label_wallets": "Continuando con il pagamento, accetti le spese future elencate in questa pagina e la politica di cancellazione."
       },
       "order_summary": {
         "discount_order_stacking": {
@@ -547,7 +551,8 @@
         "gift_card": {
           "insufficient_funds": "Questa carta regalo non ha fondi rimasti",
           "duplicate": "La carta regalo è già stata applicata al tuo ordine",
-          "expired": "Questa carta regalo è scaduta"
+          "expired": "Questa carta regalo è scaduta",
+          "not_available": "Questa carta regalo non è più disponibile"
         }
       },
       "review": {
@@ -571,7 +576,8 @@
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "other": "Alcuni articoli nel carrello non possono essere spediti all'indirizzo inserito. Controlla l'indirizzo per assicurarti che tutti i campi siano stati inseriti correttamente e riprova."
+          "other": "Alcuni articoli nel carrello non possono essere spediti all'indirizzo inserito. Controlla l'indirizzo per assicurarti che tutti i campi siano stati inseriti correttamente e riprova.",
+          "one": "Quest'ordine non può essere spedito all'indirizzo inserito. Controlla l'indirizzo per assicurarti che tutti i campi siano stati inseriti correttamente e riprova."
         }
       },
       "billing": {

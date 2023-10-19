@@ -233,7 +233,8 @@
       "dropdown_label": "Språk"
     },
     "pagination": {
-      "next": "Nästa"
+      "next": "Nästa",
+      "previous": "Tidigare"
     },
     "meta": {
       "tags": "Taggad \"{{ tags }}\"",

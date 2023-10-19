@@ -518,7 +518,8 @@
             "card_number": "Numero di carta",
             "billing": "Fatturare a",
             "name": "nome sulla carta"
-          }
+          },
+          "title": "Modifica scheda"
         },
         "use_location_shipping_address_label": "Utilizza l'indirizzo di spedizione della posizione",
         "order_edit_banner_items_returned": {
@@ -561,7 +562,8 @@
       },
       "stock": {
         "item_label": {
-          "one": "{{count}} Articolo"
+          "one": "{{count}} Articolo",
+          "other": "{{count}} Articoli"
         },
         "price_update": {
           "description": "I prezzi per questi articoli sono cambiati e vengono aggiornati nel carrello.",
@@ -578,7 +580,8 @@
           "expired": "Questa carta regalo è scaduta",
           "not_available": "Questa carta regalo non è più disponibile",
           "currency_mismatch": "Solo carte regalo in %{shop_currency} Sono accettati",
-          "invalid": "Inserisci una carta regalo valida"
+          "invalid": "Inserisci una carta regalo valida",
+          "generic": "Non è stato possibile aggiungere la carta regalo al checkout"
         }
       },
       "review": {
@@ -621,6 +624,9 @@
       },
       "contact": {
         "title": "Informazioni"
+      },
+      "address_management": {
+        "confirm_address_deletion": "Sei sicuro di voler eliminare l'indirizzo {{address}} ?"
       }
     },
     "errors": {

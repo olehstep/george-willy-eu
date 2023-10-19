@@ -44,7 +44,8 @@
       "shop_404": {
         "heros": {
           "store_not_exist": "Dëst Späichen ist net.",
-          "no_storefront": "Dëse Späer hach noch net e Websz."
+          "no_storefront": "Dëse Späer hach noch net e Websz.",
+          "store_unavailable": "Schrëft, dës Späicher ass opstunn net verfügbar."
         },
         "links": {
           "start_free_trial": "E Fräi Test starten"
@@ -53,7 +54,8 @@
         "ctas": {
           "open_a_store": {
             "link_text": "Nun",
-            "caption": "Start ee 3-Dag Fräie Test, a weider fir $\/mont fir d's nakande 3 Monten."
+            "caption": "Start ee 3-Dag Fräie Test, a weider fir $\/mont fir d's nakande 3 Monten.",
+            "header": "Eng nei Shopify-Spaachen opmaachen"
           },
           "store_owner": {
             "header": "Sidd Dir de Buttek Besëtzer?",
@@ -253,7 +255,8 @@
           },
           "and": {
             "wordConnector": "{{previousWords}}, {{anotherWord}}",
-            "lastWordConnector": "{{previousWords}}, an {{lastWord}}"
+            "lastWordConnector": "{{previousWords}}, an {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} an {{secondWord}}"
           },
           "narrow": {
             "twoWordConnector": "{{firstWord}}, {{secondWord}}"
@@ -482,7 +485,8 @@
           "done": "Gemaach",
           "fields": {
             "card_number": "Kaart Zuel",
-            "billing": "Bill zu"
+            "billing": "Bill zu",
+            "security_code": "Sécherheets Code"
           }
         },
         "order_edit_banner_items_returned": {
@@ -1173,7 +1177,8 @@
         "different_shipping_address_label": "Schéckt op eng aner Adress",
         "title": "Informatiounen",
         "different_shipping_address_text": "Benotzt eng eemoleg Adress fir dës Bestellung",
-        "change_location_link_label": "Plaz änneren"
+        "change_location_link_label": "Plaz änneren",
+        "optional_last_name_label": "Familljennumm (fakultativ)"
       },
       "marketing": {
         "unsubscribe": {
@@ -1313,7 +1318,8 @@
         "call_issuer": "Är Kaart gouf refuséiert. Benotzt eng aner Bezuelmethod oder kontaktéiert Är Bank fir méi Informatioun.",
         "invalid_number": "Gitt eng valabel Kaart Zuel",
         "successful_offsite_with_gift_card_error": "Et gouf e Problem beim Veraarbechtung vun Ärer Kaddokaartbezuelung. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod.",
-        "test_mode_live_card": "Dëse Buttek kann net richteg Bestellungen oder richteg Bezuelungen akzeptéieren."
+        "test_mode_live_card": "Dëse Buttek kann net richteg Bestellungen oder richteg Bezuelungen akzeptéieren.",
+        "development_store_order_limit_reached": "Dir hutt d'Limite fir Entwécklungsgeschäft Bestellunge mat dësem Bezuelprozessor erreecht. Fir eng aner Bestellung ze maachen, musst Dir en Testbezuelungsgateway benotzen. Léiere méi iwwer %{development_store_order_testing_docs_link}."
       },
       "post_purchase": {
         "title": "Post-Akaaf",
@@ -1406,7 +1412,8 @@
           },
           "title": "Keng Liwwerung verfügbar",
           "message": {
-            "other": "Dës Saache ginn aus Ärem Weenchen geläscht well et keng Liwwermethoden fir Är Adress verfügbar sinn."
+            "other": "Dës Saache ginn aus Ärem Weenchen geläscht well et keng Liwwermethoden fir Är Adress verfügbar sinn.",
+            "one": "Dësen Artikel gëtt aus Ärem Weenchen geläscht well et keng Liwwermethoden fir Är Adress verfügbar sinn."
           }
         },
         "remove": "Ewechzehuelen",
@@ -1708,7 +1715,8 @@
         "selector_tab_map": "Kaart",
         "paginator": {
           "selected_pickup_point_label": {
-            "one": "%{pickup_point_index} vum %{count} Punkt"
+            "one": "%{pickup_point_index} vum %{count} Punkt",
+            "other": "%{pickup_point_index} vun %{count} Punkten"
           },
           "previous_accessibility_label": "Virdrun Säit",
           "selected_page": {
@@ -2172,7 +2180,8 @@
           "other": "Kaddoskaarte goufen per Text geschéckt."
         },
         "gift_card_resend_text": {
-          "one": "Text erëm schécken"
+          "one": "Text erëm schécken",
+          "other": "Texter nei schécken"
         },
         "attempted_to_deliver_label": "Fäichen",
         "gift_card_resend_description_text": {
@@ -2184,6 +2193,11 @@
         },
         "delivered_description_gift_card": {
           "one": "Geschenkkaart gouf per E-Mail geschéckt."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Leit an a verwieden"
+          }
         }
       },
       "list_layout_accessibility_label": "Layout Optiounen",
@@ -2763,7 +2777,8 @@
       "log_in_to_a_different_account": "Mellt Iech op en anere Kont un",
       "contact_information": "Kontakt-Informatioun",
       "group_title_label": "Deel vun: {{groupTitle}}",
-      "duties": "Flichten"
+      "duties": "Flichten",
+      "paid_amount": "Bezuelt"
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",
@@ -2806,7 +2821,8 @@
       "no_addresses_banner": "Keng Adressen dobäigesat",
       "back_button_accessibility_label": "Zréck op d'Editiounsadress {{address}}",
       "add_button_accessibility_label": "Add Adress",
-      "add_button_text": "Addéieren"
+      "add_button_text": "Addéieren",
+      "back_button": "Zréck"
     },
     "payment_method_brands": {
       "googlepay": "Google Pay",
@@ -2874,7 +2890,8 @@
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",
-      "saved_at": "Späichert {{date}} Am {{time}}"
+      "saved_at": "Späichert {{date}} Am {{time}}",
+      "hide_bar": "Bar verstopen"
     }
   },
   "contact": {

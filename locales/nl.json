@@ -528,7 +528,8 @@
         "use_location_billing_address_label": "Het factuuradres van de locatie gebruiken",
         "payment_method": "Betalingswijze",
         "gift_card_wrapper": {
-          "gift_card_label": "Cadeaukaart %{identifier}"
+          "gift_card_label": "Cadeaukaart %{identifier}",
+          "apply_another_gift_card_label": "Pas nog een cadeaubon toe"
         },
         "saved_credit_card_actions": {
           "edit": "Bewerking"
@@ -549,7 +550,9 @@
         "thank_you_title_payments_app_pending_buyer_action_required": "Uw bestelling is ontvangen",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Na het voltooien van uw betaling, krijgt u een bevestigingstekst.  Volg uw bestelling met behulp van de Shop-app.",
         "failed_pending_payment_page_title": "Er is een probleem met uw betaling",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Na het voltooien van uw betaling, ontvangt u een bevestigingsmail.  Volg uw bestelling met behulp van de Shop-app."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Na het voltooien van uw betaling, ontvangt u een bevestigingsmail.  Volg uw bestelling met behulp van de Shop-app.",
+        "thank_you_payments_app_failed_pending_payment": "Je bent niet aangeklaagd voor je bestelling.  Ga terug naar uw winkelwagen om uw bestelling te bekijken en betaal opnieuw.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Je krijgt binnenkort een bevestigingsmail.  Volg uw bestelling met behulp van de Shop-app."
       },
       "billing": {
         "billing_address_title": "Rekening naar",
@@ -572,7 +575,8 @@
         },
         "items_unavailable_notice": "Sommige artikelen zijn niet meer beschikbaar. Je winkelwagen is aangepast.",
         "out_of_stock": {
-          "items_unavailable": "Sommige artikelen zijn niet meer beschikbaar en zijn uit uw winkelwagentje verwijderd."
+          "items_unavailable": "Sommige artikelen zijn niet meer beschikbaar en zijn uit uw winkelwagentje verwijderd.",
+          "description": "Deze artikelen zijn niet meer beschikbaar en zijn verwijderd uit uw winkelwagen."
         },
         "continue_cta_label": "Ga door met afrekenen"
       },
@@ -607,7 +611,8 @@
           "label": "%{price} \/Ea",
           "accessibility_label": "%{price} Per item"
         },
-        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kan niet worden gebruikt met je bestaande kortingen. Je hebt al een betere combinatie."
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kan niet worden gebruikt met je bestaande kortingen. Je hebt al een betere combinatie.",
+        "gift_card_and_discount_label": "Cadeaubon of kortingscode"
       },
       "address_management": {
         "confirm_address_deletion": "Weet u zeker dat u het adres wilt verwijderen {{address}} ?"
@@ -636,6 +641,9 @@
       },
       "payment_errors": {
         "invalid_expiry_date": "Voer een geldige vervaldatum voor de kaart in"
+      },
+      "no_address_location": {
+        "alt_header": "Ontbrekend verzendadres"
       }
     },
     "errors": {
@@ -647,7 +655,8 @@
             "link_text": "Ontdek de nieuwste Editions"
           },
           "store_owner": {
-            "shopify_support_link_text": "Shopify-ondersteuning"
+            "shopify_support_link_text": "Shopify-ondersteuning",
+            "caption": "Heeft u problemen om in uw winkel te komen?  Probeer de %{forgot_your_store_link} Functie.  Als u uw winkel opnieuw wilt activeren, neem dan contact op %{shopify_support_link} ."
           },
           "sell_in_person": {
             "header": "Verkopen in persoon"
@@ -663,6 +672,9 @@
           "fix_domain_link_text": "Uw domeininstellingen",
           "forgot_your_store_link_text": "Je winkel vergeten",
           "fix_domain": "Voltooi het instellen van uw nieuwe webadres, ga naar %{domain_settings_link} .  Klik op \"Domein verbinden\" en voer het volgende in: %{domain} .<br>Als je problemen hebt om in je winkel te komen, probeer dan de %{forgot_your_store_link} Pagina."
+        },
+        "links": {
+          "start_free_trial": "Start een gratis proefversie"
         }
       }
     },
@@ -706,7 +718,8 @@
         "one": "{{count}} Item beschikbaar"
       },
       "tuesday": "Dinsdag",
-      "decrease": "Daling {{type}}"
+      "decrease": "Daling {{type}}",
+      "processing": "Verwerken…"
     },
     "orders": {
       "order_list": {

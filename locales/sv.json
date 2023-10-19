@@ -143,7 +143,9 @@
       "august": "augusti",
       "autocompleteOptionsAvailable": {
         "one": "{{count}} Objekt"
-      }
+      },
+      "sunday": "söndag",
+      "submit": "Skicka in"
     },
     "orders": {
       "order_list": {
@@ -512,7 +514,8 @@
         "blocks": {
           "review_title_free_order": "Granska och slutför din beställning",
           "shipping_method_title": "Metod",
-          "payment_method_title": "Betalning"
+          "payment_method_title": "Betalning",
+          "payment_method_saved_company_location": "Spara kort för den här platsen"
         },
         "review_title": "Granska order"
       },
@@ -520,7 +523,8 @@
         "shipping_default_value": "Beräknas vid nästa steg",
         "gift_card_and_discount_label": "Presentkort eller rabattkod",
         "price_per_item": {
-          "accessibility_label": "%{price} Per post."
+          "accessibility_label": "%{price} Per post.",
+          "label": "%{price} \/Ea"
         }
       },
       "customer_account": {
@@ -578,7 +582,8 @@
             "billing": "Bill till"
           },
           "cancel": "Annullera",
-          "description": "Du kan bara ändra faktureringsadressen på ditt kort."
+          "description": "Du kan bara ändra faktureringsadressen på ditt kort.",
+          "done": "Gjort"
         },
         "order_edit_banner_items_added": {
           "other": "%{count} Tillägg"

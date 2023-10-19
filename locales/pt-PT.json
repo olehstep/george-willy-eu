@@ -521,7 +521,8 @@
             "default": "Definir como padrão"
           }
         },
-        "use_location_billing_address_label": "Utilizar o endereço de faturação da localização"
+        "use_location_billing_address_label": "Utilizar o endereço de faturação da localização",
+        "use_order_billing_address_label": "Utilizar o endereço de faturação da encomenda"
       },
       "order_summary": {
         "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto",
@@ -543,13 +544,15 @@
         "blocks": {
           "shipping_method_title": "Método",
           "payment_method_title": "Pagamento"
-        }
+        },
+        "review_title": "Rever encomenda"
       },
       "thank_you": {
         "thank_you_title_payments_app_pending_default": "O seu pagamento está a ser processado",
         "order_status_payments_app_pending_payment_description_default_with_phone": "Você receberá um texto de confirmação em breve.  Acompanhe a sua encomenda através da aplicação Loja.",
         "thank_you_payments_app_failed_pending_payment": "Você não foi cobrado pelo seu pedido.  Volte ao seu carrinho para rever a sua encomenda e pagar novamente.",
-        "order_status_payments_app_pending_payment_description_default_with_email": "Você receberá um e-mail de confirmação em breve.  Acompanhe a sua encomenda através da aplicação Loja."
+        "order_status_payments_app_pending_payment_description_default_with_email": "Você receberá um e-mail de confirmação em breve.  Acompanhe a sua encomenda através da aplicação Loja.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Depois de concluir o pagamento, receberá uma mensagem de confirmação.  Acompanhe a sua encomenda através da aplicação Loja."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -591,6 +594,14 @@
       },
       "address_management": {
         "confirm_address_deletion": "Tem certeza de que deseja excluir o endereço {{address}}?"
+      },
+      "store_credit_errors": {
+        "generic_error": "Houve um problema com o crédito da sua loja.  Tente novamente ou recarregue a página."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available_generic": {
+          "one": "Não é possível enviar esta encomenda para o endereço que introduziu. Reveja o seu endereço para garantir que todos os campos foram introduzidos corretamente e tente de novo."
+        }
       }
     },
     "errors": {
@@ -652,7 +663,8 @@
       "august": "Agosto",
       "monday": "Segunda-feira",
       "tuesday": "Terça-feira",
-      "saturdayAbbreviation": "sobre"
+      "saturdayAbbreviation": "sobre",
+      "fridayAbbreviation": "Fr"
     },
     "order_details": {
       "edit_summary": {

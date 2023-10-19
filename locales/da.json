@@ -489,7 +489,8 @@
         "review_title": "Gennemgå ordre",
         "blocks": {
           "review_title_free_order": "Gennemgå og fuldføre din ordre.",
-          "shipping_method_title": "Metode"
+          "shipping_method_title": "Metode",
+          "payment_method_saved_company_location": "Gem kort til denne placering"
         }
       },
       "general": {
@@ -530,7 +531,8 @@
         },
         "add_credit_card_modal": {
           "save": "Gemme"
-        }
+        },
+        "purchase_options_agreement_label": "Jeg forstår, at én eller flere af varerne i min indkøbskurv er et udskudt eller tilbagevendende køb. Ved at fortsætte accepterer jeg %{cancellation_policy_label} og giver jer tilladelse til at debitere min betalingsmetode til de priser, med den hyppighed og på de datoer, der er angivet på denne side, indtil min ordre er klargjort, eller indtil jeg opsiger, såfremt dette er tilladt."
       },
       "stock": {
         "out_of_stock": {
@@ -565,12 +567,14 @@
         },
         "shipping_default_value": "Beregnet ved næste trin",
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kunne ikke bruges med dine eksisterende rabatter. Du har allerede en bedre kombination.",
-        "gift_card_and_discount_title": "Gavekort eller rabatkode"
+        "gift_card_and_discount_title": "Gavekort eller rabatkode",
+        "gift_card_and_discount_placeholder": "Gavekort eller rabatkode"
       },
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Gavekortet er allerede blevet anvendt på din ordre.",
-          "generic": "Gavekortet kunne ikke tilføjes til kassen."
+          "generic": "Gavekortet kunne ikke tilføjes til kassen.",
+          "insufficient_funds": "Dette gavekort har ingen penge tilbage"
         }
       },
       "note": {
@@ -606,6 +610,9 @@
           "one": "Denne ordre kan ikke afsendes til den angivne adresse. Gennemgå din adresse for at sikre at alle felter er udfyldt korrekt, og prøv igen."
         },
         "title": "Forsendelse er ikke tilgængelig"
+      },
+      "address_management": {
+        "confirm_address_deletion": "Er du sikker på at du vil slette adressen {{address}} ?"
       }
     },
     "errors": {
@@ -621,7 +628,8 @@
             "header": "Er du butiksejer?"
           },
           "sell_in_person": {
-            "caption": "Få de funktioner, du har brug for at køre din butik, uanset om du starter ud eller skalerer op."
+            "caption": "Få de funktioner, du har brug for at køre din butik, uanset om du starter ud eller skalerer op.",
+            "header": "Sælg personligt."
           }
         },
         "title": "Opret en e-commerce hjemmeside og Sælg Online!  E-handel software af Shopify",
@@ -670,7 +678,8 @@
       "saturdayAbbreviation": "på",
       "minimumReached": "Mindste ar {{value}} Nåedes",
       "decrease": "Nedsæt {{type}}",
-      "march": "marts"
+      "march": "marts",
+      "showNextMonth": "Vis næste måned. {{month}}  {{year}}"
     },
     "orders": {
       "order_list": {
@@ -711,6 +720,15 @@
     "order_details": {
       "edit_summary": {
         "removed_with_quantities": "{{delta}} Af {{total}} Fjernet"
+      }
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "canceled": {
+            "description": "Du bliver ikke debiteret."
+          }
+        }
       }
     }
   }

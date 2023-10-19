@@ -47,7 +47,8 @@
           },
           "weekdays_abbreviation": {
             "monday": "Mo",
-            "thursday": "Th"
+            "thursday": "Th",
+            "friday": "Fr"
           },
           "weekdays": {
             "tuesday": "tirsdag",
@@ -283,7 +284,8 @@
         "discount_placeholder": "Rabattkode",
         "expand_component_information": {
           "other": "Vis %{count} elementer"
-        }
+        },
+        "recurring_payments": "Gjentakende betalinger"
       },
       "stock": {
         "title": "Utsolgt",
@@ -453,7 +455,8 @@
         "no_other_methods_available": "Ingen andre metoder tilgjengelig",
         "method_summary": {
           "incomplete_address_entered": "Skriv inn en fullstendig leveringsadresse for å se tilgjengelige forsendelsesmetoder"
-        }
+        },
+        "delete": "Slett"
       },
       "localized_fields": {
         "additional_information": {
@@ -644,7 +647,8 @@
         "edit_credit_card_modal": {
           "done": "Gjort",
           "fields": {
-            "expiry": "Utløpsdato"
+            "expiry": "Utløpsdato",
+            "name": "Navn på kort"
           },
           "description": "Du kan berre endra faktureringsadressen til kortet ditt."
         },
@@ -677,7 +681,11 @@
         "card_security_notice": "Alle transaksjoner er sikre og krypterte.",
         "order_edit_banner_items_removed": {
           "in_full": "Fjernet"
-        }
+        },
+        "card_expiry_placeholder": "Utløpsdato (MM \/ ÅÅ)",
+        "same_billing_address_label": "samme som leveringsadressen",
+        "no_working_method_error": "Denne butikken kan ikke godta betalinger akkurat nå. Oppdater denne siden eller kom tilbake senere.",
+        "waiting_on_taxes_message": "Hvis skattene ikke beregnes i løpet av de neste sekundene, oppfrisk siden."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -766,7 +774,8 @@
         "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Du har nådd grensen for utviklingsbutikkbestillinger med denne betalingsbehandleren. For å legge inn en annen bestilling, må du bruke en testbetalingsgateway. Lære mer om <a href=\"%{docs_link}\">testing av bestillinger i utviklingsbutikker<\/a>.",
         "payment_gateway_unsupported_for_country": "Denne betalingsmåten er ikke tilgjengelig for leveringslandet ditt.",
         "address_zip_too_long": "ZIP \/ postnummer er for lang (høyst 255 teikn)",
-        "credit_card_name_invalid": "Skriv inn navnet ditt nøyaktig slik det er skrevet på kortet ditt"
+        "credit_card_name_invalid": "Skriv inn navnet ditt nøyaktig slik det er skrevet på kortet ditt",
+        "address_phone_invalid": "Skriv inn et gyldig telefonnummer"
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",
@@ -815,7 +824,9 @@
           "other": "Noen varer i handlekurven din kan ikke sendes til adressen du oppga. Se gjennom adressen din for å sikre at alle feltene er angitt riktig, og prøv igjen."
         },
         "payment_method_not_supported": "Du kan ikke bruke denne betalingsmåten for %{country}. Bruk en annen betalingsmåte for å sende til dette landet.",
-        "empty_state": "Skriv inn leveringsadressen din for å se tilgjengelige forsendelsesmetoder."
+        "empty_state": "Skriv inn leveringsadressen din for å se tilgjengelige forsendelsesmetoder.",
+        "title": "Frakt ikke tilgjengelig",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Varene Oppdater vognen og prøv igjen."
       },
       "payment_errors": {
         "paypal_zero_amount": "Du kan ikke bruke PayPal for %{amount} bestillinger. Bekreft at bestillingen din er riktig og sjekk ut uten PayPal.",
@@ -856,7 +867,8 @@
         "invalid_shipping_address": "Betalingen din kunne ikke behandles fordi vi ikke kunne finne leveringsadressen din. Sjekk leveringsadressen din, og prøv på nytt.",
         "expired_card": "Kortet ditt er utløpt. Bruk en annen betalingsmåte.",
         "successful_offsite_with_gift_card_error": "Det oppstod et problem under behandling av gavekortbetalingen. Prøv på nytt eller bruk en annen betalingsmetode.",
-        "call_issuer": "Kortet ditt ble avvist. Bruk en annen betalingsmåte, eller kontakt banken din for mer informasjon."
+        "call_issuer": "Kortet ditt ble avvist. Bruk en annen betalingsmåte, eller kontakt banken din for mer informasjon.",
+        "pick_up_card": "Kortet ditt ble avvist. Prøv på nytt eller bruk en annen betalingsmetode."
       },
       "payment_gateway": {
         "cash_on_delivery_label": "Postoppkrav (COD)",
@@ -1114,7 +1126,8 @@
           "disclaimer": {
             "terms_of_service": "Vilkår for bruk",
             "description_transactional_html": "Du kan motta tekstmeldinger relatert til ordrebekreftelse og fraktoppdateringer. Svar STOP for å avslutte abonnementet. Svar HJELP for hjelp. Meldingsfrekvensen varierer. Meldings- og datatakster kan gjelde. Se våre %{privacy_policy_modal_link} og %{terms_of_service_modal_link}.",
-            "privacy_policy": "Personvernerklæring"
+            "privacy_policy": "Personvernerklæring",
+            "description_html": "Ved å registrere deg via tekst, godtar du å motta tilbakevendende automatiserte markedsføringsmeldinger, inkludert handlekurvpåminnelser, på telefonnummeret som er oppgitt. Samtykke er ikke en betingelse for kjøp. Svar STOP for å avslutte abonnementet. Svar HJELP for hjelp. Meldingsfrekvensen varierer. Meldings- og datatakster kan gjelde. Se våre %{privacy_policy_link} og %{terms_of_service_link}."
           },
           "mobile_phone_number": "Mobiltelefonnummer",
           "get_offers_by_text": "Få tilbud på sms"
@@ -1201,7 +1214,8 @@
         "pick_up_next_day": "Klar for henting neste dag",
         "pick_up_in_two_to_four_hours": "Klar for henting om 4 timer",
         "pick_up_in_zero_to_two_hours": "Klar for henting om 2 timer",
-        "retail_method_definition": "Detaljhandel frakt"
+        "retail_method_definition": "Detaljhandel frakt",
+        "none_method_definition": "Ingen frakt"
       },
       "mor_policies": {
         "privacy_policy": "Personvernerklæring for selgere",
@@ -1384,7 +1398,8 @@
         "waiting_on_pickup_point_location_notice": "Søker etter hentesteder...",
         "selector_tabs": "Hentepunktvelger",
         "selector_tab_list": "Liste",
-        "selector_tab_map": "Kart"
+        "selector_tab_map": "Kart",
+        "business_hours": "Åpningstider"
       },
       "local_pickup": {
         "paginator": {
@@ -1433,7 +1448,8 @@
             "country": "Velg et land\/region",
             "address2": "Gå inn i en leilighet, suite osv.",
             "province": "Velg en stat\/provins",
-            "zip": "Skriv inn et postnummer"
+            "zip": "Skriv inn et postnummer",
+            "address1": "Skriv inn en adresse"
           },
           "generic": "Det oppstod et problem med {{walletName}}. Prøv på nytt eller bruk en annen betalingsmetode.",
           "detour": {
@@ -1456,7 +1472,8 @@
       "notice_banner": {
         "individual_violations_title": {
           "PaymentViolations": "Fakturaadresse",
-          "OtherViolations": "Bestill informasjon"
+          "OtherViolations": "Bestill informasjon",
+          "DeliveryViolations": "Sendingsadresse"
         },
         "editable_shipping_address_violations_message_title": "Legg til denne informasjonen for å fullføre bestillingen:",
         "editable_shipping_address_violations_message_footer": "Hvis du vil oppdatere adressen for denne plasseringen permanent, {{emailLink}}.",
@@ -1505,13 +1522,15 @@
       "captcha": {
         "errors": {
           "not_solved": "Fullfør CAPTCHA for å fortsette"
-        }
+        },
+        "title": "Fullfør CAPTCHA for å fortsette"
       },
       "redeemable_errors": {
         "gift_card": {
           "invalid": "Skriv inn et gyldig gavekort",
           "not_available": "Dette gavekortet er ikke lenger tilgjengelig",
-          "duplicate": "Gavekortet har allerede blitt brukt på ordren din."
+          "duplicate": "Gavekortet har allerede blitt brukt på ordren din.",
+          "generic": "Gavekortet kunne ikkje leggjast til i kassekud"
         }
       },
       "billing": {
@@ -1521,7 +1540,9 @@
         "address_edit": "Rediger adresse",
         "address_form": {
           "cancel": "Avbryt"
-        }
+        },
+        "same_as_shipping": "samme som leveringsadressen",
+        "edit": "Redigere"
       },
       "order_errors": {
         "network_failure": "Bestillingen kunne ikke sendes inn på grunn av en nettverksfeil. Kontroller tilkoblingen, og prøv på nytt.",
@@ -1605,7 +1626,8 @@
           },
           "open_a_store": {
             "link_text": "Tilmelding no",
-            "header": "Opna ei ny Shopify-butikk"
+            "header": "Opna ei ny Shopify-butikk",
+            "caption": "Start en 3 dagers gratis prøving, så fortsett med $1\/måned de neste 3 månedene."
           },
           "store_owner": {
             "shopify_support_link_text": "Støtte for shopify"
@@ -1971,7 +1993,9 @@
           "date": {
             "last_7_days": "De siste 7 dagane",
             "last_90_days": "Siste 90 daga",
-            "start_date": "Startdato"
+            "start_date": "Startdato",
+            "title": "Bestillingsdato",
+            "last_365_days": "Siste 12 månader"
           }
         },
         "plus_more": "+{{numberOfAdditionalProducts}}",
@@ -2013,7 +2037,8 @@
         "ready_for_pickup_location": "Bestillingen din er klar for henting på stedet",
         "confirmed_description_digital": "Du vil motta en e-post når bestillingen er klar.",
         "gift_card_resend_description": {
-          "one": "Hvis den ikke ble mottatt, send e-posten på nytt eller"
+          "one": "Hvis den ikke ble mottatt, send e-posten på nytt eller",
+          "other": "Hvis de ikke ble mottatt, send e-postene på nytt eller"
         },
         "gift_card_resend_description_text": {
           "other": "Hvis de ikke ble mottatt, send tekstene på nytt eller",
@@ -2106,7 +2131,8 @@
       "total": "Total",
       "loading_finished_accessibility_message": "Bestillingsdetaljer er lastet inn",
       "mobile_summary_toggle_button": {
-        "closed": "Skjul ordresammendrag"
+        "closed": "Skjul ordresammendrag",
+        "open": "Vis ordresammendrag"
       },
       "show_items": "Vis elementer",
       "loading": "Laster bestillingsdetaljer",
@@ -2139,7 +2165,8 @@
       "shop_order_tracking": {
         "real_time_delivery_updates": "Shop vil sende deg leveringsoppdateringer i sanntid når bestillingen din er sendt.",
         "track_order_with_shop": "Spor bestilling med butikk",
-        "title_header": "Skann med telefonen"
+        "title_header": "Skann med telefonen",
+        "download_shop_to_track": "Last ned Shop for å spore pakken"
       },
       "edit_summary": {
         "removed_with_quantity": "{{quantity}} fjernet",
@@ -2515,7 +2542,8 @@
         "payment_details_loading": "Laster inn betalingsmåtedetaljer",
         "preauthorized_payments": "Forhåndsautoriserte betalinger",
         "title": "Detaljer om betalingsmåte",
-        "replace_payment_method": "Bytt ut betalingsmåten"
+        "replace_payment_method": "Bytt ut betalingsmåten",
+        "loading_shop_pay": "Laster Shop Pay"
       },
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalingsmåten er oppdatert",
@@ -2654,6 +2682,10 @@
       "submit": "Sende inn",
       "month": {
         "one": "måned"
+      },
+      "removeItem": "Fjern {{label}}",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} Oppføring tilgjengeleg"
       }
     },
     "profile_preview_bar": {
@@ -2891,7 +2923,8 @@
       "submit": "Sende inn",
       "all": "Alle",
       "out_of_stock_label": "Utsolgt",
-      "clear_all": "Slett alt"
+      "clear_all": "Slett alt",
+      "applied_filters": "Brukte filtre"
     },
     "general": {
       "no_matches": "Beklager, det er ingen produkter i denne samlingen",
@@ -2972,7 +3005,8 @@
       "none": "Du har ikke lagt inn noen bestillinger ennå.",
       "fulfillment_status": "Oppfyllelsesstatus",
       "date": "Dato",
-      "total": "Total"
+      "total": "Total",
+      "order_number": "Rekkefølge"
     },
     "reset_password": {
       "subtext": "Skriv inn et nytt passord for {{ email }}",

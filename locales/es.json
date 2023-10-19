@@ -591,7 +591,8 @@
         },
         "continue_cta_label": "Continuar la desprotección",
         "item_label": {
-          "other": "{{count}} Artículos"
+          "other": "{{count}} Artículos",
+          "one": "{{count}} Artículo"
         }
       },
       "no_address_location": {
@@ -624,7 +625,8 @@
         "blocks": {
           "payment_method_title": "Pago",
           "review_title_free_order": "Revisa y completa tu pedido"
-        }
+        },
+        "review_title": "Revisar pedido"
       }
     },
     "errors": {
@@ -652,7 +654,8 @@
           "start_free_trial": "Iniciar una prueba gratuita"
         },
         "heros": {
-          "no_storefront": "Esta tienda aún no tiene página web."
+          "no_storefront": "Esta tienda aún no tiene página web.",
+          "store_unavailable": "Lo sentimos, esta tienda no está disponible actualmente."
         }
       }
     },

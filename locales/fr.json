@@ -473,7 +473,8 @@
         },
         "address_form": {
           "save": "Sauvegarder",
-          "generic_error": "Il y a eu un problème pour sauvegarder votre adresse.  Veuillez réessayer."
+          "generic_error": "Il y a eu un problème pour sauvegarder votre adresse.  Veuillez réessayer.",
+          "add_address": "Ajoutez l'adresse"
         },
         "address_delete": "Supprimer l'adresse",
         "address_more": "Plus d'actions pour cette adresse",
@@ -482,7 +483,8 @@
         "edit": "Éditer",
         "merchandise_quantity_label_inline_primary": "Quantité: %{quantity}",
         "different_shipping_method_summary": "Entrez une adresse de livraison différente pour voir les méthodes d'expédition disponibles",
-        "enter_address_manually_label": "Entrez l'adresse manuellement"
+        "enter_address_manually_label": "Entrez l'adresse manuellement",
+        "shipping_information_required_notice": "Les informations sur l'expédition sont obligatoires. {{link}}."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -580,7 +582,8 @@
         "customer_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> n'est pas disponible pour vous pour le moment",
         "price_per_item": {
           "label": "%{price} \/Ea"
-        }
+        },
+        "higher_value_discount_applied": "Le <strong style=\"text-transform:uppercase\">%{code}<\/strong> ne pouvait pas être utilisé avec vos réductions existantes. Vous avez déjà une meilleure combinaison."
       },
       "wallets": {
         "errors": {
@@ -592,7 +595,8 @@
       "field_errors": {
         "credit_card_month_invalid": "Entrez un mois d'expiration de carte valide",
         "address_zip_too_long": "ZIP\/code postal est trop long (le maximum est de 255 caractères)",
-        "credit_card_expiry_invalid": "Entrez une date d'expiration de carte valide"
+        "credit_card_expiry_invalid": "Entrez une date d'expiration de carte valide",
+        "address_phone_invalid": "Entrez un numéro de téléphone valide"
       },
       "general": {
         "map": {
@@ -666,7 +670,8 @@
     "notices": {
       "line_item": {
         "item_status": {
-          "add_variant": "Ajouté %{delta}"
+          "add_variant": "Ajouté %{delta}",
+          "increment_item": "Ajouté %{delta}"
         }
       }
     }

@@ -514,7 +514,8 @@
             "default": "Set als Standard",
             "name": "Numm op der Kaart"
           },
-          "title": "Kaarter änneren"
+          "title": "Kaarter änneren",
+          "description": "Dir kënnt nëmme d' Biller-Adress vung."
         },
         "order_edit_banner_items_returned": {
           "in_full": "Zréckkomm"
@@ -684,7 +685,9 @@
           "without_separator": "%{firstMethod}, %{secondMethod}"
         },
         "missing_shipping_address": "Versandadress feelt",
-        "address_delete": "Adress läschen"
+        "address_delete": "Adress läschen",
+        "free_rate_label": "fräi",
+        "address_more": "Méi Aktiounen fir dës Adress"
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -1549,7 +1552,8 @@
         "order_due_on_fulfillment_payment": "Är Kaart gëtt berechent wann Är Bestellung erfëllt ass.",
         "deferred_payment_label": "Wielt spéider Bezuelmethod",
         "draft_order_payment_due_later_no_terms_payment_selected": "Är Kaart gëtt berechent wann Är Bestellung bestätegt ass.",
-        "order_due_on_fulfillment_choose_later": "Är Bezuelung gëtt verfollegt wann Är Bestellung erfëllt ass."
+        "order_due_on_fulfillment_choose_later": "Är Bezuelung gëtt verfollegt wann Är Bestellung erfëllt ass.",
+        "draft_order_payment_due_later_no_terms": "Är Bezuelung wäert sinn nodeems Är Bestellung bestätegt ass."
       },
       "review": {
         "title": "Iwwerpréiwung",
@@ -1783,7 +1787,8 @@
           },
           "detour": {
             "queue": "Dir sidd an enger Schlaang fir d'Kasse gesat. Zoumaachen {{walletName}} fir weiderzemaachen.",
-            "stock_problems": "E puer Elementer sinn net méi verfügbar. Zoumaachen {{walletName}} a probéiert nach eng Kéier."
+            "stock_problems": "E puer Elementer sinn net méi verfügbar. Zoumaachen {{walletName}} a probéiert nach eng Kéier.",
+            "price_change": "E puer Element Präisser hu geännert. Zoumaachen {{walletName}} fir Är Bestellung ze iwwerpréiwen a probéiert nach eng Kéier."
           },
           "unsupported": {
             "postal_code": "Dës Plaz gëtt net ënnerstëtzt",
@@ -1847,7 +1852,8 @@
           "one": "%{count} Pickup Point bei Ärer Location"
         },
         "change": "Änneren",
-        "waiting_on_pickup_point_location_notice": "Sich no Pickup Punkten ..."
+        "waiting_on_pickup_point_location_notice": "Sich no Pickup Punkten ...",
+        "location_is_currently_closed": "Zougemaach"
       },
       "marketplaces": {
         "legal_notice": {
@@ -2217,7 +2223,8 @@
             "last_30_days": "Lescht 30 Deeg",
             "last_90_days": "Lescht 90 Deeg",
             "end_date": "Enndailg",
-            "custom": "&amp; Benotzen"
+            "custom": "&amp; Benotzen",
+            "start_date": "Startdatum"
           },
           "clear_section": "Seksion",
           "apply": "Bewerbung"
@@ -2874,7 +2881,8 @@
         "added_with_quantity": "{{quantity}} dobäigesat",
         "added": "Dobäigesat",
         "returned_with_quantities": "{{delta}} A {{total}} Erfägt",
-        "returned": "Zréckkomm"
+        "returned": "Zréckkomm",
+        "removed_with_quantities": "{{delta}} A {{total}} Eweggest"
       },
       "marketing_checkbox_label": "E-Mail mech mat Neiegkeeten an Offeren",
       "paid_with_shop_pay_installments_card": {

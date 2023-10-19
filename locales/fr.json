@@ -663,7 +663,8 @@
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "other": "Certains articles de votre panier ne peuvent pas être expédiés à l'adresse que vous avez saisie. Vérifiez que tous les champs de votre adresse ont été renseignés correctement, puis réessayez."
+          "other": "Certains articles de votre panier ne peuvent pas être expédiés à l'adresse que vous avez saisie. Vérifiez que tous les champs de votre adresse ont été renseignés correctement, puis réessayez.",
+          "one": "Il n'est pas possible d'expédier cette commande à l'adresse que vous avez saisie. Vérifiez que tous les champs de votre adresse ont été renseignés correctement, puis réessayez."
         },
         "title": "Expédition non disponible"
       },

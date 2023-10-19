@@ -44,14 +44,16 @@
             "september": "september",
             "may": "Kan",
             "july": "juli",
-            "november": "november"
+            "november": "november",
+            "january": "januar"
           },
           "weekdays_abbreviation": {
             "monday": "Mo",
             "thursday": "Th",
             "friday": "Fr",
             "tuesday": "At",
-            "sunday": "Hans"
+            "sunday": "Hans",
+            "wednesday": "Vi"
           },
           "weekdays": {
             "tuesday": "tirsdag",
@@ -68,7 +70,8 @@
           "show_next_month": "Vis neste måned, {{month}} {{year}}",
           "range_end": "Rekkevidde slutt",
           "range_start": "Rekkevidde start",
-          "in_range": "Innen rekkevidde"
+          "in_range": "Innen rekkevidde",
+          "show_previous_month": "Vis forrige måned, {{month}} {{year}}"
         },
         "list_formatter": {
           "or": {
@@ -337,7 +340,8 @@
         "unpurchasable_product": {
           "message": "Disse varene er ikke tilgjengelige for B2B-bestillinger.",
           "status_column_header": "Ikke tilgjengelig",
-          "title": "Produkt som ikke kan kjøpes"
+          "title": "Produkt som ikke kan kjøpes",
+          "header": "Noen varer ble fjernet fra handlekurven din"
         },
         "unpurchasable_product_generic": {
           "header": "Noen varer ble fjernet fra handlekurven din",
@@ -349,7 +353,8 @@
         "quantity_column_header": "Mengde",
         "remove": "Ta bort",
         "price_update": {
-          "title": "Prisoppdatering"
+          "title": "Prisoppdatering",
+          "description": "Prisene på disse varene er endret og oppdateres i handlekurven."
         },
         "page_title": "Inventarproblemer",
         "out_of_stock": {
@@ -495,7 +500,8 @@
         "split_cart_merchandise_quantity_label_additional": "++ %{quantity} Meg",
         "shipping_rate_discounted_amount": "Var: %{original_amount}. Nå: %{amount}",
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Oppføringar",
-        "add_delivery_instructions": "Legge til leveringsinstruksjoner"
+        "add_delivery_instructions": "Legge til leveringsinstruksjoner",
+        "address2_add_label": "Legg til leilighet, suite, etc."
       },
       "localized_fields": {
         "additional_information": {
@@ -1547,7 +1553,8 @@
           },
           "formatting": {
             "postal_code_contains_emoji": "Slett emoji fra postnummeret ditt",
-            "last_name_too_long": "Etternavn inneholder for mange bokstaver"
+            "last_name_too_long": "Etternavn inneholder for mange bokstaver",
+            "name_contains_emojis": "Slett emoji fra navnet ditt"
           },
           "missing": {
             "city": "Skriv inn en by",
@@ -1617,7 +1624,8 @@
       "no_address_location": {
         "header": "Du har ikke en leveringsadresse for dette stedet",
         "email_us_button_label": "Send oss en e-post",
-        "message": "Kontakt oss for å legge til en adresse for dette stedet for å fullføre kassen."
+        "message": "Kontakt oss for å legge til en adresse for dette stedet for å fullføre kassen.",
+        "title": "Plassering uten adresse"
       },
       "session_errors": {
         "session_already_finished": "Denne bestillingen er allerede sendt. Du kan gå tilbake til butikken for å starte en ny bestilling.",
@@ -1845,7 +1853,9 @@
         "more_than_maximum": "Denne varen har maksimalt %{max}.",
         "product_not_available": "Produktet er ikke tilgjengelig",
         "stock_problems_html": "En eller flere varer er ikke lenger tilgjengelig. Vi har gitt en <a href='%{link}'>oppdatert handlekurv<\/a>.",
-        "variant_not_found": "Finner ikke variant"
+        "variant_not_found": "Finner ikke variant",
+        "generic_error": "Handlevognfeil",
+        "not_respect_step": "Du kan bare legge til dette elementet i multipler av %{step}."
       },
       "address": {
         "created": "Vellykket opprettet adresse",
@@ -2212,7 +2222,8 @@
         },
         "submitted_label": "Sendt inn",
         "confirmed_gift_card_additional_description_text": {
-          "other": "Hvert gavekort sendes i egen tekst."
+          "other": "Hvert gavekort sendes i egen tekst.",
+          "one": "Gavekort sendes i egen tekst."
         },
         "delivered_description_digital": "Bestillingen din er fullført.",
         "on_its_way_description": "Denne forsendelsen er på vei.",
@@ -2234,7 +2245,8 @@
           "order_tracking_link": {
             "new_window_disclaimer": "(åpner et nytt vindu)"
           }
-        }
+        },
+        "confirmed_label": "Bekreftet"
       },
       "group_title_label": "Del av: {{groupTitle}}",
       "buy_again": "Kjøp igjen",
@@ -2706,6 +2718,9 @@
         "refresh_button": "Oppdater side",
         "description": "Oppdater denne sida eller prøv igjen om noen minutt.",
         "title": "Feil"
+      },
+      "load_paypal_error": {
+        "description": "Det er et problem med å laste inn PayPal. Vær så snill, prøv på nytt."
       }
     },
     "payment_methods": {
@@ -2891,7 +2906,8 @@
       "june": "juni",
       "minimumReached": "Minste av {{value}} Nådd",
       "sunday": "søndag",
-      "september": "september"
+      "september": "september",
+      "tuesday": "tirsdag"
     },
     "profile_preview_bar": {
       "saved_at": "Lagrat {{date}} Kje {{time}}",

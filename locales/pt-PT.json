@@ -467,7 +467,8 @@
         "shipping_method_notice": "Observação: os pedidos não podem ser alterados ou cancelados depois de feitos. Para alterar um pedido, siga a política de trocas e devoluções.",
         "enter_address_manually_label": "Introduza o endereço manualmente",
         "address_form": {
-          "save": "Salvar"
+          "save": "Salvar",
+          "one_time_address_subtitle": "Use um endereço único para este pedido"
         },
         "split_cart_merchandise_shipment_number": "Transferência %{number} de %{total}",
         "add_address": "Usar um endereço diferente",
@@ -495,7 +496,8 @@
       },
       "stock": {
         "price_update": {
-          "title": "Atualização de preços"
+          "title": "Atualização de preços",
+          "description": "Os preços destes artigos foram alterados e são atualizados no seu carrinho."
         },
         "items_unavailable_notice": "Alguns itens já não estão disponíveis. O seu carrinho foi atualizado.",
         "item_label": {
@@ -535,7 +537,8 @@
             "default": "Definir como padrão",
             "billing": "projeto de lei para"
           },
-          "done": "Feito"
+          "done": "Feito",
+          "description": "Só pode modificar a morada de faturação do seu cartão."
         },
         "use_location_billing_address_label": "Utilizar o endereço de faturação da localização",
         "use_order_billing_address_label": "Utilizar o endereço de faturação da encomenda",
@@ -588,7 +591,8 @@
           "currency_mismatch": "Só são aceites cartões-presente em %{shop_currency}",
           "insufficient_funds": "Este vale-presente não tem mais fundos",
           "invalid": "Insira um vale-presente válido",
-          "not_available": "Este vale-presente não está mais disponível"
+          "not_available": "Este vale-presente não está mais disponível",
+          "expired": "Este vale-presente expirou"
         }
       },
       "general": {
@@ -667,7 +671,8 @@
           },
           "editions": {
             "header": "Confira as edições do Shopify",
-            "link_text": "Explore as edições mais recentes"
+            "link_text": "Explore as edições mais recentes",
+            "caption": "Com 100+ atualizações de produtos, você pode ser mais produtivo e criativo, e poderoso no comércio do que você jamais imaginou."
           }
         },
         "title": "Crie um site de comércio eletrônico e venda on-line!  Software de comércio eletrônico da Shopify",

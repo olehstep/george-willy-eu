@@ -494,11 +494,15 @@
         },
         "saved_credit_card_actions": {
           "delete": "Excluir"
-        }
+        },
+        "use_location_shipping_address_label": "Utilize a morada de envio da localização"
       },
       "order_summary": {
         "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto",
-        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> não pôde ser utilizado com os teus descontos existentes. Já possuis uma combinação superior."
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> não pôde ser utilizado com os teus descontos existentes. Já possuis uma combinação superior.",
+        "price_per_item": {
+          "label": "%{price}\/EA"
+        }
       },
       "review": {
         "blocks": {
@@ -521,6 +525,11 @@
             "one": "Agrupamento do marcador {{number}}"
           }
         }
+      },
+      "billing": {
+        "address_form": {
+          "save": "Salvar"
+        }
       }
     },
     "errors": {
@@ -530,7 +539,8 @@
         },
         "ctas": {
           "store_owner": {
-            "shopify_support_link_text": "Suporte da Shopify"
+            "shopify_support_link_text": "Suporte da Shopify",
+            "caption": "Está a ter problemas para entrar na sua loja?  Experimente a funcionalidade %{forgot_your_store_link}.  Se pretender reativar a sua loja, contacte %{shopify_support_link}."
           },
           "open_a_store": {
             "link_text": "Inscreva-se agora"
@@ -560,7 +570,8 @@
       "friday": "Sexta-feira",
       "inRange": "No intervalo",
       "tuesdayAbbreviation": "Você",
-      "february": "Fevereiro"
+      "february": "Fevereiro",
+      "mondayAbbreviation": "Mo"
     },
     "order_details": {
       "edit_summary": {
@@ -570,6 +581,11 @@
     "errors": {
       "load_extension_error": {
         "description": "Atualize esta página ou tente novamente em alguns minutos."
+      }
+    },
+    "orders": {
+      "order_status": {
+        "there_was_a_problem_label": "Houve um problema"
       }
     }
   }

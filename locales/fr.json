@@ -508,7 +508,8 @@
           }
         },
         "purchase_options_agreement_label_wallets": "En poursuivant votre paiement, vous acceptez les frais futurs indiqués sur cette page et la politique d'annulation.",
-        "payment_method": "Mode de paiement"
+        "payment_method": "Mode de paiement",
+        "discount_button_action_label": "Appliquer un code de réduction"
       },
       "stock": {
         "price_update": {
@@ -566,7 +567,11 @@
         "owner_ctas": {
           "fix_domain_link_text": "Vos paramètres de domaine",
           "header": "Êtes-vous le propriétaire du magasin ?",
-          "fix_domain": "Terminez la configuration de votre nouvelle adresse Web, accédez à %{domain_settings_link} .  Cliquez sur «Connecter le domaine» et entrez: %{domain} .<br>Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page."
+          "fix_domain": "Terminez la configuration de votre nouvelle adresse Web, accédez à %{domain_settings_link} .  Cliquez sur «Connecter le domaine» et entrez: %{domain} .<br>Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page.",
+          "add_storefront": "Vous pouvez configurer votre site Web en ajoutant le canal Boutique en ligne dans votre %{admin_link} .  Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page."
+        },
+        "links": {
+          "start_free_trial": "Commencer un essai gratuit"
         }
       }
     },
@@ -603,7 +608,8 @@
           "date": {
             "last_90_days": "90 derniers jours",
             "today": "Aujourd'hui"
-          }
+          },
+          "clear_section": "Section claire"
         }
       }
     },

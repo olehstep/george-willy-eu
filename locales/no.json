@@ -149,7 +149,8 @@
         "optional_address2_label": "Leilighet, suite osv. (valgfritt)",
         "first_name_label": "Fornavn",
         "optional_phone_label": "Telefon valgfritt)",
-        "prefecture_placeholder": "Prefektur"
+        "prefecture_placeholder": "Prefektur",
+        "postal_code_label": "Postnummer"
       },
       "order_summary": {
         "shipping_policy_link": "Fraktkostnader",
@@ -253,7 +254,8 @@
         "total_updated_label": "Oppdatert totalpris:",
         "gift_card_and_discount_placeholder": "Gavekort eller rabattkode",
         "collapse_component_information": {
-          "one": "Skjul %{count} element"
+          "one": "Skjul %{count} element",
+          "other": "Skjul %{count} elementer"
         },
         "error_duties_tooltip": "Denne bestillingen sendes fra et annet land, så toll og avgifter kan bli belastet ved levering.",
         "group_title_label": "Del av «%{group_title}»",
@@ -399,7 +401,11 @@
         "shipping_line_phone_label": "Mobilnummer (påkrevd)",
         "shipping_used_as_billing_notice": "Dette vil også bli brukt som faktureringsadresse for denne bestillingen.",
         "invalid_shipping_method_summary": "Skriv inn en gyldig leveringsadresse for å se tilgjengelige forsendelsesmetoder",
-        "address_delete": "Slett adresse"
+        "address_delete": "Slett adresse",
+        "local_pickup": {
+          "rollup_title": "Hentested"
+        },
+        "enter_address_manually_label": "Skriv inn adresse manuelt"
       },
       "localized_fields": {
         "additional_information": {
@@ -530,7 +536,8 @@
         "purchase_options_cancellation_policy_label": "avbestillingsregler",
         "markets_pro_disclaimer_label": "Ved å klikke nedenfor og fullføre bestillingen, godtar du å kjøpe varen(e) fra Global-e som registrert forhandler for denne transaksjonen, på Global-e %{markets_pro_terms} og %{privacy_policy}. Global-e er en internasjonal leverandør av oppfyllelsestjenester til %{shop_name}",
         "saved_credit_cards_modal": {
-          "view_all_label": "Vis alle lagrede kort"
+          "view_all_label": "Vis alle lagrede kort",
+          "done": "Gjort"
         },
         "use_different_credit_card_label": "Bruk et annet kort",
         "no_js_credit_card_fields_redirect_hint": "Du vil bli omdirigert for å legge til betalingsinformasjonen din.",
@@ -584,7 +591,9 @@
         "edit_credit_card_modal": {
           "done": "Gjort"
         },
-        "local_payment_method_receiver_notice": "Etter at du har lagt inn bestillingen din, vil du motta betalingsinformasjon. Foreta betalingen i en minibank eller online innen {{dueDays}} dager."
+        "local_payment_method_receiver_notice": "Etter at du har lagt inn bestillingen din, vil du motta betalingsinformasjon. Foreta betalingen i en minibank eller online innen {{dueDays}} dager.",
+        "billing_address_associated_with_mandate_info": "Hvis du ønsker å endre faktureringsadressen din, vennligst fjern og skriv inn kredittkortopplysningene dine på nytt",
+        "subscription_heading": "Avtale om abonnement"
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -976,7 +985,8 @@
         },
         "thank_you_ready_for_picked_up": "Bestillingen din ble hentet på %{address}.",
         "in_transit": "På vei",
-        "order_status_payments_app_pending_payment_description_default_with_email": "Du får en e-post med bekreftelse snart.  Følg bestillingen din ved hjelp av Shop-appen."
+        "order_status_payments_app_pending_payment_description_default_with_email": "Du får en e-post med bekreftelse snart.  Følg bestillingen din ved hjelp av Shop-appen.",
+        "manage_order_label": "Administrer bestillingen din"
       },
       "marketing": {
         "sms": {
@@ -1292,7 +1302,8 @@
           "generic": "Det oppstod et problem med {{walletName}}. Prøv på nytt eller bruk en annen betalingsmetode.",
           "detour": {
             "price_change": "Noen varepriser er endret. Lukk {{walletName}} for å se gjennom bestillingen, og prøv på nytt."
-          }
+          },
+          "terminal": "Det oppstod et problem med {{walletName}}. Vennligst bruk en annen betalingsmetode."
         },
         "shipping_line_label": "Shipping",
         "payment_in_progress_body": "Betalingen din blir behandlet. Bestillingen din vil bli fullført snart.",
@@ -2534,7 +2545,8 @@
       "adding_to_cart": "Legger til",
       "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> beregnes i kassen.",
       "reviews_link": {
-        "one": "Anmeldelse"
+        "one": "Anmeldelse",
+        "other": "Anmeldelser"
       },
       "vendor": "Av",
       "unit_price_separator": " \/ ",

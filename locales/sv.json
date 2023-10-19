@@ -137,7 +137,8 @@
           "date": {
             "last_7_days": "Senaste 7 dagar",
             "today": "I dag",
-            "last_90_days": "Senaste 90 dagar"
+            "last_90_days": "Senaste 90 dagar",
+            "custom": "Beställnings"
           },
           "clear_section": "Rensa sektionen"
         }
@@ -462,13 +463,15 @@
         "shipping_address_title": "Frakta till",
         "address_form": {
           "one_time_address_subtitle": "Använd en engångsadress för den här beställningen"
-        }
+        },
+        "address_confirm": "Är du säker på att du vill ta bort den här adressen från ditt konto?"
       },
       "stock": {
         "out_of_stock": {
           "items_unavailable": "Vissa varor är inte längre tillgängliga och har tagits bort från din kundvagn."
         },
-        "items_unavailable_notice": "Vissa objekt är inte längre tillgängliga. Din e-postadress har uppdaterats"
+        "items_unavailable_notice": "Vissa objekt är inte längre tillgängliga. Din e-postadress har uppdaterats",
+        "continue_cta_label": "Fortsätt kassan"
       },
       "review": {
         "blocks": {
@@ -487,7 +490,8 @@
       "field_errors": {
         "credit_card_month_invalid": "Ange en giltig utgångsmånad för kortet",
         "gift_card_already_applied": "Detta presentkort har redan tillämpats på din beställning",
-        "tips_invalid_tip_amount": "Ange dricks som inte är större än %{amount}"
+        "tips_invalid_tip_amount": "Ange dricks som inte är större än %{amount}",
+        "address_zip_too_long": "Postnummer \/ postnummer är för lång (högst 255 tecken)"
       },
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_email": "Du får en bekräftelse mejl snart.  Följ din beställning med appen Shop."
@@ -508,7 +512,12 @@
         "expired_payment_method": "Vald betalningsmetod har upphört att gälla",
         "add_credit_card_modal": {
           "cancel": "Annullera"
-        }
+        },
+        "subscription_heading": "Abonnemangsavtal",
+        "order_edit_banner_items_returned": {
+          "with_quantities": "{{delta}} Av {{quantity}} Returnerades"
+        },
+        "use_order_billing_address_label": "Använd orderfakturadress"
       },
       "billing": {
         "address_form": {

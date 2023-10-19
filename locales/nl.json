@@ -476,7 +476,10 @@
         "enter_address_manually_label": "Voer het adres handmatig in",
         "address_edit": "Verander adres",
         "merchandise_quantity_label_inline_primary": "Hoeveelheid: %{quantity}",
-        "invalid_shipping_method_summary": "Voer een geldig verzendadres in om de beschikbare verzendmethoden te bekijken"
+        "invalid_shipping_method_summary": "Voer een geldig verzendadres in om de beschikbare verzendmethoden te bekijken",
+        "method_summary": {
+          "incomplete_address_selected": "Selecteer een volledig verzendadres om de beschikbare verzendmethoden te bekijken"
+        }
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
@@ -485,7 +488,8 @@
         "purchase_options_agreement_label_wallets": "Als u doorgaat met uw betaling, gaat u akkoord met de toekomstige kosten die op deze pagina worden vermeld en met het annuleringsbeleid.",
         "edit_credit_card_modal": {
           "fields": {
-            "default": "Instellen als standaard"
+            "default": "Instellen als standaard",
+            "name": "naam op kaart"
           },
           "done": "Klaar"
         },
@@ -564,7 +568,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "currency_mismatch": "Alleen cadeaubonnen in %{shop_currency} Worden geaccepteerd"
+          "currency_mismatch": "Alleen cadeaubonnen in %{shop_currency} Worden geaccepteerd",
+          "insufficient_funds": "Deze cadeaubon heeft geen saldo meer"
         }
       },
       "store_credit_errors": {
@@ -585,7 +590,8 @@
         "title": "Maak een e-commerce website en verkoop online!  E-commercesoftware door Shopify",
         "owner_ctas": {
           "add_storefront": "U kunt uw website instellen door het Online Store-kanaal toe te voegen aan uw %{admin_link} .  Als je problemen hebt om in je winkel te komen, probeer dan de %{forgot_your_store_link} Pagina.",
-          "admin_link_text": "Admin"
+          "admin_link_text": "Admin",
+          "fix_domain_link_text": "Uw domeininstellingen"
         }
       }
     }
@@ -612,7 +618,8 @@
       "rangeStart": "Start van het bereik",
       "closeModal": "Dichtbij",
       "removeItem": "Verwijderen {{label}}",
-      "wednesdayAbbreviation": "We"
+      "wednesdayAbbreviation": "We",
+      "minimumReached": "Minimum van {{value}} Bereikt"
     },
     "orders": {
       "order_list": {

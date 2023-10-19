@@ -463,14 +463,16 @@
       "shipping": {
         "shipping_method_notice": "Tenga en cuenta: los pedidos no se pueden cambiar ni cancelar una vez realizados. Para cambiar un pedido, siga la política de devoluciones y cambios.",
         "address_form": {
-          "generic_error": "Hubo un problema al guardar su dirección.  Inténtalo de nuevo."
+          "generic_error": "Hubo un problema al guardar su dirección.  Inténtalo de nuevo.",
+          "save": "Ahorrar"
         },
         "split_cart_merchandise_shipment_number": "Envío %{number} De %{total}",
         "invalid_shipping_method_summary": "Ingrese una dirección de envío válida para ver los métodos de envío disponibles",
         "method_summary": {
           "incomplete_address_selected": "Seleccione una dirección de envío completa para ver los métodos de envío disponibles"
         },
-        "split_cart_merchandise_quantity_label_standard": "%{quantity} Artículos"
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} Artículos",
+        "different_shipping_method_summary": "Ingrese una dirección de envío diferente para ver los métodos de envío disponibles"
       },
       "order_summary": {
         "price_per_item": {
@@ -494,21 +496,33 @@
           "in_full": "devuelto"
         },
         "order_edit_banner_items_removed": {
-          "with_quantities": "{{delta}} De {{quantity}} Eliminado"
+          "with_quantities": "{{delta}} De {{quantity}} Eliminado",
+          "in_full": "Remoto"
         },
         "payment_method": "Método de pago",
-        "use_location_shipping_address_label": "Utilizar la dirección de envío de ubicación"
+        "use_location_shipping_address_label": "Utilizar la dirección de envío de ubicación",
+        "subscription_agreement_cancelled": "cancelada",
+        "add_credit_card_modal": {
+          "save": "Ahorrar"
+        },
+        "edit_credit_card_modal": {
+          "fields": {
+            "name": "Nombre en la tarjeta"
+          }
+        }
       },
       "redeemable_errors": {
         "gift_card": {
           "expired": "Esta tarjeta de regalo ha caducado",
           "insufficient_funds": "A esta tarjeta de regalo no le quedan fondos",
-          "not_available": "Esta tarjeta de regalo ya no está disponible"
+          "not_available": "Esta tarjeta de regalo ya no está disponible",
+          "duplicate": "La tarjeta de regalo ya se ha aplicado a su pedido"
         }
       },
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_email": "Recibirá un correo electrónico de confirmación pronto.  Rastree su pedido utilizando la aplicación Shop.",
-        "order_status_payments_app_pending_payment_description_default_with_phone": "Pronto recibirás un mensaje de confirmación.  Rastree su pedido utilizando la aplicación Shop."
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Pronto recibirás un mensaje de confirmación.  Rastree su pedido utilizando la aplicación Shop.",
+        "order_status_payments_app_failed_pending_payment": "No le cobraron por su pedido.  Regrese a su carrito para revisar su pedido y pagar de nuevo."
       },
       "general": {
         "map": {
@@ -524,7 +538,8 @@
       },
       "billing": {
         "address_form": {
-          "save": "Ahorrar"
+          "save": "Ahorrar",
+          "add_address": "Añadir dirección"
         },
         "add_address": "Usar una dirección diferente"
       },
@@ -545,6 +560,12 @@
       },
       "note": {
         "length_exceeds_maximum": "Reduzca el tamaño de la nota a 5000 caracteres o menos."
+      },
+      "payment_errors": {
+        "invalid_expiry_date": "Introduce una fecha de expiración de tarjeta válida"
+      },
+      "contact": {
+        "title": "Información"
       }
     },
     "errors": {
@@ -562,6 +583,9 @@
           "forgot_your_store_link_text": "Olvidé tu tienda",
           "admin_link_text": "Admin",
           "add_storefront": "Puede configurar su sitio web agregando el canal Tienda en línea en su %{admin_link} .  Si tiene problemas para ingresar a su tienda, pruebe el %{forgot_your_store_link} Página."
+        },
+        "links": {
+          "start_free_trial": "Iniciar una prueba gratuita"
         }
       }
     },
@@ -589,7 +613,11 @@
         "one": "{{count}} Artículo disponible"
       },
       "minimumReached": "Mínimo de {{value}} Alcanzada",
-      "submit": "Entregar"
+      "submit": "Entregar",
+      "inRange": "En el rango",
+      "may": "Puede",
+      "tuesday": "martes",
+      "wednesday": "miércoles"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",
@@ -606,13 +634,15 @@
         "filter": {
           "date": {
             "title": "Fecha de orden"
-          }
+          },
+          "apply": "Solicitar"
         }
       }
     },
     "order_details": {
       "edit_summary": {
-        "returned": "devuelto"
+        "returned": "devuelto",
+        "removed_with_quantities": "{{delta}} De {{total}} Eliminado"
       }
     },
     "B2B": {

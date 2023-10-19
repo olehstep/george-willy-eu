@@ -208,7 +208,8 @@
             "october": "Oktober",
             "august": "August",
             "september": "September",
-            "march": "Mäerz"
+            "march": "Mäerz",
+            "february": "Februar"
           }
         },
         "datepicker": {
@@ -226,7 +227,8 @@
             "twoWordConnector": "{{firstWord}} oder {{secondWord}}"
           },
           "and": {
-            "wordConnector": "{{previousWords}}, {{anotherWord}}"
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, an {{lastWord}}"
           },
           "narrow": {
             "twoWordConnector": "{{firstWord}}, {{secondWord}}"
@@ -443,6 +445,9 @@
         "payment_method": "Bezuelmethod",
         "edit_credit_card_modal": {
           "done": "Gemaach"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Zréckkomm"
         }
       },
       "shipping": {
@@ -658,6 +663,12 @@
         },
         "discount_discovery": {
           "add_code": "Füügt Remise"
+        },
+        "expand_component_information": {
+          "other": "Show %{count} Artikelen"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} Per item"
         }
       },
       "processing": {
@@ -1282,7 +1293,8 @@
         "sold_out_label": "Ausverkaaft",
         "title": "Net op Lager",
         "quantity_update": {
-          "title": "Quantitéit Update"
+          "title": "Quantitéit Update",
+          "page_title": "Quantitéit Update"
         },
         "quantity_column_header": "Quantitéit",
         "unshippable_product": {
@@ -1489,7 +1501,8 @@
       },
       "notice_banner": {
         "individual_violations_title": {
-          "OtherViolations": "Bestellung Informatiounen"
+          "OtherViolations": "Bestellung Informatiounen",
+          "PaymentViolations": "Rechnungsadress"
         },
         "subscription_changed": "Ee vun Ären Abonnementer huet geännert.",
         "violations_title": "{{violation}} fehlt oder ongëlteg",
@@ -1583,7 +1596,10 @@
           }
         },
         "search_button": "Sichen",
-        "selector_tabs": "Pickup Point Selector"
+        "selector_tabs": "Pickup Point Selector",
+        "number_of_pickup_points_near_location": {
+          "other": "%{count} Pickup Punkten no bei Ärer Plaz"
+        }
       },
       "marketplaces": {
         "legal_notice": {
@@ -1927,7 +1943,9 @@
         "filter_title": "Filter",
         "filter": {
           "date": {
-            "today": "Haut"
+            "today": "Haut",
+            "last_365_days": "Lescht 12 Maanden",
+            "last_30_days": "Lescht 30 Deeg"
           }
         }
       },
@@ -2564,7 +2582,8 @@
       "marketing_description": "Dir kritt Marketing E-Maile. Dir kënnt zu all Moment ofmellen.",
       "pickup": {
         "pickup": "Ophiewen"
-      }
+      },
+      "not_applicable": "N\/A"
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",
@@ -2648,7 +2667,8 @@
       "showPreviousMonth": "Weisen {{month}}  {{year}}",
       "maximumReached": "Maximum vunt {{value}} Erréucht",
       "rangeEnd": "Range Enn",
-      "submit": "Ofginn"
+      "submit": "Ofginn",
+      "may": "Mee"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:"

@@ -491,7 +491,8 @@
         "edit_credit_card_modal": {
           "description": "Du kan kun ændre faktureringsadressen på dit kort.",
           "fields": {
-            "default": "Indstillet som standard"
+            "default": "Indstillet som standard",
+            "name": "Navn på kort"
           }
         },
         "delete_credit_card_modal": {
@@ -500,7 +501,8 @@
         "subscription_agreement_label": "Jeg forstår, at jeg accepterer et abonnement. Det fornys til den pris og med den hyppighed, der er angivet, indtil det ophører eller %{cancelled}.",
         "subscription_heading": "Abonnementsaftalen",
         "use_location_billing_address_label": "Brug adresse",
-        "purchase_options_agreement_label_wallets": "Ved at fortsætte med din betaling, accepterer du de fremtidige gebyrer, der er anført på denne side, og afbestillingspolitikken."
+        "purchase_options_agreement_label_wallets": "Ved at fortsætte med din betaling, accepterer du de fremtidige gebyrer, der er anført på denne side, og afbestillingspolitikken.",
+        "business_customer_vaulting_payment_label": "Gem dette kort til fremtidige køb for denne lokation. Jeg giver %{company} tilladelse til at debitere denne betalingsmetode for fremtidige køb for denne lokation. Enhver kontakt, der er tildelt denne lokation, er autoriseret til at bruge dette kort."
       },
       "stock": {
         "out_of_stock": {
@@ -526,7 +528,8 @@
         "discount_order_stacking": {
           "other": "Ordrerrabatt"
         },
-        "shipping_default_value": "Beregnet ved næste trin"
+        "shipping_default_value": "Beregnet ved næste trin",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kunne ikke bruges med dine eksisterende rabatter. Du har allerede en bedre kombination."
       },
       "redeemable_errors": {
         "gift_card": {

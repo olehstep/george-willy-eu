@@ -272,7 +272,8 @@
         },
         "price_per_item": {
           "label": "%{price} \/Ea"
-        }
+        },
+        "discount_placeholder": "Rabattkode"
       },
       "stock": {
         "title": "Utsolgt",
@@ -554,7 +555,8 @@
           "payment_tag": "Gavekort",
           "apply_gift_card_label": "Bruk et gavekort",
           "heading": "Gavekort",
-          "gift_card_label": "Gavekort %{identifier}"
+          "gift_card_label": "Gavekort %{identifier}",
+          "apply_another_gift_card_label": "Bruk eit nytt gavekort"
         },
         "order_edit_banner_multiple_items_returned": "{{amount}} returnert",
         "card_fields": {
@@ -613,7 +615,8 @@
         },
         "markets_pro_disclaimer_terms_and_conditions": "Vilkår og betingelser",
         "purchase_order_number": {
-          "label": "Innkjøpsordrenummer (valgfritt)"
+          "label": "Innkjøpsordrenummer (valgfritt)",
+          "title": "Postnummer"
         },
         "purchase_options_agreement_label_html": "Jeg forstår at en eller flere varer i handlekurven min er et utsatt eller tilbakevendende kjøp. Ved å fortsette godtar jeg\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbestillingsregler<\/a>\nog autorisere deg til å belaste betalingsmåten min til prisene, frekvensen og datoene som er oppført på denne siden frem til min\nbestillingen er oppfylt eller jeg kansellerer, hvis det er tillatt.\n",
         "order_edit_banner_single_item_returned": "Returnert",
@@ -736,7 +739,8 @@
         "tips_invalid_tip_amount": "Skriv inn et tips ikke mer enn %{amount}",
         "address_province_blank": "Velg en stat\/provins",
         "address_country_invalid": "Velg et land\/område fra listen",
-        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Du har nådd grensen for utviklingsbutikkbestillinger med denne betalingsbehandleren. For å legge inn en annen bestilling, må du bruke en testbetalingsgateway. Lære mer om <a href=\"%{docs_link}\">testing av bestillinger i utviklingsbutikker<\/a>."
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Du har nådd grensen for utviklingsbutikkbestillinger med denne betalingsbehandleren. For å legge inn en annen bestilling, må du bruke en testbetalingsgateway. Lære mer om <a href=\"%{docs_link}\">testing av bestillinger i utviklingsbutikker<\/a>.",
+        "payment_gateway_unsupported_for_country": "Denne betalingsmåten er ikke tilgjengelig for leveringslandet ditt."
       },
       "processing": {
         "redirecting_page_title": "Omdirigerer …",
@@ -1070,7 +1074,12 @@
         },
         "delivered_local_description_html": "Har du ikke mottatt bestillingen din? %{let_us_know}.",
         "thank_you_confirmed_order_with_email_and_phone_pick_up": "Du vil motta en e-post når bestillingen din er klar for henting.",
-        "attempted_delivery_title": "Det ble gjort et forsøk på å levere bestillingen din"
+        "attempted_delivery_title": "Det ble gjort et forsøk på å levere bestillingen din",
+        "gift_card_confirmation_by_email_typ": {
+          "other": "Du vil motta en e-post med gavekortene dine om noen minutter."
+        },
+        "order_status_payments_app_failed_pending_payment": "Du ble ikke betalt for bestillingen.  Gå tilbake til vognen for å gjennomgå bestillingen og betale igjen.",
+        "location_title": "plassering"
       },
       "marketing": {
         "sms": {
@@ -1422,7 +1431,8 @@
         "subscription_changed": "Ett av abonnementene dine er endret.",
         "return_to_cart_link_text": "Gå tilbake til handlekurven",
         "company_location_changed": "Handlekurven din har blitt oppdatert. Se gjennom bestillingen før du sender den inn.",
-        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} for å oppdatere mengdene"
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} for å oppdatere mengdene",
+        "all_violations_content": "Ring eller {{emailLink}} oss for å oppdatere denne informasjonen og fullføre bestillingen:"
       },
       "discount_errors": {
         "generic_error": "Bestillingen kunne ikke behandles fordi rabattkoden ikke lenger er tilgjengelig. Se gjennom totalsummen for bestillingen, og prøv på nytt."
@@ -1442,7 +1452,8 @@
       },
       "no_address_location": {
         "header": "Du har ikke en leveringsadresse for dette stedet",
-        "email_us_button_label": "Send oss en e-post"
+        "email_us_button_label": "Send oss en e-post",
+        "message": "Kontakt oss for å legge til en adresse for dette stedet for å fullføre kassen."
       },
       "session_errors": {
         "session_already_finished": "Denne bestillingen er allerede sendt. Du kan gå tilbake til butikken for å starte en ny bestilling."
@@ -1538,7 +1549,8 @@
       "shop_404": {
         "heros": {
           "no_storefront": "Denne butikken har ingen nettsted ennå.",
-          "store_unavailable": "Denne butikken er ikkje tilgjengeleg."
+          "store_unavailable": "Denne butikken er ikkje tilgjengeleg.",
+          "store_not_exist": "Denne butikken finst ikkje."
         },
         "ctas": {
           "editions": {
@@ -1812,7 +1824,8 @@
           "previous": "Forrige",
           "nav_accessibility_label": "Bestiller navigasjonsknapper",
           "load_more": "Last mer",
-          "previous_accessibility_label": "Tidligere bestillinger"
+          "previous_accessibility_label": "Tidligere bestillinger",
+          "next_accessibility_label": "Neste bestillinger"
         },
         "order_status_message": {
           "list_view": {
@@ -2317,7 +2330,8 @@
         "search_location_title": "Velg et sted",
         "loading_store_accessibility_message": "Skal på butikk",
         "list_loading_finished_accessibility_message": "Liste over steder er lastet inn",
-        "search": "Søk etter et sted"
+        "search": "Søk etter et sted",
+        "no_locations_found": "Ingen steder funnet"
       },
       "orders": {
         "order_list_column_headers_contact": "Ta kontakt med",
@@ -2723,7 +2737,8 @@
       "subtotal": "Delsum",
       "item": "Punkt",
       "unit_price": "Varepris",
-      "keep_shopping": "Fortsett å handle"
+      "keep_shopping": "Fortsett å handle",
+      "total_price": "Totalpris"
     },
     "variant": {
       "no_stock": "Utsolgt",
@@ -2781,7 +2796,8 @@
       "name": "Navn",
       "phone": "Telefon",
       "email": "E-post",
-      "post_success": "Takk for at du kontaktet oss. Vi kommer tilbake til deg så snart som mulig."
+      "post_success": "Takk for at du kontaktet oss. Vi kommer tilbake til deg så snart som mulig.",
+      "message": "Beskjed"
     }
   },
   "onboarding": {

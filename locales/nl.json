@@ -517,7 +517,10 @@
           "other": "%{count} Toegevoegd"
         },
         "use_location_billing_address_label": "Het factuuradres van de locatie gebruiken",
-        "payment_method": "Betalingswijze"
+        "payment_method": "Betalingswijze",
+        "gift_card_wrapper": {
+          "gift_card_label": "Cadeaukaart %{identifier}"
+        }
       },
       "customer_account": {
         "rollup_label": "Rekening",
@@ -593,7 +596,8 @@
       "redeemable_errors": {
         "gift_card": {
           "currency_mismatch": "Alleen cadeaubonnen in %{shop_currency} Worden geaccepteerd",
-          "insufficient_funds": "Deze cadeaubon heeft geen saldo meer"
+          "insufficient_funds": "Deze cadeaubon heeft geen saldo meer",
+          "not_available": "Deze cadeaubon is niet meer beschikbaar"
         }
       },
       "store_credit_errors": {
@@ -604,6 +608,9 @@
           "one": "Deze bestelling kan niet worden verzonden naar het ingevoerde adres. Controleer het adres en zorg ervoor dat alle velden correct zijn ingevuld. Probeer het daarna opnieuw.",
           "other": "Sommige artikelen in je winkelwagen kunnen niet worden verzonden naar het ingevoerde adres. Controleer het adres en zorg ervoor dat alle velden correct zijn ingevuld. Probeer het daarna opnieuw."
         }
+      },
+      "contact": {
+        "title": "Informatie"
       }
     },
     "errors": {
@@ -662,7 +669,10 @@
       "minimumReached": "Minimum van {{value}} Bereikt",
       "sundayAbbreviation": "zo",
       "showPreviousMonth": "Vorige maand laten zien, {{month}}  {{year}}",
-      "showNextMonth": "Laat volgende maand zien, {{month}}  {{year}}"
+      "showNextMonth": "Laat volgende maand zien, {{month}}  {{year}}",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} Item beschikbaar"
+      }
     },
     "orders": {
       "order_list": {
@@ -670,7 +680,8 @@
           "date": {
             "start_date": "Startdatum",
             "last_7_days": "Laatste 7 dagen",
-            "last_30_days": "Laatste 30 dagen"
+            "last_30_days": "Laatste 30 dagen",
+            "last_90_days": "Laatste 90 dagen"
           },
           "apply": "Van toepassing zijn",
           "clear_all": "Wis alles"

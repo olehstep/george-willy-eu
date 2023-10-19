@@ -478,7 +478,8 @@
         "address_more": "Plus d'actions pour cette adresse",
         "split_cart_merchandise_quantity_label_additional": "%{quantity} Plus",
         "shipping_address_title": "Envoyez à",
-        "edit": "Éditer"
+        "edit": "Éditer",
+        "merchandise_quantity_label_inline_primary": "Quantité: %{quantity}"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -497,12 +498,14 @@
         "order_status_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un texto de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
         "thank_you_title_payments_app_failed_pending_payment": "Votre paiement n'a pas pu être traité",
         "failed_pending_payment_page_title": "Il y a un problème avec votre paiement",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
       },
       "billing": {
         "address_more": "Plus d'actions pour cette adresse",
         "same_as_shipping": "Même que l'adresse d'expédition",
-        "address_edit": "Modifier l'adresse"
+        "address_edit": "Modifier l'adresse",
+        "add_address": "Utilisez une adresse différente"
       },
       "payment": {
         "subscription_agreement_label": "Je comprends que je suis en train d'accepter un abonnement. Celui-ci se renouvellera au prix et à la fréquence indiqués et ce, jusqu'à ce qu'il prenne fin ou soit %{cancelled}.",
@@ -525,7 +528,11 @@
         "purchase_options_agreement_label": "Je comprends qu’un ou plusieurs articles de mon panier constituent un achat différé ou récurrent. En continuant, j’accepte la %{cancellation_policy_label} et vous autorise à facturer mon moyen de paiement aux prix, fréquences et dates indiqués sur cette page, jusqu’à ce que ma commande soit traitée ou que je l’annule, si cela est autorisé.",
         "saved_credit_card_actions": {
           "edit": "Éditer"
-        }
+        },
+        "add_credit_card_modal": {
+          "save": "Sauvegarder"
+        },
+        "use_location_billing_address_label": "Utiliser l'adresse de facturation de l'emplacement"
       },
       "stock": {
         "price_update": {
@@ -552,7 +559,10 @@
         "discount_order_stacking": {
           "other": "Remises de commande"
         },
-        "customer_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> n'est pas disponible pour vous pour le moment"
+        "customer_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> n'est pas disponible pour vous pour le moment",
+        "price_per_item": {
+          "label": "%{price} \/Ea"
+        }
       },
       "wallets": {
         "errors": {
@@ -655,7 +665,9 @@
       "showNextMonth": "Spectacle le mois prochain, {{month}}  {{year}}",
       "january": "janvier",
       "december": "décembre",
-      "thursday": "jeudi"
+      "thursday": "jeudi",
+      "saturday": "samedi",
+      "increase": "Augmentation {{type}}"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",
@@ -671,11 +683,17 @@
             "today": "Aujourd'hui"
           },
           "clear_section": "Section claire"
-        }
+        },
+        "filter_title": "Filtre"
       },
       "order_status": {
         "attempted_to_deliver_label": "Tenté de livrer",
-        "there_was_a_problem_label": "Il y avait un problème"
+        "there_was_a_problem_label": "Il y avait un problème",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Suivre et gérer les achats avec l'ordre Prime"
+          }
+        }
       }
     },
     "B2B": {

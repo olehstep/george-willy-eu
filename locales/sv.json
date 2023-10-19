@@ -136,7 +136,9 @@
       "february": "februari",
       "november": "november",
       "showPreviousMonth": "Visa föregående månad, {{month}}  {{year}}",
-      "closeModal": "Stänga"
+      "closeModal": "Stänga",
+      "removeItem": "Ta bort marken {{label}}",
+      "july": "juli"
     },
     "orders": {
       "order_list": {
@@ -149,7 +151,8 @@
             "last_365_days": "De senaste tolv månaderna"
           },
           "clear_section": "Rensa sektionen"
-        }
+        },
+        "filter_title": "Filtrera"
       }
     },
     "order_details": {
@@ -556,6 +559,9 @@
           "fields": {
             "name": "namn på kort"
           }
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} Tillägg"
         }
       },
       "billing": {

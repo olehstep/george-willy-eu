@@ -522,7 +522,8 @@
         },
         "subscription_agreement_label": "Comprendo che sto accettando un abbonamento. Verrà rinnovato al costo e con la frequenza indicati fino al termine o alla %{cancelled}.",
         "purchase_options_agreement_label_wallets": "Continuando con il pagamento, accetti le spese future elencate in questa pagina e la politica di cancellazione.",
-        "purchase_options_and_vaulting_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto ricorrente o dilazionato. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga automaticamente addebitato al prezzo e alla frequenza qui indicati fino al termine o all'annullamento. Tutti gli annullamenti sono soggetti all'%{cancellation_policy_label}."
+        "purchase_options_and_vaulting_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto ricorrente o dilazionato. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga automaticamente addebitato al prezzo e alla frequenza qui indicati fino al termine o all'annullamento. Tutti gli annullamenti sono soggetti all'%{cancellation_policy_label}.",
+        "subscription_agreement_cancelled": "annullato"
       },
       "order_summary": {
         "discount_order_stacking": {
@@ -665,7 +666,8 @@
     "order_details": {
       "edit_summary": {
         "returned": "Restituito",
-        "removed_with_quantities": "{{delta}} Di {{total}} Rimosso"
+        "removed_with_quantities": "{{delta}} Di {{total}} Rimosso",
+        "returned_with_quantities": "{{delta}} Di {{total}} Restituito"
       }
     },
     "orders": {
@@ -728,7 +730,8 @@
       "november": "novembre",
       "october": "ottobre",
       "fridayAbbreviation": "Fr",
-      "minimumReached": "Minimo di {{value}} Raggiunto"
+      "minimumReached": "Minimo di {{value}} Raggiunto",
+      "closeModal": "Vicino"
     },
     "profile_preview_bar": {
       "previewing": "Stai visualizzando in anteprima:",

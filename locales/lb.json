@@ -53,7 +53,16 @@
         "ctas": {
           "open_a_store": {
             "link_text": "Nun"
+          },
+          "store_owner": {
+            "header": "Sidd Dir de Buttek Besëtzer?"
+          },
+          "sell_in_person": {
+            "header": "An Persoon Verel"
           }
+        },
+        "owner_ctas": {
+          "header": "Sidd Dir de Buttek Besëtzer?"
         }
       }
     },
@@ -144,6 +153,11 @@
         "remove_products": "Tag ewechhuelen %{tag}",
         "add_products": "Eng Auswiel u Produkter passend Tag %{tag}",
         "add_articles": "Schmuel Sich op Artikelen déi och Tag hunn %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "increment_item": "Bäigent %{delta}"
+        }
       }
     },
     "checkout": {
@@ -197,7 +211,8 @@
             "friday": "Fr",
             "saturday": "op",
             "monday": "Mo",
-            "thursday": "Th"
+            "thursday": "Th",
+            "tuesday": "Dat"
           },
           "weekdays": {
             "wednesday": "Mëttwoch",
@@ -242,7 +257,8 @@
         "google_map_title": "Google Map",
         "processing": "Veraarbechtung…",
         "full_title": "{{pageTitle}} - {{shopName}} - Checkout",
-        "remove_item": "Ewechzehuelen %{label}"
+        "remove_item": "Ewechzehuelen %{label}",
+        "autocomplete_zero_item": "Keng Artikele verfügbar"
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -451,7 +467,10 @@
         },
         "payment_method": "Bezuelmethod",
         "edit_credit_card_modal": {
-          "done": "Gemaach"
+          "done": "Gemaach",
+          "fields": {
+            "card_number": "Kaart Zuel"
+          }
         },
         "order_edit_banner_items_returned": {
           "in_full": "Zréckkomm"
@@ -468,7 +487,8 @@
           "one": "Dobäigesat"
         },
         "markets_pro_disclaimer_terms_and_conditions": "Konditioune",
-        "order_edit_banner_multiple_items_removed": "{{amount}} ewechgeholl"
+        "order_edit_banner_multiple_items_removed": "{{amount}} ewechgeholl",
+        "expired_payment_method": "Ausgewieden Betautemetode ass erflétt"
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -579,11 +599,15 @@
         "address_update": "Update Adress",
         "invalid_shipping_method_summary": "Gidt eng geldilt Zéie-Adress fir verfügbar Rasie- Metodeen äusgen",
         "address_form": {
-          "generic_error": "Et ass e Problem ze späicheren.  Probéiert w.e.g. nach eng Kéier."
+          "generic_error": "Et ass e Problem ze späicheren.  Probéiert w.e.g. nach eng Kéier.",
+          "add_address": "Add Adress"
         },
         "add_delivery_instructions": "Leaver- Instruktiounen bäifügen",
         "address_confirm": "Wëllt Dir wier dës Adress op déi Kont geläichen?",
-        "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}"
+        "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}",
+        "edit": "Edit",
+        "enter_address_manually_label": "Adress mank git",
+        "subscription_shipping": "Abonnement Schëffer"
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -691,7 +715,8 @@
         "deferred_total_due_date_label": "Gesamtbetrag {{date}}",
         "free_shipping_discount_label": "Versand fräi",
         "discount_order_stacking": {
-          "one": "Orden"
+          "one": "Orden",
+          "other": "Orden- Diskonten"
         },
         "discount_discovery": {
           "add_code": "Füügt Remise"
@@ -1060,7 +1085,8 @@
         "thank_you_title_payments_app_pending_default": "Äer Betaaun",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Nei Äer Betaal erfléidt, mer dir e-Postum vunt.  Schéckt.",
         "thank_you_payments_app_failed_pending_payment": "Dir büst net fir Äer Ordeert.  D'Geier",
-        "order_updates_subscribe_to_email_notifications_email_already_exists": "D'E-Mail, déi Dir aginn hutt, existéiert schonn."
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "D'E-Mail, déi Dir aginn hutt, existéiert schonn.",
+        "failed_pending_payment_page_title": "Et ass e Problem mat Äer Betaun"
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1353,11 +1379,13 @@
         },
         "remove": "Ewechzehuelen",
         "out_of_stock": {
-          "items_unavailable": "Kie Elementen sinne net më verfügbar an ass aus déi Cart geläucht."
+          "items_unavailable": "Kie Elementen sinne net më verfügbar an ass aus déi Cart geläucht.",
+          "description": "Dës Elementen sinne net më verfügbar an ass aus déi Cart geläichen."
         },
         "unpurchasable_product_generic": {
           "header": "E puer Elementer goufen aus Ärem Weenchen geläscht",
-          "message": "Dës Elementer sinn net verfügbar."
+          "message": "Dës Elementer sinn net verfügbar.",
+          "status_column_header": "Nët accessible"
         },
         "unpurchasable_product": {
           "message": "Dës Artikele sinn net verfügbar fir B2B Bestellungen."
@@ -1524,7 +1552,8 @@
             "no_storefront_body": "Leider ass den Artikel deen Dir wëllt kafen net méi verfügbar.",
             "storefront_body": "Gitt zréck an de Buttek fir weider ze shoppen",
             "heading": "Äre Weenchen ass ausverkaaft"
-          }
+          },
+          "partial_inventory_banner": "En Deel vun Ärem Weenchen ass ausverkaaft a wäert net bei der Kasse kaaft ginn."
         },
         "merchandise": {
           "sold_out": "Ausverkaaft",
@@ -1589,7 +1618,8 @@
           "other": "Show %{count} méi Plazen",
           "one": "Show %{count} méi Location"
         },
-        "no_stores_found": "Keng Geschäfter fonnt"
+        "no_stores_found": "Keng Geschäfter fonnt",
+        "search_button": "Fannt Geschäfter"
       },
       "wallets": {
         "errors": {
@@ -1606,7 +1636,8 @@
             "first_name": "Gitt e Virnumm",
             "address2": "Gitt en Appartement, Suite, etc.",
             "zip": "Gitt e Postcode \/ Postleitzuel un",
-            "province": "Wielt e Staat \/ Provënz"
+            "province": "Wielt e Staat \/ Provënz",
+            "phone": "Gitt eng Telefonsnummer"
           },
           "unavailable": {
             "instructions": "Et gouf e Problem mat {{walletName}}. Zréck an de Buttek fir nach eng Kéier ze probéieren oder op eng aner Manéier ze kucken.",
@@ -1664,7 +1695,8 @@
         "selector_tabs": "Pickup Point Selector",
         "number_of_pickup_points_near_location": {
           "other": "%{count} Pickup Punkten no bei Ärer Plaz"
-        }
+        },
+        "change": "Änneren"
       },
       "marketplaces": {
         "legal_notice": {
@@ -1720,7 +1752,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "insufficient_funds": "Dës Kaddokaart huet keng Fongen méi"
+          "insufficient_funds": "Dës Kaddokaart huet keng Fongen méi",
+          "generic": "De Giftkaart konnt net fir d'Ock-After"
         }
       }
     },
@@ -2585,7 +2618,8 @@
         "expand_events_label": "Weis Detailer",
         "ineligible_return_with_policy_message": "Keng Elementer an dëser Uerdnung sinn berechtegt fir zréck. Iwwerpréift eis {{returnAndRefundPolicyLinkText}} fir méi ze léieren.",
         "return_and_refund_link_text": "zréck an Remboursement Politik",
-        "ineligible_return_message": "Keng Elementer an dëser Uerdnung sinn berechtegt fir zréck."
+        "ineligible_return_message": "Keng Elementer an dëser Uerdnung sinn berechtegt fir zréck.",
+        "ineligible_return_message_when_returned": "Keng adeders Elementer an d'Veréigen"
       },
       "billing_address": "Rechnungsadress",
       "total": "Ganzen",
@@ -2755,7 +2789,11 @@
       "rangeStart": "Range Start",
       "month": {
         "other": "Monten"
-      }
+      },
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Elemente verfügbart"
+      },
+      "wednesday": "Mëttwoch"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

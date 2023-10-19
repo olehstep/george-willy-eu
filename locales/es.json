@@ -476,11 +476,13 @@
         "add_delivery_instructions": "Añadir instrucciones de entrega",
         "enter_address_manually_label": "Ingresar la dirección manualmente",
         "shipping_information_required_notice": "La información de envío es obligatoria. {{link}}.",
-        "shipping_address_title": "Envie a"
+        "shipping_address_title": "Envie a",
+        "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}"
       },
       "order_summary": {
         "price_per_item": {
-          "accessibility_label": "%{price} Por artículo"
+          "accessibility_label": "%{price} Por artículo",
+          "label": "%{price} \/Ea"
         },
         "discount_order_stacking": {
           "one": "Descuento de pedido"
@@ -489,7 +491,8 @@
         "shipping_default_value": "Calculado en el siguiente paso",
         "discount_title_stacking": {
           "other": "Descuentos."
-        }
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> no se pudo usar con los descuentos existentes. Ya tienes una combinación mejor."
       },
       "payment": {
         "purchase_options_agreement_label_wallets": "Al continuar con su pago, usted acepta los cargos futuros que figuran en esta página y la política de cancelación.",
@@ -514,14 +517,24 @@
             "name": "Nombre en la tarjeta"
           }
         },
-        "purchase_options_and_vaulting_agreement_label": "Uno o varios artículos del carrito son una compra diferida o recurrente. Al continuar con el pago, aceptas que se aplicarán cargos a la forma de pago automáticamente según el precio y la frecuencia indicados en esta página hasta que termine o la canceles. Todas las cancelaciones están sujetas a la %{cancellation_policy_label}."
+        "purchase_options_and_vaulting_agreement_label": "Uno o varios artículos del carrito son una compra diferida o recurrente. Al continuar con el pago, aceptas que se aplicarán cargos a la forma de pago automáticamente según el precio y la frecuencia indicados en esta página hasta que termine o la canceles. Todas las cancelaciones están sujetas a la %{cancellation_policy_label}.",
+        "order_edit_banner_items_added": {
+          "one": "Adicional"
+        },
+        "delete_credit_card_modal": {
+          "confirmation": "¿Está seguro de que desea eliminar el {{brandName}} Terminando en {{lastDigits}} ¿?",
+          "delete": "Borrar"
+        },
+        "business_customer_vaulting_payment_label": "Guarda esta tarjeta para futuras compras para esta sucursal. Autorizo a %{company} a guardar esta forma de pago para futuras compras para esta sucursal. Cualquier contacto asignado a esta sucursal tiene autorización para usar esta tarjeta.",
+        "use_location_billing_address_label": "Usar la dirección de facturación de la ubicación"
       },
       "redeemable_errors": {
         "gift_card": {
           "expired": "Esta tarjeta de regalo ha caducado",
           "insufficient_funds": "A esta tarjeta de regalo no le quedan fondos",
           "not_available": "Esta tarjeta de regalo ya no está disponible",
-          "duplicate": "La tarjeta de regalo ya se ha aplicado a su pedido"
+          "duplicate": "La tarjeta de regalo ya se ha aplicado a su pedido",
+          "currency_mismatch": "Sólo tarjetas regalo en %{shop_currency} Son aceptados"
         }
       },
       "thank_you": {
@@ -550,7 +563,8 @@
           "save": "Ahorrar",
           "add_address": "Añadir dirección"
         },
-        "add_address": "Usar una dirección diferente"
+        "add_address": "Usar una dirección diferente",
+        "billing_address_title": "Cobrar a"
       },
       "stock": {
         "return_to_store_label": "volver a la tienda",
@@ -604,13 +618,17 @@
           "editions": {
             "caption": "Con más de 100 actualizaciones de productos, puede ser más productivo y creativo, y poderoso en el comercio de lo que nunca imaginó.",
             "header": "Echa un vistazo a las ediciones de Shopify"
+          },
+          "sell_in_person": {
+            "header": "Vender en persona"
           }
         },
         "owner_ctas": {
           "fix_domain_link_text": "La configuración de su dominio",
           "forgot_your_store_link_text": "Olvidé tu tienda",
           "admin_link_text": "Admin",
-          "add_storefront": "Puede configurar su sitio web agregando el canal Tienda en línea en su %{admin_link} .  Si tiene problemas para ingresar a su tienda, pruebe el %{forgot_your_store_link} Página."
+          "add_storefront": "Puede configurar su sitio web agregando el canal Tienda en línea en su %{admin_link} .  Si tiene problemas para ingresar a su tienda, pruebe el %{forgot_your_store_link} Página.",
+          "fix_domain": "Termine de configurar su nueva dirección web, vaya a %{domain_settings_link} .  Haga clic en &ldquo;Conectar dominio” e ingrese: %{domain} .<br>Si tiene problemas para ingresar a su tienda, pruebe el %{forgot_your_store_link} Página."
         },
         "links": {
           "start_free_trial": "Iniciar una prueba gratuita"
@@ -669,7 +687,8 @@
         "filter": {
           "date": {
             "title": "Fecha de orden",
-            "last_7_days": "Últimos 7 días"
+            "last_7_days": "Últimos 7 días",
+            "last_30_days": "últimos 30 días"
           },
           "apply": "Solicitar"
         }
@@ -678,7 +697,8 @@
     "order_details": {
       "edit_summary": {
         "returned": "devuelto",
-        "removed_with_quantities": "{{delta}} De {{total}} Eliminado"
+        "removed_with_quantities": "{{delta}} De {{total}} Eliminado",
+        "returned_with_quantities": "{{delta}} De {{total}} Regresó"
       }
     },
     "B2B": {

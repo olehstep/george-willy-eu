@@ -548,7 +548,8 @@
         "address_form": {
           "save": "Salvar"
         },
-        "address_edit": "Editar Endereço"
+        "address_edit": "Editar Endereço",
+        "billing_address_title": "projeto de lei para"
       },
       "payment_errors": {
         "invalid_expiry_date": "Introduza uma data de expiração válida"
@@ -570,7 +571,8 @@
       "shop_404": {
         "owner_ctas": {
           "fix_domain_link_text": "suas configurações de domínio",
-          "fix_domain": "Termine de configurar seu novo endereço da Web, vá para %{domain_settings_link}.  Clique em \"Conectar domínio\" e digite: %{domain}.<br>Se estiver a ter problemas para entrar na sua loja, experimente a página %{forgot_your_store_link}."
+          "fix_domain": "Termine de configurar seu novo endereço da Web, vá para %{domain_settings_link}.  Clique em \"Conectar domínio\" e digite: %{domain}.<br>Se estiver a ter problemas para entrar na sua loja, experimente a página %{forgot_your_store_link}.",
+          "add_storefront": "Pode configurar o seu website adicionando o canal da Loja Online no seu %{admin_link}.  Se estiver a ter problemas para entrar na sua loja, experimente a página %{forgot_your_store_link}."
         },
         "ctas": {
           "store_owner": {
@@ -618,7 +620,8 @@
       "march": "Marchar",
       "january": "Janeiro",
       "minimumReached": "Mínimo de {{value}} atingido",
-      "maximumReached": "Máximo de {{value}} atingido"
+      "maximumReached": "Máximo de {{value}} atingido",
+      "august": "Agosto"
     },
     "order_details": {
       "edit_summary": {

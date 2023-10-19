@@ -474,7 +474,10 @@
         "split_cart_merchandise_quantity_label_additional": "+ +. %{quantity} Mere",
         "shipping_information_required_notice": "Der kræves leveringsoplysninger. {{link}}.",
         "edit": "Redigere",
-        "merchandise_quantity_label_inline_primary": "Mængde: %{quantity}"
+        "merchandise_quantity_label_inline_primary": "Mængde: %{quantity}",
+        "address_form": {
+          "cancel": "Afbestille"
+        }
       },
       "review": {
         "review_title": "Gennemgå ordre",
@@ -515,7 +518,10 @@
           "other": "%{count} Tilføjet"
         },
         "expired_payment_method": "Valgt betalingsmetode er udløbet",
-        "purchase_options_and_vaulting_agreement_label": "Én eller flere varer i din indkøbskurv er et udskudt eller tilbagevendende køb. Hvis du fortsætter med din betaling, accepterer du, at din betalingsmetode automatisk opkræves til den pris og med den hyppighed, der er angivet på denne side, indtil det ophører, eller du opsiger det. Alle opsigelser er underlagt vores %{cancellation_policy_label}."
+        "purchase_options_and_vaulting_agreement_label": "Én eller flere varer i din indkøbskurv er et udskudt eller tilbagevendende køb. Hvis du fortsætter med din betaling, accepterer du, at din betalingsmetode automatisk opkræves til den pris og med den hyppighed, der er angivet på denne side, indtil det ophører, eller du opsiger det. Alle opsigelser er underlagt vores %{cancellation_policy_label}.",
+        "order_edit_banner_items_returned": {
+          "with_quantities": "{{delta}} Af {{quantity}} Returneret:"
+        }
       },
       "stock": {
         "out_of_stock": {
@@ -556,7 +562,8 @@
         "length_exceeds_maximum": "Reducer størrelsen af noten til 5000 eller færre tegn."
       },
       "field_errors": {
-        "credit_card_month_invalid": "Indtast gyldig udløbsmåned på kort"
+        "credit_card_month_invalid": "Indtast gyldig udløbsmåned på kort",
+        "tips_invalid_tip_amount": "Angiv drikkepenge for højst %{amount}"
       },
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_phone": "Du får snart en bekræftelsesms.  Spor din ordre ved hjælp af Shop-appen.",
@@ -605,6 +612,9 @@
         "heros": {
           "no_storefront": "Denne butik har ikke en hjemmeside endnu.",
           "store_unavailable": "Denne butik er desværre ikke tilgængelig."
+        },
+        "links": {
+          "start_free_trial": "Start en gratis prøvel"
         }
       }
     }
@@ -626,7 +636,8 @@
       "closeNotification": "Tæt",
       "saturday": "lørdag",
       "july": "juli",
-      "tuesdayAbbreviation": "Du"
+      "tuesdayAbbreviation": "Du",
+      "showPreviousMonth": "Vis forrige måned, {{month}}  {{year}}"
     },
     "orders": {
       "order_list": {
@@ -657,6 +668,9 @@
       "payment_details": {
         "checkout_card_banner": "Denne betalingsmetode kan kun anvendes til forhåndsgodkendte betalinger.  Det vil ikke vise sig ved kassen, hvis du er logget ind i denne butik."
       }
+    },
+    "profile_preview_bar": {
+      "navigate_to_admin": "Naviger til administration"
     }
   }
 }

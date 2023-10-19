@@ -470,7 +470,8 @@
           "save": "Salvar"
         },
         "split_cart_merchandise_shipment_number": "Transferência %{number} de %{total}",
-        "add_address": "Usar um endereço diferente"
+        "add_address": "Usar um endereço diferente",
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} Itens"
       },
       "field_errors": {
         "address_phone_invalid": "Insira um número de telefone válido"
@@ -511,7 +512,8 @@
       },
       "thank_you": {
         "thank_you_title_payments_app_pending_default": "O seu pagamento está a ser processado",
-        "order_status_payments_app_pending_payment_description_default_with_phone": "Você receberá um texto de confirmação em breve.  Acompanhe a sua encomenda através da aplicação Loja."
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Você receberá um texto de confirmação em breve.  Acompanhe a sua encomenda através da aplicação Loja.",
+        "thank_you_payments_app_failed_pending_payment": "Você não foi cobrado pelo seu pedido.  Volte ao seu carrinho para rever a sua encomenda e pagar novamente."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -522,7 +524,8 @@
       "general": {
         "map": {
           "cluster_title": {
-            "one": "Agrupamento do marcador {{number}}"
+            "one": "Agrupamento do marcador {{number}}",
+            "other": "Conjunto de marcadores {{number}}"
           }
         }
       },
@@ -530,6 +533,9 @@
         "address_form": {
           "save": "Salvar"
         }
+      },
+      "payment_errors": {
+        "invalid_expiry_date": "Introduza uma data de expiração válida"
       }
     },
     "errors": {
@@ -547,6 +553,9 @@
           },
           "sell_in_person": {
             "caption": "Obtenha os recursos de que precisa para gerir a sua loja de retalho, quer esteja a começar ou a expandir."
+          },
+          "editions": {
+            "header": "Confira as edições do Shopify"
           }
         },
         "title": "Crie um site de comércio eletrônico e venda on-line!  Software de comércio eletrônico da Shopify"
@@ -571,7 +580,8 @@
       "inRange": "No intervalo",
       "tuesdayAbbreviation": "Você",
       "february": "Fevereiro",
-      "mondayAbbreviation": "Mo"
+      "mondayAbbreviation": "Mo",
+      "closeNotification": "Perto"
     },
     "order_details": {
       "edit_summary": {
@@ -585,8 +595,16 @@
     },
     "orders": {
       "order_status": {
-        "there_was_a_problem_label": "Houve um problema"
+        "there_was_a_problem_label": "Houve um problema",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Acompanhe e gerencie o pedido Buy with Prime"
+          }
+        }
       }
+    },
+    "profile_preview_bar": {
+      "viewing": "Você está vendo:"
     }
   }
 }

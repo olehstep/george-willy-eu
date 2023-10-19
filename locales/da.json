@@ -496,13 +496,18 @@
           }
         },
         "delete_credit_card_modal": {
-          "confirmation": "Er du sikker på at du vil slette den {{brandName}} Ender i {{lastDigits}} ?"
+          "confirmation": "Er du sikker på at du vil slette den {{brandName}} Ender i {{lastDigits}} ?",
+          "cancel": "Afbestille"
         },
         "subscription_agreement_label": "Jeg forstår, at jeg accepterer et abonnement. Det fornys til den pris og med den hyppighed, der er angivet, indtil det ophører eller %{cancelled}.",
         "subscription_heading": "Abonnementsaftalen",
         "use_location_billing_address_label": "Brug adresse",
         "purchase_options_agreement_label_wallets": "Ved at fortsætte med din betaling, accepterer du de fremtidige gebyrer, der er anført på denne side, og afbestillingspolitikken.",
-        "business_customer_vaulting_payment_label": "Gem dette kort til fremtidige køb for denne lokation. Jeg giver %{company} tilladelse til at debitere denne betalingsmetode for fremtidige køb for denne lokation. Enhver kontakt, der er tildelt denne lokation, er autoriseret til at bruge dette kort."
+        "business_customer_vaulting_payment_label": "Gem dette kort til fremtidige køb for denne lokation. Jeg giver %{company} tilladelse til at debitere denne betalingsmetode for fremtidige køb for denne lokation. Enhver kontakt, der er tildelt denne lokation, er autoriseret til at bruge dette kort.",
+        "use_location_shipping_address_label": "Brug placeringsenhedsadressen",
+        "order_edit_banner_items_added": {
+          "other": "%{count} Tilføjet"
+        }
       },
       "stock": {
         "out_of_stock": {
@@ -519,7 +524,8 @@
         "billing_address_title": "Regning til",
         "address_form": {
           "save": "Gemme"
-        }
+        },
+        "edit": "Redigere"
       },
       "order_summary": {
         "price_per_item": {
@@ -546,6 +552,9 @@
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_phone": "Du får snart en bekræftelsesms.  Spor din ordre ved hjælp af Shop-appen.",
         "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen."
+      },
+      "contact": {
+        "title": "Oplysninger"
       }
     },
     "errors": {
@@ -565,7 +574,11 @@
         "title": "Opret en e-commerce hjemmeside og Sælg Online!  E-handel software af Shopify",
         "owner_ctas": {
           "forgot_your_store_link_text": "Har glemt din butik.",
-          "header": "Er du butiksejer?"
+          "header": "Er du butiksejer?",
+          "add_storefront": "Du kan oprette din hjemmeside ved at tilføje Online Store kanal i dine %{admin_link} .  Hvis du har problemer med at komme ind i din butik, så prøv... %{forgot_your_store_link} Side."
+        },
+        "heros": {
+          "no_storefront": "Denne butik har ikke en hjemmeside endnu."
         }
       }
     }
@@ -583,7 +596,8 @@
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Tilgængelige elementer"
       },
-      "expandNotification": "Se mere"
+      "expandNotification": "Se mere",
+      "closeNotification": "Tæt"
     },
     "orders": {
       "order_list": {

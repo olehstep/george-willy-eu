@@ -236,7 +236,10 @@
         },
         "continue_to_payment_plans_button_label": "Fuert weider op Bezuelpläng",
         "loading_title": "Checkout - {{shopName}}",
-        "google_map_title": "Google Map"
+        "google_map_title": "Google Map",
+        "processing": "Veraarbechtung…",
+        "full_title": "{{pageTitle}} - {{shopName}} - Checkout",
+        "remove_item": "Ewechzehuelen %{label}"
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -448,6 +451,9 @@
         },
         "order_edit_banner_items_returned": {
           "in_full": "Zréckkomm"
+        },
+        "saved_credit_card_actions": {
+          "edit": "Edit"
         }
       },
       "shipping": {
@@ -669,7 +675,8 @@
         },
         "price_per_item": {
           "accessibility_label": "%{price} Per item"
-        }
+        },
+        "gift_card_masked": "•••• %{last_characters}"
       },
       "processing": {
         "wait": {
@@ -1250,7 +1257,9 @@
         "pick_up_in_two_to_four_hours": "Fäerdeg fir opzehuelen a 4 Stonnen",
         "pick_up_in_four_hours": "Normalerweis fäerdeg a 4 Stonnen",
         "pick_up_in_zero_to_two_hours": "Fäerdeg fir opzehuelen an 2 Stonnen",
-        "none_method_definition": "Keng Versand"
+        "none_method_definition": "Keng Versand",
+        "pick_up_in_one_hour": "Normalerweis fäerdeg an 1 Stonn",
+        "subscription_pickup_information": "Dës Liwwermethod gëlt fir all Artikelen an dëser Bestellung a fir all zukünfteg Bestellunge fir dëst Abonnement."
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -2583,7 +2592,9 @@
       "pickup": {
         "pickup": "Ophiewen"
       },
-      "not_applicable": "N\/A"
+      "not_applicable": "N\/A",
+      "logged_in_account_no_permission_to_order": "Dir sidd ageloggt als {{email}}. Dëse Kont huet keng Erlaabnis fir dës Bestellung ze managen.",
+      "hide_items": "Verstoppen Elementer"
     },
     "addresses": {
       "add_address_banner": "Füügt Adressen fir beim Kasse ze benotzen",
@@ -2668,10 +2679,12 @@
       "maximumReached": "Maximum vunt {{value}} Erréucht",
       "rangeEnd": "Range Enn",
       "submit": "Ofginn",
-      "may": "Mee"
+      "may": "Mee",
+      "sunday": "Sonndeg"
     },
     "profile_preview_bar": {
-      "previewing": "Dir ass veurbonert:"
+      "previewing": "Dir ass veurbonert:",
+      "saved_at": "Späichert {{date}} Am {{time}}"
     }
   },
   "contact": {

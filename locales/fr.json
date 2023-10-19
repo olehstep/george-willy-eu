@@ -474,7 +474,8 @@
         "address_form": {
           "save": "Sauvegarder"
         },
-        "address_delete": "Supprimer l'adresse"
+        "address_delete": "Supprimer l'adresse",
+        "address_more": "Plus d'actions pour cette adresse"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -511,7 +512,11 @@
         },
         "purchase_options_agreement_label_wallets": "En poursuivant votre paiement, vous acceptez les frais futurs indiqués sur cette page et la politique d'annulation.",
         "payment_method": "Mode de paiement",
-        "discount_button_action_label": "Appliquer un code de réduction"
+        "discount_button_action_label": "Appliquer un code de réduction",
+        "order_edit_banner_items_removed": {
+          "in_full": "Supprimé"
+        },
+        "purchase_options_agreement_label": "Je comprends qu’un ou plusieurs articles de mon panier constituent un achat différé ou récurrent. En continuant, j’accepte la %{cancellation_policy_label} et vous autorise à facturer mon moyen de paiement aux prix, fréquences et dates indiqués sur cette page, jusqu’à ce que ma commande soit traitée ou que je l’annule, si cela est autorisé."
       },
       "stock": {
         "price_update": {
@@ -560,6 +565,9 @@
           "payment_method_title": "Paiement"
         },
         "review_title": "Réviser la commande"
+      },
+      "contact": {
+        "title": "Informations"
       }
     },
     "errors": {
@@ -608,7 +616,9 @@
       "tuesday": "mardi",
       "november": "novembre",
       "minimumReached": "Minimum de {{value}} Atteint",
-      "fridayAbbreviation": "Ve"
+      "fridayAbbreviation": "Ve",
+      "august": "août",
+      "mondayAbbreviation": "mois"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",

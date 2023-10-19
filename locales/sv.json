@@ -129,7 +129,8 @@
       "closeNotification": "Stänga",
       "inRange": "Inom räckhåll",
       "april": "april",
-      "monday": "måndag"
+      "monday": "måndag",
+      "october": "oktober"
     },
     "orders": {
       "order_list": {
@@ -471,7 +472,10 @@
           "items_unavailable": "Vissa varor är inte längre tillgängliga och har tagits bort från din kundvagn."
         },
         "items_unavailable_notice": "Vissa objekt är inte längre tillgängliga. Din e-postadress har uppdaterats",
-        "continue_cta_label": "Fortsätt kassan"
+        "continue_cta_label": "Fortsätt kassan",
+        "item_label": {
+          "one": "{{count}} Posten"
+        }
       },
       "review": {
         "blocks": {
@@ -565,7 +569,8 @@
             "header": "Sälj personligt."
           },
           "editions": {
-            "caption": "Med 100+ produktuppdateringar kan du vara mer produktiv och kreativ och kraftfull än du någonsin föreställt dig."
+            "caption": "Med 100+ produktuppdateringar kan du vara mer produktiv och kreativ och kraftfull än du någonsin föreställt dig.",
+            "header": "Kolla in Shopify Edition"
           }
         },
         "title": "Skapa en e-handelswebbplats och sälja online!  E-handel programvara från Shopify"

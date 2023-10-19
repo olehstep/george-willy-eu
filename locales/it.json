@@ -517,7 +517,8 @@
         },
         "use_location_shipping_address_label": "Utilizza l'indirizzo di spedizione della posizione",
         "order_edit_banner_items_returned": {
-          "with_quantities": "{{delta}} Di {{quantity}} Restituito"
+          "with_quantities": "{{delta}} Di {{quantity}} Restituito",
+          "in_full": "Restituito"
         },
         "subscription_agreement_label": "Comprendo che sto accettando un abbonamento. Verrà rinnovato al costo e con la frequenza indicati fino al termine o alla %{cancelled}.",
         "purchase_options_agreement_label_wallets": "Continuando con il pagamento, accetti le spese future elencate in questa pagina e la politica di cancellazione.",
@@ -582,7 +583,9 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Dopo aver completato il pagamento, riceverai un' e-mail di conferma.  Tieni traccia del tuo ordine utilizzando l'app Shop.",
         "order_status_payments_app_pending_payment_description_default_with_email": "Presto riceverai un' e-mail di conferma.  Tieni traccia del tuo ordine utilizzando l'app Shop.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Dopo aver completato il pagamento, riceverai un' e-mail di conferma.  Tieni traccia del tuo ordine utilizzando l'app Shop.",
-        "order_status_payments_app_pending_payment_description_default_with_phone": "Riceverai presto un messaggio di conferma.  Tieni traccia del tuo ordine utilizzando l'app Shop."
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Riceverai presto un messaggio di conferma.  Tieni traccia del tuo ordine utilizzando l'app Shop.",
+        "order_status_payments_app_failed_pending_payment": "Il tuo ordine non ti è stato addebitato.  Torna al carrello per rivedere il tuo ordine e pagare di nuovo.",
+        "thank_you_payments_app_failed_pending_payment": "Il tuo ordine non ti è stato addebitato.  Torna al carrello per rivedere il tuo ordine e pagare di nuovo."
       },
       "general": {
         "map": {
@@ -724,7 +727,8 @@
       "tuesday": "Martedì",
       "november": "novembre",
       "october": "ottobre",
-      "fridayAbbreviation": "Fr"
+      "fridayAbbreviation": "Fr",
+      "minimumReached": "Minimo di {{value}} Raggiunto"
     },
     "profile_preview_bar": {
       "previewing": "Stai visualizzando in anteprima:",

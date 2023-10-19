@@ -134,7 +134,9 @@
       "december": "december",
       "mondayAbbreviation": "Mo",
       "february": "februari",
-      "november": "november"
+      "november": "november",
+      "showPreviousMonth": "Visa föregående månad, {{month}}  {{year}}",
+      "closeModal": "Stänga"
     },
     "orders": {
       "order_list": {
@@ -331,7 +333,8 @@
   "onboarding": {
     "product": {
       "sku": "SKU1234",
-      "vendor": "Säljare"
+      "vendor": "Säljare",
+      "product_title": "Produktens titel"
     },
     "article": {
       "author": "Författarens namn",
@@ -470,13 +473,15 @@
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Poster",
         "shipping_address_title": "Frakta till",
         "address_form": {
-          "one_time_address_subtitle": "Använd en engångsadress för den här beställningen"
+          "one_time_address_subtitle": "Använd en engångsadress för den här beställningen",
+          "cancel": "Annullera"
         },
         "address_confirm": "Är du säker på att du vill ta bort den här adressen från ditt konto?",
         "different_shipping_method_summary": "Ange en annan leveransadress för att se tillgängliga fraktmetoder",
         "local_pickup": {
           "rollup_title": "Upphämtningsplats"
-        }
+        },
+        "split_cart_merchandise_quantity_label_additional": "+ ++ %{quantity} Fler"
       },
       "stock": {
         "out_of_stock": {
@@ -498,7 +503,10 @@
       },
       "order_summary": {
         "shipping_default_value": "Beräknas vid nästa steg",
-        "gift_card_and_discount_label": "Presentkort eller rabattkod"
+        "gift_card_and_discount_label": "Presentkort eller rabattkod",
+        "price_per_item": {
+          "accessibility_label": "%{price} Per post."
+        }
       },
       "customer_account": {
         "rollup_label": "konto",
@@ -574,6 +582,9 @@
       },
       "order_payment_collection": {
         "order_review_and_pay": "Ordern uppdaterades. Granska och betala för att bekräfta din beställning."
+      },
+      "payment_errors": {
+        "invalid_expiry_date": "Ange ett giltigt utgångsdatum för kortet"
       }
     },
     "notices": {
@@ -581,7 +592,8 @@
         "item_status": {
           "decrement_item": "Borttagen %{delta} Av %{total}",
           "increment_item": "Tillagd %{delta}",
-          "decrement_fulfilled_line_item": "Returnerad %{delta} Av %{total}"
+          "decrement_fulfilled_line_item": "Returnerad %{delta} Av %{total}",
+          "add_variant": "Tillagd %{delta}"
         }
       }
     },

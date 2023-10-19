@@ -482,7 +482,8 @@
       "stock": {
         "price_update": {
           "title": "Atualização de preços"
-        }
+        },
+        "items_unavailable_notice": "Alguns itens já não estão disponíveis. O seu carrinho foi atualizado."
       },
       "payment": {
         "purchase_options_agreement_label_wallets": "Ao continuar com o seu pagamento, você concorda com as futuras cobranças listadas nesta página e com a política de cancelamento.",
@@ -503,7 +504,8 @@
         "business_customer_vaulting_payment_label": "Guarde este cartão para compras futuras neste local. Autorizo %{company} a utilizar este método de pagamento em compras futuras neste local. Qualquer contato atribuído a este local está autorizado a utilizar o cartão.",
         "order_edit_banner_items_returned": {
           "in_full": "Retornou"
-        }
+        },
+        "subscription_agreement_cancelled": "cancelado"
       },
       "order_summary": {
         "gift_card_and_discount_placeholder": "Cartão de oferta ou código de desconto",
@@ -514,7 +516,8 @@
         "discount_order_stacking": {
           "other": "Encomendar descontos"
         },
-        "gift_card_and_discount_label": "Cartão de oferta ou código de desconto"
+        "gift_card_and_discount_label": "Cartão de oferta ou código de desconto",
+        "gift_card_and_discount_title": "Cartão de oferta ou código de desconto"
       },
       "review": {
         "blocks": {
@@ -555,6 +558,12 @@
       },
       "customer_account": {
         "invalid_address": "O endereço selecionado não é válido"
+      },
+      "notice_banner": {
+        "shipping_address_incomplete_title": "A morada de envio está incompleta"
+      },
+      "order_errors": {
+        "inventory_reservation_failure": "Alguns itens não estão mais disponíveis."
       }
     },
     "errors": {
@@ -628,6 +637,13 @@
         "amazon_buy_with_prime": {
           "order_tracking_link": {
             "text": "Acompanhe e gerencie o pedido Buy with Prime"
+          }
+        }
+      },
+      "order_list": {
+        "filter": {
+          "date": {
+            "title": "Data do pedido"
           }
         }
       }

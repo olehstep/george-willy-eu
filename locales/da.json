@@ -575,7 +575,8 @@
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "other": "Nogle varer i din indkøbskurv kan ikke afsendes til den angivne adresse. Gennemgå din adresse for at sikre at alle felter er udfyldt korrekt, og prøv igen."
+          "other": "Nogle varer i din indkøbskurv kan ikke afsendes til den angivne adresse. Gennemgå din adresse for at sikre at alle felter er udfyldt korrekt, og prøv igen.",
+          "one": "Denne ordre kan ikke afsendes til den angivne adresse. Gennemgå din adresse for at sikre at alle felter er udfyldt korrekt, og prøv igen."
         }
       }
     },
@@ -598,7 +599,8 @@
           "forgot_your_store_link_text": "Har glemt din butik.",
           "header": "Er du butiksejer?",
           "add_storefront": "Du kan oprette din hjemmeside ved at tilføje Online Store kanal i dine %{admin_link} .  Hvis du har problemer med at komme ind i din butik, så prøv... %{forgot_your_store_link} Side.",
-          "fix_domain_link_text": "Dine domæneindstillinger"
+          "fix_domain_link_text": "Dine domæneindstillinger",
+          "admin_link_text": "Admin:"
         },
         "heros": {
           "no_storefront": "Denne butik har ikke en hjemmeside endnu.",
@@ -647,7 +649,8 @@
     },
     "errors": {
       "load_extension_error": {
-        "refresh_button": "Opdater siden"
+        "refresh_button": "Opdater siden",
+        "description": "Opdater denne side eller prøv igen på et par minutter."
       }
     },
     "payment_methods": {

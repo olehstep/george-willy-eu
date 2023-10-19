@@ -473,7 +473,8 @@
         "missing_shipping_address": "Verzendadres ontbreekt",
         "shipping_address_title": "Verzend naar",
         "enter_address_manually_label": "Voer het adres handmatig in",
-        "address_edit": "Verander adres"
+        "address_edit": "Verander adres",
+        "merchandise_quantity_label_inline_primary": "Hoeveelheid: %{quantity}"
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
@@ -494,7 +495,10 @@
           "in_full": "VERWIJDERD"
         },
         "use_location_shipping_address_label": "Gebruik het verzendadres van de locatie",
-        "purchase_options_agreement_label": "Ik begrijp dat een of meer artikelen in mijn winkelwagen een uitgestelde of terugkerende aankoop zijn. Als ik doorga, ga ik akkoord met het %{cancellation_policy_label} en geef ik je ook toestemming om de vermelde prijzen af te schrijven van mijn betaalmethode, op de vermelde frequentie en datums, totdat mijn bestelling is afgehandeld of totdat ik, indien toegestaan, annuleer."
+        "purchase_options_agreement_label": "Ik begrijp dat een of meer artikelen in mijn winkelwagen een uitgestelde of terugkerende aankoop zijn. Als ik doorga, ga ik akkoord met het %{cancellation_policy_label} en geef ik je ook toestemming om de vermelde prijzen af te schrijven van mijn betaalmethode, op de vermelde frequentie en datums, totdat mijn bestelling is afgehandeld of totdat ik, indien toegestaan, annuleer.",
+        "delete_credit_card_modal": {
+          "confirmation": "Weet u zeker dat u de {{brandName}} Eindigend in {{lastDigits}} ?"
+        }
       },
       "customer_account": {
         "rollup_label": "Rekening"
@@ -531,7 +535,8 @@
       },
       "field_errors": {
         "address_zip_too_long": "ZIP\/postcode is te lang (maximaal 255 tekens)",
-        "credit_card_month_invalid": "Voer een geldige vervalmaand in voor de kaart"
+        "credit_card_month_invalid": "Voer een geldige vervalmaand in voor de kaart",
+        "credit_card_expiry_invalid": "Voer een geldige vervaldatum in voor de kaart"
       },
       "general": {
         "map": {
@@ -546,13 +551,25 @@
         },
         "shipping_default_value": "Berekend bij de volgende stap",
         "gift_card_and_discount_title": "Cadeaubon of kortingscode"
+      },
+      "address_management": {
+        "confirm_address_deletion": "Weet u zeker dat u het adres wilt verwijderen {{address}} ?"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "currency_mismatch": "Alleen cadeaubonnen in %{shop_currency} Worden geaccepteerd"
+        }
       }
     },
     "errors": {
       "shop_404": {
         "ctas": {
           "editions": {
-            "header": "Bekijk Shopify Editions"
+            "header": "Bekijk Shopify Editions",
+            "caption": "Met meer dan 100 productupdates kunt u productiever en creatiever en krachtiger in de handel zijn dan u zich ooit had kunnen voorstellen."
+          },
+          "store_owner": {
+            "shopify_support_link_text": "Shopify-ondersteuning"
           }
         },
         "title": "Maak een e-commerce website en verkoop online!  E-commercesoftware door Shopify",
@@ -579,7 +596,8 @@
       "thursdayAbbreviation": "E",
       "expandNotification": "Bekijk meer",
       "fridayAbbreviation": "Vr",
-      "march": "Maart"
+      "march": "Maart",
+      "increase": "Verhogen {{type}}"
     },
     "orders": {
       "order_list": {
@@ -596,6 +614,15 @@
     "profile_preview_bar": {
       "hide_bar": "Verberg Bar",
       "navigate_to_admin": "Navigeer naar admin"
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "canceled": {
+            "description": "Er worden geen kosten in rekening gebracht."
+          }
+        }
+      }
     }
   }
 }

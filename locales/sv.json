@@ -128,7 +128,8 @@
       "saturdayAbbreviation": "på",
       "closeNotification": "Stänga",
       "inRange": "Inom räckhåll",
-      "april": "april"
+      "april": "april",
+      "monday": "måndag"
     },
     "orders": {
       "order_list": {
@@ -136,7 +137,8 @@
           "date": {
             "last_7_days": "Senaste 7 dagar",
             "today": "I dag"
-          }
+          },
+          "clear_section": "Rensa sektionen"
         }
       }
     },
@@ -468,8 +470,10 @@
       "review": {
         "blocks": {
           "review_title_free_order": "Granska och slutför din beställning",
-          "shipping_method_title": "Metod"
-        }
+          "shipping_method_title": "Metod",
+          "payment_method_title": "Betalning"
+        },
+        "review_title": "Granska order"
       },
       "order_summary": {
         "shipping_default_value": "Beräknas vid nästa steg"
@@ -496,7 +500,8 @@
           "with_quantities": "{{delta}} Av {{quantity}} Borttagen",
           "in_full": "Tog bort"
         },
-        "subscription_agreement_cancelled": "avbruten"
+        "subscription_agreement_cancelled": "avbruten",
+        "purchase_options_agreement_label": "Jag är införstådd med att en eller flera artiklar i min varukorg är ett fördröjt eller återkommande inköp. Genom att fortsätta godkänner jag %{cancellation_policy_label}. Jag godkänner också att ni debiterar min betalningsmetod vid det datum, med de priser och den frekvens som angivits på denna sida, tills min order är distribuerad eller tills jag avbryter, om detta tillåts."
       },
       "billing": {
         "address_form": {
@@ -508,6 +513,9 @@
         "gift_card": {
           "currency_mismatch": "Endast presentkort i %{shop_currency} Godkänns"
         }
+      },
+      "note": {
+        "length_exceeds_maximum": "Reducera tonens storlek till 5000 eller färre tecken."
       }
     },
     "notices": {
@@ -528,6 +536,9 @@
           },
           "sell_in_person": {
             "header": "Sälj personligt."
+          },
+          "editions": {
+            "caption": "Med 100+ produktuppdateringar kan du vara mer produktiv och kreativ och kraftfull än du någonsin föreställt dig."
           }
         },
         "title": "Skapa en e-handelswebbplats och sälja online!  E-handel programvara från Shopify"

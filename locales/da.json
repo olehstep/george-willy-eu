@@ -474,27 +474,33 @@
       "review": {
         "review_title": "Gennemgå ordre",
         "blocks": {
-          "review_title_free_order": "Gennemgå og fuldføre din ordre."
+          "review_title_free_order": "Gennemgå og fuldføre din ordre.",
+          "shipping_method_title": "Metode"
         }
       },
       "general": {
         "map": {
           "cluster_title": {
-            "other": "Klynger {{number}} Markører"
+            "other": "Klynger {{number}} Markører",
+            "one": "Klynger {{number}} Markering"
           }
         }
       },
       "payment": {
         "subscription_agreement_cancelled": "annulleret",
         "edit_credit_card_modal": {
-          "description": "Du kan kun ændre faktureringsadressen på dit kort."
+          "description": "Du kan kun ændre faktureringsadressen på dit kort.",
+          "fields": {
+            "default": "Indstillet som standard"
+          }
         },
         "delete_credit_card_modal": {
           "confirmation": "Er du sikker på at du vil slette den {{brandName}} Ender i {{lastDigits}} ?"
         },
         "subscription_agreement_label": "Jeg forstår, at jeg accepterer et abonnement. Det fornys til den pris og med den hyppighed, der er angivet, indtil det ophører eller %{cancelled}.",
         "subscription_heading": "Abonnementsaftalen",
-        "use_location_billing_address_label": "Brug adresse"
+        "use_location_billing_address_label": "Brug adresse",
+        "purchase_options_agreement_label_wallets": "Ved at fortsætte med din betaling, accepterer du de fremtidige gebyrer, der er anført på denne side, og afbestillingspolitikken."
       },
       "stock": {
         "out_of_stock": {
@@ -519,7 +525,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "duplicate": "Gavekortet er allerede blevet anvendt på din ordre."
+          "duplicate": "Gavekortet er allerede blevet anvendt på din ordre.",
+          "generic": "Gavekortet kunne ikke tilføjes til kassen."
         }
       },
       "note": {
@@ -574,7 +581,8 @@
           "date": {
             "last_365_days": "De seneste 12 måneder"
           },
-          "clear_all": "Slet alt"
+          "clear_all": "Slet alt",
+          "apply": "ansøge"
         }
       },
       "order_status": {

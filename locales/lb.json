@@ -113,7 +113,8 @@
         "selling_plan_not_available_for_company_locations": "Nëmmen eemolege Kaf ass verfügbar fir B2B Bestellungen",
         "link_no_longer_exists": "Link gëtt et net méi.",
         "gift_card_with_components_not_supported": "De Bündelprodukt '%{name}' kann net an de Weenchen bäigefüügt ginn.",
-        "bundle_requires_components": "De Bündelprodukt '%{name}' kann net an de Weenchen bäigefüügt ginn."
+        "bundle_requires_components": "De Bündelprodukt '%{name}' kann net an de Weenchen bäigefüügt ginn.",
+        "bundle_products_not_supported_for_b2b_draft": "Bundled Elementen kënnt net op B2B- Order fir dës Geloou"
       },
       "storefront": {
         "invalid_password": "Passwuert falsch, probéiert w.e.g. nach eng Kéier."
@@ -194,7 +195,8 @@
           },
           "weekdays": {
             "wednesday": "Mëttwoch",
-            "monday": "Méindeg"
+            "monday": "Méindeg",
+            "friday": "Freideg"
           },
           "months": {
             "october": "Oktober",
@@ -219,6 +221,9 @@
           },
           "and": {
             "wordConnector": "{{previousWords}}, {{anotherWord}}"
+          },
+          "narrow": {
+            "twoWordConnector": "{{firstWord}}, {{secondWord}}"
           }
         },
         "continue_to_payment_plans_button_label": "Fuert weider op Bezuelpläng",
@@ -426,7 +431,8 @@
         "use_order_billing_address_label": "Orderfolling-Adress benotzen",
         "add_credit_card_modal": {
           "cancel": "Ofbriechen"
-        }
+        },
+        "payment_method": "Bezuelmethod"
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -635,7 +641,10 @@
         "duties_label": "Flichten",
         "may_be_charged_on_delivery": "Kann op Liwwerung verrechent ginn",
         "deferred_total_due_date_label": "Gesamtbetrag {{date}}",
-        "free_shipping_discount_label": "Versand fräi"
+        "free_shipping_discount_label": "Versand fräi",
+        "discount_order_stacking": {
+          "one": "Orden"
+        }
       },
       "processing": {
         "wait": {
@@ -746,7 +755,8 @@
         "email_blank": "Gitt eng E-Mail",
         "address_zip_invalid": "Gitt e gültege Postcode \/ Postcode an",
         "vaulting_agreement_blank": "Fir weiderzemaachen, musst Dir Är nei Kreditkaart späicheren, well d'Bezuelung fir dës Bestellung zu engem spéideren Datum geschitt.",
-        "address_country_invalid": "Wielt e Land \/ Regioun aus der Lëscht"
+        "address_country_invalid": "Wielt e Land \/ Regioun aus der Lëscht",
+        "address_phone_invalid": "Gitt eng valabel Telefonsnummer"
       },
       "thank_you": {
         "branded_promise": {
@@ -984,7 +994,8 @@
           "one": "Et gouf e Problem Är Kaddoskaart nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis.",
           "other": "Et gouf e Problem Är Kaddoskaarten nei ze schécken. Probéiert nach eng Kéier oder kontaktéiert eis."
         },
-        "thank_you_title_payments_app_pending_default": "Äer Betaaun"
+        "thank_you_title_payments_app_pending_default": "Äer Betaaun",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Nei Äer Betaal erfléidt, mer dir e-Postum vunt.  Schéckt."
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1504,7 +1515,8 @@
             "country": "Wielt e Land \/ Regioun",
             "last_name": "Gitt e Familljennumm",
             "first_name": "Gitt e Virnumm",
-            "address2": "Gitt en Appartement, Suite, etc."
+            "address2": "Gitt en Appartement, Suite, etc.",
+            "zip": "Gitt e Postcode \/ Postleitzuel un"
           },
           "unavailable": {
             "instructions": "Et gouf e Problem mat {{walletName}}. Zréck an de Buttek fir nach eng Kéier ze probéieren oder op eng aner Manéier ze kucken.",
@@ -1603,6 +1615,11 @@
       },
       "billing": {
         "same_as_shipping": "Selwecht wéi Versandadress"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "insufficient_funds": "Dës Kaddokaart huet keng Fongen méi"
+        }
       }
     },
     "email_marketing": {
@@ -2261,7 +2278,8 @@
         "label": "Kont",
         "hide_accessibility_label": "Kont Menu verstoppen",
         "nav_accessibility_label": "Kont Navigatioun",
-        "close_menu_accessibility_label": "Zoumaachen Kont Navigatioun"
+        "close_menu_accessibility_label": "Zoumaachen Kont Navigatioun",
+        "open_menu_accessibility_label": "Open Account Navigatioun"
       },
       "action_menu_accessibility_label": "Méi Aktiounen",
       "contact_link": "Kontaktéiert eis",
@@ -2407,7 +2425,8 @@
         "address": "Liwweradress",
         "free": "fräi",
         "subscription": "Abonnement Schëffer",
-        "one_time": "Eemol Versand"
+        "one_time": "Eemol Versand",
+        "free_shipping_discount": "Versand fräi"
       },
       "show_items": "Artikelen weisen",
       "payment": {

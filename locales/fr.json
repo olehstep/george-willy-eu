@@ -473,7 +473,8 @@
         },
         "address_form": {
           "save": "Sauvegarder"
-        }
+        },
+        "address_delete": "Supprimer l'adresse"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -497,14 +498,24 @@
         "expired_payment_method": "Le mode de paiement sélectionné a expiré",
         "delete_credit_card_modal": {
           "confirmation": "Voulez-vous vraiment supprimer le {{brandName}} se terminant par {{lastDigits}} ?"
-        }
+        },
+        "edit_credit_card_modal": {
+          "fields": {
+            "expiry": "Date d'expiration"
+          }
+        },
+        "purchase_options_agreement_label_wallets": "En poursuivant votre paiement, vous acceptez les frais futurs indiqués sur cette page et la politique d'annulation."
       },
       "stock": {
         "price_update": {
           "description": "Les prix de ces articles ont changé et sont mis à jour dans votre panier."
         },
         "item_label": {
-          "one": "{{count}} Article"
+          "one": "{{count}} Article",
+          "other": "{{count}} Articles"
+        },
+        "out_of_stock": {
+          "description": "Ces articles ne sont plus disponibles et ont été supprimés de votre panier."
         }
       },
       "order_summary": {
@@ -512,7 +523,8 @@
         "discount_title_stacking": {
           "one": "Rabais"
         },
-        "gift_card_and_discount_placeholder": "Carte-cadeau ou code promo"
+        "gift_card_and_discount_placeholder": "Carte-cadeau ou code promo",
+        "shipping_default_value": "Calculé à l'étape suivante"
       },
       "wallets": {
         "errors": {
@@ -520,6 +532,9 @@
             "reduction_code": "Saisissez un code de réduction ou une carte-cadeau valide"
           }
         }
+      },
+      "field_errors": {
+        "credit_card_month_invalid": "Entrez un mois d'expiration de carte valide"
       }
     },
     "errors": {
@@ -530,6 +545,9 @@
           },
           "sell_in_person": {
             "link_text": "Commencer l'essai gratuit"
+          },
+          "open_a_store": {
+            "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $\/mois pendant les 3 prochains mois."
           }
         },
         "owner_ctas": {
@@ -553,7 +571,8 @@
       "tuesdayAbbreviation": "Ma"
     },
     "profile_preview_bar": {
-      "previewing": "Vous prévisualisez:"
+      "previewing": "Vous prévisualisez:",
+      "hide_bar": "Cacher la barre"
     },
     "orders": {
       "order_list": {

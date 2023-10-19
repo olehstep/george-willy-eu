@@ -509,6 +509,13 @@
         "gift_card": {
           "generic": "Não foi possível adicionar o cartão-presente ao checkout"
         }
+      },
+      "general": {
+        "map": {
+          "cluster_title": {
+            "one": "Agrupamento do marcador {{number}}"
+          }
+        }
       }
     },
     "errors": {

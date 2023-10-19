@@ -60,7 +60,8 @@
             "monday": "mandag",
             "saturday": "lørdag",
             "friday": "fredag",
-            "thursday": "Torsdag"
+            "thursday": "Torsdag",
+            "wednesday": "onsdag"
           }
         },
         "continue_to_shipping_method": "Fortsett til frakt",
@@ -81,7 +82,8 @@
           },
           "narrow": {
             "lastWordConnector": "{{previousWords}}, {{lastWord}}",
-            "wordConnector": "{{previousWords}}, {{anotherWord}}"
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "twoWordConnector": "{{firstWord}}, {{secondWord}}"
           },
           "and": {
             "lastWordConnector": "{{previousWords}}, og {{lastWord}}"
@@ -307,7 +309,9 @@
         "gift_card_masked": "•••• %{last_characters}",
         "deferred_total_due_date_label": "Total forfall {{date}}",
         "subscriptions": "Abonnementer",
-        "may_be_charged_on_delivery": "Kan bli belastet ved levering"
+        "may_be_charged_on_delivery": "Kan bli belastet ved levering",
+        "duties_label": "Plikter",
+        "calculating": "Beregner …"
       },
       "stock": {
         "title": "Utsolgt",
@@ -501,7 +505,8 @@
         "shipping_rate_discounted_amount": "Var: %{original_amount}. Nå: %{amount}",
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Oppføringar",
         "add_delivery_instructions": "Legge til leveringsinstruksjoner",
-        "address2_add_label": "Legg til leilighet, suite, etc."
+        "address2_add_label": "Legg til leilighet, suite, etc.",
+        "edit": "Redigere"
       },
       "localized_fields": {
         "additional_information": {
@@ -703,7 +708,8 @@
             "security_code": "Sikkerhetskode"
           },
           "description": "Du kan berre endra faktureringsadressen til kortet ditt.",
-          "title": "Rediger kort"
+          "title": "Rediger kort",
+          "cancel": "Avbryt"
         },
         "local_payment_method_receiver_notice": "Etter at du har lagt inn bestillingen din, vil du motta betalingsinformasjon. Foreta betalingen i en minibank eller online innen {{dueDays}} dager.",
         "billing_address_associated_with_mandate_info": "Hvis du ønsker å endre faktureringsadressen din, vennligst fjern og skriv inn kredittkortopplysningene dine på nytt",
@@ -751,7 +757,9 @@
         "billing_address_title": "Fakturaadresse",
         "expired_payment_method": "Valgt betalingsmåte er utløpt",
         "use_order_billing_address_label": "Bruk ordrefaktureringsadresse",
-        "shipping_rate_updated": "Tilgjengelige forsendelsesmetoder er oppdatert. Bekreft valget ditt før du sjekker ut."
+        "shipping_rate_updated": "Tilgjengelige forsendelsesmetoder er oppdatert. Bekreft valget ditt før du sjekker ut.",
+        "billing_address_invalid_phone": "Oppdater telefonnummeret i faktureringsadressen for {{label}} {{last_digits}} for å fortsette.",
+        "amazon_payments_failed_mfa_challenge": "Den valgte betalingsmåten kunne ikke brukes. Velg en annen metode eller kontakt banken eller kortutstederen din."
       },
       "payment_summary": {
         "manual_payment_gateway_label": "Håndbok",
@@ -1274,7 +1282,8 @@
           "change_delivery_method_link_label": "Endre leveringsmetode",
           "payment_method_saved_company_location": "Lagra kort til denne adressa",
           "shipping_address_title": "Send til",
-          "review_title_free_order": "Se gjennom og fullfør bestillingen"
+          "review_title_free_order": "Se gjennom og fullfør bestillingen",
+          "change_shipping_method_link_label": "Endre fraktmetode"
         },
         "checkout_as_guest": "Sjekk ut som gjest",
         "review_title": "Gjennomgå bestillingen",
@@ -1347,7 +1356,8 @@
             "one": "uke"
           },
           "day": {
-            "one": "dag"
+            "one": "dag",
+            "other": "%{count} dager"
           }
         },
         "recurring_totals_with_initial_order_shipping_discount": "Første betaling %{total_price_with_discount}, deretter %{recurring_total}",
@@ -1402,7 +1412,8 @@
         "return_to_cart_button_label": "Gå tilbake til handlekurven",
         "payment_not_processed_title": "Betalingen din kunne ikke behandles",
         "title": "Betalingen kunne ikke behandles",
-        "payment_not_processed_text": "Du har ikke blitt belastet. Gå tilbake til handlekurven for å fullføre kjøpet."
+        "payment_not_processed_text": "Du har ikke blitt belastet. Gå tilbake til handlekurven for å fullføre kjøpet.",
+        "page_title": "Betalingen kunne ikke behandles"
       },
       "alternative_payment_method": {
         "button_label": "Kasse med: %{method}",
@@ -1446,7 +1457,8 @@
       "deliverability": {
         "not_deliverable": {
           "title": {
-            "one": "Ingen levering tilgjengelig for %{count} vare"
+            "one": "Ingen levering tilgjengelig for %{count} vare",
+            "other": "Ingen levering tilgjengelig for %{count} varer"
           },
           "message": {
             "other": "Disse varene vil bli fjernet fra handlekurven din fordi det ikke er noen leveringsmetoder tilgjengelig for adressen din.",
@@ -1651,7 +1663,8 @@
           "invalid": "Skriv inn et gyldig gavekort",
           "not_available": "Dette gavekortet er ikke lenger tilgjengelig",
           "duplicate": "Gavekortet har allerede blitt brukt på ordren din.",
-          "generic": "Gavekortet kunne ikkje leggjast til i kassekud"
+          "generic": "Gavekortet kunne ikkje leggjast til i kassekud",
+          "currency_mismatch": "Berre gavekort %{shop_currency} Er godtatt"
         }
       },
       "billing": {
@@ -2154,7 +2167,9 @@
             "last_365_days": "Siste 12 månader",
             "today": "I dag",
             "last_30_days": "Siste 30 dager"
-          }
+          },
+          "apply": "Søke om",
+          "clear_all": "Slett alt"
         },
         "plus_more": "+{{numberOfAdditionalProducts}}",
         "sort_currently_sorted_by_accessibility_label": "For øyeblikket sortert etter: {{option}}",
@@ -2238,7 +2253,8 @@
         },
         "out_for_delivery_description": "Denne forsendelsen er ute for levering.",
         "confirmed_gift_card_additional_description": {
-          "one": "Gavekort sendes i egen e-post."
+          "one": "Gavekort sendes i egen e-post.",
+          "other": "Hvert gavekort sendes i egen e-post."
         },
         "company_tracking_number": "{{company}} sporingsnummer:",
         "amazon_buy_with_prime": {
@@ -2253,7 +2269,8 @@
       "status_title": "Ordre status",
       "manage_accessiblity_label": "Administrer ordre {{orderId}}",
       "if_not_received": {
-        "one": "Hvis det ikke ble mottatt,"
+        "one": "Hvis det ikke ble mottatt,",
+        "other": "Hvis de ikke ble mottatt,"
       },
       "status_mark_as_delivered": "Merk som levert",
       "let_us_know": "Gi oss beskjed",
@@ -2276,7 +2293,8 @@
         "ineligible_return_without_policy_message": "Ingen varer i denne bestillingen er kvalifisert for retur.",
         "expand_events_label": "Vis detaljer",
         "ineligible_return_message": "Ingen varer i denne bestillingen er kvalifisert for retur.",
-        "ineligible_return_message_when_returned": "Ingen ytterligere poster i denne rekkefølgen kan returneres."
+        "ineligible_return_message_when_returned": "Ingen ytterligere poster i denne rekkefølgen kan returneres.",
+        "return_and_refund_modal_header": "Angrerett"
       },
       "shipping": {
         "summary": "Shipping",
@@ -2596,7 +2614,8 @@
         "tax_exemptions_modal_button_accessibility_label": "Se alle skattefritak",
         "payment_details_title": "Betalingsinformasjon",
         "tax_exemption_not_applicable": "N\/A",
-        "staff_and_permissions_title": "Personale og tillatelser"
+        "staff_and_permissions_title": "Personale og tillatelser",
+        "contact_name": "Navn"
       },
       "location_selection": {
         "selection_cancel_button": "Avbryt",
@@ -2907,7 +2926,8 @@
       "minimumReached": "Minste av {{value}} Nådd",
       "sunday": "søndag",
       "september": "september",
-      "tuesday": "tirsdag"
+      "tuesday": "tirsdag",
+      "closeNotification": "Lukk"
     },
     "profile_preview_bar": {
       "saved_at": "Lagrat {{date}} Kje {{time}}",
@@ -3097,7 +3117,8 @@
       "post_success": "takk for at du meldte deg på!",
       "input_label": "E-post",
       "placeholder": "Skriv inn e-post",
-      "submit": "Melde deg på"
+      "submit": "Melde deg på",
+      "label": "Meld deg på vårt nyhetsbrev"
     },
     "search": {
       "open": "Søk",

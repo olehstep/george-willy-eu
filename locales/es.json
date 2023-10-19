@@ -620,7 +620,8 @@
       },
       "customer_account": {
         "invalid_address": "La dirección seleccionada no es válida.",
-        "have_an_account_label": "¿Ya tienes una cuenta?"
+        "have_an_account_label": "¿Ya tienes una cuenta?",
+        "invalid_shipping_method_summary": "Seleccione una dirección de envío válida para ver los métodos de envío disponibles"
       },
       "store_credit_errors": {
         "generic_error": "Hubo un problema con el crédito de su tienda.  Inténtelo de nuevo o vuelva a cargar la página."
@@ -734,7 +735,8 @@
       "thursdayAbbreviation": "el",
       "showPreviousMonth": "Mostrar mes anterior, {{month}}  {{year}}",
       "closeNotification": "Cerca",
-      "fridayAbbreviation": "fr"
+      "fridayAbbreviation": "fr",
+      "closeModal": "Cerca"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",

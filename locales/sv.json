@@ -148,7 +148,11 @@
       "submit": "Skicka in",
       "sundayAbbreviation": "Dom är",
       "january": "januari",
-      "september": "september"
+      "september": "september",
+      "minimumReached": "Minsta av {{value}} Uppnådd",
+      "thursdayAbbreviation": "Þ",
+      "june": "juni",
+      "fridayAbbreviation": "Fr"
     },
     "orders": {
       "order_list": {
@@ -524,7 +528,8 @@
         },
         "split_cart_merchandise_quantity_label_additional": "+ ++ %{quantity} Fler",
         "title": "Frakt",
-        "shipping_information_required_notice": "Leveransuppgifter krävs. {{link}}."
+        "shipping_information_required_notice": "Leveransuppgifter krävs. {{link}}.",
+        "split_cart_merchandise_shipment_number": "Sändning %{number} Av %{total}"
       },
       "stock": {
         "out_of_stock": {
@@ -539,7 +544,8 @@
         },
         "price_update": {
           "description": "Priserna för dessa artiklar har ändrats och uppdateras i din kundvagn."
-        }
+        },
+        "return_to_store_label": "Återgå till butiken"
       },
       "review": {
         "blocks": {
@@ -629,7 +635,8 @@
           "one": "Lagt till"
         },
         "subscription_agreement_label": "Jag förstår att jag godkänner en prenumeration. Den kommer förnyas med listat pris och frekvens, tills den upphör eller %{cancelled}.",
-        "use_location_billing_address_label": "Använd platsens faktureringsadress"
+        "use_location_billing_address_label": "Använd platsens faktureringsadress",
+        "business_customer_vaulting_payment_label": "Spara detta kort för framtida köp för denna plats. Jag godkänner att %{company} får debitera denna betalningsmetod för framtida köp för denna plats. Alla kontakter som tilldelas till denna plats får använda detta kort."
       },
       "billing": {
         "address_form": {
@@ -697,7 +704,9 @@
           "add_storefront": "Du kan ställa in din webbplats genom att lägga till Online Store kanal i din webbplats %{admin_link} .  Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan.",
           "fix_domain": "Avsluta inställningen av din nya webbadress, gå till %{domain_settings_link} .  Klicka på ”Anslut domän” och ange: %{domain} .<br>Om du har svårt att komma in i din affär, prova - %{forgot_your_store_link} Sidan.",
           "fix_domain_link_text": "Dina domäninställningar",
-          "admin_link_text": "Admin:"
+          "admin_link_text": "Admin:",
+          "header": "Är du butiksägaren?",
+          "forgot_your_store_link_text": "Glömde din butik"
         },
         "ctas": {
           "store_owner": {
@@ -706,7 +715,8 @@
             "shopify_support_link_text": "Stöd för shopify"
           },
           "sell_in_person": {
-            "header": "Sälj personligt."
+            "header": "Sälj personligt.",
+            "link_text": "Starta gratis prövning"
           },
           "editions": {
             "caption": "Med 100+ produktuppdateringar kan du vara mer produktiv och kreativ och kraftfull än du någonsin föreställt dig.",
@@ -720,7 +730,8 @@
         },
         "title": "Skapa en e-handelswebbplats och sälja online!  E-handel programvara från Shopify",
         "heros": {
-          "store_unavailable": "Tyvärr, den här butiken är för närvarande inte tillgänglig."
+          "store_unavailable": "Tyvärr, den här butiken är för närvarande inte tillgänglig.",
+          "store_not_exist": "Den här butiken finns inte."
         },
         "links": {
           "start_free_trial": "Starta en gratis prövning"

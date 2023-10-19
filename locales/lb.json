@@ -230,7 +230,8 @@
             "friday": "Freideg",
             "saturday": "Samschdeg",
             "sunday": "Sonndeg",
-            "tuesday": "Dënschdeg"
+            "tuesday": "Dënschdeg",
+            "thursday": "Donneschdeg"
           },
           "months": {
             "october": "Oktober",
@@ -502,7 +503,8 @@
             "security_code": "Sécherheets Code",
             "default": "Set als Standard",
             "name": "Numm op der Kaart"
-          }
+          },
+          "title": "Kaarter änneren"
         },
         "order_edit_banner_items_returned": {
           "in_full": "Zréckkomm"
@@ -792,7 +794,8 @@
         "group_title_label": "Deel vun \"%{group_title}\"",
         "recurring_total_multiple_label": "Dës Bestellung huet eng widderhuelend Käschten fir verschidde Saachen.",
         "full_price": "Gesamtpräis: %{price}",
-        "duties_and_taxes_label": "Flichten a Steieren"
+        "duties_and_taxes_label": "Flichten a Steieren",
+        "calculating": "Berechent…"
       },
       "processing": {
         "wait": {
@@ -1472,13 +1475,17 @@
           "status_column_header": "Nët accessible"
         },
         "unpurchasable_product": {
-          "message": "Dës Artikele sinn net verfügbar fir B2B Bestellungen."
+          "message": "Dës Artikele sinn net verfügbar fir B2B Bestellungen.",
+          "status_column_header": "Nët accessible"
         },
         "item_label": {
           "one": "{{count}} Deelett"
         },
         "continue_cta_label": "Control weider",
-        "empty_cart_label": "Äre Weenchen ass eidel"
+        "empty_cart_label": "Äre Weenchen ass eidel",
+        "price_update": {
+          "description": "Preces fir dës Elementen huet geännert a git an deer Cart aktualiséiert."
+        }
       },
       "shop_policies": {
         "shipping_policy": "Versandpolitik",
@@ -1753,7 +1760,8 @@
           "outdated": {
             "shipping_method": "D'Versandoptiounen hu fir Är Bestellung geännert. Iwwerpréift Är Auswiel."
           },
-          "terminal": "Et gouf e Problem mat {{walletName}}. Benotzt w.e.g. eng aner Bezuelmethod."
+          "terminal": "Et gouf e Problem mat {{walletName}}. Benotzt w.e.g. eng aner Bezuelmethod.",
+          "generic": "Et gouf e Problem mat {{walletName}}. Probéiert nach eng Kéier oder benotzt eng aner Bezuelmethod."
         },
         "connect_shipping_methods": "{{method1}} an {{method2}}",
         "shipping_line_label": "Liwwerung",
@@ -1801,7 +1809,8 @@
           "other": "%{count} Pickup Punkten no bei Ärer Plaz",
           "one": "%{count} Pickup Point bei Ärer Location"
         },
-        "change": "Änneren"
+        "change": "Änneren",
+        "waiting_on_pickup_point_location_notice": "Sich no Pickup Punkten ..."
       },
       "marketplaces": {
         "legal_notice": {
@@ -2963,7 +2972,8 @@
       "minimumReached": "Minimum vunt {{value}} Erréucht",
       "removeTag": "Tag ewechhuelen",
       "tuesday": "Dënschdeg",
-      "mondayAbbreviation": "Mo"
+      "mondayAbbreviation": "Mo",
+      "september": "September"
     },
     "profile_preview_bar": {
       "previewing": "Dir ass veurbonert:",

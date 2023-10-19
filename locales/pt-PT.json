@@ -561,7 +561,8 @@
       "review": {
         "blocks": {
           "shipping_method_title": "Método",
-          "payment_method_title": "Pagamento"
+          "payment_method_title": "Pagamento",
+          "review_title_free_order": "Reveja e conclua a sua encomenda"
         },
         "review_title": "Rever encomenda"
       },
@@ -664,7 +665,8 @@
         },
         "title": "Crie um site de comércio eletrônico e venda on-line!  Software de comércio eletrônico da Shopify",
         "heros": {
-          "no_storefront": "Esta loja ainda não tem um site."
+          "no_storefront": "Esta loja ainda não tem um site.",
+          "store_unavailable": "Desculpe, esta loja está indisponível no momento."
         }
       }
     },

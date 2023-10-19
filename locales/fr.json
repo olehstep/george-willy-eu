@@ -487,7 +487,10 @@
         "different_shipping_method_summary": "Entrez une adresse de livraison différente pour voir les méthodes d'expédition disponibles",
         "enter_address_manually_label": "Entrez l'adresse manuellement",
         "shipping_information_required_notice": "Les informations sur l'expédition sont obligatoires. {{link}}.",
-        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte?"
+        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte?",
+        "local_pickup": {
+          "rollup_title": "Lieu de ramassage"
+        }
       },
       "redeemable_errors": {
         "gift_card": {
@@ -623,7 +626,8 @@
         "address_phone_invalid": "Entrez un numéro de téléphone valide",
         "tips_invalid_tip_amount": "Saisissez un pourboire inférieur ou égal à %{amount}",
         "reduction_code_discount_not_found": "Saisir un code de réduction valide",
-        "reduction_code_code_not_found": "Entrez un code de réduction ou une carte-cadeau valide"
+        "reduction_code_code_not_found": "Entrez un code de réduction ou une carte-cadeau valide",
+        "credit_card_year_invalid": "Entrez une année d'expiration de carte valide"
       },
       "general": {
         "map": {
@@ -687,7 +691,8 @@
           },
           "open_a_store": {
             "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $\/mois pendant les 3 prochains mois.",
-            "link_text": "Inscrivez-vous maintenant"
+            "link_text": "Inscrivez-vous maintenant",
+            "header": "Ouvrir une nouvelle boutique Shopify"
           },
           "editions": {
             "link_text": "Explorez les dernières éditions",
@@ -700,7 +705,8 @@
           "header": "Êtes-vous le propriétaire du magasin ?",
           "fix_domain": "Terminez la configuration de votre nouvelle adresse Web, accédez à %{domain_settings_link} .  Cliquez sur «Connecter le domaine» et entrez: %{domain} .<br>Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page.",
           "add_storefront": "Vous pouvez configurer votre site Web en ajoutant le canal Boutique en ligne dans votre %{admin_link} .  Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page.",
-          "admin_link_text": "administrateur"
+          "admin_link_text": "administrateur",
+          "forgot_your_store_link_text": "Oublié votre magasin"
         },
         "links": {
           "start_free_trial": "Commencer un essai gratuit",
@@ -759,7 +765,8 @@
       "rangeStart": "Début de l’intervalle",
       "march": "mars",
       "rangeEnd": "Fin de gamme",
-      "september": "septembre"
+      "september": "septembre",
+      "showPreviousMonth": "Afficher le mois précédent, {{month}}  {{year}}"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",

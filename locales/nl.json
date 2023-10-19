@@ -464,13 +464,24 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "shipping_method_notice": "Let op: eenmaal geplaatste bestellingen kunnen niet meer worden gewijzigd of geannuleerd. Om een bestelling te wijzigen, volg je het beleid voor retourneren en ruilen."
+        "shipping_method_notice": "Let op: eenmaal geplaatste bestellingen kunnen niet meer worden gewijzigd of geannuleerd. Om een bestelling te wijzigen, volg je het beleid voor retourneren en ruilen.",
+        "shipping_information_required_notice": "Verzendingsgegevens zijn vereist. {{link}}.",
+        "address_form": {
+          "generic_error": "Er was een probleem met het opslaan van uw adres.  Probeer het opnieuw."
+        }
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
       },
       "payment": {
-        "purchase_options_agreement_label_wallets": "Als u doorgaat met uw betaling, gaat u akkoord met de toekomstige kosten die op deze pagina worden vermeld en met het annuleringsbeleid."
+        "purchase_options_agreement_label_wallets": "Als u doorgaat met uw betaling, gaat u akkoord met de toekomstige kosten die op deze pagina worden vermeld en met het annuleringsbeleid.",
+        "edit_credit_card_modal": {
+          "fields": {
+            "default": "Instellen als standaard"
+          }
+        },
+        "subscription_agreement_label": "Ik begrijp dat ik akkoord ga met een abonnement. Het zal worden vernieuwd tegen de vermelde prijs en frequentie totdat het afloopt of wordt %{cancelled}.",
+        "expired_payment_method": "Geselecteerde betaalmethode is verlopen"
       },
       "customer_account": {
         "rollup_label": "Rekening"
@@ -484,7 +495,8 @@
       }
     },
     "ui_components": {
-      "wednesday": "Woensdag"
+      "wednesday": "Woensdag",
+      "february": "Februari"
     },
     "orders": {
       "order_list": {

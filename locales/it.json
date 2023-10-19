@@ -477,13 +477,22 @@
         "delete_credit_card_modal": {
           "confirmation": "Sei sicuro di voler eliminare il {{brandName}} Che termina tra {{lastDigits}} ?"
         },
-        "use_location_billing_address_label": "Utilizza l'indirizzo di fatturazione della posizione"
+        "use_location_billing_address_label": "Utilizza l'indirizzo di fatturazione della posizione",
+        "subscription_heading": "Accordo di sottoscrizione",
+        "purchase_options_agreement_label": "Comprendo che uno o più articoli nel mio carrello costituiscono un acquisto ricorrente o posticipato. Continuando, acconsento alla %{cancellation_policy_label} e autorizzo l'addebito del mio metodo di pagamento ai prezzi, alla frequenza e alle date elencati su questa pagina fino all'evasione del mio ordine o all'annullamento da parte mia, se consentito.",
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} Di {{quantity}} Rimosso"
+        },
+        "saved_credit_card_actions": {
+          "edit": "Modificare"
+        }
       },
       "order_summary": {
         "discount_order_stacking": {
           "one": "Sconto ordine",
           "other": "Sconti sugli ordini"
-        }
+        },
+        "higher_value_discount_applied": "Impossibile utilizzare <strong style=\"text-transform:uppercase\">%{code}<\/strong> con gli sconti esistenti. Disponi già di una combinazione più vantaggiosa."
       },
       "customer_account": {
         "have_an_account_label": "Hai già un account?",
@@ -496,6 +505,11 @@
       },
       "store_credit_errors": {
         "generic_error": "C' è stato un problema con il credito del tuo negozio.  Riprova o ricarica la pagina."
+      },
+      "stock": {
+        "item_label": {
+          "one": "{{count}} Articolo"
+        }
       }
     },
     "errors": {
@@ -529,7 +543,8 @@
         "links": {
           "start_free_trial": "Inizia una prova gratuita"
         }
-      }
+      },
+      "reset_password_html": "Questo indirizzo e‑mail è già associato ad un account. Se l'account è tuo, puoi <a href=\"\/account\/login#recover\">resettare la tua password<\/a>"
     },
     "notices": {
       "line_item": {
@@ -551,7 +566,8 @@
         "filter": {
           "apply": "Applicare",
           "date": {
-            "today": "In data odierna"
+            "today": "In data odierna",
+            "custom": "Costume"
           }
         }
       },
@@ -576,7 +592,12 @@
       "february": "febbraio",
       "autocompleteOptionsAvailable": {
         "one": "{{count}} Articolo disponibile"
-      }
+      },
+      "decrease": "Diminuzione {{type}}",
+      "expandNotification": "Visualizza di più",
+      "inRange": "Nell'intervallo",
+      "rangeEnd": "Intervallo",
+      "sunday": "Domenica"
     }
   }
 }

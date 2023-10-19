@@ -119,6 +119,11 @@
       "default_address_update_success_notification": "Standardadressen har uppdaterats",
       "loading_edit_form_accessibility_message": "Laddar redigera adressformulär",
       "loading_finished_accessibility_message": "Formuläret har laddats"
+    },
+    "ui_components": {
+      "rangeEnd": "Räckviddens slut",
+      "wednesdayAbbreviation": "Vi",
+      "processing": "Bearbetar..."
     }
   },
   "contact": {
@@ -417,6 +422,16 @@
     "checkout": {
       "shipping": {
         "shipping_method_notice": "Observera: Beställningar kan inte ändras eller annulleras när de väl har lagts. För att ändra en beställning, följ policyn för returer och byten."
+      },
+      "stock": {
+        "out_of_stock": {
+          "items_unavailable": "Vissa varor är inte längre tillgängliga och har tagits bort från din kundvagn."
+        }
+      },
+      "review": {
+        "blocks": {
+          "review_title_free_order": "Granska och slutför din beställning"
+        }
       }
     }
   },

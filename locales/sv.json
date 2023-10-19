@@ -158,6 +158,9 @@
           "clear_section": "Rensa sektionen"
         },
         "filter_title": "Filtrera"
+      },
+      "order_status": {
+        "there_was_a_problem_label": "Det var ett problem."
       }
     },
     "order_details": {
@@ -167,7 +170,8 @@
       }
     },
     "profile_preview_bar": {
-      "navigate_to_admin": "Navigera till administration"
+      "navigate_to_admin": "Navigera till administration",
+      "viewing": "Du tittar:"
     },
     "payment_methods": {
       "payment_details": {
@@ -322,7 +326,8 @@
       "launch": "Snabbköp"
     },
     "variant": {
-      "non_existent": "Inte tillgänglig"
+      "non_existent": "Inte tillgänglig",
+      "no_stock": "Utsåld"
     },
     "transfers": {
       "will_not_ship_until": "Skickar {{ date }}",
@@ -521,7 +526,8 @@
       "customer_account": {
         "rollup_label": "konto",
         "invalid_address": "Vald adress är inte giltig",
-        "have_an_account_label": "Har du redan ett konto?"
+        "have_an_account_label": "Har du redan ett konto?",
+        "invalid_shipping_method_summary": "Välj en giltig leveransadress för att se tillgängliga leveransmetoder"
       },
       "field_errors": {
         "credit_card_month_invalid": "Ange en giltig utgångsmånad för kortet",
@@ -571,7 +577,8 @@
             "name": "namn på kort",
             "billing": "Bill till"
           },
-          "cancel": "Annullera"
+          "cancel": "Annullera",
+          "description": "Du kan bara ändra faktureringsadressen på ditt kort."
         },
         "order_edit_banner_items_added": {
           "other": "%{count} Tillägg"
@@ -645,7 +652,10 @@
             "link_text": "Anmäl dig nu."
           }
         },
-        "title": "Skapa en e-handelswebbplats och sälja online!  E-handel programvara från Shopify"
+        "title": "Skapa en e-handelswebbplats och sälja online!  E-handel programvara från Shopify",
+        "heros": {
+          "store_unavailable": "Tyvärr, den här butiken är för närvarande inte tillgänglig."
+        }
       }
     }
   },

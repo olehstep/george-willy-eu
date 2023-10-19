@@ -481,7 +481,10 @@
         "missing_shipping_address": "Manca l'indirizzo di spedizione",
         "delete": "Eliminare",
         "edit": "Modificare",
-        "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}"
+        "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}",
+        "local_pickup": {
+          "rollup_title": "Posto di raccolta"
+        }
       },
       "payment_errors": {
         "invalid_expiry_date": "Inserisci una data di scadenza della carta valida"
@@ -536,7 +539,8 @@
         "gift_card_and_discount_label": "Buono regalo o codice sconto",
         "shipping_default_value": "Calcolato al passaggio successivo",
         "price_per_item": {
-          "label": "%{price} \/Ea"
+          "label": "%{price} \/Ea",
+          "accessibility_label": "%{price} Per articolo"
         },
         "gift_card_and_discount_placeholder": "Buono regalo o codice sconto"
       },
@@ -745,12 +749,15 @@
       "saturday": "il sabato",
       "august": "agosto",
       "showNextMonth": "Mostra il mese prossimo, {{month}}  {{year}}",
-      "sundayAbbreviation": "La sua"
+      "sundayAbbreviation": "La sua",
+      "wednesday": "Mercoledì",
+      "processing": "In lavorazione…"
     },
     "profile_preview_bar": {
       "previewing": "Stai visualizzando in anteprima:",
       "navigate_to_admin": "Vai all'amministratore",
-      "saved_at": "Salvato {{date}} Presso {{time}}"
+      "saved_at": "Salvato {{date}} Presso {{time}}",
+      "customize_button": "personalizzare"
     },
     "payment_methods": {
       "payment_details": {

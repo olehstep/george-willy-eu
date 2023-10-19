@@ -697,7 +697,9 @@
       "increase": "Augmentation {{type}}",
       "removeTag": "Enlever l'étiquette",
       "processing": "Traitement…",
-      "october": "octobre"
+      "october": "octobre",
+      "decrease": "Diminution {{type}}",
+      "june": "juin"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",

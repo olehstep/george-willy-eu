@@ -481,7 +481,8 @@
         "merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}",
         "local_pickup": {
           "rollup_title": "Lugar de recogida"
-        }
+        },
+        "missing_shipping_address": "Falta la dirección de envío"
       },
       "order_summary": {
         "price_per_item": {
@@ -519,13 +520,15 @@
         "edit_credit_card_modal": {
           "fields": {
             "name": "Nombre en la tarjeta",
-            "billing": "Cobrar a"
+            "billing": "Cobrar a",
+            "expiry": "Fecha de caducidad"
           },
           "description": "Solo puede modificar la dirección de facturación de su tarjeta."
         },
         "purchase_options_and_vaulting_agreement_label": "Uno o varios artículos del carrito son una compra diferida o recurrente. Al continuar con el pago, aceptas que se aplicarán cargos a la forma de pago automáticamente según el precio y la frecuencia indicados en esta página hasta que termine o la canceles. Todas las cancelaciones están sujetas a la %{cancellation_policy_label}.",
         "order_edit_banner_items_added": {
-          "one": "Adicional"
+          "one": "Adicional",
+          "other": "%{count} Añadido"
         },
         "delete_credit_card_modal": {
           "confirmation": "¿Está seguro de que desea eliminar el {{brandName}} Terminando en {{lastDigits}} ¿?",
@@ -647,6 +650,9 @@
         },
         "links": {
           "start_free_trial": "Iniciar una prueba gratuita"
+        },
+        "heros": {
+          "no_storefront": "Esta tienda aún no tiene página web."
         }
       }
     },
@@ -686,7 +692,8 @@
       "rangeStart": "Inicio de rango",
       "increase": "Aumento {{type}}",
       "removeTag": "Remover etiqueta",
-      "thursdayAbbreviation": "el"
+      "thursdayAbbreviation": "el",
+      "showPreviousMonth": "Mostrar mes anterior, {{month}}  {{year}}"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",

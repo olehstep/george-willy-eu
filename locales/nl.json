@@ -487,7 +487,11 @@
         "split_cart_merchandise_quantity_label_standard": "%{quantity} Artikelen",
         "merchandise_quantity_label_inline": "× %{quantity}   %{merchandise_title}",
         "split_cart_merchandise_shipment_number": "Verzending %{number} Van %{total}",
-        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Meer"
+        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Meer",
+        "different_shipping_method_summary": "Voer een ander verzendadres in om de beschikbare verzendmethoden te bekijken",
+        "local_pickup": {
+          "rollup_title": "Ophaalplaats"
+        }
       },
       "note": {
         "length_exceeds_maximum": "Verklein de grootte van de notitie tot 5000 of minder tekens."
@@ -544,7 +548,8 @@
         "thank_you_title_payments_app_failed_pending_payment": "Uw betaling kon niet worden verwerkt",
         "thank_you_title_payments_app_pending_buyer_action_required": "Uw bestelling is ontvangen",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Na het voltooien van uw betaling, krijgt u een bevestigingstekst.  Volg uw bestelling met behulp van de Shop-app.",
-        "failed_pending_payment_page_title": "Er is een probleem met uw betaling"
+        "failed_pending_payment_page_title": "Er is een probleem met uw betaling",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Na het voltooien van uw betaling, ontvangt u een bevestigingsmail.  Volg uw bestelling met behulp van de Shop-app."
       },
       "billing": {
         "billing_address_title": "Rekening naar",
@@ -646,6 +651,9 @@
           },
           "sell_in_person": {
             "header": "Verkopen in persoon"
+          },
+          "open_a_store": {
+            "link_text": "Meld u nu aan"
           }
         },
         "title": "Maak een e-commerce website en verkoop online!  E-commercesoftware door Shopify",
@@ -661,7 +669,8 @@
     "notices": {
       "line_item": {
         "item_status": {
-          "decrement_fulfilled_line_item": "Geretourneerd %{delta} Van %{total}"
+          "decrement_fulfilled_line_item": "Geretourneerd %{delta} Van %{total}",
+          "increment_item": "Toegevoegd %{delta}"
         }
       }
     }
@@ -696,7 +705,8 @@
       "autocompleteOptionsAvailable": {
         "one": "{{count}} Item beschikbaar"
       },
-      "tuesday": "Dinsdag"
+      "tuesday": "Dinsdag",
+      "decrease": "Daling {{type}}"
     },
     "orders": {
       "order_list": {

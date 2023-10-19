@@ -475,11 +475,14 @@
         "address_edit": "Editar Endereço",
         "address_delete": "Excluir endereço",
         "method_summary": {
-          "incomplete_address_entered": "Introduza uma morada de envio completa para ver os métodos de envio disponíveis"
+          "incomplete_address_entered": "Introduza uma morada de envio completa para ver os métodos de envio disponíveis",
+          "incomplete_address_selected": "Selecione um endereço de envio completo para visualizar os métodos de envio disponíveis"
         },
         "local_pickup": {
-          "rollup_title": "Local de retirada"
-        }
+          "rollup_title": "Local de retirada",
+          "search_address": "Procurar endereço"
+        },
+        "missing_shipping_address": "Falta o endereço de entrega"
       },
       "field_errors": {
         "address_phone_invalid": "Insira um número de telefone válido",
@@ -527,7 +530,8 @@
           "label": "%{price}\/EA"
         },
         "discount_order_stacking": {
-          "other": "Encomendar descontos"
+          "other": "Encomendar descontos",
+          "one": "Desconto na encomenda"
         },
         "gift_card_and_discount_label": "Cartão de oferta ou código de desconto",
         "gift_card_and_discount_title": "Cartão de oferta ou código de desconto",
@@ -550,7 +554,8 @@
       "redeemable_errors": {
         "gift_card": {
           "generic": "Não foi possível adicionar o cartão-presente ao checkout",
-          "duplicate": "O cartão-presente já foi aplicado ao seu pedido"
+          "duplicate": "O cartão-presente já foi aplicado ao seu pedido",
+          "currency_mismatch": "Só são aceites cartões-presente em %{shop_currency}"
         }
       },
       "general": {
@@ -593,7 +598,8 @@
         "owner_ctas": {
           "fix_domain_link_text": "suas configurações de domínio",
           "fix_domain": "Termine de configurar seu novo endereço da Web, vá para %{domain_settings_link}.  Clique em \"Conectar domínio\" e digite: %{domain}.<br>Se estiver a ter problemas para entrar na sua loja, experimente a página %{forgot_your_store_link}.",
-          "add_storefront": "Pode configurar o seu website adicionando o canal da Loja Online no seu %{admin_link}.  Se estiver a ter problemas para entrar na sua loja, experimente a página %{forgot_your_store_link}."
+          "add_storefront": "Pode configurar o seu website adicionando o canal da Loja Online no seu %{admin_link}.  Se estiver a ter problemas para entrar na sua loja, experimente a página %{forgot_your_store_link}.",
+          "header": "Você é o dono da loja?"
         },
         "ctas": {
           "store_owner": {
@@ -645,7 +651,8 @@
       "maximumReached": "Máximo de {{value}} atingido",
       "august": "Agosto",
       "monday": "Segunda-feira",
-      "tuesday": "Terça-feira"
+      "tuesday": "Terça-feira",
+      "saturdayAbbreviation": "sobre"
     },
     "order_details": {
       "edit_summary": {
@@ -677,7 +684,8 @@
       }
     },
     "profile_preview_bar": {
-      "viewing": "Você está vendo:"
+      "viewing": "Você está vendo:",
+      "saved_at": "Salvo {{date}} em {{time}}"
     }
   }
 }

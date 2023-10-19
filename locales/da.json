@@ -479,7 +479,11 @@
           "cancel": "Afbestille"
         },
         "split_cart_merchandise_shipment_number": "Forsendelse %{number} Af %{total}",
-        "address_confirm": "Vil du virkelig slette denne adresse fra din konto?"
+        "address_confirm": "Vil du virkelig slette denne adresse fra din konto?",
+        "method_summary": {
+          "incomplete_address_entered": "Indtast en komplet leveringsadresse for at se tilgængelige forsendelsesmetoder",
+          "incomplete_address_selected": "Vælg en komplet leveringsadresse for at se tilgængelige forsendelsesmetoder"
+        }
       },
       "review": {
         "review_title": "Gennemgå ordre",
@@ -537,7 +541,8 @@
         "return_to_store_label": "Tilbage til butikken",
         "price_update": {
           "description": "Priserne for disse varer har ændret sig og opdateres i din kurv."
-        }
+        },
+        "continue_cta_label": "Fortsæt kontrol"
       },
       "billing": {
         "same_as_shipping": "Samme som leveringsadresse",
@@ -555,10 +560,12 @@
           "label": "%{price} \/Ea"
         },
         "discount_order_stacking": {
-          "other": "Ordrerrabatt"
+          "other": "Ordrerrabatt",
+          "one": "Ordrerrabatt"
         },
         "shipping_default_value": "Beregnet ved næste trin",
-        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kunne ikke bruges med dine eksisterende rabatter. Du har allerede en bedre kombination."
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kunne ikke bruges med dine eksisterende rabatter. Du har allerede en bedre kombination.",
+        "gift_card_and_discount_title": "Gavekort eller rabatkode"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -571,7 +578,8 @@
       },
       "field_errors": {
         "credit_card_month_invalid": "Indtast gyldig udløbsmåned på kort",
-        "tips_invalid_tip_amount": "Angiv drikkepenge for højst %{amount}"
+        "tips_invalid_tip_amount": "Angiv drikkepenge for højst %{amount}",
+        "address_zip_too_long": "ZIP \/ postnummer er for lang (højst 255 tegn)"
       },
       "thank_you": {
         "order_status_payments_app_pending_payment_description_default_with_phone": "Du får snart en bekræftelsesms.  Spor din ordre ved hjælp af Shop-appen.",
@@ -579,13 +587,15 @@
         "thank_you_title_payments_app_pending_buyer_action_required": "Din ordre blev modtaget.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter at have fuldført din betaling, vil du få en bekræftelse tekst.  Spor din ordre ved hjælp af Shop-appen.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Efter at have fuldført din betaling, vil du få en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen.",
-        "thank_you_title_payments_app_pending_default": "Din betaling bliver behandlet"
+        "thank_you_title_payments_app_pending_default": "Din betaling bliver behandlet",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Du får snart en bekræftelse e-mail.  Spor din ordre ved hjælp af Shop-appen."
       },
       "contact": {
         "title": "Oplysninger"
       },
       "customer_account": {
-        "have_an_account_label": "Har du allerede en konto?"
+        "have_an_account_label": "Har du allerede en konto?",
+        "invalid_address": "Den valgte adresse er ikke gyldig"
       },
       "store_credit_errors": {
         "generic_error": "Der var et problem med din butiks kredit.  Prøv igen eller genlæs siden."
@@ -624,7 +634,8 @@
         },
         "heros": {
           "no_storefront": "Denne butik har ikke en hjemmeside endnu.",
-          "store_unavailable": "Denne butik er desværre ikke tilgængelig."
+          "store_unavailable": "Denne butik er desværre ikke tilgængelig.",
+          "store_not_exist": "Denne butik findes ikke."
         },
         "links": {
           "start_free_trial": "Start en gratis prøvel"
@@ -655,7 +666,11 @@
       "increase": "Forøger {{type}}",
       "october": "oktober",
       "september": "september",
-      "rangeEnd": "Rækkevidde ende"
+      "rangeEnd": "Rækkevidde ende",
+      "saturdayAbbreviation": "på",
+      "minimumReached": "Mindste ar {{value}} Nåedes",
+      "decrease": "Nedsæt {{type}}",
+      "march": "marts"
     },
     "orders": {
       "order_list": {
@@ -663,7 +678,8 @@
           "date": {
             "last_365_days": "De seneste 12 måneder",
             "title": "Bestillingsdato",
-            "last_30_days": "Sidste 30 dage"
+            "last_30_days": "Sidste 30 dage",
+            "last_7_days": "Sidste 7 dage"
           },
           "clear_all": "Slet alt",
           "apply": "ansøge"

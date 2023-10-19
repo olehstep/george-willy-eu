@@ -69,7 +69,8 @@
         "owner_ctas": {
           "header": "Sidd Dir de Buttek Besëtzer?",
           "fix_domain_link_text": "Äer Domein Astellungen",
-          "admin_link_text": "Admen"
+          "admin_link_text": "Admen",
+          "forgot_your_store_link_text": "Vergetellt."
         }
       },
       "invalid_for_card_type": "ass net valabel"
@@ -269,7 +270,8 @@
             "twoWordConnector": "{{firstWord}} an {{secondWord}}"
           },
           "narrow": {
-            "twoWordConnector": "{{firstWord}}, {{secondWord}}"
+            "twoWordConnector": "{{firstWord}}, {{secondWord}}",
+            "wordConnector": "{{previousWords}}, {{anotherWord}}"
           }
         },
         "continue_to_payment_plans_button_label": "Fuert weider op Bezuelpläng",
@@ -282,7 +284,13 @@
         "submit_order_button_label": "Bestellung ofginn",
         "remove_tag": "Tag ewechhuelen",
         "submit": "Ofginn",
-        "submit_for_review_notice_label": "D'Bezuelung gëtt net verrechent bis Är Bestellung iwwerpréift ass"
+        "submit_for_review_notice_label": "D'Bezuelung gëtt net verrechent bis Är Bestellung iwwerpréift ass",
+        "back_button_label": "Retour",
+        "map": {
+          "cluster_title": {
+            "other": "Cluster vunt {{number}} Marker"
+          }
+        }
       },
       "payment": {
         "amazon_payments_abandoned_mfa_challenge": "Är Bezuelung konnt net ofgeschloss ginn. Probéiert eng aner Bezuelmethod oder kontaktéiert Är Bank oder Kaart Emittent.",
@@ -527,13 +535,15 @@
         "waiting_on_taxes_message": "Wann Äerd Äerdäus net an de noel Sekonden bereellett, mat de Säit opfrisch.",
         "local_payment_method_receiver_notice": "Nodeems Dir Är Bestellung gemaach hutt, kritt Dir Bezuelungsdetailer. Maacht d'Bezuelung bei engem Geldautomaten oder online bannent {{dueDays}} Deeg.",
         "order_edit_banner_items_removed": {
-          "in_full": "Geläscht"
+          "in_full": "Geläscht",
+          "with_quantities": "{{delta}} A {{quantity}} Eweggest"
         },
         "shop_pay_installments_label": "Shop-Baille-Installéieren",
         "order_edit_banner_multiple_items_returned": "[@ 90000] zefgett",
         "card_fields_processing_error": "Et gouf e Problem beim Veraarbechtung vun der Bezuelung. Probéiert dës Säit z'erfrëschen oder kontrolléiert Är Internetverbindung.",
         "subscription_heading": "Beschreiwung",
-        "card_vaulted_company_location": "Kaart fir dës Plaz gespäichert"
+        "card_vaulted_company_location": "Kaart fir dës Plaz gespäichert",
+        "order_edit_banner_single_item_returned": "Zréckkomm"
       },
       "shipping": {
         "delivery_date_range": "%{min_time}–%{max_time}",
@@ -659,11 +669,15 @@
         "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Méien",
         "merchandise_quantity_label_inline_primary": "Keits: %{quantity}",
         "method_summary": {
-          "incomplete_address_entered": "Gitt e fullms-Adress fir verfügbar Rasie- Metoden"
+          "incomplete_address_entered": "Gitt e fullms-Adress fir verfügbar Rasie- Metoden",
+          "incomplete_address_selected": "Auswiele e fullt Schäichen- Adress fir verfügbar schoun metoden"
         },
         "loading_progressive_rates": "Sich no méi Tariffer ...",
         "shipping_address_title": "Schiff an",
-        "shipping_information_required_notice": "Versandinformatioun ass erfuerderlech. {{link}}."
+        "shipping_information_required_notice": "Versandinformatioun ass erfuerderlech. {{link}}.",
+        "shipping_method_combinations": {
+          "combination": "%{rest} an %{current}"
+        }
       },
       "order_summary": {
         "order_total_label": "Gesamtbestellung",
@@ -795,7 +809,10 @@
         "recurring_total_multiple_label": "Dës Bestellung huet eng widderhuelend Käschten fir verschidde Saachen.",
         "full_price": "Gesamtpräis: %{price}",
         "duties_and_taxes_label": "Flichten a Steieren",
-        "calculating": "Berechent…"
+        "calculating": "Berechent…",
+        "discount_title_stacking": {
+          "one": "Remise"
+        }
       },
       "processing": {
         "wait": {
@@ -912,7 +929,8 @@
         "address_zip_invalid_for_province": "Gitt e gültege Postcode \/ Postcode fir %{province}",
         "gift_card_invalid": "Geschenkkaart \"••••%{last_four_characters}\" ass net méi valabel",
         "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Dir hutt d'Limite fir Entwécklungsgeschäft Bestellunge mat dësem Bezuelprozessor erreecht. Fir eng aner Bestellung ze maachen, musst Dir en Testbezuelungsgateway benotzen. Léiere méi iwwer <a href=\"%{docs_link}\">Testbestellungen an Entwécklungsgeschäfter<\/a>.",
-        "phone_blank": "Gitt eng Telefonsnummer"
+        "phone_blank": "Gitt eng Telefonsnummer",
+        "delivery_zone_not_found": "Déi spezifizéiert Zone gouf net am spezifizéierte Land fonnt."
       },
       "thank_you": {
         "branded_promise": {
@@ -1161,7 +1179,8 @@
         "thank_you_title_payments_app_failed_pending_payment": "Är Bezuelung konnt net veraarbecht ginn",
         "order_status_payments_app_pending_payment_description_default_with_email": "Dir mer e-E-E-E-Post eel all.  Schéckt.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Nei Äer Betaal erfléidt, mer dir e-Postum vunt.  Schéckt.",
-        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Dir mer e-E-E-E-Post eel all.  Schéckt."
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Dir mer e-E-E-E-Post eel all.  Schéckt.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Nei Äer Betaal erfléidt, mer dir ee Bewachtung-Text huen.  Schéckt."
       },
       "contact": {
         "pincode_placeholder": "PIN Code",
@@ -1406,7 +1425,8 @@
         "none_method_definition": "Keng Versand",
         "pick_up_in_one_hour": "Normalerweis fäerdeg an 1 Stonn",
         "subscription_pickup_information": "Dës Liwwermethod gëlt fir all Artikelen an dëser Bestellung a fir all zukünfteg Bestellunge fir dëst Abonnement.",
-        "retail_method_definition": "Retail Versand"
+        "retail_method_definition": "Retail Versand",
+        "pickup_point_method_definition": "Schéckt op Pickup Point"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -1685,7 +1705,8 @@
       "notice_banner": {
         "individual_violations_title": {
           "OtherViolations": "Bestellung Informatiounen",
-          "PaymentViolations": "Rechnungsadress"
+          "PaymentViolations": "Rechnungsadress",
+          "DeliveryViolations": "Liwweradress"
         },
         "subscription_changed": "Ee vun Ären Abonnementer huet geännert.",
         "violations_title": "{{violation}} fehlt oder ongëlteg",
@@ -1696,7 +1717,8 @@
         "editable_shipping_address_violations_message_footer": "Fir d'Adress fir dës Plaz permanent ze aktualiséieren, {{emailLink}}.",
         "editable_shipping_address_violations_email_link": "Kontaktéiert eis",
         "all_violations_email_link": "Email",
-        "company_location_changed_product_removed": "Äer Cart ass Aktualiséierung, wier kied Producer ass net verfügbar. Iwwerpréift Är Bestellung ier Dir se ofginn."
+        "company_location_changed_product_removed": "Äer Cart ass Aktualiséierung, wier kied Producer ass net verfügbar. Iwwerpréift Är Bestellung ier Dir se ofginn.",
+        "company_location_changed": "Äre Weenchen gouf aktualiséiert. Iwwerpréift Är Bestellung ier Dir se ofginn."
       },
       "local_pickup": {
         "could_not_resolve_address": "Är Adress konnt net lokaliséiert ginn. Probéiert nach eng Kéier oder benotzt eng aner Adress",
@@ -1720,7 +1742,8 @@
           "one": "Show %{count} méi Location"
         },
         "no_stores_found": "Keng Geschäfter fonnt",
-        "search_button": "Fannt Geschäfter"
+        "search_button": "Fannt Geschäfter",
+        "or": "ODER"
       },
       "wallets": {
         "errors": {
@@ -1751,7 +1774,8 @@
             "stock_problems": "E puer Elementer sinn net méi verfügbar. Zoumaachen {{walletName}} a probéiert nach eng Kéier."
           },
           "unsupported": {
-            "postal_code": "Dës Plaz gëtt net ënnerstëtzt"
+            "postal_code": "Dës Plaz gëtt net ënnerstëtzt",
+            "address": "Den Händler kann net op dës Adress liwweren"
           },
           "formatting": {
             "name_contains_emojis": "Emoji aus Ärem Numm läschen",
@@ -1876,11 +1900,15 @@
       "redeemable_errors": {
         "gift_card": {
           "insufficient_funds": "Dës Kaddokaart huet keng Fongen méi",
-          "generic": "De Giftkaart konnt net fir d'Ock-After"
+          "generic": "De Giftkaart konnt net fir d'Ock-After",
+          "invalid": "Gitt eng valabel Cadeau Kaart"
         }
       },
       "note": {
         "length_exceeds_maximum": "De Gréisst vun de Noti op 5000 oder fleer Zeechen schécken."
+      },
+      "address_management": {
+        "confirm_address_deletion": "Wëllt Dir wier de Adress geläichen {{address}} ?"
       }
     },
     "email_marketing": {
@@ -2173,7 +2201,8 @@
             "last_365_days": "Lescht 12 Maanden",
             "last_30_days": "Lescht 30 Deeg",
             "last_90_days": "Lescht 90 Deeg",
-            "end_date": "Enndailg"
+            "end_date": "Enndailg",
+            "custom": "&amp; Benotzen"
           },
           "clear_section": "Seksion",
           "apply": "Bewerbung"
@@ -2747,7 +2776,8 @@
         },
         "manual_payment_methods": {
           "cash_on_delivery": "Cash bei Liwwerung (COD) - {{formattedTransactionAmount}}",
-          "bank_deposit": "Bank Depot - {{formattedTransactionAmount}}"
+          "bank_deposit": "Bank Depot - {{formattedTransactionAmount}}",
+          "money_order": "Money Order - {{formattedTransactionAmount}}"
         },
         "gift_card_payment_details": "Enn mat {{lastDigits}} - {{formattedTransactionAmount}}",
         "card_payment_details": "Enn mat {{lastDigits}} - {{formattedTransactionAmount}}"
@@ -2756,7 +2786,8 @@
       "location": "Location",
       "pagination": {
         "load_more": "Méi lueden",
-        "loading_accessibility_label": "Lueden Artikelen"
+        "loading_accessibility_label": "Lueden Artikelen",
+        "load_more_accessibility_label": "Lued méi Artikelen"
       },
       "contact": "Kontakt",
       "fully_refunded_label": "REFUNDERT",
@@ -2810,7 +2841,8 @@
       "shop_order_tracking": {
         "real_time_delivery_updates": "Shop schéckt Iech Echtzäit Liwwerupdates wann Är Bestellung geschéckt gëtt.",
         "download_shop_to_track": "Download Shop fir Package ze verfolgen",
-        "title_header": "Scan mat Ärem Telefon"
+        "title_header": "Scan mat Ärem Telefon",
+        "track_order_with_shop": "Streck Uerdnung mat Buttek"
       },
       "image_gallery": {
         "previous": "Show virdrun Elementer",

@@ -707,7 +707,8 @@
       "expandNotification": "Veja mais",
       "submit": "Enviar",
       "july": "Julho",
-      "wednesdayAbbreviation": "Nós"
+      "wednesdayAbbreviation": "Nós",
+      "wednesday": "Quarta-feira"
     },
     "order_details": {
       "edit_summary": {
@@ -744,7 +745,8 @@
       "viewing": "Você está vendo:",
       "saved_at": "Salvo {{date}} em {{time}}",
       "hide_bar": "Ocultar bar",
-      "navigate_to_admin": "Navegue até admin"
+      "navigate_to_admin": "Navegue até admin",
+      "previewing": "Você está visualizando:"
     },
     "B2B": {
       "draft_order_details": {

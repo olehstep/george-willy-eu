@@ -490,7 +490,8 @@
         "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte?",
         "local_pickup": {
           "rollup_title": "Lieu de ramassage"
-        }
+        },
+        "split_cart_merchandise_shipment_number": "Expédition %{number} De %{total}"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -599,7 +600,8 @@
         "gift_card_and_discount_placeholder": "Carte-cadeau ou code promo",
         "shipping_default_value": "Calculé à l'étape suivante",
         "discount_order_stacking": {
-          "other": "Remises de commande"
+          "other": "Remises de commande",
+          "one": "Remise de commande"
         },
         "customer_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> n'est pas disponible pour vous pour le moment",
         "price_per_item": {
@@ -766,7 +768,10 @@
       "march": "mars",
       "rangeEnd": "Fin de gamme",
       "september": "septembre",
-      "showPreviousMonth": "Afficher le mois précédent, {{month}}  {{year}}"
+      "showPreviousMonth": "Afficher le mois précédent, {{month}}  {{year}}",
+      "sundayAbbreviation": "Le sien",
+      "thursdayAbbreviation": "E",
+      "april": "avril"
     },
     "profile_preview_bar": {
       "previewing": "Vous prévisualisez:",

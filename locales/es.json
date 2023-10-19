@@ -487,7 +487,8 @@
         "missing_shipping_address": "Falta la dirección de envío",
         "delete": "Borrar",
         "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?",
-        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Más"
+        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Más",
+        "title": "Envíos"
       },
       "order_summary": {
         "price_per_item": {
@@ -495,7 +496,8 @@
           "label": "%{price} \/Ea"
         },
         "discount_order_stacking": {
-          "one": "Descuento de pedido"
+          "one": "Descuento de pedido",
+          "other": "Descuentos de la orden"
         },
         "gift_card_and_discount_title": "Tarjeta de regalo o código de descuento",
         "shipping_default_value": "Calculado en el siguiente paso",
@@ -503,7 +505,8 @@
           "other": "Descuentos."
         },
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> no se pudo usar con los descuentos existentes. Ya tienes una combinación mejor.",
-        "gift_card_and_discount_label": "Tarjeta de regalo o código de descuento"
+        "gift_card_and_discount_label": "Tarjeta de regalo o código de descuento",
+        "gift_card_and_discount_placeholder": "Tarjeta de regalo o código de descuento"
       },
       "payment": {
         "purchase_options_agreement_label_wallets": "Al continuar con su pago, usted acepta los cargos futuros que figuran en esta página y la política de cancelación.",
@@ -573,7 +576,8 @@
         "thank_you_title_payments_app_pending_buyer_action_required": "Su pedido fue recibido",
         "thank_you_title_payments_app_pending_default": "Su pago está siendo procesado",
         "thank_you_title_payments_app_failed_pending_payment": "Su pago no pudo ser procesado",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Después de completar su pago, recibirá un correo electrónico de confirmación.  Rastree su pedido utilizando la aplicación Shop."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Después de completar su pago, recibirá un correo electrónico de confirmación.  Rastree su pedido utilizando la aplicación Shop.",
+        "thank_you_payments_app_failed_pending_payment": "No le cobraron por su pedido.  Regrese a su carrito para revisar su pedido y pagar de nuevo."
       },
       "general": {
         "map": {
@@ -598,12 +602,14 @@
         },
         "add_address": "Usar una dirección diferente",
         "billing_address_title": "Cobrar a",
-        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?"
+        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?",
+        "delete": "Borrar"
       },
       "stock": {
         "return_to_store_label": "volver a la tienda",
         "out_of_stock": {
-          "items_unavailable": "Algunos artículos ya no están disponibles y se han eliminado de su carrito."
+          "items_unavailable": "Algunos artículos ya no están disponibles y se han eliminado de su carrito.",
+          "description": "Estos artículos ya no están disponibles y se han eliminado de su carrito."
         },
         "items_unavailable_notice": "Algunos artículos no se encuentran disponibles. Se ha actualizado la cesta de compra.",
         "price_update": {
@@ -700,7 +706,8 @@
         "item_status": {
           "increment_item": "Añadido %{delta}",
           "decrement_fulfilled_line_item": "Devuelto %{delta} De %{total}",
-          "add_variant": "Añadido %{delta}"
+          "add_variant": "Añadido %{delta}",
+          "decrement_item": "Eliminado %{delta} De %{total}"
         }
       }
     }
@@ -736,12 +743,14 @@
       "showPreviousMonth": "Mostrar mes anterior, {{month}}  {{year}}",
       "closeNotification": "Cerca",
       "fridayAbbreviation": "fr",
-      "closeModal": "Cerca"
+      "closeModal": "Cerca",
+      "sundayAbbreviation": "do"
     },
     "profile_preview_bar": {
       "previewing": "Estás previsualizando:",
       "navigate_to_admin": "Navegar a admin",
-      "customize_button": "personalizar"
+      "customize_button": "personalizar",
+      "saved_at": "Guardado {{date}} En {{time}}"
     },
     "orders": {
       "order_list": {
@@ -763,7 +772,8 @@
         }
       },
       "order_status": {
-        "there_was_a_problem_label": "Había un problema"
+        "there_was_a_problem_label": "Había un problema",
+        "attempted_to_deliver_label": "Intento entregar"
       }
     },
     "order_details": {

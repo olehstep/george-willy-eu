@@ -142,7 +142,8 @@
       "tuesdayAbbreviation": "Du",
       "august": "augusti",
       "autocompleteOptionsAvailable": {
-        "one": "{{count}} Objekt"
+        "one": "{{count}} Objekt",
+        "other": "{{count}} Tillgängliga poster"
       },
       "sunday": "söndag",
       "submit": "Skicka in",
@@ -152,7 +153,8 @@
       "minimumReached": "Minsta av {{value}} Uppnådd",
       "thursdayAbbreviation": "Þ",
       "june": "juni",
-      "fridayAbbreviation": "Fr"
+      "fridayAbbreviation": "Fr",
+      "increase": "Ökna {{type}}"
     },
     "orders": {
       "order_list": {
@@ -519,7 +521,8 @@
         "shipping_address_title": "Frakta till",
         "address_form": {
           "one_time_address_subtitle": "Använd en engångsadress för den här beställningen",
-          "cancel": "Annullera"
+          "cancel": "Annullera",
+          "generic_error": "Det gick inte att spara din adress.  Försök igen."
         },
         "address_confirm": "Är du säker på att du vill ta bort den här adressen från ditt konto?",
         "different_shipping_method_summary": "Ange en annan leveransadress för att se tillgängliga fraktmetoder",
@@ -671,7 +674,8 @@
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "one": "Denna order kan inte levereras till den adress du angav. Granska din adress för att säkerställa att alla fält har fyllts i korrekt och försök igen."
+          "one": "Denna order kan inte levereras till den adress du angav. Granska din adress för att säkerställa att alla fält har fyllts i korrekt och försök igen.",
+          "other": "Vissa artiklar i din varukorg kan inte levereras till den adress du angav. Granska din adress för att säkerställa att alla fält har fyllts i korrekt och försök igen."
         }
       },
       "store_credit_errors": {
@@ -683,7 +687,8 @@
       "general": {
         "map": {
           "cluster_title": {
-            "one": "Kluster {{number}} Märkere"
+            "one": "Kluster {{number}} Märkere",
+            "other": "Kluster {{number}} Markörer"
           }
         }
       }

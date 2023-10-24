@@ -1,6 +1,6 @@
 {%- if product.has_only_default_variant == false -%}
   {%- if product.variants.size > 1 or block.settings.show_single -%}
-    <div class="option-selectors" data-disable-unavailable="{{ block.settings.disable_unavailable_variants }}">
+    <div class="notranslate option-selectors" data-disable-unavailable="{{ block.settings.disable_unavailable_variants }}">
       {%- for option in product.options_with_values -%}
         {%- capture option_id -%}{{ section.id }}-{{ product.id }}-{{ option.name | handle }}-selector{%- endcapture -%}
 

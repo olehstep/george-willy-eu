@@ -188,10 +188,15 @@
         {% endif %}
       </div>
       
-      <div class="section-footer__row__col">
-       
-        <div class="transcy-switcher-manual transcy-mobile hidden" style="margin-left: -1px;margin-top: -10px;"></div>
-       
+      <div class="section-footer__row__col">      
+        <div class="transcy-switcher-manual transcy-mobile hidden" style="margin-left: -1px;margin-top: -10px;"></div>    
+        {% comment %} 
+        {% if section.settings.show_language_selector or section.settings.show_country_selector %}
+          <div class="section-footer__localization">
+            {% render 'localization', input_prefix: 'footer' %}
+          </div>
+        {% endif %}
+        {% endcomment %}  
         <div class="" style="margin: 0 10px 15px 0;">
           <a href="#" onclick="gt_redirectselector_1673403334880_open()">Change Location</a>
         </div>

@@ -184,15 +184,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      {% render 'cf09-imp' %}
     {% endif %}
 
-    <div class="additional-checkout-fields" style="display:none">
-  <div class="field field--optional field--vat-number">
-    <div class="field__input-wrapper">
-      <label class="field__label field__label--visible" for="checkout_vat_number">Enter your VAT number to be tax-exempt (e.g. DE123456789)</label>
-      <input placeholder="VAT number including country code (e.g. DE123456789)" autocomplete="vat number" data-backup="checkout_vat_number" class="field__input" aria-labelledby="error-for-vat_number" size="30" type="text" name="checkout[attributes][VAT Registration Number]" id="checkout_vat_number" value="{{ checkout.attributes["VAT Registration Number"] }}" />
-     </div>
-  </div>
-</div>
-
 <script type="text/javascript">
 (function($) {
   // Document load/change

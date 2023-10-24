@@ -158,7 +158,6 @@
       "description": "Beschreibung",
       "vendor": "Verkäufer",
       "sku": "SKU:",
-      "selector_label": "Optionen",
       "no_selection": "Wähle eine Option",
       "quantity": "Menge",
       "product_unavailable": "Nicht verfügbar",

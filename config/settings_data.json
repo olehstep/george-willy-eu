@@ -1104,7 +1104,7 @@
           "message_font_size": 15,
           "show_social_icons": true,
           "menu": "",
-          "show_country_selector": true,
+          "show_country_selector": false,
           "show_language_selector": false
         }
       },

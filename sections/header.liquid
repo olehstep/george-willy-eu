@@ -135,7 +135,7 @@
    <div class="transcy-switcher-manual transcy-desktop hidden"></div>
           {% if shop.customer_accounts_enabled %}
             {% if customer %}
-              <a class="header-account-link 1" href="{{ routes.account_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
+              <a class="header-account-link " href="{{ routes.account_url }}" aria-label="{{ 'layout.customer.account' | t | escape }}">
                 <span class="header-account-link__text desktop-only{% if section.settings.icon_strategy == 'icons_only' %} visually-hidden{% endif %}">{{ 'layout.customer.account' | t | escape }}</span>
                 <span class="header-account-link__icon{% if section.settings.icon_strategy == 'icons_cart_search' %} mobile-only{% endif %}">{% render 'svg-user' %}</span>
               </a>

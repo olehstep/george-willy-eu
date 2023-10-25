@@ -595,7 +595,9 @@
         },
         "items_unavailable_notice": "Certains articles ne sont plus disponibles. Votre panier a été mis à jour.",
         "return_to_store_label": "Retour au magasin",
-        "continue_cta_label": "Continuer le paiement"
+        "continue_cta_label": "Continuer le paiement",
+        "page_title": "Problèmes d'inventaire",
+        "title": "En rupture de stock"
       },
       "order_summary": {
         "discount_label": "code de réduction",
@@ -640,8 +642,24 @@
       "general": {
         "map": {
           "cluster_title": {
-            "other": "Cluster de {{number}} Marqueurs",
-            "one": "Cluster de {{number}} Marqueur"
+            "other": "Groupe de marqueurs {{number}}",
+            "one": "Groupe de marqueurs {{number}}"
+          }
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} et {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} et {{secondWord}}"
+          },
+          "or": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, ou {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} ou {{secondWord}}"
+          },
+          "narrow": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, {{lastWord}}",
+            "twoWordConnector": "{{firstWord}}, {{secondWord}}"
           }
         }
       },
@@ -654,12 +672,77 @@
         "review_title": "Réviser la commande"
       },
       "contact": {
-        "title": "Informations"
+        "title": "Contact",
+        "optional_phone_label": "Téléphone facultatif)",
+        "phone_placeholder": "Téléphone",
+        "phone_tooltip": "Au cas où nous aurions besoin de vous contacter au sujet de votre commande",
+        "zip_code_label": "Code postal",
+        "zip_code_placeholder": "Code postal",
+        "postal_code_label": "Code Postal",
+        "postal_code_placeholder": "Code Postal",
+        "postcode_label": "Code postal",
+        "postcode_placeholder": "Code postal",
+        "pincode_label": "Code PIN",
+        "pincode_placeholder": "Code PIN",
+        "civic_number_warning": "Ajoutez un numéro de maison si vous en avez un",
+        "optional_last_name_label": "Nom de famille (facultatif)",
+        "optional_recipient_label": "Attention (facultatif)",
+        "company_contact_info": "{{companyName}} · {{contact}}",
+        "different_shipping_address_label": "Expédier à une adresse différente",
+        "different_shipping_address_text": "Utiliser une adresse unique pour cette commande",
+        "change_company_location_link_label": "Changer l'emplacement de l'entreprise",
+        "change_location_link_label": "Changer de lieu",
+        "ship_to_company": "Expédier à {{companyName}}",
+        "address_title": "Adresse",
+        "shipping_used_as_billing_notice": "Celle-ci sera également utilisée comme adresse de facturation pour cette commande.",
+        "delivery_option_title": "Méthode de livraison",
+        "contact_method_title": "Contact",
+        "email_label": "E-mail",
+        "email_placeholder": "E-mail",
+        "email_or_phone_label": "Email ou numéro de téléphone portable",
+        "email_or_phone_placeholder": "Email ou numéro de téléphone portable",
+        "stored_addresses_label": "Adresses enregistrées",
+        "new_address_label": "Utiliser une nouvelle adresse",
+        "first_name_label": "Prénom",
+        "optional_first_name_label": "Prénom (facultatif)",
+        "last_name_label": "Nom de famille",
+        "company_label": "Entreprise",
+        "optional_company_label": "Société (optionel)",
+        "address1_label": "Adresse",
+        "address2_label": "Appartement, suite, etc.",
+        "optional_address2_label": "Appartement, suite, etc. (facultatif)",
+        "city_label": "Ville",
+        "country_label": "Pays\/Région",
+        "country_code": "Code pays\/région",
+        "province_label": "Province",
+        "province_placeholder": "Province",
+        "county_label": "Comté",
+        "county_placeholder": "Comté",
+        "state_label": "État",
+        "state_placeholder": "État",
+        "region_label": "Région",
+        "region_placeholder": "Région",
+        "region_none": "Aucune sélection",
+        "prefecture_label": "Préfecture",
+        "prefecture_placeholder": "Préfecture",
+        "governorate_label": "Gouvernorat",
+        "governorate_placeholder": "Gouvernorat",
+        "emirate_label": "Émirat",
+        "emirate_placeholder": "Émirat",
+        "state_and_territory_label": "État\/territoire",
+        "state_and_territory_placeholder": "État\/territoire",
+        "phone_label": "Téléphone"
       },
       "customer_account": {
-        "have_an_account_label": "Vous avez déjà un compte ?",
+        "have_an_account_label": "Avoir un compte?",
         "invalid_shipping_method_summary": "Sélectionnez une adresse de livraison valide pour afficher les méthodes d'expédition disponibles",
-        "invalid_address": "L’adresse sélectionnée n’est pas valide"
+        "invalid_address": "L'adresse sélectionnée n'est pas valide. %{update_address_link} ou sélectionnez une autre adresse.",
+        "not_user_label": "Pas %{first_name} ?",
+        "sign_in_link_label": "Se connecter",
+        "sign_out_link_label": "Se déconnecter",
+        "save_my_information_label": "Enregistrez ces informations pour la prochaine fois",
+        "incomplete_address": "L'adresse sélectionnée est incomplète. %{update_address_link} ou sélectionnez une autre adresse.",
+        "rollup_label": "Compte"
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
@@ -685,6 +768,27 @@
       },
       "discount_errors": {
         "generic_error": "Votre commande n’a pas pu être traitée car votre code de réduction n’est plus disponible. Vérifiez le total de votre commande et réessayez."
+      },
+      "delivery_options": {
+        "free_total_label": "Gratuit",
+        "ship": "Bateau",
+        "shipping_address": "Adresse de livraison",
+        "pick_up": "Ramasser",
+        "pick_up_locations": "Lieux de ramassage",
+        "pick_up_in_one_hour": "Généralement prêt en 1 heure",
+        "pick_up_in_two_hours": "Généralement prêt en 2 heures",
+        "pick_up_in_four_hours": "Généralement prêt en 4 heures",
+        "pick_up_in_twenty_four_hours": "Généralement prêt en 24 heures",
+        "pick_up_in_two_to_four_days": "Généralement prêt en 2 à 4 jours",
+        "pick_up_in_five_or_more_days": "Généralement prêt en 5+ jours",
+        "pick_up_in_zero_to_two_hours": "Prêt à être récupéré dans 2 heures",
+        "pick_up_in_two_to_four_hours": "Prêt à être récupéré dans 4 heures",
+        "pick_up_immediately": "Prêt à être récupéré maintenant",
+        "pick_up_next_day": "Prêt à être récupéré le lendemain",
+        "pickup_point_method_definition": "Expédier au point de retrait",
+        "retail_method_definition": "Expédition au détail",
+        "none_method_definition": "Aucune expédition",
+        "subscription_pickup_information": "Ce mode de livraison s'appliquera à tous les articles de cette commande et à toutes les commandes futures de cet abonnement."
       }
     },
     "errors": {

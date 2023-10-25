@@ -4,17 +4,17 @@
   },
   "gift_cards": {
     "issued": {
-      "title": "¡Aquí está su tarjeta de regalo de {{ value }} para {{ shop }}!",
-      "subtext": "¡Aquí está su tarjeta de regalo!",
-      "disabled": "Inhabilitada",
-      "expired": "Expiró en {{ expiry }}",
-      "active": "Expira en {{ expiry }}",
+      "title": "¡Aquí tienes tu tarjeta regalo {{ value }} para {{ shop }}!",
+      "subtext": "¡Aquí tienes tu tarjeta regalo!",
+      "disabled": "Desactivado",
+      "expired": "Expiró el {{ expiry }}",
+      "active": "Vence el {{ expiry }}",
       "initial_value_html": "Valor de la tarjeta de regalo: {{ value }}",
-      "remaining_html": "{{ balance }} restante",
-      "redeem": "Use este código al terminar la comprar para canjear su tarjeta de regalo",
+      "remaining_html": "{{ balance }} izquierda",
+      "redeem": "Utilice este código al finalizar la compra para canjear su tarjeta de regalo",
       "add_to_apple_wallet": "Añadir a Apple Wallet",
       "print": "Imprimir",
-      "shop_link": "Empezar a comprar"
+      "shop_link": "Empieza a comprar"
     }
   },
   "general": {
@@ -373,65 +373,65 @@
       "payment_status": "Estado del pago",
       "fulfillment_status": "Estado de finalización",
       "total": "Total",
-      "full_details_html": "Full details &rarr;",
-      "none": "No ha realizado algún pedido aún."
+      "full_details_html": "Detalles completos →",
+      "none": "Aún no has realizado ningún pedido."
     },
     "activate_account": {
-      "title": "Activar cuenta",
-      "subtext": "Cree su contraseña para activar su cuenta.",
+      "title": "Activar la cuenta",
+      "subtext": "Crea tu contraseña para activar tu cuenta.",
       "password": "Contraseña",
-      "password_confirm": "Confirmar contraseña",
-      "submit": "Activar cuenta",
+      "password_confirm": "confirmar Contraseña",
+      "submit": "Activar la cuenta",
       "cancel": "Rechazar invitación"
     },
     "addresses": {
-      "title": "Sus direcciones",
-      "add_new": "Agregar una nueva dirección",
-      "first_name": "Nombre",
+      "title": "Tus direcciones",
+      "add_new": "Añadir una nueva dirección",
+      "first_name": "Nombre de pila",
       "last_name": "Apellido",
       "company": "Compañía",
-      "address1": "Dirección1",
-      "address2": "Dirección2",
+      "address1": "Dirección 1",
+      "address2": "Dirección 2",
       "city": "Ciudad",
       "country": "País",
       "province": "Provincia",
       "zip": "Código postal",
       "phone": "Teléfono",
-      "set_default": "Fijar como dirección por defecto",
-      "add": "Agregar dirección",
+      "set_default": "Establecer como dirección predeterminada",
+      "add": "Añadir dirección",
       "cancel": "Cancelar",
       "default": "Por defecto",
       "edit": "Editar",
       "delete_confirm": "¿Está seguro de que desea eliminar esta dirección?",
-      "delete": "Eliminar",
+      "delete": "Borrar",
       "edit_address": "Editar dirección",
       "update": "Actualizar dirección"
     },
     "order": {
-      "title": "Pedido {{ name }}",
-      "cancelled_on": "Pedido cancelado en {{ date }}",
-      "cancelled_reason": "Motivo: {{ reason }}",
-      "date": "Realizado en {{ date }}",
-      "billing_address": "Dirección de facturación",
-      "payment_status": "Estado del pago",
+      "title": "Orden {{ name }}",
+      "cancelled_on": "Pedido cancelado el {{ date }}",
+      "cancelled_reason": "Razón: {{ reason }}",
+      "date": "Colocado en {{ date }}",
+      "billing_address": "Dirección de Envio",
+      "payment_status": "Estado de pago",
       "shipping_address": "Dirección de envío",
-      "fulfillment_status": "Estado de finalización",
+      "fulfillment_status": "Estado de cumplimiento",
       "product": "Producto",
       "sku": "SKU",
       "price": "Precio",
       "quantity": "Cantidad",
       "total": "Total",
-      "fulfilled_on": "Surtido el {{ date }}",
-      "subtotal": "Subtotal",
+      "fulfilled_on": "Cumplido {{ date }}",
+      "subtotal": "Total parcial",
       "shipping": "Envío",
       "tax": "Impuesto"
     },
     "reset_password": {
-      "title": "Restablecer contraseña de cuenta",
+      "title": "Restablecer la contraseña",
       "subtext": "Ingrese una nueva contraseña para {{ email }}",
       "password": "Contraseña",
-      "password_confirm": "Confirmar contraseña",
-      "submit": "Restablecer contraseña"
+      "password_confirm": "confirmar Contraseña",
+      "submit": "Restablecer la contraseña"
     }
   },
   "storefront_password": {
@@ -948,6 +948,54 @@
     "errors": {
       "load_extension_error": {
         "description": "Actualice esta página o inténtelo de nuevo en unos minutos."
+      }
+    },
+    "enable_javascript": "Para ver su cuenta, habilite JavaScript en la configuración de su navegador o inicie sesión con otro navegador.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Ocultar menú de cuenta",
+        "label": "Cuenta",
+        "show_accessibility_label": "Mostrar menú de cuenta",
+        "nav_accessibility_label": "Navegación de cuenta",
+        "open_menu_accessibility_label": "Abrir navegación de cuenta",
+        "close_menu_accessibility_label": "Cerrar navegación de cuenta",
+        "loading_message": "Cargando navegación de cuenta"
+      },
+      "action_menu_accessibility_label": "Mas acciones",
+      "close_menu_accessibility_label": "Cerrar navegación principal",
+      "contact_email_subject": "Contacto desde la tienda online {{shopName}}",
+      "contact_link": "Contáctenos",
+      "delete_confirmation": {
+        "cancel": "Cancelar",
+        "delete": "Borrar"
+      },
+      "dismiss_toast": "Despedir",
+      "document_title": "{{sectionName}} - {{shopName}} - Cuenta",
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "go_to_store_link": "Ir a la tienda",
+      "loading_message": "Cargando",
+      "log_out_link": "Cerrar sesión",
+      "logout_overlay_label": "Cerrándote la sesión...",
+      "nav_label_accessibility_label": "Navegación Principal",
+      "navigation_accessibility_message": "Navegaste a {{sectionName}}",
+      "open_menu_accessibility_label": "Abrir navegación principal",
+      "orders_link_label": "Pedidos",
+      "shop_logo_accessibility_label": "logotipo {{shopName}}",
+      "subscriptions_link_label": "Suscripciones"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Cargando información de la cuenta",
+      "loading_finished_accessibility_message": "La información de la cuenta se ha cargado",
+      "profile_card": {
+        "cancel": "Cancelar",
+        "cancel_accessibility_label": "Cancelar edición de perfil",
+        "edit": "Editar",
+        "edit_accessibility_label": "Editar perfil",
+        "email_help_text": "El correo electrónico utilizado para iniciar sesión no se puede cambiar",
+        "first_name": "Nombre de pila",
+        "last_name": "Apellido",
+        "no_name_provided_accessibility_label": "No se agregó ningún nombre",
+        "phone_number_help_text": "El número de teléfono utilizado para iniciar sesión no se puede cambiar"
       }
     }
   }

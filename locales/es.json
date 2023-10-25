@@ -699,7 +699,22 @@
           "store_unavailable": "Lo sentimos, esta tienda no está disponible actualmente."
         },
         "title": "¡Crear un sitio web de comercio electrónico y vender en línea!  Software de comercio electrónico por Shopify"
-      }
+      },
+      "blank": "no puede estar en blanco",
+      "blocked_address": "Esta ubicación no es compatible.",
+      "credit_card_session_expired": "La autorización de la tarjeta de crédito ha caducado, ingrese su información de pago nuevamente. Su tarjeta no ha sido cargada.",
+      "empty": "no puede estar vacío",
+      "invalid_email": "Debe ser una dirección de correo electrónico válida",
+      "discount_disabled": "Este descuento ha sido desactivado.",
+      "discount_expired": "Este descuento ya no es válido.",
+      "discount_limit_reached": "Este descuento ha alcanzado su límite de uso.",
+      "discount_not_found": "No se puede encontrar un descuento válido que coincida con el código ingresado",
+      "customer_already_used_once_per_customer_discount_notice": "Este descuento ha alcanzado su límite de uso.",
+      "gift_card_already_applied": "El código ya se ha aplicado a su pago",
+      "gift_card_code_invalid": "El codigo es invalido",
+      "gift_card_currency_mismatch": "Tu tarjeta de regalo está en %{gift_card_currency}. Contáctenos para reeditarlo en %{checkout_currency}.",
+      "gift_card_depleted": "No quedan fondos en esta tarjeta de regalo",
+      "gift_card_disabled": "La tarjeta regalo está deshabilitada"
     },
     "notices": {
       "line_item": {
@@ -709,6 +724,57 @@
           "add_variant": "Añadido %{delta}",
           "decrement_item": "Eliminado %{delta} De %{total}"
         }
+      }
+    },
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "y",
+      "last_word_connector": ", y"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Próximo"
+    },
+    "links": {
+      "learn_more": "Aprende más"
+    },
+    "feed": {
+      "more": "Más"
+    },
+    "attributes": {
+      "email": "correo electrónico",
+      "password": "contraseña",
+      "password_confirmation": "La confirmación de contraseña",
+      "first_name": "nombre de pila",
+      "last_name": "apellido",
+      "body": "cuerpo",
+      "signature": "DIRECCIÓN"
+    },
+    "addresses": {
+      "zip_code": "Código postal",
+      "postal_code": "Código Postal",
+      "postcode": "Código postal",
+      "pincode": "Código PIN",
+      "region": "Región",
+      "prefecture": "Prefectura",
+      "province": "Provincia",
+      "state": "Estado",
+      "state_and_territory": "Estado\/territorio",
+      "county": "Condado",
+      "emirate": "Emirato",
+      "governorate": "Gobernación",
+      "confirm": "¿Está seguro de que desea eliminar esta dirección?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Presentado",
+        "best_selling": "Más vendido",
+        "az": "Alfabéticamente, A-Z",
+        "za": "Alfabéticamente, Z-A",
+        "price_ascending": "Precios de barato a caro",
+        "price_descending": "Precio, de mayor a menor",
+        "date_ascending": "Fecha, antigua a nueva",
+        "date_descending": "Fecha, nueva a vieja"
       }
     }
   },

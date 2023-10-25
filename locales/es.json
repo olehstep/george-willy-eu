@@ -582,8 +582,8 @@
       "general": {
         "map": {
           "cluster_title": {
-            "other": "Cluster de {{number}} Marcadores",
-            "one": "Cluster de {{number}} Marcador"
+            "other": "Grupo de marcadores {{number}}",
+            "one": "Grupo de marcador {{number}}"
           }
         },
         "page_title": "Verificar",
@@ -633,7 +633,23 @@
         "full_price": "Precio final:",
         "title": "Pagar - {{shopName}}",
         "full_title": "{{pageTitle}} - {{shopName}} - Pagar",
-        "loading_title": "Pagar - {{shopName}}"
+        "loading_title": "Pagar - {{shopName}}",
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} y {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} y {{secondWord}}"
+          },
+          "or": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}} o {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} o {{secondWord}}"
+          },
+          "narrow": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, {{lastWord}}",
+            "twoWordConnector": "{{firstWord}}, {{secondWord}}"
+          }
+        }
       },
       "field_errors": {
         "address_zip_too_long": "El código postal es demasiado largo (el máximo es de 255 caracteres)",
@@ -687,7 +703,46 @@
         "invalid_expiry_date": "Introduce una fecha de expiración de tarjeta válida"
       },
       "contact": {
-        "title": "Información"
+        "title": "Contacto",
+        "address_title": "DIRECCIÓN",
+        "shipping_used_as_billing_notice": "Esta también se utilizará como su dirección de facturación para este pedido.",
+        "delivery_option_title": "Método de entrega",
+        "contact_method_title": "Contacto",
+        "email_label": "Correo electrónico",
+        "email_placeholder": "Correo electrónico",
+        "email_or_phone_label": "Correo electrónico o número de teléfono móvil",
+        "email_or_phone_placeholder": "Correo electrónico o número de teléfono móvil",
+        "stored_addresses_label": "Direcciones guardadas",
+        "new_address_label": "Utilice una nueva dirección",
+        "first_name_label": "Nombre de pila",
+        "optional_first_name_label": "Nombre (opcional)",
+        "last_name_label": "Apellido",
+        "company_label": "Compañía",
+        "optional_company_label": "Companía (opcional)",
+        "address1_label": "DIRECCIÓN",
+        "address2_label": "Apartamento, suite, etc.",
+        "optional_address2_label": "Apartamento, suite, etc. (opcional)",
+        "city_label": "Ciudad",
+        "country_label": "País\/Región",
+        "country_code": "Código de país\/región",
+        "province_label": "Provincia",
+        "province_placeholder": "Provincia",
+        "county_label": "Condado",
+        "county_placeholder": "Condado",
+        "state_label": "Estado",
+        "state_placeholder": "Estado",
+        "region_label": "Región",
+        "region_placeholder": "Región",
+        "region_none": "Ninguna seleccionada",
+        "prefecture_label": "Prefectura",
+        "prefecture_placeholder": "Prefectura",
+        "governorate_label": "Gobernación",
+        "governorate_placeholder": "Gobernación",
+        "emirate_label": "Emirato",
+        "emirate_placeholder": "Emirato",
+        "state_and_territory_label": "Estado\/territorio",
+        "state_and_territory_placeholder": "Estado\/territorio",
+        "phone_label": "Teléfono"
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {

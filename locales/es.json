@@ -900,32 +900,153 @@
       "order_list": {
         "payment_status": {
           "list_view": {
-            "due_without_date": "Pago vencido"
+            "due_without_date": "Fecha de pago",
+            "overdue": "Pago vencido",
+            "due": "Pago vencido {{date}}",
+            "due_today": "Pago vencido hoy",
+            "due_on_fulfillment": "Pago adeudado al momento del cumplimiento",
+            "pay_to_confirm": "Pagar para confirmar",
+            "payment_not_due": "Pago aún no vencido"
+          },
+          "table_view": {
+            "overdue": "Atrasado",
+            "due": "Vencimiento {{date}}",
+            "due_today": "Para hoy",
+            "paid": "Pagado",
+            "due_without_date": "Pendiente",
+            "due_on_fulfillment": "Vencimiento en cumplimiento",
+            "pay_to_confirm": "Pagar para confirmar",
+            "payment_not_due": "Todavía no se debe"
           }
         },
         "filter": {
           "date": {
             "title": "Fecha de orden",
-            "last_7_days": "Últimos 7 días",
+            "last_7_days": "Los últimos 7 días",
             "last_30_days": "últimos 30 días",
-            "today": "Este Dia"
+            "today": "Hoy",
+            "start_date": "Fecha de inicio",
+            "end_date": "Fecha final",
+            "last_90_days": "últimos 90 días",
+            "last_365_days": "últimos 12 meses"
           },
-          "apply": "Solicitar",
+          "apply": "Aplicar",
           "clear_all": "Limpiar todo",
-          "clear_section": "Sección clara"
-        }
+          "clear_section": "Borrar sección"
+        },
+        "pagination": {
+          "next_accessibility_label": "Próximos pedidos",
+          "previous": "Anterior",
+          "previous_accessibility_label": "Órdenes previas",
+          "load_more": "Carga más",
+          "load_more_accessibility_label": "Cargar más pedidos"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Ver pedido para más detalles",
+            "estimated_delivery": "Entrega estimada {{date}}",
+            "last_updated": "Última actualización {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Est. entrega {{date}}",
+            "last_updated": "{{date}}"
+          }
+        },
+        "sort_by": "Ordenar por: {{option}}",
+        "sort_hide_options_accessibility_label": "Ocultar opciones de clasificación para pedidos confirmados.",
+        "sort_show_options_accessibility_label": "Mostrar opciones de clasificación para pedidos confirmados.",
+        "sort_currently_sorted_by_accessibility_label": "Actualmente ordenado por: {{option}}",
+        "sort_title": "Clasificar",
+        "sort": {
+          "date": {
+            "newest": "Del más nuevo al más antiguo",
+            "oldest": "Del más antiguo al más nuevo"
+          },
+          "location": {
+            "ascending": "Ubicación (A-Z)",
+            "descending": "Ubicación (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Número de pedido (de menor a mayor)",
+            "descending": "Número de pedido (de mayor a menor)"
+          },
+          "order_total": {
+            "ascending": "Total del pedido (de menor a mayor)",
+            "descending": "Total del pedido (de mayor a menor)"
+          }
+        },
+        "filter_title": "Filtrar"
       },
       "order_status": {
         "there_was_a_problem_label": "Había un problema",
-        "attempted_to_deliver_label": "Intento entregar"
-      }
+        "attempted_to_deliver_label": "Intento entregar",
+        "confirmed_gift_card_additional_description_text": {
+          "one": "La tarjeta regalo se enviará en un texto aparte.",
+          "other": "Cada tarjeta regalo se enviará en un texto independiente."
+        },
+        "estimated_delivery": "Entrega estimada {{date}}",
+        "in_review_description": "Le informaremos si necesitamos más información o cuando se confirme su pedido.",
+        "in_review_label": "En revisión",
+        "in_review_title": "Tu pedido está siendo revisado",
+        "last_updated": "Última actualización {{date}}",
+        "multiple_shipments_label": "Múltiples envíos",
+        "no_tracking_number": "No hay número de seguimiento para este envío.",
+        "on_its_way_label": "En su camino",
+        "on_its_way_title": "Su envío está en camino",
+        "out_for_delivery_label": "Fuera para entrega",
+        "out_for_delivery_title": "Su envío está listo para entrega",
+        "resume_tracking": "Reanudar seguimiento",
+        "submitted_label": "Enviado",
+        "submitted_description": "Revisar los detalles del pedido y pago.",
+        "track_shipment": "Rastrear envio",
+        "request_return": "Solicitar devolución",
+        "view_order_for_details": "Ver pedido para más detalles",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Seguimiento y gestión del pedido Comprar con Prime",
+            "new_window_disclaimer": "(abre una nueva ventana)"
+          }
+        }
+      },
+      "status_mark_as_delivered": "Marcar como entregado",
+      "status_title": "Estado del pedido",
+      "buy_again": "Compra otra vez",
+      "buy_again_accessibility_label": "Comprar de nuevo para el pedido {{orderId}}",
+      "manage": "Administrar",
+      "manage_accessiblity_label": "Gestionar pedido {{orderId}}",
+      "group_title_label": "Parte de: {{groupTitle}}",
+      "havent_received_your_delivery": "¿No has recibido tu entrega?",
+      "didnt_pick_up_order": "¿No recogiste tu pedido?",
+      "if_you_didnt_receive_this": "Si no recibiste esto,",
+      "if_not_received": {
+        "one": "Si no fue recibido,",
+        "other": "Si no fueron recibidos,"
+      },
+      "let_us_know": "Haznos saber",
+      "contact_us": "Contáctenos."
     },
     "order_details": {
       "edit_summary": {
         "returned": "devuelto",
         "removed_with_quantities": "{{delta}} De {{total}} Eliminado",
         "returned_with_quantities": "{{delta}} De {{total}} Regresó"
-      }
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Mostrar detalles",
+        "expand_events_accessibility_label": "Mostrar detalles de envío del pedido",
+        "hide_events_label": "Ocultar detalles",
+        "hide_events_accessibility_label": "Ocultar detalles de envío del pedido"
+      },
+      "addresses_section_title": "Facturación y envío",
+      "order_details": "Detalles del pedido",
+      "order_details_skeleton_accessibility_label": "Inicie sesión para ver todos los detalles del pedido.",
+      "billing_address": "Dirección de Envio",
+      "card_ending_with": "terminando con {{lastDigits}}",
+      "contact": "Contacto",
+      "contact_information": "Información del contacto",
+      "company": "Compañía",
+      "fully_refunded_label": "REINTEGRADO",
+      "group_title_label": "Parte de: {{groupTitle}}"
     },
     "B2B": {
       "draft_order_details": {

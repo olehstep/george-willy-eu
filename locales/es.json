@@ -449,13 +449,13 @@
     "general": {
       "pick_up_available_at_html": "Retiro disponible en <strong>{{ location_name }}<\/strong>",
       "view_store_info": "Ver información de la tienda",
-      "check_other_stores": "Verificar disponibilidad en otras tiendas",
-      "pick_up_unavailable_at_html": "Retiro no disponible actualmente en <strong>{{ location_name }}<\/strong>",
+      "check_other_stores": "Consultar disponibilidad en otras tiendas.",
+      "pick_up_unavailable_at_html": "Recogida no disponible actualmente en <strong>{{ location_name }}<\/strong>",
       "miles": "mi",
-      "kilometers": "km",
-      "pick_up_available": "Retiro disponible",
-      "pick_up_currently_unavailable": "Retiro no disponible actualmente",
-      "invalid_location_address": "Contacta a la tienda para confirmar la dirección"
+      "kilometers": "kilómetros",
+      "pick_up_available": "Recogida disponible",
+      "pick_up_currently_unavailable": "Recogida no disponible actualmente",
+      "invalid_location_address": "Contacta con la tienda para confirmar la dirección."
     }
   },
   "shopify": {
@@ -585,7 +585,55 @@
             "other": "Cluster de {{number}} Marcadores",
             "one": "Cluster de {{number}} Marcador"
           }
-        }
+        },
+        "page_title": "Verificar",
+        "error_page_title": "Error",
+        "skip_to_content": "saltar al contenido",
+        "breadcrumb": "Migaja de pan",
+        "continue_button_label": "Continuar",
+        "complete_purchase_button_label": "Orden completa",
+        "pay_now_button_label": "Pagar ahora",
+        "authenticate_purchase_button_label": "Autenticar pago",
+        "edit_link_label": "Editar",
+        "all_rights_reserved": "Todos los derechos reservados %{shop_name}",
+        "print_policies_link_label": "Imprimir",
+        "cart": "Carro",
+        "close_modal_label": "Cerca",
+        "close_notice_label": "Cerca",
+        "expand_notice_label": "Ver más",
+        "continue_to_shipping_method": "Continuar con el envío",
+        "continue_to_payment_method": "Continuar con el pago",
+        "continue_to_review": "Revisar orden",
+        "back_to_cart": "Volver al carrito",
+        "back_to_contact_information": "Volver a la información",
+        "back_to_shipping_method": "Volver al envío",
+        "back_to_payment_method": "Volver al pago",
+        "choose_shipping_method": "Elige un método de envío",
+        "choose_payment_method": "Elija un método de pago",
+        "choose_billing_address": "Elija una dirección de facturación",
+        "contact_us_html": "Contáctenos para más información",
+        "autocomplete_title": "Sugerencias",
+        "autocomplete_single_item": "1 artículo disponible",
+        "autocomplete_multi_item": "{{number}} artículos disponibles",
+        "autocomplete_selection": "{{number}} de {{total}}",
+        "autocomplete_close": "Cerrar sugerencias",
+        "forwarding_indicator": {
+          "new_window": "Se abre en una nueva ventana.",
+          "external": "Abre un sitio web externo.",
+          "external_and_new_window": "Abre un sitio web externo en una nueva ventana."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Pagar"
+        },
+        "tooltip_accessibility_label": "Más información",
+        "errors": {
+          "session_identifier_not_unique_error": "Algo salió mal con tu pedido, intenta realizar el pago nuevamente.",
+          "line_item_limit_reached": "Se ha alcanzado el número máximo de líneas de pedido."
+        },
+        "full_price": "Precio final:",
+        "title": "Pagar - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Pagar",
+        "loading_title": "Pagar - {{shopName}}"
       },
       "field_errors": {
         "address_zip_too_long": "El código postal es demasiado largo (el máximo es de 255 caracteres)",
@@ -649,7 +697,7 @@
         "title": "Envío no disponible"
       },
       "address_management": {
-        "confirm_address_deletion": "¿Está seguro de que desea eliminar la dirección? {{address}} ¿?"
+        "confirm_address_deletion": "¿Está seguro de que desea eliminar la dirección {{address}}?"
       },
       "review": {
         "blocks": {

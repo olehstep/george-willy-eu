@@ -998,7 +998,61 @@
     },
     "payment_methods": {
       "payment_details": {
-        "checkout_card_banner": "Ce mode de paiement ne peut être utilisé que pour les paiements préautorisés.  Il n'apparaîtra pas à la caisse si vous êtes connecté à ce magasin."
+        "checkout_card_banner": "Ce mode de paiement ne peut être utilisé que pour les paiements préautorisés.  Il n'apparaîtra pas à la caisse si vous êtes connecté à ce magasin.",
+        "title": "Détails du mode de paiement",
+        "credit_card_details_accessibility_label": "se terminant par {{lastDigits}}",
+        "billing_title": "Adresse de facturation",
+        "card_info_title": "Informations sur la carte",
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}",
+        "payment_method_expiring_on": "Expirant le {{expiryDate}}",
+        "payment_method_expired_on": "Expiré le {{expiryDate}}",
+        "preauthorized_payments": "Paiements préautorisés",
+        "close_payment_modal": "Fermer",
+        "close_payment_modal_accessibility_label": "Fermer les détails du mode de paiement modal",
+        "payment_method_not_found_error": "Impossible de trouver le mode de paiement",
+        "payment_details_loading": "Chargement des détails du mode de paiement",
+        "pre_authorized_payments": "Paiements préautorisés",
+        "total_amount_of_subscription_line_items_left": "et {{total}} plus",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} éléments au total, affichant {{totalItemsToDisplay}} éléments.",
+        "next_payment_due": "Prochain paiement dû {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Modifier",
+        "edit_payment_method_button_accessibility_label": "Modifier le mode de paiement se terminant par {{lastDigits}}",
+        "loading_shop_pay": "Chargement du paiement en magasin",
+        "invalid_payment_method": "Mode de paiement invalide",
+        "invalid_payment_method_message": "Utilisez une nouvelle carte de crédit pour continuer à recevoir les commandes à venir."
+      },
+      "title": "Méthodes de payement",
+      "add_payment_method_button": "Ajouter un mode de paiement",
+      "add_payment_method_banner": "Ajoutez un mode de paiement pour un paiement plus rapide ou des services préautorisés",
+      "no_payment_methods_banner": "Aucun mode de paiement ajouté",
+      "edit_payment_method_button_accessibility_label": "Modifier {{paymentMethodName}} se terminant par {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Modifier {{paymentMethodName}}",
+      "delete_payment_method_button": "Supprimer",
+      "delete_payment_method_button_accessibility_label": "Supprimer {{paymentMethodName}}",
+      "back_button": "Dos",
+      "back_button_accessibility_label": "Retour à {{paymentMethodStepTitle}}",
+      "default": "Défaut",
+      "generic_card": "Carte",
+      "expiration_warning_button_accessibility_label": "Afficher un avertissement d'expiration pour {{paymentMethodName}} se terminant par {{lastDigits}}",
+      "expires_soon": "Cette carte expire bientôt",
+      "expired": "Cette carte est arrivée à expiration",
+      "card_update_consent": "Ce mode de paiement sera enregistré pour de futurs achats.",
+      "digital_wallet_title": "Portefeuille numérique",
+      "credit_or_debit_card_title": "carte de crédit ou de débit",
+      "google_pay": {
+        "loading": "Chargement de Google Pay",
+        "errors": {
+          "generic": "Un problème est survenu avec Google Pay. Réessayez ou utilisez un autre mode de paiement.",
+          "missing_billing_address": "Google Pay nécessite une adresse de facturation. Veuillez en ajouter un à votre compte."
+        }
+      },
+      "apple_pay": {
+        "loading": "Chargement d'Apple Pay",
+        "errors": {
+          "generic": "Il y a eu un problème avec Apple Pay. Réessayez ou utilisez un autre mode de paiement.",
+          "not_available": "Apple Pay n'est pas disponible sur cet appareil.",
+          "missing_billing_address": "Apple Pay nécessite une adresse de facturation. Veuillez en ajouter un à votre compte."
+        }
       }
     },
     "order_details": {
@@ -1010,8 +1064,11 @@
     },
     "errors": {
       "load_extension_error": {
-        "refresh_button": "Rafraîchir la page"
-      }
+        "refresh_button": "Rafraîchir la page",
+        "title": "Erreur",
+        "description": "Actualisez cette page ou réessayez dans quelques minutes."
+      },
+      "retry_action_label": "Recommencez"
     },
     "addresses": {
       "address_deleted_notification": "Adresse supprimée",

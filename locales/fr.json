@@ -222,62 +222,62 @@
       "open": "Recherche",
       "close": "Fermer",
       "placeholder": "Recherche...",
-      "title": "Recherche"
+      "title": "Rechercher dans le magasin"
     },
     "customer": {
       "account": "Compte",
       "log_out": "Se déconnecter"
     },
     "header": {
-      "cart": "Panier",
+      "cart": "Chariot",
       "search_submit": "Soumettre"
     },
     "breadcrumbs": {
-      "title": "Fil d'Ariane",
-      "home": "Accueil",
-      "collections": "Catalogue"
+      "title": "Chapelure",
+      "home": "Maison",
+      "collections": "Collections"
     }
   },
   "collections": {
     "general": {
       "see_all_subcollections": "Voir tout...",
-      "view_all": "Tous",
+      "view_all": "Voir tout",
       "product_count": {
         "one": "{{ count }} produit",
         "other": "{{ count }} produits"
       },
-      "no_matches": "Aucun produit ne correspond à votre recherche.",
-      "more_swatches": "+ {{ count }} de plus"
+      "no_matches": "Désolé, il n'y a aucun produit dans cette collection",
+      "more_swatches": "+ {{ count }} plus"
     },
     "filtering": {
-      "filter": "Affiner",
-      "all": "Tout",
-      "heading": "Affiner",
-      "applied_filters": "Filtres sélectionnés",
+      "filter": "Filtre",
+      "all": "Tous",
+      "heading": "Filtre",
+      "applied_filters": "Filtres appliqués",
       "clear_all": "Tout effacer",
       "out_of_stock_label": "En rupture de stock",
-      "show_label": "Afficher",
-      "hide_label": "Masquer",
+      "show_label": "Montrer",
+      "hide_label": "Cacher",
       "submit": "Soumettre"
     },
     "sorting": {
       "title": "Trier par"
     },
     "price_range": {
-      "min_label": "De",
+      "min_label": "Depuis",
       "max_label": "À"
     }
   },
   "homepage": {
     "onboarding": {
-      "no_content": "Cette section ne contient actuellement aucun contenu. Ajoutez-en en utilisant la barre latérale."
+      "no_content": "Cette section n’inclut actuellement aucun contenu. Ajoutez du contenu à cette section à l'aide de la barre latérale."
     }
   },
   "contact": {
     "form": {
-      "post_success": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible.",
+      "post_success": "Merci de nous avoir contacté. Nous vous répondrons dans les plus brefs délais.",
       "name": "Nom",
-      "email": "Courriel",
+      "email": "E-mail",
       "message": "Message",
       "phone": "Téléphone",
       "send": "Envoyer"
@@ -285,22 +285,22 @@
   },
   "faq": {
     "search": {
-      "placeholder": "Recherche FAQ",
-      "label": "Recherche FAQ"
+      "placeholder": "Rechercher dans la FAQ",
+      "label": "FAQ de recherche"
     }
   },
   "onboarding": {
     "blog": {
-      "empty": "Votre magasin n'a encore rien bloggué."
+      "empty": "Vous n'avez pas encore d'articles ! Une fois que vous en aurez rédigé un, il apparaîtra ici."
     },
     "article": {
-      "title": "Le titre de votre publication",
-      "excerpt": "Un blog peut être utilisé pour parler des lancements de nouveaux produits, d'astuces, ou d'autres nouvelles que vous voulez partager avec vos clients. Vous pouvez regarder le blog d'e-commerce de Shopify pour trouver de l'inspiration et des conseils pour votre propre magasin et blog.",
+      "title": "Le titre de votre article",
+      "excerpt": "Un blog peut être utilisé pour parler des lancements de nouveaux produits, des conseils ou d'autres actualités que vous souhaitez partager avec vos clients.",
       "author": "Nom de l'auteur"
     },
     "product": {
-      "product_title": "Nom produit",
-      "vendor": "Marque",
+      "product_title": "Titre du produit",
+      "vendor": "Fournisseur",
       "sku": "SKU1234"
     },
     "collection": {
@@ -436,13 +436,13 @@
   },
   "storefront_password": {
     "login": {
-      "link": "Accéder à la boutique à l'aide d'un mot de passe",
-      "label": "Accéder à la boutique à l'aide d'un mot de passe:",
-      "button": "Soumettre",
-      "admin_link_html": "Êtes-vous le propriétaire de la boutique? <a href=\"\/admin\">Connectez-vous ici<\/a>"
+      "link": "Entrez en utilisant le mot de passe",
+      "label": "Entrez dans le magasin en utilisant le mot de passe :",
+      "button": "Entrer",
+      "admin_link_html": "Êtes-vous le propriétaire du magasin? <a href=\"\/admin\">Connectez-vous ici<\/a>"
     },
     "signup": {
-      "success": "Nous vous ferons parvenir un courriel juste avant l'ouverture!"
+      "success": "Merci de votre intérêt! Nous ne manquerons pas de vous tenir au courant."
     },
     "general": {
       "powered_by": "Cette boutique sera propulsée par"
@@ -450,8 +450,8 @@
   },
   "store_availability": {
     "general": {
-      "pick_up_available_at_html": "Ramassage disponible à <strong>{{ location_name }}<\/strong>",
-      "view_store_info": "Afficher les informations de la boutique",
+      "pick_up_available_at_html": "Retrait disponible au <strong>{{ location_name }}<\/strong>",
+      "view_store_info": "Afficher les informations du magasin",
       "check_other_stores": "Vérifier la disponibilité dans d'autres boutiques",
       "pick_up_unavailable_at_html": "Ramassage actuellement indisponible à <strong>{{ location_name }}<\/strong>",
       "miles": "mi",

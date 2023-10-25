@@ -461,7 +461,7 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "shipping_method_notice": "Tenga en cuenta: los pedidos no se pueden cambiar ni cancelar una vez realizados. Para cambiar un pedido, siga la política de devoluciones y cambios.",
+        "shipping_method_notice": "Para envíos a algunos países, pueden aplicarse tarifas de importación. Consulte nuestra Política de envío para obtener más detalles.",
         "address_form": {
           "generic_error": "Hubo un problema al guardar su dirección.  Inténtalo de nuevo.",
           "save": "Ahorrar",
@@ -488,7 +488,31 @@
         "delete": "Borrar",
         "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?",
         "split_cart_merchandise_quantity_label_additional": "+ %{quantity} Más",
-        "title": "Envíos"
+        "title": "Entrega",
+        "shipping_method_title": "Método de envío",
+        "shipping_method_one_time_purchase_group_title": "Compra única",
+        "shipping_method_subscription_group_title": "Suscripción",
+        "subscription_shipping": "Envío de suscripción",
+        "subscription_local_delivery": "Suscripción entrega local",
+        "subscription_pickup": "Recogida de suscripción",
+        "waiting_on_rate_notice": "Obteniendo tarifas de envío disponibles...",
+        "waiting_on_pickup_location_notice": "Obteniendo lugares de recogida disponibles...",
+        "no_rates_for_cart_or_destination_notice": "No hay métodos de envío disponibles para su carrito o dirección",
+        "no_pickup_location_notice": "Al menos uno de tus productos no está disponible para ser recogido",
+        "no_rates_for_country_notice": "No se encontraron tarifas de envío para esta dirección.",
+        "no_rates_contact_notice": "Contáctenos para más información",
+        "free_rate_label": "Gratis",
+        "cheapest_rate_label": "Lo mas barato",
+        "please_enter_your_shipping_information_notice": "Por favor ingrese su información de envío.",
+        "estimated_delivery_date": {
+          "one": "%{count} día hábil",
+          "other": "%{count} días hábiles"
+        },
+        "estimated_delivery_date_range": "%{minimum} a %{maximum} días hábiles",
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "estimated_delivery_time": "Entrega estimada %{time}",
+        "estimated_delivery_time_range": "Entrega estimada %{min_time}–%{max_time}",
+        "delivery_today": "Entrega el mismo día %{time}"
       },
       "order_summary": {
         "price_per_item": {
@@ -496,17 +520,95 @@
           "label": "%{price} \/Ea"
         },
         "discount_order_stacking": {
-          "one": "Descuento de pedido",
-          "other": "Descuentos de la orden"
+          "one": "Orden de descuento",
+          "other": "Descuentos de pedido"
         },
-        "gift_card_and_discount_title": "Tarjeta de regalo o código de descuento",
-        "shipping_default_value": "Calculado en el siguiente paso",
+        "gift_card_and_discount_title": "Código de descuento o tarjeta regalo",
+        "shipping_default_value": "Introduce la dirección de envío",
         "discount_title_stacking": {
-          "other": "Descuentos."
+          "other": "Descuentos",
+          "one": "Descuento"
         },
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> no se pudo usar con los descuentos existentes. Ya tienes una combinación mejor.",
-        "gift_card_and_discount_label": "Tarjeta de regalo o código de descuento",
-        "gift_card_and_discount_placeholder": "Tarjeta de regalo o código de descuento"
+        "gift_card_and_discount_label": "Código de descuento o tarjeta regalo",
+        "gift_card_and_discount_placeholder": "Código de descuento o tarjeta regalo",
+        "title": "Resumen del pedido",
+        "group_title_label": "Parte de \"%{group_title}\"",
+        "order_name_label": "Orden %{name}",
+        "shopping_cart_label": "Carro de la compra",
+        "discount_title": "Descuento",
+        "discount_label": "Código de descuento",
+        "discount_placeholder": "Código de descuento",
+        "gift_card_title": "Tarjeta de regalo",
+        "gift_card_label": "Tarjeta de regalo",
+        "gift_card_placeholder": "Tarjeta de regalo",
+        "remove_gift_card_label": "Tarjeta de regalo clara",
+        "remove_discount_label": "Eliminar descuento",
+        "free_shipping_discount_label": "Envío gratis",
+        "applied_free_shipping_discount_label": "Aplicado",
+        "apply_discount_button_label": "Aplicar",
+        "applied_discount_message": "%{amount} de descuento en el precio total del pedido",
+        "discount_has_been_applied": "Se ha aplicado el descuento.",
+        "discount_has_been_removed": "El descuento ha sido eliminado.",
+        "gift_card_has_been_applied": "Se ha aplicado la tarjeta regalo",
+        "gift_card_has_been_removed": "Se ha eliminado la tarjeta de regalo.",
+        "gift_card_subscriptions_notice": "Las tarjetas de regalo solo se aplicarán a tu primer pago",
+        "discount_already_applied": "Se ha aplicado un descuento a este pedido. No puedes agregar otro descuento.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> el código de descuento no es válido para los artículos de su carrito",
+        "discount_requires_customer_notice": "Ingresa tu información de envío para aplicar el código de descuento <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> el código de descuento no está disponible para usted en este momento",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> el código de descuento no está disponible para su dirección de envío",
+        "customer_already_used_once_per_customer_discount_notice": "El código de descuento <strong style=\"text-transform:uppercase\">%{code}<\/strong> ya ha sido utilizado",
+        "subtotal_label": "Total parcial",
+        "shipping_label": "Envío",
+        "pickup_label": "Levantar",
+        "no_pickup_location": "La recogida no está disponible para este pedido. Elija otro método de entrega.",
+        "tip_label": "Consejo",
+        "calculating_shipping": "Calculador…",
+        "calculating": "Calculador…",
+        "shipping_pending_value": "—",
+        "shipping_pending_message": "No disponible aún",
+        "shipping_policy_link": "Costos de envío",
+        "taxes_label": "Impuestos",
+        "estimated_taxes_label": "Impuestos estimados",
+        "information_estimated_taxes_label": "Impuestos (estimados)",
+        "estimated_taxes_finalization_tooltip_content": "El impuesto final y el total se confirmarán por correo electrónico o mensaje de texto después de realizar su pedido.",
+        "payment_terms_totals": {
+          "due_later_checkout_to_draft": "Total adeudado más tarde"
+        },
+        "maximum_discount_code_limit_reached": "Has alcanzado el número máximo de códigos de descuento. Elimine un código existente para usar <strong style=\"text-transform:uppercase\">%{code}<\/strong>.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> no está funcionando en este momento. Contáctenos para obtener ayuda.",
+        "due_on_fulfillment": "Vencimiento en cumplimiento",
+        "gift_card_masked": "•••• %{last_characters}",
+        "subscriptions": "Suscripciones",
+        "duties_label": "Deberes",
+        "duties_and_taxes_label": "Deberes e impuestos",
+        "error_duties_tooltip": "Este pedido se envía desde otro país, por lo que es posible que se cobren aranceles e impuestos en el momento de la entrega.",
+        "may_be_charged_on_delivery": "Se puede cobrar en el momento de la entrega",
+        "total_updated_label_with_price": "Precio total actualizado: %{totalPrice}",
+        "updated_shipping_method": "Método de envío actualizado: %{shipping_method}",
+        "recurring_payments": "Pagos recurrentes",
+        "recurring_total_multiple_label": "Este pedido tiene un cargo recurrente por varios artículos.",
+        "deferred_total_due_date_label": "Total adeudado {{date}}",
+        "full_price": "Precio completo: %{price}",
+        "custom_discount": "Descuento personalizado",
+        "expand_component_information": {
+          "one": "Mostrar elemento %{count}",
+          "other": "Mostrar %{count} elementos"
+        },
+        "collapse_component_information": {
+          "one": "Ocultar elemento %{count}",
+          "other": "Ocultar %{count} elementos"
+        },
+        "component_quantity_title": "%{quantity} × %{product_title}",
+        "discount_discovery": {
+          "add_code": "Añadir descuento",
+          "merchandise_quantity_label": {
+            "one": "%{count} elemento",
+            "other": "%{count} elementos"
+          }
+        },
+        "alternative_payment_currency_total": "Cobrado como %{amount_due}"
       },
       "payment": {
         "purchase_options_agreement_label_wallets": "Al continuar con su pago, usted acepta los cargos futuros que figuran en esta página y la política de cancelación.",
@@ -762,6 +864,11 @@
           "shipping_method_title": "Método"
         },
         "review_title": "Revisar pedido"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "label": "No hay entrega"
+        }
       }
     },
     "errors": {

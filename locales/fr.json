@@ -691,44 +691,87 @@
       "shop_404": {
         "ctas": {
           "store_owner": {
-            "caption": "Vous avez des difficultés à entrer dans votre magasin?  Essayez le %{forgot_your_store_link} Caractéristique.  Si vous souhaitez réactiver votre boutique contact %{shopify_support_link} .",
-            "header": "Êtes-vous le propriétaire du magasin ?",
+            "caption": "Vous rencontrez des difficultés pour accéder à votre magasin ? Essayez la fonctionnalité %{forgot_your_store_link}. Si vous souhaitez réactiver votre boutique, contactez %{shopify_support_link}.",
+            "header": "Êtes-vous le propriétaire du magasin?",
             "shopify_support_link_text": "Assistance Shopify"
           },
           "sell_in_person": {
             "link_text": "Commencer l'essai gratuit",
-            "caption": "Obtenez les fonctionnalités dont vous avez besoin pour gérer votre magasin de détail, que vous soyez débutant ou en développement."
+            "caption": "Bénéficiez des fonctionnalités dont vous avez besoin pour gérer votre magasin de détail, que vous débutiez ou que vous développiez votre activité.",
+            "header": "Vendre en personne"
           },
           "open_a_store": {
-            "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $\/mois pendant les 3 prochains mois.",
-            "link_text": "Inscrivez-vous maintenant",
+            "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $\/mois pendant les 3 mois suivants.",
+            "link_text": "S'inscrire maintenant",
             "header": "Ouvrir une nouvelle boutique Shopify"
           },
           "editions": {
-            "link_text": "Explorez les dernières éditions",
+            "link_text": "Découvrez les dernières éditions",
             "header": "Découvrez les éditions Shopify",
-            "caption": "Avec plus de 100 mises à jour de produits, vous pouvez être plus productif et créatif, et puissant dans le commerce que vous n'auriez jamais imaginé."
+            "caption": "Avec plus de 100 mises à jour de produits, vous pouvez être plus productif, créatif et puissant dans le commerce que vous ne l'auriez jamais imaginé."
           }
         },
         "owner_ctas": {
-          "fix_domain_link_text": "Vos paramètres de domaine",
-          "header": "Êtes-vous le propriétaire du magasin ?",
-          "fix_domain": "Terminez la configuration de votre nouvelle adresse Web, accédez à %{domain_settings_link} .  Cliquez sur «Connecter le domaine» et entrez: %{domain} .<br>Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page.",
-          "add_storefront": "Vous pouvez configurer votre site Web en ajoutant le canal Boutique en ligne dans votre %{admin_link} .  Si vous avez du mal à entrer dans votre magasin, essayez le %{forgot_your_store_link} Page.",
+          "fix_domain_link_text": "les paramètres de votre domaine",
+          "header": "Êtes-vous le propriétaire du magasin?",
+          "fix_domain": "Terminez la configuration de votre nouvelle adresse Web, accédez à %{domain_settings_link}. Cliquez sur « Connecter le domaine » et saisissez : %{domain}.<br>Si vous rencontrez des difficultés pour accéder à votre boutique, essayez la page %{forgot_your_store_link}.",
+          "add_storefront": "Vous pouvez configurer votre site Web en ajoutant le canal Boutique en ligne dans votre %{admin_link}. Si vous rencontrez des difficultés pour accéder à votre boutique, essayez la page %{forgot_your_store_link}.",
           "admin_link_text": "administrateur",
-          "forgot_your_store_link_text": "Oublié votre magasin"
+          "forgot_your_store_link_text": "j'ai oublié ton magasin"
         },
         "links": {
-          "start_free_trial": "Commencer un essai gratuit",
-          "explore_other_stores": "Explorez d'autres magasins"
+          "start_free_trial": "Commencez un essai gratuit",
+          "explore_other_stores": "Découvrez d'autres magasins"
         },
         "heros": {
-          "store_unavailable": "Désolé, ce magasin est actuellement indisponible.",
+          "store_unavailable": "Désolé, cette boutique est actuellement indisponible.",
           "store_not_exist": "Ce magasin n'existe pas.",
-          "no_storefront": "Ce magasin n'a pas encore de site web."
+          "no_storefront": "Ce magasin n'a pas encore de site Internet."
         },
-        "title": "Créez un site Web de commerce électronique et vendez en ligne!  Logiciel de commerce électronique par Shopify"
-      }
+        "title": "Créez un site Web de commerce électronique et vendez en ligne ! Logiciel de commerce électronique par Shopify"
+      },
+      "blank": "ne peut pas être vide",
+      "blocked_address": "Cet emplacement n'est pas pris en charge.",
+      "credit_card_session_expired": "L'autorisation de carte de crédit a expiré, veuillez saisir à nouveau vos informations de paiement. Votre carte n'a pas été débitée.",
+      "empty": "ne peut pas être vide",
+      "invalid_email": "Doit être une adresse e-mail valide",
+      "discount_disabled": "Cette réduction a été désactivée",
+      "discount_expired": "Cette réduction n'est plus valable",
+      "discount_limit_reached": "Cette réduction a atteint sa limite d'utilisation",
+      "discount_not_found": "Impossible de trouver une réduction valide correspondant au code saisi",
+      "customer_already_used_once_per_customer_discount_notice": "Cette réduction a atteint sa limite d'utilisation",
+      "gift_card_already_applied": "Le code a déjà été appliqué à votre paiement",
+      "gift_card_code_invalid": "Le code n'est pas valide",
+      "gift_card_currency_mismatch": "Votre carte cadeau est en %{gift_card_currency}. Contactez-nous pour le faire rééditer en %{checkout_currency}.",
+      "gift_card_depleted": "Il n'y a plus de fonds sur cette carte cadeau",
+      "gift_card_disabled": "La carte cadeau est désactivée",
+      "gift_card_expired": "La carte cadeau est expirée",
+      "invalid": "est invalide",
+      "bad_domain": "contient un nom de domaine invalide",
+      "taken": "a déjà été pris",
+      "contains_html_tags": "ne peut pas contenir de balises HTML",
+      "too_short": "est trop court (le minimum est de %{count} caractères)",
+      "too_long": "est trop long (le maximum est de %{count} caractères)",
+      "password_mismatch": "doit correspondre au mot de passe fourni",
+      "contains_spaces": "commence ou se termine par des espaces.",
+      "email_domain_invalid": "le fournisseur n'est pas pris en charge",
+      "invalid_for_country": "n'est pas valide pour %{country}",
+      "invalid_for_country_and_province": "n'est pas valide pour %{province} et %{country}",
+      "invalid_province_in_country": "n'est pas une province valide dans %{country}",
+      "invalid_state_in_country": "n'est pas un état valide dans %{country}",
+      "invalid_region_in_country": "n'est pas une région valide dans %{country}",
+      "less_than_or_equal_to": "doit être inférieur ou égal à %{count}",
+      "not_supported": "n'est pas pris en charge",
+      "full_name_required": "Entrez un prénom et un nom",
+      "invalid_for_card_type": "n'est pas valide",
+      "invalid_type": "désolé, nous n'acceptons pas les cartes de ce type",
+      "invalid_format": "le format n'est pas valide",
+      "expired": "a expiré",
+      "invalid_start_date_or_issue_number_for_debit": "une date de début ou un numéro de numéro valide est requis",
+      "invalid_expiry_year": "n'est pas une année d'expiration valide",
+      "reset_password_html": "Cette adresse email est déjà associée à un compte. Si ce compte est le vôtre, vous pouvez <a href=\"\/account\/login#recover\">réinitialiser votre mot de passe<\/a>",
+      "verify_email": "Nous avons envoyé un e-mail à %{customer_email}, veuillez cliquer sur le lien inclus pour vérifier votre adresse e-mail.",
+      "product_not_available": "le produit n'est pas publié pour ce client."
     },
     "notices": {
       "line_item": {
@@ -738,6 +781,57 @@
           "decrement_item": "Supprimé %{delta} De %{total}",
           "decrement_fulfilled_line_item": "Retourné %{delta} De %{total}"
         }
+      }
+    },
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "et",
+      "last_word_connector": ", et"
+    },
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "links": {
+      "learn_more": "Apprendre encore plus"
+    },
+    "feed": {
+      "more": "Plus"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password": "mot de passe",
+      "password_confirmation": "La confirmation du mot de passe",
+      "first_name": "prénom",
+      "last_name": "nom de famille",
+      "body": "corps",
+      "signature": "Adresse"
+    },
+    "addresses": {
+      "zip_code": "Code postal",
+      "postal_code": "Code Postal",
+      "postcode": "Code postal",
+      "pincode": "Code PIN",
+      "region": "Région",
+      "prefecture": "Préfecture",
+      "province": "Province",
+      "state": "État",
+      "state_and_territory": "État\/territoire",
+      "county": "Comté",
+      "emirate": "Émirat",
+      "governorate": "Gouvernorat",
+      "confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "En vedette",
+        "best_selling": "Meilleure vente",
+        "az": "Par ordre alphabétique, de A à Z",
+        "za": "Par ordre alphabétique, ZA",
+        "price_ascending": "Prix ​​croissant",
+        "price_descending": "Prix, du haut au bas",
+        "date_ascending": "Date, de l'ancien au nouveau",
+        "date_descending": "Date, du nouveau à l'ancien"
       }
     }
   },

@@ -898,14 +898,80 @@
           "date": {
             "last_90_days": "90 derniers jours",
             "today": "Aujourd'hui",
-            "last_7_days": "7 derniers jours",
+            "last_7_days": "Les 7 derniers jours",
             "last_365_days": "12 derniers mois",
             "title": "Date de commande",
-            "last_30_days": "Les 30 derniers jours"
+            "last_30_days": "Les 30 derniers jours",
+            "start_date": "Date de début",
+            "end_date": "Date de fin"
           },
-          "clear_section": "Section claire"
+          "clear_section": "Effacer la section",
+          "clear_all": "Tout effacer",
+          "apply": "Appliquer"
         },
-        "filter_title": "Filtre"
+        "filter_title": "Filtre",
+        "pagination": {
+          "next_accessibility_label": "Prochaines commandes",
+          "previous": "Précédent",
+          "previous_accessibility_label": "Commandes précédentes",
+          "load_more": "Charger plus",
+          "load_more_accessibility_label": "Charger plus de commandes"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Voir la commande pour plus de détails",
+            "estimated_delivery": "Livraison estimée {{date}}",
+            "last_updated": "Dernière mise à jour {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "HNE. livraison {{date}}",
+            "last_updated": "{{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Retard de paiement",
+            "due": "Paiement dû {{date}}",
+            "due_today": "Paiement dû aujourd'hui",
+            "due_without_date": "Paiement dû",
+            "due_on_fulfillment": "Paiement dû à l'exécution",
+            "pay_to_confirm": "Payer pour confirmer",
+            "payment_not_due": "Paiement pas encore dû"
+          },
+          "table_view": {
+            "overdue": "En retard",
+            "due": "À payer {{date}}",
+            "due_today": "À rendre aujourd'hui",
+            "paid": "Payé",
+            "due_without_date": "Exigible",
+            "due_on_fulfillment": "Due à l'exécution",
+            "pay_to_confirm": "Payer pour confirmer",
+            "payment_not_due": "Pas encore dû"
+          }
+        },
+        "sort_by": "Trier par : {{option}}",
+        "sort_hide_options_accessibility_label": "Masquer les options de tri pour les commandes confirmées.",
+        "sort_show_options_accessibility_label": "Afficher les options de tri pour les commandes confirmées.",
+        "sort_currently_sorted_by_accessibility_label": "Actuellement trié par : {{option}}",
+        "sort_title": "Trier",
+        "sort": {
+          "date": {
+            "newest": "Du plus récent au plus ancien",
+            "oldest": "Du plus ancien au plus récent"
+          },
+          "location": {
+            "ascending": "Emplacement (A-Z)",
+            "descending": "Localisation (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Numéro de commande (de bas en haut)",
+            "descending": "Numéro de commande (de haut en bas)"
+          },
+          "order_total": {
+            "ascending": "Total de la commande (de bas en haut)",
+            "descending": "Total de la commande (du haut au bas)"
+          }
+        }
       },
       "order_status": {
         "attempted_to_deliver_label": "Tenté de livrer",

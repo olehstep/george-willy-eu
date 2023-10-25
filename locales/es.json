@@ -953,7 +953,25 @@
         "length_exceeds_maximum": "Reduzca el tamaño de la nota a 5000 caracteres o menos."
       },
       "payment_errors": {
-        "invalid_expiry_date": "Introduce una fecha de expiración de tarjeta válida"
+        "invalid_expiry_date": "Introduzca una fecha de vencimiento válida",
+        "shipping_must_match_billing": "La dirección de facturación debe coincidir con la dirección de envío. Utilice un método de pago diferente.",
+        "decision_rule_block": "Hubo un problema al procesar su pago. Por favor contacte al dueño de la tienda.",
+        "pick_up_card": "Tu tarjeta fue rechazada. Inténtalo de nuevo o utiliza un método de pago diferente.",
+        "cannot_verify": "No se pudieron verificar sus datos de pago. Comprueba los datos de tu tarjeta y vuelve a intentarlo.",
+        "invalid_number": "Introduzca un número de tarjeta válido",
+        "invalid_cvc": "Ingrese un código de seguridad válido",
+        "expired_card": "Tu tarjeta ha caducado. Utilice un método de pago diferente.",
+        "card_declined": "Tu tarjeta fue rechazada. Inténtalo de nuevo o utiliza un método de pago diferente.",
+        "processing_error": "Hubo un problema al procesar su pago. Inténtalo de nuevo o utiliza un método de pago diferente.",
+        "call_issuer": "Tu tarjeta fue rechazada. Utilice un método de pago diferente o comuníquese con su banco para obtener más información.",
+        "test_mode_live_card": "Esta tienda no puede aceptar pedidos reales ni pagos reales.",
+        "transient_error": "Hubo un problema al procesar su pago. Intente actualizar esta página o verifique su conexión a Internet.",
+        "missing_shipping_address": "Su pago no pudo procesarse porque falta su dirección de envío. Añade una dirección de envío e inténtalo de nuevo.",
+        "invalid_shipping_address": "Su pago no pudo procesarse porque no pudimos encontrar su dirección de envío. Verifique su dirección de envío e inténtelo nuevamente.",
+        "successful_offsite_with_gift_card_error": "Hubo un problema al procesar el pago de tu tarjeta de regalo. Inténtalo de nuevo o utiliza un método de pago diferente.",
+        "development_store_order_limit_reached": "Has alcanzado el límite de pedidos de la tienda en desarrollo con este procesador de pagos. Para realizar otro pedido, deberá utilizar una pasarela de pago de prueba. Obtenga más información sobre %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Para realizar un pedido de prueba, deberá utilizar una pasarela de pago de prueba. Obtenga más información sobre %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "probar pedidos en tiendas de desarrollo"
       },
       "contact": {
         "title": "Contacto",
@@ -999,10 +1017,19 @@
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "one": "Este pedido no se puede enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo.",
-          "other": "Algunos artículos en tu carrito no se pueden enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo."
+          "one": "Su pedido no se puede enviar a la dirección seleccionada. Revise su dirección para asegurarse de que sea correcta e inténtelo nuevamente, o seleccione una dirección diferente.",
+          "other": "Algunos artículos de su carrito no se pueden enviar a la dirección que ingresó. Revise su dirección para asegurarse de que sea correcta e inténtelo nuevamente, o seleccione una dirección diferente."
         },
-        "title": "Envío no disponible"
+        "title": "Envío no disponible",
+        "shipping_method": "Las opciones de envío han cambiado para su pedido. Revise su selección y vuelva a intentarlo.",
+        "shipping_method_not_available": "Su carrito se ha actualizado y los artículos que agregó no se pueden enviar a su dirección. Retire los artículos para completar su pedido.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Los artículos en el carrito no cumplen con los requisitos de precio o peso para calificar para el envío. Actualiza tu carrito e inténtalo de nuevo.",
+        "shipping_method_not_available_updated": {
+          "one": "El artículo que agregaste no se envía a tu ubicación. Quítelo para pagar o comuníquese con la tienda.",
+          "other": "Uno o más artículos que agregaste no se envían a tu ubicación. Quítelos para pagar o comuníquese con la tienda."
+        },
+        "payment_method_not_supported": "No puedes utilizar este método de pago para %{country}. Utilice un método de pago diferente para realizar envíos a este país.",
+        "empty_state": "Ingrese su dirección de envío para ver los métodos de envío disponibles."
       },
       "address_management": {
         "confirm_address_deletion": "¿Está seguro de que desea eliminar la dirección {{address}}?"
@@ -1020,6 +1047,35 @@
         "not_deliverable": {
           "label": "No hay entrega"
         }
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "chequeo rápido",
+        "or": "O",
+        "show_more_options": "Mostrar más opciones"
+      },
+      "post_purchase": {
+        "page_title": "Compra posterior",
+        "title": "Compra posterior",
+        "escape_confirmation": "Has pagado tu pedido.",
+        "escape_action": "Ver confirmación de pedido ›",
+        "components": {
+          "close": "Cerca",
+          "expand": "Ver más",
+          "processing": "Procesando…",
+          "submit": "Entregar"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Redirigiendo…",
+        "redirecting_title": "Redirigiendo…",
+        "redirecting_notice": "Espera mientras te redirigimos.",
+        "complete_your_purchase_title": "Completa tu compra",
+        "continue_to_payment_gateway_notice": "Continúe con el pago para agregar su información de pago.",
+        "continue_to_payment_gateway_button_label": "Continuar con el pago",
+        "complete_your_purchase_title_error": "Corrija su información de pago",
+        "continue_to_payment_gateway_notice_error": "No se pudo verificar su información de pago.",
+        "continue_to_payment_gateway_button_label_error": "Actualizar información de pago",
+        "page_title": "Orden de procesamiento"
       }
     },
     "errors": {

@@ -96,11 +96,11 @@
   "cart": {
     "terms": {
       "confirmation": "Debe aceptar los términos y condiciones antes de continuar.",
-      "agreement_html": "Estoy de acuerdo con los <a href=\"{{ terms_url }}\" target=\"_blank\">términos y la política de reembolso<\/a>"
+      "agreement_html": "Acepto los <a href=\"{{ terms_url }}\" target=\"_blank\">términos y política de reembolso<\/a>"
     },
     "general": {
-      "title": "Carrito de compra",
-      "empty": "Su carrito actualmente está vacío.",
+      "title": "Carro de la compra",
+      "empty": "Su carrito está vacío.",
       "quantity": "Cantidad",
       "remove": "Quitar",
       "subtotal": "Subtotal",
@@ -1346,7 +1346,26 @@
             "billing_address": "Ingrese una dirección de facturación válida",
             "shipping_option": "Elija una opción de envío válida",
             "email": "Introduzca un correo electrónico válido",
-            "zone": "Ingrese un estado\/provincia válido"
+            "zone": "Ingrese un estado\/provincia válido",
+            "postal_code": "Ingrese un código postal válido",
+            "reduction_code": "Introduce un código de descuento o una tarjeta regalo válidos"
+          },
+          "missing": {
+            "first_name": "Introduce un nombre",
+            "last_name": "Introduce un apellido",
+            "address1": "Introduce una direccion",
+            "address2": "Entrar en un apartamento, suite, etc.",
+            "city": "Introduce una ciudad",
+            "province": "Seleccione un estado\/provincia",
+            "country": "Seleccione un país\/región",
+            "zip": "Ingrese un código postal",
+            "phone": "Ingresa un número de teléfono"
+          },
+          "formatting": {
+            "name_contains_emojis": "Eliminar emoji de tu nombre",
+            "postal_code_contains_emoji": "Elimina emoji de tu código postal",
+            "first_name_too_long": "El nombre contiene demasiadas letras.",
+            "last_name_too_long": "El apellido contiene demasiadas letras."
           }
         }
       }
@@ -1473,6 +1492,36 @@
         "add_products": "Restringir la selección a productos que coincidan con la etiqueta %{tag}",
         "remove_articles": "Ampliar la búsqueda a artículos que no estén etiquetados como %{tag}",
         "remove_products": "Eliminar etiqueta %{tag}"
+      },
+      "cart": {
+        "only_n_items_available": "Solo puedes agregar %{count} %{name} al carrito.",
+        "too_many_items_in_cart": "No puedes agregar más %{name} al carrito.",
+        "less_than_minimum": "Este artículo tiene un mínimo de %{min}.",
+        "more_than_maximum": "Este elemento tiene un máximo de %{max}.",
+        "not_respect_step": "Sólo puede agregar este elemento en múltiplos de %{step}.",
+        "all_items_in_cart": "Todos los %{count} %{name} están en tu carrito.",
+        "empty_update": "no se puede actualizar el carrito vacío",
+        "missing_parameters": "no hay identificación válida o parámetro de línea",
+        "generic_error": "Error de carrito",
+        "product_not_available": "El producto no está disponible",
+        "too_many_line_items_error": "Su carrito no puede contener más de %{max} artículos.",
+        "link_expired": "Enlace expirado",
+        "link_no_longer_exists": "El enlace ya no existe.",
+        "stock_problems_html": "Uno o más artículos ya no están disponibles. Proporcionamos un <a href='%{link}'>carrito actualizado<\/a>.",
+        "changed": "Carrito cambiado",
+        "items_changed": "Uno o más elementos han cambiado.",
+        "product_sold_out": "El producto '%{name}' ya está agotado.",
+        "variant_not_found": "No puedo encontrar variante",
+        "variant_requires_selling_plan": "La variante sólo se puede comprar con un plan de venta.",
+        "selling_plan_not_available_for_company_locations": "Solo está disponible una compra única para pedidos B2B",
+        "digital_product_not_available_for_company_locations": "Este artículo no se puede agregar a un pedido B2B",
+        "selling_plan_not_applicable": "No se puede aplicar el plan de ventas a la variante",
+        "shipping_address_not_required": "Este carrito no requiere envío",
+        "shipping_address_invalid": "Hubo un problema al calcular las tarifas de envío. Continúe con el pago para elegir una tarifa de envío antes de completar su pedido.",
+        "bundle_requires_components": "El producto del paquete '%{name}' no se puede agregar al carrito.",
+        "gift_card_with_components_not_supported": "El producto del paquete '%{name}' no se puede agregar al carrito.",
+        "bundle_products_not_supported_for_b2b_draft": "Los artículos empaquetados no se pueden agregar a pedidos B2B para esta ubicación.",
+        "view_lines_limit_reached": "Las líneas deben ser menores que %{limit}"
       }
     },
     "sentence": {
@@ -1544,6 +1593,9 @@
         "immediately": "Listo para ser recogido ahora",
         "next_day": "Listo para recoger al día siguiente"
       }
+    },
+    "cart": {
+      "discounts_with_count": "Se han aplicado %{count} descuentos"
     }
   },
   "customer_accounts": {

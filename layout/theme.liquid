@@ -503,11 +503,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <style>
   div.sufio-vat-number-input label.field__label, div.sufio-vat-email-input label.field__label { 
         display: none;
-  div.sufio-vat-form a {
-    text-decoration: underline;
-    font-weight: bold;
       }
 </style>  
+  <style>
+  .sufio-vat-form .sufio-vat-number-input {
+    border-color: #ccc;
+  }
+</style>
+
 <script src="https://cdn.sufio.com/infoweb/scripts/vat.js"></script>
 <script>
     SufioVAT.init({

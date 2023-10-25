@@ -1123,10 +1123,50 @@
             "description": "No se te cobrará."
           },
           "pending": {
-            "title_with_date": "Pago vencido el {{date}}",
-            "title": "Pago vencido"
+            "title_with_date": "Pago vencido {{date}}",
+            "title": "Fecha de pago",
+            "banner_overdue": {
+              "one": "Su pago tiene {{count}} días de retraso",
+              "other": "Su pago tiene {{count}} días de retraso"
+            },
+            "banner_due": {
+              "one": "Su pago vence en el día {{count}}",
+              "other": "Su pago vence en {{count}} días"
+            },
+            "banner_due_today": "Su pago vence hoy",
+            "title_due_on_receipt": "Pago aún no vencido",
+            "title_due_on_fulfillment": "Pago adeudado al momento del cumplimiento",
+            "description_overdue": "Su pago está retrasado.",
+            "description_partially_paid": "Este pedido fue parcialmente pagado. Tienes un saldo restante.",
+            "description_authorized": "El cargo se realizará en tu método de pago en la fecha de vencimiento o puedes pagar ahora.",
+            "description_due_on_receipt": "Recibirás una factura cuando venza el pago.",
+            "description_due_on_fulfillment": "El pago vence una vez que se hayan cumplido todos los artículos de este pedido."
+          },
+          "draft": {
+            "description": "Los detalles del pago se deciden cuando se confirma el pedido.",
+            "title": "Pago aún no vencido",
+            "in_review": {
+              "description": "Los detalles del pago se deciden cuando se confirma el pedido.",
+              "title": "Pago aún no vencido"
+            },
+            "submitted": {
+              "description": "Envíe el pago para confirmar este pedido.",
+              "title": "Pagar para confirmar"
+            }
+          },
+          "paid": {
+            "title": "Pagado",
+            "title_with_date": "Pagado {{date}}",
+            "description": "Su pedido está totalmente pagado."
+          },
+          "refund": {
+            "title": "Reintegrado",
+            "title_with_date": "Reembolsado {{date}}"
           }
-        }
+        },
+        "draft_order_subtitle": "Confirmado {{date}} del pedido {{draftOrderName}}",
+        "loading": "Cargando detalles del pedido",
+        "loading_finished_accessibility_message": "Se han cargado los detalles del pedido."
       },
       "locations": {
         "contact_email": "Correo electrónico",
@@ -1184,18 +1224,107 @@
         "add_billing_address_button": "Agregar dirección de facturación",
         "add_billing_address_section_accessibility_label": "Agregar dirección de facturación",
         "add_shipping_address_button": "Agregar dirección de envío",
-        "add_shipping_address_section_accessibility_label": "Agregar dirección de envío"
+        "add_shipping_address_section_accessibility_label": "Agregar dirección de envío",
+        "billing_address_card_title": "Dirección de Envio",
+        "cancel_adding_billing_address_accessibility_label": "Cancelar agregar dirección de facturación",
+        "cancel_adding_shipping_address_accessibility_label": "Cancelar agregando dirección de envío",
+        "save_new_billing_address_accessibility_label": "Guardar dirección de facturación",
+        "save_new_shipping_address_accessibility_label": "Guardar dirección de envío",
+        "shipping_address_card_title": "Dirección de envío"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Ocultar todo",
+          "show_all": "Mostrar todo",
+          "hide_all_accessibility_label": "Ocultar todos los pedidos en revisión",
+          "show_all_accessibility_label": "Mostrar todos los pedidos en revisión",
+          "show_all_orders_in_review": "Mostrar todos los pedidos en revisión",
+          "show_less_orders_in_review": "Mostrar menos pedidos en revisión",
+          "title": "Pendiente",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "No tienes pedidos pendientes",
+            "pending_orders": {
+              "one": "Tienes {{count}} orden pendiente",
+              "other": "Tienes {{count}} pedidos pendientes"
+            },
+            "more_than_pagination_length": "Tienes más de {{count}} pedidos pendientes"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}}+",
+          "pagination": {
+            "nav_accessibility_label": "Pedidos en botones de navegación de revisión"
+          }
+        },
+        "order_list_column_headers_location": "Ubicación",
+        "order_list_column_headers_contact": "Contacto",
+        "removed_company_contact_tooltip": "Eliminado de la empresa"
       }
     },
     "payment_methods": {
       "payment_details": {
-        "checkout_card_banner": "Este método de pago solo se puede utilizar para pagos preautorizados.  No aparecerá en el momento del pago si ha iniciado sesión en esta tienda."
+        "checkout_card_banner": "Este método de pago solo se puede utilizar para pagos preautorizados.  No aparecerá en el momento del pago si ha iniciado sesión en esta tienda.",
+        "title": "Detalles del método de pago",
+        "credit_card_details_accessibility_label": "terminando en {{lastDigits}}",
+        "billing_title": "Dirección de Envio",
+        "card_info_title": "Información de la tarjeta",
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}",
+        "payment_method_expiring_on": "Expira el {{expiryDate}}",
+        "payment_method_expired_on": "Expiró el {{expiryDate}}",
+        "preauthorized_payments": "Pagos preautorizados",
+        "close_payment_modal": "Cerca",
+        "close_payment_modal_accessibility_label": "Cerrar detalles del método de pago modal",
+        "payment_method_not_found_error": "No se puede encontrar el método de pago",
+        "payment_details_loading": "Cargando detalles del método de pago",
+        "pre_authorized_payments": "Pagos preautorizados",
+        "total_amount_of_subscription_line_items_left": "y {{total}} más",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Total de elementos {{totalItems}}, que muestra los elementos {{totalItemsToDisplay}}.",
+        "next_payment_due": "Próximo pago vencido {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Editar",
+        "edit_payment_method_button_accessibility_label": "Editar método de pago que termina en {{lastDigits}}",
+        "loading_shop_pay": "Cargando Tienda Pagar",
+        "invalid_payment_method": "Método de pago no válido",
+        "invalid_payment_method_message": "Utilice una nueva tarjeta de crédito para seguir recibiendo próximos pedidos."
+      },
+      "title": "Métodos de pago",
+      "add_payment_method_button": "Añadir método de pago",
+      "add_payment_method_banner": "Agregue un método de pago para un pago más rápido o servicios preautorizados",
+      "no_payment_methods_banner": "No se agregaron métodos de pago",
+      "edit_payment_method_button_accessibility_label": "Editar {{paymentMethodName}} que termina en {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Editar {{paymentMethodName}}",
+      "delete_payment_method_button": "Borrar",
+      "delete_payment_method_button_accessibility_label": "Eliminar {{paymentMethodName}}",
+      "back_button": "Atrás",
+      "back_button_accessibility_label": "Volver a {{paymentMethodStepTitle}}",
+      "default": "Por defecto",
+      "generic_card": "Tarjeta",
+      "expiration_warning_button_accessibility_label": "Mostrar advertencia de vencimiento para {{paymentMethodName}} que termina en {{lastDigits}}",
+      "expires_soon": "Esta tarjeta caducará pronto",
+      "expired": "Esta tarjeta ya expiró",
+      "card_update_consent": "Este método de pago se guardará para futuras compras.",
+      "digital_wallet_title": "Billetera Digital",
+      "credit_or_debit_card_title": "Tarjeta de crédito o débito",
+      "google_pay": {
+        "loading": "Cargando Google Pay",
+        "errors": {
+          "generic": "Hubo un problema con Google Pay. Inténtalo de nuevo o utiliza un método de pago diferente.",
+          "missing_billing_address": "Google Pay requiere una dirección de facturación. Por favor agregue uno a su cuenta."
+        }
+      },
+      "apple_pay": {
+        "loading": "Cargando Apple Pay",
+        "errors": {
+          "generic": "Hubo un problema con Apple Pay. Inténtalo de nuevo o utiliza un método de pago diferente.",
+          "not_available": "Apple Pay no está disponible en este dispositivo.",
+          "missing_billing_address": "Apple Pay requiere una dirección de facturación. Por favor agregue uno a su cuenta."
+        }
       }
     },
     "errors": {
       "load_extension_error": {
-        "description": "Actualice esta página o inténtelo de nuevo en unos minutos."
-      }
+        "description": "Actualiza esta página o inténtalo nuevamente en unos minutos.",
+        "title": "Error",
+        "refresh_button": "Actualizar página"
+      },
+      "retry_action_label": "Rever"
     },
     "enable_javascript": "Para ver su cuenta, habilite JavaScript en la configuración de su navegador o inicie sesión con otro navegador.",
     "navigation_and_structure": {

@@ -613,45 +613,58 @@
       "payment": {
         "purchase_options_agreement_label_wallets": "Al continuar con su pago, usted acepta los cargos futuros que figuran en esta página y la política de cancelación.",
         "gift_card_wrapper": {
-          "apply_another_gift_card_label": "Aplicar otra tarjeta de regalo"
+          "apply_another_gift_card_label": "Aplicar otra tarjeta regalo",
+          "heading": "Tarjeta de regalo",
+          "apply_gift_card_label": "Aplicar una tarjeta de regalo",
+          "gift_card_label": "Tarjeta de regalo %{identifier}",
+          "payment_tag": "Tarjeta de regalo"
         },
         "order_edit_banner_items_returned": {
-          "in_full": "devuelto",
-          "with_quantities": "{{delta}} De {{quantity}} Regresó"
+          "in_full": "Devuelto",
+          "with_quantities": "{{delta}} de {{quantity}} devuelto"
         },
         "order_edit_banner_items_removed": {
-          "with_quantities": "{{delta}} De {{quantity}} Eliminado",
+          "with_quantities": "{{delta}} de {{quantity}} eliminado",
           "in_full": "Remoto"
         },
         "payment_method": "Método de pago",
         "use_location_shipping_address_label": "Usar la dirección de envío de la ubicación",
         "subscription_agreement_cancelled": "cancelada",
         "add_credit_card_modal": {
-          "save": "Ahorrar"
+          "save": "Ahorrar",
+          "title": "Agregar tarjeta",
+          "cancel": "Cancelar"
         },
         "edit_credit_card_modal": {
           "fields": {
             "name": "Nombre en la tarjeta",
             "billing": "Cobrar a",
             "expiry": "Fecha de caducidad",
-            "default": "Establecer por defecto"
+            "default": "Establecer por defecto",
+            "card_number": "Número de tarjeta",
+            "security_code": "Código de seguridad"
           },
-          "description": "Solo puede modificar la dirección de facturación de su tarjeta.",
-          "done": "Hecho"
+          "description": "Sólo podrás modificar la dirección de facturación de tu tarjeta.",
+          "done": "Hecho",
+          "title": "Editar tarjeta",
+          "cancel": "Cancelar"
         },
         "purchase_options_and_vaulting_agreement_label": "Uno o más artículos en su carrito son una compra diferida o de suscripción. Al continuar con su pago, acepta que su método de pago se cobrará automáticamente al precio y la frecuencia que figuran en esta página hasta que finalice o usted cancele. Todas las cancelaciones están sujetas al %{cancellation_policy_label}.",
         "order_edit_banner_items_added": {
-          "one": "Adicional",
-          "other": "%{count} Añadido"
+          "one": "Agregado",
+          "other": "%{count} agregado"
         },
         "delete_credit_card_modal": {
-          "confirmation": "¿Está seguro de que desea eliminar el {{brandName}} Terminando en {{lastDigits}} ¿?",
-          "delete": "Borrar"
+          "confirmation": "¿Está seguro de que desea eliminar el {{brandName}} que termina en {{lastDigits}}?",
+          "delete": "Borrar",
+          "title": "Eliminar tarjeta",
+          "cancel": "Cancelar"
         },
         "business_customer_vaulting_payment_label": "Guarde esta tarjeta al finalizar la compra y autorice a %{company} a cargar esta tarjeta para futuras compras en esta ubicación. Cualquier cliente asignado a esta ubicación estará autorizado a utilizar esta tarjeta.",
         "use_location_billing_address_label": "Usar dirección de facturación de ubicación",
         "saved_credit_card_actions": {
-          "delete": "Borrar"
+          "delete": "Borrar",
+          "edit": "Editar"
         },
         "expired_payment_method": "El método de pago seleccionado ha caducado",
         "subscription_agreement_label": "Reconozco que estoy aceptando una suscripción. Se renovará al precio y con la frecuencia indicados hasta que finalice o se %{cancelled}.",
@@ -723,7 +736,33 @@
         },
         "simulated_checkout": "Vista previa próximamente",
         "vaulting_agreement_label": "Guarde mi información de pago con %{company} para un pago más rápido.",
-        "purchase_options_cancellation_policy_label": "política de cancelación"
+        "purchase_options_cancellation_policy_label": "política de cancelación",
+        "use_different_credit_card_label": "Usa una tarjeta diferente",
+        "saved_credit_card": "Tu tarjeta de crédito guardada",
+        "saved_credit_card_info": "Últimos cuatro dígitos",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Ver todas las tarjetas guardadas",
+          "done": "Hecho",
+          "cancel": "Cancelar"
+        },
+        "expired_cards_info": {
+          "one": "Hay una tarjeta %{count} caducada, que puedes ver y editar en tu cuenta.",
+          "other": "Hay %{count} tarjetas vencidas, que puedes ver y editar en tu cuenta."
+        },
+        "local_payment_method_receiver_notice": "Después de realizar su pedido, recibirá los detalles de pago. Realice el pago en un cajero automático o en línea dentro de {{dueDays}} días.",
+        "order_edit_banner_title": "Es necesario el pago de {{amount_owed}}",
+        "order_edit_banner_subtitle": "Su pedido {{order_number}} fue actualizado. Revise estos cambios y luego pague para confirmar su pedido.",
+        "order_edit_banner_single_item_added": "Agregado",
+        "order_edit_banner_multiple_items_added": "{{amount}} agregado",
+        "order_edit_banner_single_item_removed": "Remoto",
+        "order_edit_banner_multiple_items_removed": "{{amount}} eliminado",
+        "order_edit_banner_single_item_returned": "Devuelto",
+        "order_edit_banner_multiple_items_returned": "{{amount}} devuelto",
+        "custom_onsite_payment_method_modal": {
+          "title": "Confirmación de pago personalizada en el sitio"
+        },
+        "markets_pro_disclaimer_label": "Al hacer clic a continuación y completar su pedido, acepta comprar su(s) artículo(s) de Global-e como comerciante registrado para esta transacción, en %{markets_pro_terms} y %{privacy_policy} de Global-e. Global-e es un proveedor de servicios de cumplimiento internacional para %{shop_name}",
+        "markets_pro_disclaimer_terms_and_conditions": "Términos y condiciones"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -822,12 +861,56 @@
         }
       },
       "field_errors": {
-        "address_zip_too_long": "El código postal es demasiado largo (el máximo es de 255 caracteres)",
-        "credit_card_month_invalid": "Introduce un mes de expiración de tarjeta válido",
+        "address_zip_too_long": "El código postal es demasiado largo (el máximo es 255 caracteres)",
+        "credit_card_month_invalid": "Introduzca un mes de vencimiento válido",
         "address_phone_invalid": "Introduce un número de teléfono válido",
-        "tips_invalid_tip_amount": "Introduce una propina no mayor que %{amount}",
-        "credit_card_year_invalid": "Introduce un año de expiración de tarjeta válido",
-        "credit_card_expiry_invalid": "Introduce una fecha de expiración de tarjeta válida"
+        "tips_invalid_tip_amount": "Introduzca una propina inferior a %{amount}",
+        "credit_card_year_invalid": "Introduzca un año de vencimiento válido",
+        "credit_card_expiry_invalid": "Introduzca una fecha de vencimiento válida",
+        "address_address2_contains_html_tags": "Dirección2 no puede contener etiquetas HTML.",
+        "address_city_blank": "Introduce una ciudad",
+        "address_city_too_long": "La ciudad es demasiado larga (el máximo es 255 caracteres)",
+        "address_city_contains_emojis": "La ciudad no puede contener emojis",
+        "address_city_contains_html_tags": "La ciudad no puede contener etiquetas HTML.",
+        "address_country_blank": "Seleccione un país\/región",
+        "address_country_not_supported": "No realizamos envíos a este país o región. Ingrese una nueva dirección de envío e inténtelo nuevamente.",
+        "address_province_blank": "Seleccione un estado\/provincia",
+        "address_company_blank": "Introduzca el nombre de una empresa",
+        "address_company_too_long": "El nombre de la empresa es demasiado largo (el máximo es 255 caracteres)",
+        "address_company_contains_emojis": "La empresa no puede contener emojis",
+        "address_company_contains_html_tags": "La empresa no puede contener etiquetas HTML.",
+        "address_phone_blank": "Introduce un número de teléfono válido",
+        "address_phone_contains_emojis": "El número de teléfono no puede contener emojis",
+        "address_zip_blank": "Ingrese un código postal",
+        "address_zip_not_supported": "Esta ubicación no es compatible.",
+        "address_zip_invalid_for_country": "Ingrese un código postal válido para %{country}",
+        "address_zip_invalid_for_province": "Ingrese un código postal válido para %{province}",
+        "address_zip_invalid_for_country_and_province": "Ingrese un código postal válido para %{province}, %{country}",
+        "address_zip_contains_emojis": "El código postal no puede contener emojis",
+        "credit_card_name_blank": "Ingrese su nombre exactamente como está escrito en su tarjeta",
+        "credit_card_name_invalid": "Ingrese su nombre exactamente como está escrito en su tarjeta",
+        "credit_card_number_invalid": "Introduzca un número de tarjeta válido",
+        "credit_card_start_invalid": "Ingrese una fecha de inicio de tarjeta válida",
+        "credit_card_start_month_invalid": "Ingrese un mes de inicio de tarjeta válido",
+        "credit_card_start_year_invalid": "Introduzca un año de inicio de tarjeta válido",
+        "credit_card_number_blank": "Introduzca un número de tarjeta",
+        "credit_card_verification_value_blank": "Introduce el CVV o código de seguridad de tu tarjeta",
+        "delivery_line_detail_changed": "Es posible que algunos detalles de entrega hayan cambiado. Verifica tu método de envío y vuelve a intentarlo.",
+        "delivery_zone_not_found": "La zona especificada no se encontró en el país especificado.",
+        "reduction_code_code_not_found": "Introduce un código de descuento o una tarjeta regalo válidos",
+        "reduction_code_discount_not_found": "Introduce un código de descuento válido",
+        "reduction_code_gift_card_code_invalid": "Introduce una tarjeta regalo válida",
+        "reduction_code_gift_card_unusable": "No puedes usar una tarjeta de regalo para comprar otra tarjeta de regalo",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Las tarjetas de regalo no son compatibles con opciones de compra diferida.",
+        "shipping_line_phone_blank": "Ingrese un número de teléfono para usar este método de entrega",
+        "shipping_line_phone_invalid": "Introduce un número de teléfono válido",
+        "gift_card_already_applied": "Esta tarjeta regalo ya se ha aplicado a tu pedido.",
+        "gift_card_disabled": "Esta tarjeta regalo ya no está disponible",
+        "gift_card_expired": "Esta tarjeta de regalo ha caducado",
+        "gift_card_depleted": "A esta tarjeta de regalo no le quedan fondos",
+        "gift_card_currency_mismatch": "Solo se pueden usar tarjetas de regalo en %{checkout_currency} con este pedido",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Las tarjetas de regalo no son compatibles con opciones de compra diferida.",
+        "gift_card_buying_gift_card": "No puedes usar una tarjeta de regalo para comprar otra tarjeta de regalo"
       },
       "billing": {
         "address_form": {

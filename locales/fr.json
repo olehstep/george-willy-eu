@@ -552,16 +552,90 @@
         "development_store_order_testing_docs_link": "tester les commandes dans les magasins de développement"
       },
       "thank_you": {
-        "order_status_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
-        "order_status_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un texto de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un e-mail de confirmation. Suivez votre commande à l'aide de l'application Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Après avoir effectué votre paiement, vous recevrez un e-mail de confirmation. Suivez votre commande à l'aide de l'application Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un SMS de confirmation. Suivez votre commande à l'aide de l'application Shop.",
         "thank_you_title_payments_app_failed_pending_payment": "Votre paiement n'a pas pu être traité",
         "failed_pending_payment_page_title": "Il y a un problème avec votre paiement",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Une fois votre paiement effectué, vous recevrez un e-mail de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
-        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Vous recevrez bientôt un email de confirmation.  Suivez votre commande à l'aide de l'application Boutique.",
-        "order_status_payments_app_failed_pending_payment": "Vous n'avez pas été facturé pour votre commande.  Retournez à votre panier pour revoir votre commande et payer à nouveau.",
-        "thank_you_payments_app_failed_pending_payment": "Vous n'avez pas été facturé pour votre commande.  Retournez à votre panier pour revoir votre commande et payer à nouveau.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Une fois votre paiement effectué, vous recevrez un texto de confirmation.  Suivez votre commande à l'aide de l'application Boutique."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Après avoir effectué votre paiement, vous recevrez un e-mail de confirmation. Suivez votre commande à l'aide de l'application Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Vous recevrez bientôt un e-mail de confirmation. Suivez votre commande à l'aide de l'application Shop.",
+        "order_status_payments_app_failed_pending_payment": "Votre commande n'a pas été facturée. Revenez à votre panier pour vérifier votre commande et payer à nouveau.",
+        "thank_you_payments_app_failed_pending_payment": "Votre commande n'a pas été facturée. Revenez à votre panier pour vérifier votre commande et payer à nouveau.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Après avoir effectué votre paiement, vous recevrez un SMS de confirmation. Suivez votre commande à l'aide de l'application Shop.",
+        "shipping_method_title": "Mode de livraison",
+        "tracking_number": "Numéro de suivi:",
+        "company_tracking_number": "%{company} numéro de suivi :",
+        "estimated_arrival": "Date de livraison estimée:",
+        "estimated_delivery": "Estimation de livraison actuelle :",
+        "re-order": "Récommander les mêmes articles",
+        "confirmed": "Confirmé",
+        "gift_card_confirmation_by_text": "Si vous ne l’avez pas reçu, renvoyez le SMS ou contactez-nous.",
+        "gift_card_confirmation_by_email": "Si vous ne l'avez pas reçu, renvoyez l'e-mail ou contactez-nous.",
+        "gift_card_title": "Cartes cadeaux",
+        "resend_gift_cards": "Renvoyer les cartes cadeaux",
+        "thank_you_title": "Votre commande est confirmée",
+        "thank_you_title_payment": "Votre paiement est confirmé",
+        "thank_you_title_review": "Votre commande a été soumise pour examen",
+        "thank_you_title_payments_app_pending_default": "Votre paiement est en cours de traitement",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Votre commande a été reçue",
+        "thank_you_confirmed_order_with_email": "Vous recevrez sous peu un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_confirmed_order_with_phone": "Vous recevrez sous peu un SMS de confirmation avec votre numéro de commande.",
+        "thank_you_confirmed_order_with_email_and_phone": "Vous recevrez sous peu un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_confirmed_order_with_email_payment": "Vous avez effectué un paiement sur votre commande %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Vous avez effectué un paiement sur votre commande %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Vous avez effectué un paiement sur votre commande %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "Vous recevrez un e-mail lorsque votre commande sera prête à être récupérée.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Vous recevrez un SMS lorsque votre commande sera prête à être récupérée.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Vous recevrez un e-mail lorsque votre commande sera prête à être récupérée.",
+        "thank_you_confirmed_order_with_missing": "Contactez-nous par email ou par téléphone pour recevoir une confirmation de commande.",
+        "thank_you_confirmed_order_with_draft": "Nous vous ferons savoir si nous avons besoin de plus d’informations ou lorsque votre commande sera confirmée.",
+        "order_status_confirmed_order_with_email": "Vous recevrez un e-mail lorsque votre commande sera prête.",
+        "order_status_confirmed_order_with_phone": "Vous pouvez recevoir un SMS lorsque votre commande est prête.",
+        "order_status_confirmed_order_with_email_and_phone": "Vous recevrez un e-mail lorsque votre commande sera prête.",
+        "order_status_confirmed_order_with_email_payment": "Vous avez effectué un paiement sur votre commande %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Vous avez effectué un paiement sur votre commande %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Vous avez effectué un paiement sur votre commande %{date}.",
+        "order_status_confirmed_order_with_email_pick_up": "Vous recevrez un e-mail lorsque votre commande sera prête à être récupérée.",
+        "order_status_confirmed_order_with_phone_pick_up": "Vous recevrez un SMS lorsque votre commande sera prête à être récupérée.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Vous recevrez un e-mail et un SMS lorsque votre commande sera prête à être récupérée.",
+        "order_status_confirmed_order_local": "Nous préparons votre commande pour la livraison.",
+        "order_status_updates_with_email": "Vous recevrez des mises à jour sur l'expédition et la livraison par e-mail.",
+        "order_status_updates_with_phone": "Vous pouvez recevoir des mises à jour sur l'expédition et la livraison par SMS.",
+        "order_status_updates_with_email_and_phone": "Vous recevrez des mises à jour sur l'expédition et la livraison par e-mail.",
+        "order_status_updates_with_missing": "Choisissez comment vous souhaitez recevoir les mises à jour d'expédition.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'e-mail que vous avez saisi existe déjà.",
+        "subscriptions_management": {
+          "title": "Abonnement",
+          "description": "Accédez à votre compte pour afficher et gérer vos abonnements.",
+          "button_label": "Gérez Votre Abonnement"
+        },
+        "manage_order_label": "Gérer votre commande",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Vous recevrez un SMS avec votre carte cadeau dans quelques minutes.",
+          "other": "Vous recevrez un SMS avec vos cartes cadeaux dans quelques minutes."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Vous recevrez un e-mail avec votre carte cadeau dans quelques minutes.",
+          "other": "Vous recevrez un e-mail avec vos cartes cadeaux dans quelques minutes."
+        },
+        "gift_card_email_title": {
+          "one": "La carte cadeau a été envoyée par email",
+          "other": "Les cartes cadeaux ont été envoyées par email"
+        },
+        "gift_card_text_title": {
+          "one": "La carte cadeau a été envoyée par SMS",
+          "other": "Les cartes cadeaux ont été envoyées par SMS"
+        },
+        "resend_gift_cards_by_email": "Ré-envoyer l'email",
+        "resend_gift_cards_by_text": "Renvoyer le message texte",
+        "gift_card_resent_confirmation": {
+          "one": "La carte cadeau a été renvoyée.",
+          "other": "Les cartes-cadeaux ont été renvoyées."
+        },
+        "gift_card_resend_failure": {
+          "one": "Un problème est survenu lors du renvoi de votre carte cadeau. Réessayez ou contactez-nous.",
+          "other": "Un problème est survenu lors du renvoi de vos cartes cadeaux. Réessayez ou contactez-nous."
+        }
       },
       "billing": {
         "address_more": "Plus d'actions pour cette adresse",
@@ -915,11 +989,32 @@
       },
       "review": {
         "blocks": {
-          "payment_method_title": "Paiement",
-          "shipping_method_title": "Méthode",
-          "review_title_free_order": "Examiner et compléter votre commande"
+          "payment_method_title": "Mode de paiement",
+          "shipping_method_title": "Mode de livraison",
+          "review_title_free_order": "Vérifiez et complétez votre commande",
+          "contact_method_title": "Contact",
+          "billing_address_title": "Facturation",
+          "shipping_address_title": "Envoyez à",
+          "change_link_label": "Changement",
+          "change_contact_method_link_label": "Modifier les coordonnées",
+          "change_billing_address_link_label": "Changer l'adresse de facturation",
+          "change_shipping_address_link_label": "Changer l'adresse de livraison",
+          "change_shipping_method_link_label": "Changer le mode d'expédition",
+          "change_payment_method_link_label": "Changer la méthode de paiement",
+          "pick_up_in_store_shipping_method_html": "Retrait en magasin · %{location_name}",
+          "purchase_order_number_title": "Numéro de bon de commande",
+          "change_purchase_order_number_label": "Changer le numéro de bon de commande",
+          "change_delivery_method_link_label": "Changer le mode de livraison",
+          "no_address": "(Pas d'adresse)",
+          "no_purchase_order_number": "(Pas de numéro de bon de commande)",
+          "due_after_order_reviewed_html": "À payer après examen de la commande",
+          "payment_method_saved_company_location": "Enregistrer la carte pour cet emplacement"
         },
-        "review_title": "Réviser la commande"
+        "review_title": "Réviser et payer",
+        "title": "Revoir",
+        "checkout_as_guest": "Commander en tant qu'invité",
+        "checkout_a_different_way": "Commander autrement",
+        "block_title": "Vérifiez vos informations"
       },
       "contact": {
         "title": "Contact",
@@ -1085,6 +1180,20 @@
         "continue_to_payment_gateway_notice_error": "Vos informations de paiement n'ont pas pu être vérifiées.",
         "continue_to_payment_gateway_button_label_error": "Mettre à jour les informations de paiement",
         "page_title": "Commande en traitement"
+      },
+      "vaulted": {
+        "change_button": "Changement"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Envoyez-moi des actualités et des offres",
+        "post_accept_marketing_checkbox_label": "Vous êtes abonné pour recevoir des actualités et des offres par email",
+        "pending_accept_marketing_checkbox_label": "Vérifiez votre messagerie pour confirmer votre abonnement aux actualités et offres",
+        "accept_sms_checkbox_label": "Envoyez-moi des nouvelles et des offres",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "politique de confidentialité"
+          }
+        }
       }
     },
     "errors": {

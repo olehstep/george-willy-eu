@@ -1046,7 +1046,75 @@
       "contact_information": "Información del contacto",
       "company": "Compañía",
       "fully_refunded_label": "REINTEGRADO",
-      "group_title_label": "Parte de: {{groupTitle}}"
+      "group_title_label": "Parte de: {{groupTitle}}",
+      "discount": "Descuento",
+      "hide_items": "Ocultar elementos",
+      "loading": "Cargando detalles del pedido",
+      "loading_finished_accessibility_message": "Se han cargado los detalles del pedido.",
+      "location": "Ubicación",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}} cantidad {{quantity}}",
+        "next": "Mostrar los siguientes elementos",
+        "previous": "Mostrar elementos anteriores"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Mostrar resumen del pedido",
+        "closed": "Ocultar resumen del pedido"
+      },
+      "no_data": "Ninguno",
+      "no_data_provided": "-",
+      "no_data_provided_accessibility_label": "{{fieldName}} está vacío",
+      "not_applicable": "N \/ A",
+      "paid_amount": "Pagado",
+      "partially_refunded_label": "REINTEGRADO PARCIALMENTE",
+      "payment": {
+        "status_in_review": "Pago vencido después de la revisión",
+        "status_unpaid": "Pago vencido el {{date}}",
+        "title": "Pago",
+        "card_payment_details": "terminando con {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "terminando con {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Pagado en cuotas con Shop Pay.",
+          "view_schedule": "Ver horario"
+        },
+        "manual_payment_methods": {
+          "money_order": "Giro postal - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Contra reembolso (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Depósito bancario - {{formattedTransactionAmount}}"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Pagado con cuotas de Shop Pay",
+        "description": "Manténgase al tanto de su calendario de pagos con recordatorios en la aplicación Shop.",
+        "payment_reminders_button": "Recibe recordatorios de pago",
+        "desktop_qr_code_content": {
+          "title": "Buscar recordatorios",
+          "description": "Recibe recordatorios de tus cuotas con Shop."
+        }
+      },
+      "refunded_amount": "Reintegrado",
+      "request_return_failed": "Hubo un problema procesando tu petición. Inténtalo de nuevo.",
+      "remaining_amount": "Restante",
+      "marketing_section_title": "Noticias y ofertas",
+      "marketing_description": "Recibirás correos electrónicos de marketing. Puedes darte de baja en cualquier momento.",
+      "marketing_checkbox_label": "Envíame un correo electrónico con noticias y ofertas.",
+      "marketing_checkmark_label": "Estás suscrito para recibir noticias y ofertas por correo electrónico.",
+      "returns": {
+        "expand_events_label": "Mostrar detalles",
+        "hide_events_label": "Ocultar detalles",
+        "ineligible_return_message": "Ningún artículo de este pedido es elegible para devolución.",
+        "ineligible_return_message_when_returned": "Ningún artículo adicional en este pedido es elegible para devolución.",
+        "print_shipping_label": "Imprimir etiqueta de envío",
+        "return_and_refund_modal_header": "Politica de reembolso",
+        "tracking_number": "El número de rastreo:"
+      },
+      "shipping": {
+        "address": "Dirección de envío",
+        "address_map_marker": "Dirección de envío",
+        "method": "Método de envío",
+        "summary": "Envío",
+        "free": "Gratis"
+      }
     },
     "B2B": {
       "draft_order_details": {
@@ -1059,6 +1127,64 @@
             "title": "Pago vencido"
           }
         }
+      },
+      "locations": {
+        "contact_email": "Correo electrónico",
+        "contact_list_title": "Gente",
+        "contact_name": "Nombre",
+        "contact_permissions": "Permisos",
+        "contact_phone_number": "Número de teléfono",
+        "location_picker_label": "Nombre del lugar",
+        "location_picker_accessibility_label": "Nombre de la ubicación: {{locationName}}",
+        "net_payment_terms_description": "{{name}}: pagos vencidos dentro de {{numberOfDays}} días",
+        "own_role_contact_name": "Tú",
+        "pagination": {
+          "load_more": "Carga más",
+          "load_more_accessibility_label": "Cargar más ubicaciones"
+        },
+        "payment_details_title": "Detalles del pago",
+        "payment_terms": "Términos de pago",
+        "permissions_label": "Tus permisos",
+        "permissions_title": "Permisos",
+        "section_title": "Ubicación",
+        "shipping_address_required": "Agregue una dirección de envío a esta ubicación para comenzar a realizar pedidos.",
+        "staff_and_permissions_title": "Personal y permisos",
+        "tax_details_title": "Detalles fiscales",
+        "tax_id": "Identificación del impuesto",
+        "tax_exemptions": "Excepciones de impuestos",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} más",
+        "multiple_tax_exemptions_and": "y",
+        "tax_exemptions_modal_close": "Cerca",
+        "taxes_none": "Ninguno",
+        "tax_exemption_not_applicable": "N \/ A",
+        "tax_exemptions_modal_button_accessibility_label": "Ver todas las exenciones de impuestos"
+      },
+      "location_selection": {
+        "continue_to_store": "continuar almacenando",
+        "description": "Si ya tiene artículos en su carrito, cambiar de ubicación puede afectar los precios y las cantidades del carrito.",
+        "list_accessibility_label": "Lista de ubicaciones",
+        "list_item_accessibility_label": "{{name}}: {{address}}",
+        "list_item_without_address_accessibility_label": "{{name}}: Sin dirección",
+        "list_loading_accessibility_message": "Cargando lista de ubicaciones",
+        "list_loading_address_accessibility_message": "Cargando dirección para {{locationName}}",
+        "list_loading_finished_accessibility_message": "Se ha cargado la lista de ubicaciones",
+        "loading_store_accessibility_message": "ir a la tienda",
+        "no_location_title": "Solo pedidos personales",
+        "no_location_description": "Ya no tienes permiso para realizar pedidos para {{company}}. Aún puedes realizar pedidos personales.",
+        "no_locations_found": "No se encontraron ubicaciones",
+        "search": "Buscar una ubicación",
+        "search_location_title": "Selecciona una ubicación",
+        "selection_cancel_button": "Cancelar",
+        "selection_confirmation_button": "Elegir la ubicación",
+        "title": "¿Para qué ubicación estás comprando?",
+        "clear_search": "Borrar búsqueda",
+        "try_new_search": "Prueba una nueva búsqueda"
+      },
+      "addresses": {
+        "add_billing_address_button": "Agregar dirección de facturación",
+        "add_billing_address_section_accessibility_label": "Agregar dirección de facturación",
+        "add_shipping_address_button": "Agregar dirección de envío",
+        "add_shipping_address_section_accessibility_label": "Agregar dirección de envío"
       }
     },
     "payment_methods": {

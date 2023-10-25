@@ -19,54 +19,54 @@
   },
   "general": {
     "404": {
-      "title": "404 - Page non trouvée",
-      "subtext_html": "Cette page n'est pas disponible. <a href=\"{{ root_url }}\">Retourner au magasinage<\/a>"
+      "title": "404 Page non trouvée",
+      "subtext_html": "Vous souhaiterez peut-être revenir à la <a href=\"{{ root_url }}\">page d'accueil<\/a> ou <a href=\"{{ search_url }}\">essayer une recherche<\/a>."
     },
     "accessibility_labels": {
       "close": "Fermer",
-      "previous": "Précédente",
-      "next": "Suivante",
-      "skip_to_content": "Passer au contenu",
-      "video_play": "Lancer la vidéo",
-      "video_stop": "Fermer la vidéo",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "skip_to_content": "Aller au contenu",
+      "video_play": "Lire la vidéo",
+      "video_stop": "Arrêter la vidéo",
       "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles",
-      "total_reviews": "total des critiques"
+      "total_reviews": "avis totaux"
     },
     "meta": {
-      "tags": "Mots clés \"{{ tags }}\"",
+      "tags": "Tagué \"{{ tags }}\"",
       "page": "Page {{ page }}"
     },
     "icon_labels": {
-      "left": "La gauche",
+      "left": "Gauche",
       "right": "Droite",
       "down": "Vers le bas",
       "close": "Fermer",
       "plus": "Plus",
       "toggle_menu": "Basculer le menu",
       "minus": "Moins",
-      "play": "Lire"
+      "play": "Jouer"
     },
     "navigation": {
       "menu_toggle_aria_label": "Basculer le menu",
-      "main_navigation_aria_label": "Navigation principale"
+      "main_navigation_aria_label": "Navigation primaire"
     },
     "quick_search": {
       "pages": "Pages",
       "no_results": "Désolé, nous n'avons trouvé aucun résultat"
     },
     "search": {
-      "title": "Effectuez une recherche",
+      "title": "Recherche",
       "results_with_count": {
-        "one": "{{ count }} résultat",
-        "other": "{{ count }} résultats"
+        "one": "Nous avons trouvé {{ count }} résultat",
+        "other": "Nous avons trouvé {{ count }} résultats"
       },
-      "no_results": "Votre recherche pour \"{{ terms }}\" n'a pas généré de résultats.",
-      "continue_reading": "Plus"
+      "no_results": "Votre recherche de \"{{ terms }}\" n'a donné aucun résultat.",
+      "continue_reading": "continuer la lecture"
     },
     "popup_section": {
       "success": "Merci de vous être inscrit!",
-      "email_placeholder": "Votre courriel",
-      "submit": "Soumettre"
+      "email_placeholder": "Votre email",
+      "submit": "S'abonner"
     },
     "country": {
       "dropdown_label": "Devise"
@@ -75,14 +75,14 @@
       "dropdown_label": "Langue"
     },
     "pagination": {
-      "previous": "Page précédente",
-      "next": "Page suivante"
+      "previous": "Précédent",
+      "next": "Suivant"
     },
     "social": {
-      "share_heading": "Partager ceci:",
-      "share_on_facebook": "Partager",
-      "share_on_twitter": "Tweeter",
-      "share_on_pinterest": "Épingler"
+      "share_heading": "Partager",
+      "share_on_facebook": "Partager sur Facebook",
+      "share_on_twitter": "Partager sur Twitter",
+      "share_on_pinterest": "Épinglez-le"
     }
   },
   "map": {
@@ -832,6 +832,15 @@
         "price_descending": "Prix, du haut au bas",
         "date_ascending": "Date, de l'ancien au nouveau",
         "date_descending": "Date, du nouveau à l'ancien"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "five_or_more_days": "Généralement prêt en 5+ jours",
+        "zero_to_two_hours": "Généralement prêt en 2 heures",
+        "two_to_four_hours": "Généralement prêt en 4 heures",
+        "immediately": "Prêt à être récupéré maintenant",
+        "next_day": "Prêt à être récupéré le lendemain"
       }
     }
   },

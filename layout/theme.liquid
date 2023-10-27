@@ -513,7 +513,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         customerMetafields: {{ customer.metafields.sufio | json }},
         cartAttributes: {{ cart.attributes | json }}
     });
-    SufioVAT.onCart({ alwaysVisible:true });
+    SufioVAT.onCart();
 </script>
 
 </body>

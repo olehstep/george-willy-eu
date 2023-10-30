@@ -148,6 +148,7 @@
     },
     "1655433418cebadf50": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/2_9cedfb25-93c4-4cec-a6c2-0c020bb4ed5e.png",
         "image_position": "center center",

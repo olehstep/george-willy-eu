@@ -504,6 +504,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   div.sufio-vat-number-input label.field__label, div.sufio-vat-email-input label.field__label { 
         display: none;
       }
+
+  div.sufio-vat-email-input.field > input, div.sufio-vat-number-input.field > input {
+    width: 20rem;  
+  }
 </style>  
 
 <script src="https://cdn.sufio.com/infoweb/scripts/vat.js"></script>
@@ -513,10 +517,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         customerMetafields: {{ customer.metafields.sufio | json }},
         cartAttributes: {{ cart.attributes | json }}
     });
-    SufioVAT.onCart(
+    SufioVAT.onCart({
       alwaysVisible: true,
       vatNumberOptional: true,
-    );
+    });
 </script>
 
 </body>

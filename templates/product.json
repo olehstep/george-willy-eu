@@ -177,6 +177,7 @@
     },
     "ea8e8282-3078-42a3-80e0-1009aaf0733e": {
       "type": "metafields_featured-collection",
+      "disabled": true,
       "settings": {
         "metafield_key": "custom.featured_collection",
         "show_vendor": false,

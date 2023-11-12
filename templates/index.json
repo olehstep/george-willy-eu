@@ -96,29 +96,16 @@
     "16547282491ee4d8ac": {
       "type": "gallery",
       "blocks": {
-        "165472824908897e33-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/kraft-paper-roll-dispenser-black.jpg",
-            "alignment": "center center",
-            "enlarge_image": true,
-            "subheading": "",
-            "title": "",
-            "button_label": "Menu Boards",
-            "link": "shopify:\/\/collections\/letter-menu-boards",
-            "text_alignment": "bottom left"
-          }
-        },
         "7fa8906b-1d11-47ac-81fa-1b885eef36e9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Standing-Sign-4_3c595b53-94d0-4263-9e6f-d99a468641ce.jpg",
+            "image": "shopify:\/\/shop_images\/a-frame-sign-741434_e6c99c5b-ac69-4196-859d-1d9cf5562616.jpg",
             "alignment": "center center",
             "enlarge_image": true,
             "subheading": "",
             "title": "",
-            "button_label": "Sidewalk Signs",
-            "link": "shopify:\/\/collections\/sidewalk-signs",
+            "button_label": "Shop Signage",
+            "link": "shopify:\/\/collections\/signage",
             "text_alignment": "bottom left"
           }
         },
@@ -137,7 +124,6 @@
         }
       },
       "block_order": [
-        "165472824908897e33-3",
         "7fa8906b-1d11-47ac-81fa-1b885eef36e9",
         "165472824908897e33-1"
       ],

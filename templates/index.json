@@ -155,6 +155,7 @@
         "7fa8906b-1d11-47ac-81fa-1b885eef36e9",
         "165472824908897e33-1"
       ],
+      "disabled": true,
       "settings": {
         "gallery_title": "",
         "grid": 2,
@@ -502,8 +503,6 @@
         "7d7e65b2-1bf8-4aca-b89e-a6c5be63aa21": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
             "html_area": ""
           }
         }

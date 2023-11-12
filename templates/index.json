@@ -101,7 +101,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/a-frame-sign-741434_e6c99c5b-ac69-4196-859d-1d9cf5562616.jpg",
             "alignment": "center center",
-            "enlarge_image": true,
+            "enlarge_image": false,
             "subheading": "",
             "title": "",
             "button_label": "Shop Signage",
@@ -114,7 +114,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Magnetic-Letter-Menu-George-and-Willy.jpg",
             "alignment": "center center",
-            "enlarge_image": true,
+            "enlarge_image": false,
             "subheading": "",
             "title": "",
             "button_label": "Shop Menu Displays",

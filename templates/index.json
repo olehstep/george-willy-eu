@@ -112,13 +112,13 @@
         "165472824908897e33-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/George-and-Willy-Round-Sign-white_402e46ee-f6ae-4904-96ee-27cdf97eafce.jpg",
+            "image": "shopify:\/\/shop_images\/Magnetic-Letter-Menu-George-and-Willy.jpg",
             "alignment": "center center",
             "enlarge_image": true,
             "subheading": "",
             "title": "",
-            "button_label": "Wall Signs",
-            "link": "shopify:\/\/collections\/wall-signage",
+            "button_label": "Shop Menu Displays",
+            "link": "shopify:\/\/collections\/letter-menu-boards",
             "text_alignment": "bottom left"
           }
         }

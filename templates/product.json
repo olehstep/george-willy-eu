@@ -26,6 +26,15 @@
             "show_in_quickbuy": false
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": true,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -45,15 +54,6 @@
             "enable_payment_button": true,
             "show_backorder_text": true,
             "show_pickup_availability": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "show_in_tab": false,
-            "open_tab": false,
-            "icon": "",
-            "show_in_quickbuy": false
           }
         },
         "67b24d17-bd77-49fb-8832-19334a00a603": {
@@ -124,9 +124,9 @@
         "price",
         "0fda3a8c-030e-4888-bc7b-dfee296a290e",
         "divider",
+        "description",
         "variant_picker",
         "buy_buttons",
-        "description",
         "67b24d17-bd77-49fb-8832-19334a00a603",
         "f33eeb2e-0ce8-4d2b-9b41-26b46c18253b",
         "5e4a89ee-b12d-44e2-9b58-12ac4823309f",

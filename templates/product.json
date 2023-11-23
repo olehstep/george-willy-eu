@@ -35,6 +35,17 @@
             "show_in_quickbuy": false
           }
         },
+        "11f8058f-89c0-4f1d-abfe-815acbb3bbf7": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>{{ product.metafields.custom.back_in_stock.value }}<\/p>",
+            "icon": "check_mark_in_circle",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#3e5843",
+            "show_in_quickbuy": false
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -118,17 +129,6 @@
             "metafield_key": "custom.related_products_title",
             "product_list": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}"
           }
-        },
-        "11f8058f-89c0-4f1d-abfe-815acbb3bbf7": {
-          "type": "richtext",
-          "settings": {
-            "richtext": "<p>{{ product.metafields.custom.back_in_stock.value }}<\/p>",
-            "icon": "",
-            "icon_size": "small",
-            "enable_box": false,
-            "box_color": "#e0f4d5",
-            "show_in_quickbuy": false
-          }
         }
       },
       "block_order": [
@@ -137,6 +137,7 @@
         "0fda3a8c-030e-4888-bc7b-dfee296a290e",
         "divider",
         "description",
+        "11f8058f-89c0-4f1d-abfe-815acbb3bbf7",
         "variant_picker",
         "buy_buttons",
         "67b24d17-bd77-49fb-8832-19334a00a603",
@@ -144,8 +145,7 @@
         "5e4a89ee-b12d-44e2-9b58-12ac4823309f",
         "574f2d4b-facf-49da-a798-4428e696b5f6",
         "8be4ade6-b8f5-4425-b082-347fd28c6415",
-        "41376d26-63b8-489d-a91b-9828ddd21a16",
-        "11f8058f-89c0-4f1d-abfe-815acbb3bbf7"
+        "41376d26-63b8-489d-a91b-9828ddd21a16"
       ],
       "settings": {
         "show_breadcrumbs": true,

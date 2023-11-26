@@ -3,8 +3,8 @@
     "65481af8-0a99-45c1-b267-1aa7221e167a": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cyber_monday_banner.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Cyber_monday_banner_Square.jpg",
+        "image": "shopify:\/\/shop_images\/New-Banner-euro.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/New-Banner-EURO-SQ.jpg",
         "image_position": "center center",
         "mobile_image_position": "center center",
         "height": "adapt",

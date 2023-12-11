@@ -26,15 +26,6 @@
             "show_in_quickbuy": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "show_in_tab": true,
-            "open_tab": false,
-            "icon": "",
-            "show_in_quickbuy": false
-          }
-        },
         "11f8058f-89c0-4f1d-abfe-815acbb3bbf7": {
           "type": "richtext",
           "settings": {
@@ -73,6 +64,15 @@
             "image": "shopify:\/\/shop_images\/Product_Description.png",
             "image_width": 700,
             "url": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
             "show_in_quickbuy": false
           }
         },
@@ -136,11 +136,11 @@
         "price",
         "0fda3a8c-030e-4888-bc7b-dfee296a290e",
         "divider",
-        "description",
         "11f8058f-89c0-4f1d-abfe-815acbb3bbf7",
         "variant_picker",
         "buy_buttons",
         "67b24d17-bd77-49fb-8832-19334a00a603",
+        "description",
         "f33eeb2e-0ce8-4d2b-9b41-26b46c18253b",
         "5e4a89ee-b12d-44e2-9b58-12ac4823309f",
         "574f2d4b-facf-49da-a798-4428e696b5f6",

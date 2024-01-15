@@ -1027,7 +1027,7 @@
     "prod_sold_out_show": false,
     "prod_pre_order_label_show": false,
     "enable_product_reviews_collection": true,
-    "swatch_enabled": false,
+    "swatch_enabled": true,
     "swatch_option_name": "Color,Colour,Couleur,Farbe,Colore,Rail Colour,Letter Colour,Board Colour,Strap Colour,Tile Colour",
     "swatch_method": "standard",
     "swatch_value_list": "White:#ffffff\nBlack:#000000\nBlue:#7897A1\nYellow:#FAD816\nPink:#EDD5DB\nSage:#97A685\nStone:#CFCFCF\nDark Grey:#3A3B3B\nPurple:#C8B6FF\nNavy:#130734\nOat:#F1E8E4\nForest:#3F5A36\nBronze:bronze.png\nGreen:green.png\nWooden:wooden.png\nAluminium:aluminium.png\nRaw:raw.png\nBrass:brass.png",

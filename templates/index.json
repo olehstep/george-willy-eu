@@ -99,7 +99,7 @@
         "7fa8906b-1d11-47ac-81fa-1b885eef36e9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a-frame-sign-741434_e6c99c5b-ac69-4196-859d-1d9cf5562616.jpg",
+            "image": "shopify:\/\/shop_images\/a-frame-sign-741434.jpg",
             "alignment": "bottom left",
             "enlarge_image": false,
             "subheading": "",
@@ -424,6 +424,9 @@
         "7d7e65b2-1bf8-4aca-b89e-a6c5be63aa21": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
             "html_area": ""
           }
         }

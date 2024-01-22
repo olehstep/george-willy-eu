@@ -17,6 +17,14 @@ This file can be re-written at any time.
   <title>
     {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
   </title>
+  <script>
+    window.Shopify = window.Shopify || {theme: {id: {{ theme.id }}, role: '{{ theme.role }}' } };
+    window._template = {
+      directory: "{{ template.directory }}",
+      name: "{{ template.name }}",
+      suffix: "{{ template.suffix }}"
+    };
+  </script>  
   <script src="https://cdn.intelligems.io/9ed69ae467d5.js"></script>
 
   {% render 'social-meta-tags' %}
